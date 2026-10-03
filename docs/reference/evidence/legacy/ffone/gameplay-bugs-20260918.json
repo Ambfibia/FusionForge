@@ -1,0 +1,76 @@
+{
+  "schema": "fusionforge.gameplay-evidence.v1",
+  "source": "primary",
+  "canonicalRole": "primary",
+  "assemblyEvidence": "work\\cases\\gameplay-bugs-20260918\\managed-evidence.json",
+  "firstPassEvidence": "work\\cases\\gameplay-bugs-20260918\\firstpass-evidence.json",
+  "managedEvidence": [
+    {
+      "path": "work/cases/gameplay-bugs-20260918/managed/cnAvatarAttack.cs",
+      "sha256": "cb44da805913623ec466a97ec658c06b2a06f5eac8d08f6c2428aa712f5f72d8",
+      "bytes": 90687
+    },
+    {
+      "path": "work/cases/gameplay-bugs-20260918/managed/cnLauncher.cs",
+      "sha256": "027757665fbb2f61eb86011c8a29ed1605852c5fde9e1bf839fa12efa3afd734",
+      "bytes": 14903
+    },
+    {
+      "path": "work/cases/gameplay-bugs-20260918/managed/cnWarHead.cs",
+      "sha256": "6bebe4f9d840bea457fb7b7ca4cf78a50cd148304d4ba3ef679274619a9b478c",
+      "bytes": 26986
+    },
+    {
+      "path": "work/cases/gameplay-bugs-20260918/managed/NpcContainer.cs",
+      "sha256": "1deabe9be18412e840b29f6f0fae955983e0a984c252410ec67086c4238f4e1c",
+      "bytes": 49623
+    },
+    {
+      "path": "work/cases/gameplay-bugs-20260918/managed/cnAvatarAnimation.cs",
+      "sha256": "7a3a3ce8a12a21d4a86be65db7701d637c336b78d394ae2d28b80226281ecebc",
+      "bytes": 52260
+    },
+    {
+      "path": "work/cases/gameplay-bugs-20260918/managed/cnVendor.cs",
+      "sha256": "787a360820b18df64dcc44a5dd83d8da8459f98fd1891a4ec6c4421de150d145",
+      "bytes": 21580
+    },
+    {
+      "path": "work/cases/gameplay-bugs-20260918/managed/cnBank.cs",
+      "sha256": "b20511589b1d5a354b19aa2f854e71ea0751890ddfa4d6e3906e133cfc4b6c01",
+      "bytes": 9352
+    },
+    {
+      "path": "work/cases/gameplay-bugs-20260918/managed/cnTrans.cs",
+      "sha256": "358afd5efedb5a9addd2d84f071002e5e433abbe6507ea9b70f279cc64553bd0",
+      "bytes": 46444
+    },
+    {
+      "path": "work/cases/gameplay-bugs-20260918/managed/cnCombiMode.cs",
+      "sha256": "4a7062d64b792226cc6b6d84bf167a21d75ce23b7e3693aa2120e1ca1b2ca90b",
+      "bytes": 32648
+    },
+    {
+      "path": "work/cases/gameplay-bugs-20260918/managed/GameFrameEpContainer.cs",
+      "sha256": "c05b19bdaf6c9cfd7300f408f79ae039b6a2e7273ceca8cb5d5077221674fb90",
+      "bytes": 5530
+    },
+    {
+      "path": "work/cases/gameplay-bugs-20260918/managed/EpTrigger.cs",
+      "sha256": "3afff4a2308b1cbee6f148e44111c97a66baa8ab2f4d6d0431e247b918a53e30",
+      "bytes": 6338
+    }
+  ],
+  "nativeContracts": {
+    "weaponCycle": "Equipment slots Hand=0 and ExtendedHand=7, not inventory slots.",
+    "warhead": "Local crash/expiry sends 20-byte rocket-style-hit header plus (id,type) pairs for both rockets and grenades. Remote visuals never send hit requests. Gravity precedes movement; grenades bounce, rockets explode on terrain/collider hits. NPC radius=max(m_iRadius,m_iHeight/2), center=root+height/2.",
+    "cannon": "Configured axes remain active while avatar walking is blocked. Jump holds oscillating power and releases launch.",
+    "damage": "DamageMotion plays woundupper immediately unless dead/dying.",
+    "farewell": "Service Exit calls CloseNpcUI with NPC m_strComment2 semantic voice owner.",
+    "rings": "Pods initialize inactive, activate for the current course, and UseRing requests collection."
+  },
+  "extensions": [
+    "Swept NPC intersections avoid tunnelling at low frame rates.",
+    "Course-local stable identities retain collection while streamed models reload."
+  ]
+}

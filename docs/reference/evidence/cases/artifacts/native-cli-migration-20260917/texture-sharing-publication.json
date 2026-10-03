@@ -1,0 +1,68 @@
+{
+  "applied": false,
+  "outputs": [
+    {
+      "beforeSha256": null,
+      "bytes": 149,
+      "matchesTarget": false,
+      "path": "characters/npcs/shared/textures/toonramp9.png",
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "beforeSha256": null,
+      "bytes": 18112,
+      "matchesTarget": false,
+      "path": "characters/shared/textures/npc_deedee_face_normal.png",
+      "sha256": "88d2bf799afcaf7df405e576f759540cdbe79b878ca16b9548b6750a1c8ff1e9"
+    },
+    {
+      "beforeSha256": "b088dd663ca5e4777f97cc04e8a36863a45a235b19f9ea44942c87aef7f6395d",
+      "bytes": 1741492,
+      "matchesTarget": false,
+      "path": "characters/mobs/npc_deedee2/npc_deedee2.glb",
+      "sha256": "b1d3f08b4744db9eaf1c161e6045d204104f4293f44a31790033e3e4a910b939"
+    },
+    {
+      "beforeSha256": "03f8cfea30ca849547568f4bd2122fb521ec0c36f28d062dc77c2fde1f55627d",
+      "bytes": 1741552,
+      "matchesTarget": false,
+      "path": "characters/npcs/npc_deedee2/npc_deedee2.glb",
+      "sha256": "980a5ffa0b98190987e4ad169f5fe54e6941abbb9702695b459271ad4b6570e5"
+    },
+    {
+      "beforeSha256": "4286b44136c62c1d79388561ae852beeae03c7abd924a85c46da472faea081d5",
+      "bytes": 4733028,
+      "matchesTarget": false,
+      "path": "characters/npcs/omniverse_albedo/npc_albedo.glb",
+      "sha256": "be189c3843a2e3311c96734f7b2a72a04102c2b5b60557337bda4b9cf48c9e9d"
+    },
+    {
+      "beforeSha256": "d269c31da1bf659a28b51822492571b3eb525088ab32665813e7d99713584597",
+      "bytes": 6979600,
+      "matchesTarget": false,
+      "path": "characters/npcs/omniverse_ben/npc_bentennyson.glb",
+      "sha256": "623b2c32a2fc22efc3798ae2741503e02093e1adb155f5fb733262fdc0524ce8"
+    },
+    {
+      "beforeSha256": "a4336b7f2eae171f615c5fce779c008279942d80089d29b9510bd5c8e331d2ff",
+      "bytes": 2731064,
+      "matchesTarget": false,
+      "path": "characters/npcs/omniverse_gwen/npc_gwen1.glb",
+      "sha256": "01682fe6c3ea3d78c98680ddb8fd45db8a92c6ff37353c0b9e882e40b924d687"
+    },
+    {
+      "beforeSha256": "24d46eafbdf172b10f0ebc26df6904fd0981804e8ba1c639015ecb3f4153bedc",
+      "bytes": 2208568,
+      "matchesTarget": false,
+      "path": "characters/npcs/omniverse_kevin/npc_kevinlevin.glb",
+      "sha256": "d7577c5d2a34404bb3810a2779ae8aa3d836c73ba020936defaddac0b4ea5220"
+    },
+    {
+      "beforeSha256": "8daec62bc2fe6cd0ca9fa66f35c921be13691d0f8b519db94ff847db2c8b96c8",
+      "bytes": 473500,
+      "matchesTarget": false,
+      "path": "characters/npcs/omniverse_max/npc_max.glb",
+      "sha256": "cdfea5d33fcf033300f5c176b84aec6531beaf66e6ee4347eb52c35dc9c8cdb1"
+    }
+  ]
+}

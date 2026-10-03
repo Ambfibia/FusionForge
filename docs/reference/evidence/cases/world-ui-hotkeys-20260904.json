@@ -1,0 +1,402 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "world-ui-hotkeys-20260904",
+  "question": "Why does P still fail to open the actual Email production mode, and which other keyboard actions bypass their clean handlers or committed mappings?",
+  "status": "closed",
+  "nativeConsumer": "ffone-client app/hotkeys.rs, Email production boundary, email_ui, world Nano authority and committed combat bindings",
+  "acceptance": [
+    "Deterministic Bevy input frames open the same windows and tabs as the clean primary managed handlers.",
+    "I/N switch tabs and request existing close arbitration; J/H toggle their windows; chat, tutorial and modal owners suppress input.",
+    "Primary and alternate keyboard/mouse bindings drive action 22 and consume only those presses.",
+    "Build the actual development binary and exercise its schedule.",
+    "P enters and leaves actual Email production mode twice for each of five mentors with production catalogs.",
+    "P preserves Compose, configured action4 closes it.",
+    "C request bytes, one-second cooldown, blocking conditions and exact authoritative reply are tested.",
+    "Committed primary/alternate mappings feed combat input and world Nano slot selection."
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        {
+          "relativeContainer": "main.unity3d",
+          "bytes": 7000415,
+          "sha256": "59788201962b6a1737b114486c361fe74eef69f507d1d125ca3171377eec602f"
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "evidenceArtifacts": [
+    {
+      "id": "managed-assembly.evidence.json",
+      "kind": "managed_assembly_evidence",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-20260613/managed-assembly.evidence.json",
+      "bytes": 1386,
+      "sha256": "c90c9e534b16f165c6dcabcf0ce9051dfa2528333373475c8a2b879928ba4a1a",
+      "producer": {
+        "tool": "fusionforge / repository-pinned FFSpy",
+        "command": "cargo run -- fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260613 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out <case>/managed-assembly.evidence.json --payload-out <case>/managed/Assembly-CSharp.dll; dotnet run --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- <case>/managed/Assembly-CSharp.dll -o <case>/decompiled -p --preserve-iterator-state-machines -r <case>/managed"
+      }
+    },
+    {
+      "id": "managed/Assembly-CSharp.dll",
+      "kind": "managed_behavior",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-20260613/managed/Assembly-CSharp.dll",
+      "bytes": 1517568,
+      "sha256": "33d6f70216b1c7ba05bcc0f270fba97e767b129159755af4c8835922e60acadb",
+      "producer": {
+        "tool": "fusionforge / repository-pinned FFSpy",
+        "command": "cargo run -- fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260613 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out <case>/managed-assembly.evidence.json --payload-out <case>/managed/Assembly-CSharp.dll; dotnet run --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- <case>/managed/Assembly-CSharp.dll -o <case>/decompiled -p --preserve-iterator-state-machines -r <case>/managed"
+      }
+    },
+    {
+      "id": "decompiled/cnGUINanocom.cs",
+      "kind": "managed_behavior",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-20260613/decompiled/cnGUINanocom.cs",
+      "bytes": 119871,
+      "sha256": "3ff98cbecc17b16fa9c50ae1d99ca1792517555a237ca7224b39bf9062c7f91e",
+      "producer": {
+        "tool": "fusionforge / repository-pinned FFSpy",
+        "command": "cargo run -- fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260613 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out <case>/managed-assembly.evidence.json --payload-out <case>/managed/Assembly-CSharp.dll; dotnet run --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- <case>/managed/Assembly-CSharp.dll -o <case>/decompiled -p --preserve-iterator-state-machines -r <case>/managed"
+      }
+    },
+    {
+      "id": "decompiled/CnEquip.cs",
+      "kind": "managed_behavior",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-20260613/decompiled/CnEquip.cs",
+      "bytes": 29106,
+      "sha256": "87a15dcdbc77c09cbff2ce280d934bb86576c70eadcc78072656aad8afebda7b",
+      "producer": {
+        "tool": "fusionforge / repository-pinned FFSpy",
+        "command": "cargo run -- fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260613 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out <case>/managed-assembly.evidence.json --payload-out <case>/managed/Assembly-CSharp.dll; dotnet run --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- <case>/managed/Assembly-CSharp.dll -o <case>/decompiled -p --preserve-iterator-state-machines -r <case>/managed"
+      }
+    },
+    {
+      "id": "decompiled/cnMissionJournal.cs",
+      "kind": "managed_behavior",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-20260613/decompiled/cnMissionJournal.cs",
+      "bytes": 107968,
+      "sha256": "91670e9372541483a26152f9d38660c696bd657bcd3a878e480e84219c1a30c6",
+      "producer": {
+        "tool": "fusionforge / repository-pinned FFSpy",
+        "command": "cargo run -- fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260613 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out <case>/managed-assembly.evidence.json --payload-out <case>/managed/Assembly-CSharp.dll; dotnet run --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- <case>/managed/Assembly-CSharp.dll -o <case>/decompiled -p --preserve-iterator-state-machines -r <case>/managed"
+      }
+    },
+    {
+      "id": "decompiled/GameFrame.cs",
+      "kind": "managed_behavior",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-20260613/decompiled/GameFrame.cs",
+      "bytes": 192409,
+      "sha256": "c1ce1cc9a8fda1e2d04bd5f8086763d6cd159947766b719835fab194f28c6bf8",
+      "producer": {
+        "tool": "fusionforge / repository-pinned FFSpy",
+        "command": "cargo run -- fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260613 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out <case>/managed-assembly.evidence.json --payload-out <case>/managed/Assembly-CSharp.dll; dotnet run --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- <case>/managed/Assembly-CSharp.dll -o <case>/decompiled -p --preserve-iterator-state-machines -r <case>/managed"
+      }
+    },
+    {
+      "id": "decompiled/cnHelpMode.cs",
+      "kind": "managed_behavior",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-20260613/decompiled/cnHelpMode.cs",
+      "bytes": 13023,
+      "sha256": "069700fd0f217c3fc247b4b2cc95a93118626fbc31299f92d0b74ae7c7aabb8a",
+      "producer": {
+        "tool": "fusionforge / repository-pinned FFSpy",
+        "command": "cargo run -- fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260613 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out <case>/managed-assembly.evidence.json --payload-out <case>/managed/Assembly-CSharp.dll; dotnet run --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- <case>/managed/Assembly-CSharp.dll -o <case>/decompiled -p --preserve-iterator-state-machines -r <case>/managed"
+      }
+    },
+    {
+      "id": "decompiled/WorldMapMode.cs",
+      "kind": "managed_behavior",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-20260613/decompiled/WorldMapMode.cs",
+      "bytes": 67800,
+      "sha256": "e64787b8e8a2d535ae55fcafbb48aeebaf8d827ce6115eda20f834042ddb90a2",
+      "producer": {
+        "tool": "fusionforge / repository-pinned FFSpy",
+        "command": "cargo run -- fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260613 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out <case>/managed-assembly.evidence.json --payload-out <case>/managed/Assembly-CSharp.dll; dotnet run --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- <case>/managed/Assembly-CSharp.dll -o <case>/decompiled -p --preserve-iterator-state-machines -r <case>/managed"
+      }
+    },
+    {
+      "id": "decompiled/Panel_EmailList.cs",
+      "kind": "managed_behavior",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-20260613/decompiled/Panel_EmailList.cs",
+      "bytes": 76716,
+      "sha256": "120f95a25a5e5785b228dfc1c197a15217eb088fb7744b6a3fa71240fc284643",
+      "producer": {
+        "tool": "fusionforge / repository-pinned FFSpy",
+        "command": "cargo run -- fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260613 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out <case>/managed-assembly.evidence.json --payload-out <case>/managed/Assembly-CSharp.dll; dotnet run --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- <case>/managed/Assembly-CSharp.dll -o <case>/decompiled -p --preserve-iterator-state-machines -r <case>/managed"
+      }
+    },
+    {
+      "id": "decompiled/EmailMode.cs",
+      "kind": "managed_behavior",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-20260613/decompiled/EmailMode.cs",
+      "bytes": 28007,
+      "sha256": "446c8979572ecd728999ad2df8186bb7f389fa7a410bff0d196b30f7f0e0fe5c",
+      "producer": {
+        "tool": "fusionforge / repository-pinned FFSpy",
+        "command": "cargo run -- fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260613 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out <case>/managed-assembly.evidence.json --payload-out <case>/managed/Assembly-CSharp.dll; dotnet run --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- <case>/managed/Assembly-CSharp.dll -o <case>/decompiled -p --preserve-iterator-state-machines -r <case>/managed"
+      }
+    },
+    {
+      "id": "decompiled/cnAvatarAttack.cs",
+      "kind": "managed_behavior",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-20260613/decompiled/cnAvatarAttack.cs",
+      "bytes": 83054,
+      "sha256": "8c65e7f33b56ed3f0d6f3de8f6a00df3b6aed5a40e2530f9f5430f6eec26c77d",
+      "producer": {
+        "tool": "fusionforge / repository-pinned FFSpy",
+        "command": "cargo run -- fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260613 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out <case>/managed-assembly.evidence.json --payload-out <case>/managed/Assembly-CSharp.dll; dotnet run --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- <case>/managed/Assembly-CSharp.dll -o <case>/decompiled -p --preserve-iterator-state-machines -r <case>/managed"
+      }
+    },
+    {
+      "id": "decompiled/cnOwnAvatarStatus.cs",
+      "kind": "managed_behavior",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-20260613/decompiled/cnOwnAvatarStatus.cs",
+      "bytes": 41058,
+      "sha256": "f100250539fe29d0430bf650b92ce9d6e45d1befb5af4fe0a876237db04e150e",
+      "producer": {
+        "tool": "fusionforge / repository-pinned FFSpy",
+        "command": "cargo run -- fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260613 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out <case>/managed-assembly.evidence.json --payload-out <case>/managed/Assembly-CSharp.dll; dotnet run --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- <case>/managed/Assembly-CSharp.dll -o <case>/decompiled -p --preserve-iterator-state-machines -r <case>/managed"
+      }
+    },
+    {
+      "id": "decompiled/GameCondition.cs",
+      "kind": "managed_behavior",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-20260613/decompiled/GameCondition.cs",
+      "bytes": 12938,
+      "sha256": "429b56c2a9d245585dc189a2f16e9cbdba5214fc307bed56c143838363d164f5",
+      "producer": {
+        "tool": "fusionforge / repository-pinned FFSpy",
+        "command": "cargo run -- fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260613 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out <case>/managed-assembly.evidence.json --payload-out <case>/managed/Assembly-CSharp.dll; dotnet run --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- <case>/managed/Assembly-CSharp.dll -o <case>/decompiled -p --preserve-iterator-state-machines -r <case>/managed"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "cnGUINanocom.Update dispatches actions 14,15,16,17,22,23,4 in exclusive priority outside tutorial and after menu sliding. OnStatus and OnNanoBook share equipment mode with different initial tabs.",
+      "state": "proven",
+      "evidence": [
+        "managed/Assembly-CSharp.dll",
+        "decompiled/cnGUINanocom.cs"
+      ],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "CnEquip.Update closes the active I/N tab through event 11/13 and switches the other tab; cnMissionJournal.Update closes on action16 and cnHelpMode.UpdateHelp on action19.",
+      "state": "proven",
+      "evidence": [
+        "decompiled/CnEquip.cs",
+        "decompiled/cnMissionJournal.cs",
+        "decompiled/cnHelpMode.cs"
+      ],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "Panel_EmailList supports GuideNpcNum [707,728,731,732,1171] and all five mentor mail columns; Computress Future (raw guide 5) must not block Email entry.",
+      "state": "proven",
+      "evidence": [
+        "decompiled/Panel_EmailList.cs"
+      ],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "EmailMode.Update reads configurable action4 for Escape and action17 only while NewEmail is disabled. Email open/close readers need deterministic native ordering.",
+      "state": "proven",
+      "evidence": [
+        "decompiled/EmailMode.cs"
+      ],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "cnAvatarAttack action13 sends CHARGE_NANO_STAMINA with the local PC ID when an active Nano and battery exist. GameCondition cooldown5 is one second, checked before battery. ReceiveNanoStaminaChange updates bank stamina and battery and plays Nano_Potion.",
+      "state": "proven",
+      "evidence": [
+        "decompiled/cnAvatarAttack.cs",
+        "decompiled/cnOwnAvatarStatus.cs",
+        "decompiled/GameCondition.cs"
+      ],
+      "rejectedBecause": null
+    }
+  ],
+  "differences": [
+    {
+      "classification": "native_regression",
+      "detail": "Native opening readers for I/N/J/P/H were absent; map input explicitly bypassed configurable mappings."
+    },
+    {
+      "classification": "compatibility_extension",
+      "detail": "Existing physical Escape remains accepted for map/journal/help; original configurable action4 defaults to backquote. Existing native panel gates and server authority remain in place."
+    },
+    {
+      "classification": "native_regression",
+      "detail": "Email guide projection accepted only selectable mentors 1..4; raw mentor5 prevented the production mode from opening even with an empty inbox."
+    },
+    {
+      "classification": "native_regression",
+      "detail": "Mail P close ignored Compose ownership, configured Escape was absent, and router/Email close ordering was unspecified."
+    },
+    {
+      "classification": "native_regression",
+      "detail": "World Nano charge key13 had no request/reply owner. Combat Fire1/Fire2/WeaponChange and world Nano1/2/3 bypassed committed option mappings."
+    }
+  ],
+  "conclusion": "The P regression is fixed at the production boundary: GuideRawMentor::ComputressFuture resolves the fifth message column and NPC1171. The native router runs before Email close input; configurable action4 closes mail, and action17 does not close Compose. Committed keyboard/mouse mappings feed combat and world Nano slot actions. Action13 now sends the clean one-second charge request; the exact reply updates owned bank stamina, equipped stamina, battery and Nano_Potion. Thirteen targeted tests pass, including repeated production Email entry/exit for every mentor, native catalog inventory projection and Future guide text. Development build and native schedule startup pass. These results cover keyboard/lifecycle/packet behavior; no full visual parity or live shard exchange is claimed.",
+  "nativeContract": {
+    "input": "Physical keys through committed InputSettings primary/alternate mappings; no localized text used as identity.",
+    "ownership": "Shortcuts precede option/map/quit and UI input. Existing typed mode actions and inventory close reducer own mutations and packet arbitration. Email routing precedes its production close reader. C sends a bounded request; bank/stamina/battery and Nano_Potion commit only on the exact authoritative reply.",
+    "localization": "No new user-visible labels, fonts or voice paths.",
+    "assets": "No binary payload or geometry changes."
+  },
+  "nativeOutputs": [
+    {
+      "path": "crates/ffone-client/src/app/hotkeys.rs",
+      "bytes": 26670,
+      "sha256": "341d04fab6374db7a212ab0fe95ded757d10cbd58db3ba4af0d08df387886f28"
+    },
+    {
+      "path": "crates/ffone-client/src/app/mod.rs",
+      "bytes": 1035581,
+      "sha256": "eeb0fff04636d53e390ee4c2f31a479e27584ce4cedef1dbf100ff8b49a5fe81"
+    },
+    {
+      "path": "crates/ffone-client/src/app/schedule.rs",
+      "bytes": 51742,
+      "sha256": "73ed745390a9bcd789a61440e71653dd512d7423ea0c2792eda137fcc22fa482"
+    },
+    {
+      "path": "crates/ffone-client/src/user_equip_ui.rs",
+      "bytes": 401247,
+      "sha256": "6097dd6b6807a6793208d6b3da308d483105270ff79c08270441ff8e1938524b"
+    },
+    {
+      "path": "crates/ffone-client/src/mission_ui.rs",
+      "bytes": 349595,
+      "sha256": "d44073f13610646642a39b826fd4d1213bf8ebf6a488a094f472f3e0488fb646"
+    },
+    {
+      "path": "crates/ffone-client/src/app/tests/world.rs",
+      "bytes": 160832,
+      "sha256": "850e143bf4df5a6517b36ab859f06467e23fffddf12679ac5a54b814edf30d86"
+    },
+    {
+      "path": "target/debug/ffone-client.exe",
+      "bytes": 205106688,
+      "sha256": "c41409e906d2d363b6cec67ad33c4555adca3c253f90e800741638716cd418bc"
+    },
+    {
+      "path": "crates/ffone-client/src/app/gameplay_ui_actions.rs",
+      "bytes": 15695,
+      "sha256": "07ecf8cb1ac48ae9739ece76492a8584e6aaabf07d510ed0f0dfbc7fa7949d41"
+    },
+    {
+      "path": "crates/ffone-client/src/app/gameplay_ui_actions/hotkey_tests.rs",
+      "bytes": 5855,
+      "sha256": "d61194be464892113ebd0165ace97a1182f65d1afd10ce618ba252b7c425ac86"
+    },
+    {
+      "path": "crates/ffone-client/src/app/gameplay_ui_actions/warp_tests.rs",
+      "bytes": 7939,
+      "sha256": "b3cb5284af1a5be8bc1ae9ec7371bccaab57bf052e99c52b89eb01e57ee6d5f9"
+    },
+    {
+      "path": "crates/ffone-client/src/app/network_ingress.rs",
+      "bytes": 118011,
+      "sha256": "33d9f93c4a52a381208185e38e936544f900111462a54e02e89f1eba1a35349f"
+    },
+    {
+      "path": "crates/ffone-client/src/email_ui.rs",
+      "bytes": 226876,
+      "sha256": "dfd9a3e4a371e1d7cc272b952d280880a8ae7e7aa887555531e408d0fc0e8614"
+    },
+    {
+      "path": "crates/ffone-client/src/nano_free_tuning_runtime.rs",
+      "bytes": 19719,
+      "sha256": "742b736be2957e31caa2a6c7a7ed1d6d08e7df2f8b81a80be72fa5f6a19036cf"
+    }
+  ],
+  "previousVerification": [
+    {
+      "check": "Raw container and exported DLL SHA-256 revalidated",
+      "result": "pass"
+    },
+    {
+      "check": "cargo check -p ffone-client --bin ffone-client",
+      "result": "pass"
+    },
+    {
+      "check": "Production EN/RU bundles: exact keys and template placeholders",
+      "result": "pass",
+      "keys": 65717
+    },
+    {
+      "check": "Development binary startup: responsive native window, no schedule panic; process stopped after probe",
+      "result": "pass",
+      "artifact": "work/projects/retrobution-ui-20260821.ffclient/reports/world-ui-hotkeys-20260904/startup-result.json"
+    },
+    {
+      "check": "cargo test -p ffone-client --bin ffone-client hotkeys -- --nocapture",
+      "result": "pass",
+      "tests": 5
+    },
+    {
+      "check": "ffone_client-c559ac50861573bd.exe --exact app::tests::world::world_map_uses_the_exact_clean_default_map_key --nocapture",
+      "result": "pass",
+      "tests": 1
+    },
+    {
+      "check": "cargo build -p ffone-client --bin ffone-client",
+      "result": "pass"
+    },
+    {
+      "check": "git diff --check (changed native input files)",
+      "result": "pass"
+    },
+    {
+      "check": "Final development binary: responsive FusionFall One native window; no schedule panic; probe process stopped",
+      "result": "pass",
+      "artifact": "work/projects/retrobution-ui-20260821.ffclient/reports/world-ui-hotkeys-20260904/final-startup-result.json"
+    }
+  ],
+  "verification": [
+    {
+      "check": "New development executable starts with a responsive FusionFall One window and zero schedule panic/cycle errors; own probe process stopped",
+      "result": "pass",
+      "artifact": "work/projects/retrobution-ui-20260821.ffclient/reports/world-ui-hotkeys-20260904/mail-regression-startup-result.json"
+    },
+    {
+      "check": "Production EN/RU exact key and placeholder parity",
+      "result": "pass",
+      "keys": 65722
+    },
+    {
+      "check": "Scoped git diff --check",
+      "result": "pass"
+    },
+    {
+      "check": "11 hotkey tests including full Email production open/close for all five mentors",
+      "result": "pass",
+      "artifact": "work/projects/retrobution-ui-20260821.ffclient/reports/world-ui-hotkeys-20260904/mail-regression-tests.log",
+      "tests": 11
+    },
+    {
+      "check": "Configured WorldMap shortcut regression",
+      "result": "pass",
+      "artifact": "work/projects/retrobution-ui-20260821.ffclient/reports/world-ui-hotkeys-20260904/mail-regression-map.log",
+      "tests": 1
+    },
+    {
+      "check": "All three native world Nano loadout shortcuts",
+      "result": "pass",
+      "artifact": "work/projects/retrobution-ui-20260821.ffclient/reports/world-ui-hotkeys-20260904/mail-regression-nano-slots.log",
+      "tests": 1
+    },
+    {
+      "check": "cargo build -p ffone-client --bin ffone-client",
+      "result": "pass",
+      "artifact": "work/projects/retrobution-ui-20260821.ffclient/reports/world-ui-hotkeys-20260904/mail-regression-build.log"
+    }
+  ],
+  "previousConclusion": "Recovered keyboard routing implemented. Six native regression tests, production EN/RU key/placeholder parity, cargo check and the real development build pass. No binary assets or geometry changed; full legacy UI and gamepad parity are outside this keyboard-routing repair."
+}

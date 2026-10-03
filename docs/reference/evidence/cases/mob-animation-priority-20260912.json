@@ -1,0 +1,305 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "mob-animation-priority-20260912",
+  "question": "Which base/high animation owns playback and end continuation when Bad Max receives attack, damage, movement and skill requests?",
+  "status": "verified",
+  "nativeConsumer": "FFOneClient entity_lifecycle / network_world_runtime",
+  "acceptance": [
+    "Production GLB Bevy scene replay at 60 Hz",
+    "Packet request ownership and production skill mapping tests",
+    "Actual development client build"
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        {
+          "schema": "fftools.managed-assembly-evidence.v1",
+          "schemaVersion": 1,
+          "source": {
+            "alias": "primary",
+            "rawContainer": {
+              "relativePath": "main.unity3d",
+              "bytes": 8221718,
+              "sha256": "01B544976B2D54355507CF30FE6DFADA2B476B92B209A3D47C1499669ED9B4EF"
+            }
+          },
+          "selection": {
+            "containerFormat": "UnityWeb",
+            "level": 0,
+            "exactEntry": "Assembly - CSharp.dll",
+            "route": "level0/Assembly - CSharp.dll"
+          },
+          "managedFormat": {
+            "peKind": "PE32",
+            "isDll": true,
+            "clrHeaderMajor": 2,
+            "clrHeaderMinor": 5,
+            "clrMetadataBytes": 595432,
+            "clrMetadataSha256": "6EE747C023C4371386A91205527D107FBD01839EF496C245E6A3A47F10BDB9D9"
+          },
+          "payload": {
+            "bytes": 1762816,
+            "sha256": "0F2513C2303CFFC88C541A90B1B8FAD1B73F60D5218830BE72D0502533BF5792",
+            "materialization": {
+              "mode": "portable-relative-output",
+              "portableRelativePath": "work/cases/mob-animation-priority-20260912/managed/Assembly-CSharp.dll"
+            }
+          },
+          "reproduction": {
+            "extractor": "ffbuildtool.unityweb.exact-entry.in-memory.v1",
+            "selector": {
+              "containerFormat": "UnityWeb",
+              "level": 0,
+              "exactEntry": "Assembly - CSharp.dll",
+              "route": "level0/Assembly - CSharp.dll"
+            },
+            "requiredRawContainerSha256": "01B544976B2D54355507CF30FE6DFADA2B476B92B209A3D47C1499669ED9B4EF"
+          }
+        },
+        {
+          "kind": "raw_container",
+          "relativePath": "TableData.resourceFile",
+          "bytes": 802929,
+          "sha256": "bd8767c2d316f60a4b38de320794701b2391d7b40412020bdc1d17e88c7b7212"
+        },
+        {
+          "kind": "raw_container",
+          "relativePath": "World_shared_part5.resourceFile",
+          "bytes": 23289685,
+          "sha256": "29b0b4c238077a36dd8f328e54ef8d9cd6bd3720a74f0a9faaa3b66c15459fb1"
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "evidenceArtifacts": [
+    {
+      "id": "NpcAnimation",
+      "kind": "hashed_managed_decompilation",
+      "path": "work/cases/mob-animation-priority-20260912/decompiled/NpcAnimation.decompiled.cs",
+      "bytes": 19860,
+      "sha256": "627fbb5eb9b87d5973c7927a02b26dd25531e6cb48600dd3698608822cc2e408",
+      "producer": {
+        "tool": "FFSpy ilspycmd",
+        "revision": "045e563f5c6c503ae21899e69bc6e36ee39ecd9a",
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/mob-animation-priority-20260912/managed/Assembly-CSharp.dll -t NpcAnimation -o work/cases/mob-animation-priority-20260912/decompiled --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "id": "NpcMoveController",
+      "kind": "hashed_managed_decompilation",
+      "path": "work/cases/mob-animation-priority-20260912/decompiled/NpcMoveController.decompiled.cs",
+      "bytes": 105565,
+      "sha256": "291c3ddfce35e4763826bf1eb5c1faa6450c00bf4e89b08108ad71a916b60af8",
+      "producer": {
+        "tool": "FFSpy ilspycmd",
+        "revision": "045e563f5c6c503ae21899e69bc6e36ee39ecd9a",
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/mob-animation-priority-20260912/managed/Assembly-CSharp.dll -t NpcMoveController -o work/cases/mob-animation-priority-20260912/decompiled --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "id": "GameFrame",
+      "kind": "hashed_managed_decompilation",
+      "path": "work/cases/mob-animation-priority-20260912/decompiled/GameFrame.decompiled.cs",
+      "bytes": 203220,
+      "sha256": "ab958e5eac4679bc726d1273878203adae3bf9251eda55d7ccf750d44564b667",
+      "producer": {
+        "tool": "FFSpy ilspycmd",
+        "revision": "045e563f5c6c503ae21899e69bc6e36ee39ecd9a",
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/mob-animation-priority-20260912/managed/Assembly-CSharp.dll -t GameFrame -o work/cases/mob-animation-priority-20260912/decompiled --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "kind": "raw_primary_export",
+      "path": "work/cases/mob-animation-priority-20260912/primary-xdt.json",
+      "bytes": 32612215,
+      "sha256": "60770dd0b851461616b9ceedcb3309714fc5c5d5e0ddc79d415c9fadab913de7"
+    },
+    {
+      "kind": "raw_primary_export",
+      "path": "work/cases/mob-animation-priority-20260912/mob-ammonia-source.json",
+      "bytes": 3194647,
+      "sha256": "0645f55ca35f09d3eb30aeed209711fe6e29193b3d777be2d91277457bf9a991"
+    },
+    {
+      "kind": "native_verification",
+      "path": "../FFOneClient/target/performance/mob-animation-20260912/verification-results.json",
+      "bytes": 1535,
+      "sha256": "3878d0ac9de4a6b879fb0d1b6d9300d072a7a9140d2bcbdfd64b0a24cea39306"
+    },
+    {
+      "kind": "native_verification",
+      "path": "../FFOneClient/target/performance/mob-animation-20260912/runtime-final/mob-animation-replay.json",
+      "bytes": 46833,
+      "sha256": "7782bf9e18816a895b2ee187844be5e4388f52ef6b43f7861897182d8df64a77"
+    },
+    {
+      "kind": "native_verification",
+      "path": "../FFOneClient/target/performance/mob-animation-20260912/runtime-final/temporal-verification.json",
+      "bytes": 1652,
+      "sha256": "17b331a54706ea29e7869cb15bca8d55c734b2a842332dbfc0d60a87f159f50c"
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "All high animations must interrupt one another and rewind on each packet",
+      "state": "rejected",
+      "evidence": [
+        "NpcAnimation"
+      ],
+      "rejectedBecause": "Distinct additive layers, Play StopSameLayer, and no-rewind behavior for an already playing state."
+    },
+    {
+      "claim": "One transient combat request can own both base and high continuation",
+      "state": "rejected",
+      "evidence": [
+        "NpcAnimation",
+        "NpcMoveController"
+      ],
+      "rejectedBecause": "Separate low/high names and current-high end guard; skills use base, melee/wound use high."
+    }
+  ],
+  "differences": [
+    {
+      "classification": "primary parity",
+      "detail": "Native state ownership, no-rewind Play semantics, movement hold, and table skill animation selection."
+    },
+    {
+      "classification": "unresolved",
+      "detail": "No synchronized Unity/Bevy visual capture; no assertion of identical random sequences or blend curves."
+    }
+  ],
+  "conclusion": "Verified primary animation ownership/no-rewind contract in native runtime: 51 network-world and 28 lifecycle tests pass; actual development client builds; 112 full-client graph samples confirm wound time continuity, independent attack/wound, missing-skill recovery and terminal death. Visual identity is primary NPC 461 / mob_ammonia. No pixel-exact Unity/Bevy parity claim.",
+  "nativeContract": "docs/legacy/ffone/mob-animation-priority-20260912.md",
+  "verification": [
+    {
+      "command": "cargo test -p ffone-client --lib network_world_runtime:: --no-default-features --config profile.dev.package.ffone-client.opt-level=0",
+      "result": "passed",
+      "passed": 51,
+      "failed": 0,
+      "includesRealBadMaxRig": true
+    },
+    {
+      "command": "target/debug/deps/ffone_client-03f164d47ec6f76b.exe entity_lifecycle::tests:: --nocapture",
+      "result": "passed",
+      "passed": 28,
+      "failed": 0,
+      "log": "lifecycle-tests.log"
+    },
+    {
+      "command": "cargo game-build --bin ffone-client",
+      "result": "passed",
+      "domainCatalogs": 4,
+      "directReferences": 43818
+    },
+    {
+      "file": "crates/ffone-client/src/entity_lifecycle.rs",
+      "bytes": 160724,
+      "sha256": "24afa81a2a6fd5520943f99639bc679b5f1472372c0c5d19897e684935b3ce13"
+    },
+    {
+      "file": "crates/ffone-client/src/network_world_runtime.rs",
+      "bytes": 297319,
+      "sha256": "57416fe399a6ce1b0568d5ac3b68a17fffdc86f164728988b875d0e1d76957f7"
+    },
+    {
+      "file": "crates/ffone-client/src/network_world_runtime/animation_tests.rs",
+      "bytes": 13689,
+      "sha256": "15553553558a76bf93701c088b89e3c9675f9790bd964f6231fe8128bc98aff0"
+    },
+    {
+      "file": "crates/ffone-client/src/app/performance_probe/mob_animation.rs",
+      "bytes": 7092,
+      "sha256": "e6261daabb93f8a8cab76c8a22de0110765bf4cae1c7bbf991eb6fab6296d540"
+    },
+    {
+      "file": "target/debug/ffone-client.exe",
+      "bytes": 217728512,
+      "sha256": "bf6f91e52e1cdcc692cb03f46839f1af6862df3d720db05eb1f39fe60e515417"
+    },
+    {
+      "kind": "full_client_temporal_replay",
+      "path": "../FFOneClient/target/performance/mob-animation-20260912/runtime-final",
+      "result": {
+        "result": "passed",
+        "samples": 112,
+        "checks": [
+          "Repeated wound preserves seek time across four hits",
+          "Melee and wound coexist",
+          "Latest high end releases attack hold",
+          "Repeated active melee preserves seek time",
+          "Missing table-selected skill1 releases into stand without substituting skill0",
+          "Death finishes and remains the only active clip"
+        ],
+        "woundSeekTimes": [
+          0.06666667014360428,
+          0.15000000596046448,
+          0.23333333432674408,
+          0.31666672229766846,
+          0.40000012516975403
+        ],
+        "captures": [
+          {
+            "file": "mob-205.png",
+            "bytes": 3072871,
+            "sha256": "f2a55508ebd538afa1cdcd592205f078efcaa1989a8df429a56737b146f8e3d9"
+          },
+          {
+            "file": "mob-305.png",
+            "bytes": 3073210,
+            "sha256": "fa98423362024cd3fbc354bd39ebcf1aba0ca65ec94c9829487ea010147149c7"
+          },
+          {
+            "file": "mob-335.png",
+            "bytes": 3065610,
+            "sha256": "2a82aa2114696b605897ba94139896728b67bd25093273a15dbab0df62513b02"
+          },
+          {
+            "file": "mob-370.png",
+            "bytes": 3067760,
+            "sha256": "9dd61dc2af907d60c9d42e186133a58a85cf9f48cd9b61748cd6b8cfc2183760"
+          },
+          {
+            "file": "mob-550.png",
+            "bytes": 3070877,
+            "sha256": "9473e3f4ee36dce6a7d4cda425174baa272e664426f4d2b4fbf31467843bedc9"
+          },
+          {
+            "file": "mob-65.png",
+            "bytes": 3071296,
+            "sha256": "ae2e807b831ffa21c554ab198e8ff8a05c6d8fc46a542458c074340b5012fc3e"
+          },
+          {
+            "file": "mob-95.png",
+            "bytes": 3068287,
+            "sha256": "bc6065c5678343f14de21b8acbf6aa70b00f3a592a6fa3e2b509c02d91e5ca84"
+          }
+        ]
+      },
+      "visualScope": "Seven native captures; inspected overlap and death poses. Tree/scenery partly occludes the model. No synchronized Unity pixel or blend-curve comparison."
+    },
+    {
+      "kind": "broader_npc_test_sweep",
+      "passed": 93,
+      "failed": 2,
+      "ignored": 1,
+      "note": "Earlier broad npc_ sweep; both failures also reproduced in the earlier optimized test executable. No animation changes in those tests.",
+      "unrelatedFailures": [
+        "gameplay_ui::tests::combat_target_localization_key_tracks_the_current_npc_type: localized capitalization Нефтяной огр / Нефтяной Огр",
+        "world_mission_indicators::tests::production_npc_rows_have_complete_native_game_icon_effect_coverage: additional effect 670"
+      ]
+    }
+  ],
+  "modelVerification": {
+    "npcType": 461,
+    "meshRow": 218,
+    "logicalName": "mob_ammonia",
+    "scale": 4.8,
+    "nativeGlbSha256": "0b39e8a2e96736ecc1e153419749381753d66a630ca50c5f610cb6f1a75a6f69",
+    "clipNamesDurationsAndEventsMatchPrimary": true,
+    "clipCount": 13,
+    "missingSkill1": "Absent in both primary model and native GLB; native recovery does not substitute skill0."
+  }
+}

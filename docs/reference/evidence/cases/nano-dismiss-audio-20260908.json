@@ -1,0 +1,118 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "nano-dismiss-audio-20260908",
+  "question": "Why does every native Nano omit farewell on recall, and how are current voice, pending voice, recall, replacement and exhaustion owned in primary?",
+  "status": "native_verified_acoustic_comparison_pending",
+  "nativeConsumer": "FFOne GameplayAudioRuntime, TutorialNanoGameplayState and LegacyNanoAnimationMachine",
+  "acceptance": [
+    "Production EN/RU catalog coverage",
+    "Deterministic wait/load/play/cancel ECS transitions",
+    "No duplicate farewell on repeat recall and no farewell on replacement/exhaustion",
+    "Real client binary build"
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        "main.unity3d level0 Assembly - CSharp.dll",
+        "main.unity3d level0 Assembly - CSharp - first pass.dll"
+      ]
+    }
+  ],
+  "candidates": [],
+  "evidenceArtifacts": [
+    {
+      "id": "assembly",
+      "kind": "strict_managed_assembly_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/nano-dismiss-20260908/assembly.evidence.json",
+      "bytes": 1339,
+      "sha256": "b51cc3d224c641dee7d2e7b408cd4cdef4bb6a1f6fe3e0cd4535a6b217cbf011",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "./fusionforge.cmd export-managed-assembly-evidence primary ../builds/retrobution-20260821 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out work/cases/nano-dismiss-20260908/assembly.evidence.json --payload-out work/cases/nano-dismiss-20260908/Assembly-CSharp.dll"
+      }
+    },
+    {
+      "id": "firstpass",
+      "kind": "strict_managed_assembly_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/nano-dismiss-20260908/firstpass.evidence.json",
+      "bytes": 1400,
+      "sha256": "b33603e832594cd6b00e5cc5e1cf9f02d35ce78d3000b7ad78c18013cae6d2b7",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "./fusionforge.cmd export-managed-assembly-evidence primary ../builds/retrobution-20260821 main.unity3d \"Assembly - CSharp - first pass.dll\" --level 0 --out work/cases/nano-dismiss-20260908/firstpass.evidence.json --payload-out work/cases/nano-dismiss-20260908/Assembly-CSharp-firstpass.dll"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "Missing model AnimationEvents cause all missing dismissal voices",
+      "state": "rejected",
+      "evidence": [
+        "assembly"
+      ],
+      "rejectedBecause": "NanoContainer.AddNano(-1) requests VOLoad before Hide; farewell is not an animation event."
+    },
+    {
+      "claim": "Farewell belongs to the disappearing Nano model",
+      "state": "rejected",
+      "evidence": [
+        "assembly",
+        "firstpass"
+      ],
+      "rejectedBecause": "Container coroutine belongs to the avatar; started VOSound objects are detached."
+    },
+    {
+      "claim": "Recall, replacement and exhaustion should all request NanDismiss",
+      "state": "rejected",
+      "evidence": [
+        "assembly"
+      ],
+      "rejectedBecause": "Only AddNano(-1) requests farewell; zero withdraws and positive replacement removes the old model directly."
+    }
+  ],
+  "differences": [
+    {
+      "classification": "conversion_artifact",
+      "description": "Native explicit dismissal omitted the container voice request and parented Nano voices to the deleted root."
+    },
+    {
+      "classification": "unresolved",
+      "description": "Five native model owners have no installed dismissal voice family: alienx, ghostfreak, holonano, runty, upgrade."
+    }
+  ],
+  "conclusion": "51 native source-module tests passed; real client library and executable compiled against existing development dependencies and --validate-assets returned status ok. In-game acoustic equivalence and absent voice payload recovery were not performed.",
+  "nativeContract": "docs/legacy/ffone/nano-audio-lifecycle-20260908.md",
+  "verification": [
+    {
+      "kind": "deterministic_native_ecs",
+      "result": "51 passed, 0 failed; EN/RU; recall/replacement/depletion/repetition; asynchronous load and detached ownership",
+      "artifact": {
+        "path": "../FFOneClient/target/performance/nano-audio/tests.log",
+        "bytes": 11102,
+        "sha256": "207e1a16be91b83f1b165ca06bb456a641d7a3d784398299fa6986576c44983a"
+      }
+    },
+    {
+      "kind": "real_client_build",
+      "result": "direct rustc opt-level=0 build of production lib.rs and main.rs using existing Cargo dependencies; only pre-existing CameraProjection unused-import warning",
+      "artifact": {
+        "path": "../FFOneClient/target/performance/nano-audio/ffone-client.exe",
+        "bytes": 257683968,
+        "sha256": "d47e644126e7592eb95ace9330423d07ccda05a8a353453df5856613e0474812"
+      }
+    },
+    {
+      "kind": "native_asset_validation",
+      "result": "status ok",
+      "artifact": {
+        "path": "../FFOneClient/target/performance/nano-audio/validate.log",
+        "bytes": 584,
+        "sha256": "c7745d71df5b1240aca7d8ec601f2b8af2a4d8482e200fdb3165a59bed31ee3d"
+      }
+    }
+  ]
+}

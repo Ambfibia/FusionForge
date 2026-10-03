@@ -1,0 +1,887 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "personal-vehicles-primary-20260910",
+  "status": "accepted",
+  "supersedes": [
+    "hnpc-idle-primary-20260908"
+  ],
+  "supersessionScope": [
+    "characters/player/male/base/male_skeleton.glb",
+    "characters/player/female/base/female_skeleton.glb"
+  ],
+  "target": {
+    "alias": "FFOneClient"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "CharacterSelection.resourceFile",
+    "containerBytes": 16737641,
+    "containerSha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "Animation",
+        "pathId": 234214,
+        "name": ""
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34270,
+        "name": "board_jumplandrun"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34463,
+        "name": "scooter_jumplandrun"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34488,
+        "name": "scooter_jumpstart"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34455,
+        "name": "scooter_run"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34528,
+        "name": "scooter_runback"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34545,
+        "name": "scooter_stand1"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34459,
+        "name": "scooter_jump"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34608,
+        "name": "scooter_jumpend"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34407,
+        "name": "board_jump"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34421,
+        "name": "board_jumpend"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34379,
+        "name": "board_jumpstart"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34395,
+        "name": "board_run"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34403,
+        "name": "board_runback"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34239,
+        "name": "board_stand1"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "Animation",
+        "pathId": 234274,
+        "name": ""
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34574,
+        "name": "board_jump"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34564,
+        "name": "board_jumpend"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34553,
+        "name": "board_jumplandrun"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34600,
+        "name": "board_jumpstart"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34591,
+        "name": "board_run"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34581,
+        "name": "board_runback"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34291,
+        "name": "board_stand1"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34277,
+        "name": "scooter_jump"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34222,
+        "name": "scooter_jumpend"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34392,
+        "name": "scooter_jumplandrun"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34429,
+        "name": "scooter_jumpstart"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34409,
+        "name": "scooter_run"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34339,
+        "name": "scooter_runback"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34420,
+        "name": "scooter_stand1"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "Animation",
+        "pathId": 234214,
+        "name": ""
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34434,
+        "name": "scooter_turnleft"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34389,
+        "name": "scooter_turnright"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "Animation",
+        "pathId": 234274,
+        "name": ""
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34447,
+        "name": "scooter_turnleft"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34456,
+        "name": "scooter_turnright"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "native-animation-append-and-semantic-routes",
+    "tool": [
+      "tools/native/publish-hnpc-idle-clips.py",
+      "tools/native/publish-personal-vehicle-routes.py",
+      "crates/ffone-asset-pipeline/src/player_shared_rig_publish.rs"
+    ],
+    "toolRevision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/native/publish-hnpc-idle-clips.py --source-root ../builds/retrobution-20260821 --navigation-dump work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/CharacterSelection.objects.json --target-root ../FFOneClient/assets/game --work work/cases/personal-vehicles-20260910 --clips board_stand1 board_run board_runback board_jumpstart board_jump board_jumpend board_jumplandrun scooter_stand1 scooter_run scooter_runback scooter_jumpstart scooter_jump scooter_jumpend scooter_jumplandrun --semantic-catalog characters/player/shared/vehicle_animations.json --apply",
+      "python tools/native/publish-hnpc-idle-clips.py --source-root ../builds/retrobution-20260821 --navigation-dump work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/CharacterSelection.objects.json --target-root ../FFOneClient/assets/game --work work/cases/personal-vehicles-20260910/turns --clips scooter_turnleft scooter_turnright --apply",
+      "python tools/native/publish-personal-vehicle-routes.py --target-root ../FFOneClient/assets/game --work work/cases/personal-vehicles-20260910/routes --apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/cases/personal-vehicles-20260910/male-owner.evidence.json",
+      "bytes": 89478,
+      "sha256": "33d05a06cfd89d6f243b929668f5c3be467771ca719320156f680793f6496201",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/male-board_jumplandrun.evidence.json",
+      "bytes": 154829,
+      "sha256": "dc4280edcdfa717a3b913e63730aca396fe1fc67df34cb872e0b7688887d72d2",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/male-scooter_jumplandrun.evidence.json",
+      "bytes": 143165,
+      "sha256": "a90608f17bf6dbca107c9a184c96ebaf41bbdc5333466ded26cf433ee663a695",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/male-scooter_jumpstart.evidence.json",
+      "bytes": 170378,
+      "sha256": "aa43d8986d41832443914c432038230e6255394f520f07ec4ef832eee4fdecfa",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/male-scooter_run.evidence.json",
+      "bytes": 150179,
+      "sha256": "df4e33e814b56ac8035d198be6449e5eed40ad09e4bca514b03a00960cd7a196",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/male-scooter_runback.evidence.json",
+      "bytes": 167217,
+      "sha256": "2c6f7681260ef5475143a6127907ec1cf11a80def0db23456ce3d1f6396a30d6",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/male-scooter_stand1.evidence.json",
+      "bytes": 135085,
+      "sha256": "8813affe93fbb99caba8736acf6a45e4b0781fa405bb0d7f0bcd53b5a83e4d03",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/male-scooter_jump.evidence.json",
+      "bytes": 136583,
+      "sha256": "d4f6de2d942c339a4180d0fbf79087d4a3ff4921643b0927935ea4f7c59b2441",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/male-scooter_jumpend.evidence.json",
+      "bytes": 143308,
+      "sha256": "4e7c20ffb5ae649d1b91c308dbb860bc3d83bf69a27cfd677911c2130fffff5d",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/male-board_jump.evidence.json",
+      "bytes": 140093,
+      "sha256": "89cc6f26f5838169135046f5f4dd92dadbadf518536ae2b6f87dea8a0e745a78",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/male-board_jumpend.evidence.json",
+      "bytes": 154972,
+      "sha256": "2a02569657c92a49518132c3bdb17fdc807edf7073955fc29e3560b0ef3ad3ee",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/male-board_jumpstart.evidence.json",
+      "bytes": 153642,
+      "sha256": "6c9ba68166fcde5b2e6dd5f38fdd6847338b8fd6d656d159ca7b52fecfb73d53",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/male-board_run.evidence.json",
+      "bytes": 151228,
+      "sha256": "f9fde00266d7bcf1dd6fccfb0a787de688c019e7dc661449cd048a69a447abbf",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/male-board_runback.evidence.json",
+      "bytes": 140562,
+      "sha256": "06a0565a186c1e0d2203cd3df6702efa69427d80a6be9feaa62919bab7d7954b",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/male-board_stand1.evidence.json",
+      "bytes": 140654,
+      "sha256": "2274ddb7904d3e24578db23f65151ba3a710c22eed40cab47fc99731dfdd3646",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/female-owner.evidence.json",
+      "bytes": 89100,
+      "sha256": "366dc215bc86d8a20dcd128b05501fb99dee5a75d39bee7d8501556ef26c32d9",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/female-board_jump.evidence.json",
+      "bytes": 155750,
+      "sha256": "1dbd1d1a1a16328a2ec65935068755798f8400f6cab95cff4d7e57a6afb22ee5",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/female-board_jumpend.evidence.json",
+      "bytes": 169619,
+      "sha256": "bd33707057d9de11a92ecb42cd402c89c29d978623ab492af10fdb9fa6cecb9d",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/female-board_jumplandrun.evidence.json",
+      "bytes": 169476,
+      "sha256": "d64f938adad6844a5ebc709354cbb3a98dc8646c3ae98b7df7a8be06511164a2",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/female-board_jumpstart.evidence.json",
+      "bytes": 169128,
+      "sha256": "6a998e4d49aa3c0fbeec27f2ed124bdeed043e76d23b13e170ac594f1d33f88b",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/female-board_run.evidence.json",
+      "bytes": 166085,
+      "sha256": "b4581d2d46ca8904eaf03f62daef761a92e6f65633d5459b457a9533c94b3bcd",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/female-board_runback.evidence.json",
+      "bytes": 155421,
+      "sha256": "e364047961c229a358955fee79c4f8976575236cd2d1766471af5f58c594effe",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/female-board_stand1.evidence.json",
+      "bytes": 154527,
+      "sha256": "7a077273f02beeeadc34ffe676dd4d7f7b2a4addbbf38bbf3c6a55dbe2412f9c",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/female-scooter_jump.evidence.json",
+      "bytes": 177006,
+      "sha256": "3c71f6d9d56421ef9aba0c483ff49822b74a62e9a67469cff4457f4fec8c08ee",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/female-scooter_jumpend.evidence.json",
+      "bytes": 154830,
+      "sha256": "7f99c388ddc963387311c068d861ba395ad70000f9b746cc9527a2af3730918f",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/female-scooter_jumplandrun.evidence.json",
+      "bytes": 154687,
+      "sha256": "9886e7470ff9ab08b7f11761698b8192c49721d4424ff208c5b8080cdb61b42f",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/female-scooter_jumpstart.evidence.json",
+      "bytes": 186080,
+      "sha256": "60619e7d8e81f6144a3ac2ab76b2278c35cbbafc6ce8b08e0b1065e16768c8dc",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/female-scooter_run.evidence.json",
+      "bytes": 165147,
+      "sha256": "c68c693309bba6ca58a3aa236757d5f44792f1281d99c3de7ad9353bd4ed72da",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/female-scooter_runback.evidence.json",
+      "bytes": 152794,
+      "sha256": "30658d08b434557867a792dcb5dbdeaae6bc6ecdfd25e1da0064e9baae80eb5e",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/female-scooter_stand1.evidence.json",
+      "bytes": 150105,
+      "sha256": "5d2817f7aed40edcaaaceb37ee4f8d824b0bb791d7c3f4a903a1267315af946c",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/turns/male-owner.evidence.json",
+      "bytes": 89478,
+      "sha256": "33d05a06cfd89d6f243b929668f5c3be467771ca719320156f680793f6496201",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/turns/male-scooter_turnleft.evidence.json",
+      "bytes": 133560,
+      "sha256": "c5c9b3d4535b95c721b6ebdc1399adc8fb4acfcaacf622b1f30a5d3fc84f9197",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/turns/male-scooter_turnright.evidence.json",
+      "bytes": 133558,
+      "sha256": "80459893ef6673bcc900d5c4cbe29df3f5626b09f4f063cc966b61afcebdccbe",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/turns/female-owner.evidence.json",
+      "bytes": 89100,
+      "sha256": "366dc215bc86d8a20dcd128b05501fb99dee5a75d39bee7d8501556ef26c32d9",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/turns/female-scooter_turnleft.evidence.json",
+      "bytes": 147637,
+      "sha256": "eb413ee7746ec6d24f322b8e4741d4738c72ea0afb2f1d902ae96cd9423d008c",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/turns/female-scooter_turnright.evidence.json",
+      "bytes": 147635,
+      "sha256": "97a24cba29705dc9d1727a866b59a3dfb2959f82ab7b630ef02e70cd4d1093ca",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "tools/native/publish-hnpc-idle-clips.py",
+      "bytes": 8981,
+      "sha256": "141f5e412731908f39fa78acf657f1740677db93508639ee62eeefd4754b4c1d"
+    },
+    {
+      "path": "tools/native/publish-personal-vehicle-routes.py",
+      "bytes": 3763,
+      "sha256": "cc247857c21670aba6dcdb9ff424704107cedcdbb4060a587b574c8a4b1c70b8"
+    },
+    {
+      "path": "crates/ffone-asset-pipeline/src/player_shared_rig_publish.rs",
+      "bytes": 160648,
+      "sha256": "ce7b8b043020ed02a65ac353190b18c99fac11c2d85e13da0ff8eda153d870b0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "characters/player/male/base/male_skeleton.glb",
+      "bytes": 19123316,
+      "sha256": "c1d4236e0e17acde4571411c377d0edda2ad5d4adafb00f273c2ab03a325d7f6",
+      "preserved": {
+        "bytes": 18969008,
+        "sha256": "c5b4e5d0fe38342e21c6676c83e554453c06b6815ee8e24373b81b9dbc6e1bf4"
+      },
+      "addedClips": [
+        "scooter_turnleft",
+        "scooter_turnright"
+      ]
+    },
+    {
+      "path": "characters/player/female/base/female_skeleton.glb",
+      "bytes": 23092124,
+      "sha256": "98c09ef1bf97538bd4b236301bae00cb4112f57d960f5f70fe099ae39db4989d",
+      "preserved": {
+        "bytes": 22917508,
+        "sha256": "35152d23e580a6247fb9a7ce5130709752f8796e0c3c0bbec47260eec528e2ca"
+      },
+      "addedClips": [
+        "scooter_turnleft",
+        "scooter_turnright"
+      ]
+    },
+    {
+      "path": "characters/player/shared/vehicles.json",
+      "sha256": "08f92b19a43db3382be24cd609eccaf2d598053de7a6d747c20dd3420782df76",
+      "bytes": 32976
+    },
+    {
+      "path": "characters/player/shared/vehicle_animations.json",
+      "bytes": 6086,
+      "sha256": "097e8c62c52f37daa8c7770c2105f9a7eb8689d9b64d07b06226d3c5c905970c"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "unresolved": [
+    {
+      "itemId": 139,
+      "modelName": "vehicle_jetbike",
+      "textureName": "vehicle_megasxlrjetbike",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 140,
+      "modelName": "vehicle_hovercarB",
+      "textureName": "vehicle_generatorrexhovercar",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 142,
+      "modelName": "vehicle_jetbike",
+      "textureName": "vehicle_mechomorphjetbike",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 143,
+      "modelName": "vehicle_hoverboard",
+      "textureName": "vehicle_mecomorphhoverboard",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 144,
+      "modelName": "vehicle_hoverboard",
+      "textureName": "vehicle_generatorrexhoverboard",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 145,
+      "modelName": "vehicle_jetbike",
+      "textureName": "vehicle_generatorrexjetbike",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 146,
+      "modelName": "vehicle_glider",
+      "textureName": "vehicle_generatorrexglider",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 147,
+      "modelName": "vehicle_glider",
+      "textureName": "vehicle_underworldglider",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 148,
+      "modelName": "vehicle_cloud",
+      "textureName": "vehicle_magiccloud",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 149,
+      "modelName": "vehicle_hoverboard",
+      "textureName": "vehicle_majorgloryhoverboard",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 150,
+      "modelName": "vehicle_hovercarB",
+      "textureName": "vehicle_dynamobluehovercar",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 151,
+      "modelName": "vehicle_hovercarB",
+      "textureName": "vehicle_dynamogreenhovercar",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 152,
+      "modelName": "vehicle_hovercarB",
+      "textureName": "vehicle_dynamoredhovercar",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 153,
+      "modelName": "vehicle_hovercarB",
+      "textureName": "vehicle_morbucksgoldenhovercar",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 154,
+      "modelName": "vehicle_hovercarA",
+      "textureName": "vehicle_underworldhovercar",
+      "models": 2,
+      "textures": 0
+    },
+    {
+      "itemId": 155,
+      "modelName": "vehicle_hovercarC",
+      "textureName": "vehicle_marcelineshovercar",
+      "models": 2,
+      "textures": 0
+    },
+    {
+      "itemId": 156,
+      "modelName": "vehicle_glider",
+      "textureName": "vehicle_corusglider",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 157,
+      "modelName": "vehicle_jetbike",
+      "textureName": "vehicle_manusjetbike",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 158,
+      "modelName": "vehicle_hoverboard",
+      "textureName": "vehicle_octushoverboard",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 159,
+      "modelName": "vehicle_hovercarC",
+      "textureName": "vehicle_symbionichovercar",
+      "models": 2,
+      "textures": 0
+    },
+    {
+      "itemId": 160,
+      "modelName": "vehicle_hoverboard",
+      "textureName": "vehicle_viridianhoverboard",
+      "models": 1,
+      "textures": 0
+    },
+    {
+      "itemId": 161,
+      "modelName": "vehicle_jetbike",
+      "textureName": "vehicle_johnnytest",
+      "models": 1,
+      "textures": 0
+    }
+  ],
+  "verification": [
+    {
+      "command": "Replay both clip publications to Editor staging; compare all output hashes",
+      "result": "passed",
+      "evidence": [
+        "work/cases/personal-vehicles-20260910/publication.json",
+        "work/cases/personal-vehicles-20260910/turns/publication.json"
+      ]
+    },
+    {
+      "command": "../FFOneClient/target/personal-vehicles/build/personal_vehicle_tests-vehicle-tests.exe",
+      "result": "passed",
+      "evidence": "Production catalogs and GLB animation/channel/additive-pose assertions; completed 2026-09-10"
+    },
+    {
+      "command": "cargo build -p ffone-client --bin ffone-client --example tutorial_player_rig_gpu_preview --locked",
+      "result": "passed",
+      "evidence": "Completed 2026-09-10; full-client offline fixture target/performance/personal-vehicle-107/vehicle.json"
+    },
+    {
+      "command": "tutorial_player_rig_gpu_preview assets/game OUTPUT 2 1 1 vehicle-board male; repeat board/female and scooter/both genders",
+      "result": "passed",
+      "evidence": "work/cases/personal-vehicles-20260910 GPU captures and logs"
+    }
+  ]
+}

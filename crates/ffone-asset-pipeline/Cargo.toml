@@ -1,0 +1,29 @@
+[package]
+autobins = false
+name = "ffone-asset-pipeline"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+description = "FusionForge-owned offline importer and publisher for FFOne native assets"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+base64 = "0.22"
+blake3 = "1.8"
+ffone-content = { path = "../ffone-content" }
+ffone-protocol = { path = "../../../FFOneClient/crates/ffone-protocol" }
+ffone-runtime-contracts = { path = "../../../FFOneClient/crates/ffone-runtime-contracts" }
+ffone-skinned-model = { path = "../../../FFOneClient/crates/ffone-skinned-model" }
+glam = "0.30"
+image = { version = "0.25.10", default-features = false, features = ["png"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip", "raw_value"] }
+sha2 = "0.10"
+thiserror = "2"
+unicode-normalization = "0.1"
+
+[dev-dependencies]
+tempfile = "3"
+
+[lints.rust]
+unsafe_code = "forbid"

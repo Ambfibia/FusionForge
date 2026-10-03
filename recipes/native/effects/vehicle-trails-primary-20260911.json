@@ -1,0 +1,621 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "vehicle-trails-primary-20260911",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "FFOneClient"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "Effects.resourceFile",
+    "containerBytes": 8130528,
+    "containerSha256": "2aa08e85b7aefa8f7e22705ee2f1581befa83cc5708b32116ce8a46a273595e9",
+    "objects": [
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Texture2D",
+        "pathId": 110,
+        "fileId": 0,
+        "trueName": "tail"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Texture2D",
+        "pathId": 253,
+        "fileId": 0,
+        "trueName": "vehicle_board_c"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Texture2D",
+        "pathId": 415,
+        "fileId": 0,
+        "trueName": "green_light_02.dds"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Texture2D",
+        "pathId": 565,
+        "fileId": 0,
+        "trueName": "vehicle_board"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Mesh",
+        "pathId": 1806,
+        "fileId": 0,
+        "trueName": "Editable Poly"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "AnimationClip",
+        "pathId": 2094,
+        "fileId": 0,
+        "trueName": "nif-default"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Material",
+        "pathId": 2871,
+        "fileId": 0,
+        "trueName": "vehicle_board_c.dds One One_zwriteOff_cullOff"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Material",
+        "pathId": 3054,
+        "fileId": 0,
+        "trueName": "vehicle_board.dds One One_zwriteOff_cullOff"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Material",
+        "pathId": 3068,
+        "fileId": 0,
+        "trueName": "green_light_02"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Material",
+        "pathId": 3150,
+        "fileId": 0,
+        "trueName": "tail.dds One One_zwriteOff_cullOff"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MonoScript",
+        "pathId": 3178,
+        "fileId": 0,
+        "trueName": "ParticleTrailController"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Transform",
+        "pathId": 3726,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Transform",
+        "pathId": 3727,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Transform",
+        "pathId": 3729,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Transform",
+        "pathId": 3731,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Transform",
+        "pathId": 3732,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Transform",
+        "pathId": 3785,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Transform",
+        "pathId": 3787,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Transform",
+        "pathId": 3789,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Transform",
+        "pathId": 3790,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 8671,
+        "fileId": 0,
+        "trueName": "Editable Poly"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 8813,
+        "fileId": 0,
+        "trueName": "tail1"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 8814,
+        "fileId": 0,
+        "trueName": "Plane01_BillboardCamera"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 8879,
+        "fileId": 0,
+        "trueName": "ES[835]"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 9485,
+        "fileId": 0,
+        "trueName": "ES[836]"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 9853,
+        "fileId": 0,
+        "trueName": "ES[15]"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 11216,
+        "fileId": 0,
+        "trueName": "PS[93]"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 11231,
+        "fileId": 0,
+        "trueName": "PS[760]"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 11493,
+        "fileId": 0,
+        "trueName": "PS[759]"
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "Animation",
+        "pathId": 13946,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MonoBehaviour",
+        "pathId": 14284,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MonoBehaviour",
+        "pathId": 14380,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MonoBehaviour",
+        "pathId": 15128,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MonoBehaviour",
+        "pathId": 17054,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MeshFilter",
+        "pathId": 17055,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MeshRenderer",
+        "pathId": 17056,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MonoBehaviour",
+        "pathId": 17057,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MonoBehaviour",
+        "pathId": 17251,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MeshFilter",
+        "pathId": 17252,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MeshRenderer",
+        "pathId": 17253,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MonoBehaviour",
+        "pathId": 17254,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MonoBehaviour",
+        "pathId": 17325,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MeshFilter",
+        "pathId": 17326,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MeshRenderer",
+        "pathId": 17327,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MonoBehaviour",
+        "pathId": 17328,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MonoBehaviour",
+        "pathId": 17856,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MeshFilter",
+        "pathId": 17939,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MeshRenderer",
+        "pathId": 17940,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Effects.resourceFile",
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "MonoBehaviour",
+        "pathId": 17941,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Tutorial.resourceFile",
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "Shader",
+        "pathId": 1609,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Tutorial.resourceFile",
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "Shader",
+        "pathId": 1624,
+        "fileId": 0,
+        "trueName": ""
+      },
+      {
+        "relativeContainer": "Tutorial.resourceFile",
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "MonoScript",
+        "pathId": 1906,
+        "fileId": 0,
+        "trueName": "VisibleSwitch"
+      },
+      {
+        "relativeContainer": "Tutorial.resourceFile",
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "MonoScript",
+        "pathId": 1913,
+        "fileId": 0,
+        "trueName": "BillboardNode"
+      },
+      {
+        "relativeContainer": "Tutorial.resourceFile",
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "MonoScript",
+        "pathId": 1914,
+        "fileId": 0,
+        "trueName": "EffectEmitterController"
+      },
+      {
+        "relativeContainer": "Tutorial.resourceFile",
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "MonoScript",
+        "pathId": 1915,
+        "fileId": 0,
+        "trueName": "ParticleEmitterController"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "alias": "primary",
+      "container": "Effects.resourceFile",
+      "bytes": 8130528,
+      "sha256": "2aa08e85b7aefa8f7e22705ee2f1581befa83cc5708b32116ce8a46a273595e9"
+    },
+    {
+      "alias": "primary",
+      "container": "Tutorial.resourceFile",
+      "bytes": 33327638,
+      "sha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916"
+    }
+  ],
+  "transform": {
+    "kind": "native-trail-contract-and-exact-textures",
+    "tool": "tools/native/publish-vehicle-trails.py",
+    "toolRevision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/native/publish-vehicle-trails.py --source-root ../builds/retrobution-20260821 --navigation work/projects/retrobution-ui-20260821.ffclient/cache/bundle-index.json --work work/cases/vehicle-trails-FRESH --target-root ../FFOneClient/assets/game"
+    ],
+    "requiresFreshWorkDirectory": true
+  },
+  "inputs": [
+    {
+      "path": "tools/native/publish-vehicle-trails.py",
+      "bytes": 7962,
+      "sha256": "08566855f906d9b3f2c8aacad22a2c3ce8b06ae7cf6276137a662ea4045c46b2"
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/managed/firstpass.evidence.json",
+      "bytes": 1413,
+      "sha256": "9e88d65209bc63e3bedd5dc601a286d1cab41febde6b9ff9fa6eadad520507a5"
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/managed/EffectEmitterController.decompiled.cs",
+      "bytes": 12098,
+      "sha256": "20c5599515bed98370df24af0a544f09b4ec99f79fb91c7cc205a1b178fe8df6"
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/managed/ParticleTrailController.decompiled.cs",
+      "bytes": 11407,
+      "sha256": "31d84bd78a11b31790bd74a0cd8580f7bda050e1184172adbad00cffc65f64a7"
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/trails-replay/controller.evidence.json",
+      "bytes": 8477,
+      "sha256": "fe6102f4aa55e4d75c5cd872b5b8ccb6965967468b23d681c325a53a532087e1"
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/trails-replay/standard.evidence.json",
+      "bytes": 2039,
+      "sha256": "6d3b2d2f289d8e959af80995cf1422500a588cd116a4a737024fe1640e067708"
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/trails-replay/board.evidence.json",
+      "bytes": 2041,
+      "sha256": "b6be52dfe0627afbae010d4e19d1085c7a74a33346bade0a2f35712f630c3350"
+    },
+    {
+      "path": "work/cases/personal-vehicles-20260910/trails-replay/cloud.evidence.json",
+      "bytes": 2041,
+      "sha256": "6079250d4b0ca6a7bcb4c0b2fd046b89fd63bb3365b4394469f6b14d12fb0ad2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "effects/vehicles/catalog.json",
+      "bytes": 1174,
+      "sha256": "ac774e9843ec6da2ca3b5e33e8d18c30133b46318009f1e4cecda983d518f797"
+    },
+    {
+      "path": "effects/vehicles/textures/board.png",
+      "bytes": 2890,
+      "sha256": "13376abc51c4e2b7a59f2e67044a8562829c1872fe5da1c41ca8f5e07b08e561"
+    },
+    {
+      "path": "effects/vehicles/textures/cloud.png",
+      "bytes": 4162,
+      "sha256": "ec3049f1dca1a7b9e6e3350c5d0b7b2834d82d86b7af7c009245351433cd9a2e"
+    },
+    {
+      "path": "effects/vehicles/textures/standard.png",
+      "bytes": 5308,
+      "sha256": "53bb2420656647f68aa3feb1ed675298dc2c85cdafe2e74ae47ae30a9bd74fe6"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "Replay the publisher in two fresh Editor work directories and compare output sizes/SHA-256",
+      "result": "passed",
+      "evidence": [
+        "work/cases/personal-vehicles-20260910/trails/publication.json",
+        "work/cases/personal-vehicles-20260910/trails-replay/publication.json"
+      ]
+    },
+    {
+      "command": "cargo test -p ffone-client --lib vehicle --locked (FFOneClient)",
+      "result": "passed: 14 tests",
+      "evidence": "../FFOneClient/target/personal-vehicles/fixes-tests.log"
+    },
+    {
+      "command": "vehicle_preview-vehicle-preview.exe assets/game OUTPUT.png 2 1 1 vehicle-board male; vehicle-scooter female; FFONE_VEHICLE_PREVIEW_ITEM=7 vehicle-board female",
+      "result": "passed: all three trail variants visible, socket attachment and dismount cleanup assertions passed",
+      "evidence": [
+        {
+          "path": "work/cases/personal-vehicles-20260910/board-trail-male.png",
+          "bytes": 77766,
+          "sha256": "5f52952822f4dcd63903b30a4444335cea9e6f788bd2ab6f51f35e2d9ebc9714"
+        },
+        {
+          "path": "work/cases/personal-vehicles-20260910/scooter-trail-female.png",
+          "bytes": 100913,
+          "sha256": "e22c0f649f58c7c1d8e736c123d8762eff83b6e97103b10b3b9fadde0add5a5b"
+        },
+        {
+          "path": "work/cases/personal-vehicles-20260910/cloud-trail-female.png",
+          "bytes": 86195,
+          "sha256": "bc0b4b7a575869be7b002b139ae6f40c69857bc2d58315a44396230caf659e0a"
+        }
+      ]
+    },
+    {
+      "command": "cargo build -p ffone-client --bin ffone-client --example tutorial_player_rig_gpu_preview --locked (FFOneClient)",
+      "result": "passed",
+      "evidence": {
+        "path": "../FFOneClient/target/personal-vehicles/fixes-build.log",
+        "bytes": 230,
+        "sha256": "76db41f89dce4024b659bf48cc4f5d7a0ce5cd0b5d75b01e6794c90b5c57f1a4"
+      }
+    },
+    {
+      "command": "target/debug/ffone-client.exe --asset-root assets/game --character-asset-root assets/game --validate-assets",
+      "result": "passed:status ok",
+      "evidence": {
+        "path": "../FFOneClient/target/personal-vehicles/fixes-validation.log",
+        "bytes": 294,
+        "sha256": "97c6d97fa2372c3369d8b85e2a88ae5fcb78230a7254ef23c0fa03429cb6c34d"
+      }
+    },
+    {
+      "command": "FFONE_PERF_OUTPUT=target/performance/personal-vehicle-trails-107 FFONE_PERF_VEHICLE=107 target/debug/ffone-client.exe --asset-root assets/game --character-asset-root assets/game (FFOneClient)",
+      "result": "passed: one model, scooter_stand1, two exhaust trails; offline fixture only",
+      "evidence": [
+        {
+          "path": "../FFOneClient/target/performance/personal-vehicle-trails-107/vehicle.json",
+          "bytes": 158,
+          "sha256": "86d44680d17aed240498307051db38800d0f035c5a27b1c4d96c719827701f48"
+        },
+        {
+          "path": "../FFOneClient/target/performance/personal-vehicle-trails-107/frame.png",
+          "bytes": 3074055,
+          "sha256": "673c78aa455c022fb5b43b6e2d4993cc72fa72b045c22f548395354a2845ba17"
+        },
+        {
+          "path": "../FFOneClient/target/performance/personal-vehicle-trails-107/report.json",
+          "bytes": 10790,
+          "sha256": "ecf4cae6bfc181850d2dee7100de832b346fb514b6776dde7bb66e704e630a74"
+        }
+      ]
+    }
+  ]
+}

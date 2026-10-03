@@ -1,0 +1,49 @@
+{
+  "schema": "ffone.export-reuse-regression.v1",
+  "cases": [
+    {
+      "case": "building",
+      "reusedTextures": 19,
+      "byteVerifiedMipLevels": 173,
+      "byteVerifiedPngBytes": 2850175,
+      "paths": [
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_fissure_apt_14.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_fissure_apt_13.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_fissure_apt_12.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_fissure_apt_11.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_fissure_apt_10.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_fissure_apt_09.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_fissure_apt_08.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_fissure_apt_07.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_fissure_apt_06.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_fissure_apt_05.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_fissure_apt_04.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_fissure_apt_03.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_fissure_apt_02.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_fissure_apt_01.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_apartment_3_retake_be.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_apartment_3_retake_basewall_01.png",
+        "../npcs/npc_building/npc_building.textures/DT_SDTS_buildingA2_01_02.png",
+        "../npcs/npc_building/npc_building.textures/DT_SDTS_buildingA2_01_01.png",
+        "../npcs/npc_building/npc_building.textures/DT_CPFI_fissure_apt_15.png"
+      ],
+      "sourceReport": "work\\cases\\export-regression-20260913\\baseline\\characters\\npc\\npc_building.publish.json",
+      "reuseReport": "work\\cases\\export-regression-20260913\\stage\\characters\\npc\\npc_building.publish.json",
+      "reuseReportSha256": "4e01a6547924ba0055ab57c5cc8c2234994b557d2b6f5dfc8c9f73b9f7939887"
+    },
+    {
+      "case": "shirt",
+      "reusedTextures": 1,
+      "byteVerifiedMipLevels": 1,
+      "byteVerifiedPngBytes": 149,
+      "paths": [
+        "../../shared/textures/toonramp9_variant_02.png"
+      ],
+      "sourceReport": "work\\cases\\export-regression-20260913\\shirt-baseline\\characters\\player\\equipment\\f_shirt_secretagent.publish.json",
+      "reuseReport": "work\\cases\\export-regression-20260913\\shirt-final\\characters\\player\\equipment\\f_shirt_secretagent.publish.json",
+      "reuseReportSha256": "2e0143750768141f2d68dba44098ea326fca5f7f6c034349ae81f018f298d993"
+    }
+  ],
+  "runtimePublication": false,
+  "visualAcceptance": "not_run_staging_only"
+}

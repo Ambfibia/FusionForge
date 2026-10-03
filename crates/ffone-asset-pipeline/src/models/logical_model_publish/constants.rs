@@ -1,0 +1,2 @@
+
+pub const SKINNING_BASIS_PARITY_TOLERANCE: f64 = 1.0e-6;

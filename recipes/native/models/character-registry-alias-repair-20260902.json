@@ -1,0 +1,125 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "character-registry-alias-repair-20260902",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "TableData.resourceFile",
+    "containerBytes": 784963,
+    "containerSha256": "6d4cea151152e2ab75b7d16590bda00fba172600a163e0b3a5318564df0d7e3b",
+    "objects": [
+      {
+        "serializedAsset": "installed native table set",
+        "type": "TextAsset",
+        "pathId": 0,
+        "fileId": 0,
+        "containerRoute": "assets/game/data/tables/table-set.json",
+        "trueName": "npc_imports_consolidated"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "generated-registry-repair",
+    "tool": "crates/ffone-asset-pipeline/src/character_registry_alias_repair.rs",
+    "toolRevision": "ffone-asset-pipeline repair-character-registry-aliases v1",
+    "workingDirectory": ".",
+    "commands": [
+      "cargo run -p ffone-asset-pipeline --bin ffone-asset-pipeline -- repair-character-registry-aliases '..\\FFOneClient\\assets\\game' 'work\\legacy-sources\\chars-additive-20260902\\alias-repair-plan.json'",
+      "cargo run -p ffone-asset-pipeline --bin ffone-asset-pipeline -- repair-character-registry-aliases '..\\FFOneClient\\assets\\game' 'work\\legacy-sources\\chars-additive-20260902\\alias-repair-applied.json' --apply"
+    ]
+  },
+  "problem": "ffone-client network_world_runtime resolves an XDT m_pstrMMeshModelString with an exact, case-sensitive probe against logicalName or legacyAliases. Nineteen installed models whose package route differs from their Unity root name carried an empty alias list, so their XDT names could not reach an installed GLB and every NPC selecting them rendered nothing. The models themselves were already published; only the generated registry was wrong.",
+  "inputs": [
+    {
+      "role": "installed-character-registry",
+      "path": "../FFOneClient/assets/game/_runtime/characters.json",
+      "blake3Before": "see report registryBlake3Before"
+    },
+    {
+      "role": "installed-table-set",
+      "path": "../FFOneClient/assets/game/data/tables/table-set.json",
+      "note": "supplies the exact XDT spelling; 505 distinct NPC/Nano mesh names"
+    },
+    {
+      "role": "installer-rule-reference",
+      "path": "crates/ffone-asset-pipeline/src/semantic_character_install.rs",
+      "note": "legacy_aliases() derives the same alias from the legacy route stem"
+    },
+    {
+      "role": "runtime-consumer",
+      "path": "../FFOneClient/crates/ffone-client/src/network_world_runtime.rs",
+      "note": "parse_character_registry builds by_logical_name; lookup is registry_models.get(logical_name)"
+    },
+    {
+      "role": "plan-report",
+      "path": "work/legacy-sources/chars-additive-20260902/alias-repair-plan.json"
+    },
+    {
+      "role": "apply-report",
+      "path": "work/legacy-sources/chars-additive-20260902/alias-repair-applied.json"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/game/_runtime/characters.json",
+      "change": "19 entries gained the exact XDT alias; 57 added lines, no payload byte changed"
+    }
+  ],
+  "changedEntries": [
+    "fusion/fusion_belladonna <- fusion_belladonna",
+    "fusion/fusion_belladonnaphase1 <- fusion_belladonnaPhase1",
+    "fusion/fusion_belladonnashield <- fusion_belladonnaShield",
+    "fusion/fusion_dracula <- fusion_dracula",
+    "fusion/fusion_gunter <- fusion_gunter",
+    "fusion/fusion_iceking <- fusion_iceking",
+    "mob/mob_pumpkinspawn <- mob_pumpkinspawn",
+    "nano/nano_belladonna <- nano_belladonna",
+    "npc/npc_arturo <- npc_arturo",
+    "npc/npc_bigbilly <- npc_bigbilly",
+    "npc/npc_carl <- npc_carl",
+    "npc/npc_grubber <- npc_grubber",
+    "npc/npc_iceking <- npc_iceking",
+    "npc/npc_jeff <- npc_jeff",
+    "npc/npc_key <- npc_key",
+    "npc/npc_mandroid_disguise <- npc_mandroid_disguise",
+    "npc/npc_megawatt <- npc_megawatt",
+    "npc/npc_snake <- npc_snake",
+    "npc/npc_unstablenano <- npc_unstablenano"
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "cargo test -p ffone-asset-pipeline --lib character_registry_alias",
+      "result": "passed: 3 tests",
+      "evidence": "covers plan-only immutability, apply, idempotent re-run, table-set case adoption and a rejected package-less GLB path"
+    },
+    {
+      "command": "python tools\\legacy-sources\\asset-census.py",
+      "result": "passed: character gap 19 -> 1",
+      "evidence": "resolvableNames 419 -> 438; the remaining RXcom has no publishable mesh in the source"
+    },
+    {
+      "command": "cargo run -p ffone-asset-pipeline --bin ffone-asset-pipeline -- repair-character-registry-aliases ... --apply (second run)",
+      "result": "passed: changes=0, applied=false",
+      "evidence": "alreadyAliased 11 -> 30, proving the repair is idempotent"
+    },
+    {
+      "command": "cargo run --manifest-path ..\\FFOneClient\\Cargo.toml -p xtask -- assets",
+      "result": "passed: domains=5 references=40916",
+      "evidence": null
+    },
+    {
+      "command": "cargo test -p ffone-client --lib network_world_runtime",
+      "result": "passed: 30 tests",
+      "evidence": null
+    }
+  ],
+  "notes": [
+    "mob/rxcom.kfm contains no publishable mesh; its NPC is the invisible Recall Point marker. It stays unresolved by design.",
+    "The eighteen exported logical-model sources under work/legacy-sources/chars-additive-20260902 proved the installed GLBs are the correct source models. They are investigation evidence, not a publication: no GLB was replaced."
+  ]
+}

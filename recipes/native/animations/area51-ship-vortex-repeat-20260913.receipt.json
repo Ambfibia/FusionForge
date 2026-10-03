@@ -1,0 +1,95 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "area51-ship-vortex-repeat-20260913",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "FFOneClient"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "DongResources_12_10.resourceFile",
+    "containerBytes": 4417951,
+    "containerSha256": "8a3606b22a4f044789caaa111c111eafb1f5566a2632352c545886a5d3d3368e",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-b35a71b799a32429bbe08591cf8fa254",
+        "type": "GameObject",
+        "pathId": 824,
+        "fileId": 0
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-b35a71b799a32429bbe08591cf8fa254",
+        "type": "Animation",
+        "pathId": 1637,
+        "fileId": 0
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-b35a71b799a32429bbe08591cf8fa254",
+        "type": "AnimationClip",
+        "pathId": 183,
+        "fileId": 0
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-b35a71b799a32429bbe08591cf8fa254",
+        "type": "Shader",
+        "pathId": 255,
+        "fileId": 0
+      }
+    ]
+  },
+  "transform": {
+    "kind": "repair",
+    "tool": "tools/native/repair-area51-ship-vortex.py",
+    "toolRevision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a+working-tree-sha256:07f076573d47a59376bfce1fe781cb7e75973c96fa55309f7f496dfc628d490d",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/native/repair-area51-ship-vortex.py --target-root work/cases/world-visual-regressions-20260913/replay --report work/cases/world-visual-regressions-20260913/vortex-replay-v2.json"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "map/tiles/map_12_10/behaviour.json",
+      "sha256": "c65cffd3036eebd91f4900ec20852d16a8f15686b4e93a7ca6b6b0aa61daa384"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "map/tiles/map_12_10/behaviour.json",
+      "bytes": 6487016,
+      "sha256": "682ab04dd8d3dbd005e41d2c60baacb4248fcec77ee86cb694688e2b00303eef"
+    }
+  ],
+  "divergenceFromPrimary": "Owner-requested repeat repair: primary Animation wrapMode=0, three compressed channels do not close. Native twelve-shell controller and each rotation channel now repeat independently; Cylinder06/12/13 receive closing samples at 1 second. Existing interior keys, other channel periods, 3.99-second clip duration, transforms and materials are retained. This is an explicit repair, not a claim that primary authored seamless loops.",
+  "verification": [
+    {
+      "command": "python tools/native/repair-area51-ship-vortex.py --target-root work/cases/world-visual-regressions-20260913/replay --report work/cases/world-visual-regressions-20260913/vortex-replay-v2.json",
+      "result": "passed; replay matches installed hash; second replay is byte-idempotent",
+      "evidence": "work/cases/world-visual-regressions-20260913/vortex-replay-idempotent.json"
+    },
+    {
+      "command": "cargo test -p ffone-client --lib vortex -- --nocapture",
+      "result": "passed: 2 tests, including 1, 3 and 17 repetitions of every shell",
+      "evidence": null
+    },
+    {
+      "command": "Offline full-client captures plus native material/lifecycle tests; see docs/reference/evidence/cases/world-visual-regressions-20260913.json",
+      "result": "passed within stated scope; no live-server combat run",
+      "evidence": "docs/reference/evidence/cases/world-visual-regressions-20260913.json"
+    }
+  ],
+  "toolInputs": [
+    {
+      "path": "crates/ffone-asset-pipeline/src/legacy_shader_state.rs",
+      "sha256": "f17287594be623e536efa3aa5f83c80df6a908a758d6bb291fa629dc41e81880"
+    },
+    {
+      "path": "tools/legacy-sources/publish-nano-status-effects.py",
+      "sha256": "7fa7a76081c8994f498048f48c175fe947d49e9d89e10c8b8ec71449c20b2f17"
+    },
+    {
+      "path": "tools/native/repair-area51-ship-vortex.py",
+      "sha256": "07f076573d47a59376bfce1fe781cb7e75973c96fa55309f7f496dfc628d490d"
+    }
+  ]
+}

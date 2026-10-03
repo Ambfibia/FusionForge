@@ -1,0 +1,258 @@
+{
+  "schema": "fusionforge.previous-build-retention.v1",
+  "decision": {
+    "date": "2026-09-12",
+    "requestedBy": "project owner",
+    "summary": "Owner-selected retention: these FFOne assets keep the clean Retrobution 20260613 appearance. The 20260821 primary revisions of the same routes, rows and textures are declined and must not be republished.",
+    "amendments": [
+      {
+        "date": "2026-09-12",
+        "summary": "Fusion Dee Dee (fusion_deedee) is not retained; it keeps the 20260821 primary revision."
+      }
+    ]
+  },
+  "source": {
+    "alias": "previous",
+    "build": "retrobution-20260613",
+    "containers": {
+      "CharacterCreation.resourceFile": {
+        "bytes": 8974798,
+        "sha256": "78785925e716027de4bec897c402c352bb411b7d627de1783e6fbda8bf34e59e"
+      },
+      "TableData.resourceFile": {
+        "bytes": 784963,
+        "sha256": "6d4cea151152e2ab75b7d16590bda00fba172600a163e0b3a5318564df0d7e3b"
+      },
+      "Tutorial.resourceFile": {
+        "bytes": 27003826,
+        "sha256": "49a684ff4236848d0b882a5d725ffbe99d5cfb5d2090dc8705350e97dd3fd024"
+      },
+      "main.unity3d": {
+        "bytes": 7000415,
+        "sha256": "59788201962b6a1737b114486c361fe74eef69f507d1d125ca3171377eec602f"
+      }
+    }
+  },
+  "declinedPrimary": "retrobution-20260821",
+  "ui": [
+    {
+      "route": "ui/en/gameplay/intro/tutorialpan_06.png",
+      "consumer": "tutorial intro pan 6",
+      "container": "Tutorial.resourceFile",
+      "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+      "pathId": 170,
+      "unityName": "TutorialPan_06",
+      "extractFilter": "TutorialPan_06",
+      "extractedFile": "TutorialPan_06.png",
+      "rgbaSha256": "386856d99513fb15d3e0f428ea2d538455526ebfefd5a542fb4e54be27e26f2d",
+      "declinedPrimaryRgbaSha256": "5963ab7d15ed586fbb32187613c270eef3f27f9c33f0bd62e55a309a4c3583e2"
+    },
+    {
+      "route": "ui/en/gameplay/intro/tutorialpan_07.png",
+      "consumer": "tutorial intro pan 7",
+      "container": "Tutorial.resourceFile",
+      "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+      "pathId": 148,
+      "unityName": "TutorialPan_07",
+      "extractFilter": "TutorialPan_07",
+      "extractedFile": "TutorialPan_07.png",
+      "rgbaSha256": "8613da6a14acb735a1fc822ed8c686763eb119fa5a123733fa2de1a8a87addb5",
+      "declinedPrimaryRgbaSha256": "18922359bc51464ab7f71790fa708f7b2460697cb92e81776b42f6d3921438b5"
+    },
+    {
+      "route": "ui/en/gameplay/loading/load.png",
+      "consumer": "loading screen background",
+      "container": "main.unity3d",
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 369,
+      "unityName": "load",
+      "extractFilter": "load",
+      "extractedFile": "load.png",
+      "rgbaSha256": "387586ea69b36ac4e9e78dc0d4b14891513dd6551f7a34c7e361851ae50f9d2c",
+      "declinedPrimaryRgbaSha256": "d20a5f6775da291dfd7cdf7e3f27e1094a22550221f9b0bcf0afb6fc48c38ea2"
+    },
+    {
+      "route": "ui/en/launcher/login/login_screen_bg_16x10.png",
+      "consumer": "launcher login background",
+      "container": "CharacterCreation.resourceFile",
+      "serializedAsset": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+      "pathId": 35,
+      "unityName": "login_screen_bg_16x10",
+      "extractFilter": "login_screen_bg_16x10",
+      "extractedFile": "login_screen_bg_16x10.png",
+      "rgbaSha256": "f10d3bff891e6f5f85c5786ac9f444763fda3e5ec99609517a5f5dbf7a71bb77",
+      "declinedPrimaryRgbaSha256": "403cab014c9ea115d73a86d69f974389aced345f71614318fc0428765ff4916d"
+    },
+    {
+      "route": "ui/en/gameplay/guide/ben.png",
+      "consumer": "guide selection menu: Ben portrait",
+      "container": "main.unity3d",
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 135,
+      "unityName": "Ben",
+      "extractFilter": "ben",
+      "extractedFile": "Ben.png",
+      "rgbaSha256": "411b364ab7003b734d68ce0627133f4334544c549e9d096f76f76991875070b7",
+      "declinedPrimaryRgbaSha256": "5b3f5ef3e1cc5586841b74b0a24b6c2e3ab43e84afca7b267a948dd4662d9bbc"
+    },
+    {
+      "route": "ui/en/gameplay/guide/ben_confirm.png",
+      "consumer": "guide selection menu: Ben confirmation",
+      "container": "main.unity3d",
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 211,
+      "unityName": "ben confirm",
+      "extractFilter": "ben confirm",
+      "extractedFile": "ben_confirm.png",
+      "rgbaSha256": "400a503441185221c7b7fb6eaa47f22a971378250fc7487716e511b5e882055c",
+      "declinedPrimaryRgbaSha256": "8f098160d3f3c892a898bd537b67b82453312b5ec1752e5d6cc8705815a7d287"
+    },
+    {
+      "route": "ui/en/gameplay/guide/ben_icon.png",
+      "consumer": "guide selection menu: Ben icon",
+      "container": "main.unity3d",
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 517,
+      "unityName": "ben icon",
+      "extractFilter": "ben icon",
+      "extractedFile": "ben_icon.png",
+      "rgbaSha256": "b88f38f22be8986d24e9b748cf8f6f66abd39ed9252791ee6330479944b3e6ff",
+      "declinedPrimaryRgbaSha256": "c4f0e7dc625aba8dd26361a888340d86f0405b82d9fbd3cd4e8ba12a64866ba2",
+      "note": "PathID 121 'ben_icon' (18x18) is a different texture that unityextract writes to the same file name; it is not the guide icon."
+    },
+    {
+      "route": "ui/en/gameplay/mission/guide-banners/ben.png",
+      "consumer": "Ben guide banner",
+      "container": "main.unity3d",
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 575,
+      "unityName": "ben_banner",
+      "extractFilter": "ben_banner",
+      "extractedFile": "ben_banner.png",
+      "rgbaSha256": "2df3bf6f8a62541e12856351df0593cec4d6e898d79b98b7cba97aaef9928c02",
+      "declinedPrimaryRgbaSha256": "d3100469302a5478f6e5259ddb21efb75723da611e9b4f13b6656aa3c1775a2e"
+    }
+  ],
+  "models": [],
+  "npcTextureOverrides": [
+    {
+      "trueName": "npc_deedee",
+      "path": "characters/npcs/npc_deedee/npc_deedee.textures/npc_deedee.png",
+      "sha256": "5ca9c366196e38da80ab79e4ffea5f580448be3d22d81701844846b43c275802",
+      "rgbaSha256": "08a4159fa24561c545ffa3417ef177eb5858f5b97d53bcd280d5031800288195",
+      "container": "CharacterCreation.resourceFile",
+      "serializedAsset": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+      "pathId": 93,
+      "containerRoute": "texture/npc_deedee.dds",
+      "sampler": {
+        "name": "npc_deedee",
+        "minFilter": "linear",
+        "magFilter": "linear",
+        "wrapS": "repeat",
+        "wrapT": "repeat",
+        "legacyFilterMode": 1,
+        "legacyWrapMode": 0,
+        "anisotropyLevel": 1,
+        "mipMapBias": 0.0
+      },
+      "declinedPrimaryPath": "characters/npcs/npc_deedee/textures/npc_deedee.png",
+      "declinedPrimarySha256": "ae06fe2507dbc1f0230cee099ab17ba131fb312406aaf423040924739381a5b6",
+      "note": "This is the npc_deedee model's own previous texture, which FFOne used until 2026-09-06. In previous NpcTexture.resourceFile the route texture/npc_deedee.dds resolves to PathID 93 'rifle_shortsnipe_d', a source defect that is not the retained appearance."
+    }
+  ],
+  "npcMeshRows": {
+    "table": "m_pNpcTable",
+    "container": "TableData.resourceFile",
+    "serializedAsset": "CustomAssetBundle-1dca92eecee4742d985b799d8226666d",
+    "pathId": 7,
+    "previousMeshRow": 16,
+    "mesh": {
+      "m_pstrFMeshModelString": "null",
+      "m_pstrFTextureString": "null",
+      "m_pstrFTextureString2": "null",
+      "m_pstrMMeshModelString": "npc_deedee",
+      "m_pstrMTextureString": "npc_deedee",
+      "m_pstrMTextureString2": "null"
+    },
+    "declinedPrimaryMesh": {
+      "m_pstrFMeshModelString": "null",
+      "m_pstrFTextureString": "null",
+      "m_pstrFTextureString2": "null",
+      "m_pstrMMeshModelString": "npc_deedee2",
+      "m_pstrMTextureString": "npc_deedee",
+      "m_pstrMTextureString2": "null"
+    },
+    "rows": [
+      137, 138, 149, 152, 153, 157, 158, 159, 229, 230, 231, 331, 332, 343, 346, 347, 351, 352,
+      423, 424, 425, 525, 526, 537, 538, 539, 540, 541, 545, 546, 547, 617, 618, 619, 701, 3412
+    ]
+  },
+  "verifiedAlreadyPrevious": [
+    {
+      "path": "characters/npcs/npc_deedee/npc_deedee.glb",
+      "evidence": "Previous and primary mob/npc_deedee.kfm export byte-identical publish-logical-model candidates; the builds differ only in shader source text."
+    },
+    {
+      "path": "characters/nanos/nano_deedee/nano_deedee.glb",
+      "evidence": "All 32 native animation channel payloads equal the previous nano/nano_deedee.kfm export; material and texture are equal in both builds."
+    },
+    {
+      "path": "characters/nanos/nano_deedee/nano_deedee.textures/nano_deedee.png",
+      "evidence": "Byte-identical to previous NpcTexture nano_deedee (PathID 77)."
+    },
+    {
+      "path": "ui/en/server-selection/login_screen_bg_16x10.png",
+      "evidence": "Byte-identical to previous main.unity3d login_screen_bg_16x10 (PathID 80)."
+    }
+  ],
+  "notRetained": [
+    {
+      "path": "characters/fusions/fusion_deedee/fusion_deedee.glb",
+      "reason": "Owner correction 2026-09-12: Fusion Dee Dee keeps the 20260821 primary revision (SkinnedFusionMatterLightDir sub-link_b shader and the 128x512 primary spwaneye). Do not retain or republish it from the previous build."
+    },
+    {
+      "path": "characters/npcs/npc_deedee2/npc_deedee2.glb",
+      "reason": "20260821-only Dee Dee model; no NPC row selects it after retention. Kept installed, unreferenced."
+    },
+    {
+      "path": "characters/mobs/npc_deedee2/npc_deedee2.glb",
+      "reason": "20260821-only Dee Dee model; no NPC row selects it after retention. Kept installed, unreferenced."
+    },
+    {
+      "path": "characters/npcs/npc_deedee/textures/npc_deedee.png",
+      "reason": "Declined 20260821 npc_deedee texture; no longer referenced by the override catalog. Kept installed."
+    },
+    {
+      "path": "ui/en/user-equip/guide-ben-tennyson.png",
+      "reason": "Ben's equipment-window guide icon (BenIcon) is outside the requested guide selection and banner scope and remains at 20260821."
+    }
+  ],
+  "supersedesOutputsOf": [
+    {
+      "record": "docs/reference/evidence/legacy/ffone/retrobution-ui-20260821-publication.json",
+      "outputs": [
+        "ui/gameplay/intro/tutorialpan_06.png",
+        "ui/gameplay/intro/tutorialpan_07.png",
+        "ui/gameplay/loading/load.png",
+        "ui/launcher/login/login_screen_bg_16x10.png",
+        "ui/gameplay/guide/ben.png",
+        "ui/gameplay/guide/ben_confirm.png",
+        "ui/gameplay/guide/ben_icon.png",
+        "ui/gameplay/mission/guide-banners/ben.png"
+      ]
+    },
+    {
+      "record": "recipes/native/characters/npc-repair-20260905.receipt.json",
+      "outputs": [
+        "data/tables/npc_texture_overrides.json#npc_deedee",
+        "data/tables/table-set.json#m_pNpcTable/m_pNpcData/701"
+      ]
+    },
+    {
+      "record": "recipes/native/characters/npc-material-followup-20260905.receipt.json",
+      "outputs": [
+        "data/tables/npc_texture_overrides.json#npc_deedee"
+      ]
+    }
+  ]
+}

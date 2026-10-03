@@ -1,0 +1,536 @@
+use serde::Serialize;
+
+#[cfg(test)]
+pub(crate) const NANO_ICON_NUMBERS: &[u16] = &[
+    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25,
+    26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 43, 44, 45, 47, 48, 49,
+];
+
+#[cfg(test)]
+pub(crate) const SKILL_ICON_NUMBERS: &[u16] = &[
+    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25,
+    26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 38,
+];
+
+#[derive(Clone, Copy, Debug, Eq, Ord, PartialEq, PartialOrd, Serialize)]
+#[serde(rename_all = "lowercase")]
+pub(crate) enum TableDataIconKind {
+    Nano,
+    Skill,
+}
+
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+pub(crate) struct VerifiedIconRoute {
+    pub kind: TableDataIconKind,
+    pub icon_number: u16,
+    pub legacy_name: &'static str,
+    pub source: &'static str,
+    pub destination: &'static str,
+    pub expected_blake3: &'static str,
+}
+
+macro_rules! nano_icon {
+    ($number:literal, $digits:literal, $short_hash:literal, $blake3:literal) => {
+        VerifiedIconRoute {
+            kind: TableDataIconKind::Nano,
+            icon_number: $number,
+            legacy_name: concat!("nanoicon_", $digits),
+            source: concat!("icons/entities/nanos/nanoicon_", $digits, ".png"),
+            destination: concat!("nano/icons/nano/nanoicon_", $digits, ".png"),
+            expected_blake3: $blake3,
+        }
+    };
+}
+
+macro_rules! skill_icon {
+    ($number:literal, $digits:literal, $short_hash:literal, $blake3:literal) => {
+        VerifiedIconRoute {
+            kind: TableDataIconKind::Skill,
+            icon_number: $number,
+            legacy_name: concat!("skillicon_", $digits),
+            source: concat!("icons/skills/skillicon_", $digits, ".png"),
+            destination: concat!("nano/icons/skill/skillicon_", $digits, ".png"),
+            expected_blake3: $blake3,
+        }
+    };
+}
+
+pub(crate) const VERIFIED_ICON_ROUTES: &[VerifiedIconRoute] = &[
+    nano_icon!(
+        0,
+        "00",
+        "b46cd1a3a7d6a064",
+        "b46cd1a3a7d6a0647784625f3d9038be98b6f3b35cb09206f333371db88b57c1"
+    ),
+    nano_icon!(
+        1,
+        "01",
+        "48b6d69334f5bd48",
+        "48b6d69334f5bd4803152e59322f805d0378bb51efa0adf517669cd36347804e"
+    ),
+    nano_icon!(
+        2,
+        "02",
+        "6a333a218c5c0cd5",
+        "6a333a218c5c0cd5ccc22c82ce648df1102d9f642d029485ac335a05a398d6e1"
+    ),
+    nano_icon!(
+        3,
+        "03",
+        "fa03be483ee5a9f1",
+        "fa03be483ee5a9f100694fa7b487784a6ee51f534389bb871721d4e27df0feb3"
+    ),
+    nano_icon!(
+        4,
+        "04",
+        "c145d7f2886914f8",
+        "c145d7f2886914f82335dc9c248ff068a0f8a26423e97312ed8e005794bc877c"
+    ),
+    nano_icon!(
+        5,
+        "05",
+        "02c4d3efca2de04b",
+        "02c4d3efca2de04bacc3a6884228025751483d1be1ba3cff0445fbd9b089755c"
+    ),
+    nano_icon!(
+        6,
+        "06",
+        "c81dacc12d36dfb4",
+        "c81dacc12d36dfb4c03a3f5cdd5d5e45fac674fadbe2af8590df40719a6a53e5"
+    ),
+    nano_icon!(
+        7,
+        "07",
+        "fc86b4503e2e96e7",
+        "fc86b4503e2e96e717b71c75aad03fbf436acd6e08af7ee0d805702999ced0a7"
+    ),
+    nano_icon!(
+        8,
+        "08",
+        "fc1e2810bfa57768",
+        "fc1e2810bfa57768c4a3569cd4a826961629be56a5e26e8fa6543ceb48892cf2"
+    ),
+    nano_icon!(
+        9,
+        "09",
+        "2b9235309b92b3d3",
+        "2b9235309b92b3d3ea08ba631558f28a91d922e2c62888f1eab77f2814aee7bf"
+    ),
+    nano_icon!(
+        10,
+        "10",
+        "ee1fa7c47cdd2ae3",
+        "ee1fa7c47cdd2ae3a1c37d9628c8c1d3a4bb04e9a01d456ac97a9f98584f1030"
+    ),
+    nano_icon!(
+        11,
+        "11",
+        "6f32c26e703e0218",
+        "6f32c26e703e0218027fba8b46fd3246ef0063525559bd4670349da331cf6599"
+    ),
+    nano_icon!(
+        12,
+        "12",
+        "3a1e66af0bb455aa",
+        "3a1e66af0bb455aab3eb486526700fa24b8b3617158c6ca0d5fc347e72ed641d"
+    ),
+    nano_icon!(
+        13,
+        "13",
+        "e3715f099d109f09",
+        "e3715f099d109f095e032e08ba5489e2baa471d64b93eb8057e82322cb4b5ff4"
+    ),
+    nano_icon!(
+        14,
+        "14",
+        "02d98c2506e62485",
+        "02d98c2506e62485865d0b3807ee7c672d63c16fd96b325740c14f4fb377d80e"
+    ),
+    nano_icon!(
+        15,
+        "15",
+        "cfb890999bc30d16",
+        "cfb890999bc30d164add321c1efef0b1c436ceb8aaf5bff1ee302f68b39a8756"
+    ),
+    nano_icon!(
+        16,
+        "16",
+        "ca27efb6d8fb3606",
+        "ca27efb6d8fb360614bdd87b3203e2118327dee9bacca70f711e2dcdf13925e6"
+    ),
+    nano_icon!(
+        17,
+        "17",
+        "247e9f692519047c",
+        "247e9f692519047cd91abe0327a85462d2bdb3db5e47950c7cd72a516b95b717"
+    ),
+    nano_icon!(
+        18,
+        "18",
+        "94c7d7caadcd1845",
+        "94c7d7caadcd184598a95de2211381aac67200a6ff3a3e11e784fa16f9ae424c"
+    ),
+    nano_icon!(
+        19,
+        "19",
+        "e3b690299f303213",
+        "e3b690299f303213822464b1da7ac7fadaf3745137a6ea284cd7421729e49163"
+    ),
+    nano_icon!(
+        20,
+        "20",
+        "67f9defd85c529d8",
+        "67f9defd85c529d847789d9f61c5076548312fb4797f86d8d9fb33aeefc5d611"
+    ),
+    nano_icon!(
+        21,
+        "21",
+        "0f78ef1ed1167b98",
+        "0f78ef1ed1167b9862c7d85b827ffc9a18497c023e546de9da97e3bd674258aa"
+    ),
+    nano_icon!(
+        22,
+        "22",
+        "25d88c86a4b56f2a",
+        "25d88c86a4b56f2a08777e3a22a04e1a19fb2f62674ad03b90165b100a9792de"
+    ),
+    nano_icon!(
+        23,
+        "23",
+        "9d8d6a56d4499636",
+        "9d8d6a56d4499636b1f2128821ef54d48be089d9ff3f6480a65dc0ebb26045f6"
+    ),
+    nano_icon!(
+        24,
+        "24",
+        "02a2ef47cc93da65",
+        "02a2ef47cc93da6529cb067dc0c6969def3521939ddd7428d1061f066f4f68ec"
+    ),
+    nano_icon!(
+        25,
+        "25",
+        "0e16f0d69f52b277",
+        "0e16f0d69f52b2770db635e52f34e40f327697c469dfa08d4bc3d0cf5f50d6d3"
+    ),
+    nano_icon!(
+        26,
+        "26",
+        "e9eab7579aa84c23",
+        "e9eab7579aa84c238bf1bc33e3d34206565378510c71a809b42dbecfcea4f20b"
+    ),
+    nano_icon!(
+        27,
+        "27",
+        "96f4f8987cc7946b",
+        "96f4f8987cc7946b051e8014cea83211d9a15e915572815a6d68953a51ec5b2e"
+    ),
+    nano_icon!(
+        28,
+        "28",
+        "0f5fadac9c2ed4b6",
+        "0f5fadac9c2ed4b6d1da914831f4c0009eb02f6ef38e8a83340ea8affed0dfd6"
+    ),
+    nano_icon!(
+        29,
+        "29",
+        "1ab72f286518c944",
+        "1ab72f286518c94484972ca6057c3fbd649be039e45816e7893c8d9ad6bb2093"
+    ),
+    nano_icon!(
+        30,
+        "30",
+        "a5cad60c20cb2be7",
+        "a5cad60c20cb2be735eae8c309d787ce1d2a74f9057441933a515c7c03d04ec2"
+    ),
+    nano_icon!(
+        31,
+        "31",
+        "9ef10e809ed59fac",
+        "9ef10e809ed59face5ef98dc0d96ada8c44f5a7c5174a6f36b19f76ae55b71b3"
+    ),
+    nano_icon!(
+        32,
+        "32",
+        "2516beda2b57b9e0",
+        "2516beda2b57b9e0e78d61a0fcc243e46446d232e63f697210ec58cfbf3cc412"
+    ),
+    nano_icon!(
+        33,
+        "33",
+        "984ce5d390af63d6",
+        "984ce5d390af63d6675bea716612104ad90688d2891a77dc10aac20cb2db4679"
+    ),
+    nano_icon!(
+        34,
+        "34",
+        "9964a3a796b12f60",
+        "9964a3a796b12f60d3e0cf40ee2e06ff9076786983206f2458baf23740eeb0a0"
+    ),
+    nano_icon!(
+        35,
+        "35",
+        "241ee5a3897d3fcf",
+        "241ee5a3897d3fcfc16dde89fa780447781c3f3f683f2de73c14c7103de7f596"
+    ),
+    nano_icon!(
+        43,
+        "43",
+        "bd601d7e96cb1863",
+        "bd601d7e96cb1863a96f61716753ad12dca236a3bdd91e836800831e6d5867ba"
+    ),
+    nano_icon!(
+        44,
+        "44",
+        "fb8ccf89bbde2f92",
+        "fb8ccf89bbde2f92fa8e8a3a3dcf7b22c174b81c1cbc6a433096bef0cfb32af8"
+    ),
+    nano_icon!(
+        45,
+        "45",
+        "6d74588800205ca8",
+        "6d74588800205ca8bfea8ead32e417423af22588c53eff07c167fb838e4ef933"
+    ),
+    nano_icon!(
+        47,
+        "47",
+        "2765c8361769209a",
+        "2765c8361769209af9575c65897db6b79712d1712dd61d8ffaa11a2ea709c3a2"
+    ),
+    nano_icon!(
+        48,
+        "48",
+        "764215504d57e3cd",
+        "764215504d57e3cd7d117bddf2c60d9483d08000cee6f7db15623bcdb1be6aca"
+    ),
+    nano_icon!(
+        49,
+        "49",
+        "271932c4b7db6b66",
+        "271932c4b7db6b66ec53111f2d9b38d508c45cb50e83e86117028a736d3be316"
+    ),
+    skill_icon!(
+        0,
+        "00",
+        "2da073ca6a9fdfb8",
+        "2da073ca6a9fdfb8344cfb9b4305b09c3ddbaf67dec017aed2d2fa8bdabfb439"
+    ),
+    skill_icon!(
+        1,
+        "01",
+        "47a0c4c27016406b",
+        "47a0c4c27016406bdfd0a336bf0eecb7c9bb50820cd729ff98325cecae59ea56"
+    ),
+    skill_icon!(
+        2,
+        "02",
+        "79aafff1a1e55e8f",
+        "79aafff1a1e55e8fbb06980b357e3643ec5735c09295198dcf431e8ef27434ce"
+    ),
+    skill_icon!(
+        3,
+        "03",
+        "28dba8c932b4d571",
+        "28dba8c932b4d5718690b034e4c9b7ce4efa710b178692c0472fadfe1ab63d67"
+    ),
+    skill_icon!(
+        4,
+        "04",
+        "db3b332427acc84c",
+        "db3b332427acc84c63f5ca822b3bd0aa115eeda928db440c62b2f33100459131"
+    ),
+    skill_icon!(
+        5,
+        "05",
+        "5c39e1e4de9c587c",
+        "5c39e1e4de9c587c126cb905f74879956520f8a97044428a4efa7e6e80f52519"
+    ),
+    skill_icon!(
+        6,
+        "06",
+        "d0c91b5d98950a61",
+        "d0c91b5d98950a610fc946900a11608b7f51c4fad7d9a423e1a9c37fc435a97b"
+    ),
+    skill_icon!(
+        7,
+        "07",
+        "03ed07b153d51b97",
+        "03ed07b153d51b97941f16f36a14dccf90ec0013fe6ea9c062a15271d4b49291"
+    ),
+    skill_icon!(
+        8,
+        "08",
+        "794635574707440b",
+        "794635574707440bcf75101c56d3ab9efa405e92535d22b8c48058017b0f6d8b"
+    ),
+    skill_icon!(
+        9,
+        "09",
+        "ccefbee2036d8f7e",
+        "ccefbee2036d8f7e4bb0b5c696ffe5a3c427973b1d249c119eb02c0f3e6d13b2"
+    ),
+    skill_icon!(
+        10,
+        "10",
+        "4d64a70a26a077f1",
+        "4d64a70a26a077f17a2e33d8fcf73cb61246cc7c7c00e6670d73ce5b87bfac02"
+    ),
+    skill_icon!(
+        11,
+        "11",
+        "4da1f3ad10a7b792",
+        "4da1f3ad10a7b792c53659a608a1240d795c0f293a7717d2bcecc43f03d5b364"
+    ),
+    skill_icon!(
+        12,
+        "12",
+        "370c3cc8eac811e2",
+        "370c3cc8eac811e2bdeac66cc0221f51e9d1f04655463248a7b14aaddb37a8cf"
+    ),
+    skill_icon!(
+        13,
+        "13",
+        "a8ad0890446eab6c",
+        "a8ad0890446eab6c6d8c1cf7dbfa36d3a8f0e63c7dab82f6e2c61797678ff900"
+    ),
+    skill_icon!(
+        14,
+        "14",
+        "b6587806ce7dcedf",
+        "b6587806ce7dcedf7289a7a0916462f8396f74ba68b25981cda3a96de18da776"
+    ),
+    skill_icon!(
+        15,
+        "15",
+        "df80f83b5ebebe33",
+        "df80f83b5ebebe3314597f8f64a962f52ea3cdb6307d5ec608565937faea4c85"
+    ),
+    skill_icon!(
+        16,
+        "16",
+        "a9d2883e29138134",
+        "a9d2883e291381342a8d1cbfcfd3cf4f8593098735d453b552dc1d09ba3e278d"
+    ),
+    skill_icon!(
+        17,
+        "17",
+        "4e7e56866dc061f0",
+        "4e7e56866dc061f0c093953981a9a1e9d1c9b4f68a5af009e09f3179cf7f1bac"
+    ),
+    skill_icon!(
+        18,
+        "18",
+        "1f662d115909f329",
+        "1f662d115909f329728e354283d111963944dfd07ad7c5a8693a967ba8cf81ad"
+    ),
+    skill_icon!(
+        19,
+        "19",
+        "12e43a1c475c077a",
+        "12e43a1c475c077a57aa141380d6417e26679608f63af6f1837ce8d362babd45"
+    ),
+    skill_icon!(
+        20,
+        "20",
+        "14dde000cc694624",
+        "14dde000cc69462460e6aff749023f811c25b360ac018b375d64aad9181b1ed6"
+    ),
+    skill_icon!(
+        21,
+        "21",
+        "e398696ac14a0fdc",
+        "e398696ac14a0fdca50cab4cba59a0c7456425d59edfa5337751b53f20247803"
+    ),
+    skill_icon!(
+        22,
+        "22",
+        "bdd7b229ff209cf3",
+        "bdd7b229ff209cf30bd77a3086e531eee1c6c950e72bfd366adcf53e0b285b83"
+    ),
+    skill_icon!(
+        23,
+        "23",
+        "77387b49441e5525",
+        "77387b49441e55252f99c52f576de72c658ed897ce4ca99961a370d0da4c09c7"
+    ),
+    skill_icon!(
+        24,
+        "24",
+        "17fb150a83a3a1c2",
+        "17fb150a83a3a1c2e5938213a0608c573ec53b1f1bd162411b449f0fd87489e0"
+    ),
+    skill_icon!(
+        25,
+        "25",
+        "9ba469b215a5a0e5",
+        "9ba469b215a5a0e510de52b99b62df79618c952776ed9f970ea5f4b184e5d0ab"
+    ),
+    skill_icon!(
+        26,
+        "26",
+        "f80adb00d5a85257",
+        "f80adb00d5a85257e8dee2a4944d53a7cc93d374dc4846eb7248c320cbeffe26"
+    ),
+    skill_icon!(
+        27,
+        "27",
+        "11b62b6f3b9128d6",
+        "11b62b6f3b9128d6bdf63b4f98a29684403f3615b56aa2c9e5d3892607916cc8"
+    ),
+    skill_icon!(
+        28,
+        "28",
+        "d528a3efd8e885ca",
+        "d528a3efd8e885ca91df42b1aa463eddddb2c5e40c82d53ffe25145ca185ab3d"
+    ),
+    skill_icon!(
+        29,
+        "29",
+        "b4329692e35464ab",
+        "b4329692e35464ab4af55e9d586719458565a8bb82453de37a63631e250916fa"
+    ),
+    skill_icon!(
+        30,
+        "30",
+        "1cd18d95ac46cc30",
+        "1cd18d95ac46cc30d5a2de8661d797d24932bd34733871daf0f1b83305d2aa48"
+    ),
+    skill_icon!(
+        31,
+        "31",
+        "441d95c4b86f1ec2",
+        "441d95c4b86f1ec2cdb9183940e0eb8fefed2a5264e372e6147891cd54f32e57"
+    ),
+    skill_icon!(
+        32,
+        "32",
+        "eb1710e72d6d5d42",
+        "eb1710e72d6d5d42193d4fb4515359ce2c711b43ec19438bd2543785c136d534"
+    ),
+    skill_icon!(
+        34,
+        "34",
+        "1395e248492c062d",
+        "1395e248492c062d5667b2368938881df77a16c9a75337d13016c0b746d4cb51"
+    ),
+    skill_icon!(
+        35,
+        "35",
+        "bbd32799b687dd9e",
+        "bbd32799b687dd9e4423c7a52e6bfa3dab983d3b9ef3a8e30850061575ccc395"
+    ),
+    skill_icon!(
+        36,
+        "36",
+        "8db80e257379f25d",
+        "8db80e257379f25d70750ac108d8912118112e3432952cea2c354c6246e64210"
+    ),
+    skill_icon!(
+        38,
+        "38",
+        "48e752f186d486df",
+        "48e752f186d486df1e028ee788628b88d8fbe2a54192d145980092e4ed5b32bf"
+    ),
+];
+
+#[cfg(test)]
+mod tests;

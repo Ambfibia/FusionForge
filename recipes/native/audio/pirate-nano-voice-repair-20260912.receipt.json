@@ -1,0 +1,632 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "pirate-nano-voice-repair-20260912",
+  "status": "accepted",
+  "supersedes": [
+    "nano-editor-models-and-table-materials-primary-20260904"
+  ],
+  "target": {
+    "alias": "ffone"
+  },
+  "transform": {
+    "kind": "restore-academy-animation-events-and-chowder-skills",
+    "tool": "tools/native/repair-nano-voice-events.py",
+    "toolSha256": "64a4bafb3a1bf1cd2121d7a3c3cd702a7e2ddb58266daff74484d09d6e64ef43",
+    "workingDirectory": "FFClientEditor",
+    "commands": [
+      "python tools/native/repair-nano-voice-events.py --source-root ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a --primary-root ../builds/retrobution-20260821 --target-root ../FFOneClient/assets/game --work work/cases/pirate-nano-audio-20260912/replay-a",
+      "python tools/native/repair-nano-voice-events.py --source-root ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a --primary-root ../builds/retrobution-20260821 --target-root ../FFOneClient/assets/game --work work/cases/pirate-nano-audio-20260912/replay-b",
+      "python tools/native/repair-nano-voice-events.py --source-root ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a --primary-root ../builds/retrobution-20260821 --target-root ../FFOneClient/assets/game --work work/cases/pirate-nano-audio-20260912/replay-a --apply --expected-outputs work/cases/pirate-nano-audio-20260912/replay-b/publication.json"
+    ],
+    "toolRevision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 64a4bafb3a1bf1cd2121d7a3c3cd702a7e2ddb58266daff74484d09d6e64ef43"
+  },
+  "outputs": [
+    {
+      "path": "characters/nanos/nano_flapjack/nano_flapjack.glb",
+      "bytes": 3186324,
+      "sha256": "3cc74dcf98f4ed20ad114075747bf9c40f586641aa7950bb7f6c58fdbc6132b8"
+    },
+    {
+      "path": "characters/nanos/nano_chowder/nano_chowder.glb",
+      "bytes": 4896736,
+      "sha256": "01827f3c9822a482cb80077960a7e19ef3245890ca7c1c50d5f44004f5c1173c"
+    },
+    {
+      "path": "characters/nanos/nano_zaksaturday/nano_zaksaturday.glb",
+      "bytes": 3010208,
+      "sha256": "459e649fad6759b1b459bbd7ff077249f35756732706585aa40c75547448a040"
+    },
+    {
+      "path": "characters/nanos/nano_jackolantern/nano_jackolantern.glb",
+      "bytes": 10276344,
+      "sha256": "eb719c5d59bd9a8210ce15fd5f0abd4f51d4e71bc9f23c2367c713f905f77418"
+    },
+    {
+      "path": "data/tables/table-set.json",
+      "bytes": 47423707,
+      "sha256": "e4a6ea5e281febe15d231ed32dad421e013708f4a8baebf0f9e9bdbce5097761"
+    }
+  ],
+  "nativeCorrections": [
+    {
+      "model": "nano_jackolantern",
+      "replacement": {
+        "Jack O'Lantern_": "Jack_O_Lantern_"
+      },
+      "reason": "Match the exact declared native trueName prefix. No fuzzy owner matching.",
+      "priorPublication": "nano-editor-models-and-table-materials-primary-20260904",
+      "source": {
+        "alias": "primary",
+        "relativeContainer": "Nano.resourceFile",
+        "bytes": 41656047,
+        "sha256": "4bdec03c5aa92e5f922ab61fa794188815b20438fcc4fa646498eac9397ce8e7",
+        "serializedAsset": "CustomAssetBundle-d44c8d83281084c7c860065e437b031e",
+        "type": "GameObject",
+        "pathId": 11134,
+        "containerRoute": "nano/nano_jackolantern.kfm"
+      }
+    },
+    {
+      "removeAudioLogicalKey": "voice/pirate/melee1",
+      "retainAudioLogicalKey": "sfx/combat/pirate_melee1",
+      "reason": "NPC/mob animation routing prefers voice; the duplicate misclassified row selected a different RU recording over the raw primary combat sound. The retained Ogg is byte-identical to primary AudioClip 179."
+    }
+  ],
+  "divergenceFromPrimary": "Explicit Academy voice-event donor; Chowder skill clips restored on exact native rest hierarchy. Pirate localization collision removed; Jack voice spelling repaired.",
+  "remaining": [
+    {
+      "owner": "nano_titan",
+      "cue": "Titan_NanPwrBRockets",
+      "status": "unresolved missing recording",
+      "evidence": "Nano_048.resourceFile AudioClip listing has SSword and SArray families only; primary and alternate navigation queries for titan_nanpwrbrockets returned no matches. No substitute recording was invented."
+    }
+  ],
+  "supersededOutputNotes": [
+    "Academy sound events explicitly extend the previously published primary event set.",
+    "Chowder adds three donor skill clips; previous clips, material and texture references, mesh/skin data and full original binary prefix are preserved.",
+    "Node indices are remapped by unique complete hierarchy paths, with exact rest TRS equality for every node. No object or material sharing is performed."
+  ],
+  "supersessionScope": {
+    "paths": [
+      "characters/nanos/nano_flapjack/nano_flapjack.glb",
+      "characters/nanos/nano_chowder/nano_chowder.glb",
+      "characters/nanos/nano_zaksaturday/nano_zaksaturday.glb",
+      "characters/nanos/nano_jackolantern/nano_jackolantern.glb"
+    ],
+    "note": "Only listed repaired model outputs change; all other outputs of the prior aggregate publication remain as installed."
+  },
+  "inputs": [
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_flapjack-owner.json",
+      "bytes": 13859,
+      "sha256": "f8c16059d16b49106450f1729321fc8e342ecf040b3fca5d66e9346c212669b3",
+      "source": {
+        "alias": "alternate",
+        "bytes": 866900,
+        "relativeContainer": "Nano_044.resourceFile",
+        "sha256": "d58f2940ac87e786cd7b340af6616187ebd685e91b4624a29e6a51ddf66d76ca"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-Nano_044",
+        "type": "Animation",
+        "pathId": 2742116923,
+        "name": "",
+        "rawSha256": "340a1b66b5a6bacaa57d5bf2ec242b3147d506c6e6facb3ce0177bc9319f2ab2"
+      }
+    },
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_flapjack-call.json",
+      "bytes": 237274,
+      "sha256": "4d8687697f7e75690b0a94a32c7e74f3df20ebe17816435686fa0f0f237bc089",
+      "source": {
+        "alias": "alternate",
+        "bytes": 866900,
+        "relativeContainer": "Nano_044.resourceFile",
+        "sha256": "d58f2940ac87e786cd7b340af6616187ebd685e91b4624a29e6a51ddf66d76ca"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-Nano_044",
+        "type": "AnimationClip",
+        "pathId": 354693194,
+        "name": "call",
+        "rawSha256": "5b40b1cfddd4a570847eb20d75639650355e5b13ac0e13632aec13fa5ac91b83"
+      }
+    },
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_flapjack-skill1.json",
+      "bytes": 344740,
+      "sha256": "fc19138fe65d2486cb7c966248d683f9aebfa7940254821882f59ef4b6f70779",
+      "source": {
+        "alias": "alternate",
+        "bytes": 866900,
+        "relativeContainer": "Nano_044.resourceFile",
+        "sha256": "d58f2940ac87e786cd7b340af6616187ebd685e91b4624a29e6a51ddf66d76ca"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-Nano_044",
+        "type": "AnimationClip",
+        "pathId": 2820527001,
+        "name": "skill1",
+        "rawSha256": "2196f6e7f8f11b5af06f0d3312bc1ea115b45f6897cbea30e75a78ea7c98f71c"
+      }
+    },
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_flapjack-skill2.json",
+      "bytes": 709180,
+      "sha256": "5d887343cd1430f0fc9a6a9ed0f4b9a46094170535f16b073afe8d9fc312e58b",
+      "source": {
+        "alias": "alternate",
+        "bytes": 866900,
+        "relativeContainer": "Nano_044.resourceFile",
+        "sha256": "d58f2940ac87e786cd7b340af6616187ebd685e91b4624a29e6a51ddf66d76ca"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-Nano_044",
+        "type": "AnimationClip",
+        "pathId": 3615652454,
+        "name": "skill2",
+        "rawSha256": "11c599261aaeb73d47160999559086c57f5e8175a53b9b3fdbeae8ca66d5182c"
+      }
+    },
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_flapjack-skill3.json",
+      "bytes": 147095,
+      "sha256": "ee6322819e1e524bd236ad1b64422cdf5bc16a6e5e432e0d1905394d5531e3d5",
+      "source": {
+        "alias": "alternate",
+        "bytes": 866900,
+        "relativeContainer": "Nano_044.resourceFile",
+        "sha256": "d58f2940ac87e786cd7b340af6616187ebd685e91b4624a29e6a51ddf66d76ca"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-Nano_044",
+        "type": "AnimationClip",
+        "pathId": 708455227,
+        "name": "skill3",
+        "rawSha256": "1978e7ad27d07aca0948ea19f401bb8fe94f105d1d1b29d3fba63f67a2defd04"
+      }
+    },
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_chowder-owner.json",
+      "bytes": 13876,
+      "sha256": "9561d1fef6879964a37d6172b0cbf86874981e3e7cb2abf1f0e5e23c80397b56",
+      "source": {
+        "alias": "alternate",
+        "bytes": 829720,
+        "relativeContainer": "Nano_046.resourceFile",
+        "sha256": "fbf9c254aeb9539c07cab1c22f5f358d8d7746aa0faf80724517c7b4be38034f"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-Nano_046",
+        "type": "Animation",
+        "pathId": 2187236750,
+        "name": "",
+        "rawSha256": "ec9e304cae5214eb18441adc69196f590666b68fea581cc925190b01a6a7a439"
+      }
+    },
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_chowder-call.json",
+      "bytes": 381380,
+      "sha256": "427535b61e5dca2db7ca6f3eccb7faaa326def2d642720b4e001bd613da8129e",
+      "source": {
+        "alias": "alternate",
+        "bytes": 829720,
+        "relativeContainer": "Nano_046.resourceFile",
+        "sha256": "fbf9c254aeb9539c07cab1c22f5f358d8d7746aa0faf80724517c7b4be38034f"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-Nano_046",
+        "type": "AnimationClip",
+        "pathId": 1511668751,
+        "name": "call",
+        "rawSha256": "d99d3fc4d33c1d0ce608c55946b9a2798e63652dce3e8df0a736bfc4afff3a87"
+      }
+    },
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_chowder-skill1.json",
+      "bytes": 458687,
+      "sha256": "0cb0a7591bd9c47f95eb3f1dc4d31384cc759f9f9cb3ce4b9801344852dbfe81",
+      "source": {
+        "alias": "alternate",
+        "bytes": 829720,
+        "relativeContainer": "Nano_046.resourceFile",
+        "sha256": "fbf9c254aeb9539c07cab1c22f5f358d8d7746aa0faf80724517c7b4be38034f"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-Nano_046",
+        "type": "AnimationClip",
+        "pathId": 1934724603,
+        "name": "skill1",
+        "rawSha256": "6eddd40066a6a107bd15f6aa4dc19e9bdabc9aaddd84fa02ab34ff673279e9ec"
+      }
+    },
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_chowder-skill2.json",
+      "bytes": 413847,
+      "sha256": "3e7cfb7916b2ac9b3da14c96edce9170d84ef275507f62b5ffc65980ec85b9c3",
+      "source": {
+        "alias": "alternate",
+        "bytes": 829720,
+        "relativeContainer": "Nano_046.resourceFile",
+        "sha256": "fbf9c254aeb9539c07cab1c22f5f358d8d7746aa0faf80724517c7b4be38034f"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-Nano_046",
+        "type": "AnimationClip",
+        "pathId": 1982085174,
+        "name": "skill2",
+        "rawSha256": "597619ffe0fb7c3d3e230563c37a2fd154b238c70a4e90de15c29eb83f874740"
+      }
+    },
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_chowder-skill3.json",
+      "bytes": 487896,
+      "sha256": "31f12fa9a1ee25a41fe6cbcf287188dd1611719f5deccaedf090ff173706f6db",
+      "source": {
+        "alias": "alternate",
+        "bytes": 829720,
+        "relativeContainer": "Nano_046.resourceFile",
+        "sha256": "fbf9c254aeb9539c07cab1c22f5f358d8d7746aa0faf80724517c7b4be38034f"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-Nano_046",
+        "type": "AnimationClip",
+        "pathId": 671541331,
+        "name": "skill3",
+        "rawSha256": "5c1ad00171c4bc77d5ef298e4b5d2329a5f291c4e58d70c057c1d21bdf7737b8"
+      }
+    },
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_zaksaturday-owner.json",
+      "bytes": 14645,
+      "sha256": "0e42d4f2514ea8b7d892309ed28248f015e9b8d94c773c21d7bd1d2386345818",
+      "source": {
+        "alias": "alternate",
+        "bytes": 631334,
+        "relativeContainer": "Nano_049.resourceFile",
+        "sha256": "e6fe25af51adc13168ea260557af9392b25fabdb10eabdf8af6e272c6420e89d"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-Nano_049",
+        "type": "Animation",
+        "pathId": 3868737284,
+        "name": "",
+        "rawSha256": "e0a290be0f960f3302c328c78f0b15c5faac850a7003be8facbcb417ab80cf4d"
+      }
+    },
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_zaksaturday-call.json",
+      "bytes": 227267,
+      "sha256": "db841f6d30695bfdaa24ae8e5a4a96009414724d0fb8e5f81e1f983f1760c566",
+      "source": {
+        "alias": "alternate",
+        "bytes": 631334,
+        "relativeContainer": "Nano_049.resourceFile",
+        "sha256": "e6fe25af51adc13168ea260557af9392b25fabdb10eabdf8af6e272c6420e89d"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-Nano_049",
+        "type": "AnimationClip",
+        "pathId": 3621751189,
+        "name": "call",
+        "rawSha256": "24449751e0419188861badac2a68b8b9ea3946898a741af999ec94c680e4f389"
+      }
+    },
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_zaksaturday-skill1.json",
+      "bytes": 280604,
+      "sha256": "f8de1239029c268eef2dd559d3f2951eecf7ba138ebbbdf988ddbd144e2b7e4e",
+      "source": {
+        "alias": "alternate",
+        "bytes": 631334,
+        "relativeContainer": "Nano_049.resourceFile",
+        "sha256": "e6fe25af51adc13168ea260557af9392b25fabdb10eabdf8af6e272c6420e89d"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-Nano_049",
+        "type": "AnimationClip",
+        "pathId": 282365582,
+        "name": "skill1",
+        "rawSha256": "c2447a737b900ecc359e05c37fcccead8876e21c5f37cabeb9c5bc6ac4f0513b"
+      }
+    },
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_zaksaturday-skill2.json",
+      "bytes": 421765,
+      "sha256": "3d473429c92a88badfb387652131d439a863f534500d832fd286ba2c85a3eca7",
+      "source": {
+        "alias": "alternate",
+        "bytes": 631334,
+        "relativeContainer": "Nano_049.resourceFile",
+        "sha256": "e6fe25af51adc13168ea260557af9392b25fabdb10eabdf8af6e272c6420e89d"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-Nano_049",
+        "type": "AnimationClip",
+        "pathId": 3158146062,
+        "name": "skill2",
+        "rawSha256": "a28a1a5da7c8a3d510c44b387cf0baf1caadcbf4cc904b3025b17944d217a97d"
+      }
+    },
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_zaksaturday-skill3.json",
+      "bytes": 218856,
+      "sha256": "75fd3b48cf564a1af0a2e68509afe21e0f7b0fc387f16346c0935d904087722d",
+      "source": {
+        "alias": "alternate",
+        "bytes": 631334,
+        "relativeContainer": "Nano_049.resourceFile",
+        "sha256": "e6fe25af51adc13168ea260557af9392b25fabdb10eabdf8af6e272c6420e89d"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-Nano_049",
+        "type": "AnimationClip",
+        "pathId": 1667824429,
+        "name": "skill3",
+        "rawSha256": "2a8aec87cf529ae02318ee3a6d80367208bf9a3b636ef3ee316f3c062ad53208"
+      }
+    },
+    {
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/pirate-melee1.json",
+      "bytes": 12970,
+      "sha256": "798a42750041aac73b608016b6d86f5654e32e805210e4d06bbd04a1dabd5ad3",
+      "source": {
+        "alias": "primary",
+        "bytes": 4079280,
+        "relativeContainer": "DongResources_08_06.resourceFile",
+        "sha256": "782cda4c1c811a4d46139d441821b55fe386cc87156629f4387fddb39994ef2f"
+      },
+      "object": {
+        "serializedAsset": "CustomAssetBundle-a3962f73ba4214b50b6d88e38442b1c2",
+        "type": "AudioClip",
+        "pathId": 179,
+        "name": "Pirate_Melee1",
+        "rawSha256": "fd33cdee1a80c65c442f57a3a959304d43d322ee5f86ae9b3ef4c57b39c36b7e"
+      }
+    }
+  ],
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "DongResources_08_06.resourceFile",
+    "containerBytes": 4079280,
+    "containerSha256": "782cda4c1c811a4d46139d441821b55fe386cc87156629f4387fddb39994ef2f",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-a3962f73ba4214b50b6d88e38442b1c2",
+        "type": "AudioClip",
+        "pathId": 179,
+        "name": "Pirate_Melee1",
+        "rawSha256": "fd33cdee1a80c65c442f57a3a959304d43d322ee5f86ae9b3ef4c57b39c36b7e"
+      }
+    ]
+  },
+  "additionalSources": [
+    {
+      "alias": "alternate",
+      "relativeContainer": "Nano_044.resourceFile",
+      "containerBytes": 866900,
+      "containerSha256": "d58f2940ac87e786cd7b340af6616187ebd685e91b4624a29e6a51ddf66d76ca",
+      "objects": [
+        {
+          "serializedAsset": "CustomAssetBundle-Nano_044",
+          "type": "Animation",
+          "pathId": 2742116923,
+          "name": "",
+          "rawSha256": "340a1b66b5a6bacaa57d5bf2ec242b3147d506c6e6facb3ce0177bc9319f2ab2"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Nano_044",
+          "type": "AnimationClip",
+          "pathId": 354693194,
+          "name": "call",
+          "rawSha256": "5b40b1cfddd4a570847eb20d75639650355e5b13ac0e13632aec13fa5ac91b83"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Nano_044",
+          "type": "AnimationClip",
+          "pathId": 2820527001,
+          "name": "skill1",
+          "rawSha256": "2196f6e7f8f11b5af06f0d3312bc1ea115b45f6897cbea30e75a78ea7c98f71c"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Nano_044",
+          "type": "AnimationClip",
+          "pathId": 3615652454,
+          "name": "skill2",
+          "rawSha256": "11c599261aaeb73d47160999559086c57f5e8175a53b9b3fdbeae8ca66d5182c"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Nano_044",
+          "type": "AnimationClip",
+          "pathId": 708455227,
+          "name": "skill3",
+          "rawSha256": "1978e7ad27d07aca0948ea19f401bb8fe94f105d1d1b29d3fba63f67a2defd04"
+        }
+      ]
+    },
+    {
+      "alias": "alternate",
+      "relativeContainer": "Nano_046.resourceFile",
+      "containerBytes": 829720,
+      "containerSha256": "fbf9c254aeb9539c07cab1c22f5f358d8d7746aa0faf80724517c7b4be38034f",
+      "objects": [
+        {
+          "serializedAsset": "CustomAssetBundle-Nano_046",
+          "type": "Animation",
+          "pathId": 2187236750,
+          "name": "",
+          "rawSha256": "ec9e304cae5214eb18441adc69196f590666b68fea581cc925190b01a6a7a439"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Nano_046",
+          "type": "AnimationClip",
+          "pathId": 1511668751,
+          "name": "call",
+          "rawSha256": "d99d3fc4d33c1d0ce608c55946b9a2798e63652dce3e8df0a736bfc4afff3a87"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Nano_046",
+          "type": "AnimationClip",
+          "pathId": 1934724603,
+          "name": "skill1",
+          "rawSha256": "6eddd40066a6a107bd15f6aa4dc19e9bdabc9aaddd84fa02ab34ff673279e9ec"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Nano_046",
+          "type": "AnimationClip",
+          "pathId": 1982085174,
+          "name": "skill2",
+          "rawSha256": "597619ffe0fb7c3d3e230563c37a2fd154b238c70a4e90de15c29eb83f874740"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Nano_046",
+          "type": "AnimationClip",
+          "pathId": 671541331,
+          "name": "skill3",
+          "rawSha256": "5c1ad00171c4bc77d5ef298e4b5d2329a5f291c4e58d70c057c1d21bdf7737b8"
+        }
+      ]
+    },
+    {
+      "alias": "alternate",
+      "relativeContainer": "Nano_049.resourceFile",
+      "containerBytes": 631334,
+      "containerSha256": "e6fe25af51adc13168ea260557af9392b25fabdb10eabdf8af6e272c6420e89d",
+      "objects": [
+        {
+          "serializedAsset": "CustomAssetBundle-Nano_049",
+          "type": "Animation",
+          "pathId": 3868737284,
+          "name": "",
+          "rawSha256": "e0a290be0f960f3302c328c78f0b15c5faac850a7003be8facbcb417ab80cf4d"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Nano_049",
+          "type": "AnimationClip",
+          "pathId": 3621751189,
+          "name": "call",
+          "rawSha256": "24449751e0419188861badac2a68b8b9ea3946898a741af999ec94c680e4f389"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Nano_049",
+          "type": "AnimationClip",
+          "pathId": 282365582,
+          "name": "skill1",
+          "rawSha256": "c2447a737b900ecc359e05c37fcccead8876e21c5f37cabeb9c5bc6ac4f0513b"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Nano_049",
+          "type": "AnimationClip",
+          "pathId": 3158146062,
+          "name": "skill2",
+          "rawSha256": "a28a1a5da7c8a3d510c44b387cf0baf1caadcbf4cc904b3025b17944d217a97d"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Nano_049",
+          "type": "AnimationClip",
+          "pathId": 1667824429,
+          "name": "skill3",
+          "rawSha256": "2a8aec87cf529ae02318ee3a6d80367208bf9a3b636ef3ee316f3c062ad53208"
+        }
+      ]
+    }
+  ],
+  "verificationSummary": {
+    "independentReplays": "All five installed output hashes identical between replay-a and replay-b.",
+    "payloads": "96 EN/RU resolutions decoded; all waveforms have nonzero RMS.",
+    "existingSuite": "56 production-module tests passed on the installed assets (pre-existing test executable).",
+    "newTests": "Both new regressions passed in the fresh 59-test production-module executable.",
+    "runtimeBuild": "Fresh complete client and preview built; --validate-assets passed; all three Chowder skill captures visually verified.",
+    "limitations": "No live server combat audio capture was made. Titan BRockets recording remains unresolved. Direct source snapshot build was needed because independent tasks were changing shared UI APIs during the live builds."
+  },
+  "verification": [
+    {
+      "command": "python target/performance/pirate-nano-audio/verify-consumers.py (audio-tests stages)",
+      "result": "59 tests passed, including both new regressions",
+      "evidence": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/audio-tests.log",
+        "bytes": 6319,
+        "sha256": "092830c84afdcf268338e78535ef6e13578b8177b7c511b04d316a61b075b5d4"
+      }
+    },
+    {
+      "command": "python target/performance/pirate-nano-audio/verify-snapshot.py",
+      "result": "Real client library, main executable and preview built from a consistent source snapshot using the current development dependencies. Initial live builds hit unrelated concurrent UI API edits.",
+      "evidence": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/client-build.log",
+        "bytes": 381,
+        "sha256": "856435bae3550a9e0037cdd4f0abbfeabf2dce5dafeeca72cef5b0c9013c45b3"
+      },
+      "sourceSnapshot": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/source-snapshot.json",
+        "bytes": 37460,
+        "sha256": "2b8b0ffda86fda836e65783bb1f27886f01d9b4add3586c74c258ce7f1684ab7"
+      },
+      "executable": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/ffone-client.exe",
+        "bytes": 268825600,
+        "sha256": "33a2a9775abf08a4fef773d786387eaf82aed5733d8cf5587cb0497521ccddea"
+      }
+    },
+    {
+      "command": "target/performance/pirate-nano-audio/ffone-client.exe --validate-assets",
+      "result": "passed; table-data-v1 routing status ok",
+      "evidence": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/validate-assets.log",
+        "bytes": 294,
+        "sha256": "97c6d97fa2372c3369d8b85e2a88ae5fcb78230a7254ef23c0fa03429cb6c34d"
+      }
+    },
+    {
+      "command": "target/performance/pirate-nano-audio/nano-skill-preview.exe 55 target/performance/pirate-nano-audio/chowder-skill-1.png 1",
+      "result": "passed; active model after skill request; capture visually inspected with no skeleton distortion",
+      "evidence": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/chowder-skill-1.log",
+        "bytes": 575,
+        "sha256": "2127aa5ac3ee30af7bf20d08398b0929a9b21333845b484e504ce722101a9cff"
+      },
+      "capture": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/chowder-skill-1.png",
+        "bytes": 51060,
+        "sha256": "52af47f7224cd6438d7f3098b572e8ff0f43cbb54684780833f6cd2d209308d1"
+      }
+    },
+    {
+      "command": "target/performance/pirate-nano-audio/nano-skill-preview.exe 55 target/performance/pirate-nano-audio/chowder-skill-2.png 2",
+      "result": "passed; active model after skill request; capture visually inspected with no skeleton distortion",
+      "evidence": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/chowder-skill-2.log",
+        "bytes": 575,
+        "sha256": "ee5e1b1f06024d90244b7a4863255a197722bbb1fa9cf78557d36d240b39ec11"
+      },
+      "capture": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/chowder-skill-2.png",
+        "bytes": 48977,
+        "sha256": "90078995ee9b84306752e01b61b5e1b6731832bb730f53e8544b5e601a8da21e"
+      }
+    },
+    {
+      "command": "target/performance/pirate-nano-audio/nano-skill-preview.exe 55 target/performance/pirate-nano-audio/chowder-skill-3.png 3",
+      "result": "passed; active model after skill request; capture visually inspected with no skeleton distortion",
+      "evidence": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/chowder-skill-3.log",
+        "bytes": 575,
+        "sha256": "0dbfa1012102ead7eea8341202e50ec15c3406f624535a6b0900b69bdd664736"
+      },
+      "capture": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/chowder-skill-3.png",
+        "bytes": 49105,
+        "sha256": "1116673cb2ce069052f21a13bdcd4b5a9b127ae62123022a377e9520d6de78b7"
+      }
+    },
+    {
+      "command": "python tools/native/repair-nano-voice-events.py --source-root ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a --primary-root ../builds/retrobution-20260821 --target-root ../FFOneClient/assets/game --work work/cases/pirate-nano-audio-20260912/idempotence",
+      "result": "All five already-installed output hashes unchanged; existing Chowder clips require exact channel values and rest hierarchy equality before being retained.",
+      "evidence": {
+        "path": "work/cases/pirate-nano-audio-20260912/idempotence/publication.json",
+        "bytes": 12706,
+        "sha256": "1f9d771a706a705f93443f725baff970393a03b09918ff7a1a7aa3d1a1163fdb"
+      }
+    }
+  ]
+}

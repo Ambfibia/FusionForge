@@ -1,0 +1,2759 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "creation-expansion",
+  "sources": [
+    {
+      "alias": "primary",
+      "path": "CharTexture.resourceFile",
+      "sha256": "b22d64844a25dc6010d2b1bfbcf5120d57097d6e5a4602401ba7d85f17545586",
+      "bytes": 25185223
+    },
+    {
+      "alias": "primary",
+      "path": "main.unity3d",
+      "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+      "bytes": 8221718
+    }
+  ],
+  "steps": [
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2433,
+      "output": "characters/player/appearance/m_face_001_f.png",
+      "sha256": "1c72dadd236eff881534cab72522d0db188cb1085c8814caa7d6ae122eda3e7e",
+      "bytes": 11985,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_001_f"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2434,
+      "output": "characters/player/appearance/m_face_001_g.png",
+      "sha256": "878cf82b8e4ca7a2b0fa895a47c892968bd8668882699a5fd1205aa4d215cc5d",
+      "bytes": 12081,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_001_g"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2435,
+      "output": "characters/player/appearance/m_face_001_h.png",
+      "sha256": "4346567a549adbb12669b8438a38c7ae0097e9b0e74e52e7ecf6ec11e3105ee6",
+      "bytes": 12180,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_001_h"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2436,
+      "output": "characters/player/appearance/m_face_001_i.png",
+      "sha256": "3aaba8e6561627a8a58decab9cf386861c02e1ba8eb116d5ff6adac00347a581",
+      "bytes": 11956,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_001_i"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2437,
+      "output": "characters/player/appearance/m_face_001_j.png",
+      "sha256": "f9443dfae40107cdeeba664bc474147de41fb72158cca6ac0092711d531a3e1d",
+      "bytes": 12277,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_001_j"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2438,
+      "output": "characters/player/appearance/m_face_002_f.png",
+      "sha256": "f9b7219295a7db23362c8ad85b2e3882b704521adc9f400f4f981ed22359acc7",
+      "bytes": 11996,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_002_f"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2439,
+      "output": "characters/player/appearance/m_face_002_g.png",
+      "sha256": "89bfc86156c5ca0f19a905f134a242f17e18816514119e6d2a3496fe1e08cc14",
+      "bytes": 11961,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_002_g"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2440,
+      "output": "characters/player/appearance/m_face_002_h.png",
+      "sha256": "6255d92c16b5b58d7cfde29d5faf22de5e803a3d345d735c0f0bb3c27e5ae750",
+      "bytes": 12021,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_002_h"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2441,
+      "output": "characters/player/appearance/m_face_002_i.png",
+      "sha256": "62be9cee12b544b127e024037a254afa9b1f0e10fb211cb1f616e415b2fd2c31",
+      "bytes": 11746,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_002_i"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2442,
+      "output": "characters/player/appearance/m_face_002_j.png",
+      "sha256": "9f9266e37af79c4284586573ddff4445494e902ef735257be89deb6c9aa6354e",
+      "bytes": 12254,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_002_j"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2443,
+      "output": "characters/player/appearance/m_face_003_f.png",
+      "sha256": "92773e59fc691c73d99b1f733b3624dcabe0c2059fb8a44024afefd6e2616bd3",
+      "bytes": 13211,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_003_f"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2444,
+      "output": "characters/player/appearance/m_face_003_g.png",
+      "sha256": "798540267e45f2f08ac6c3562d850ecbe3fc38df54ddd44d5cccf31f20297a25",
+      "bytes": 13107,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_003_g"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2445,
+      "output": "characters/player/appearance/m_face_003_h.png",
+      "sha256": "1c98c41c1abb89d1bf7438970179905365fc5b151a5ac5979373775ce1e6541f",
+      "bytes": 12993,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_003_h"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2446,
+      "output": "characters/player/appearance/m_face_003_i.png",
+      "sha256": "83c0d99b10ee07d1cdd19cad861b4838260565185d12c72ce4a3c3fd11bd27f1",
+      "bytes": 12975,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_003_i"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2447,
+      "output": "characters/player/appearance/m_face_003_j.png",
+      "sha256": "c06f428c2631b5a21241138cba9ef546446b24644ca949476259780d72e68a1b",
+      "bytes": 13309,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_003_j"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2448,
+      "output": "characters/player/appearance/m_face_004_f.png",
+      "sha256": "db0a7470a34eec214614c3a3f2333590626b307caf7870bf75c3085c24e790e6",
+      "bytes": 11313,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_004_f"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2449,
+      "output": "characters/player/appearance/m_face_004_g.png",
+      "sha256": "e3dc6f001bedb2e9a873c316cc7a99d23d517686c12e8c3629e955315f00eed1",
+      "bytes": 11268,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_004_g"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2450,
+      "output": "characters/player/appearance/m_face_004_h.png",
+      "sha256": "62b844652cd86179a2316953d22844e7d87c220bacdf0035edb3a8c77fdeecbf",
+      "bytes": 11352,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_004_h"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2451,
+      "output": "characters/player/appearance/m_face_004_i.png",
+      "sha256": "b9e077909ecae7405e09438347e5df02abab32edca4f877c005b343919fb70e9",
+      "bytes": 11124,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_004_i"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2452,
+      "output": "characters/player/appearance/m_face_004_j.png",
+      "sha256": "ec39e87fea2d19a577b37a88a233410311a6f9c3239be6e73af7e9b04e5ab626",
+      "bytes": 11497,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_004_j"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2453,
+      "output": "characters/player/appearance/m_face_005_f.png",
+      "sha256": "4dacd280a7cc428b0aeec80d0f1783d3916358c59fc6f7a50119ccffe3818bdb",
+      "bytes": 10739,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_005_f"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2454,
+      "output": "characters/player/appearance/m_face_005_g.png",
+      "sha256": "d4dd7032b634f7df70486595e7ac6e836658523a75fa02a69b325c874079d383",
+      "bytes": 10710,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_005_g"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2455,
+      "output": "characters/player/appearance/m_face_005_h.png",
+      "sha256": "25cd50f785f342e19b827edfa3990bdc7287e74bb36930f168bdb4337fb83879",
+      "bytes": 10721,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_005_h"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2456,
+      "output": "characters/player/appearance/m_face_005_i.png",
+      "sha256": "7134e8b85dc90ebab01ee4a550292d147f9b133774cabbd20963273764b99097",
+      "bytes": 10716,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_005_i"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2457,
+      "output": "characters/player/appearance/m_face_005_j.png",
+      "sha256": "ab6b642e203460e0a71834f6678bfd108325d9b0e0979c5397afdfe5248386cd",
+      "bytes": 10910,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "m_face_005_j"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2458,
+      "output": "characters/player/appearance/f_face_001_f.png",
+      "sha256": "909f60652d65791ec73c1b2e350b3e9cc0b564f7b7cc0b13383cba0272d27b7c",
+      "bytes": 11012,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_001_f"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2459,
+      "output": "characters/player/appearance/f_face_001_g.png",
+      "sha256": "b8052f36aad0c57f57dad5838bc0dd6776b9345df985702c74834755080056d6",
+      "bytes": 10994,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_001_g"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2460,
+      "output": "characters/player/appearance/f_face_001_h.png",
+      "sha256": "33322ec232b74544ec7eb4c497c882c6f7ef95bfaa73c0b7636829b721f3a3d9",
+      "bytes": 11038,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_001_h"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2461,
+      "output": "characters/player/appearance/f_face_001_i.png",
+      "sha256": "253c84126ca52faa830d71cccecc6b73c8fb3b2ed30999b5abc820ab70f94d1f",
+      "bytes": 10576,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_001_i"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2462,
+      "output": "characters/player/appearance/f_face_001_j.png",
+      "sha256": "81ac66cac3bdb5372625b4ad2a623b990a4bd9a7273c8f8bc8155ea0960d0b41",
+      "bytes": 10267,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_001_j"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2463,
+      "output": "characters/player/appearance/f_face_002_f.png",
+      "sha256": "dc1929cbdc20d750f03dbebb5f0803177773b7587469efe7e0c73937464b7ae8",
+      "bytes": 10507,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_002_f"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2464,
+      "output": "characters/player/appearance/f_face_002_g.png",
+      "sha256": "cc495758b333c11ad0eac670c98487a0c1cb5188eebf4cd9c153584079f77b6b",
+      "bytes": 10612,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_002_g"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2465,
+      "output": "characters/player/appearance/f_face_002_h.png",
+      "sha256": "a08ff0ffc902a38027938d4cc3d87780e1f792722e07f087f0ebf8d6ad83fe1e",
+      "bytes": 10627,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_002_h"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2466,
+      "output": "characters/player/appearance/f_face_002_i.png",
+      "sha256": "7105d0bb726ca2715bf24f11c7372d2693e23ff7bd921a1f1d927e81f4a4e3aa",
+      "bytes": 10200,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_002_i"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2467,
+      "output": "characters/player/appearance/f_face_002_j.png",
+      "sha256": "50851e7be6ed486bba6f28b941167d1cd2f4a38f7917b6dbbc32f4bfc535bda5",
+      "bytes": 9849,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_002_j"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2468,
+      "output": "characters/player/appearance/f_face_003_f.png",
+      "sha256": "22f30b516167d082aea17e7c08add6341d6f457acfef0b5a3d31de17fcc0e0d4",
+      "bytes": 10954,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_003_f"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2469,
+      "output": "characters/player/appearance/f_face_003_g.png",
+      "sha256": "b98d72dd5e3e49086d67c95f32c635b0587afb11ee58f4d44d3b64ed4405e420",
+      "bytes": 10964,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_003_g"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2470,
+      "output": "characters/player/appearance/f_face_003_h.png",
+      "sha256": "fa4ba70244120817f590e39884ca9fb59e4d533b103cef823b947bb2c0f2dd44",
+      "bytes": 10761,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_003_h"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2471,
+      "output": "characters/player/appearance/f_face_003_i.png",
+      "sha256": "2e7d209e84bfbcb1328da5bbf21abde853b00f0dbd0d53e432931752dc4fe993",
+      "bytes": 10831,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_003_i"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2472,
+      "output": "characters/player/appearance/f_face_003_j.png",
+      "sha256": "a5b55996a48878b682c6a84b3a8b133d9f24dc02b2a4b46ed5ce6c64188aa722",
+      "bytes": 10152,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_003_j"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2473,
+      "output": "characters/player/appearance/f_face_004_f.png",
+      "sha256": "f2b2f6d7c8e257bf6a5a2ba8bc16a9b2287752a39cefc447efe9686f9f9d07d3",
+      "bytes": 9908,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_004_f"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2474,
+      "output": "characters/player/appearance/f_face_004_g.png",
+      "sha256": "16a06a26e6bfdacbfd502dd7bdaefa0402160a5f79331ec998a4a9151a5f2af3",
+      "bytes": 9812,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_004_g"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2475,
+      "output": "characters/player/appearance/f_face_004_h.png",
+      "sha256": "eb2f5c34c2ab65c2b34517906ae4b7f58088a302fa1d253e0a5fb116eb620f3f",
+      "bytes": 9827,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_004_h"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2476,
+      "output": "characters/player/appearance/f_face_004_i.png",
+      "sha256": "85607b4d535d9a3780a9426605228502a887cfff7b1f074438bd58b6d6d398ea",
+      "bytes": 9629,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_004_i"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2477,
+      "output": "characters/player/appearance/f_face_004_j.png",
+      "sha256": "368dc40752041d377faeefec90a70b214546e3dc5acee59f277f0bdb82b2bbbe",
+      "bytes": 10000,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_004_j"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2478,
+      "output": "characters/player/appearance/f_face_005_f.png",
+      "sha256": "4b26dd47ed3d637331977e548a52dba4356e157ca22970503fe51a3a8f42f75a",
+      "bytes": 9351,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_005_f"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2479,
+      "output": "characters/player/appearance/f_face_005_g.png",
+      "sha256": "229de7c4cb212918062d7f852e319eff6242436abbb552a8777956ba0860a1aa",
+      "bytes": 9359,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_005_g"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2480,
+      "output": "characters/player/appearance/f_face_005_h.png",
+      "sha256": "5454d0e1932ea18d298c0ac343d01a121f08a820db0362dd2d69cb124fa9f2c6",
+      "bytes": 9366,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_005_h"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2481,
+      "output": "characters/player/appearance/f_face_005_i.png",
+      "sha256": "52702d01a18b46e00c499feff2d9fc8361e54fea7ad70853314137250ed26404",
+      "bytes": 9240,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_005_i"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "pathId": 2482,
+      "output": "characters/player/appearance/f_face_005_j.png",
+      "sha256": "94a6458868d867015ac7fb96717d0fad5d94df89c7800d0714cd57d2e81d5aec",
+      "bytes": 9558,
+      "assertions": [
+        {
+          "pointer": "/name",
+          "equals": "f_face_005_j"
+        },
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "native-json",
+      "output": "data/character_creation/customization.json",
+      "value": {
+        "schema": "ffone.character-customization.v1",
+        "skin": [
+          [
+            0.22745098039215686,
+            0.15294117647058825,
+            0.09803921568627451,
+            1.0
+          ],
+          [
+            0.3568627450980392,
+            0.29411764705882354,
+            0.1607843137254902,
+            1.0
+          ],
+          [
+            0.396078431372549,
+            0.30980392156862746,
+            0.22745098039215686,
+            1.0
+          ],
+          [
+            0.592156862745098,
+            0.40784313725490196,
+            0.32941176470588235,
+            1.0
+          ],
+          [
+            0.5411764705882353,
+            0.4666666666666667,
+            0.3843137254901961,
+            1.0
+          ],
+          [
+            0.592156862745098,
+            0.5058823529411764,
+            0.3254901960784314,
+            1.0
+          ],
+          [
+            0.7176470588235294,
+            0.5058823529411764,
+            0.40784313725490196,
+            1.0
+          ],
+          [
+            0.7098039215686275,
+            0.5764705882352941,
+            0.43137254901960786,
+            1.0
+          ],
+          [
+            0.8980392156862745,
+            0.7294117647058823,
+            0.5529411764705883,
+            1.0
+          ],
+          [
+            0.9294117647058824,
+            0.8509803921568627,
+            0.6274509803921569,
+            1.0
+          ],
+          [
+            0.9725490196078431,
+            0.8392156862745098,
+            0.8,
+            1.0
+          ],
+          [
+            0.8274509803921568,
+            0.8588235294117647,
+            0.8784313725490196,
+            1.0
+          ],
+          [
+            0.2784313725490196,
+            0.16862745098039217,
+            0.12549019607843137,
+            1.0
+          ],
+          [
+            0.35294117647058826,
+            0.21568627450980393,
+            0.16862745098039217,
+            1.0
+          ],
+          [
+            0.4235294117647059,
+            0.2823529411764706,
+            0.22745098039215686,
+            1.0
+          ],
+          [
+            0.5686274509803921,
+            0.4588235294117647,
+            0.40784313725490196,
+            1.0
+          ],
+          [
+            0.6196078431372549,
+            0.48627450980392156,
+            0.37254901960784315,
+            1.0
+          ],
+          [
+            0.7803921568627451,
+            0.5686274509803921,
+            0.43529411764705883,
+            1.0
+          ],
+          [
+            0.7098039215686275,
+            0.48627450980392156,
+            0.2627450980392157,
+            1.0
+          ],
+          [
+            0.7294117647058823,
+            0.5333333333333333,
+            0.36470588235294116,
+            1.0
+          ],
+          [
+            0.8313725490196079,
+            0.6470588235294118,
+            0.4980392156862745,
+            1.0
+          ],
+          [
+            0.9215686274509803,
+            0.7294117647058823,
+            0.49019607843137253,
+            1.0
+          ],
+          [
+            1.0,
+            0.7843137254901961,
+            0.7450980392156863,
+            1.0
+          ],
+          [
+            0.9803921568627451,
+            0.9019607843137255,
+            0.8196078431372549,
+            1.0
+          ],
+          [
+            0.30196078431372547,
+            0.22745098039215686,
+            0.28627450980392155,
+            1.0
+          ],
+          [
+            0.3607843137254902,
+            0.2901960784313726,
+            0.34509803921568627,
+            1.0
+          ],
+          [
+            0.5098039215686274,
+            0.4117647058823529,
+            0.4745098039215686,
+            1.0
+          ],
+          [
+            0.5686274509803921,
+            0.4196078431372549,
+            0.4627450980392157,
+            1.0
+          ],
+          [
+            0.6862745098039216,
+            0.4588235294117647,
+            0.4666666666666667,
+            1.0
+          ],
+          [
+            0.8549019607843137,
+            0.615686274509804,
+            0.615686274509804,
+            1.0
+          ],
+          [
+            0.403921568627451,
+            0.17647058823529413,
+            0.13333333333333333,
+            1.0
+          ],
+          [
+            0.48627450980392156,
+            0.21568627450980393,
+            0.1803921568627451,
+            1.0
+          ],
+          [
+            0.6313725490196078,
+            0.3176470588235294,
+            0.25098039215686274,
+            1.0
+          ],
+          [
+            0.6941176470588235,
+            0.3764705882352941,
+            0.25098039215686274,
+            1.0
+          ],
+          [
+            0.7058823529411765,
+            0.4823529411764706,
+            0.32941176470588235,
+            1.0
+          ],
+          [
+            0.8666666666666667,
+            0.6274509803921569,
+            0.4666666666666667,
+            1.0
+          ],
+          [
+            0.9882352941176471,
+            1.0,
+            0.2196078431372549,
+            1.0
+          ],
+          [
+            1.0,
+            0.41568627450980394,
+            0.0,
+            1.0
+          ],
+          [
+            0.7568627450980392,
+            0.17647058823529413,
+            0.1411764705882353,
+            1.0
+          ],
+          [
+            0.7215686274509804,
+            0.8823529411764706,
+            0.11372549019607843,
+            1.0
+          ],
+          [
+            0.6235294117647059,
+            0.8235294117647058,
+            0.615686274509804,
+            1.0
+          ],
+          [
+            0.3176470588235294,
+            0.6431372549019608,
+            0.37254901960784315,
+            1.0
+          ],
+          [
+            0.36470588235294116,
+            0.984313725490196,
+            1.0,
+            1.0
+          ],
+          [
+            0.36470588235294116,
+            0.7490196078431373,
+            1.0,
+            1.0
+          ],
+          [
+            0.13725490196078433,
+            0.48627450980392156,
+            0.8705882352941177,
+            1.0
+          ],
+          [
+            0.5254901960784314,
+            0.4117647058823529,
+            0.7137254901960784,
+            1.0
+          ],
+          [
+            0.9607843137254902,
+            0.5764705882352941,
+            0.9529411764705882,
+            1.0
+          ],
+          [
+            0.9490196078431372,
+            0.9490196078431372,
+            0.9686274509803922,
+            1.0
+          ]
+        ],
+        "hair": [
+          [
+            0.996078431372549,
+            0.996078431372549,
+            0.996078431372549,
+            1.0
+          ],
+          [
+            0.5411764705882353,
+            0.5647058823529412,
+            0.611764705882353,
+            1.0
+          ],
+          [
+            0.054901960784313725,
+            0.054901960784313725,
+            0.054901960784313725,
+            1.0
+          ],
+          [
+            0.8588235294117647,
+            0.5725490196078431,
+            0.6078431372549019,
+            1.0
+          ],
+          [
+            0.5764705882352941,
+            0.28627450980392155,
+            0.19215686274509805,
+            1.0
+          ],
+          [
+            0.8431372549019608,
+            0.24313725490196078,
+            0.03529411764705882,
+            1.0
+          ],
+          [
+            0.7294117647058823,
+            0.7803921568627451,
+            0.9058823529411765,
+            1.0
+          ],
+          [
+            0.5372549019607843,
+            0.07450980392156863,
+            0.6235294117647059,
+            1.0
+          ],
+          [
+            0.2549019607843137,
+            0.0392156862745098,
+            0.6196078431372549,
+            1.0
+          ],
+          [
+            0.43529411764705883,
+            0.807843137254902,
+            0.7019607843137254,
+            1.0
+          ],
+          [
+            0.058823529411764705,
+            0.8196078431372549,
+            0.0392156862745098,
+            1.0
+          ],
+          [
+            0.09803921568627451,
+            0.49019607843137253,
+            0.16470588235294117,
+            1.0
+          ],
+          [
+            0.9372549019607843,
+            0.9137254901960784,
+            0.6705882352941176,
+            1.0
+          ],
+          [
+            0.9372549019607843,
+            0.8470588235294118,
+            0.4117647058823529,
+            1.0
+          ],
+          [
+            0.0392156862745098,
+            0.6,
+            0.9647058823529412,
+            1.0
+          ],
+          [
+            0.9450980392156862,
+            0.5215686274509804,
+            0.027450980392156862,
+            1.0
+          ],
+          [
+            0.49019607843137253,
+            0.3176470588235294,
+            0.26666666666666666,
+            1.0
+          ],
+          [
+            0.3137254901960784,
+            0.1843137254901961,
+            0.16470588235294117,
+            1.0
+          ],
+          [
+            0.9607843137254902,
+            0.9372549019607843,
+            0.8784313725490196,
+            1.0
+          ],
+          [
+            0.6039215686274509,
+            0.5568627450980392,
+            0.5019607843137255,
+            1.0
+          ],
+          [
+            0.11764705882352941,
+            0.10196078431372549,
+            0.09411764705882353,
+            1.0
+          ],
+          [
+            0.7843137254901961,
+            0.5176470588235295,
+            0.5490196078431373,
+            1.0
+          ],
+          [
+            0.47843137254901963,
+            0.25882352941176473,
+            0.1568627450980392,
+            1.0
+          ],
+          [
+            0.7215686274509804,
+            0.2823529411764706,
+            0.09411764705882353,
+            1.0
+          ],
+          [
+            0.5411764705882353,
+            0.6666666666666666,
+            0.7529411764705882,
+            1.0
+          ],
+          [
+            0.41568627450980394,
+            0.2823529411764706,
+            0.5019607843137255,
+            1.0
+          ],
+          [
+            0.2196078431372549,
+            0.09411764705882353,
+            0.40784313725490196,
+            1.0
+          ],
+          [
+            0.35294117647058826,
+            0.596078431372549,
+            0.47058823529411764,
+            1.0
+          ],
+          [
+            0.47058823529411764,
+            0.596078431372549,
+            0.1568627450980392,
+            1.0
+          ],
+          [
+            0.2196078431372549,
+            0.2901960784313726,
+            0.09411764705882353,
+            1.0
+          ],
+          [
+            0.9098039215686274,
+            0.8470588235294118,
+            0.596078431372549,
+            1.0
+          ],
+          [
+            0.7843137254901961,
+            0.5647058823529412,
+            0.12549019607843137,
+            1.0
+          ],
+          [
+            0.1568627450980392,
+            0.47058823529411764,
+            0.7529411764705882,
+            1.0
+          ],
+          [
+            0.7686274509803922,
+            0.3137254901960784,
+            0.06274509803921569,
+            1.0
+          ],
+          [
+            0.5411764705882353,
+            0.3764705882352941,
+            0.25098039215686274,
+            1.0
+          ],
+          [
+            0.2823529411764706,
+            0.18823529411764706,
+            0.12549019607843137,
+            1.0
+          ],
+          [
+            0.9019607843137255,
+            1.0,
+            1.0,
+            1.0
+          ],
+          [
+            0.7725490196078432,
+            0.6784313725490196,
+            0.7372549019607844,
+            1.0
+          ],
+          [
+            0.13333333333333333,
+            0.10588235294117647,
+            0.1843137254901961,
+            1.0
+          ],
+          [
+            0.0,
+            0.9411764705882353,
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.6509803921568628,
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.3176470588235294,
+            1.0,
+            1.0
+          ],
+          [
+            0.47843137254901963,
+            0.0,
+            1.0,
+            1.0
+          ],
+          [
+            0.8313725490196079,
+            0.0,
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.7843137254901961,
+            1.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.4,
+            1.0
+          ],
+          [
+            1.0,
+            0.1411764705882353,
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.41568627450980394,
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.6901960784313725,
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.9490196078431372,
+            0.0,
+            1.0
+          ],
+          [
+            0.7764705882352941,
+            1.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.3568627450980392,
+            1.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.5215686274509804,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.8,
+            1.0
+          ]
+        ],
+        "eye": [
+          [
+            0.7843137254901961,
+            0.8627450980392157,
+            0.27450980392156865,
+            1.0
+          ],
+          [
+            0.03137254901960784,
+            0.3215686274509804,
+            0.792156862745098,
+            1.0
+          ],
+          [
+            0.050980392156862744,
+            0.5529411764705883,
+            0.15294117647058825,
+            1.0
+          ],
+          [
+            0.4980392156862745,
+            0.2823529411764706,
+            0.12549019607843137,
+            1.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.1568627450980392,
+            1.0,
+            0.9058823529411765,
+            1.0
+          ],
+          [
+            0.6666666666666666,
+            0.1568627450980392,
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.1568627450980392,
+            0.8509803921568627,
+            1.0
+          ],
+          [
+            1.0,
+            0.1568627450980392,
+            0.2901960784313726,
+            1.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "creationSkinCount": 36,
+        "textures": [
+          {
+            "trueName": "m_face_001_f",
+            "image": {
+              "path": "characters/player/appearance/m_face_001_f.png",
+              "bytes": 11985,
+              "blake3": "d696d0ee10f29e522a4c8badf51070380a4192c938a08555571912dc51da11ab"
+            },
+            "sha256": "1c72dadd236eff881534cab72522d0db188cb1085c8814caa7d6ae122eda3e7e",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_001_g",
+            "image": {
+              "path": "characters/player/appearance/m_face_001_g.png",
+              "bytes": 12081,
+              "blake3": "3fefd17225ceb0ff6314c6a43266d4aaf3f7d9a1ca9cd91e70310ffb31f38993"
+            },
+            "sha256": "878cf82b8e4ca7a2b0fa895a47c892968bd8668882699a5fd1205aa4d215cc5d",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_001_h",
+            "image": {
+              "path": "characters/player/appearance/m_face_001_h.png",
+              "bytes": 12180,
+              "blake3": "905ff25636f9e24c1383a9a7e5a3be6a9460fdbcf286fc12ae88bae35b3e2157"
+            },
+            "sha256": "4346567a549adbb12669b8438a38c7ae0097e9b0e74e52e7ecf6ec11e3105ee6",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_001_i",
+            "image": {
+              "path": "characters/player/appearance/m_face_001_i.png",
+              "bytes": 11956,
+              "blake3": "0c01b920d665ec61d9890b78c49123442934e55ddc8d32961a3ce525089363c8"
+            },
+            "sha256": "3aaba8e6561627a8a58decab9cf386861c02e1ba8eb116d5ff6adac00347a581",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_001_j",
+            "image": {
+              "path": "characters/player/appearance/m_face_001_j.png",
+              "bytes": 12277,
+              "blake3": "eb41db2efd563fae088c19abc911a3d25f875616486c168de3175fccda417c50"
+            },
+            "sha256": "f9443dfae40107cdeeba664bc474147de41fb72158cca6ac0092711d531a3e1d",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_002_f",
+            "image": {
+              "path": "characters/player/appearance/m_face_002_f.png",
+              "bytes": 11996,
+              "blake3": "8903ed34334e00e1393b57ca73c11243d915b06cc1a9bf582dce92166ad53b10"
+            },
+            "sha256": "f9b7219295a7db23362c8ad85b2e3882b704521adc9f400f4f981ed22359acc7",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_002_g",
+            "image": {
+              "path": "characters/player/appearance/m_face_002_g.png",
+              "bytes": 11961,
+              "blake3": "38fea2763eba69fef5f1bbc479d26a5eeee23cb47f8bd3dc21a0e04b9ebbe092"
+            },
+            "sha256": "89bfc86156c5ca0f19a905f134a242f17e18816514119e6d2a3496fe1e08cc14",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_002_h",
+            "image": {
+              "path": "characters/player/appearance/m_face_002_h.png",
+              "bytes": 12021,
+              "blake3": "bd695c0b727ef1f4798747e5bdbe864d1bedd4da965c8baf020e96459db0f808"
+            },
+            "sha256": "6255d92c16b5b58d7cfde29d5faf22de5e803a3d345d735c0f0bb3c27e5ae750",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_002_i",
+            "image": {
+              "path": "characters/player/appearance/m_face_002_i.png",
+              "bytes": 11746,
+              "blake3": "1086b72f08aea99b1f88ffbc2372a4383e0769b5fecf795120410e87aaadc510"
+            },
+            "sha256": "62be9cee12b544b127e024037a254afa9b1f0e10fb211cb1f616e415b2fd2c31",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_002_j",
+            "image": {
+              "path": "characters/player/appearance/m_face_002_j.png",
+              "bytes": 12254,
+              "blake3": "93182d77eebbd0d70b0e9ae68b4bd6bb88586cf7dfb5556d13752ca45e7ac61e"
+            },
+            "sha256": "9f9266e37af79c4284586573ddff4445494e902ef735257be89deb6c9aa6354e",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_003_f",
+            "image": {
+              "path": "characters/player/appearance/m_face_003_f.png",
+              "bytes": 13211,
+              "blake3": "d18f617d38dfd4336ee11b90b661e967bb6aa321bc66a9f28037a69a375d8940"
+            },
+            "sha256": "92773e59fc691c73d99b1f733b3624dcabe0c2059fb8a44024afefd6e2616bd3",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_003_g",
+            "image": {
+              "path": "characters/player/appearance/m_face_003_g.png",
+              "bytes": 13107,
+              "blake3": "67b0f3f7ec11045e030e2903659cbc5974fa186e37985e6b8c4ed0ce84f37adc"
+            },
+            "sha256": "798540267e45f2f08ac6c3562d850ecbe3fc38df54ddd44d5cccf31f20297a25",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_003_h",
+            "image": {
+              "path": "characters/player/appearance/m_face_003_h.png",
+              "bytes": 12993,
+              "blake3": "93dedb668c156013f5c4a8af7e6556cf184f1b43d49eaec74295df9886e77123"
+            },
+            "sha256": "1c98c41c1abb89d1bf7438970179905365fc5b151a5ac5979373775ce1e6541f",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_003_i",
+            "image": {
+              "path": "characters/player/appearance/m_face_003_i.png",
+              "bytes": 12975,
+              "blake3": "08950edac42cafbabcb3ada70875225d8c104a436d88bf254a789dd7f415c6f7"
+            },
+            "sha256": "83c0d99b10ee07d1cdd19cad861b4838260565185d12c72ce4a3c3fd11bd27f1",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_003_j",
+            "image": {
+              "path": "characters/player/appearance/m_face_003_j.png",
+              "bytes": 13309,
+              "blake3": "e4724a28cc478e77cb62ccd93d4d69e25d02129b21ae0af51602da67359ddd71"
+            },
+            "sha256": "c06f428c2631b5a21241138cba9ef546446b24644ca949476259780d72e68a1b",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_004_f",
+            "image": {
+              "path": "characters/player/appearance/m_face_004_f.png",
+              "bytes": 11313,
+              "blake3": "9d0ce63c4af5212257719279cb277b55243b10116364e79ecde052d758a5486a"
+            },
+            "sha256": "db0a7470a34eec214614c3a3f2333590626b307caf7870bf75c3085c24e790e6",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_004_g",
+            "image": {
+              "path": "characters/player/appearance/m_face_004_g.png",
+              "bytes": 11268,
+              "blake3": "15081398913bec4b9ba1da9f7dfb9411701a9469cec740ad79811d9a4efb5dde"
+            },
+            "sha256": "e3dc6f001bedb2e9a873c316cc7a99d23d517686c12e8c3629e955315f00eed1",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_004_h",
+            "image": {
+              "path": "characters/player/appearance/m_face_004_h.png",
+              "bytes": 11352,
+              "blake3": "ae12ac9c2aea5ce831b2249112d872d1bb81a144a78eedf50e25d7c493c6db57"
+            },
+            "sha256": "62b844652cd86179a2316953d22844e7d87c220bacdf0035edb3a8c77fdeecbf",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_004_i",
+            "image": {
+              "path": "characters/player/appearance/m_face_004_i.png",
+              "bytes": 11124,
+              "blake3": "1759bfac84b1302154bfb9d1d72e8f63340544d26d7671855fe141fa7b145929"
+            },
+            "sha256": "b9e077909ecae7405e09438347e5df02abab32edca4f877c005b343919fb70e9",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_004_j",
+            "image": {
+              "path": "characters/player/appearance/m_face_004_j.png",
+              "bytes": 11497,
+              "blake3": "10545b9a1fd7c2c1a97f8f8da875e9144db2f138e505c884259b8eddc314f2c2"
+            },
+            "sha256": "ec39e87fea2d19a577b37a88a233410311a6f9c3239be6e73af7e9b04e5ab626",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_005_f",
+            "image": {
+              "path": "characters/player/appearance/m_face_005_f.png",
+              "bytes": 10739,
+              "blake3": "c138ed606e46e23d0f733aa5fe3358f594dfdcbb1a4e757d6c230b9acf5642c9"
+            },
+            "sha256": "4dacd280a7cc428b0aeec80d0f1783d3916358c59fc6f7a50119ccffe3818bdb",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_005_g",
+            "image": {
+              "path": "characters/player/appearance/m_face_005_g.png",
+              "bytes": 10710,
+              "blake3": "93936294ee260f4a64a460f0a503eb3a544fb686f8d233bf8e90829e53d6c9d7"
+            },
+            "sha256": "d4dd7032b634f7df70486595e7ac6e836658523a75fa02a69b325c874079d383",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_005_h",
+            "image": {
+              "path": "characters/player/appearance/m_face_005_h.png",
+              "bytes": 10721,
+              "blake3": "d99891f6b483cfb53c66e346fb5be234f7cd6ad35c64e7d2c4178c4d03cd12bd"
+            },
+            "sha256": "25cd50f785f342e19b827edfa3990bdc7287e74bb36930f168bdb4337fb83879",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_005_i",
+            "image": {
+              "path": "characters/player/appearance/m_face_005_i.png",
+              "bytes": 10716,
+              "blake3": "31fa7992307f1587f8f30e488322085be1bf2d398a6a080d7e31bf0a5bcc09c8"
+            },
+            "sha256": "7134e8b85dc90ebab01ee4a550292d147f9b133774cabbd20963273764b99097",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "m_face_005_j",
+            "image": {
+              "path": "characters/player/appearance/m_face_005_j.png",
+              "bytes": 10910,
+              "blake3": "002d5a4a1bad9aac0928d6a44cabe59c011817360b42db9c467ad8e775a95787"
+            },
+            "sha256": "ab6b642e203460e0a71834f6678bfd108325d9b0e0979c5397afdfe5248386cd",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_001_f",
+            "image": {
+              "path": "characters/player/appearance/f_face_001_f.png",
+              "bytes": 11012,
+              "blake3": "ea7aeea6080cc7658e02c4a6ae6cec52be7b27430db9881519d1761e5a48329a"
+            },
+            "sha256": "909f60652d65791ec73c1b2e350b3e9cc0b564f7b7cc0b13383cba0272d27b7c",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_001_g",
+            "image": {
+              "path": "characters/player/appearance/f_face_001_g.png",
+              "bytes": 10994,
+              "blake3": "5dbc862b103444cc804df1f63a3f92e3fe8bcf6b6b5668ea3cb5d3aa545c463b"
+            },
+            "sha256": "b8052f36aad0c57f57dad5838bc0dd6776b9345df985702c74834755080056d6",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_001_h",
+            "image": {
+              "path": "characters/player/appearance/f_face_001_h.png",
+              "bytes": 11038,
+              "blake3": "8f62af503bf594535f269d09a8b872d13de44d305cc1d4108c6eff064e6e986c"
+            },
+            "sha256": "33322ec232b74544ec7eb4c497c882c6f7ef95bfaa73c0b7636829b721f3a3d9",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_001_i",
+            "image": {
+              "path": "characters/player/appearance/f_face_001_i.png",
+              "bytes": 10576,
+              "blake3": "9a006dd4a85a80eeb1357aaffef40c83631395df1e55d869d6721a8a0860b5ad"
+            },
+            "sha256": "253c84126ca52faa830d71cccecc6b73c8fb3b2ed30999b5abc820ab70f94d1f",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_001_j",
+            "image": {
+              "path": "characters/player/appearance/f_face_001_j.png",
+              "bytes": 10267,
+              "blake3": "1902aed30d3bc114cf9da912fe1e77d8732681b8db03f7b18ff57c7bd75e90a1"
+            },
+            "sha256": "81ac66cac3bdb5372625b4ad2a623b990a4bd9a7273c8f8bc8155ea0960d0b41",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_002_f",
+            "image": {
+              "path": "characters/player/appearance/f_face_002_f.png",
+              "bytes": 10507,
+              "blake3": "525a6893a09e330f168b91010b00fed3e33da012563b703aec78be46559c0c58"
+            },
+            "sha256": "dc1929cbdc20d750f03dbebb5f0803177773b7587469efe7e0c73937464b7ae8",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_002_g",
+            "image": {
+              "path": "characters/player/appearance/f_face_002_g.png",
+              "bytes": 10612,
+              "blake3": "a84f315f1eea607929136982c159fc13969fad3fb244630bd0ce95ff930a95c3"
+            },
+            "sha256": "cc495758b333c11ad0eac670c98487a0c1cb5188eebf4cd9c153584079f77b6b",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_002_h",
+            "image": {
+              "path": "characters/player/appearance/f_face_002_h.png",
+              "bytes": 10627,
+              "blake3": "56bbab2fe00539b19fccb23774a517e22a124205fd24f6a001a9a93e96c3fd7d"
+            },
+            "sha256": "a08ff0ffc902a38027938d4cc3d87780e1f792722e07f087f0ebf8d6ad83fe1e",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_002_i",
+            "image": {
+              "path": "characters/player/appearance/f_face_002_i.png",
+              "bytes": 10200,
+              "blake3": "30830a25b210bbb7ff5a35e3f272314d0dc1491876a16db3828ee7dbf22a716d"
+            },
+            "sha256": "7105d0bb726ca2715bf24f11c7372d2693e23ff7bd921a1f1d927e81f4a4e3aa",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_002_j",
+            "image": {
+              "path": "characters/player/appearance/f_face_002_j.png",
+              "bytes": 9849,
+              "blake3": "9cf62363685380cd99e8eca109bbe208b625407e00e40f0f6ffce1124c3028d0"
+            },
+            "sha256": "50851e7be6ed486bba6f28b941167d1cd2f4a38f7917b6dbbc32f4bfc535bda5",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_003_f",
+            "image": {
+              "path": "characters/player/appearance/f_face_003_f.png",
+              "bytes": 10954,
+              "blake3": "2d089f3d344dcb22420cb60f3b0c3ddc69fa189571bafa7bfb072cf807563dd7"
+            },
+            "sha256": "22f30b516167d082aea17e7c08add6341d6f457acfef0b5a3d31de17fcc0e0d4",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_003_g",
+            "image": {
+              "path": "characters/player/appearance/f_face_003_g.png",
+              "bytes": 10964,
+              "blake3": "4d555592e1f12d1f076dd9a2cdd861226fe1a324b929b2126f5cc6e0c9d37ee1"
+            },
+            "sha256": "b98d72dd5e3e49086d67c95f32c635b0587afb11ee58f4d44d3b64ed4405e420",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_003_h",
+            "image": {
+              "path": "characters/player/appearance/f_face_003_h.png",
+              "bytes": 10761,
+              "blake3": "b9550eab8da2944d1b53af6a6e65b4df946d12a3c13d8b34a8976fcc2205b555"
+            },
+            "sha256": "fa4ba70244120817f590e39884ca9fb59e4d533b103cef823b947bb2c0f2dd44",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_003_i",
+            "image": {
+              "path": "characters/player/appearance/f_face_003_i.png",
+              "bytes": 10831,
+              "blake3": "59c6ebf9c472aed1a82becd1e2dfabca70c24009077d80cdfe7438ce9e42d1ba"
+            },
+            "sha256": "2e7d209e84bfbcb1328da5bbf21abde853b00f0dbd0d53e432931752dc4fe993",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_003_j",
+            "image": {
+              "path": "characters/player/appearance/f_face_003_j.png",
+              "bytes": 10152,
+              "blake3": "0c520954386696898a78351d7e5a66a37f4e3f306829f2c3267ba9ca64520954"
+            },
+            "sha256": "a5b55996a48878b682c6a84b3a8b133d9f24dc02b2a4b46ed5ce6c64188aa722",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_004_f",
+            "image": {
+              "path": "characters/player/appearance/f_face_004_f.png",
+              "bytes": 9908,
+              "blake3": "143cb06baa5a2f86d17729bfc83263a2025e7465da164141a42e15920e1a8b01"
+            },
+            "sha256": "f2b2f6d7c8e257bf6a5a2ba8bc16a9b2287752a39cefc447efe9686f9f9d07d3",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_004_g",
+            "image": {
+              "path": "characters/player/appearance/f_face_004_g.png",
+              "bytes": 9812,
+              "blake3": "0087d07b63dfdcd687013f7a27bea97948f457f8cc296f2ba0dbfd4c72c5e74c"
+            },
+            "sha256": "16a06a26e6bfdacbfd502dd7bdaefa0402160a5f79331ec998a4a9151a5f2af3",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_004_h",
+            "image": {
+              "path": "characters/player/appearance/f_face_004_h.png",
+              "bytes": 9827,
+              "blake3": "cca0a20bc34cd64c309a73f6b37b62986f9322119ea32275bb0832e250c1f84a"
+            },
+            "sha256": "eb2f5c34c2ab65c2b34517906ae4b7f58088a302fa1d253e0a5fb116eb620f3f",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_004_i",
+            "image": {
+              "path": "characters/player/appearance/f_face_004_i.png",
+              "bytes": 9629,
+              "blake3": "886ca8b369a4044d95346d019e89dd806c7000c395066f52e01857ae97a23d4f"
+            },
+            "sha256": "85607b4d535d9a3780a9426605228502a887cfff7b1f074438bd58b6d6d398ea",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_004_j",
+            "image": {
+              "path": "characters/player/appearance/f_face_004_j.png",
+              "bytes": 10000,
+              "blake3": "aae7ac0b1a248ffa2d3df00a4f012a797058f36daac7c7baf79932fcda1abeed"
+            },
+            "sha256": "368dc40752041d377faeefec90a70b214546e3dc5acee59f277f0bdb82b2bbbe",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_005_f",
+            "image": {
+              "path": "characters/player/appearance/f_face_005_f.png",
+              "bytes": 9351,
+              "blake3": "12cb4818d0cc4e8263e35c8597c37187f5f0f3493cc72bcc10e18c5e3582d298"
+            },
+            "sha256": "4b26dd47ed3d637331977e548a52dba4356e157ca22970503fe51a3a8f42f75a",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_005_g",
+            "image": {
+              "path": "characters/player/appearance/f_face_005_g.png",
+              "bytes": 9359,
+              "blake3": "8aa9dd6e3f1166ee3b71ac3be49328495293d18fc2fcdf81d31f197f705e2e0a"
+            },
+            "sha256": "229de7c4cb212918062d7f852e319eff6242436abbb552a8777956ba0860a1aa",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_005_h",
+            "image": {
+              "path": "characters/player/appearance/f_face_005_h.png",
+              "bytes": 9366,
+              "blake3": "288a89b323feac572acfa156c7078e24f13f1ec0d626c9b08b8d1072b6e2636d"
+            },
+            "sha256": "5454d0e1932ea18d298c0ac343d01a121f08a820db0362dd2d69cb124fa9f2c6",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_005_i",
+            "image": {
+              "path": "characters/player/appearance/f_face_005_i.png",
+              "bytes": 9240,
+              "blake3": "b6dbab0f1de0072371f8d10ae3f9ed611c356aa2caa663801a46b641aa4e02db"
+            },
+            "sha256": "52702d01a18b46e00c499feff2d9fc8361e54fea7ad70853314137250ed26404",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          },
+          {
+            "trueName": "f_face_005_j",
+            "image": {
+              "path": "characters/player/appearance/f_face_005_j.png",
+              "bytes": 9558,
+              "blake3": "48ea7eae3d563f37349f8e365ac98dcd95a2581bb8f59760c4eb662bb34176ac"
+            },
+            "sha256": "94a6458868d867015ac7fb96717d0fad5d94df89c7800d0714cd57d2e81d5aec",
+            "width": 256,
+            "height": 256,
+            "filter": "linear",
+            "wrap": "repeat"
+          }
+        ]
+      },
+      "lineEnding": "crlf"
+    }
+  ]
+}

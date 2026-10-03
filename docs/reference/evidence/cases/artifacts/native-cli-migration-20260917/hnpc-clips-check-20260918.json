@@ -1,0 +1,10 @@
+{
+  "schema": "fusionforge.hnpc-clips-check.v1",
+  "scopedClipCount": 2,
+  "acceptedCurvesAndMetadataEqual": true,
+  "existingAnimationIndicesPreserved": true,
+  "existingAccessorIndicesPreserved": true,
+  "originalBinaryPrefixPreserved": true,
+  "renderAssetsUnchanged": true,
+  "productionModified": false
+}

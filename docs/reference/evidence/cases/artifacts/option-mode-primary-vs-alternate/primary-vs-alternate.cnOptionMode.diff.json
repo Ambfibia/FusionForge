@@ -1,0 +1,283 @@
+{
+  "schema": "fusionforge.focused-unity-json-diff.v1",
+  "warning": "Triage only; verify acceptance-critical identity and bytes against raw containers.",
+  "left": {
+    "path": "work/legacy-sources/option-mode-primary-vs-alternate/objects/primary.cnOptionMode.1485.json",
+    "sha256": "e60b7806d265a3894d67128e590b014e17521413c084ca80e013fbd094e3ad3e"
+  },
+  "right": {
+    "path": "work/legacy-sources/option-mode-primary-vs-alternate/objects/alternate.cnOptionMode.1598.json",
+    "sha256": "01dbe24cf44e2a5119d6371989338675db02e6f5583e540a9ad6b997e7d2a674"
+  },
+  "counts": {
+    "changes": 41,
+    "emitted": 41
+  },
+  "truncated": false,
+  "changes": [
+    {
+      "operation": "replace",
+      "path": "/object/pathId",
+      "before": 1485,
+      "after": 1598
+    },
+    {
+      "operation": "replace",
+      "path": "/object/rawBytes",
+      "before": 3864,
+      "after": 3916
+    },
+    {
+      "operation": "replace",
+      "path": "/object/rawSha256",
+      "before": "1cffdebb3afe8eff676cd86612dd9f1cc85e5113ef5603f8654951df271e87c9",
+      "after": "46947e59ff1f28b7703519b3c238fbcc19d7605ab5ea0534c72ac442c364ac53"
+    },
+    {
+      "operation": "replace",
+      "path": "/object/typeId",
+      "before": -50,
+      "after": -47
+    },
+    {
+      "operation": "replace",
+      "path": "/object/value/BlkSel/pathId",
+      "before": 522,
+      "after": 641
+    },
+    {
+      "operation": "replace",
+      "path": "/object/value/ChatColorBox/pathId",
+      "before": 644,
+      "after": 686
+    },
+    {
+      "operation": "replace",
+      "path": "/object/value/ChatColorBox2/pathId",
+      "before": 563,
+      "after": 580
+    },
+    {
+      "operation": "replace",
+      "path": "/object/value/ChatColorSel/pathId",
+      "before": 638,
+      "after": 545
+    },
+    {
+      "operation": "replace",
+      "path": "/object/value/ChkTex1/pathId",
+      "before": 174,
+      "after": 243
+    },
+    {
+      "operation": "replace",
+      "path": "/object/value/ChkTex2/pathId",
+      "before": 408,
+      "after": 449
+    },
+    {
+      "operation": "add",
+      "path": "/object/value/InputBox2",
+      "after": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ]
+    },
+    {
+      "operation": "replace",
+      "path": "/object/value/ProTex/pathId",
+      "before": 17,
+      "after": 6
+    },
+    {
+      "operation": "replace",
+      "path": "/object/value/SkyTex/pathId",
+      "before": 82,
+      "after": 85
+    },
+    {
+      "operation": "replace",
+      "path": "/object/value/m_GameObject/pathId",
+      "before": 1329,
+      "after": 1477
+    },
+    {
+      "operation": "replace",
+      "path": "/object/value/m_Script/pathId",
+      "before": 1143,
+      "after": 1013
+    },
+    {
+      "operation": "replace",
+      "path": "/object/value/pMenuSkin/pathId",
+      "before": 1365,
+      "after": 1499
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/0/pathId",
+      "before": 522,
+      "after": 641
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/0/target/pathId",
+      "before": 522,
+      "after": 641
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/1/pathId",
+      "before": 644,
+      "after": 686
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/1/target/pathId",
+      "before": 644,
+      "after": 686
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/2/pathId",
+      "before": 563,
+      "after": 580
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/2/target/pathId",
+      "before": 563,
+      "after": 580
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/3/pathId",
+      "before": 638,
+      "after": 545
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/3/target/pathId",
+      "before": 638,
+      "after": 545
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/4/pathId",
+      "before": 174,
+      "after": 243
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/4/target/pathId",
+      "before": 174,
+      "after": 243
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/5/pathId",
+      "before": 408,
+      "after": 449
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/5/target/pathId",
+      "before": 408,
+      "after": 449
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/6/pathId",
+      "before": 17,
+      "after": 6
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/6/target/pathId",
+      "before": 17,
+      "after": 6
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/7/pathId",
+      "before": 82,
+      "after": 85
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/7/target/pathId",
+      "before": 82,
+      "after": 85
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/10/pathId",
+      "before": 1329,
+      "after": 1477
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/10/target/pathId",
+      "before": 1329,
+      "after": 1477
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/11/pathId",
+      "before": 1143,
+      "after": 1013
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/11/target/pathId",
+      "before": 1143,
+      "after": 1013
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/12/pathId",
+      "before": 1365,
+      "after": 1499
+    },
+    {
+      "operation": "replace",
+      "path": "/pointers/12/target/pathId",
+      "before": 1365,
+      "after": 1499
+    },
+    {
+      "operation": "replace",
+      "path": "/source/alias",
+      "before": "primary",
+      "after": "alternate"
+    },
+    {
+      "operation": "replace",
+      "path": "/source/bytes",
+      "before": 7000415,
+      "after": 9977143
+    },
+    {
+      "operation": "replace",
+      "path": "/source/sha256",
+      "before": "59788201962b6a1737b114486c361fe74eef69f507d1d125ca3171377eec602f",
+      "after": "ab157072bf5059043615686493269f58a0b2b9cd8cc804ab3196f44f104a6379"
+    }
+  ]
+}

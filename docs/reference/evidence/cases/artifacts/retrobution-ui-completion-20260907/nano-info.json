@@ -1,0 +1,304 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 114,
+    "name": "",
+    "pathId": 1561,
+    "rawBytes": 232,
+    "rawSha256": "6f1f365d61ff73cf5c8e44cd2b2d643daa82907208597c8774a63c96ca2ca5fb",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "MonoBehaviour",
+    "typeId": -79,
+    "value": {
+      "CoolTime": [
+        {
+          "fileId": 0,
+          "pathId": 366
+        },
+        {
+          "fileId": 0,
+          "pathId": 33
+        },
+        {
+          "fileId": 0,
+          "pathId": 66
+        },
+        {
+          "fileId": 0,
+          "pathId": 521
+        },
+        {
+          "fileId": 0,
+          "pathId": 456
+        },
+        {
+          "fileId": 0,
+          "pathId": 285
+        },
+        {
+          "fileId": 0,
+          "pathId": 91
+        }
+      ],
+      "CoolTime_00": {
+        "fileId": 0,
+        "pathId": 528
+      },
+      "RenderRect": {
+        "height": 29.0,
+        "width": 154.0,
+        "x": 101.0,
+        "y": 42.0
+      },
+      "WindowRect": {
+        "height": 29.0,
+        "width": 154.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "backTexture": {
+        "fileId": 0,
+        "pathId": 53
+      },
+      "barTexture": {
+        "fileId": 0,
+        "pathId": 114
+      },
+      "m_Enabled": true,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 1352
+      },
+      "m_Name": "",
+      "m_Script": {
+        "fileId": 0,
+        "pathId": 997
+      },
+      "myuser": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "nano_hpRect": {
+        "height": 4.0,
+        "width": 104.0,
+        "x": 18.0,
+        "y": 19.0
+      },
+      "nano_hpValue": 0.5,
+      "nano_info_picRect": {
+        "height": 26.0,
+        "width": 26.0,
+        "x": 125.0,
+        "y": 2.0
+      },
+      "nano_namo_textRect": {
+        "height": 20.0,
+        "width": 100.0,
+        "x": 20.0,
+        "y": 0.0
+      },
+      "nano_namo_textString": "nano name",
+      "pImage": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "pMenuSkin": {
+        "fileId": 0,
+        "pathId": 1372
+      }
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/CoolTime/0",
+      "fileId": 0,
+      "pathId": 366,
+      "status": "resolved",
+      "target": {
+        "pathId": 366,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/CoolTime/1",
+      "fileId": 0,
+      "pathId": 33,
+      "status": "resolved",
+      "target": {
+        "pathId": 33,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/CoolTime/2",
+      "fileId": 0,
+      "pathId": 66,
+      "status": "resolved",
+      "target": {
+        "pathId": 66,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/CoolTime/3",
+      "fileId": 0,
+      "pathId": 521,
+      "status": "resolved",
+      "target": {
+        "pathId": 521,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/CoolTime/4",
+      "fileId": 0,
+      "pathId": 456,
+      "status": "resolved",
+      "target": {
+        "pathId": 456,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/CoolTime/5",
+      "fileId": 0,
+      "pathId": 285,
+      "status": "resolved",
+      "target": {
+        "pathId": 285,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/CoolTime/6",
+      "fileId": 0,
+      "pathId": 91,
+      "status": "resolved",
+      "target": {
+        "pathId": 91,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/CoolTime_00",
+      "fileId": 0,
+      "pathId": 528,
+      "status": "resolved",
+      "target": {
+        "pathId": 528,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/backTexture",
+      "fileId": 0,
+      "pathId": 53,
+      "status": "resolved",
+      "target": {
+        "pathId": 53,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/barTexture",
+      "fileId": 0,
+      "pathId": 114,
+      "status": "resolved",
+      "target": {
+        "pathId": 114,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 1352,
+      "status": "resolved",
+      "target": {
+        "pathId": 1352,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Script",
+      "fileId": 0,
+      "pathId": 997,
+      "status": "resolved",
+      "target": {
+        "pathId": 997,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoScript"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/myuser",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/pImage",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/pMenuSkin",
+      "fileId": 0,
+      "pathId": 1372,
+      "status": "resolved",
+      "target": {
+        "pathId": 1372,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

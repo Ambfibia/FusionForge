@@ -1,0 +1,113 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "reward-status-icons-20260910",
+  "status": "accepted",
+  "supersedes": [
+    "mob-reward-icons-20260908"
+  ],
+  "target": {
+    "alias": "native-target"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "main.unity3d",
+    "containerBytes": 8221718,
+    "containerSha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+    "objects": [
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 34,
+        "fileId": 0,
+        "owner": "cnDisplayMapName sharedassets0.assets:1620"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 548,
+        "fileId": 0,
+        "owner": "cnDisplayMapName sharedassets0.assets:1620"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 29,
+        "fileId": 0,
+        "owner": "cnDisplayMapName sharedassets0.assets:1620"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 376,
+        "fileId": 0,
+        "owner": "cnDisplayMapName sharedassets0.assets:1620"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 579,
+        "fileId": 0,
+        "owner": "cnDisplayMapName sharedassets0.assets:1620"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 526,
+        "fileId": 0,
+        "owner": "cnDisplayMapName sharedassets0.assets:1620"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "exact-texture-export",
+    "tool": "tools/legacy-sources/publish-mob-rewards.py",
+    "toolRevision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+    "toolSha256": "488534458d71c7f9034258c41361b09ca2af27e2f9ae266eead9619527dc6a93",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/legacy-sources/publish-mob-rewards.py --target-root work/cases/reward-status-20260910/stage --work work/cases/reward-status-20260910/export",
+      "python tools/legacy-sources/publish-mob-rewards.py --target-root work/cases/reward-status-20260910/replay-stage --work work/cases/reward-status-20260910/replay"
+    ]
+  },
+  "inputs": [],
+  "outputs": [
+    {
+      "path": "ui/gameplay/rewards/crate.png",
+      "bytes": 39937,
+      "sha256": "3272717257362843fa19dca30cc2cef83c756ce5528358369cc9cc80723de2ba"
+    },
+    {
+      "path": "ui/gameplay/rewards/potion.png",
+      "bytes": 40183,
+      "sha256": "60ec405991ba8209f5e1e5cf16fbe3a78725c1ed64af114eccf7656a7b99ed85"
+    },
+    {
+      "path": "ui/gameplay/rewards/boost.png",
+      "bytes": 39367,
+      "sha256": "9de3d9effa33ddb456170b136b97d30417b019f8ab62b7bc4bb529360724c94e"
+    },
+    {
+      "path": "ui/gameplay/rewards/fusion-matter.png",
+      "bytes": 10944,
+      "sha256": "97b874456be11c070fc626b12e410629d530414807f3171595c8913fba6fad70"
+    },
+    {
+      "path": "ui/gameplay/rewards/taros.png",
+      "bytes": 10704,
+      "sha256": "7bf96c14cf70627b180dcb3242e34f978e43b884dd80ada3a82ec406659a0709"
+    },
+    {
+      "path": "ui/gameplay/rewards/inventory-full.png",
+      "bytes": 2243,
+      "sha256": "403f1b547fd461278d30a6e5edb980080ac7338568ab09f0840c91e051252291"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "compare independent stage/replay-stage and declared target bytes",
+      "result": "passed",
+      "evidence": "docs/reference/evidence/cases/artifacts/reward-status-20260910/outputs.json"
+    }
+  ]
+}

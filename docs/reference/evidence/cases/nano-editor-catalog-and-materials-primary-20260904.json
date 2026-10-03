@@ -1,0 +1,115 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "nano-editor-catalog-and-materials-primary-20260904",
+  "question": "Which Nano model and table-selected material bindings must the native editor display?",
+  "status": "resolved",
+  "nativeConsumer": "FFOneClient ffone-editor and native Nano GLB consumers",
+  "acceptance": [
+    "66 unique native Nano models with valid icons and no Van Kleiss alias duplicate.",
+    "Wheel over child rows, track clicks, thumb dragging and filter reset work.",
+    "Every applicable table-selected main/sub texture matches its native material.",
+    "Updated native GLBs pass structural and GPU validation without embedded Unity object IDs."
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "navigationAlias": "retrobution",
+      "role": "parity_authority",
+      "anchors": [
+        {
+          "relativeContainer": "Nano.resourceFile",
+          "containerBytes": 41656047,
+          "containerSha256": "4bdec03c5aa92e5f922ab61fa794188815b20438fcc4fa646498eac9397ce8e7"
+        },
+        {
+          "relativeContainer": "NpcTexture.resourceFile",
+          "containerBytes": 15239269,
+          "containerSha256": "95504fa80830d2c54540e576a44707096b746d761448d086e294a6f1cd0dc171"
+        },
+        {
+          "relativeContainer": "Tutorial.resourceFile",
+          "containerBytes": 33327638,
+          "containerSha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    "Exact Nano.resourceFile model routes",
+    "NpcTexture.resourceFile table-selected textures",
+    "Tutorial.resourceFile external Buttercup face",
+    "Existing native Runty geometry"
+  ],
+  "evidenceArtifacts": [
+    {
+      "id": "accepted-native-publication",
+      "kind": "native_publication_receipt",
+      "path": "recipes/native/models/nano-editor-models-and-table-materials-primary-20260904.json",
+      "bytes": 43323,
+      "sha256": "d325ade3cbb33e173bced918457c00582c525d96951412d280922533104efceb",
+      "producer": {
+        "tool": "FusionForge + ffone-asset-pipeline + tools/legacy-sources/repair-nano-materials.py + tools/legacy-sources/install-nano-repairs.py",
+        "revision": "86324d05303a076b9814bddff800635cb2f73954",
+        "command": "python tools/legacy-sources/install-nano-repairs.py --plan recipes/native/models/nano-editor-20260904.plan.json --stage work/legacy-sources/nano-editor-20260904 --target-root ../FFOneClient/assets/game --report work/legacy-sources/nano-editor-20260904/final/install.json --apply"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "Prefab material textures alone reproduce every Nano appearance.",
+      "state": "rejected",
+      "evidence": [
+        "accepted-native-publication"
+      ],
+      "rejectedBecause": "NanoController replaces main/sub textures from the Nano mesh table; nine models needed static native bindings, including Computress and Runty prefab Numbuh Four placeholders."
+    },
+    {
+      "claim": "NpcTexture local Texture2D 157 is the Buttercup face.",
+      "state": "rejected",
+      "evidence": [
+        "accepted-native-publication"
+      ],
+      "rejectedBecause": "The face AssetBundle route uses external file 1 to Tutorial serialized asset b4f543c102ded400fbc6f1da25d9679a; local NpcTexture 157 belongs to mob_queenspider_a."
+    },
+    {
+      "claim": "Canonical constant-curve recovery groups must occupy disjoint contiguous source ranges.",
+      "state": "rejected",
+      "evidence": [
+        "accepted-native-publication"
+      ],
+      "rejectedBecause": "Swampfire interleaves target paths. First occurrence orders groups; individual source identities, payloads and sibling proofs remain validated."
+    },
+    {
+      "claim": "All accepted geometry was newly re-exported.",
+      "state": "rejected",
+      "evidence": [
+        "accepted-native-publication"
+      ],
+      "rejectedBecause": "Runty fresh publication is blocked by multiple non-joint renderer transforms. Its validated native preimage is retained byte-for-byte in the binary chunk, with only the exact table texture binding changed."
+    },
+    {
+      "claim": "Full original Unity visual parity has been established.",
+      "state": "unresolved",
+      "evidence": [],
+      "rejectedBecause": null
+    }
+  ],
+  "differences": [
+    "The native editor enumerates inactive/event models without inventing server Nano IDs.",
+    "Coop remains its own model/icon; Holo is presented as Unstable Nano; the second Van Kleiss alias is hidden only in the editor catalog.",
+    "A visible native scrollbar and matching UI/3D MSAA settings are editor reliability fixes."
+  ],
+  "conclusion": "66 Nano models are available. Eleven model closures passed GPU validation, 42 installed native files match the publication receipt, and all 56 applicable table texture bindings match. Source evidence and native preimages remain Editor-owned.",
+  "nativeContract": "Use native semantic model/icon paths; bake proven static main/sub texture choices into native GLBs; preserve exact rig, root, shader and animation names including Ghostfreak Stand1. Keep source ownership and publication lineage outside the runtime assets.",
+  "verification": [
+    "cargo check -p ffone-client --bin ffone-editor: passed",
+    "cargo build -p ffone-client --bin ffone-editor: passed",
+    "Editor unit suite: 7 passed against final installed production assets, including all eleven native model contracts and exact texture assertions.",
+    "Editor EN/RU bundle keys and placeholders: 2 passed.",
+    "Native overwrite/recovery serialization boundary: 2 passed.",
+    "Interleaved recovery target paths exporter regression: passed.",
+    "Eleven GPU reports passed with zero material and shader errors; exact final GLB and screenshot hashes are recorded in the receipt.",
+    "Production audit: 56/56 table material bindings match; 66 unique Nano models.",
+    "Windows UI: wheel over rows and thumb dragging verified; Bubbles face, Buttercup, Holo, Ghostfreak and final Computress inspected. The normal Cargo-built editor is open on Computress."
+  ]
+}

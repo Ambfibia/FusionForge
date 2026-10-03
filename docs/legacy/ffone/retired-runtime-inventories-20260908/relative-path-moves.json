@@ -1,0 +1,302 @@
+[
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Angry01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_angry01.ogg",
+    "sha256": "b5033e63b4cc2a20085539785914004afeca65a8bf46af4a1eb63210d9f34f5e"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Angry02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_angry02.ogg",
+    "sha256": "9bea1dcc1780f7e5752885ee7ba43ec9bd34c9141254cbaf74a71d20e53a0dc8"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Angry03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_angry03.ogg",
+    "sha256": "2e51b9f6ec42da9c51ad5a22f326d85fafd6cf146188bf977f5b46b05d1e2645"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Critical01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_critical01.ogg",
+    "sha256": "ffbbc7ceaf9d5c24af1f25a845710df96b8e3245d81a5d7160eb54c3b184e16f"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Critical02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_critical02.ogg",
+    "sha256": "0a67c27653dcf515a2259f992396c9f2a937bec981abc0e78d963a35e95f261e"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Dance01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_dance01.ogg",
+    "sha256": "411be0b3a5d49603b59e266d15b0679d89debd2c8f7b01a49252e11f5121705f"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Dance02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_dance02.ogg",
+    "sha256": "b1b4d29e2a25190905b48574a1909529da81276e1786cc5ba75b2fbeff1f6639"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Dance03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_dance03.ogg",
+    "sha256": "9a574469dd92890a72c839c6d071d236abc74b27c21f3f51ed9041c547fe931d"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Dance04.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_dance04.ogg",
+    "sha256": "d8fd09a92d84066e4e1b46e5c71a8f95a31e64fd977c6b585e4e60b3242c0c7b"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Dance05.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_dance05.ogg",
+    "sha256": "ba190349e13972bc260dc7460962fb8fcb79749fc57370c63a454386aa51d5c4"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_DefeatLng01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_defeatlng01.ogg",
+    "sha256": "1c4a0004695877a946487c691c6cbeb3401f0a672493833d6d133b889225a97d"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_DefeatLng02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_defeatlng02.ogg",
+    "sha256": "86ab6f1aedda7860225e5f9b3d281e86f372e8d7d8a17e77f33243c8464465c2"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_DefeatLng03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_defeatlng03.ogg",
+    "sha256": "829acef8ada9a8e8d5d21103fd9ad6d900fe5f5568256fcfc309aca27901edf8"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Flex01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_flex01.ogg",
+    "sha256": "f1f6f01f2c5d4eee3ea7a8056510d4ff3816d19e5a7ad8e11c086f72f937ddbf"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Flex02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_flex02.ogg",
+    "sha256": "47e1b6c971c5d4e072c22004520a527b8e5bfe777d6db0a82af5247bfe69f2a4"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Flex03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_flex03.ogg",
+    "sha256": "9ba8ac8eaddd6e28ae653965686fa09a3e18d0df32c60563b5714f9eff93dba1"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_GooDmg01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_goodmg01.ogg",
+    "sha256": "21b4e7e82118e21af207d68050bfe5bea6c0d9a139520e255b60c9d4a124d2e3"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_GooDmg02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_goodmg02.ogg",
+    "sha256": "5d8f4b1d7bd6044ade2186cabd5c55923a702a4f3074af33df995f3b70458fd0"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Happy01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_happy01.ogg",
+    "sha256": "05d0c9d87c765ab3dfad291c334cc4d9b11558ca7839ee2cd291467923c25a9d"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Happy02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_happy02.ogg",
+    "sha256": "b9afc5201c219177714ac85c9afc68b5fda44034206b77cd2838ef5646680129"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Happy03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_happy03.ogg",
+    "sha256": "8400a7a17ebe084a446f2c34da05602ce86633542949f60ad8916d5a2fe021cd"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Hello01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_hello01.ogg",
+    "sha256": "57c675ba969bc95b3be97fa451eaaf2652c3058dadb74f17c1f412c3a6b8cd8d"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Hello02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_hello02.ogg",
+    "sha256": "0f8a0eb66ab03e481dda451d1e09cf26d72b5ed7a6de9eb04d0a08dd22a0caeb"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Hello03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_hello03.ogg",
+    "sha256": "eea918a6e646d27761e30e58bf789157d947f97cc95cf16ef2c255789b00051d"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Hurt01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_hurt01.ogg",
+    "sha256": "43fa4d4476e2b212521ad13d6939b8c3c6ae95c2cec1a29cd6b708ab5faa5383"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Hurt02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_hurt02.ogg",
+    "sha256": "19cfbbb660a4c296ba4cc61c2441df584589e7bf8789f0e107c827862edf6a93"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_JmpLnd01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_jmplnd01.ogg",
+    "sha256": "ee23a63591fd4f592bea58046df628cdeae42ebc6916bc4f1eb204e897996a97"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_JmpLnd02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_jmplnd02.ogg",
+    "sha256": "71bfcf0894572025c13607146db1e1555a1274fd8ae4813f7a2c6a54c7621bb9"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_JmpLnd03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_jmplnd03.ogg",
+    "sha256": "0d88538c9037202ff62fff1bea9d3b3a6f6d79754fc196d244623fd2bba4d183"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_JumpStart01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_jumpstart01.ogg",
+    "sha256": "5e2ddaab89922a3dfc9c9bdf1f041e578b0c27f127a69cee2e4839a47c5793e0"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_JumpStart02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_jumpstart02.ogg",
+    "sha256": "e3106781bf80c1b2eb0d5df47c9c91003bdbbfd1fb27799e28604f0a774d49d7"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_JumpStart03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_jumpstart03.ogg",
+    "sha256": "40fb584c2c35e3854aeb68c64012a6ad4efa7b8b0e31ee8760137d612523ae49"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_JumpStart07.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_jumpstart07.ogg",
+    "sha256": "7d42e3cd869687deb6001e0ee11a1b5b454118d56fcdba07350175e4e9206291"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Laugh01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_laugh01.ogg",
+    "sha256": "56dcffe84055ff69d6855a547450918c1bbac135b343b59227e6e7e75c13e13e"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Laugh02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_laugh02.ogg",
+    "sha256": "fbbe7af4633f9c4a3bf7b1b9b4344f131731224f8c4caf24ce0cdc4b0c02d9ea"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Laugh03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_laugh03.ogg",
+    "sha256": "a10dbe85a0290c61c0f0ff4d1e17e07500d5fcad9f8e2a9e93a6a0cf34f016da"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Love01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_love01.ogg",
+    "sha256": "9b21c8b416aeb32ac5fe69813d9cd48c5c58bf0d05137eb3e126a43ed3201bfe"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Love02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_love02.ogg",
+    "sha256": "ee849a2747378484e8f35cf4a8e55910ec343ac9314bddbf294dab09f27a3ff6"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Love03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_love03.ogg",
+    "sha256": "e3fa6ccf0799e3913e6d67596ed021469be37fa5315114f6a5e45d3ab3c13a82"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_No01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_no01.ogg",
+    "sha256": "37b144b0cf9c556b103bcf64cddafa0a07906798827cfccbce3565d31edd9187"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_No02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_no02.ogg",
+    "sha256": "526c0a337fac9184a60d2e0da73ad97301098a9be15a6ca05d812c4af9da6deb"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_No03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_no03.ogg",
+    "sha256": "8b31da45fa1f850420e7cf8641692292afdd7adfd3330f372d1615c995983068"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Sad01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_sad01.ogg",
+    "sha256": "5bf39125abb6ba033c57b46c20ace55c1ad577eff320602d7316e4f63d8e6e24"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Sad02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_sad02.ogg",
+    "sha256": "01fddd0a8935e781d6e84d7967b73661718686bb8eb36176065d9161140e1e54"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Sad03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_sad03.ogg",
+    "sha256": "e588dd0e923552cb290de1f8291cc33f8b0bc2dc0097fc747c32cf4a1edd5a76"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Scared01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_scared01.ogg",
+    "sha256": "e4c649c5a79d711f0a0daaee9d6f02e131231c51b20929f08a9110ad4c5a5347"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Scared02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_scared02.ogg",
+    "sha256": "1ab23df784b632629854f2efeb5ff3e7331fb5ab39b2f03e6fbc1b507be3fcc9"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Scared03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_scared03.ogg",
+    "sha256": "55bbb8bea14ad9b12feef811c1044736d4e068237380c32ed76972c5483ddb68"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Stun01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_stun01.ogg",
+    "sha256": "338f47b211406eb9f1bf7914bfd5fbcd815708b48f5eafe08cd32c0bdb407832"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Stun02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_stun02.ogg",
+    "sha256": "44846b6f6783cff99b8f8e7e5710bfe580b9666e1c912b7f6363ae964252e934"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Stun03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_stun03.ogg",
+    "sha256": "3e0d57ff89036cd4d0777c8851db0fb3dffff8b568ae9edef57671cd37ff064e"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Tease01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_tease01.ogg",
+    "sha256": "426123d9e8f8eaa6742fb586cf18e8f7458a000de3174695db277453b4fe7cc4"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Tease02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_tease02.ogg",
+    "sha256": "170e1400f90926b80f9642a42f019b448cb0516b027d75c567187988d05fd45f"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Tease03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_tease03.ogg",
+    "sha256": "5b5f002a36d6acebdcbf3060117325c6e780faba37c8903e98277bd53c327454"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Thanks01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_thanks01.ogg",
+    "sha256": "47583db839cc466becd098ab14994ae6d9005ff653a966c679ee1b0ad65b1a24"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Thanks02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_thanks02.ogg",
+    "sha256": "3c24b355221897e70fb1d16b70a96a20dc12f70679014b6ce523a0108a7da97c"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Thanks03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_thanks03.ogg",
+    "sha256": "b3059dd2fbdcbb34b3e18b47deec2d10a455fbd5fffaa762ccafcb423391f455"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Yes01.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_yes01.ogg",
+    "sha256": "c49287cc3a5c6542ec57f7ebf9184c99255990e2e2ddfb8b2e3797768635eb54"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Yes02.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_yes02.ogg",
+    "sha256": "9d9ae6fc04a31434fc306349256c69a51a253c4ddda28979667b353f9c7d80f2"
+  },
+  {
+    "from": "audio/voice/ru/f_avatar/F_Avatar_Yes03.ogg",
+    "to": "audio/voice/ru/f_avatar/avatar_yes03.ogg",
+    "sha256": "7b4bdf2b4b70e79d5c1a6dd57a04ec2722e7ab212c39aa969377e276006a5b93"
+  }
+]

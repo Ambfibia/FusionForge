@@ -1,0 +1,193 @@
+{
+  "sources": {
+    "primary": {
+      "root": "../builds/retrobution-20260821",
+      "role": "primary",
+      "project": "work/projects/retrobution-ui-20260821.ffclient"
+    },
+    "patched": {
+      "root": "../builds/retrobution-20260613.ffclient",
+      "role": "patched",
+      "project": "../builds/retrobution-20260613.ffclient"
+    }
+  },
+  "models": [
+    {
+      "name": "npc_dexter2",
+      "source": "primary",
+      "container": "CharacterCreation.resourceFile",
+      "route": "mob/npc_dexter2.kfm"
+    },
+    {
+      "name": "npc_deedee2",
+      "source": "primary",
+      "container": "CharacterCreation.resourceFile",
+      "route": "mob/npc_deedee2.kfm"
+    },
+    {
+      "name": "npc_courage2",
+      "source": "primary",
+      "container": "DongResources_12_09.resourceFile",
+      "route": "mob/npc_courage2.kfm"
+    },
+    {
+      "name": "npc_numbuhtwo1",
+      "source": "primary",
+      "container": "DongResources_07_08.resourceFile",
+      "route": "mob/npc_numbuhtwo1.kfm"
+    },
+    {
+      "name": "npc_dexter2_pistol",
+      "source": "primary",
+      "container": "Tutorial.resourceFile",
+      "route": "mob/npc_dexter2_pistol.kfm"
+    },
+    {
+      "name": "npc_dexter2_sword",
+      "source": "primary",
+      "container": "Tutorial.resourceFile",
+      "route": "mob/npc_dexter2_sword.kfm"
+    },
+    {
+      "name": "npc_numbuhtwo_future",
+      "source": "primary",
+      "container": "Tutorial.resourceFile",
+      "route": "mob/npc_numbuhtwo_future.kfm"
+    },
+    {
+      "name": "npc_frogwarp",
+      "source": "primary",
+      "container": "World_shared_part4.resourceFile",
+      "route": "mob/npc_frogwarp.kfm"
+    },
+    {
+      "name": "npc_turtle1",
+      "source": "primary",
+      "container": "World_shared_part5.resourceFile",
+      "route": "mob/npc_turtle1.kfm"
+    }
+  ],
+  "textures": [
+    {
+      "name": "npc_dexter",
+      "source": "primary",
+      "container": "NpcTexture.resourceFile",
+      "route": "texture/npc_dexter.dds"
+    },
+    {
+      "name": "npc_dexter2_face_0",
+      "source": "primary",
+      "container": "CharacterCreation.resourceFile",
+      "route": "texture/npc_dexter2_face_0.dds"
+    },
+    {
+      "name": "npc_deedee",
+      "source": "primary",
+      "container": "NpcTexture.resourceFile",
+      "route": "texture/npc_deedee.dds"
+    },
+    {
+      "name": "npc_courage",
+      "source": "primary",
+      "container": "NpcTexture.resourceFile",
+      "route": "texture/npc_courage.dds"
+    },
+    {
+      "name": "npc_numbuhtwo",
+      "source": "primary",
+      "container": "NpcTexture.resourceFile",
+      "route": "texture/npc_numbuhtwo.dds"
+    },
+    {
+      "name": "npc_numbuhtwo_face_happy",
+      "source": "primary",
+      "container": "Tutorial.resourceFile",
+      "route": "texture/npc_numbuhtwo_face_happy.dds"
+    },
+    {
+      "name": "npc_numbuhtwo_face_frown",
+      "source": "primary",
+      "container": "Tutorial.resourceFile",
+      "route": "texture/npc_numbuhtwo_face_frown.dds"
+    },
+    {
+      "name": "npc_numbuhtwo_future",
+      "source": "primary",
+      "container": "Tutorial.resourceFile",
+      "route": "texture/npc_numbuhtwo_future.dds"
+    },
+    {
+      "name": "npc_chowder2",
+      "source": "primary",
+      "container": "NpcTexture.resourceFile",
+      "route": "texture/npc_chowder2.dds"
+    },
+    {
+      "name": "npc_mandroid2_flipped",
+      "source": "primary",
+      "container": "Retro_shared_part2.resourceFile",
+      "route": "texture/npc_mandroid2_flipped.dds"
+    },
+    {
+      "name": "npc_mandroid_disguise",
+      "source": "primary",
+      "container": "Retro_shared_part2.resourceFile",
+      "route": "texture/npc_mandroid_disguise.dds"
+    },
+    {
+      "name": "npc_3433_fusion_rex",
+      "source": "patched",
+      "container": "npcs/3433__Fusion_Rex/assets/Character_Texture_npc2/CustomAssetBundle-Character_Texture_npc2",
+      "route": "texture/fusion_rex.dds"
+    },
+    {
+      "name": "npc_3440_fusion_johnnytest",
+      "source": "patched",
+      "container": "npcs/3440__Fusion_Johnny_Test/assets/Character_Texture_npc2/CustomAssetBundle-Character_Texture_npc2",
+      "route": "texture/fusion_johnnytest.dds"
+    },
+    {
+      "name": "npc_3460_spawn11_green",
+      "source": "patched",
+      "container": "npcs/3460__Fusion_Kimchi/assets/Character_Texture_npc1/CustomAssetBundle-Character_Texture_npc1",
+      "route": "texture/spawn11_green.dds"
+    },
+    {
+      "name": "npc_3462_fusion_finn",
+      "source": "patched",
+      "container": "npcs/3462__Fusion_Finn/assets/Character_Texture_npc2/CustomAssetBundle-Character_Texture_npc2",
+      "route": "texture/fusion_finn.dds"
+    },
+    {
+      "name": "npc_3441_paradoxazmuth",
+      "source": "patched",
+      "container": "npcs/3441__Paradox/assets/Character_Paradox/Character_Paradox",
+      "route": "texture/npc_paradoxazmuth.dds"
+    },
+    {
+      "name": "npc_3442_paradoxazmuth",
+      "source": "patched",
+      "container": "npcs/3442__Azmuth/assets/Character_Azmuth/Character_Azmuth",
+      "route": "texture/npc_paradoxazmuth.dds"
+    },
+    {
+      "name": "npc_frogwarp",
+      "source": "primary",
+      "container": "NpcTexture.resourceFile",
+      "route": "texture/npc_frogwarp.dds"
+    },
+    {
+      "name": "npc_frogwarp2",
+      "source": "primary",
+      "container": "NpcTexture.resourceFile",
+      "route": "texture/npc_frogwarp2.dds"
+    },
+    {
+      "name": "npc_turtle_b",
+      "source": "primary",
+      "container": "NpcTexture.resourceFile",
+      "route": "texture/npc_turtle_b.dds"
+    }
+  ],
+  "icons": []
+}

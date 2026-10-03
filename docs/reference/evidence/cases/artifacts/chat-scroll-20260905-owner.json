@@ -1,0 +1,363 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 114,
+    "name": "",
+    "pathId": 1564,
+    "rawBytes": 504,
+    "rawSha256": "de2fd16e9c04e372c3cba14432ac0099f63f10ac47d901f2653f8849e334726d",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "MonoBehaviour",
+    "typeId": -82,
+    "value": {
+      "Add_butRect": {
+        "height": 20.0,
+        "width": 80.0,
+        "x": 200.0,
+        "y": 127.0
+      },
+      "BoxRect": {
+        "height": 138.0,
+        "width": 300.0,
+        "x": 0.0,
+        "y": 12.0
+      },
+      "BuddyContentRect": {
+        "height": 91.0,
+        "width": 290.0,
+        "x": -1.0,
+        "y": 32.0
+      },
+      "BuddyRect": {
+        "height": 135.0,
+        "width": 293.0,
+        "x": 0.0,
+        "y": 15.0
+      },
+      "ChatString": "",
+      "EmoteBoxRect": {
+        "height": 200.0,
+        "width": 170.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "First": "",
+      "Last": "",
+      "MessageRect": {
+        "height": 120.0,
+        "width": 280.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "PressEnter": {
+        "fileId": 0,
+        "pathId": 682
+      },
+      "Remove_butRect": {
+        "height": 20.0,
+        "width": 80.0,
+        "x": 30.0,
+        "y": 127.0
+      },
+      "SendFilter": "",
+      "TabName": [
+        "ALL",
+        "GROUP",
+        "BUDDY"
+      ],
+      "TabRect": [
+        {
+          "height": 25.0,
+          "width": 40.0,
+          "x": 35.0,
+          "y": 5.0
+        },
+        {
+          "height": 25.0,
+          "width": 70.0,
+          "x": 97.0,
+          "y": 5.0
+        },
+        {
+          "height": 25.0,
+          "width": 70.0,
+          "x": 194.0,
+          "y": 5.0
+        }
+      ],
+      "Warp_butRect": {
+        "height": 20.0,
+        "width": 80.0,
+        "x": 115.0,
+        "y": 127.0
+      },
+      "WindowRect": {
+        "height": 150.0,
+        "width": 300.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "alertIcon": {
+        "fileId": 0,
+        "pathId": 172
+      },
+      "bAddPressed": 0,
+      "bAlert": {
+        "base64": "AAAA",
+        "bytes": 3
+      },
+      "bChatEnable": 0,
+      "bViewCharLoc": 0,
+      "chat_bar_editRect": {
+        "height": 25.0,
+        "width": 240.0,
+        "x": 5.0,
+        "y": 122.0
+      },
+      "chat_filerRect": {
+        "height": 25.0,
+        "width": 60.0,
+        "x": 5.0,
+        "y": 0.0
+      },
+      "chat_listRect": {
+        "height": 100.0,
+        "width": 288.0,
+        "x": 5.0,
+        "y": 20.0
+      },
+      "fBuddyListHeight": 16.0,
+      "iFreeChat": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "iMaxChatList": 50,
+      "iMaxHistoryList": 20,
+      "iSendIndex": 0,
+      "m_Enabled": true,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 1352
+      },
+      "m_Name": "",
+      "m_Script": {
+        "fileId": 0,
+        "pathId": 988
+      },
+      "m_iBuddyIndex": 0,
+      "m_iBuddyWarpCoolTime": 0,
+      "menu_chat_butRect": {
+        "height": 32.0,
+        "width": 124.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "pMenuSkin": {
+        "fileId": 0,
+        "pathId": 1368
+      },
+      "popSkin": {
+        "fileId": 0,
+        "pathId": 1382
+      },
+      "scrollbarBackGround": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "scrollbarDownArrow": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "scrollbarThumb": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "scrollbarUpArrow": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "send_butRect": {
+        "height": 25.0,
+        "width": 60.0,
+        "x": 235.0,
+        "y": 122.0
+      },
+      "strFirstName": "",
+      "texDelBG": {
+        "fileId": 0,
+        "pathId": 49
+      },
+      "texDelWin": {
+        "fileId": 0,
+        "pathId": 97
+      },
+      "texFreeChat": {
+        "fileId": 0,
+        "pathId": 76
+      }
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/PressEnter",
+      "fileId": 0,
+      "pathId": 682,
+      "status": "resolved",
+      "target": {
+        "pathId": 682,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/alertIcon",
+      "fileId": 0,
+      "pathId": 172,
+      "status": "resolved",
+      "target": {
+        "pathId": 172,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 1352,
+      "status": "resolved",
+      "target": {
+        "pathId": 1352,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Script",
+      "fileId": 0,
+      "pathId": 988,
+      "status": "resolved",
+      "target": {
+        "pathId": 988,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoScript"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/pMenuSkin",
+      "fileId": 0,
+      "pathId": 1368,
+      "status": "resolved",
+      "target": {
+        "pathId": 1368,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/popSkin",
+      "fileId": 0,
+      "pathId": 1382,
+      "status": "resolved",
+      "target": {
+        "pathId": 1382,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/scrollbarBackGround",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/scrollbarDownArrow",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/scrollbarThumb",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/scrollbarUpArrow",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/texDelBG",
+      "fileId": 0,
+      "pathId": 49,
+      "status": "resolved",
+      "target": {
+        "pathId": 49,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/texDelWin",
+      "fileId": 0,
+      "pathId": 97,
+      "status": "resolved",
+      "target": {
+        "pathId": 97,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/texFreeChat",
+      "fileId": 0,
+      "pathId": 76,
+      "status": "resolved",
+      "target": {
+        "pathId": 76,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

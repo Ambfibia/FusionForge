@@ -1,0 +1,22 @@
+[
+  {
+    "oldName": "MKNDTransport1_ClickWarp02.ogg",
+    "path": "audio/voice/ru/m_kndtransport1/kndtransport1_clickmove02.ogg",
+    "sha256": "abb48926ef555056cdcf943a042884d7d2041761e7996a41340fbbe49f7515c0"
+  },
+  {
+    "oldName": "MKNDTransport1_ClickWarp03.ogg",
+    "path": "audio/voice/ru/m_kndtransport1/kndtransport1_clickmove03.ogg",
+    "sha256": "2679db27da821cd0b2ab448bfbe848b4e44becf22b7f1bc0b042dac4a4a4265b"
+  },
+  {
+    "oldName": "MKNDTransport2_ClickWarp02.ogg",
+    "path": "audio/voice/ru/m_kndtransport2/kndtransport2_clickmove02.ogg",
+    "sha256": "abb48926ef555056cdcf943a042884d7d2041761e7996a41340fbbe49f7515c0"
+  },
+  {
+    "oldName": "MKNDTransport2_ClickWarp03.ogg",
+    "path": "audio/voice/ru/m_kndtransport2/kndtransport2_clickmove03.ogg",
+    "sha256": "2679db27da821cd0b2ab448bfbe848b4e44becf22b7f1bc0b042dac4a4a4265b"
+  }
+]

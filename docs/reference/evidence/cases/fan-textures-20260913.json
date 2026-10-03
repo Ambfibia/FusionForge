@@ -1,0 +1,105 @@
+{
+  "schema": "ffone.fan-texture-review.v1",
+  "output": "D:\\FusionFall\\Fan-Texture-Finds-20260913",
+  "manifestSha256": "0851267de6218300f1681f2d8895d35602b9ed3497e5ed255afb0689a363de85",
+  "scannedTextureCount": 29662,
+  "nativePngCount": 25261,
+  "exactNativeOccurrencesExcluded": 14800,
+  "uniqueReviewPngs": 2795,
+  "categories": {
+    "Cosmetics": 1579,
+    "Characters": 779,
+    "Mobs": 273,
+    "Nanos": 164
+  },
+  "sources": [
+    {
+      "source": "FFRClient",
+      "containers": 9,
+      "textures": 96,
+      "errors": 0
+    },
+    {
+      "source": "CharCreator",
+      "containers": 2,
+      "textures": 1234,
+      "errors": 0
+    },
+    {
+      "source": "FusionFall Legacy Sector V Early Alpha build",
+      "containers": 3,
+      "textures": 232,
+      "errors": 0
+    },
+    {
+      "source": "FusionFall ReFuse v.1.2.1",
+      "containers": 19,
+      "textures": 3663,
+      "errors": 0
+    },
+    {
+      "source": "FussionFall assets sort",
+      "containers": 1,
+      "textures": 8826,
+      "errors": 0
+    },
+    {
+      "source": "ReStart BetaBuild 0.4.1",
+      "containers": 5,
+      "textures": 4149,
+      "errors": 0
+    },
+    {
+      "source": "Restart Snowfall DevBuild 0.5",
+      "containers": 5,
+      "textures": 3259,
+      "errors": 0
+    },
+    {
+      "source": "Temp",
+      "containers": 0,
+      "textures": 841,
+      "errors": 6
+    },
+    {
+      "source": "Game Builds",
+      "containers": 224,
+      "textures": 6767,
+      "errors": 198
+    },
+    {
+      "source": "zerky-4.1 (archive)",
+      "containers": 11,
+      "textures": 424,
+      "errors": 0
+    },
+    {
+      "source": "Prototype (archive)",
+      "containers": 3,
+      "textures": 171,
+      "errors": 0
+    },
+    {
+      "source": "NPC_HippieHop (UnityPackage)",
+      "containers": 0,
+      "textures": 0,
+      "errors": 0
+    }
+  ],
+  "verification": {
+    "decodedUniquePngs": 2795,
+    "exactNativeMatches": 0,
+    "undeclaredFullSizePngs": 0,
+    "nativeFilesChangedDuringScan": 0
+  },
+  "limitations": [
+    "Base-level RGBA comparison only; does not prove different model identity or runtime material equivalence.",
+    "198 texture objects in SMI WCBuild-0.01-PlayableWorld have no sharedassets0.assets.resS in the supplied build; no identical owner with that stream was found among supplied sources.",
+    "6 corrupt files in Temp were not fabricated or exported.",
+    "NPC_HippieHop.unitypackage contains meshes, materials and animations but no embedded texture files."
+  ],
+  "tool": "tools/legacy-sources/collect-fan-texture-differences.py",
+  "toolSha256": "729ca1ad4340be8e7b70ffa9bb896af317f365869713a026260dad98dd0799fd",
+  "work": "work/cases/fan-textures-20260913",
+  "nativePublication": false
+}

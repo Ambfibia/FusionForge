@@ -1,0 +1,70 @@
+{
+  "models": [
+    {
+      "id": "nano/nano_bubbles",
+      "candidate": "repaired/characters/nanos/nano_bubbles/nano_bubbles.glb",
+      "evidence": "accepted-gpu/characters/nanos/nano_bubbles/nano_bubbles.gpu.json",
+      "target": "characters/nanos/nano_bubbles/nano_bubbles.glb"
+    },
+    {
+      "id": "nano/nano_dexter",
+      "candidate": "repaired/characters/nanos/nano_dexter/nano_dexter.glb",
+      "evidence": "accepted-gpu/characters/nanos/nano_dexter/nano_dexter.gpu.json",
+      "target": "characters/nanos/nano_dexter/nano_dexter.glb"
+    },
+    {
+      "id": "nano/nano_buttercup",
+      "candidate": "repaired/characters/nanos/nano_buttercup/nano_buttercup.glb",
+      "evidence": "accepted-gpu/characters/nanos/nano_buttercup/nano_buttercup.gpu.json",
+      "target": "characters/nanos/nano_buttercup/nano_buttercup.glb"
+    },
+    {
+      "id": "nano/nano_ben",
+      "candidate": "repaired/characters/nanos/nano_ben/nano_ben.glb",
+      "evidence": "accepted-fresh-gpu/characters/nanos/nano_ben/nano_ben.gpu.json",
+      "target": "characters/nanos/nano_ben/nano_ben.glb"
+    },
+    {
+      "id": "nano/nano_eduardo",
+      "candidate": "repaired/characters/nanos/nano_eduardo/nano_eduardo.glb",
+      "evidence": "accepted-gpu/characters/nanos/nano_eduardo/nano_eduardo.gpu.json",
+      "target": "characters/nanos/nano_eduardo/nano_eduardo.glb"
+    },
+    {
+      "id": "nano/nano_utonium",
+      "candidate": "repaired/characters/nanos/nano_utonium/nano_utonium.glb",
+      "evidence": "accepted-fresh-gpu/characters/nanos/nano_utonium/nano_utonium.gpu.json",
+      "target": "characters/nanos/nano_utonium/nano_utonium.glb"
+    },
+    {
+      "id": "nano/nano_jackolantern",
+      "candidate": "repaired/characters/nanos/nano_jackolantern/nano_jackolantern.glb",
+      "evidence": "accepted-fresh-gpu/characters/nanos/nano_jackolantern/nano_jackolantern.gpu.json",
+      "target": "characters/nanos/nano_jackolantern/nano_jackolantern.glb"
+    },
+    {
+      "id": "nano/nano_ghostfreak",
+      "candidate": "ghostfreak-native/models/nanos/nano_ghostfreak.glb",
+      "evidence": "accepted-native-gpu/models/nanos/nano_ghostfreak.gpu.json",
+      "target": "characters/nanos/nano_ghostfreak/nano_ghostfreak.glb"
+    },
+    {
+      "id": "nano/nano_computress",
+      "candidate": "repaired/characters/nanos/nano_computress/nano_computress.glb",
+      "evidence": "accepted-native-gpu/characters/nanos/nano_computress/nano_computress.gpu.json",
+      "target": "characters/nanos/nano_computress/nano_computress.glb"
+    },
+    {
+      "id": "nano/nano_swampfire",
+      "candidate": "swampfire-native-v3/models/nanos/nano_swampfire.glb",
+      "evidence": "accepted-native-gpu/models/nanos/nano_swampfire.gpu.json",
+      "target": "characters/nanos/nano_swampfire/nano_swampfire.glb"
+    },
+    {
+      "id": "nano/nano_runty",
+      "candidate": "repaired/characters/nanos/nano_runty/nano_runty.glb",
+      "evidence": "accepted-native-gpu/characters/nanos/nano_runty/nano_runty.gpu.json",
+      "target": "characters/nanos/nano_runty/nano_runty.glb"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "applied": true,
+  "outputs": [
+    {
+      "beforeSha256": "44de02db803a8ab05c9143d5c7e5f84fc75b81ae7a7e1514f076b4b2c51328d4",
+      "bytes": 10051,
+      "matchesTarget": false,
+      "path": "crates/ffone-client/src/player_emote/events.rs",
+      "sha256": "c378afa82770a627b424d4f42706570ef7c6b4c694d906615e7a2b6b373be031"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 115,
+    "name": "cnCharRenderCamera",
+    "pathId": 1154,
+    "rawBytes": 65,
+    "rawSha256": "3dc49fe504febc245c7336e833692196c47121058affada4e12b93bfdba894f2",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "MonoScript",
+    "typeId": 115,
+    "value": {
+      "m_AssemblyIdentifier": "CSharp",
+      "m_ClassName": "cnCharRenderCamera",
+      "m_IsEditorScript": false,
+      "m_Name": "cnCharRenderCamera",
+      "m_PathName": ""
+    }
+  },
+  "pointers": [],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

@@ -1,0 +1,30 @@
+# All generated builds, extraction caches and investigation scratch files.
+/work/
+**/target/
+/target-*/
+/dist/
+/vendor/ffbuildtool/work/
+
+# Local language/tool environments.
+**/node_modules/
+**/__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Machine-specific editor settings and credentials.
+/.vscode/
+/.idea/
+.env
+.env.*
+!.env.example
+
+# Transient outputs; accepted rules belong in recipes/, regression fixtures in tests/, historical evidence in docs/reference/.
+*.log
+*.tmp
+*.pdb
+*.ilk
+*.ffworld.json.bak
+Thumbs.db
+.DS_Store

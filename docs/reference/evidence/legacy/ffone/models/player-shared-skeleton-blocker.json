@@ -1,0 +1,152 @@
+{
+  "schema": "ffone.player-shared-skeleton-blocker.v1",
+  "status": "blocked-no-native-shared-skeleton-publication",
+  "publicationComplete": false,
+  "runtimeReady": false,
+  "fakeAnimationOrStaticReplacementAllowed": false,
+  "scope": "Retrobution character-selection and character-creation player avatar",
+  "sourceEvidence": [
+    {
+      "path": "target/player-cooker-character-selection.objects.json",
+      "bytes": 437759755,
+      "sha256": "cec174873f755fb815b93f76334902a6eb46d9712678b71a721f26c2a3750478",
+      "meaning": "immutable already-extracted object dump; no Unity runtime or bundle read is required"
+    },
+    {
+      "path": "assets/game/characters/player/equipment/catalog.json",
+      "bytes": 1001314,
+      "sha256": "d98fd15aa549ac92765bdd252d36c790e64e711f0d8e1ae6da4022785a91f186",
+      "meaning": "1245 installed native equipment GLBs; catalog explicitly marks playerAssemblyParityPending=true and productionApproved=false"
+    },
+    {
+      "path": "assets/game/characters/player/male/base/male_skeleton.json",
+      "bytes": 146322,
+      "sha256": "88f03b5907741fee3e59de05a092820c98828389665b415ae9c4aa425fc72006",
+      "meaning": "readable male hierarchy and clip index only; complete=false and its own blocker says AnimationClip curve payload conversion is pending"
+    },
+    {
+      "path": "crates/ffone-client/src/player_preview.rs",
+      "bytes": 20846,
+      "sha256": "8caedbd65e25617830a797a2e88aabeb476d735c12e507f52c3f202a0c2c9f5e",
+      "meaning": "current runtime composes independently skinned part scenes; it contains no shared-skeleton palette rebinding path"
+    }
+  ],
+  "verifiedActors": {
+    "male": {
+      "exactRoute": "actor/m.kfm",
+      "trueName": "m",
+      "actorSkinCombinerPathId": 234217,
+      "animationComponentPathId": 234214,
+      "emptyRendererPathId": 234216,
+      "actorBoneCount": 133,
+      "sourceClipCount": 230,
+      "requiredCreationClips": [
+        {
+          "name": "stand1",
+          "sourcePathId": 237023,
+          "sourceOrder": 157
+        },
+        {
+          "name": "height_Add",
+          "sourcePathId": 34244,
+          "sourceOrder": 226
+        },
+        {
+          "name": "height",
+          "sourcePathId": 34245,
+          "sourceOrder": 227
+        },
+        {
+          "name": "shape_Add",
+          "sourcePathId": 34248,
+          "sourceOrder": 228
+        },
+        {
+          "name": "shape",
+          "sourcePathId": 34253,
+          "sourceOrder": 229
+        }
+      ]
+    },
+    "female": {
+      "exactRoute": "actor/w.kfm",
+      "trueName": "w",
+      "actorSkinCombinerPathId": 234277,
+      "animationComponentPathId": 234274,
+      "emptyRendererPathId": 234276,
+      "actorBoneCount": 159,
+      "sourceClipCount": 228,
+      "requiredCreationClips": [
+        {
+          "name": "stand1",
+          "sourcePathId": 237027,
+          "sourceOrder": 132
+        },
+        {
+          "name": "height_Add",
+          "sourcePathId": 34516,
+          "sourceOrder": 224
+        },
+        {
+          "name": "height",
+          "sourcePathId": 34475,
+          "sourceOrder": 225
+        },
+        {
+          "name": "shape_Add",
+          "sourcePathId": 34227,
+          "sourceOrder": 226
+        },
+        {
+          "name": "shape",
+          "sourcePathId": 34372,
+          "sourceOrder": 227
+        }
+      ]
+    }
+  },
+  "verifiedDefaultCreatorParts": {
+    "male": [
+      "m_face_001_type01",
+      "m_head_001_type01",
+      "m_shirt_coolshirt",
+      "m_pants_camo",
+      "m_shoes_bluewalker"
+    ],
+    "female": [
+      "f_face_001_type01",
+      "f_head_001_type01",
+      "f_shirt_coolshirt",
+      "f_pants_camo",
+      "f_shoes_bluewalker"
+    ]
+  },
+  "exactBlockers": [
+    {
+      "id": "animation-payload-not-published",
+      "severity": "hard",
+      "evidence": "male_skeleton.json is complete=false and stores only the clip inventory; the female equivalent does not exist",
+      "requiredAcceptance": "decode all position, scale, plain rotation and legacy packed quaternion curves at exact key times; reject ambiguous paths and non-zero packed slopes; publish stand1, height_Add, height, shape_Add and shape into semantic-roundtrip-verified GLBs"
+    },
+    {
+      "id": "shared-skin-joint-remap-not-proven",
+      "severity": "hard",
+      "evidence": "equipment catalog proves only standalone GLB GPU rendering; it has no transformIndicesM/F-to-actor-bone contract and explicitly leaves player assembly parity pending",
+      "requiredAcceptance": "for every skin of all ten default creator parts, match each GLB joint path to exactly one actor bone and prove the resulting actor index vector equals the legacy ActorWearIndexTable transformIndicesM or transformIndicesF palette"
+    },
+    {
+      "id": "runtime-has-no-shared-skeleton-consumer",
+      "severity": "hard",
+      "evidence": "player_preview.rs currently spawns independently skinned source part scenes at unchanged authored origin",
+      "requiredAcceptance": "rebind every part skin to one gender skeleton instance and GPU-audit the assembled avatar without changing source origin, scale, bind matrices, bone weights or names"
+    },
+    {
+      "id": "actor-skin-combiner-layering-not-implemented",
+      "severity": "hard",
+      "evidence": "the source behavior requires stand1 as the base loop; height and shape as clamp layer 100; height_Add and shape_Add as continuously enabled additive clamp clips at weight 1",
+      "requiredAcceptance": "match normalized height=1-heightIndex/4 and shape=bodyIndex/2 behavior and verify controlled Retrobution-versus-Bevy frames"
+    }
+  ],
+  "safeNextStep": "Implement one offline fail-closed publisher from the existing object dump, then add a Bevy shared-skeleton rebinder. Do not substitute a static NPC, independent stand animations, guessed palettes, or an unverified female skeleton.",
+  "productionAssetsMutated": false
+}

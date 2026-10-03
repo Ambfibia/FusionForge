@@ -1,0 +1,523 @@
+{
+  "applied": false,
+  "outputs": [
+    {
+      "beforeSha256": "89049b8f56eef6bf94a8ccf087930a793b681353a86703c3195f67f0822d2e63",
+      "bytes": 25652,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/abc.png",
+      "sha256": "89049b8f56eef6bf94a8ccf087930a793b681353a86703c3195f67f0822d2e63"
+    },
+    {
+      "beforeSha256": "73238e0066f1a2584b26511559865b9a41921384f77bda8cccf112780b5c19ee",
+      "bytes": 107466,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/banker.png",
+      "sha256": "73238e0066f1a2584b26511559865b9a41921384f77bda8cccf112780b5c19ee"
+    },
+    {
+      "beforeSha256": "a2d93fa70d9a5626c75784d0cac189901ad4df0b5ce2c0ea060d2ffc95e39f57",
+      "bytes": 86899,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/buddy_icon.png",
+      "sha256": "a2d93fa70d9a5626c75784d0cac189901ad4df0b5ce2c0ea060d2ffc95e39f57"
+    },
+    {
+      "beforeSha256": "f6bcea500c3146315f56302f5bbe39b0c43b3324f269b2ac753d9262dce95498",
+      "bytes": 69112,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/buddy_window---tight.png",
+      "sha256": "f6bcea500c3146315f56302f5bbe39b0c43b3324f269b2ac753d9262dce95498"
+    },
+    {
+      "beforeSha256": "f26b6356e491596ef9818ab695a0584321d6a1db9f30b38121dc31563ba86f0e",
+      "bytes": 81129,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/character_screen.png",
+      "sha256": "f26b6356e491596ef9818ab695a0584321d6a1db9f30b38121dc31563ba86f0e"
+    },
+    {
+      "beforeSha256": "110cb070d56c8942f06dd8172388bd5b0db50a67cb698b6ff15bf214853435de",
+      "bytes": 122566,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/coco.png",
+      "sha256": "110cb070d56c8942f06dd8172388bd5b0db50a67cb698b6ff15bf214853435de"
+    },
+    {
+      "beforeSha256": "3cb8efdd784f0a19cfabddec34351fd12262141d01f94dacbd1601843195ef34",
+      "bytes": 57596,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/combined_item.png",
+      "sha256": "3cb8efdd784f0a19cfabddec34351fd12262141d01f94dacbd1601843195ef34"
+    },
+    {
+      "beforeSha256": "8c9d019bebcc333e791e51cfc39f9a5083dd490c3f57de06f33aa79585633e1c",
+      "bytes": 137798,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/corruption.png",
+      "sha256": "8c9d019bebcc333e791e51cfc39f9a5083dd490c3f57de06f33aa79585633e1c"
+    },
+    {
+      "beforeSha256": "b8cff0f095c4b6fe36102fd8b0ddd541205e5cc7fe7cf72aed85ca2c190a30e8",
+      "bytes": 18610,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/crate.png",
+      "sha256": "b8cff0f095c4b6fe36102fd8b0ddd541205e5cc7fe7cf72aed85ca2c190a30e8"
+    },
+    {
+      "beforeSha256": "91959a49425c63e858a6c0dc1d76bbf9a286ec2e8aaa024d393519d1c7895eb7",
+      "bytes": 75279,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/creation.png",
+      "sha256": "91959a49425c63e858a6c0dc1d76bbf9a286ec2e8aaa024d393519d1c7895eb7"
+    },
+    {
+      "beforeSha256": "f42788a0ff25e4c3edbfbe0cdf39367f11d52074b0c4e8bccf06278b81c85a0e",
+      "bytes": 71303,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/crocpot_screen.png",
+      "sha256": "f42788a0ff25e4c3edbfbe0cdf39367f11d52074b0c4e8bccf06278b81c85a0e"
+    },
+    {
+      "beforeSha256": "72a487e76f097ab4a11abe81690f470231b1d09c1e88277553035b069567668e",
+      "bytes": 96137,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/crocpot_vendor.png",
+      "sha256": "72a487e76f097ab4a11abe81690f470231b1d09c1e88277553035b069567668e"
+    },
+    {
+      "beforeSha256": "8ba2547143f5a4b81db2e1500ddf68669c8f820d389891b33fd6464d4f8432f7",
+      "bytes": 125845,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/egger.png",
+      "sha256": "8ba2547143f5a4b81db2e1500ddf68669c8f820d389891b33fd6464d4f8432f7"
+    },
+    {
+      "beforeSha256": "825bab552e95357f440b9be929787430f486c3daada75942865c35c31cb983f4",
+      "bytes": 42816,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/email.png",
+      "sha256": "825bab552e95357f440b9be929787430f486c3daada75942865c35c31cb983f4"
+    },
+    {
+      "beforeSha256": "0180d13eac5d84d49f5d122ac956ae4af255ff91013c185a326798e77d7fe240",
+      "bytes": 82315,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/equip.png",
+      "sha256": "0180d13eac5d84d49f5d122ac956ae4af255ff91013c185a326798e77d7fe240"
+    },
+    {
+      "beforeSha256": "d72cf71cd7f6f117a2ab4526f73162c77f0d13f73b801cbfe5930daa44edd3be",
+      "bytes": 149475,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/eruption.png",
+      "sha256": "d72cf71cd7f6f117a2ab4526f73162c77f0d13f73b801cbfe5930daa44edd3be"
+    },
+    {
+      "beforeSha256": "29d5ae331fb033c8d02f62b67eb21fbbe9833c8b9a13630ee52d79e887154555",
+      "bytes": 131941,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/flier.png",
+      "sha256": "29d5ae331fb033c8d02f62b67eb21fbbe9833c8b9a13630ee52d79e887154555"
+    },
+    {
+      "beforeSha256": "e5df77190bbf6dee6a26d28da0f8ad4db1deced2438fb91deb19176da12c2344",
+      "bytes": 102638,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/fusion_pod.png",
+      "sha256": "e5df77190bbf6dee6a26d28da0f8ad4db1deced2438fb91deb19176da12c2344"
+    },
+    {
+      "beforeSha256": "0a7d78461ce7536806d9e803298b24dfb20b1b3f65461f06dbcdfe98689fc87b",
+      "bytes": 105643,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/gameguideselection.png",
+      "sha256": "0a7d78461ce7536806d9e803298b24dfb20b1b3f65461f06dbcdfe98689fc87b"
+    },
+    {
+      "beforeSha256": "029c7be5e769bf5915e52a53bf027fc877cd5a85b6595029b92c0645d6fbe84d",
+      "bytes": 116101,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/group.png",
+      "sha256": "029c7be5e769bf5915e52a53bf027fc877cd5a85b6595029b92c0645d6fbe84d"
+    },
+    {
+      "beforeSha256": "d0ab8fbc92e589e68a94b72ebe67df15effd29427bf74e4f10c0bd4bee8470d8",
+      "bytes": 125666,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/guidechanger.png",
+      "sha256": "d0ab8fbc92e589e68a94b72ebe67df15effd29427bf74e4f10c0bd4bee8470d8"
+    },
+    {
+      "beforeSha256": "7922b4be6cdae782bf775919c9473c7335b004efa070a8db6e80b845e6f65e7f",
+      "bytes": 113003,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/infected_patch.png",
+      "sha256": "7922b4be6cdae782bf775919c9473c7335b004efa070a8db6e80b845e6f65e7f"
+    },
+    {
+      "beforeSha256": "114c2d181594835c7009c54902de3b9b49ded4ecbd06b324ed800aac40d516e4",
+      "bytes": 112571,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/infected_zone_inside.png",
+      "sha256": "114c2d181594835c7009c54902de3b9b49ded4ecbd06b324ed800aac40d516e4"
+    },
+    {
+      "beforeSha256": "364f855a8407b74cea6c8e1a61ebb919953af894eb290cfbda54b0ba6b1806b9",
+      "bytes": 119366,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/infected_zone_outside.png",
+      "sha256": "364f855a8407b74cea6c8e1a61ebb919953af894eb290cfbda54b0ba6b1806b9"
+    },
+    {
+      "beforeSha256": "2e2bf1cf35fa1bc8ee06d8367680d7cd6a8a02075f3abcf592ebaf3bd236b305",
+      "bytes": 164139,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/lair.png",
+      "sha256": "2e2bf1cf35fa1bc8ee06d8367680d7cd6a8a02075f3abcf592ebaf3bd236b305"
+    },
+    {
+      "beforeSha256": "b7985c7b0e8df03418f17260c4a87f631140198ca1b0f186094b6725646ac85b",
+      "bytes": 103252,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/launcher.png",
+      "sha256": "b7985c7b0e8df03418f17260c4a87f631140198ca1b0f186094b6725646ac85b"
+    },
+    {
+      "beforeSha256": "18504bf72eb46f256314cc360fb877c159f5bad76ef1360484c30643fb4b658c",
+      "bytes": 110992,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/login.png",
+      "sha256": "18504bf72eb46f256314cc360fb877c159f5bad76ef1360484c30643fb4b658c"
+    },
+    {
+      "beforeSha256": "f46a6c73da72aeada4be31ff770eec9ad20be0e13f9bfffefa6a8e44ca9af752",
+      "bytes": 92401,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/menu_chat.png",
+      "sha256": "f46a6c73da72aeada4be31ff770eec9ad20be0e13f9bfffefa6a8e44ca9af752"
+    },
+    {
+      "beforeSha256": "6052cb0b7e64513a6b313315fb12bd55b7893cb3cd849121856ed3bd5e13ebd1",
+      "bytes": 113831,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/mission-giver.png",
+      "sha256": "6052cb0b7e64513a6b313315fb12bd55b7893cb3cd849121856ed3bd5e13ebd1"
+    },
+    {
+      "beforeSha256": "b3e87459912638aea76f9524bbad61a4b71c926c609ca02d51d02a4388d6863d",
+      "bytes": 113826,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/mission_giver.png",
+      "sha256": "b3e87459912638aea76f9524bbad61a4b71c926c609ca02d51d02a4388d6863d"
+    },
+    {
+      "beforeSha256": "71d1f7c8e244739f3552c23edf96d011fb255b8d250b525a801c222c3ad34149",
+      "bytes": 51316,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/mission_journal.png",
+      "sha256": "71d1f7c8e244739f3552c23edf96d011fb255b8d250b525a801c222c3ad34149"
+    },
+    {
+      "beforeSha256": "d151d321962dd1ef4dd3afbffdaa5f82bc96b5fccd4d0ad457d1de7f46319ba1",
+      "bytes": 97374,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/mission_update.png",
+      "sha256": "d151d321962dd1ef4dd3afbffdaa5f82bc96b5fccd4d0ad457d1de7f46319ba1"
+    },
+    {
+      "beforeSha256": "f496f161bafa901b24e093d395c6bc065ab673379cd283e3ef0dd1578802493b",
+      "bytes": 101655,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/mob_hp.png",
+      "sha256": "f496f161bafa901b24e093d395c6bc065ab673379cd283e3ef0dd1578802493b"
+    },
+    {
+      "beforeSha256": "82916308f371677662004d8f8f9a36a6f12c8660b007c12fbc07c95cd4a0f880",
+      "bytes": 73160,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/movement_controls.png",
+      "sha256": "82916308f371677662004d8f8f9a36a6f12c8660b007c12fbc07c95cd4a0f880"
+    },
+    {
+      "beforeSha256": "6869ae0e7ad334b91aaa5c63e173c4a9b3f00f1d076c3c829efab433e476d239",
+      "bytes": 63107,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/name.png",
+      "sha256": "6869ae0e7ad334b91aaa5c63e173c4a9b3f00f1d076c3c829efab433e476d239"
+    },
+    {
+      "beforeSha256": "dfbeb0485684f302e9de4efcb861464ad587fedea07c13c54bb2a62c84e9233b",
+      "bytes": 140735,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/nano_com.png",
+      "sha256": "dfbeb0485684f302e9de4efcb861464ad587fedea07c13c54bb2a62c84e9233b"
+    },
+    {
+      "beforeSha256": "42807aedc0026be46fc185c2f9828b50bf74e827d36f65d7319bcfc2e5a85f72",
+      "bytes": 75614,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/nano_stamina.png",
+      "sha256": "42807aedc0026be46fc185c2f9828b50bf74e827d36f65d7319bcfc2e5a85f72"
+    },
+    {
+      "beforeSha256": "60da555884cf7603d4a398193fa56576511a214d8b9baa547ed1f96c69c80a94",
+      "bytes": 75293,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/nano_tune.png",
+      "sha256": "60da555884cf7603d4a398193fa56576511a214d8b9baa547ed1f96c69c80a94"
+    },
+    {
+      "beforeSha256": "1eb26e50b6e21010cf939dcc0827818c1fbce4f27b07785d60118ed7ce9e1764",
+      "bytes": 85282,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/nano_wheel.png",
+      "sha256": "1eb26e50b6e21010cf939dcc0827818c1fbce4f27b07785d60118ed7ce9e1764"
+    },
+    {
+      "beforeSha256": "b9d409d5f603b4bb812f16acf11fd6f28224b9c721486b415339dd0e4460f3cf",
+      "bytes": 95918,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/nanocom.png",
+      "sha256": "b9d409d5f603b4bb812f16acf11fd6f28224b9c721486b415339dd0e4460f3cf"
+    },
+    {
+      "beforeSha256": "4b8ebe9f5ae5a22801d3d909ad85af6f5bc4daf16129af7472cd4b4b00a64197",
+      "bytes": 119420,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/platform.png",
+      "sha256": "4b8ebe9f5ae5a22801d3d909ad85af6f5bc4daf16129af7472cd4b4b00a64197"
+    },
+    {
+      "beforeSha256": "a2d93fa70d9a5626c75784d0cac189901ad4df0b5ce2c0ea060d2ffc95e39f57",
+      "bytes": 86899,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/player_trading.png",
+      "sha256": "a2d93fa70d9a5626c75784d0cac189901ad4df0b5ce2c0ea060d2ffc95e39f57"
+    },
+    {
+      "beforeSha256": "05356927935b3cd43c235b8418a882d595ebae37b933aa731bee64aacc46489b",
+      "bytes": 111402,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/power_selection.png",
+      "sha256": "05356927935b3cd43c235b8418a882d595ebae37b933aa731bee64aacc46489b"
+    },
+    {
+      "beforeSha256": "3c4c96e89e34f081b5c3d7d5944612d914d2ea979e6cef5328eedd5bf7c99547",
+      "bytes": 43847,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/powers1.png",
+      "sha256": "3c4c96e89e34f081b5c3d7d5944612d914d2ea979e6cef5328eedd5bf7c99547"
+    },
+    {
+      "beforeSha256": "bd9afcaf4f8c407bb6406f7cf37860e43ae7588a3658f4dc54e4db35662cfc09",
+      "bytes": 38877,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/powers2.png",
+      "sha256": "bd9afcaf4f8c407bb6406f7cf37860e43ae7588a3658f4dc54e4db35662cfc09"
+    },
+    {
+      "beforeSha256": "05e5fd7276d6b1484b4e210646ec573e5e960de54b290cac27033d943a64321d",
+      "bytes": 112697,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/recall.png",
+      "sha256": "05e5fd7276d6b1484b4e210646ec573e5e960de54b290cac27033d943a64321d"
+    },
+    {
+      "beforeSha256": "8a80e6f7188f950bdb1feb8aa4ee7c9b36841461e370abfbcd30579db3dcd764",
+      "bytes": 100683,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/recovery.png",
+      "sha256": "8a80e6f7188f950bdb1feb8aa4ee7c9b36841461e370abfbcd30579db3dcd764"
+    },
+    {
+      "beforeSha256": "3dfa83e9710dfdab5d115a446dc29b1ad49aebbbdfb054d2ef02230e6330750d",
+      "bytes": 35197,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/rest_0.png",
+      "sha256": "3dfa83e9710dfdab5d115a446dc29b1ad49aebbbdfb054d2ef02230e6330750d"
+    },
+    {
+      "beforeSha256": "b08a654d410800e071ad4843fc60187d59d6c6ab7dae918dfd0d875cf7e63ba7",
+      "bytes": 44890,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/rest_100.png",
+      "sha256": "b08a654d410800e071ad4843fc60187d59d6c6ab7dae918dfd0d875cf7e63ba7"
+    },
+    {
+      "beforeSha256": "76a5e67781fec443d7aedcf85c089f1bb994790970113b6edf2da1d7b8126fb0",
+      "bytes": 76193,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/rest_50.png",
+      "sha256": "76a5e67781fec443d7aedcf85c089f1bb994790970113b6edf2da1d7b8126fb0"
+    },
+    {
+      "beforeSha256": "21fb6426e1468f202bdce76ea361276608b8c9f1d0e7b3fae8628b3e80001aa5",
+      "bytes": 117047,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/resurrect.png",
+      "sha256": "21fb6426e1468f202bdce76ea361276608b8c9f1d0e7b3fae8628b3e80001aa5"
+    },
+    {
+      "beforeSha256": "e83d109ece7777b965f4fe09ee7c367482f50ff278597f48ccb6d4d73e6a8964",
+      "bytes": 68527,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/satellite_map.png",
+      "sha256": "e83d109ece7777b965f4fe09ee7c367482f50ff278597f48ccb6d4d73e6a8964"
+    },
+    {
+      "beforeSha256": "d0a83c04030876f4f5dce87eb9003ecf8125f5311e876fcea4bad4906735800e",
+      "bytes": 98083,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/scamper.png",
+      "sha256": "d0a83c04030876f4f5dce87eb9003ecf8125f5311e876fcea4bad4906735800e"
+    },
+    {
+      "beforeSha256": "84bee82746d5027236ca3403ec56f8c3890767007a5b6e354adcc11e6fc7d9d9",
+      "bytes": 78307,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/scores.png",
+      "sha256": "84bee82746d5027236ca3403ec56f8c3890767007a5b6e354adcc11e6fc7d9d9"
+    },
+    {
+      "beforeSha256": "5c59f21de89817e78200610260683aaa0cf605434d6e507851cec90b8c3f131e",
+      "bytes": 93513,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/selection.png",
+      "sha256": "5c59f21de89817e78200610260683aaa0cf605434d6e507851cec90b8c3f131e"
+    },
+    {
+      "beforeSha256": "f8bf4a44ba2216d6c4d10b1ce7fe86d33f5993b2552f14933af1b84a19bf87c5",
+      "bytes": 110501,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/slide.png",
+      "sha256": "f8bf4a44ba2216d6c4d10b1ce7fe86d33f5993b2552f14933af1b84a19bf87c5"
+    },
+    {
+      "beforeSha256": "c56f18a677cef453d3bea5fc2c30d80bc481bc6c354cd9ac0f6af1695151f94b",
+      "bytes": 100040,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/slider.png",
+      "sha256": "c56f18a677cef453d3bea5fc2c30d80bc481bc6c354cd9ac0f6af1695151f94b"
+    },
+    {
+      "beforeSha256": "9015a5e19fb1ad63f9d0663083e30da3593dbc9b2819a2d6d886806b6f64b7d2",
+      "bytes": 76309,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/starter.png",
+      "sha256": "9015a5e19fb1ad63f9d0663083e30da3593dbc9b2819a2d6d886806b6f64b7d2"
+    },
+    {
+      "beforeSha256": "29a28fa98b10df2d282f43df7f07e32ad3e7e4f617a292e83a63aa894508fde0",
+      "bytes": 77953,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/station.png",
+      "sha256": "29a28fa98b10df2d282f43df7f07e32ad3e7e4f617a292e83a63aa894508fde0"
+    },
+    {
+      "beforeSha256": "c56b11a82378479a88492d0e6fd206a49a2891c8e5cd132854d74281f2081c2e",
+      "bytes": 43337,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/success_chance.png",
+      "sha256": "c56b11a82378479a88492d0e6fd206a49a2891c8e5cd132854d74281f2081c2e"
+    },
+    {
+      "beforeSha256": "eb243f12dba3533cdeedeb9e769f3d4c11bf6c7708e2702d6e3c1c9c41973dda",
+      "bytes": 126887,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/targeting_single.png",
+      "sha256": "eb243f12dba3533cdeedeb9e769f3d4c11bf6c7708e2702d6e3c1c9c41973dda"
+    },
+    {
+      "beforeSha256": "39d2f6f36537e1535bd1951830264acb9c2688ab662ae7b6152be30ed6312638",
+      "bytes": 121866,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/targeting_two.png",
+      "sha256": "39d2f6f36537e1535bd1951830264acb9c2688ab662ae7b6152be30ed6312638"
+    },
+    {
+      "beforeSha256": "c96a3baf42a27eb32c8678ac8603c297c351f84b82e1f11563b3500cc8d38d10",
+      "bytes": 50300,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/trading.png",
+      "sha256": "c96a3baf42a27eb32c8678ac8603c297c351f84b82e1f11563b3500cc8d38d10"
+    },
+    {
+      "beforeSha256": "cdcb93ba0d2d1421b3e732c4607ce341a64fff1c9163a96b013607190167242d",
+      "bytes": 47534,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/vault.png",
+      "sha256": "cdcb93ba0d2d1421b3e732c4607ce341a64fff1c9163a96b013607190167242d"
+    },
+    {
+      "beforeSha256": "b560e75679609f102044ee0b58d987cb23e80a683a898b5b526c01aa143f0019",
+      "bytes": 81598,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/vehicle_stats.png",
+      "sha256": "b560e75679609f102044ee0b58d987cb23e80a683a898b5b526c01aa143f0019"
+    },
+    {
+      "beforeSha256": "29fd2596e73c21ef13ab29fef9b514bbba9cd074f452e27b7aa94d4064b1ab9f",
+      "bytes": 72820,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/vehicle_vendor.png",
+      "sha256": "29fd2596e73c21ef13ab29fef9b514bbba9cd074f452e27b7aa94d4064b1ab9f"
+    },
+    {
+      "beforeSha256": "83a35092e882c2fe82404238f80e1d9f0d7b96fa2ea87de8c8aa416e391bad64",
+      "bytes": 116460,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/vendor_npc.png",
+      "sha256": "83a35092e882c2fe82404238f80e1d9f0d7b96fa2ea87de8c8aa416e391bad64"
+    },
+    {
+      "beforeSha256": "22a9487c540daffd0dc4280dd71d40baf097038463106498bd031ee8eb76ffdf",
+      "bytes": 60553,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/vendor_screen.png",
+      "sha256": "22a9487c540daffd0dc4280dd71d40baf097038463106498bd031ee8eb76ffdf"
+    },
+    {
+      "beforeSha256": "6fea1b23b7d1e151ec3376a40fe1e4f1b91f47f223ab955ca83032e95983ea16",
+      "bytes": 111681,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/warp_gate.png",
+      "sha256": "6fea1b23b7d1e151ec3376a40fe1e4f1b91f47f223ab955ca83032e95983ea16"
+    },
+    {
+      "beforeSha256": "1a827b35592d6719bbd352afd84c45de7197c1a22e11bcb22daeeb26972ab32a",
+      "bytes": 114588,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/waypoint_offscreen.png",
+      "sha256": "1a827b35592d6719bbd352afd84c45de7197c1a22e11bcb22daeeb26972ab32a"
+    },
+    {
+      "beforeSha256": "499fb83d212a4b3e4af4d558befa235d5d50793ab266f7928506f8b35cfa05c7",
+      "bytes": 107134,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/waypoint_rings.png",
+      "sha256": "499fb83d212a4b3e4af4d558befa235d5d50793ab266f7928506f8b35cfa05c7"
+    },
+    {
+      "beforeSha256": "2734a22b1ae3ef436c36b91a95481fa21edcbb21e90ca7eb8f0ce5a200b303a8",
+      "bytes": 100719,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/waypoint_target.png",
+      "sha256": "2734a22b1ae3ef436c36b91a95481fa21edcbb21e90ca7eb8f0ce5a200b303a8"
+    },
+    {
+      "beforeSha256": "57cb0fc7c76ce66a3ee1724eb907f7eda95e56c1d3e2e66801829cf7e0dc5deb",
+      "bytes": 69646,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/world_map.png",
+      "sha256": "57cb0fc7c76ce66a3ee1724eb907f7eda95e56c1d3e2e66801829cf7e0dc5deb"
+    },
+    {
+      "beforeSha256": "9e5853fce09e35931c95b7dc3ed88d5242f0d8e48db52d565ab68f9a13aef713",
+      "bytes": 113412,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/screenshots/zip_line.png",
+      "sha256": "9e5853fce09e35931c95b7dc3ed88d5242f0d8e48db52d565ab68f9a13aef713"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "chat-scrollbar-primary-20260821",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "main.unity3d",
+    "containerBytes": 8221718,
+    "containerSha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+    "objects": [
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour",
+        "pathId": 1368,
+        "fileId": 0,
+        "containerRoute": "CnGuiChat.pMenuSkin",
+        "trueName": "FusionFallChatSkin"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 374,
+        "fileId": 0,
+        "containerRoute": "FusionFallChatSkin.m_verticalScrollbar.m_Normal.m_Background",
+        "trueName": "scrollbar"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 324,
+        "fileId": 0,
+        "containerRoute": "FusionFallChatSkin.m_verticalScrollbarThumb.m_Normal.m_Background",
+        "trueName": "scrollthumb"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 63,
+        "fileId": 0,
+        "containerRoute": "FusionFallChatSkin.m_verticalScrollbarUpButton.m_Normal.m_Background",
+        "trueName": "scrollup"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 415,
+        "fileId": 0,
+        "containerRoute": "FusionFallChatSkin.m_verticalScrollbarDownButton.m_Normal.m_Background",
+        "trueName": "scrolldown"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "exact-texture-decode",
+    "tool": "crates/ffone-asset-pipeline/src/bin/publish_exact_texture.rs",
+    "toolRevision": "workspace-file-sha256:8086597cd29797bb0c173370dc6e601ff0003ee4634d4c9d808540616e6550ba",
+    "workingDirectory": ".",
+    "commands": [
+      "cargo run -- fusionforge export-exact-texture ..\\builds\\retrobution-20260821\\main.unity3d 374 work\\projects\\retrobution-ui-20260821.ffclient\\reports\\chat-ui-primary\\exact-textures\\374.json",
+      "cargo run -- fusionforge export-exact-texture ..\\builds\\retrobution-20260821\\main.unity3d 324 work\\projects\\retrobution-ui-20260821.ffclient\\reports\\chat-ui-primary\\exact-textures\\324.json",
+      "cargo run -- fusionforge export-exact-texture ..\\builds\\retrobution-20260821\\main.unity3d 63 work\\projects\\retrobution-ui-20260821.ffclient\\reports\\chat-ui-primary\\exact-textures\\63.json",
+      "cargo run -- fusionforge export-exact-texture ..\\builds\\retrobution-20260821\\main.unity3d 415 work\\projects\\retrobution-ui-20260821.ffclient\\reports\\chat-ui-primary\\exact-textures\\415.json",
+      "cargo run -p ffone-asset-pipeline --bin publish_exact_texture -- <exact-texture-json> work\\projects\\retrobution-ui-20260821.ffclient\\staged\\assets\\game\\ui\\gameplay\\chat\\scrollbar\\<role>.png"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-primary/fusionfall-chat-skin-1368.evidence.json",
+      "bytes": 358357,
+      "sha256": "cae1bd82d56613e9dfd0a4b0742fc732fe374b45c42ed4cfcd88eca93817f27b"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-primary/exact-textures/374.json",
+      "bytes": 3729,
+      "sha256": "64a61d53908714f7609bc478f83ea4476897ae1065a9a08aaef6a719f27b72c6"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-primary/exact-textures/324.json",
+      "bytes": 3974,
+      "sha256": "7896b4fabde4b5ad2e50756eb5c38837cc82e68985ca4736baf4dacf949c88bb"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-primary/exact-textures/63.json",
+      "bytes": 4448,
+      "sha256": "b97906722f4cf987afc9e10973b7a586873e36ecf1a27b801fbb0fc581733fdb"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-primary/exact-textures/415.json",
+      "bytes": 4411,
+      "sha256": "5d3cc133fa96ad246a3bd55fff244118557bec3965a8dece46bd1a16508af0e3"
+    },
+    {
+      "path": "crates/ffone-asset-pipeline/src/bin/publish_exact_texture.rs",
+      "bytes": 3446,
+      "sha256": "8086597cd29797bb0c173370dc6e601ff0003ee4634d4c9d808540616e6550ba"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/game/ui/gameplay/chat/scrollbar/track.png",
+      "bytes": 225,
+      "sha256": "94cc317466de205d6336038b99626a3596ea5592298ecdc409f4e93c7fb83355"
+    },
+    {
+      "path": "assets/game/ui/gameplay/chat/scrollbar/thumb.png",
+      "bytes": 318,
+      "sha256": "a7afff2d82ddc872cc99bc2695039530ce1e1a554dceb95f33e344804ef589ad"
+    },
+    {
+      "path": "assets/game/ui/gameplay/chat/scrollbar/up.png",
+      "bytes": 496,
+      "sha256": "504525e1476d8a753f39821411d9fbdb9bdf7fd299496a0fd251d1dfc9be7463"
+    },
+    {
+      "path": "assets/game/ui/gameplay/chat/scrollbar/down.png",
+      "bytes": 481,
+      "sha256": "de13be5d83a1e28ebd312c1c38f293dc28126514f90e92124084e431b5a149fd"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "cargo test -p ffone-asset-pipeline --bin publish_exact_texture",
+      "result": "passed",
+      "evidence": null
+    },
+    {
+      "command": "Get-FileHash staged and FFOne chat scrollbar outputs",
+      "result": "passed: all four staged/native pairs are byte-identical",
+      "evidence": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-primary/exact-textures"
+    }
+  ]
+}

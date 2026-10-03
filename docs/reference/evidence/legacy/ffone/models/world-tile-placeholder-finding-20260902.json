@@ -1,0 +1,54 @@
+{
+  "schema": "ffone.asset-census-evidence.v1",
+  "id": "world-tile-placeholder-finding-20260902",
+  "status": "measured",
+  "supersedes": ["published-asset-census-20260902 tiles section"],
+  "question": "Why are Map_00_08, Map_01_09 and Map_11_15 absent from the 170-entry tile registry, and can they be published?",
+  "answer": "They cannot, and excluding them was correct. All three are placeholder grid positions: their DongResources bundle carries no terrain of its own, only a copy of tile 00_09's. Publishing them would duplicate tile 00_09 at three unrelated coordinates, which the release rules forbid as silently substituting unrelated content.",
+  "evidence": [
+    {
+      "observation": "Each of the three DongResources bundles contains exactly four objects, and every one of them belongs to tile 00_09.",
+      "command": "cargo run -- fusionforge list-contents ..\\builds\\retrobution-20260821\\DongResources_00_08.resourceFile",
+      "result": [
+        "Texture2D TerrainData_00_09_LM",
+        "Texture2D SplatAlpha 0",
+        "TerrainData TerrainData_00_09",
+        "MonoBehaviour sound_00_09"
+      ],
+      "identicalFor": ["DongResources_00_08", "DongResources_01_09", "DongResources_11_15"]
+    },
+    {
+      "observation": "The real tile's bundle is three orders of magnitude larger and holds its own content.",
+      "detail": "DongResources_00_09.resourceFile is 1,361,723 bytes with 1030 objects; the three stubs are 8,342 / 8,338 / 8,345 bytes with 5 objects each (four plus the AssetBundle record)."
+    },
+    {
+      "observation": "The bundle index records the borrowed route explicitly, so this is re-derivable without opening a container.",
+      "detail": "Each stub's containerPaths list generateddongs/terraindata_00_09.asset and evsound/sound_00_09.asset; none lists generateddongs/terraindata_<own grid>.asset."
+    },
+    {
+      "observation": "The terrain enrichment stage independently refuses two of them for the same reason.",
+      "command": "cargo run -- fusionforge enrich-native-terrains ..\\builds\\retrobution-20260821 <batch-root> <fresh-root>",
+      "result": "complete-with-blocked: scenes=3, environments=3, ambienceExact=1, blocked=2",
+      "blockers": [
+        "dongColorCoordinatesMismatch: DongColorSetup coordinates (0,9) do not match map tile (0,8)",
+        "dongColorCoordinatesMismatch: DongColorSetup coordinates (0,9) do not match map tile (1,9)"
+      ]
+    },
+    {
+      "observation": "The raw terrain batch exporter reports success for all three, which is why a presence-only census called them publishable.",
+      "detail": "export-native-terrains returns exported=3, blocked=0 because it resolves TerrainData through the build root and finds tile 00_09's. Export success is not proof that a tile owns its terrain."
+    }
+  ],
+  "correction": {
+    "previouslyReported": "3 tiles publishable from primary",
+    "corrected": "0 tiles publishable; the 170-entry registry is complete for every grid position that owns terrain",
+    "censusFix": "tools/legacy-sources/asset-census.py now requires DongResources_XX_YY to list generateddongs/terraindata_XX_YY.asset before calling an unpublished tile publishable, and reports the borrowed tile otherwise."
+  },
+  "toolingNote": "The world-tile installer chain remains dead against the migrated tree: export-native-static-world and install-world-map-static-world read the removed _runtime/world.json, and organize_world_prefabs reads assets/game/world/maps/static/tiles, which it consumed and deleted during the one-way migration. That gap is real but no longer blocks any publishable content, so it is not asset debt; it would only matter for a future tile that does own terrain.",
+  "assetDomainsClosed": {
+    "characters": "1 unresolved: RXcom, whose mob/rxcom.kfm contains no publishable mesh (the invisible Recall Point marker)",
+    "equipment": "1 unresolved: pistol_musket, absent from the clean build and the Academy donor",
+    "tiles": "3 unpublished placeholders, none of which owns terrain",
+    "publishableFromPrimary": 0
+  }
+}

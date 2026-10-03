@@ -1,0 +1,45 @@
+{
+  "schema": "fusionforge.quit-menu-adapter.v1",
+  "sourceSha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+  "component": 1418,
+  "fontObject": 903,
+  "replacementFont": "fonts/jeffe.otf",
+  "fontSize": 12,
+  "lineHeight": 13.71000004,
+  "referenceHeight": 768,
+  "scaleNudge": 1.05,
+  "buttonGap": 8,
+  "controls": [
+    {
+      "action": "change-character",
+      "key": "ui.quit_menu.change_character",
+      "fallback": "CHANGE CHARACTER",
+      "style": 0
+    },
+    {
+      "action": "quit-game",
+      "key": "ui.quit_menu.quit_game",
+      "fallback": "QUIT GAME",
+      "style": 0
+    },
+    {
+      "action": "cancel",
+      "key": "ui.common.cancel",
+      "fallback": "CANCEL",
+      "style": 1
+    }
+  ],
+  "texturePaths": {
+    "535": "ui/en/gameplay/quit-menu/quitbackg.png",
+    "47": "ui/en/gameplay/quit-menu/quitback.png",
+    "449": "ui/en/gameplay/quit-menu/quitbutnor.png",
+    "122": "ui/en/gameplay/quit-menu/quitbutup.png",
+    "178": "ui/en/character/selection/controls/CancelNormal.png",
+    "640": "ui/en/gameplay/chat/blue_button_normal.png"
+  },
+  "dialogSize": [
+    206,
+    188
+  ],
+  "acceptedOverride": "Three-button native menu omits redundant logout control; retain accepted 188px dialog height rather than the 241px source texture footprint."
+}

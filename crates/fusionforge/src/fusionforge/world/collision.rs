@@ -1,0 +1,2 @@
+
+pub(super) const WORLD_PREVIEW_MAX_COLLIDER_VERTICES: usize = 80_000;

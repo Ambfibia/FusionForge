@@ -1,0 +1,40 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 115,
+    "name": "cnDisplayMapName",
+    "pathId": 1030,
+    "rawBytes": 57,
+    "rawSha256": "001869c54445a9009ab250a7ac0fff42213a3430a3d58a1503a58470a77fcd63",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "MonoScript",
+    "typeId": 115,
+    "value": {
+      "m_AssemblyIdentifier": "CSharp",
+      "m_ClassName": "cnDisplayMapName",
+      "m_IsEditorScript": false,
+      "m_Name": "cnDisplayMapName",
+      "m_PathName": ""
+    }
+  },
+  "pointers": [],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

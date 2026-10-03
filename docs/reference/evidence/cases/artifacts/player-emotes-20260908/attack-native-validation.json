@@ -1,0 +1,63 @@
+{
+  "schema": "ffone.player-emote-attack-validation.v1",
+  "classification": "owner-authorized extension",
+  "build": "CARGO_INCREMENTAL=0 cargo build -p ffone-client --bin ffone-client --example tutorial_player_rig_gpu_preview",
+  "tests": "CARGO_INCREMENTAL=0 cargo test -p ffone-client --lib emote",
+  "emoteTestsPassed": 41,
+  "rigTestsPassed": 25,
+  "gpu": "FFONE_EMOTE_ATTACK_PROBE=1 target/debug/examples/tutorial_player_rig_gpu_preview.exe assets/game <output.png> 2 1 0 <dance|beach> <male|female>",
+  "gpuCasesPassed": 4,
+  "assertions": [
+    "two emote continuation cycles",
+    "accepted rifle attack replaces emote",
+    "hand weapon visible",
+    "cancelled delayed echo discarded",
+    "return to rifleready"
+  ],
+  "files": [
+    {
+      "path": "target/performance/player-emote-attack/emote-tests.log",
+      "sha256": "3dd03d4564c00b71f8b9700630b521a3f58f0505f1491b27f37f2b7f907e3f8a"
+    },
+    {
+      "path": "target/performance/player-emote-attack/rig-tests.log",
+      "sha256": "855edbf71901ed5653ee6fdb0a883baa4c788111190b3e885b7b909d410f6acb"
+    },
+    {
+      "path": "target/performance/player-emote-attack/native-validation.log",
+      "sha256": "97c6d97fa2372c3369d8b85e2a88ae5fcb78230a7254ef23c0fa03429cb6c34d"
+    },
+    {
+      "path": "target/performance/player-emote-attack/male-dance.log",
+      "sha256": "3a1745ae9821864d4d8c97670bdedf068845875a5dfdc438be9be8f65a63bc6a"
+    },
+    {
+      "path": "target/performance/player-emote-attack/female-dance.log",
+      "sha256": "c87b78962234c3c08a8ee5e0a8d96cb2c36a547742e6153d8e392d5d4a6001ea"
+    },
+    {
+      "path": "target/performance/player-emote-attack/male-beach.log",
+      "sha256": "3e722a35917f07a5441cc770c0c85d2855737e6c2efb0b02704397ddf1e1431a"
+    },
+    {
+      "path": "target/performance/player-emote-attack/female-beach.log",
+      "sha256": "f7439299a334144d469e050c675f259c77ccba8b577464edf4ff05bab706b9a3"
+    },
+    {
+      "path": "target/performance/player-emote-attack/male-dance.png",
+      "sha256": "2b218c18fccd670fd6260e2edba89d03d83008f3c56c335924eb0aa2ae7cd451"
+    },
+    {
+      "path": "target/performance/player-emote-attack/female-dance.png",
+      "sha256": "6f9d828771f04490e686e6bbcb7c673cd6a85fdb8682262d1a6ba344d5f277db"
+    },
+    {
+      "path": "target/performance/player-emote-attack/male-beach.png",
+      "sha256": "bba77fa307e4c1c0113e4fd1afa289396cfa18d323e771154890e49269a4fd86"
+    },
+    {
+      "path": "target/performance/player-emote-attack/female-beach.png",
+      "sha256": "a8564ecaa52bd63872e1cad99864ffb6b243140e8d470e0adad3250f28dd71e4"
+    }
+  ]
+}

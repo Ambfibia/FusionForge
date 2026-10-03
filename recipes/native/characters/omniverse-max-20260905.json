@@ -1,0 +1,172 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "omniverse-max-20260905",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone-native"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "DongResources_02_04.resourceFile",
+    "containerBytes": 4362345,
+    "containerSha256": "20cc39e92479e878cce5b86457767d135e619647a0d690b1ef974b74e7555816",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-e3f4358d0046e4460aa5bfcb5b532b80",
+        "type": "GameObject",
+        "pathId": 1244,
+        "fileId": 0,
+        "containerRoute": "mob/npc_max.kfm",
+        "trueName": "npc_max"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "additive-extension",
+    "tool": "tools/legacy-sources/publish-omniverse-npcs.py",
+    "toolRevision": "86324d05303a076b9814bddff800635cb2f73954 + source hashes in inputs",
+    "workingDirectory": ".",
+    "commands": [
+      "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/DongResources_02_04.resourceFile mob/npc_max.kfm work/legacy-sources/omniverse-npcs-20260905/sources/npc_max.source.json work/projects/retrobution-ui-20260821.ffclient",
+      "target-build/debug/ffone-asset-pipeline.exe publish-logical-model work/legacy-sources/omniverse-npcs-20260905/sources/npc_max.source.json npc work/legacy-sources/omniverse-npcs-20260905/candidate",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/NpcTexture.resourceFile 20 work/legacy-sources/omniverse-npcs-20260905/textures/npc_max.exact.json",
+      "target-build/debug/publish_exact_texture.exe work/legacy-sources/omniverse-npcs-20260905/textures/npc_max.exact.json work/legacy-sources/omniverse-npcs-20260905/candidate/textures/npc_max.png",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/Icons.resourceFile 1316 work/legacy-sources/omniverse-npcs-20260905/icons/npcicon_23.exact.json",
+      "target-build/debug/publish_exact_texture.exe work/legacy-sources/omniverse-npcs-20260905/icons/npcicon_23.exact.json work/legacy-sources/omniverse-npcs-20260905/icons/npcicon_23.png",
+      "python tools/legacy-sources/publish-omniverse-npcs.py --work work/legacy-sources/omniverse-npcs-20260905 --native-root ../FFOneClient/assets/game --server-root ../OpenFusion --source-root ../builds/retrobution-20260821 --primary-evidence work/legacy-sources/mobs-retrobution-20260821.xdt.object-evidence.json --stage work/legacy-sources/omniverse-npcs-20260905/fresh-replay"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/sources/npc_max.source.json",
+      "bytes": 2003977,
+      "sha256": "e79abddcf334fcbe5a3baa22ffdcf9cdb839ddde40925f2ddde844986b0fc25a"
+    },
+    {
+      "path": "crates/ffone-asset-pipeline/src/logical_model_publish.rs",
+      "bytes": 353513,
+      "sha256": "f65d7d2703e25b34fabf44d73a18e45eb1c4e3d114e951a1500c7b137b185887"
+    },
+    {
+      "path": "tools/legacy-sources/publish-omniverse-npcs.py",
+      "bytes": 11311,
+      "sha256": "fcbbc6c6c315588d2b1a6719ba2edc6a4166b1c343bd6bbc54a246b5a100d977"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "NpcTexture.resourceFile",
+      "bytes": 15239269,
+      "sha256": "95504fa80830d2c54540e576a44707096b746d761448d086e294a6f1cd0dc171"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "Tutorial.resourceFile",
+      "bytes": 33327638,
+      "sha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "CharacterCreation.resourceFile",
+      "bytes": 14379095,
+      "sha256": "18b40ba54e4840beb768a9aec03fff8d66dfac82ca4171c5d1b5701775126666"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "TableData.resourceFile",
+      "bytes": 802929,
+      "sha256": "bd8767c2d316f60a4b38de320794701b2391d7b40412020bdc1d17e88c7b7212"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/textures/npc_max.exact.json",
+      "bytes": 233072,
+      "sha256": "31a53d5b8b636a0f3149b9a2771f83d95c0e9db9a6d1ef4603e85535c4d3d92c"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/textures/npc_max.object.json",
+      "bytes": 263722,
+      "sha256": "ff99df8c534f11743966efa413c477ae415c8af576db4a822246e64e9bf1fde9"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/icons/npcicon_23.exact.json",
+      "bytes": 15937,
+      "sha256": "619c4a858f779ec4c5ad64d7e3074850e8a045543baa4232c99ebae117d5a44f"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/icons/npcicon_23.object.json",
+      "bytes": 6842,
+      "sha256": "5e487cf73613112019418bc9f4d2079253d7a0211d3b9d9c6e103748b6843ea5"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "Icons.resourceFile",
+      "bytes": 6557371,
+      "sha256": "e4a4b531cafa44b2c046f8dc8dea97c694bc0c6e455b0329232c2b09596eb96d"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/gpu/models/npc/npc_max.gpu.json",
+      "bytes": 1259,
+      "sha256": "0810cfe45f9dce29380f70ae4b8c0beca854f1134afac72c8a3cb9ec9dcfac15"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/dressed-sampled/npc_max.json",
+      "bytes": 2030,
+      "sha256": "7c5db9955b168d840de3736383328cf2bdb45c79328c3cc7bb94d7ef2291d6e5"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/replay-comparison.json",
+      "bytes": 2080,
+      "sha256": "f8862340950dfe66fa21f5d5eb10b0e6bf66935fc14fbb9a717acb50cf441743"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "characters/npcs/omniverse_max/body.png",
+      "bytes": 86190,
+      "sha256": "90fa5648a879cdae17848d94fbb7487a8bd33d5353baec695d17c11a100be418"
+    },
+    {
+      "path": "characters/npcs/omniverse_max/npc_max.glb",
+      "bytes": 473484,
+      "sha256": "8daec62bc2fe6cd0ca9fa66f35c921be13691d0f8b519db94ff847db2c8b96c8"
+    },
+    {
+      "path": "characters/npcs/omniverse_max/npc_max.textures/npc_max.png",
+      "bytes": 86190,
+      "sha256": "90fa5648a879cdae17848d94fbb7487a8bd33d5353baec695d17c11a100be418"
+    },
+    {
+      "path": "characters/npcs/omniverse_max/npc_max.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "icons/entities/npc/npcicon_3468.png",
+      "bytes": 4766,
+      "sha256": "8d34e556e28e25ba0d1834c41511cce99cf2716721c0ad98ecf3dcb442cd3cec"
+    }
+  ],
+  "divergenceFromPrimary": "Owner-requested separate NPC type; original NPC retained. No placements. Primary geometry, textures and clips, with current native character shader policy. Primary portrait copied under a new native icon number to retain original portraits.",
+  "verification": [
+    {
+      "command": "logical_model_gpu_preview --asset-root work/legacy-sources/omniverse-npcs-20260905/candidate --model models/npc/npc_max.glb --animation-name stand1 --evidence-root work/legacy-sources/omniverse-npcs-20260905/gpu --outline source --frames 120 --timeout 30",
+      "result": "passed; GPU load/animation only, primary visual equality not asserted",
+      "evidence": "work/legacy-sources/omniverse-npcs-20260905/gpu/models/npc/npc_max.gpu.json"
+    },
+    {
+      "command": "Native GPU preview with XDT main PNG and exact sampler (recorded in smoke report)",
+      "result": "passed; inspected body/face texture binding and stand1 rendering",
+      "evidence": "work/legacy-sources/omniverse-npcs-20260905/dressed-sampled/npc_max.json"
+    },
+    {
+      "command": "publish-logical-model replay and complete binary payload byte comparison",
+      "result": "passed",
+      "evidence": "work/legacy-sources/omniverse-npcs-20260905/replay-comparison.json"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "dexter-placeholder-routes-20260913",
+  "status": "accepted",
+  "supersedes": [],
+  "scope": "Only NPC 753/754 m_iMesh values in the shared table set; no binary payload changes.",
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "TableData.resourceFile",
+    "containerBytes": 802929,
+    "containerSha256": "bd8767c2d316f60a4b38de320794701b2391d7b40412020bdc1d17e88c7b7212",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-1dca92eecee4742d985b799d8226666d",
+        "type": "MonoBehaviour",
+        "pathId": 7,
+        "rawSha256": "2c9db47141ffa8f6033978356b142088643d412fc2e703c1f686afe0bc6f002a"
+      }
+    ]
+  },
+  "transform": {
+    "tool": "tools/legacy-sources/repair-dexter-placeholder-routes.py",
+    "toolRevision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+    "toolSha256": "7260775926d27bbe9595f198de596cdb9828bb70d7f5dd36e928a36d855a2bd5",
+    "workingDirectory": "FFClientEditor",
+    "commands": [
+      "./fusionforge.cmd dump-object-evidence primary ../builds/retrobution-20260821 TableData.resourceFile 7 --serialized-asset CustomAssetBundle-1dca92eecee4742d985b799d8226666d --type MonoBehaviour --out work/cases/dexter-753-754-20260913/primary-xdt.json",
+      "python tools/legacy-sources/repair-dexter-placeholder-routes.py --evidence work/cases/dexter-753-754-20260913/primary-xdt.json --source-root ../builds/retrobution-20260821 --target-root ../FFOneClient/assets/game --work work/cases/dexter-753-754-20260913/replay --apply"
+    ]
+  },
+  "outputs": [
+    {
+      "path": "data/tables/table-set.json",
+      "bytes": 47423711,
+      "sha256": "6fc339f1e13e92ddbc971faaa4bfc996c7b0f0ca21997448ce760dcf3a37b17c"
+    }
+  ],
+  "changes": [
+    {
+      "npc": 753,
+      "before": 1,
+      "after": 659
+    },
+    {
+      "npc": 754,
+      "before": 1,
+      "after": 659
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "check": "semantic scope and byte-stable replay",
+      "result": "passed; exactly two mesh references 1 -> 659, all other fields unchanged"
+    },
+    {
+      "check": "Fusion Dee Dee preserved",
+      "sha256": "18e65c8be61065667a8b7a52dcf165f2b399e663e43c1c60651a62ec77ba530d",
+      "result": "matches installed HEAD LFS object and primary retention record"
+    },
+    {
+      "check": "ordinary Dee Dee historical retention",
+      "result": "existing prior-build model and atlas retained; source-backed retention --check passed before editing",
+      "reference": "docs/legacy/ffone/previous-build-retention-20260912.md"
+    },
+    {
+      "check": "production catalog regression",
+      "command": "cargo test -p ffone-client --lib production_catalog_resolves_known_primary_npc_routes -- --exact network_world_runtime::tests::production_catalog_resolves_known_primary_npc_routes",
+      "result": "passed: 1 test; includes both Dexter IDs, their texture pairing, and ordinary Dee Dee"
+    },
+    {
+      "check": "previous-build retention after repair",
+      "command": "python tools/legacy-sources/retain-previous-build-assets.py --previous-build ../builds/retrobution-20260613 --work work/cases/previous-build-retention-20260913-check-final --target-root ../FFOneClient/assets/game --receipt recipes/native/retention/previous-build-retention-20260912.receipt.json --check",
+      "result": "passed; every declared output current; NPC rows to restore: 0"
+    },
+    {
+      "check": "formatting",
+      "command": "cargo fmt --all -- --check",
+      "result": "fails on existing formatting throughout the workspace; no findings in added test block; unrelated formatting left intact"
+    },
+    {
+      "check": "visual acceptance",
+      "result": "not captured; structural route correction only, unchanged binary assets"
+    },
+    {
+      "check": "Dexter material slot regression",
+      "command": "cargo test -p ffone-client --lib production_dexter_keeps_authored_face_sword_and_glasses_slots",
+      "result": "passed: 1 test"
+    },
+    {
+      "check": "real development client build",
+      "command": "cargo game-build --bin ffone-client",
+      "result": "passed; 4 domain catalogs, 43816 direct references. Initial unqualified game-build could not overwrite the running ffone-editor.exe; explicitly building the client succeeded without interrupting the editor."
+    },
+    {
+      "check": "built client native asset smoke",
+      "command": "target/debug/ffone-client.exe --validate-assets",
+      "result": "passed; status ok, table-data-v1 routing, no global manifest"
+    }
+  ]
+}

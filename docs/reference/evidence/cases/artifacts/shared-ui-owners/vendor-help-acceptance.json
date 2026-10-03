@@ -1,0 +1,103 @@
+{
+  "schema": "ffone.ui-followup-acceptance.v1",
+  "sourceRole": "primary",
+  "sourceCase": "whole-client-static-audit-20260905.md",
+  "scope": "Vendor actions and contextual help; step 3 remains incomplete",
+  "checks": {
+    "vendorTestsPassed": 25,
+    "helpTestsPassed": 7,
+    "localeKeys": 65843,
+    "placeholderMismatches": 0,
+    "devBuild": "passed",
+    "fullClientOfflineWorldCapture": "passed",
+    "liveServerTransactions": "not run",
+    "unityPixelComparison": "not run"
+  },
+  "artifacts": [
+    {
+      "path": "../FFOneClient/target/debug/ffone-client.exe",
+      "bytes": 207107584,
+      "sha256": "acda3a4be646f8db5abab434db98372747c62d7fa9cafac644f04ff13da51b6f"
+    },
+    {
+      "path": "../FFOneClient/target/performance/shared-ui-owner-smoke/frame.png",
+      "bytes": 3660853,
+      "sha256": "274c8750e45f1f198a767176e71afd6fe7b82a42ee0566b448f9b1412c6ee5d8"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/full-client-ui-smoke.log",
+      "bytes": 145,
+      "sha256": "0198d788dff7a17efef45a43f29322fe630fa67f460ce8118d91575fb5947f83"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-buy-en.png",
+      "bytes": 482722,
+      "sha256": "2e5d25fb8553dca2c929e936abb97b6cc8845a825b768f5285641ed61d09f612"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-quantity-en.png",
+      "bytes": 470060,
+      "sha256": "be0ff8ed988fa8a0f423e80cf0ab9b41e2827040ca81097643493bba2d98ccd1"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-sell-en.png",
+      "bytes": 440078,
+      "sha256": "0a86ce2074c120261263a2b767152fa4bbbd12710812f8d2031162f649f4806a"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-buyback-en.png",
+      "bytes": 485264,
+      "sha256": "47232d634802c1b1492e4497c044abb25e485f73d5f00f016dcab040ad72ff2d"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-buy-ru.png",
+      "bytes": 491317,
+      "sha256": "98db30900a0999728cf87f82199f9a8c2914d0c6c980c6463a1bba5784c8d2e2"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-quantity-ru.png",
+      "bytes": 475439,
+      "sha256": "f78897d62cdca0df7699bc7af5ccd197b2e1522201797959407c54d0ec5d318e"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-sell-ru.png",
+      "bytes": 445463,
+      "sha256": "e909e2af09ac36901958509d9efdf6c7aec9c2db791d2a6dcb1c7eb16fcab91d"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-buyback-ru.png",
+      "bytes": 493142,
+      "sha256": "c96b5f64587968416bdb9d5499959fbef86de8650e26ac0668f4fd1219cde40a"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/help-15-en.png",
+      "bytes": 655766,
+      "sha256": "16da3d5b97d55829bf811563a83e2acdb2b2e084f5369b1a8b481e7a3cf63ef1"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/help-24-en.png",
+      "bytes": 714867,
+      "sha256": "d1b6d332318917b6774f7ac2cd87653690cab1326f7f95d3644c2deea85ced69"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/help-44-en.png",
+      "bytes": 679428,
+      "sha256": "040cbce3a0e13085024bff7a2ea36ab948c8251e7361887020e87ed6e38f19e1"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/help-15-ru.png",
+      "bytes": 660301,
+      "sha256": "cb9a85abfcac2d3eeecb013de98abee4515f11fcb246a67444b826ac2a559c97"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/help-24-ru.png",
+      "bytes": 719811,
+      "sha256": "319bf26b11b8ceb4fd49304b76722161b204a5c67742724270d550e52eb6471c"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/help-44-ru.png",
+      "bytes": 680331,
+      "sha256": "4354387a99cfacd10cb4861d8d798505006e8c8f50fc029563b1b6e687ad8256"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "tutorial-water-swim-audio-20260904",
+  "question": "Which primary swimming animation sound events must the native tutorial play, and can resident neighbor terrain suppress infected-water HP ticks?",
+  "status": "open",
+  "nativeConsumer": "FFOneClient gameplay_audio::drive_gameplay_audio and app::update_legacy_avatar_environment",
+  "acceptance": [
+    "Both rigs cover forward/back/idle/left/right sound events and loop times.",
+    "Production tutorial terrain and ffPoison mesh reduce HP by 15% every two seconds despite a higher resident neighbor; leaving stops ticks.",
+    "Real development client builds; audible in-game verification remains required."
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        {
+          "relativeContainer": "CharacterSelection.resourceFile",
+          "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+          "bytes": 16737641,
+          "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "evidenceArtifacts": [
+    {
+      "id": "clip-34486",
+      "kind": "strict_object_evidence",
+      "path": "work/legacy-sources/tutorial-water-20260904/clip-34486.json",
+      "bytes": 145889,
+      "sha256": "c1c0761c737e4c8bdce806f6046ca31c3777c8aa17e86681ae689607764c9eb5",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "86324d05303a076b9814bddff800635cb2f73954",
+        "command": "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 CharacterSelection.resourceFile 34486 --serialized-asset CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99 --type AnimationClip --out work/legacy-sources/tutorial-water-20260904/clip-34486.json"
+      }
+    },
+    {
+      "id": "clip-34453",
+      "kind": "strict_object_evidence",
+      "path": "work/legacy-sources/tutorial-water-20260904/clip-34453.json",
+      "bytes": 140811,
+      "sha256": "4d016ce81d359aacc9d9b16d04e2c731830f19bbbf18546f212fe7ee5095e6a6",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "86324d05303a076b9814bddff800635cb2f73954",
+        "command": "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 CharacterSelection.resourceFile 34453 --serialized-asset CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99 --type AnimationClip --out work/legacy-sources/tutorial-water-20260904/clip-34453.json"
+      }
+    },
+    {
+      "id": "clip-34524",
+      "kind": "strict_object_evidence",
+      "path": "work/legacy-sources/tutorial-water-20260904/clip-34524.json",
+      "bytes": 141479,
+      "sha256": "814f8d6dda67b458d451a89b4d0beaeea4c8cb25e8d9542cee8007cccf1db1bc",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "86324d05303a076b9814bddff800635cb2f73954",
+        "command": "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 CharacterSelection.resourceFile 34524 --serialized-asset CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99 --type AnimationClip --out work/legacy-sources/tutorial-water-20260904/clip-34524.json"
+      }
+    },
+    {
+      "id": "clip-34535",
+      "kind": "strict_object_evidence",
+      "path": "work/legacy-sources/tutorial-water-20260904/clip-34535.json",
+      "bytes": 142780,
+      "sha256": "f53aacf177a2c991cfef5e9f7450b1a1ee0677513da9268a11a5809e36679d34",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "86324d05303a076b9814bddff800635cb2f73954",
+        "command": "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 CharacterSelection.resourceFile 34535 --serialized-asset CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99 --type AnimationClip --out work/legacy-sources/tutorial-water-20260904/clip-34535.json"
+      }
+    },
+    {
+      "id": "clip-34514",
+      "kind": "strict_object_evidence",
+      "path": "work/legacy-sources/tutorial-water-20260904/clip-34514.json",
+      "bytes": 140308,
+      "sha256": "7056e8a3a6502aaa46b9a31c95551e4cb597443090313a6765e235236eae9093",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "86324d05303a076b9814bddff800635cb2f73954",
+        "command": "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 CharacterSelection.resourceFile 34514 --serialized-asset CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99 --type AnimationClip --out work/legacy-sources/tutorial-water-20260904/clip-34514.json"
+      }
+    },
+    {
+      "id": "clip-34185",
+      "kind": "strict_object_evidence",
+      "path": "work/legacy-sources/tutorial-water-20260904/clip-34185.json",
+      "bytes": 155078,
+      "sha256": "4ccc12c9b8001810b57bffabab86dc8fd1dfaa5bcdc46c5d28c060d7f0c9c3af",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "86324d05303a076b9814bddff800635cb2f73954",
+        "command": "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 CharacterSelection.resourceFile 34185 --serialized-asset CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99 --type AnimationClip --out work/legacy-sources/tutorial-water-20260904/clip-34185.json"
+      }
+    },
+    {
+      "id": "clip-34165",
+      "kind": "strict_object_evidence",
+      "path": "work/legacy-sources/tutorial-water-20260904/clip-34165.json",
+      "bytes": 150356,
+      "sha256": "7696506fdf1dbc9dc4f4de4b42f16b28130b98873dca370c7b58f983ea3a8638",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "86324d05303a076b9814bddff800635cb2f73954",
+        "command": "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 CharacterSelection.resourceFile 34165 --serialized-asset CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99 --type AnimationClip --out work/legacy-sources/tutorial-water-20260904/clip-34165.json"
+      }
+    },
+    {
+      "id": "clip-34512",
+      "kind": "strict_object_evidence",
+      "path": "work/legacy-sources/tutorial-water-20260904/clip-34512.json",
+      "bytes": 150996,
+      "sha256": "7307f48e7606a01600e34ae2fd5e7f4b4eb8ae533ac3b887dc023b67b64cfa79",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "86324d05303a076b9814bddff800635cb2f73954",
+        "command": "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 CharacterSelection.resourceFile 34512 --serialized-asset CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99 --type AnimationClip --out work/legacy-sources/tutorial-water-20260904/clip-34512.json"
+      }
+    },
+    {
+      "id": "clip-34503",
+      "kind": "strict_object_evidence",
+      "path": "work/legacy-sources/tutorial-water-20260904/clip-34503.json",
+      "bytes": 133239,
+      "sha256": "fd746a2c08dcbdd9b79c1fa12a4ac27dbc3276ac4cd8bbbd2f8ddd998bc99bc6",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "86324d05303a076b9814bddff800635cb2f73954",
+        "command": "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 CharacterSelection.resourceFile 34503 --serialized-asset CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99 --type AnimationClip --out work/legacy-sources/tutorial-water-20260904/clip-34503.json"
+      }
+    },
+    {
+      "id": "clip-34498",
+      "kind": "strict_object_evidence",
+      "path": "work/legacy-sources/tutorial-water-20260904/clip-34498.json",
+      "bytes": 149911,
+      "sha256": "30dc29842f36ca7d7f3798d3ebba3fa7c53861a9a90934b5f6567c01368caa30",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "86324d05303a076b9814bddff800635cb2f73954",
+        "command": "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 CharacterSelection.resourceFile 34498 --serialized-asset CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99 --type AnimationClip --out work/legacy-sources/tutorial-water-20260904/clip-34498.json"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "Both primary player rigs author a sound event at 0.25 seconds in every swimming state.",
+      "state": "proven",
+      "evidence": [
+        "clip-34486",
+        "clip-34453",
+        "clip-34524",
+        "clip-34535",
+        "clip-34514",
+        "clip-34185",
+        "clip-34165",
+        "clip-34512",
+        "clip-34503",
+        "clip-34498"
+      ],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "Native maximum-height scan can replace current terrain poison attributes with an outside-neighbor sample because SampleHeight clamps.",
+      "state": "verified_native_regression",
+      "evidence": [],
+      "rejectedBecause": null
+    }
+  ],
+  "differences": [
+    {
+      "classification": "primary parity",
+      "description": "No alternate or patched donor; use already-published semantic audio assets. No binary payload change."
+    }
+  ],
+  "conclusion": "Exact swim event contract recovered. Both swim tests and production gameplay audio catalog validation pass. Application regression verifies real tutorial water contact, two 15%-HP ticks and exit with a higher resident neighbor in either spawn order. A fresh development executable passes --validate-assets. Audible in-game acceptance remains unverified.",
+  "nativeContract": {
+    "audio": [
+      {
+        "evidence": "clip-34486",
+        "trueName": "M_Avatar_SwimForward",
+        "eventSeconds": 0.25,
+        "loopSeconds": 0.8166667222976685
+      },
+      {
+        "evidence": "clip-34453",
+        "trueName": "Avatar_SwimBack",
+        "eventSeconds": 0.25,
+        "loopSeconds": 0.8166667222976685
+      },
+      {
+        "evidence": "clip-34524",
+        "trueName": "Avatar_SwimIdle",
+        "eventSeconds": 0.25,
+        "loopSeconds": 0.8166667222976685
+      },
+      {
+        "evidence": "clip-34535",
+        "trueName": "M_Avatar_SwimTurn",
+        "eventSeconds": 0.25,
+        "loopSeconds": 0.75
+      },
+      {
+        "evidence": "clip-34514",
+        "trueName": "M_Avatar_SwimTurn",
+        "eventSeconds": 0.25,
+        "loopSeconds": 0.75
+      },
+      {
+        "evidence": "clip-34185",
+        "trueName": "F_Avatar_SwimForward",
+        "eventSeconds": 0.25,
+        "loopSeconds": 0.9500000476837158
+      },
+      {
+        "evidence": "clip-34165",
+        "trueName": "Avatar_SwimBack",
+        "eventSeconds": 0.25,
+        "loopSeconds": 0.8166667222976685
+      },
+      {
+        "evidence": "clip-34512",
+        "trueName": "Avatar_SwimIdle",
+        "eventSeconds": 0.25,
+        "loopSeconds": 0.8166667222976685
+      },
+      {
+        "evidence": "clip-34503",
+        "trueName": "F_Avatar_SwimTurn",
+        "eventSeconds": 0.25,
+        "loopSeconds": 0.75
+      },
+      {
+        "evidence": "clip-34498",
+        "trueName": "F_Avatar_SwimTurn",
+        "eventSeconds": 0.25,
+        "loopSeconds": 0.75
+      }
+    ],
+    "audioRouting": "NativeAudioCatalog semantic trueName; voice entries use VoiceLanguage and LocalizedVoice. Shared SFX retain the SFX route.",
+    "terrainOwnership": "Select current native dong before terrain height/attribute sampling; never select maximum across clamped resident neighbors."
+  },
+  "verification": [
+    {
+      "command": "cargo test -p ffone-client --lib gameplay_audio::tests -- --nocapture",
+      "result": "18 passed, 1 unrelated NPC dialogue route failure (Dexter_clickwarp01). Both new swim tests and every_gameplay_cue_resolves_to_one_published_native_audio_asset passed."
+    },
+    {
+      "command": "target/debug/deps/ffone_client-97dc07accad20c7e.exe gameplay_audio::tests::swimming --nocapture",
+      "result": "2 passed: exact cues/cycles for both rigs; AudioPlayer spawn after 0.25 seconds and localized EN/RU voice routes."
+    },
+    {
+      "command": "target/tutorial-water-regression/app-tests.exe tutorial_infected_water_ticks_hp_with_a_higher_resident_neighbor --nocapture",
+      "result": "Passed. Direct rustc --test build of unchanged crates/ffone-client/src/main.rs against a snapshot of the completed Cargo library and its exact dependency arguments, used to avoid the shared Cargo lock. Binary SHA256 d5b331be00649689999ef610019babdf7dedef1aecc27c7842ff4b13ed85a6ea. Standard replay: cargo test -p ffone-client --bin ffone-client tutorial_infected_water_ticks_hp_with_a_higher_resident_neighbor -- --nocapture."
+    },
+    {
+      "command": "target/tutorial-water-regression/app-tests.exe water --nocapture; target/tutorial-water-regression/app-tests.exe local_tutorial_combat_refreshes_the_five_second_regeneration_timeout --nocapture",
+      "result": "All three application water/combat checks passed; four library legacy_environment tests also passed."
+    },
+    {
+      "command": "target/debug/ffone-client.exe --validate-assets",
+      "result": "Exit 0, status ok. Fresh development executable built 2026-09-04 02:54:53 local time, SHA256 b36044348db18d50f3ec4db3d250414c96a4d4cd89835c43e7b6b2fd79ede3c7. Shared parallel builds supplied this executable; the duplicate queued build was not needed for acceptance."
+    }
+  ]
+}

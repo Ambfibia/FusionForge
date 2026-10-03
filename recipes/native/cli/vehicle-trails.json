@@ -1,0 +1,159 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "vehicle-trails",
+  "sources": [
+    {
+      "alias": "primary",
+      "path": "Effects.resourceFile",
+      "sha256": "2aa08e85b7aefa8f7e22705ee2f1581befa83cc5708b32116ce8a46a273595e9",
+      "bytes": 8130528
+    },
+    {
+      "alias": "primary",
+      "path": "Tutorial.resourceFile",
+      "sha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916",
+      "bytes": 33327638
+    },
+    {
+      "alias": "primary",
+      "path": "main.unity3d",
+      "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+      "bytes": 8221718
+    }
+  ],
+  "steps": [
+    {
+      "operation": "native-json",
+      "output": "effects/vehicles/catalog.json",
+      "value": {
+        "schema": "ffone.vehicle-trails.v1",
+        "trails": [
+          {
+            "name": "standard",
+            "length": 16,
+            "height": 0.30000001192092896,
+            "interpolation_step": 1.5,
+            "blend_mode": "OneOne",
+            "material_tint": [
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ],
+            "texture": [
+              "effects/vehicles/textures/standard.png"
+            ],
+            "mesh": "map/shared/projectiles/effects/models/es15/tail1.glb"
+          },
+          {
+            "name": "board",
+            "length": 16,
+            "height": 0.15000000596046448,
+            "interpolation_step": 1.5,
+            "blend_mode": "OneOne",
+            "material_tint": [
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ],
+            "texture": [
+              "effects/vehicles/textures/board.png"
+            ],
+            "mesh": null
+          },
+          {
+            "name": "cloud",
+            "length": 16,
+            "height": 0.15000000596046448,
+            "interpolation_step": 1.5,
+            "blend_mode": "OneOne",
+            "material_tint": [
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ],
+            "texture": [
+              "effects/vehicles/textures/cloud.png"
+            ],
+            "mesh": null
+          }
+        ]
+      },
+      "lineEnding": "crlf"
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+      "pathId": 565,
+      "output": "effects/vehicles/textures/board.png",
+      "sha256": "13376abc51c4e2b7a59f2e67044a8562829c1872fe5da1c41ca8f5e07b08e561",
+      "bytes": 2890,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+      "pathId": 253,
+      "output": "effects/vehicles/textures/cloud.png",
+      "sha256": "ec3049f1dca1a7b9e6e3350c5d0b7b2834d82d86b7af7c009245351433cd9a2e",
+      "bytes": 4162,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+      "pathId": 110,
+      "output": "effects/vehicles/textures/standard.png",
+      "sha256": "53bb2420656647f68aa3feb1ed675298dc2c85cdafe2e74ae47ae30a9bd74fe6",
+      "bytes": 5308,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    }
+  ]
+}

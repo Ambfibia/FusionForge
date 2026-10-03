@@ -1,0 +1,54 @@
+{
+  "applied": true,
+  "outputs": [
+    {
+      "beforeSha256": null,
+      "bytes": 93960,
+      "matchesTarget": false,
+      "path": "characters/player/hnpc/banker/f_shirt_secretagent.glb",
+      "sha256": "5ae5319cd770c647c2357d47d6cafcee847256b08b322a056ba4c577967e6411"
+    },
+    {
+      "beforeSha256": null,
+      "bytes": 38240,
+      "matchesTarget": false,
+      "path": "characters/player/hnpc/banker/f_pants_secretagent.glb",
+      "sha256": "5c4efb604cc4cec4f461669f2bb825f777864dab8b61750da064b0a3b25a1109"
+    },
+    {
+      "beforeSha256": null,
+      "bytes": 41488,
+      "matchesTarget": false,
+      "path": "characters/player/hnpc/banker/f_shoes_secretagent.glb",
+      "sha256": "158d537ccfe65b9262f201b9001101d84d72f6a8151bcdeb3027c2cdce8b798d"
+    },
+    {
+      "beforeSha256": null,
+      "bytes": 18987,
+      "matchesTarget": false,
+      "path": "characters/hnpc/textures/shoes_agentsix.png",
+      "sha256": "160efc4670ce0353ae8461a26cbc9f697fb02bde94501771313813229ee62b3e"
+    },
+    {
+      "beforeSha256": null,
+      "bytes": 37578,
+      "matchesTarget": false,
+      "path": "characters/hnpc/textures/female_banker_jacket.png",
+      "sha256": "5fb760d058d1d0122835a3678a21ca22a9345fc092b630905a07f2390b6a7cb6"
+    },
+    {
+      "beforeSha256": null,
+      "bytes": 37988,
+      "matchesTarget": false,
+      "path": "characters/hnpc/textures/female_banker_trousers.png",
+      "sha256": "e8b08872a508833344bd50a43f07a85011a31c44ff5712b5aa4c30c8a9f7f5c9"
+    },
+    {
+      "beforeSha256": "e36ef7335f3bc6a7357faf6c2cb756c1310e45c82d360d4f18cf2cf329f3004a",
+      "bytes": 1028242,
+      "matchesTarget": false,
+      "path": "data/hnpc/catalog.json",
+      "sha256": "06a9268c56d6d6f4263aadc75a2c5a7dbef201e83cc984a369278e2b5d2995c9"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slice": "Combined Bank/Vendor card icon, rarity and trade presentation",
+  "sourceRole": "primary",
+  "source": "retrobution-20260821",
+  "checks": {
+    "vendorTests": 28,
+    "bankTests": 28,
+    "localeKeyParity": 65888,
+    "gpuCaptures": 4,
+    "devBuild": "passed",
+    "offlineWorldSmoke": "exit 0"
+  },
+  "limits": [
+    "Rental periods and long-name layout remain open",
+    "No full card-parity claim",
+    "Bank grid fixture retains synthetic icons; production card resolves native content",
+    "No binary payload changes"
+  ],
+  "artifacts": [
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/combined-presentation-bank-en.log",
+      "sha256": "7da9c09924c0bb6121e7bd58358d3203243c49a2d9c749c5eb19d9200f814199"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/combined-presentation-bank-en.png",
+      "sha256": "543cc68c4e6ec65562c753749ac26205905def2cc71a25dbc738954f8f0ec3f8"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/combined-presentation-bank-ru.log",
+      "sha256": "82025f6bc36fc86785a3e095e9dfe3699575774297ed2546900e5e515742d39c"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/combined-presentation-bank-ru.png",
+      "sha256": "ee7ba371f26188cebc9389919f2a7f2897a779813cc4e2aed54044681db41e55"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/combined-presentation-bank-tests.log",
+      "sha256": "cbe0b802b8456253b804b64a2cd864d591659ce86f5716fa2cb5f7d61f8dc292"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/combined-presentation-vendor-en.log",
+      "sha256": "43f7d9ecb2109a4612ee5bc75aa7b1046f4630a5b7c196cc6eda4d984f691b40"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/combined-presentation-vendor-en.png",
+      "sha256": "542fe412ad194d4842800e36b14d6ddbb34c0a677da6f3c764b359c8c2b82fcd"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/combined-presentation-vendor-ru.log",
+      "sha256": "a96b5450d56d1e07cd825ed148ce6988af0da11fdac866c339b1508f76b9dd9e"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/combined-presentation-vendor-ru.png",
+      "sha256": "d7f52e53c255f3c02ecb4f2bd0def3b4ea9fdbdc2b68b983f80b6e15ced07278"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/combined-presentation-world-smoke.log",
+      "sha256": "d836acb22005c4bbd63c913c054a87e50585f103f98e5a38040d582bae038ace"
+    }
+  ]
+}

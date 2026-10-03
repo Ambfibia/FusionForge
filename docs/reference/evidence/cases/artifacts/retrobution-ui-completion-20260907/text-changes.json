@@ -1,0 +1,32 @@
+[
+  {
+    "type": "CnGuiChat",
+    "old": "Click on a player and select MAKE A BUDDY from the menu, or select ADD BUDDY from your BUDDY LIST.",
+    "new": "Click on a player and select MAKE A BUDDY from the menu, or select ADD in your BUDDY LIST."
+  },
+  {
+    "type": "EquipPopup",
+    "old": " MINUTES ",
+    "new": "MINUTES"
+  },
+  {
+    "type": "EquipPopup",
+    "old": " SECONDS",
+    "new": "SECONDS"
+  },
+  {
+    "type": "EquipPopup",
+    "old": " DAYS ",
+    "new": "DAYS"
+  },
+  {
+    "type": "EquipPopup",
+    "old": " HOURS ",
+    "new": "HOURS"
+  },
+  {
+    "type": "Panel_Cashmall",
+    "old": "SHOWPPING MALL",
+    "new": "SHOPPING MALL"
+  }
+]

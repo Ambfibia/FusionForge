@@ -1,0 +1,106 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "trigger-use-icon-primary-20260912",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "FFOneClient"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "main.unity3d",
+    "containerBytes": 8221718,
+    "containerSha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+    "objects": [
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour",
+        "pathId": 1442,
+        "fileId": 0,
+        "rawObjectSha256": "80a5d8f643de14625ed35b703f066fa51fbeffb03b6a60bbe97950a4b49d83ee"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 143,
+        "fileId": 0,
+        "rawObjectSha256": "436e9ff30a30afcd4cc772cc9f196a31bf6cca156d9e857ec6b46363f5e004c0"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject",
+        "pathId": 1330,
+        "fileId": 0,
+        "rawObjectSha256": "b3167e709e44b25decb5269147d62fbb2a1fcfe23eb83fd54366ac3ece697367"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoScript",
+        "pathId": 1044,
+        "fileId": 0,
+        "rawObjectSha256": "fcd0823aedb9e09cd3c85c9279e05198cd998e8f0dedbeb8d1f0fc8e75944bfc"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "exact-texture-decode",
+    "tool": "tools/legacy-sources/publish-trigger-use-icon.py",
+    "toolRevision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/legacy-sources/publish-trigger-use-icon.py --source-root ../builds/retrobution-20260821 --work work/cases/trigger-use-icon-20260912/replay --target-root ../FFOneClient/assets/game --apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/cases/trigger-use-icon-20260912/owner.json",
+      "bytes": 4168,
+      "sha256": "cc5bdcf1794f6b53bdfd5ba04ab3c51df9de9628ea967adf8f50f9f04a013002"
+    },
+    {
+      "path": "work/cases/trigger-use-icon-20260912/texture.json",
+      "bytes": 4102,
+      "sha256": "cec32bccb9a134247702ec6d437230aeb59911e5d57f5dca3c23f226d8186890"
+    },
+    {
+      "path": "work/cases/trigger-use-icon-20260912/gameobject.json",
+      "bytes": 7155,
+      "sha256": "7968b4bca98f6b553b1f5651be61339653a9ff50f1603c455cd9829d43aa21f1"
+    },
+    {
+      "path": "work/cases/trigger-use-icon-20260912/script.json",
+      "bytes": 1004,
+      "sha256": "df03d1b5af86bd86c8626271c1ae82b93a4626dbd677b6df560fcc3b1f7f46b0"
+    },
+    {
+      "path": "work/cases/trigger-use-icon-20260912/image.evidence.json",
+      "bytes": 3224,
+      "sha256": "c3f3359f1720339146aae6c23173f34f28712134671c8bb20c5db1ffc4dc6af4"
+    },
+    {
+      "path": "work/cases/trigger-use-icon-20260912/interaction.evidence.json",
+      "bytes": 1084899,
+      "sha256": "8161fff23ea20bc93efdd6205bddc4b3ab8e9846631298d56084b6ea2360654d"
+    },
+    {
+      "path": "work/cases/trigger-use-icon-20260912/assembly.evidence.json",
+      "bytes": 1348,
+      "sha256": "384ac294e816a01806d42caab57cbc6bdade05eb0f613b6cae4faa6f8308b4ab"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "ui/en/gameplay/interaction/icons/use-trigger.png",
+      "bytes": 1979,
+      "sha256": "03e0e32a492161f0f59137c7d755b56440eaafcec1abf50d02a2326ea21fb60b"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "Exact owner PPtr, raw texture export and deterministic replay",
+      "result": "passed",
+      "evidence": "work/cases/trigger-use-icon-20260912/replay"
+    }
+  ]
+}

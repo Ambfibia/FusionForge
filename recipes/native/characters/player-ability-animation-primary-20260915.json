@@ -1,0 +1,237 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "player-ability-animation-primary-20260915",
+  "status": "accepted",
+  "source": {
+    "alias": "retrobution-20260821",
+    "canonicalRole": "primary",
+    "relativeContainer": "CharacterSelection.resourceFile",
+    "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+  },
+  "preserves": "All original 159 animation entries, mesh, node, skin, material, accessor and binary payload values in each native rig are preserved. Six animation clips are appended. Existing stun comes from hnpc-idle-primary-20260908.",
+  "publisher": "tools/native/publish-hnpc-idle-clips.py",
+  "arguments": [
+    "--source-root",
+    "../builds/retrobution-20260821",
+    "--navigation-dump",
+    "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/CharacterSelection.objects.json",
+    "--target-root",
+    "../FFOneClient/assets/game",
+    "--work",
+    "work/cases/player-ability-animation-20260914",
+    "--clips",
+    "stun",
+    "stickdash",
+    "rifledash",
+    "rifletumbling",
+    "rocketsomersault",
+    "stickdodgeupper",
+    "rifledodgeupper",
+    "--semantic-catalog",
+    "characters/player/shared/action_animations.json",
+    "--apply"
+  ],
+  "inputs": [
+    {
+      "path": "work/cases/player-ability-animation-20260914/male-owner.evidence.json",
+      "bytes": 89478,
+      "sha256": "33d05a06cfd89d6f243b929668f5c3be467771ca719320156f680793f6496201",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/player-ability-animation-20260914/male-rifledash.evidence.json",
+      "bytes": 143675,
+      "sha256": "a4c5bc57972bd2c74b9a4afbb38276cbefa9b57c575ee3f8d8fb43b3cb21d640",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/player-ability-animation-20260914/male-stickdash.evidence.json",
+      "bytes": 160516,
+      "sha256": "d856d6f7848b37fefb925ff66387b80430db71f2f62a731b1ea28bc832b58d6d",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/player-ability-animation-20260914/male-rifletumbling.evidence.json",
+      "bytes": 172300,
+      "sha256": "0df740870fb27b8588d1b391db77293fb2b0503b4caa16d0dd20a5c9d3cd5838",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/player-ability-animation-20260914/male-rifledodgeupper.evidence.json",
+      "bytes": 115675,
+      "sha256": "99b73da950d2d5886a75aef56408e518853411db493cb5b2423b18ad3ae083a4",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/player-ability-animation-20260914/male-rocketsomersault.evidence.json",
+      "bytes": 144547,
+      "sha256": "f7b44a6cc15ec55bf08916e9f5b67fd6f7dd139a24a36c52cc7db3d36a1c2d6c",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/player-ability-animation-20260914/male-stickdodgeupper.evidence.json",
+      "bytes": 115987,
+      "sha256": "efff5cad45c6fa4b68a492dd0e76cc43d9f05d9c48f0804369957796c751ea23",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/player-ability-animation-20260914/female-owner.evidence.json",
+      "bytes": 89100,
+      "sha256": "366dc215bc86d8a20dcd128b05501fb99dee5a75d39bee7d8501556ef26c32d9",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/player-ability-animation-20260914/female-rifledash.evidence.json",
+      "bytes": 159247,
+      "sha256": "744597f1fc4a96d6d48ddd6f9c4e79876ceba285113cad8203194215718ae0e8",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/player-ability-animation-20260914/female-rifletumbling.evidence.json",
+      "bytes": 188708,
+      "sha256": "c0af7679b2e2301699c32972a8fed8f9fc7f6504c5ef7658771631bf257f2dcb",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/player-ability-animation-20260914/female-rocketsomersault.evidence.json",
+      "bytes": 161243,
+      "sha256": "ab271e8d5c8371d3c5673f3bae5eaa16a3bff139c85c2d14bd693189cbd41a45",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/player-ability-animation-20260914/female-stickdash.evidence.json",
+      "bytes": 174319,
+      "sha256": "5ce9fb6524d2c37922db65b15984a28581a9a9a9958de81c12bdb4c4f4fb447a",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/player-ability-animation-20260914/female-rifledodgeupper.evidence.json",
+      "bytes": 136560,
+      "sha256": "028da84a042dbd87246767a68ccb1af7734427cb3a324636b223b39c40033312",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/player-ability-animation-20260914/female-stickdodgeupper.evidence.json",
+      "bytes": 136989,
+      "sha256": "fa94e02c35adfbf57ae43cfd37dc07b7c3c0773b667c4ea33af3b78befe75eab",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "path": "characters/player/male/base/male_skeleton.glb",
+      "bytes": 19602528,
+      "sha256": "c5e3e1ff2a93032a10e14f90bd84b7b4ccc9280cf2c48ca5e0c3b7cd8ebe9dc9",
+      "preserved": {
+        "bytes": 19123316,
+        "sha256": "c1d4236e0e17acde4571411c377d0edda2ad5d4adafb00f273c2ab03a325d7f6"
+      },
+      "addedClips": [
+        "rifledash",
+        "rifledodgeupper",
+        "rifletumbling",
+        "rocketsomersault",
+        "stickdash",
+        "stickdodgeupper"
+      ]
+    },
+    {
+      "path": "characters/player/female/base/female_skeleton.glb",
+      "bytes": 23656948,
+      "sha256": "b1a949f5fa7d2d54ead02db344c9431cafb6d18e71c251ae1dba60c5e8d2c3db",
+      "preserved": {
+        "bytes": 23092124,
+        "sha256": "98c09ef1bf97538bd4b236301bae00cb4112f57d960f5f70fe099ae39db4989d"
+      },
+      "addedClips": [
+        "rifledash",
+        "rifledodgeupper",
+        "rifletumbling",
+        "rocketsomersault",
+        "stickdash",
+        "stickdodgeupper"
+      ]
+    },
+    {
+      "path": "characters/player/shared/action_animations.json",
+      "bytes": 3126,
+      "sha256": "5ba439f4debb60727ef2bbd50d38f1561c0e6f6a380d00549902c3d803e39c66"
+    }
+  ],
+  "verification": {
+    "independentReplay": "work/cases/player-ability-animation-20260914/replay/publication.json",
+    "allOutputHashesMatch": true,
+    "existingPayloadPreserved": true
+  },
+  "priorStunEvidence": "recipes/native/characters/hnpc-idle-primary-20260908.json"
+}

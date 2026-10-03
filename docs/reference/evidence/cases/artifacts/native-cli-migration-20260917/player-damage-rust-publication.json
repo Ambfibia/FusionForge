@@ -1,0 +1,26 @@
+{
+  "applied": false,
+  "outputs": [
+    {
+      "beforeSha256": "ea0783cfc15a5f6770e608fcf786d1e157907f0bc00db626d63c3206a9ac1264",
+      "bytes": 19660084,
+      "matchesTarget": true,
+      "path": "characters/player/male/base/male_skeleton.glb",
+      "sha256": "ea0783cfc15a5f6770e608fcf786d1e157907f0bc00db626d63c3206a9ac1264"
+    },
+    {
+      "beforeSha256": "62b1bd0808086616cd7d96b0e36feb3fe3839c495f94f398bc2511d4ce19a5f8",
+      "bytes": 23718448,
+      "matchesTarget": true,
+      "path": "characters/player/female/base/female_skeleton.glb",
+      "sha256": "62b1bd0808086616cd7d96b0e36feb3fe3839c495f94f398bc2511d4ce19a5f8"
+    },
+    {
+      "beforeSha256": "7468ff65b74d27133edb3ce18189f6e6c7ffb9c89658cb0fd59194640c3c501a",
+      "bytes": 624,
+      "matchesTarget": true,
+      "path": "characters/player/shared/damage_animations.json",
+      "sha256": "7468ff65b74d27133edb3ce18189f6e6c7ffb9c89658cb0fd59194640c3c501a"
+    }
+  ]
+}

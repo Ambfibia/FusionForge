@@ -1,0 +1,92 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "nanocom-type10-nano-message-primary-20260821",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "main.unity3d",
+    "containerBytes": 8221718,
+    "containerSha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+    "objects": [
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour",
+        "pathId": 1562,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "cnGUINanocom.NanoComNanoBg"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 137,
+        "fileId": 0,
+        "containerRoute": "cnGUINanocom.NanoComNanoBg",
+        "trueName": "nanocom_message_nano"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "exact-texture-decode",
+    "tool": "crates/ffone-asset-pipeline/src/bin/publish_exact_texture.rs",
+    "toolRevision": "workspace-file-sha256:8086597cd29797bb0c173370dc6e601ff0003ee4634d4c9d808540616e6550ba",
+    "workingDirectory": ".",
+    "commands": [
+      "cargo run -- fusionforge dump-object-evidence primary ..\\builds\\retrobution-20260821 main.unity3d 1562 --serialized-asset sharedassets0.assets --type MonoBehaviour --out work\\projects\\retrobution-ui-20260821.ffclient\\reports\\nanocom-type10-component-1562.evidence.json",
+      "cargo run -- fusionforge dump-object-evidence primary ..\\builds\\retrobution-20260821 main.unity3d 137 --serialized-asset sharedassets0.assets --type Texture2D --out work\\projects\\retrobution-ui-20260821.ffclient\\reports\\nanocom-type10-texture-137.evidence.json",
+      "cargo run -- fusionforge export-exact-texture ..\\builds\\retrobution-20260821\\main.unity3d 137 work\\projects\\retrobution-ui-20260821.ffclient\\reports\\nanocom-type10-texture-137.json",
+      "cargo run -p ffone-asset-pipeline --bin publish_exact_texture -- work\\projects\\retrobution-ui-20260821.ffclient\\reports\\nanocom-type10-texture-137.json work\\projects\\retrobution-ui-20260821.ffclient\\staged\\assets\\game\\ui\\gameplay\\nanocom\\nanocom_message_nano.png"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/nanocom-type10-component-1562.evidence.json",
+      "bytes": 32710,
+      "sha256": "cc4353399c9e88a9c8c656fe5da8fe246007bd916d4b0ce3a8de964b9ea8b6bf"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/nanocom-type10-texture-137.evidence.json",
+      "bytes": 62851,
+      "sha256": "8908f861010bc6e46f220cddd80677d8232d41b004af36f9df1e89ba3ed8a6b7"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/nanocom-type10-texture-137.json",
+      "bytes": 75883,
+      "sha256": "c01721a4b9fca126e9bff9ab97eb3231b7a912befac9eba606a8a9d98a319f30"
+    },
+    {
+      "path": "crates/ffone-asset-pipeline/src/bin/publish_exact_texture.rs",
+      "bytes": 3446,
+      "sha256": "8086597cd29797bb0c173370dc6e601ff0003ee4634d4c9d808540616e6550ba"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/game/ui/gameplay/nanocom/nanocom_message_nano.png",
+      "bytes": 27271,
+      "sha256": "ae1eae32c160a1fc34079c02eb8bf92aeb63bcb2af834f208c8b157af74fe449"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "cargo test -p ffone-asset-pipeline --bin publish_exact_texture",
+      "result": "passed",
+      "evidence": null
+    },
+    {
+      "command": "Get-FileHash -Algorithm SHA256 work\\projects\\retrobution-ui-20260821.ffclient\\staged\\assets\\game\\ui\\gameplay\\nanocom\\nanocom_message_nano.png; Get-FileHash -Algorithm SHA256 ..\\FFOneClient\\assets\\game\\ui\\gameplay\\nanocom\\nanocom_message_nano.png",
+      "result": "passed: both ae1eae32c160a1fc34079c02eb8bf92aeb63bcb2af834f208c8b157af74fe449",
+      "evidence": "work/projects/retrobution-ui-20260821.ffclient/reports/nanocom-type10-texture-137.json"
+    },
+    {
+      "command": "Set-Location ..\\FFOneClient; cargo xtask assets --full",
+      "result": "passed: 66878 files, 3294604939 bytes",
+      "evidence": null
+    }
+  ]
+}

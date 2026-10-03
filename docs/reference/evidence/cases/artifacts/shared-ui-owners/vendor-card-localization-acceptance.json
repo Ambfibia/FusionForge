@@ -1,0 +1,117 @@
+{
+  "schema": "ffone.ui-followup-acceptance.v1",
+  "sourceRole": "primary",
+  "sourceBuild": "retrobution-20260821",
+  "scope": "Semantic localization for Vendor equipment/general/chest card name and description; post-localization general casing and reset on item change",
+  "binaryAssetChanges": false,
+  "checks": {
+    "vendorUiTests": 27,
+    "gpuScenarios": 4,
+    "reviewedCards": [
+      "weapon-en",
+      "weapon-ru",
+      "general-en",
+      "general-ru"
+    ],
+    "localeKeys": 65881,
+    "keyDifferences": 0,
+    "placeholderDifferences": 0,
+    "devBuild": "passed",
+    "offlineFullClientWorld": "passed, exit 0",
+    "liveServerRoundTrip": "not run",
+    "unityPixelComparison": "not run"
+  },
+  "replay": [
+    "cargo test -p ffone-client --lib vendor_ui::",
+    "cargo build -p ffone-client --bin ffone-client --example vendor_ui_gpu_preview",
+    "FFONE_VENDOR_POPUP=localized-weapon|localized-general; vendor_ui_gpu_preview {en|ru} OUTPUT.png",
+    "FFONE_USERNAME=; FFONE_PERF_OUTPUT=target/performance/vendor-card-world-smoke; ffone-client --asset-root assets/game --language ru"
+  ],
+  "remaining": [
+    "Vendor try-on renderer and controls",
+    "Other item presentation details",
+    "Service NPC event animations"
+  ],
+  "artifacts": [
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/EquipPopup.cs",
+      "bytes": 84357,
+      "sha256": "3d0db1a1034eb1f1c56d5b96c981fa817aaea352bc69195f61e0803543775ad4"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/GumPopup.cs",
+      "bytes": 33904,
+      "sha256": "2808f0e4c112cdaaf57f65e9a2ec202b7c29a74af293f175065ee1ec335cc363"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/vendor_ui/item_popup.rs",
+      "bytes": 43965,
+      "sha256": "231d3cb8f1cd5ebc2b2e43ac3e35657c7c81603f2f25dd907f65c1559a7cd841"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/examples/vendor_ui_gpu_preview.rs",
+      "bytes": 35787,
+      "sha256": "0de112bbbf7a0ceb4a3983e0d97e07a93c285f2a94728436ad20a60130b680de"
+    },
+    {
+      "path": "../FFOneClient/target/debug/ffone-client.exe",
+      "bytes": 207596544,
+      "sha256": "3651af244151787811a159a0ec5ba3b20e7d8105addd7bfd628ada3fa5d1fa83"
+    },
+    {
+      "path": "../FFOneClient/target/debug/examples/vendor_ui_gpu_preview.exe",
+      "bytes": 103691776,
+      "sha256": "02a621e9e8449e0ac2509f275601720a6df99d696374f172ba024a26c2c7db73"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-card-general-en.png",
+      "bytes": 477176,
+      "sha256": "4798ddf11437191b9c9f3edde0c30db88884f22ee3627b87f0cf603f24767aaf"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-card-general-ru.png",
+      "bytes": 483591,
+      "sha256": "5378c65663c9cc033f3683b4816e6dd80b8985f2be9f80073190d1ea040776e0"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-card-weapon-en.png",
+      "bytes": 488308,
+      "sha256": "014d8f2ee073c62dd00ec5a40ead132d8513755dec1b748acbe473eb909bb752"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-card-weapon-ru.png",
+      "bytes": 497593,
+      "sha256": "53902476d97d23b283709ee20cb39f0c2a6e56e83ebc7775b819c8f8ab7ff4f0"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-card-general-en.log",
+      "bytes": 851,
+      "sha256": "b78c3c1ab4acf8cbf26e3ea3682276a7bce2a36aab5f348c582702b32d9155b2"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-card-general-ru.log",
+      "bytes": 851,
+      "sha256": "f11655a26db6e7a2e6c8575058e3968510ef2f48f67064bf069468546172180b"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-card-tests.log",
+      "bytes": 2750,
+      "sha256": "cd30923457eec31fb776f78db8433dd0761637cb6ab3c9e10c37f4e8ec48fdb1"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-card-weapon-en.log",
+      "bytes": 850,
+      "sha256": "c5c059649ed1f0f88c12b7966cc1dfa5b323654dbd4714ce85f731fbc94d8f3e"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-card-weapon-ru.log",
+      "bytes": 850,
+      "sha256": "cfd604f6113e69b5f458f48812575c46e9fbb42d62ca66af1134b5b120564ff7"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-card-world-smoke.log",
+      "bytes": 143,
+      "sha256": "8403dd696e35a789b2b72e824088f6356f09a44a0c5983c67fcf8ebbdba8c46e"
+    }
+  ]
+}

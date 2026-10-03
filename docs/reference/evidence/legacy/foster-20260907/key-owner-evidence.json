@@ -1,0 +1,101 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "customassetbundle-b4f543c102ded400fbc6f1da25d9679a",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 2,
+      "filePath": "customassetbundle-bd5f53480423447d7bcaed95cb2a96c8",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 3,
+      "filePath": "customassetbundle-d304c52c4bae348e38c743762c1bd818",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 4,
+      "filePath": "customassetbundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 1,
+    "name": "npc_icekey",
+    "pathId": 27118,
+    "rawBytes": 51,
+    "rawSha256": "f12d356ac754465517094f23beba262ea5d86f883fa44aeeb6e52ba498ee5106",
+    "serializedAsset": "CustomAssetBundle-Retro_shared",
+    "type": "GameObject",
+    "typeId": 1,
+    "value": {
+      "m_Component": [
+        [
+          4,
+          {
+            "fileId": 0,
+            "pathId": 27119
+          }
+        ],
+        [
+          111,
+          {
+            "fileId": 0,
+            "pathId": 27141
+          }
+        ]
+      ],
+      "m_IsActive": 0,
+      "m_Layer": 16,
+      "m_Name": "npc_icekey",
+      "m_Tag": 0
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/m_Component/0/1",
+      "fileId": 0,
+      "pathId": 27119,
+      "status": "resolved",
+      "target": {
+        "pathId": 27119,
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "Transform"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Component/1/1",
+      "fileId": 0,
+      "pathId": 27141,
+      "status": "resolved",
+      "target": {
+        "pathId": 27141,
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "Animation"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 14258661,
+    "relativeContainer": "Retro_shared.resourceFile",
+    "sha256": "2ca4147c3705fdd3a0fc0ec44e088da6e87279e978e73b19701b0d29babbfc33"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

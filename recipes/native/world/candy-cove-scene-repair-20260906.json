@@ -1,0 +1,189 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "candy-cove-scene-repair-20260906",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone-native-assets"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "Map_08_06.unity3d",
+    "containerBytes": 143489,
+    "containerSha256": "0c64a46d26cdc1d6a3a81fcacd23ffd338e4de11dfee64445bbd125530947520",
+    "objects": [
+      {
+        "serializedAsset": "BuildPlayer-Map_08_06",
+        "type": "GameObject",
+        "pathId": 13249,
+        "fileId": 0,
+        "containerRoute": null
+      },
+      {
+        "serializedAsset": "BuildPlayer-Map_08_06",
+        "type": "GameObject",
+        "pathId": 8712,
+        "fileId": 0,
+        "containerRoute": null
+      },
+      {
+        "serializedAsset": "BuildPlayer-Map_08_06",
+        "type": "GameObject",
+        "pathId": 8715,
+        "fileId": 0,
+        "containerRoute": null
+      },
+      {
+        "serializedAsset": "BuildPlayer-Map_08_06",
+        "type": "GameObject",
+        "pathId": 8718,
+        "fileId": 0,
+        "containerRoute": null
+      },
+      {
+        "serializedAsset": "BuildPlayer-Map_08_06",
+        "type": "GameObject",
+        "pathId": 11208,
+        "fileId": 0,
+        "containerRoute": null
+      },
+      {
+        "serializedAsset": "BuildPlayer-Map_08_06",
+        "type": "GameObject",
+        "pathId": 11211,
+        "fileId": 0,
+        "containerRoute": null
+      },
+      {
+        "serializedAsset": "BuildPlayer-Map_08_06",
+        "type": "GameObject",
+        "pathId": 11268,
+        "fileId": 0,
+        "containerRoute": null
+      },
+      {
+        "serializedAsset": "BuildPlayer-Map_08_06",
+        "type": "GameObject",
+        "pathId": 11271,
+        "fileId": 0,
+        "containerRoute": null
+      }
+    ]
+  },
+  "transform": {
+    "kind": "repair",
+    "tool": "tools/native/repair-candy-cove.py",
+    "toolRevision": "86324d05303a076b9814bddff800635cb2f73954 + d958cf8b69a7452cc280477bab4a56107cb9f693c81b73bf103965d057595f9b",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/native/repair-candy-cove.py --source-root work/legacy-sources/candy-cove-20260906/native-before --stage-root work/legacy-sources/candy-cove-20260906/stage-b --target-root ../FFOneClient/assets/game"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/legacy-sources/candy-cove-20260906/native-before/map/tiles/map_08_06/behaviour.json",
+      "bytes": 5096047,
+      "sha256": "523d55665cb38450be455c02e80e1c9e8531f950da7b1f91ea43b08cbdceecb7"
+    },
+    {
+      "path": "work/legacy-sources/candy-cove-20260906/native-before/map/tiles/map_08_06/scene.json",
+      "bytes": 2010932,
+      "sha256": "38fc5ab6995aa0c0fe4485d7b9b2471438108ca22bb4059e700414245510f5b4"
+    },
+    {
+      "path": "work/legacy-sources/candy-cove-20260906/native-before/map/tiles/map_08_06/objects.json",
+      "bytes": 2296804,
+      "sha256": "7ac911202cf9057c1932fb40d4746199486a8adb281177faee2b921f3ca469df"
+    },
+    {
+      "path": "work/legacy-sources/candy-cove-20260906/native-before/map/tiles/map_08_06/tile.json",
+      "bytes": 14764,
+      "sha256": "8c339d8b0d1c88ec2b1ed375898d0bcd1d07ae9d27014bc501ce74fef252c1f2"
+    },
+    {
+      "path": "work/legacy-sources/candy-cove-20260906/native-before/map/catalog.json",
+      "bytes": 33553600,
+      "sha256": "ae6945333ae4359dc94f06f3e27118bcddb74cfc3e8672bd5772b2f749c96b0f"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/candy-cove-20260906.json",
+      "bytes": 28774,
+      "sha256": "25ec7c4b8d5ef69e8d30d55aeeb4fb6310d9d81a21fc4f05129e64e558bd5941"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "map/tiles/map_08_06/behaviour.json",
+      "bytes": 5095801,
+      "sha256": "f0f1ed87e059734e2e76a3157d699312b588c8e5cc67597227ead19a3a86ec45"
+    },
+    {
+      "path": "map/tiles/map_08_06/scene.json",
+      "bytes": 2009482,
+      "sha256": "1ee41030c337efdc52c39708c619a488a8100a19d0aff9e34927fabaf5ea0d0b"
+    },
+    {
+      "path": "map/tiles/map_08_06/objects.json",
+      "bytes": 2295053,
+      "sha256": "e582af99515352864d88ee53e329843c7bf7ccfe18684d576d96e48a6e02903b"
+    },
+    {
+      "path": "map/tiles/map_08_06/tile.json",
+      "bytes": 14764,
+      "sha256": "53d553d8420146a095b114dae86fd32610ebf8c57e65aadb80a9a8f7946010ed"
+    },
+    {
+      "path": "map/catalog.json",
+      "bytes": 33553600,
+      "sha256": "e9ce68068dcb82a2e718ed1047dc4a024ec52cbc419fa7b8249feba415c2eae6"
+    }
+  ],
+  "divergenceFromPrimary": "Owner-requested correction of primary scene defects: detach three foliage render bindings from Object01 rotation while retaining their authored placement; remove two standard metal shell visual placements that intersect the separate octopus jump-pad models. Meshes, textures, colliders, trigger volumes, jump parameters and animation clips remain unchanged.",
+  "verification": [
+    {
+      "command": "two independent repair-candy-cove.py staging replays",
+      "result": "passed: all five native outputs byte-identical",
+      "evidence": "work/legacy-sources/candy-cove-20260906/stage-b/repair-report.json"
+    },
+    {
+      "command": "world_performance_probe shared target/performance/candy-pad-after -4306 -58 3040",
+      "result": "passed: native GPU before/after captures; no Candy Cove placement escapes 30 m; both octopus models inspected",
+      "evidence": "docs/reference/evidence/cases/artifacts/candy-cove-20260906.json"
+    },
+    {
+      "command": "target/debug/xtask.exe assets --source assets/game",
+      "result": "passed: 5 domains, 43684 references",
+      "evidence": null
+    },
+    {
+      "command": "verify map_08_06 tile files plus catalogue manifest/objects hashes",
+      "result": "passed: all 72 tile files and catalogue hashes match",
+      "evidence": null
+    },
+    {
+      "command": "target/debug/xtask.exe assets --source assets/game --full",
+      "result": "blocked by unrelated pre-existing untracked textures/hnpc/m_face_006_a.png with no declared runtime owner group",
+      "evidence": null
+    },
+    {
+      "command": "cargo test -p ffone-client --lib candy_cove_animation_bindings -- --nocapture",
+      "result": "passed: 1 test, 30 seconds of simulated animation",
+      "evidence": null
+    },
+    {
+      "command": "target/debug/deps/ffone_client-97dc07accad20c7e.exe world_behaviour::tests --nocapture",
+      "result": "41 passed, 1 ignored; pre-existing streamed_behaviour_hash_verification_fails_closed_on_stale_bytes fails because HEAD read_hashed_world_behaviour_asset ignores its hash argument",
+      "evidence": null
+    },
+    {
+      "command": "cargo build -p ffone-client --bin ffone-client",
+      "result": "passed; unrelated unused CameraProjection import warning",
+      "evidence": null
+    },
+    {
+      "command": "FFONE_PERF_OUTPUT=target/performance/candy-full-client FFONE_PERF_POSITION=\"-4311 -57 3045\" target/debug/ffone-client.exe --asset-root assets/game --character-asset-root assets/game",
+      "result": "passed: exit 0, full production world/HUD/player capture, no runtime errors",
+      "evidence": "../FFOneClient/target/performance/candy-full-client/run.log"
+    }
+  ]
+}

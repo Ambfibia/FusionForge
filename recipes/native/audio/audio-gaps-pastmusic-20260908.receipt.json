@@ -1,0 +1,86 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "audio-gaps-pastmusic-20260908",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "native-target"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "PastMusic.resourceFile",
+    "containerBytes": 35505708,
+    "containerSha256": "27d1a53a7dae2e9994f40b55198278959ac1a063040744c6f61e2d5402eb65b0",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-b40cc6bb657354e0f9aa12b34378c651",
+        "type": "AudioClip",
+        "pathId": 77,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "darklands beginnings"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-b40cc6bb657354e0f9aa12b34378c651",
+        "type": "AudioClip",
+        "pathId": 76,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "highlands"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "lossless-audio-publication",
+    "tool": "tools/legacy-sources/publish-audio-gaps.py",
+    "toolRevision": "857406bc95b5dd7a5983cefc3838c86b302600a8 (working tree; tool SHA-256 5e4bde84481aaba0701c8162ab482b0d79a0b2122b9375e9985b1a5ba4a4f7da)",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/legacy-sources/publish-audio-gaps.py --plan recipes/native/audio/audio-gaps-20260908.plan.json --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/cases/audio-gaps-20260908/pass1",
+      "python tools/legacy-sources/publish-audio-gaps.py --plan recipes/native/audio/audio-gaps-20260908.plan.json --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/cases/audio-gaps-20260908/pass2",
+      "python tools/legacy-sources/publish-audio-gaps.py --plan recipes/native/audio/audio-gaps-20260908.plan.json --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/cases/audio-gaps-20260908/pass2 --reuse-evidence --apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "recipes/native/audio/audio-gaps-20260908.plan.json",
+      "sha256": "90f4042d8cb348ccd05f8b96d0f7ba2ea483db5f668ea54db45b4d61cc6be763"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "audio/music/darklands_beginnings.ogg",
+      "bytes": 7433406,
+      "sha256": "510ff66297e34957e1ca69f2feb7be4db6d9c650e6b6963a027d4eceb147e8e2"
+    },
+    {
+      "path": "audio/music/highlands.ogg",
+      "bytes": 1654857,
+      "sha256": "82847282d2524b443af79a8d6666b5153c0e1f4dfbc4d63e81d7280629a5ae2a"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "Compare pass1/outputs.json with pass2/outputs.json and native output SHA-256 values",
+      "result": "passed: 41 independently exported Ogg payloads match; native files match accepted hashes",
+      "evidence": "work/cases/audio-gaps-20260908/pass2/outputs.json"
+    }
+  ],
+  "nativeRouteRows": [
+    {
+      "logicalKey": "music/darklands_beginnings",
+      "trueName": "darklands beginnings",
+      "category": "music",
+      "owner": "shared",
+      "path": "audio/music/darklands_beginnings.ogg"
+    },
+    {
+      "logicalKey": "music/highlands",
+      "trueName": "highlands",
+      "category": "music",
+      "owner": "shared",
+      "path": "audio/music/highlands.ogg"
+    }
+  ]
+}

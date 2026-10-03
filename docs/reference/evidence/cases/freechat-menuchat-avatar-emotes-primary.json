@@ -1,0 +1,191 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "freechat-menuchat-avatar-emotes-primary",
+  "question": "What exact clean-client UI, packet, message-color, speech-bubble, and avatar-animation contracts define small FreeChat, quick messages, and emotes?",
+  "status": "accepted",
+  "nativeConsumer": "ui/gameplay/freechat; protocol/social ingress; player animation runtime",
+  "acceptance": [
+    "Recover CnGuiChat and MenuChatScript Rects, draw order, list hierarchy, GUIStyles, and selected/hover states from primary.",
+    "Use exact protocol-0104 request/reply ids and layouts for normal, group, buddy MenuChat and standalone AvatarEmote.",
+    "Preserve normal/group/buddy message kinds, normal-chat speech bubbles, and clean no-bubble behavior for group/buddy MenuChat.",
+    "Publish and runtime-resolve every AvatarEmote(int) clip for both genders; server echo owns animation start.",
+    "Inspect deterministic GPU captures for base FreeChat, MenuChat, Emotes, and selected Dance submenu, then build the real Dev binary."
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        {
+          "relativeContainer": "main.unity3d",
+          "bytes": 7000415,
+          "sha256": "59788201962b6a1737b114486c361fe74eef69f507d1d125ca3171377eec602f"
+        },
+        {
+          "relativeContainer": "CharacterSelection.resourceFile",
+          "bytes": 14544152,
+          "sha256": "fe050af079af43458a79cb27284a243f532ad56bb79e3c526c44e313c1a72930"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "sourceAlias": "primary",
+      "relativeContainer": "main.unity3d",
+      "serializedAsset": "sharedassets0",
+      "ownershipChain": [
+        {
+          "type": "GUISkin",
+          "pathId": 1368,
+          "trueName": "FusionFallChatSkin"
+        }
+      ],
+      "decisiveStyles": [
+        {
+          "name": "chatBox",
+          "normalTexture": { "type": "Texture2D", "pathId": 530, "trueName": "chat_box" },
+          "border": { "left": 15, "right": 20, "top": 15, "bottom": 20 },
+          "overflow": { "left": 1, "right": -10, "top": 8, "bottom": 12 }
+        },
+        {
+          "name": "ChatButton",
+          "hoverTexture": { "type": "Texture2D", "pathId": 61, "trueName": "menuchat_sel_over" },
+          "hoverTextRgb": [0.0, 0.34117648, 0.5019608],
+          "normalTextRgb": [1.0, 1.0, 1.0]
+        },
+        {
+          "name": "NextChatButton",
+          "hoverTexture": { "type": "Texture2D", "pathId": 212, "trueName": "menuchat_over" },
+          "border": { "right": 20 },
+          "hoverTextRgb": [0.0, 0.34117648, 0.5019608]
+        },
+        {
+          "name": "ChatLock",
+          "normalTexture": { "type": "Texture2D", "pathId": 212, "trueName": "menuchat_over" },
+          "border": { "right": 20 },
+          "normalTextRgb": [0.0, 0.34117648, 0.5019608]
+        }
+      ]
+    },
+    {
+      "sourceAlias": "primary",
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "routes": ["actor/m.kfm", "actor/w.kfm"],
+      "decisiveObjects": {
+        "maleAnimationClips": [34471,34304,34383,34598,34362,34566,34427,34319,34353,34410,34558,34623,34423,34217,34405,34285,34225,34635,34316,34310,34211,34402,34433],
+        "femaleAnimationClips": [34494,34161,34629,34192,34476,34283,34602,34201,34377,34250,34218,34547,34431,34149,34515,34430,34536,34634,34628,34575,34573,34563,34552]
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "The small FreeChat visible body is 440 px wide even if a cropped reference image is narrower.",
+      "state": "proven",
+      "evidence": ["CnGuiChat.initLargeChatStyle: WindowRect.width=460, BoxRect.width=440, chat_listRect.width=440, MessageRect.width=440"],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "Standalone emotes may start optimistically on click.",
+      "state": "rejected",
+      "evidence": ["MenuChatScript.SendEmote sends only the request; cnAvatarAnimation.AvatarEmote is entered from the server reply"],
+      "rejectedBecause": "The authoritative server echo owns animation start."
+    },
+    {
+      "claim": "Group and buddy MenuChat should be blocked when free typing is disabled.",
+      "state": "rejected",
+      "evidence": ["The clean MenuChat receive paths are distinct from FreeChat permission gating."],
+      "rejectedBecause": "Quick phrases remain available without free typing."
+    }
+  ],
+  "differences": [],
+  "conclusion": {
+    "state": "proven",
+    "proven": [
+      "Fresh Retrobution FreeChat uses the exact 440x150 window, 440x113 chat background, three 135x14 tabs, 31x19 quick-message/emote buttons, an active 295x23 text field, a 69x23 SEND control, and an inactive 385x23 field.",
+      "Fresh Retrobution MenuChat animates its root to x=40, Emotes to x=72; visible areas use 18 px rows and end fourteen pixels above the screen/chat anchor after the shared 149 px draw offset.",
+      "The large-chat emote menu uses the 19 root rows initialized by InitLargeChatEmoteList, exact per-row TutorialAssets/emoteChatIcon textures, five Dance children, three Chill Out children, and six Extras children. Containers always draw the nextArrow style unless selected.",
+      "Normal MenuChat adds an ALL line, speech bubble, and echo-confirmed animation. Group and buddy MenuChat add their colored histories/alerts and do not create bubbles or avatar animations.",
+      "Movement or jump interrupts an active emote; natural clamp completion returns to idle. Local mounted vehicle rejects standalone emotes with Action_Failure01."
+    ],
+    "unresolved": [
+      "Remote mounted-state suppression cannot be represented until the native client owns a server-authoritative remote vehicle presentation state; the current protocol surface exposes only local PC_VEHICLE_* replies."
+    ]
+  },
+  "nativeContract": {
+    "freeChatRects": {
+      "window": [0, 0, 440, 150],
+      "box": [0, 14, 440, 113],
+      "entry": [-8, 117, 462, 40],
+      "activeTextField": [75, 124, 295, 23],
+      "inactiveTextField": [40, 124, 385, 23],
+      "send": [365, 124, 69, 23],
+      "menuButton": [6, 124, 31, 19],
+      "emoteButton": [41, 124, 31, 19],
+      "tabs": { "all": [-40,1,135,14], "buddy": [95,1,135,14], "group": [230,1,135,14] }
+    },
+    "packets": {
+      "normalMenuChat": { "request": "0x13000008", "reply": "0x31000018", "requestBytes": 260, "replyBytes": 264 },
+      "buddyMenuChat": { "request": "0x13000038", "reply": "0x3100006b", "requestBytes": 272, "replyBytes": 276 },
+      "groupMenuChat": { "request": "0x13000066", "reply": "0x310000ba", "requestBytes": 260, "replyBytes": 264 },
+      "avatarEmote": { "request": "0x13000050", "reply": "0x31000092", "bytes": 8 }
+    },
+    "avatarEmoteCodes": {
+      "1":"cry", "2":"angry", "3":"shocked", "4":"hello", "5":"thank", "6":"dance1", "7":"kiss", "8":"agree", "9":"laugh", "10":"no", "11":"flex", "12":"tease", "13":"ok", "14":"applaud", "15":"cheer", "16":"cheer", "17":"dance2", "18":"dance3", "19":"dance4", "20":"dance5", "21":"goodbye", "22":"beach1", "23":"beach2", "24":"beach3"
+    },
+    "avatarPlayback": { "dispatch": "crossfade", "seconds": 0.15, "repeat": false, "contractPlayback": "clamp" },
+    "outputs": [
+      { "path": "assets/game/ui/gameplay/chat/chat_box.png", "bytes": 1721, "sha256": "9f2d695bf6efc5e82fa4bff491c1ad2a6b99ed0350be50f0d41c5e74d9df7041" },
+      { "path": "assets/game/ui/gameplay/chat/menuchat_over.png", "bytes": 400, "sha256": "5fb67d5524b0c7c261795c0e4a9cc0e3b10a43f136bf45ec5d5ca6838fde98e7" },
+      { "path": "assets/game/ui/gameplay/chat/menuchat_sel_over.png", "bytes": 179, "sha256": "6b02648f8739d26e520ea46d36f847e2cd9d9240891da4a9b561cd0c7eb5717c" },
+      { "path": "assets/game/ui/gameplay/chat/next-arrow.png", "bytes": 233, "sha256": "532501f05c5bf5fd58ded191664969763ca2db091030c078e48388c1b32dc8b2" },
+      { "path": "assets/game/ui/gameplay/chat/emotes/hello.png", "bytes": 343, "sha256": "65ae72411f898c2270b82f1831d197e334c56893ee08f701c419b4fc838ffad8" },
+      { "path": "assets/game/ui/gameplay/chat/emotes/goodbye.png", "bytes": 337, "sha256": "f4dc1431b9757517f4f2f0a76ce8be0d1593521b0df8c91b8f0b3e7caee25b9a" },
+      { "path": "assets/game/ui/gameplay/chat/emotes/laugh.png", "bytes": 393, "sha256": "98f9cbaec8eca031a04bdec367770d52fbef7211728bd578d57312ae3425ce01" },
+      { "path": "assets/game/characters/player/male/base/male_skeleton.glb", "bytes": 16122860, "sha256": "33643119475a79d7800dded76fe6b3652f09c862673a00e5f27c17c79f2990f5" },
+      { "path": "assets/game/characters/player/female/base/female_skeleton.glb", "bytes": 19637288, "sha256": "065629a86f26b25aadfb531389c32b517e177ed36a2c797c0472636a4d81bc09" },
+      { "path": "assets/game/characters/player/shared/player_rig_contract.json", "bytes": 903734, "sha256": "ebbcc9e7fc541eecde60feccdc957fd0fc5b62b9c9bf638975e3afab61d30964" }
+    ]
+  },
+  "verification": [
+    {
+      "kind": "raw_container_identity",
+      "status": "passed",
+      "sources": ["primary:main.unity3d", "primary:CharacterSelection.resourceFile"]
+    },
+    {
+      "kind": "protocol_suite",
+      "status": "passed",
+      "result": "ffone-protocol: 102 passed; includes exact MenuChat and AvatarEmote ids/layouts"
+    },
+    {
+      "kind": "runtime_and_social_tests",
+      "status": "passed",
+      "result": "normal echo color/bubble/emote, standalone echo/vehicle gate, group/buddy no-free-typing, quick-chat ownership, movement/jump interruption, natural completion"
+    },
+    {
+      "kind": "native_rig_contract",
+      "status": "passed",
+      "result": "23 male plus 23 female clips, glTF indices 88..110, playback=clamp, runtimeStatus=native-bevy-ready"
+    },
+    {
+      "kind": "deterministic_gpu_crop",
+      "status": "passed",
+      "captures": [
+        { "path": "target/ui-parity/chat-retrobution-all-20260903.png", "bytes": 149502, "sha256": "ec23555961dc321da6b4391a801499047a47d7d1448ea41f7eb2981c15008c4f" },
+        { "path": "target/ui-parity/chat-retrobution-all-inactive-20260903.png", "bytes": 150234, "sha256": "f76f73b162894833b2499dd3fb8c47d0bb21d84d91deb859de89f62258940bde" },
+        { "path": "target/ui-parity/chat-retrobution-buddy-20260903.png", "bytes": 166458, "sha256": "7bc9a195a1ad3d3005617fce2b3bf99f617872582707de50d7f228af8c054936" },
+        { "path": "target/ui-parity/chat-retrobution-group-20260903.png", "bytes": 158096, "sha256": "db9574cb8869cf01a6d8fd372edc8bd1fd594306cee1363ed6e836623cb60f88" },
+        { "path": "target/ui-parity/chat-retrobution-menu-20260903.png", "bytes": 167947, "sha256": "48280fb9e276942ac9263c629affb78c9e12a6ffa14ee5eefb068c5b6d89ef1a" },
+        { "path": "target/ui-parity/chat-retrobution-emotes-20260903.png", "bytes": 179488, "sha256": "abcef6358dddd532d258c1f8f5df4e7ea784382801d4ac06d8f3256f6248a68d" },
+        { "path": "target/ui-parity/chat-retrobution-emotes-dance-20260903.png", "bytes": 189574, "sha256": "6f5130ee770553aef49cfc1586c9428043e65782c8d3258cdf32c6c29dbea78a" }
+      ]
+    },
+    {
+      "kind": "real_dev_binary",
+      "status": "passed",
+      "result": "cargo check and cargo build -p ffone-client --bin ffone-client"
+    }
+  ]
+}

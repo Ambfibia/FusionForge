@@ -1,0 +1,386 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "player-body-shape-20260912",
+  "question": "Do creator height/build selectors sample skeleton clips, and does the native preview apply them?",
+  "status": "native-runtime-verified",
+  "nativeConsumer": "NativePlayerSharedRigPlugin and NativePlayerPreviewPlugin",
+  "acceptance": [
+    "All 15 combinations yield distinct native bone poses for each gender.",
+    "Creator GPU fixture captures all 30 appearances on unchanged instance roots.",
+    "Production main exercises creation and resumed appearance."
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        {
+          "rawContainer": "main.unity3d",
+          "bytes": 8221718,
+          "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "evidenceArtifacts": [
+    {
+      "id": "csharp",
+      "kind": "strict_managed_assembly_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/player-body-shape-20260912/csharp.evidence.json",
+      "bytes": 1337,
+      "sha256": "1e614f35d4673f6d60dfdd5919bda5864cdc9a0fff15aabae2b9e901be2d7a31",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "./fusionforge.cmd export-managed-assembly-evidence primary ../builds/retrobution-20260821 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out work/cases/body-shape-20260912/csharp.evidence.json --payload-out work/cases/body-shape-20260912/Assembly-CSharp.dll"
+      }
+    },
+    {
+      "id": "firstpass",
+      "kind": "strict_managed_assembly_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/player-body-shape-20260912/firstpass.evidence.json",
+      "bytes": 1398,
+      "sha256": "395b41532e53268d7d56d5bb85d51e9ff39a56c13cad77d79ba87a7ebce0f837",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "./fusionforge.cmd export-managed-assembly-evidence primary ../builds/retrobution-20260821 main.unity3d \"Assembly - CSharp - first pass.dll\" --level 0 --out work/cases/body-shape-20260912/firstpass.evidence.json --payload-out work/cases/body-shape-20260912/Assembly-CSharp-firstpass.dll"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "CnCharCreationMode samples height at 1-index/4 and shape at index/2; ActorSkinCombiner layers the four authored clips.",
+      "state": "proven",
+      "evidence": [
+        "csharp",
+        "firstpass"
+      ],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "A root-scale replacement is equivalent to the original body mechanic.",
+      "state": "rejected",
+      "evidence": [
+        "csharp",
+        "firstpass"
+      ],
+      "rejectedBecause": "The recovered implementation samples bone TR deltas plus scale clips, rather than a model-root scale."
+    }
+  ],
+  "differences": [
+    {
+      "classification": "native-consumer-defect",
+      "description": "Preview retained selectors but played only idle; existing world rig already sampled body clips."
+    }
+  ],
+  "conclusion": "Native preview now consumes recovered body selections. Native ECS/GPU and production-main paths pass. No raw Unity runtime capture is available, so source/native pixel equivalence is not claimed.",
+  "nativeContract": {
+    "heightSelectors": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "bodySelectors": [
+      0,
+      1,
+      2
+    ],
+    "heightTime": "1 - height / 4",
+    "bodyTime": "body / 2",
+    "clips": [
+      "height_Add",
+      "shape_Add",
+      "height",
+      "shape"
+    ],
+    "ownership": "per actor AnimationPlayer and bone entities",
+    "runtimeAssetsRepublished": false
+  },
+  "verification": [
+    {
+      "kind": "native_gpu",
+      "gender": "boy",
+      "passed": true,
+      "captureCount": 15,
+      "unchangedRig": [
+        [
+          "285v0",
+          "1"
+        ]
+      ],
+      "log": {
+        "path": "../FFOneClient/target/performance/body-shape/boy.log",
+        "bytes": 72587,
+        "sha256": "045580279bff98257c2c1b1e80216fda3aedbce193ae5867d2537d25935aee46"
+      },
+      "captures": [
+        {
+          "path": "../FFOneClient/target/performance/body-shape/boy.png",
+          "bytes": 538555,
+          "sha256": "f7aa5f61fbe06460a227c2cc64b68ccf3888619f9358bdbbbf78c7a9e006cb9b"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/boy.frame2.png",
+          "bytes": 538883,
+          "sha256": "5dc2495eef7068e2fe76f87b39b345768359e7816d7ce3d1b53c2c8be9ceed0f"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/boy.frame3.png",
+          "bytes": 538493,
+          "sha256": "470be4e0218cac61bec4c617a54147da8cf7f499c28b2cecca0543574efda950"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/boy.frame4.png",
+          "bytes": 538704,
+          "sha256": "c87b1c053d282ae97ed8350f2cf88857421ebc0586251b686d40a6a4c537b736"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/boy.frame5.png",
+          "bytes": 541288,
+          "sha256": "fd63f69913c6c3f1626a740ce327a9ec3b2ff8a876b8dd4a8860fabc4c421aa2"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/boy.frame6.png",
+          "bytes": 541131,
+          "sha256": "d9aa998afd5c59337e18d693818d18ff146cd8cc2b9afb1e93a7c0ea20b736b5"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/boy.frame7.png",
+          "bytes": 540903,
+          "sha256": "0d9ebedf5b008e0a7003482841c7738e6bba2b880f23bb273e406b739ab0b487"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/boy.frame8.png",
+          "bytes": 541190,
+          "sha256": "6ab9672c7c68d4884f0a3b184cfef5f9fe628612453aaff257f94fe7dafdc0cd"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/boy.frame9.png",
+          "bytes": 541454,
+          "sha256": "e90734fa2f3939f8c91b07ec5f603e2da6e50e049e706e7170fc191be5218e4f"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/boy.frame10.png",
+          "bytes": 542439,
+          "sha256": "013106481fc238b8a7137a9b6ba5dbe3c262f73ea8049dfe089e4755e16ce8eb"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/boy.frame11.png",
+          "bytes": 541303,
+          "sha256": "6f6b76edc9387c2029d623c7d699b41a2856b5b206ec46f426b0e798ea827c91"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/boy.frame12.png",
+          "bytes": 542754,
+          "sha256": "813b8bb6a5dedee5e65dbf1f4702ebd0cf22345ad9e83c6e6ff097b12d786a78"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/boy.frame13.png",
+          "bytes": 544591,
+          "sha256": "2836fde1273ddb367b7230f14884ab15e649edb57a5b24b3a8d2f12dd37da006"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/boy.frame14.png",
+          "bytes": 542643,
+          "sha256": "ef5493133ce1e90c14e03008470513a09d2432d4b88ee028d65481ead547cedb"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/boy.frame15.png",
+          "bytes": 543520,
+          "sha256": "5106e58c3f687fb96c184b6af499c6a90dd9aefbf6c3ae9489f3984706f7026c"
+        }
+      ],
+      "replay": "FFONE_REVIEW_BODY_SHAPE=1 cargo run -p ffone-client --example character_creation_gpu_preview -- target/performance/body-shape/boy-name.png target/performance/body-shape/boy.png 15 boy"
+    },
+    {
+      "kind": "native_gpu",
+      "gender": "girl",
+      "passed": true,
+      "captureCount": 15,
+      "unchangedRig": [
+        [
+          "285v0",
+          "1"
+        ]
+      ],
+      "log": {
+        "path": "../FFOneClient/target/performance/body-shape/girl.log",
+        "bytes": 72840,
+        "sha256": "85a257e7c0c68c3d7b5b8ca930a21ab18a4878670cddaf6cefd603c8992203a3"
+      },
+      "captures": [
+        {
+          "path": "../FFOneClient/target/performance/body-shape/girl.png",
+          "bytes": 527117,
+          "sha256": "40f64a21290ddd110d53b086e78ad1f10dc2d369748f6a247fb57f0b05868dbf"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/girl.frame2.png",
+          "bytes": 527407,
+          "sha256": "166f694595075228c7b7e139a2fc4c4155510bc8e3021a9f2c5e937da237088a"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/girl.frame3.png",
+          "bytes": 527631,
+          "sha256": "9fe3941a141822a4e2b8618f280a73c9e14de129a17bdf9bb4751e6f2ebe10e7"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/girl.frame4.png",
+          "bytes": 527241,
+          "sha256": "213bb12872e86c8d21ddc9e2c5fc1d48bd456bd6602eadfb0ed7921c5417306e"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/girl.frame5.png",
+          "bytes": 527677,
+          "sha256": "4238179210ddc2fa3afa46f60f98117140e5f14c7a646af2b67afa3a19e4bb5e"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/girl.frame6.png",
+          "bytes": 528655,
+          "sha256": "cc39ee300b57fea944a74b92159fd89ccc640db16e373cf03b30b0bcd1607af8"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/girl.frame7.png",
+          "bytes": 529112,
+          "sha256": "f5c5286e297b35e8a436cb7cea26147279298e1d1ff96b4163f60b5a48ac53e8"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/girl.frame8.png",
+          "bytes": 529194,
+          "sha256": "8ad59305f5c67ba0e61788fdbc9fe908281fe0e7324e04477dafb341aaabc3ab"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/girl.frame9.png",
+          "bytes": 529287,
+          "sha256": "5287378fe463122e72b8b3a18aa2fb44b1827b1dc287c2243f1490e38ae7aa47"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/girl.frame10.png",
+          "bytes": 528794,
+          "sha256": "cbc4ae8efac593d00afcdb7b0f4a77741984f8b6589988743cd3d097c78f4759"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/girl.frame11.png",
+          "bytes": 529465,
+          "sha256": "284635057e8a0bd8c58b2df30c18bf683d3e83f993c99c2ef144e0669fee9f30"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/girl.frame12.png",
+          "bytes": 529953,
+          "sha256": "6ba96aba41d2596f51accef20026607dbaa48e99e48e8aef9d09f1ab7e97c0cd"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/girl.frame13.png",
+          "bytes": 530629,
+          "sha256": "2497915348a2a356e18f4c31253a25e1dffeeea0fc01262b146102472ea7f988"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/girl.frame14.png",
+          "bytes": 529959,
+          "sha256": "866758816f37b5f8b03152880f491fa877f932d5319e51ffd7f0bb4a77e8fb0d"
+        },
+        {
+          "path": "../FFOneClient/target/performance/body-shape/girl.frame15.png",
+          "bytes": 529473,
+          "sha256": "b9de1f2e4b3d2a78175421c4ba113dc3c909c3dc8d2033df483f8c83afba18b5"
+        }
+      ],
+      "replay": "FFONE_REVIEW_BODY_SHAPE=1 cargo run -p ffone-client --example character_creation_gpu_preview -- target/performance/body-shape/girl-name.png target/performance/body-shape/girl.png 15 girl"
+    },
+    {
+      "kind": "bevy_ecs",
+      "passed": true,
+      "tests": [
+        "body_shape_changes_bone_pose_in_place_and_preserves_idle_rotation",
+        "production_body_clips_change_all_fifteen_poses_for_both_genders"
+      ],
+      "log": {
+        "path": "../FFOneClient/target/performance/body-shape/tests.log",
+        "bytes": 305,
+        "sha256": "f4b0a3ff7490b870210b775d8139de66f3d4d3f6d02858a15dbfa710b653e1ad"
+      },
+      "replay": "cargo test -p ffone-client --lib player_shared_rig::body_shape::tests -- --nocapture"
+    },
+    {
+      "kind": "production_main",
+      "passed": true,
+      "result": {
+        "path": "../FFOneClient/target/performance/body-shape/production/passed.txt",
+        "bytes": 149,
+        "sha256": "d981b95e7b2090e2b7b709c4e1a901f8dbbdcfb7385cbe22a52358701e3f7e95"
+      },
+      "log": {
+        "path": "../FFOneClient/target/performance/body-shape/production.log",
+        "bytes": 8433,
+        "sha256": "6dc1537bda00f8af88d08a32a7d6368c688fc0f998139238fcf292bb02cde0ca"
+      },
+      "build": "current production library and main sources linked with existing Cargo dependencies, debug assertions enabled, opt-level=0; no performance claim",
+      "replay": "FFONE_CREATION_PROBE_OUTPUT=target/performance/body-shape/production cargo run -p ffone-client --bin ffone-client"
+    },
+    {
+      "kind": "optimized_dev_main",
+      "passed": true,
+      "executable": {
+        "path": "../FFOneClient/target/debug/ffone-client.exe",
+        "bytes": 218108928,
+        "sha256": "afc2e9fe294d0f7824b8d379c99c752ca81575545fbaf106db6c4883d5575209"
+      },
+      "result": {
+        "path": "../FFOneClient/target/performance/body-shape/dev-production/passed.txt",
+        "bytes": 149,
+        "sha256": "d981b95e7b2090e2b7b709c4e1a901f8dbbdcfb7385cbe22a52358701e3f7e95"
+      },
+      "log": {
+        "path": "../FFOneClient/target/performance/body-shape/dev-production.log",
+        "bytes": 8433,
+        "sha256": "99ce51433887202c7d60285af838546688ab51bcaf5120413ca905000294fca6"
+      },
+      "buildCommand": "cargo build -p ffone-client --bin ffone-client --locked",
+      "replay": "Set FFONE_CREATION_PROBE_OUTPUT=target/performance/body-shape/dev-production, then run target/debug/ffone-client.exe",
+      "exitCode": 0
+    }
+  ],
+  "nativeInputs": [
+    {
+      "path": "../FFOneClient/assets/game/characters/player/male/base/male_skeleton.glb",
+      "bytes": 19123316,
+      "sha256": "c1d4236e0e17acde4571411c377d0edda2ad5d4adafb00f273c2ab03a325d7f6"
+    },
+    {
+      "path": "../FFOneClient/assets/game/characters/player/female/base/female_skeleton.glb",
+      "bytes": 23092124,
+      "sha256": "98c09ef1bf97538bd4b236301bae00cb4112f57d960f5f70fe099ae39db4989d"
+    }
+  ],
+  "sourceChanges": [
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/player_shared_rig/body_shape.rs",
+      "bytes": 13254,
+      "sha256": "213a69cedf6f2257720ba9516a2268ab879545230c99f34c2548359dc2f0bc5c"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/player_shared_rig.rs",
+      "bytes": 123592,
+      "sha256": "17b8a8e08310ebcce097df3277829ac20fa439015ab5a0dc7ba783d555ea2ff3"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/player_preview.rs",
+      "bytes": 75720,
+      "sha256": "ecf80158fa6328df97c79df96e930aeca996f2ace891b9bae9359e886eb73b2d"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/character_selection_portraits.rs",
+      "bytes": 57758,
+      "sha256": "9acd274ccb63e922dde6fcb08385c8c4ec35a638b0b0bfdd622845f4564e6a22"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/examples/character_creation_gpu_preview.rs",
+      "bytes": 33628,
+      "sha256": "0f8f218cf2e9044cc3f968125ed3901dd6c4e158252655f7145efa13404f95db"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "fftools.managed-assembly-evidence.v1",
+  "schemaVersion": 1,
+  "source": {
+    "alias": "primary",
+    "rawContainer": {
+      "relativePath": "main.unity3d",
+      "bytes": 7000415,
+      "sha256": "59788201962B6A1737B114486C361FE74EEF69F507D1D125CA3171377EEC602F"
+    }
+  },
+  "selection": {
+    "containerFormat": "UnityWeb",
+    "level": 0,
+    "exactEntry": "Assembly - CSharp.dll",
+    "route": "level0/Assembly - CSharp.dll"
+  },
+  "managedFormat": {
+    "peKind": "PE32",
+    "isDll": true,
+    "clrHeaderMajor": 2,
+    "clrHeaderMinor": 5,
+    "clrMetadataBytes": 541268,
+    "clrMetadataSha256": "2D7FFE79054C9D5E09CD881600A6687B74F3E9F2E6698902410550B84B6201A0"
+  },
+  "payload": {
+    "bytes": 1517568,
+    "sha256": "33D6F70216B1C7BA05BCC0F270FBA97E767B129159755AF4C8835922E60ACADB",
+    "materialization": {
+      "mode": "portable-relative-output",
+      "portableRelativePath": "work/legacy-sources/option-mode-primary-vs-alternate/managed/primary.Assembly-CSharp.dll"
+    }
+  },
+  "reproduction": {
+    "extractor": "ffbuildtool.unityweb.exact-entry.in-memory.v1",
+    "selector": {
+      "containerFormat": "UnityWeb",
+      "level": 0,
+      "exactEntry": "Assembly - CSharp.dll",
+      "route": "level0/Assembly - CSharp.dll"
+    },
+    "requiredRawContainerSha256": "59788201962B6A1737B114486C361FE74EEF69F507D1D125CA3171377EEC602F"
+  }
+}

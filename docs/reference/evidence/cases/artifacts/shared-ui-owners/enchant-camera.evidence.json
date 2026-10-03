@@ -1,0 +1,78 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 114,
+    "name": "",
+    "pathId": 1481,
+    "rawBytes": 120,
+    "rawSha256": "6d32ea3eff4b299333eb4a87795e845c5465f65dc440716d9a64a999c2bea4bf",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "MonoBehaviour",
+    "typeId": -19,
+    "value": {
+      "Distance": 1.2999999523162842,
+      "TargetName": "Bip01/Bip01 NonAccum/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Neck",
+      "fHeight": 0.550000011920929,
+      "m_Enabled": false,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 1294
+      },
+      "m_Name": "",
+      "m_Script": {
+        "fileId": 0,
+        "pathId": 1154
+      },
+      "vAngle": {
+        "x": 0.0,
+        "y": -20.0,
+        "z": 0.0
+      }
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 1294,
+      "status": "resolved",
+      "target": {
+        "pathId": 1294,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Script",
+      "fileId": 0,
+      "pathId": 1154,
+      "status": "resolved",
+      "target": {
+        "pathId": 1154,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoScript"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

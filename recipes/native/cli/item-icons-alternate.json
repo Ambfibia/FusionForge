@@ -1,0 +1,158 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "item-icons-alternate",
+  "sources": [
+    {
+      "alias": "alternate",
+      "path": "Icons.resourceFile",
+      "sha256": "b3995181bc9e917d0bf2b35e38361e0e18eed6f14c95aab52eb5cfd81f056cea",
+      "bytes": 6054910
+    }
+  ],
+  "steps": [
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-Icons",
+      "pathId": 1992309300,
+      "output": "icons/items/weapons/wpnicon_891.png",
+      "sha256": "831fc33e6fc842fcc845d07653fb3b3d2c26ebbdadfd6d63376ce75fa9739eef",
+      "bytes": 5278,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-Icons",
+      "pathId": 1577259868,
+      "output": "icons/items/weapons/wpnicon_959.png",
+      "sha256": "7f42cdabb965b76bb1e73458a837d835646921bc6a247e277da4951865345043",
+      "bytes": 6033,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-Icons",
+      "pathId": 875570012,
+      "output": "icons/items/cosmetics/cosicon_1650.png",
+      "sha256": "df94479c33c666cdcd70643073bc61d3a21e01e02dcc228db2e8ed07a0f5edd2",
+      "bytes": 4530,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-Icons",
+      "pathId": 4047397160,
+      "output": "icons/items/cosmetics/cosicon_1642.png",
+      "sha256": "663ef223ca9c29a55dd65f14e8c55bd33b2e054ad1d2be3f8c26a9e81076d8d6",
+      "bytes": 3454,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-Icons",
+      "pathId": 2377929530,
+      "output": "icons/items/cosmetics/cosicon_1644.png",
+      "sha256": "97f1fe387fe10fe8d38cf810281d8fbd18f9cb8e90699fb6cca9241abe88a073",
+      "bytes": 4244,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-Icons",
+      "pathId": 2806338181,
+      "output": "icons/items/cosmetics/cosicon_1648.png",
+      "sha256": "679f0622e0e461d6f7a3493651a47c28772eeb253c9ce0da8c92daa4ec8437b9",
+      "bytes": 4471,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "effect": 411,
+    "curveCount": 47,
+    "rendererTargets": [
+      "Editable Mesh-surface-6",
+      "Editable Mesh1-surface-4",
+      "Plane-surface-8"
+    ],
+    "sourceNonRendererNoOps": [
+      "Object01",
+      "Object02"
+    ],
+    "missing": []
+  },
+  {
+    "effect": 434,
+    "curveCount": 36,
+    "rendererTargets": [
+      "Editable Mesh-surface-8",
+      "Editable Mesh1-surface-7"
+    ],
+    "sourceNonRendererNoOps": [
+      "Object01",
+      "Object02",
+      "Sphere01"
+    ],
+    "missing": []
+  },
+  {
+    "effect": 714,
+    "curveCount": 74,
+    "rendererTargets": [
+      "Cylinder01-surface-5",
+      "Editable Mesh-surface-11",
+      "Plane-surface-12",
+      "Plane1-surface-13",
+      "Plane2-surface-14",
+      "nano_rd_e08_03-surface-1",
+      "nano_rd_e08_04-surface-4",
+      "nano_rd_e08_05-surface-10"
+    ],
+    "sourceNonRendererNoOps": [],
+    "missing": []
+  },
+  {
+    "effect": 805,
+    "curveCount": 14,
+    "rendererTargets": [
+      "Sphere02-surface-1",
+      "Sphere03-surface-2"
+    ],
+    "sourceNonRendererNoOps": [],
+    "missing": []
+  },
+  {
+    "effect": 435,
+    "curveCount": 1,
+    "rendererTargets": [
+      "Dummy01-surface-1"
+    ],
+    "sourceNonRendererNoOps": [],
+    "missing": []
+  },
+  {
+    "effect": 766,
+    "curveCount": 162,
+    "rendererTargets": [
+      "Editable Mesh-surface-37",
+      "Editable Poly-surface-24",
+      "Editable Poly1-surface-25",
+      "Editable Poly10-surface-29",
+      "Editable Poly11-surface-30",
+      "Editable Poly2-surface-35",
+      "Editable Poly3-surface-36",
+      "Editable Poly8-surface-27",
+      "Editable Poly9-surface-28",
+      "Plane05-surface-21",
+      "Plane06-surface-3",
+      "PolyMesh-surface-38",
+      "PolyMesh1-surface-39",
+      "PolyMesh2-surface-40",
+      "PolyMesh3-surface-41",
+      "PolyMesh4-surface-31",
+      "PolyMesh5-surface-32",
+      "PolyMesh6-surface-33",
+      "PolyMesh7-surface-34"
+    ],
+    "sourceNonRendererNoOps": [],
+    "missing": []
+  }
+]

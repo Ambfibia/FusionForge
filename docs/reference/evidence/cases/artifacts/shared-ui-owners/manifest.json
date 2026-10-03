@@ -1,0 +1,55 @@
+{
+  "schema": "fusionforge.acceptance-artifacts.v1",
+  "artifacts": [
+    {
+      "path": "docs/reference/evidence/cases/artifacts/shared-ui-owners/combi-camera.evidence.json",
+      "bytes": 1819,
+      "sha256": "fcb646459eb98a05c3badf858cfbe17cc04eacc2637e65dbcb7daeb1d44ffcdd"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/shared-ui-owners/enchant-camera.evidence.json",
+      "bytes": 1820,
+      "sha256": "b9d462a84b21b430f9e8260951273455f3a70f8f956970670f1290eecec00f17"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/shared-ui-owners/combi-camera-render.evidence.json",
+      "bytes": 2002,
+      "sha256": "a91e3145b796e541e961f8b229baae7d63e5684bf34099c99ed2365bfc92a0da"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/chat-scroll-20260905-owner.json",
+      "bytes": 7499,
+      "sha256": "4410c820cdbe67f9f5c937f198996887ddba69c4c8f5671bbb0fe5a6e679b18f"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/shared-ui-owners/service-1495.evidence.json",
+      "bytes": 1818,
+      "sha256": "bbc645964225957140ca7414c0d2217aca1cf7e8ef8eb3f2bb32d03f6f491516"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/shared-ui-owners/service-1483.evidence.json",
+      "bytes": 1820,
+      "sha256": "aafc084effc55bd78612f71d881290b5dc724ac206ec55edee578f4e1cce4d74"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/shared-ui-owners/service-1480.evidence.json",
+      "bytes": 2003,
+      "sha256": "2d4ff043575392ce750252c052a69cac4428ee6808e28965bf7cbfd0d33cc4ff"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/shared-ui-owners/service-1482.evidence.json",
+      "bytes": 2003,
+      "sha256": "0dade49b805a232adb675b6cedafdfcce38e4a4d4505fdebc7308867050e6245"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/shared-ui-owners/service-1494.evidence.json",
+      "bytes": 2002,
+      "sha256": "03c4767708c00bb8bc23a86057f68189ab73bb87b01f2e7a89be618b64b7abeb"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/shared-ui-owners/service-1154.evidence.json",
+      "bytes": 1031,
+      "sha256": "b9e04840fe2e1de2b220e90e842ef9c888627df6759f172acb9641e4a5c18a20"
+    }
+  ]
+}

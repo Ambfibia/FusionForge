@@ -1,0 +1,299 @@
+{
+  "applied": false,
+  "outputs": [
+    {
+      "beforeSha256": "970647096ec42b94258e46769f8041cb639e3d91da44f818d796535f5f22a096",
+      "bytes": 33254,
+      "matchesTarget": true,
+      "path": "audio/voice/en/fatima/farewell01.ogg",
+      "sha256": "970647096ec42b94258e46769f8041cb639e3d91da44f818d796535f5f22a096"
+    },
+    {
+      "beforeSha256": "b9272520644d1599fa575da137ccf5de63130b8af397fbe406539fbf34d8c690",
+      "bytes": 26457,
+      "matchesTarget": true,
+      "path": "audio/voice/en/fatima/farewell02.ogg",
+      "sha256": "b9272520644d1599fa575da137ccf5de63130b8af397fbe406539fbf34d8c690"
+    },
+    {
+      "beforeSha256": "465f00d033ae3487334d86518b1950c3b982b4099e55189fa16a3fe98e740d90",
+      "bytes": 32549,
+      "matchesTarget": true,
+      "path": "audio/voice/en/fatima/farewell03.ogg",
+      "sha256": "465f00d033ae3487334d86518b1950c3b982b4099e55189fa16a3fe98e740d90"
+    },
+    {
+      "beforeSha256": "1fc73df0bba188ef51013d11e574a76919aeebfa597572a7e52f193641ababe3",
+      "bytes": 32338,
+      "matchesTarget": true,
+      "path": "audio/voice/en/fatima/greeting01.ogg",
+      "sha256": "1fc73df0bba188ef51013d11e574a76919aeebfa597572a7e52f193641ababe3"
+    },
+    {
+      "beforeSha256": "4b4e434f977546b4a9bdcc44be46cac7e17304b2a358b8331522351b19661141",
+      "bytes": 37797,
+      "matchesTarget": true,
+      "path": "audio/voice/en/fatima/greeting02.ogg",
+      "sha256": "4b4e434f977546b4a9bdcc44be46cac7e17304b2a358b8331522351b19661141"
+    },
+    {
+      "beforeSha256": "3cbea40e58656d10833981049ff1e2559e5afe82b6158b26e9a7b7ffcaa5c0e1",
+      "bytes": 29079,
+      "matchesTarget": true,
+      "path": "audio/voice/en/noonja/farewell01.ogg",
+      "sha256": "3cbea40e58656d10833981049ff1e2559e5afe82b6158b26e9a7b7ffcaa5c0e1"
+    },
+    {
+      "beforeSha256": "60eed3496eae8d4c2d26dbb2214ce417e5fb9466c359a253fac74625189a03be",
+      "bytes": 40860,
+      "matchesTarget": true,
+      "path": "audio/voice/en/noonja/farewell02.ogg",
+      "sha256": "60eed3496eae8d4c2d26dbb2214ce417e5fb9466c359a253fac74625189a03be"
+    },
+    {
+      "beforeSha256": "eecfeef048cff73bca9be73a753ee98de8a9bef8e4da865dfcc0b9429f89ed64",
+      "bytes": 48434,
+      "matchesTarget": true,
+      "path": "audio/voice/en/noonja/farewell03.ogg",
+      "sha256": "eecfeef048cff73bca9be73a753ee98de8a9bef8e4da865dfcc0b9429f89ed64"
+    },
+    {
+      "beforeSha256": "e8c497b4b007dcd1e1590953f1f84f97d32cd3b755b2bc9290f94d1a9e5fe9eb",
+      "bytes": 70594,
+      "matchesTarget": true,
+      "path": "audio/voice/en/noonja/greeting01.ogg",
+      "sha256": "e8c497b4b007dcd1e1590953f1f84f97d32cd3b755b2bc9290f94d1a9e5fe9eb"
+    },
+    {
+      "beforeSha256": "56c6d094f2c6ff44f2a12e77fc3d1cb1c33da57f6517bd6642925c183362d780",
+      "bytes": 78614,
+      "matchesTarget": true,
+      "path": "audio/voice/en/noonja/greeting02.ogg",
+      "sha256": "56c6d094f2c6ff44f2a12e77fc3d1cb1c33da57f6517bd6642925c183362d780"
+    },
+    {
+      "beforeSha256": "510ff66297e34957e1ca69f2feb7be4db6d9c650e6b6963a027d4eceb147e8e2",
+      "bytes": 7433406,
+      "matchesTarget": true,
+      "path": "audio/music/darklands_beginnings.ogg",
+      "sha256": "510ff66297e34957e1ca69f2feb7be4db6d9c650e6b6963a027d4eceb147e8e2"
+    },
+    {
+      "beforeSha256": "82847282d2524b443af79a8d6666b5153c0e1f4dfbc4d63e81d7280629a5ae2a",
+      "bytes": 1654857,
+      "matchesTarget": true,
+      "path": "audio/music/highlands.ogg",
+      "sha256": "82847282d2524b443af79a8d6666b5153c0e1f4dfbc4d63e81d7280629a5ae2a"
+    },
+    {
+      "beforeSha256": "98eaac6fc9738823a021eb32822c69da685a9e3f869623673167264d0b6bedff",
+      "bytes": 8070598,
+      "matchesTarget": true,
+      "path": "audio/music/vs_weeper.ogg",
+      "sha256": "98eaac6fc9738823a021eb32822c69da685a9e3f869623673167264d0b6bedff"
+    },
+    {
+      "beforeSha256": "d4055ff03f0d172c723c28a95facb3f9638c08c70daa7ed3f4b4e26efa7b4da2",
+      "bytes": 84886,
+      "matchesTarget": true,
+      "path": "audio/voice/en/m_barber/clickbarb01.ogg",
+      "sha256": "d4055ff03f0d172c723c28a95facb3f9638c08c70daa7ed3f4b4e26efa7b4da2"
+    },
+    {
+      "beforeSha256": "70d8e09de2e1b1ce28df67cf142b7a6776d15688366ada4f4adcbd73adad2ddd",
+      "bytes": 43841,
+      "matchesTarget": true,
+      "path": "audio/voice/en/m_barber/clickbarb02.ogg",
+      "sha256": "70d8e09de2e1b1ce28df67cf142b7a6776d15688366ada4f4adcbd73adad2ddd"
+    },
+    {
+      "beforeSha256": "2b77b1325c1a6a7de65cadf6b8e12e608f97e3c1825b3b768c80daccb378af76",
+      "bytes": 61530,
+      "matchesTarget": true,
+      "path": "audio/voice/en/m_barber/farewell01.ogg",
+      "sha256": "2b77b1325c1a6a7de65cadf6b8e12e608f97e3c1825b3b768c80daccb378af76"
+    },
+    {
+      "beforeSha256": "632714ddc62a427e6a653e3adb3e0bcecf635d21cde289860558ee48e168c7ea",
+      "bytes": 114528,
+      "matchesTarget": true,
+      "path": "audio/voice/en/m_barber/farewell02.ogg",
+      "sha256": "632714ddc62a427e6a653e3adb3e0bcecf635d21cde289860558ee48e168c7ea"
+    },
+    {
+      "beforeSha256": "d73fa2cf733d7ca41ae3ba6c30ea07ac875a490bf8f4a296f33e1c17b8e9b8dc",
+      "bytes": 111229,
+      "matchesTarget": true,
+      "path": "audio/voice/en/m_barber/farewell03.ogg",
+      "sha256": "d73fa2cf733d7ca41ae3ba6c30ea07ac875a490bf8f4a296f33e1c17b8e9b8dc"
+    },
+    {
+      "beforeSha256": "5464644d0ea0a36f30cd2665591b1d4bc72f254c73d6f8406fe2277d0f982643",
+      "bytes": 73137,
+      "matchesTarget": true,
+      "path": "audio/voice/en/m_barber/greeting01.ogg",
+      "sha256": "5464644d0ea0a36f30cd2665591b1d4bc72f254c73d6f8406fe2277d0f982643"
+    },
+    {
+      "beforeSha256": "5602762affc842ac6a021c5aae925d8da50774e383a322dac13253a482c8b09c",
+      "bytes": 104850,
+      "matchesTarget": true,
+      "path": "audio/voice/en/m_barber/greeting02.ogg",
+      "sha256": "5602762affc842ac6a021c5aae925d8da50774e383a322dac13253a482c8b09c"
+    },
+    {
+      "beforeSha256": "a26f615163b9630c69463df3e15a4af06b3e610c96bd61090534d657d2ea1b81",
+      "bytes": 25351,
+      "matchesTarget": true,
+      "path": "audio/voice/en/dustin/farewell01.ogg",
+      "sha256": "a26f615163b9630c69463df3e15a4af06b3e610c96bd61090534d657d2ea1b81"
+    },
+    {
+      "beforeSha256": "77a8a8a5d69091485528986dabaca5cd7db0f3869f2e726053f4a87e5c6e59c9",
+      "bytes": 35520,
+      "matchesTarget": true,
+      "path": "audio/voice/en/dustin/farewell02.ogg",
+      "sha256": "77a8a8a5d69091485528986dabaca5cd7db0f3869f2e726053f4a87e5c6e59c9"
+    },
+    {
+      "beforeSha256": "46d0c0d8e8b490d92d61bb49f519de6af3dde789352b9aad7301c3b64c2798e3",
+      "bytes": 56537,
+      "matchesTarget": true,
+      "path": "audio/voice/en/dustin/farewell03.ogg",
+      "sha256": "46d0c0d8e8b490d92d61bb49f519de6af3dde789352b9aad7301c3b64c2798e3"
+    },
+    {
+      "beforeSha256": "800c7a01973dd9979631ca8692ac0318a127ab36da19d70e2e4465b72830d854",
+      "bytes": 28574,
+      "matchesTarget": true,
+      "path": "audio/voice/en/dustin/goodluck01.ogg",
+      "sha256": "800c7a01973dd9979631ca8692ac0318a127ab36da19d70e2e4465b72830d854"
+    },
+    {
+      "beforeSha256": "35335cb2e285bf6ad17d0213ed9b32830159c74a3d0caba24e622ff7dc8b9ccc",
+      "bytes": 44719,
+      "matchesTarget": true,
+      "path": "audio/voice/en/dustin/goodluck02.ogg",
+      "sha256": "35335cb2e285bf6ad17d0213ed9b32830159c74a3d0caba24e622ff7dc8b9ccc"
+    },
+    {
+      "beforeSha256": "39ef50cc77fc0c7d022cfce43725b748d02667e249361d8e36fe606b81b1d8ef",
+      "bytes": 41535,
+      "matchesTarget": true,
+      "path": "audio/voice/en/dustin/goodluck03.ogg",
+      "sha256": "39ef50cc77fc0c7d022cfce43725b748d02667e249361d8e36fe606b81b1d8ef"
+    },
+    {
+      "beforeSha256": "98d54bae35b692feef8afeceb2198a6485c5d986080c7e56a5384becb64981e4",
+      "bytes": 57199,
+      "matchesTarget": true,
+      "path": "audio/voice/en/dustin/greeting01.ogg",
+      "sha256": "98d54bae35b692feef8afeceb2198a6485c5d986080c7e56a5384becb64981e4"
+    },
+    {
+      "beforeSha256": "681af3d53233027a871c63d4f113f9e093f0e1e618e5a8ea6f1dda67032dcec8",
+      "bytes": 59978,
+      "matchesTarget": true,
+      "path": "audio/voice/en/dustin/greeting02.ogg",
+      "sha256": "681af3d53233027a871c63d4f113f9e093f0e1e618e5a8ea6f1dda67032dcec8"
+    },
+    {
+      "beforeSha256": "2aa800e208b0364ad24c6ec4aa3f607336f9a448496943d17dfe636ab700b723",
+      "bytes": 54030,
+      "matchesTarget": true,
+      "path": "audio/voice/en/dustin/nicejob01.ogg",
+      "sha256": "2aa800e208b0364ad24c6ec4aa3f607336f9a448496943d17dfe636ab700b723"
+    },
+    {
+      "beforeSha256": "82c76fc662923d5be7f2372ed954a87b13c820808e841b88ebdb4f1a895f6225",
+      "bytes": 38796,
+      "matchesTarget": true,
+      "path": "audio/voice/en/dustin/nicejob02.ogg",
+      "sha256": "82c76fc662923d5be7f2372ed954a87b13c820808e841b88ebdb4f1a895f6225"
+    },
+    {
+      "beforeSha256": "5cc7e148f02f3005e4074ae3faf7a603c210f0803c448d0f1f10de156a4b0b60",
+      "bytes": 37417,
+      "matchesTarget": true,
+      "path": "audio/voice/en/dustin/nicejob03.ogg",
+      "sha256": "5cc7e148f02f3005e4074ae3faf7a603c210f0803c448d0f1f10de156a4b0b60"
+    },
+    {
+      "beforeSha256": "9471c242f5e1ee949a38b81621a0a32965779f40a9c7b6a27095e0a487990f94",
+      "bytes": 31323,
+      "matchesTarget": true,
+      "path": "audio/voice/en/dustin/qgreeting.ogg",
+      "sha256": "9471c242f5e1ee949a38b81621a0a32965779f40a9c7b6a27095e0a487990f94"
+    },
+    {
+      "beforeSha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e",
+      "bytes": 16551,
+      "matchesTarget": true,
+      "path": "audio/voice/en/warpfrog/clickwarp01.ogg",
+      "sha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e"
+    },
+    {
+      "beforeSha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e",
+      "bytes": 16551,
+      "matchesTarget": true,
+      "path": "audio/voice/en/warpfrog/clickwarp02.ogg",
+      "sha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e"
+    },
+    {
+      "beforeSha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e",
+      "bytes": 16551,
+      "matchesTarget": true,
+      "path": "audio/voice/en/warpfrog/clickwarp03.ogg",
+      "sha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e"
+    },
+    {
+      "beforeSha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e",
+      "bytes": 16551,
+      "matchesTarget": true,
+      "path": "audio/voice/en/warpfrog/farewell01.ogg",
+      "sha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e"
+    },
+    {
+      "beforeSha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e",
+      "bytes": 16551,
+      "matchesTarget": true,
+      "path": "audio/voice/en/warpfrog/farewell02.ogg",
+      "sha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e"
+    },
+    {
+      "beforeSha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e",
+      "bytes": 16551,
+      "matchesTarget": true,
+      "path": "audio/voice/en/warpfrog/farewell03.ogg",
+      "sha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e"
+    },
+    {
+      "beforeSha256": "6f5be2cff642590008f7ec7bd2d5505542f69eb1f95158713304e72d78169922",
+      "bytes": 20298,
+      "matchesTarget": true,
+      "path": "audio/voice/en/warpfrog/greeting01.ogg",
+      "sha256": "6f5be2cff642590008f7ec7bd2d5505542f69eb1f95158713304e72d78169922"
+    },
+    {
+      "beforeSha256": "6f5be2cff642590008f7ec7bd2d5505542f69eb1f95158713304e72d78169922",
+      "bytes": 20298,
+      "matchesTarget": true,
+      "path": "audio/voice/en/warpfrog/greeting02.ogg",
+      "sha256": "6f5be2cff642590008f7ec7bd2d5505542f69eb1f95158713304e72d78169922"
+    },
+    {
+      "beforeSha256": "6f5be2cff642590008f7ec7bd2d5505542f69eb1f95158713304e72d78169922",
+      "bytes": 20298,
+      "matchesTarget": true,
+      "path": "audio/voice/en/warpfrog/greeting03.ogg",
+      "sha256": "6f5be2cff642590008f7ec7bd2d5505542f69eb1f95158713304e72d78169922"
+    },
+    {
+      "beforeSha256": "cdc43af2b00f3df6fd25c76613986a03fac336c53d7fb861b863b1464024bf78",
+      "bytes": 46319671,
+      "matchesTarget": true,
+      "path": "data/tables/table-set.json",
+      "sha256": "cdc43af2b00f3df6fd25c76613986a03fac336c53d7fb861b863b1464024bf78"
+    }
+  ]
+}

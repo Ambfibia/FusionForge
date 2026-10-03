@@ -1,0 +1,52 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "nanomachine-collision",
+  "sources": [
+    {
+      "alias": "primary",
+      "path": "World_shared_part5.resourceFile",
+      "sha256": "29b0b4c238077a36dd8f328e54ef8d9cd6bd3720a74f0a9faaa3b66c15459fb1",
+      "bytes": 23289685
+    }
+  ],
+  "steps": [
+    {
+      "operation": "evidence",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-bf22cf134e84044c18d80e6c70a99425",
+      "pathId": 19431,
+      "type": "MeshCollider",
+      "name": "MeshCollider.json",
+      "assertions": [
+        {
+          "pointer": "/triage/unresolvedPointerCount",
+          "equals": 0
+        }
+      ]
+    },
+    {
+      "operation": "evidence",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-bf22cf134e84044c18d80e6c70a99425",
+      "pathId": 354,
+      "type": "Mesh",
+      "name": "Mesh.json",
+      "assertions": [
+        {
+          "pointer": "/triage/unresolvedPointerCount",
+          "equals": 0
+        }
+      ]
+    },
+    {
+      "operation": "collision",
+      "mesh": "Mesh.json",
+      "collider": "MeshCollider.json",
+      "name": "Nanomachine collision",
+      "output": "characters/npcs/nanomachine/Nanomachine.collision.glb",
+      "reverseWinding": true,
+      "sha256": "32e0eed45175c3174be9133a22b6a1896689161ed14ff72d65aa498d909207b1",
+      "contract": "characters/npcs/nanomachine/Nanomachine.collision.json"
+    }
+  ]
+}

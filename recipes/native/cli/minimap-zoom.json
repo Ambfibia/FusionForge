@@ -1,0 +1,35 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "minimap-zoom",
+  "sources": [
+    {
+      "alias": "primary",
+      "path": "main.unity3d",
+      "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+      "bytes": 8221718
+    }
+  ],
+  "steps": [
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 595,
+      "output": "ui/en/gameplay/minimap/zoom-in.png"
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 312,
+      "output": "ui/en/gameplay/minimap/zoom-out.png"
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 393,
+      "output": "ui/en/world-map/filters/filter-arrow.png"
+    }
+  ]
+}

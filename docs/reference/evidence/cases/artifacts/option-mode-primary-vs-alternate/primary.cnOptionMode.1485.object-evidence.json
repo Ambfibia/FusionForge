@@ -1,0 +1,1625 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 114,
+    "name": "",
+    "pathId": 1485,
+    "rawBytes": 3864,
+    "rawSha256": "1cffdebb3afe8eff676cd86612dd9f1cc85e5113ef5603f8654951df271e87c9",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "MonoBehaviour",
+    "typeId": -50,
+    "value": {
+      "ApplyRect": {
+        "height": 25.0,
+        "width": 180.0,
+        "x": 500.0,
+        "y": 600.0
+      },
+      "BlkSel": {
+        "fileId": 0,
+        "pathId": 522
+      },
+      "BlockBox": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "Box": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "CBoxSel": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "ChatBox": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "ChatColorBox": {
+        "fileId": 0,
+        "pathId": 644
+      },
+      "ChatColorBox2": {
+        "fileId": 0,
+        "pathId": 563
+      },
+      "ChatColorSel": {
+        "fileId": 0,
+        "pathId": 638
+      },
+      "ChkTex1": {
+        "fileId": 0,
+        "pathId": 174
+      },
+      "ChkTex2": {
+        "fileId": 0,
+        "pathId": 408
+      },
+      "ColorBox": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "DisplayBox": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "DisplayName": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "DisplayRadioBox": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "ExitButton": {
+        "height": 30.0,
+        "width": 30.0,
+        "x": 987.0,
+        "y": 0.0
+      },
+      "FrameRect": {
+        "height": 540.0,
+        "width": 980.0,
+        "x": 10.0,
+        "y": 50.0
+      },
+      "InputBox": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "KeyMapBox": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "KeyMapStr": "DYNAMIC FEEDBACK FPO  Select the key or button to map to ",
+      "KeyMapTmp": "",
+      "KeyWrapBox": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "KeyWrapTitle": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "KeyWrapTitleStr": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "LPDownBox": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "LPDownFlag": {
+        "base64": "AAAAAA==",
+        "bytes": 4
+      },
+      "LProBox": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "LRadioBox": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "LeftSky": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "NameRect": [
+        {
+          "height": 44.0,
+          "width": 275.0,
+          "x": 8.0,
+          "y": 19.0
+        },
+        {
+          "height": 32.0,
+          "width": 188.0,
+          "x": 330.0,
+          "y": 21.0
+        },
+        {
+          "height": 33.0,
+          "width": 189.0,
+          "x": 560.0,
+          "y": 21.0
+        },
+        {
+          "height": 45.0,
+          "width": 196.0,
+          "x": 798.0,
+          "y": 19.0
+        }
+      ],
+      "PadBox": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "PadTitle": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "ProTex": {
+        "fileId": 0,
+        "pathId": 17
+      },
+      "RProBox": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "RRadioBox": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "RightSky": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "SaveRect": {
+        "height": 25.0,
+        "width": 180.0,
+        "x": 695.0,
+        "y": 600.0
+      },
+      "SelRect": [
+        {
+          "height": 49.0,
+          "width": 271.0,
+          "x": 8.0,
+          "y": 17.0
+        },
+        {
+          "height": 44.0,
+          "width": 192.0,
+          "x": 329.0,
+          "y": 19.0
+        },
+        {
+          "height": 44.0,
+          "width": 197.0,
+          "x": 557.0,
+          "y": 20.0
+        },
+        {
+          "height": 61.0,
+          "width": 194.0,
+          "x": 799.0,
+          "y": 3.0
+        }
+      ],
+      "SkyTex": {
+        "fileId": 0,
+        "pathId": 82
+      },
+      "SocialBox": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "SocialRRadioBox": [
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "height": 0.0,
+          "width": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "WindowRect": {
+        "height": 638.0,
+        "width": 1020.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "backFillImage": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "fBuddyListHeight": 16.0,
+      "iDiff": 0,
+      "iDiff2": 0,
+      "iDiff3": 0,
+      "iDraw": 0,
+      "mInventoryManager": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "m_Enabled": true,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 1329
+      },
+      "m_Name": "",
+      "m_Script": {
+        "fileId": 0,
+        "pathId": 1143
+      },
+      "m_iBlockedIndex": 0,
+      "nRect": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "offset_dist": 0,
+      "offset_x": 0,
+      "offset_x2": 0,
+      "offset_y": 0,
+      "offset_y2": 0,
+      "pMenuSkin": {
+        "fileId": 0,
+        "pathId": 1365
+      },
+      "scrollpos2": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tabName": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/BlkSel",
+      "fileId": 0,
+      "pathId": 522,
+      "status": "resolved",
+      "target": {
+        "pathId": 522,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ChatColorBox",
+      "fileId": 0,
+      "pathId": 644,
+      "status": "resolved",
+      "target": {
+        "pathId": 644,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ChatColorBox2",
+      "fileId": 0,
+      "pathId": 563,
+      "status": "resolved",
+      "target": {
+        "pathId": 563,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ChatColorSel",
+      "fileId": 0,
+      "pathId": 638,
+      "status": "resolved",
+      "target": {
+        "pathId": 638,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ChkTex1",
+      "fileId": 0,
+      "pathId": 174,
+      "status": "resolved",
+      "target": {
+        "pathId": 174,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ChkTex2",
+      "fileId": 0,
+      "pathId": 408,
+      "status": "resolved",
+      "target": {
+        "pathId": 408,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ProTex",
+      "fileId": 0,
+      "pathId": 17,
+      "status": "resolved",
+      "target": {
+        "pathId": 17,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/SkyTex",
+      "fileId": 0,
+      "pathId": 82,
+      "status": "resolved",
+      "target": {
+        "pathId": 82,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/backFillImage",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/mInventoryManager",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 1329,
+      "status": "resolved",
+      "target": {
+        "pathId": 1329,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Script",
+      "fileId": 0,
+      "pathId": 1143,
+      "status": "resolved",
+      "target": {
+        "pathId": 1143,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoScript"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/pMenuSkin",
+      "fileId": 0,
+      "pathId": 1365,
+      "status": "resolved",
+      "target": {
+        "pathId": 1365,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 7000415,
+    "relativeContainer": "main.unity3d",
+    "sha256": "59788201962b6a1737b114486c361fe74eef69f507d1d125ca3171377eec602f"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

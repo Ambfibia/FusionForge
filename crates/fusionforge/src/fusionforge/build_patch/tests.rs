@@ -1,0 +1,39 @@
+use super::*;
+
+#[test]
+fn rejects_gui_language_object_string_field_paths() {
+    assert!(is_unsupported_object_string_field_path(
+        "m_pGUILanguageTable.m_pGUILanguageData[100].m_String[0]"
+    ));
+    assert!(!is_unsupported_object_string_field_path(
+        "m_pNpcTable.m_pNpcBarkerData[100].m_strComment2"
+    ));
+    assert!(is_unsupported_object_string_field_path(
+        "m_pNpcTable.m_pNpcStringData[730].m_strComment2"
+    ));
+    assert!(is_unsupported_object_string_field_path(
+        "m_pFilterTable.m_pWhiteFilterData[1].m_strText"
+    ));
+    assert!(is_unsupported_object_string_field_path(
+        "m_pHelpTable.m_pHelpPageString[1].m_strComment1"
+    ));
+    assert!(is_unsupported_object_string_field_path(
+        "m_pFirstUseTable.m_pFirstUseString[1].m_strComment1"
+    ));
+    assert!(is_unsupported_object_string_field_path(
+        "m_pRulesTable.m_pRulesString[1].m_strComment"
+    ));
+    assert!(is_unsupported_object_string_path_parts(&[
+        json!("m_pGUILanguageTable"),
+        json!("m_pGUILanguageData"),
+        json!(100),
+        json!("m_String"),
+        json!(0),
+    ]));
+    assert!(!is_unsupported_object_string_field_path(
+        "m_pNpcTable.m_pNpcData[0].szName"
+    ));
+    assert!(!is_unsupported_object_string_field_path(
+        "m_pHelpTable.m_pHelpString[1].m_strComment"
+    ));
+}

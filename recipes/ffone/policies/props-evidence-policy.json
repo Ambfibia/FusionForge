@@ -1,0 +1,58 @@
+{
+  "schema": "ffone.props-evidence-policy.v1",
+  "statuses": {
+    "verified": {
+      "runtimeEligible": true,
+      "requiredEvidence": [
+        "exact serialized GameObject root or exact world-scene placement identity",
+        "one ownership-proven complete logical closure",
+        "hierarchy, mesh/material/texture and transform roundtrip audit",
+        "animation, skin, collider and LOD closure when present",
+        "portable semantic output path with no case-folded collision"
+      ]
+    },
+    "inferred_pending_review": {
+      "runtimeEligible": false,
+      "allowedEvidence": [
+        "normalized legacy route tokens",
+        "catalog owner and occurrence metadata"
+      ],
+      "forbiddenClaims": [
+        "route tokens prove the visual category",
+        "matching mesh bytes prove one logical asset",
+        "a sole catalog owner proves a complete standalone closure"
+      ]
+    },
+    "blocked": {
+      "runtimeEligible": false,
+      "examples": [
+        "ambiguous physical target",
+        "unresolved dependency pointer",
+        "standalone NIF ownership proof incomplete",
+        "lossy material or animation conversion required"
+      ]
+    }
+  },
+  "categories": {
+    "props/vegetation/trees": {
+      "reviewTokens": ["tree", "trees"]
+    },
+    "props/vegetation/bushes": {
+      "reviewTokens": ["bush", "bushes", "shrub", "shrubs", "hedge", "hedges"]
+    },
+    "props/vegetation/grass": {
+      "reviewTokens": [
+        "grass", "grasses", "weed", "weeds", "vine", "vines",
+        "flower", "flowers", "plant", "plants", "fern", "ferns"
+      ]
+    },
+    "props/nature/rocks": {
+      "reviewTokens": [
+        "rock", "rocks", "stone", "stones",
+        "boulder", "boulders", "cliff", "cliffs"
+      ]
+    }
+  },
+  "promotionRule": "Manual category review is necessary but not sufficient: inferred_pending_review may become verified only after the complete logical-closure gates pass.",
+  "deduplicationRule": "Deduplicate only byte-identical complete logical closures with equivalent ownership evidence; never deduplicate by mesh hash alone."
+}

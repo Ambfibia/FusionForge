@@ -1,0 +1,34 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "chat-next-arrow-primary-20260821",
+  "status": "accepted",
+  "supersedes": [],
+  "target": { "alias": "ffone" },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "main.unity3d",
+    "containerBytes": 8221718,
+    "containerSha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+    "objects": [
+      { "serializedAsset": "sharedassets0.assets", "type": "Texture2D", "pathId": 344, "fileId": 0, "containerRoute": "FusionFallChatSkin.nextArrow.m_Normal.m_Background", "trueName": "HasNextMenu_Arrow" }
+    ]
+  },
+  "transform": {
+    "kind": "exact-texture-decode",
+    "tool": "fusionforge export-exact-texture",
+    "workingDirectory": ".",
+    "commands": [
+      "target-build\\debug\\ff-client-editor.exe fusionforge export-exact-texture ..\\builds\\retrobution-20260821\\main.unity3d 344 work\\projects\\retrobution-ui-20260821.ffclient\\reports\\chat-ui-primary\\quick-chat-next-arrow.json"
+    ]
+  },
+  "inputs": [
+    { "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-primary/quick-chat-next-arrow.json", "bytes": 3752, "sha256": "c11529c32fb6af90554b71ba49b716bff8ff2bc2605a85b28084ad096acb1bc5" }
+  ],
+  "outputs": [
+    { "path": "assets/game/ui/gameplay/chat/next-arrow.png", "bytes": 233, "sha256": "532501f05c5bf5fd58ded191664969763ca2db091030c078e48388c1b32dc8b2" }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    { "command": "cargo test -p ffone-client chat_textures_match_the_primary_path_id_contracts", "result": "passed", "evidence": "runtime exact-asset hash test" }
+  ]
+}

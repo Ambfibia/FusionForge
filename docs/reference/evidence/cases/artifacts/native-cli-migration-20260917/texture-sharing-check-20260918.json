@@ -1,0 +1,12 @@
+{
+  "schema": "fusionforge.native-texture-sharing-check.v1",
+  "case": "work/cases/native-cli-texture-sharing-v7-20260918",
+  "chainGroups": 2,
+  "removedPaths": 7,
+  "outputs": 9,
+  "nativeUnchanged": true,
+  "glbBinaryUnchanged": true,
+  "onlyTextureUrisChanged": true,
+  "allRedirectedPngBytesEqual": true,
+  "domainOwnedDestinations": true
+}

@@ -1,0 +1,321 @@
+{
+  "date": "2026-09-07",
+  "scope": "Complete used item-card presentation in Inventory, Bank and Vendor; not all UI step 3",
+  "source": "retrobution",
+  "role": "primary",
+  "gpuScenarios": {
+    "vendor": 22,
+    "bank": 18,
+    "inventory": 14,
+    "allPassed": true
+  },
+  "unitTests": {
+    "passed": 92,
+    "preExistingAssetHashFailures": {
+      "head": "f5edef69954293f9865a2de5f94c6ffc59a9bdb8",
+      "failures": [
+        {
+          "path": "assets/game/ui/user-equip/inventory-panel.png",
+          "currentMatchesHeadLfsOid": true,
+          "staleExpectedAlreadyInHead": true,
+          "expected": "0B3D282119FA49D1646F6E8D60BE73EDBF21CC74B0691C462EE8A5C962ADC6B7",
+          "actual": "e375934893069478d451fec626284b1ff3c29b06da12ac6ab134cd96e75e32ee"
+        },
+        {
+          "path": "assets/game/ui/user-equip/guide-edd.png",
+          "currentMatchesHeadLfsOid": true,
+          "staleExpectedAlreadyInHead": true,
+          "expected": "DA013E4FACEBB2523B9D6B4500FE86E142F810726FE8ADF9149A7A2309BA8A32",
+          "actual": "e6a9aced5aa0ea1fcad011329d08a11ee54bea9d4c097c478aae54e4bddd063f"
+        }
+      ]
+    }
+  },
+  "localization": {
+    "keysPerLanguage": 65899,
+    "identicalKeysAndPlaceholders": true
+  },
+  "build": "Dev client and three GPU examples pass; final inventory color fix rebuilt client and inventory example",
+  "worldSmoke": "Offline full-client fixture exits 0",
+  "assetValidation": "Blocked: textures/hnpc/m_face_006_a.png has no declared runtime owner group",
+  "adaptations": [
+    "Owned expiry uses local numeric date, 24-hour time and UTC offset.",
+    "Nonvehicle expiry below level; title/description fit within existing rectangles."
+  ],
+  "limitations": [
+    "No live server transactions executed.",
+    "No claim of running-Unity pixel comparison or whole-UI completion."
+  ],
+  "captures": [
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-chest-en.png",
+      "sha256": "2ec6c8569916dc8c0fda8eae39aaaa98a555754b0d7e9dd895f749322430506a",
+      "logSha256": "0aa1a914b9bee5ead834283811439d41d75782199e218a328c294d980f196629"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-chest-ru.png",
+      "sha256": "d1526d21f96c2cc9b31aa755677358b77cbf31fa3f3f4b1dad926885ab106e6f",
+      "logSha256": "e3d61dc1368d1ec95986631449b19fc15d5ef9e79139a303f37b825bdd624ac0"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-combined-en.png",
+      "sha256": "c268b55fcbd24611059d425cf117aa160e2c218e00e117ecc6716de92e394560",
+      "logSha256": "5f2576d4d0599b0f459b6563ba0a141ca6a49890bc669a9b210b7c4d1498eae4"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-combined-ru.png",
+      "sha256": "10330b2d9674d79d14bfc8d26f096da84cccf7f2fe7c27de5e09a0811ece94fe",
+      "logSha256": "61420adf25b2afb79a3fa6c14b0120aa8a94d8ca551851036805796ac8a63dc7"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-delete-accept-en.png",
+      "sha256": "fbde1e3c779fb45a179e0d7597c0efd3b28130461c25f6afa928edf3d9da87f6",
+      "logSha256": "e3893ddcf5a7c12364ff1db1a443c175090c86ce2fe1d0076f4bf7a5d117c97a"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-delete-accept-ru.png",
+      "sha256": "2924dd7e9b57b13c24d36dda185591b8895e276052292bc688dca1ad311a9839",
+      "logSha256": "3d1bcb93b54873d14559995ae4cd1e71e6677ab4988fa091030eeae2eb1954c9"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-delete-cancel-en.png",
+      "sha256": "fbde1e3c779fb45a179e0d7597c0efd3b28130461c25f6afa928edf3d9da87f6",
+      "logSha256": "fde4ddc457168be7a9e4f6f6fe6b43fc92563ab4ab87369703909bfffb3a5081"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-delete-cancel-ru.png",
+      "sha256": "2924dd7e9b57b13c24d36dda185591b8895e276052292bc688dca1ad311a9839",
+      "logSha256": "96892dd90a17f613d5b2a543c2a1f420e21a9762c0644e509d065aae756c1568"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-expires-en.png",
+      "sha256": "80a3e6b3fce39f9e196055345a21fcd87deaed43166480cea7ed51a85bc32303",
+      "logSha256": "62f838ad6c9391ada7545cf2414008cc22c7d161519f580c452ccf62c3183eac"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-expires-ru.png",
+      "sha256": "43b665babad74371f7be3e42dadb2c7a02ba314631b9cf758b945d012d332ad5",
+      "logSha256": "ef9e34d7b45103e4b7e70f891f30578361cc3dc5ef84034a2f4b7f73da3f0752"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-general-en.png",
+      "sha256": "0b4e3c62e27f91e1ddc6a718520de4f94e0fd8d404adbcc633e2cebf17ee4c5f",
+      "logSha256": "eb2c9334fde39c769cdfea3b0676912ddc28f2695a0dccc3a13d44ffeb97b7da"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-general-ru.png",
+      "sha256": "3334a69ede7043fa3993db397f001fa277ec1c0a9564afc09158ae07f3a098ab",
+      "logSha256": "320c311a7c24f509d76438dc2b06dc8357168eed09824d0ac0353eb764e01cc5"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-long-name-en.png",
+      "sha256": "7cd9d3dea29fba8af19b8ef68a6b05e08e42acfd1ff8bf79427bd48d7e86f010",
+      "logSha256": "adad19e04519886036099d4487123764e274fee8cd2607c9a9324614af6c39a4"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-long-name-ru.png",
+      "sha256": "61681aa6c77ea7bbfef8f18ed6cb9195a8792dec2fda50e6e4e987c70d08b072",
+      "logSha256": "d183d6e2b19fdd1d210e5a1c91590c9b6d6b838c65bebedef744ef202f4912c9"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-rental-en.png",
+      "sha256": "945b6b029d5e5460b71e4ff23c7951dfc821857d8fcc0d4183ef9d5c4e72ff07",
+      "logSha256": "2cdbae1568e50731beb71e8c59140b5cfdbe9ada06140d223217dde3cd939b7d"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-rental-ru.png",
+      "sha256": "cb8192f05943ec9929a9b49e16ad334df65c7b3b7a7708d2cc22b182db3f55aa",
+      "logSha256": "db3404c8be452d4ee0ad82d464c5b106da236e28ad4f43d6262c12a547ee8cb2"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-transfer-en.png",
+      "sha256": "fbde1e3c779fb45a179e0d7597c0efd3b28130461c25f6afa928edf3d9da87f6",
+      "logSha256": "21f6ce7436af4ff19d71e4179f3b0e99190d8d409f31e35c00dd6be18a255098"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/bank-transfer-ru.png",
+      "sha256": "2924dd7e9b57b13c24d36dda185591b8895e276052292bc688dca1ad311a9839",
+      "logSha256": "ef617519eb3645acd0d6371da99878355c95631a6f359f54f591032f29b66b38"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/inventory-chest-en.png",
+      "sha256": "0a8f2b3ec079410a8e4d4f141fa98e8ff13dd4697ca1821f723d03bb05a39b6d",
+      "logSha256": "1d839507738e5bbdb49bc1366c0e2f5cce4553ae18483d1972b92cf207507a03"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/inventory-chest-ru.png",
+      "sha256": "00b6f9b1538a3d340a3b20fb339f2ae630279a19a288f3c1f1e953ce3b05f40c",
+      "logSha256": "62db5cf8c71ee1db5387c911c4aa9a0b7b4f643814a02236db09c92da36865a8"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/inventory-combined-en.png",
+      "sha256": "b148f905ca476b89a6316bca91d36089e6b2fdfacf97db4447cbe2b8c2ba1405",
+      "logSha256": "aa1b95b4c6e7e1510fa3180b2c3832867b73dfc97ef2aacb03e3de46f6f04c35"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/inventory-combined-ru.png",
+      "sha256": "64174d02bb5ab9fada5c2e85464fa237fa2a8c3edb07231dae98c0652572817b",
+      "logSha256": "efcd8c8984301a70561c7ada17ed58aa925be7db04f7ece6779fb14617ee5ec7"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/inventory-equip-action-en.png",
+      "sha256": "d17fd8a125ddd2acc70e5760b6a84dbc8879c1504ec890c9674d755ea04c4e3b",
+      "logSha256": "5301327f5cd07b53b3421cbbf8a79d78451ae2b579e91c35d32408a470dde129"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/inventory-equip-action-ru.png",
+      "sha256": "25d278eacbd4f077db4f51446fea18be37003dd0533f20cc7eaee73f38251573",
+      "logSha256": "47095f6627ff0f505cafbbc9a89f8ac39522fd648eb0fe62131648a002982cc0"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/inventory-expires-en.png",
+      "sha256": "f37b266cc67c8be1aab1a203d4690ab3a5d1ed4ede8858deed6d9c8a80c3e5f3",
+      "logSha256": "cb3ad4b9c1665885cc259fb1f8f43f5fc3eaf83f13323bfbadb12ef5fe211881"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/inventory-expires-ru.png",
+      "sha256": "a61827df7d5658022aec73b6d8ab5fc790d7ba4df4861bba918ab6f9015a0f06",
+      "logSha256": "1462f0944b12b111672143ff1edb9b75cc7ebdaab92a18e63aa0e31c8503fcd8"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/inventory-general-en.png",
+      "sha256": "ad4fd78333fd6b55b1b755f31a9663cc322c594955b81cfcc0e11b079504db38",
+      "logSha256": "c5965ed0c1c5c1bebb1f0b9eef74b4232ac2929f54cdbeeeb8aeca8d2df2c18a"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/inventory-general-ru.png",
+      "sha256": "8165b30557cf946fc05b8efc8b186c397f45809c94e4a2c70266fddba6d9d968",
+      "logSha256": "71c4d54852a0dbe1d93349cc65215e8b9ecdc4803275d1f5bc3b289500229ee0"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/inventory-long-name-en.png",
+      "sha256": "0aad9e720f26a16e3db992864af9996509f4e68aae8a26b97b5d021a4f8554cf",
+      "logSha256": "c09e07d1f8e66b4b4ec968939df71cb4f3600bcb7cc640584c19dc79d1326de9"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/inventory-long-name-ru.png",
+      "sha256": "5fe5346df343fac620fd9d76d2d3045995f069c874f381c7a91e25fef2b0287c",
+      "logSha256": "0372eb33d0d3a0c855b8d2794f8b4e9a5d753672a21503191395d1ebcee3ac53"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/inventory-rental-en.png",
+      "sha256": "63cc0e795fa1c6aa37948e36e4b55a6951ad8ea4527f5caee63907fcf5137fe4",
+      "logSha256": "b57a0dbba4dbc970833072784901509bad33a63f63fdb4d9315a2593c0576407"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/inventory-rental-ru.png",
+      "sha256": "2a0281abd9215e55589fff9f947472d2fe4694cc1cc7b309f1018be39bc65191",
+      "logSha256": "6edbd8b2db3d840b84656ce7f86bc0fc48fc734518a90b9d96572087cbe26d76"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-buyback-en.png",
+      "sha256": "775c5eed0c6f75e796199da703358eaabda3c148141ad2b993d62fb4a970d80b",
+      "logSha256": "8b57551f638cd324d9a9704dd51ef8105d70a50a8480a267b7b624763acc0d4f"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-buyback-ru.png",
+      "sha256": "907aca89054acbaaaf2e7c032316755fe0368d12f6b0ae136ab2be8cdbaf6778",
+      "logSha256": "3cb4277c10bef0d741d6f39e3855311c71e83169bb9bbc34fb9b1d63ae9323e0"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-chest-open-en.png",
+      "sha256": "c8200e919dde22a71506d8e69691f72f6b207d9bd0c8726e7d2a68b35aabb63e",
+      "logSha256": "7fdade2aa3f279ef98935e1a939726b647bc99885e0c6aaefc92a2b25a6244cb"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-chest-open-ru.png",
+      "sha256": "22356c2749e61f2c99c54a578f0219383eeeb20f73b181f9fbb83e80e20db8fd",
+      "logSha256": "07a684d07384963e5baad0d68c0ef50da3d585024b18638bb88c849c847a2bb7"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-combined-en.png",
+      "sha256": "d276598c53a94dab8210f2f6ded4e02cd2a6a86436983fdcb27a42eeda28fe2b",
+      "logSha256": "e49c66bcf387d0d248d136f14f1be124fd9f2bdceb90077304bea5703d98e721"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-combined-ru.png",
+      "sha256": "1f24db62225acc4671926142817bb6322cee1e73bb3cf5bf2c600cdd6fc16e9c",
+      "logSha256": "6628878a2e8d2232d1c112ae011f3f58a445377a4391b05712edf15d66bd39b6"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-expires-en.png",
+      "sha256": "0ab40ef375c818425e57558c13614e3480d4b270758a738fa74fac2d805ed750",
+      "logSha256": "87fe3b8205e2a85f8f6f691db3d28029cd025bf6051304523325e0cd4598222d"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-expires-ru.png",
+      "sha256": "71330dbf0ad01c98fd2bfcc8013f803dda0e34d59aa0cac5d2e14dd4d3a123f9",
+      "logSha256": "7bce36e6d0d376251be7d1595d28ba88515240b4d7bd9bda9fbcf12415c53eb4"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-localized-general-en.png",
+      "sha256": "60564d460f56e7bcb4ca92ec58b6a8e9c1d5b59966cfa8a4a7b0252874cf733d",
+      "logSha256": "03b5549008ed195f3994c044c75f10c42c493074c07f6a56c4a359e31404c2be"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-localized-general-ru.png",
+      "sha256": "88c8221f171eae8cf59a5f6f29242c8dd0fcbd7a60c65d414760592237e04634",
+      "logSha256": "f54a8f8a029bad1eb49c8e8f21f3a72b0e25c3206f9776bc69049cd2d7a0a81e"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-long-name-en.png",
+      "sha256": "fad43d506cec1d9556cfa8ad3784a5487faaa24eda00dd5aecb1e2c00a3569d6",
+      "logSha256": "025636e823454280937f8ceaf3735c1d8ec21916fed618af3b0af7f092ca4571"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-long-name-ru.png",
+      "sha256": "d8375c1c373a6f66b8b39884b36c78f0101da873bb50645444e927ba2df286e8",
+      "logSha256": "420512f2a5fb454dc0eb87cb804d7ebd877286ff43772381e41b3bae7741677a"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-quantity-en.png",
+      "sha256": "c41990347deaf109b33907bf2cae98617693a079a32325aefa3607ae9ee9fda3",
+      "logSha256": "3e9579663b424c67107f16fe6ff4239eae6daaabe7835de1f8410dbf3228aa09"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-quantity-ru.png",
+      "sha256": "324316b427ae6a8e8807518cf7c7254be7ee4103a6e982bf64e56ca10954462c",
+      "logSha256": "a3c406111d6a9e9fe38ddca2a35e65ffa7599c0624815ce4bff4f6484954866a"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-rental-en.png",
+      "sha256": "292fdf95cef2b6c97e648363654f022cd15d7410d77f5240f6f7bc99e4681777",
+      "logSha256": "c44e02872225fc82f12f8f122590390a645f51f92f957e41f9a27d933d95319f"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-rental-ru.png",
+      "sha256": "13e61a5812549f1d74704da87ea7735883676b7d51b8fd477fc498aabfc8cc7a",
+      "logSha256": "184d172a10a2f024cf755c622a600aef33d63825a78212be39fbed720c6ff5a5"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-sell-en.png",
+      "sha256": "85c5e3dc05e946d79c164cc4544ca71c25694eb5122e95393f94685ba6199df9",
+      "logSha256": "a9d947c1b1762b3b3ecfd4cc90a780088397f3130463679127f2a9016fae4fff"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-sell-ru.png",
+      "sha256": "1e9894fc5d0d90ad161e700607e1b731454d8ce3ff3ef6d7c17553bc5de74055",
+      "logSha256": "4b7d97bf92889eedfd80c54147cb2d1120e1d04741c78d8257d4658aa34efaba"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-try-on-close-en.png",
+      "sha256": "3a0c9713c2ca73d49e5ecfd97d46923d315c435656fbf2df175203f8c59d7f4f",
+      "logSha256": "cb8b0863e49b81104401c7e1294ef730733f7690685380402b39a984b55bc61a"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-try-on-close-ru.png",
+      "sha256": "6b297cdbccb0d06be9e61f15f2d08639ed1e9b0ba0cbc1f7bf1f998782cd19b3",
+      "logSha256": "c75b11d4fb70240a66a87d19c7cdaf691e7f3b648ebd1cbeef13be88fa8ba3ef"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-vehicle-en.png",
+      "sha256": "c50c3e6c2a3c4ca45bdacb891039c465f185cadc6b6093a6f032919b4825b018",
+      "logSha256": "99a00ae02979bdfbf19558b79d3efeb90904b84139d2ea7b632e8db74148fe1f"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-final-20260907/vendor-vehicle-ru.png",
+      "sha256": "536b1a7965312f5594b1a29b9453aec840e556eb0a625573bc97420f3c00b35e",
+      "logSha256": "96e0041c4cc4387fd463b7f9d9e5d6f2cde403e89d130af9c047d35599afdcd2"
+    }
+  ]
+}

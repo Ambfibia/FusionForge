@@ -1,0 +1,745 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "hnpc-idle-primary-20260908",
+  "status": "accepted",
+  "supersedes": [
+    "monkey-skyway-primary-20260905"
+  ],
+  "supersessionScope": [
+    "characters/player/male/base/male_skeleton.glb",
+    "characters/player/female/base/female_skeleton.glb"
+  ],
+  "retainedOutputsFrom": "Other outputs of monkey-skyway-primary-20260905 remain unchanged and retain that evidence.",
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "CharacterSelection.resourceFile",
+    "containerBytes": 16737641,
+    "containerSha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "Animation",
+        "pathId": 234214,
+        "name": ""
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34604,
+        "name": "stun"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34554,
+        "name": "rocketstand3"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34592,
+        "name": "rocketstand4"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34340,
+        "name": "foldedarms"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34351,
+        "name": "observe"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 237024,
+        "name": "stand2"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34357,
+        "name": "report"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 237020,
+        "name": "stand3"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34371,
+        "name": "rifleguard"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 237025,
+        "name": "stand4"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34326,
+        "name": "scratch"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34333,
+        "name": "swordguard"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34347,
+        "name": "usestanding"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34417,
+        "name": "talk"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34432,
+        "name": "talkexclamation"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34388,
+        "name": "talkquestion"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "Animation",
+        "pathId": 234274,
+        "name": ""
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34157,
+        "name": "stun"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34446,
+        "name": "rocketstand3"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34485,
+        "name": "rocketstand4"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34597,
+        "name": "foldedarms"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 237029,
+        "name": "stand3"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 237028,
+        "name": "stand2"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34590,
+        "name": "observe"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 237030,
+        "name": "stand4"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34580,
+        "name": "report"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34287,
+        "name": "rifleguard"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34274,
+        "name": "scratch"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34219,
+        "name": "swordguard"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34385,
+        "name": "usestanding"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34418,
+        "name": "talk"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34343,
+        "name": "talkexclamation"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34328,
+        "name": "talkquestion"
+      }
+    ]
+  },
+  "target": {
+    "alias": "ffone",
+    "root": "assets/game"
+  },
+  "inputs": [
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-owner.evidence.json",
+      "bytes": 89478,
+      "sha256": "33d05a06cfd89d6f243b929668f5c3be467771ca719320156f680793f6496201",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-stun.evidence.json",
+      "bytes": 143126,
+      "sha256": "b8bb4ddc88072a422a4211bea9b8d9400fd390ad268f538c57904c9eed73a68f",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-rocketstand3.evidence.json",
+      "bytes": 162061,
+      "sha256": "728dd8b19da8d5b48bba36a3f28385634af34e4ad54fab7bdc5ed894e70699ef",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-rocketstand4.evidence.json",
+      "bytes": 166381,
+      "sha256": "ddbdc2fd4b87689b185bb683efeac79a0b29ab4dbc65f2172567724c1e4ae8ce",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-foldedarms.evidence.json",
+      "bytes": 284972,
+      "sha256": "6746162eaba0647ae8d542703e902382f69d223f5a8e6782e72d1cd26a24d0d7",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-observe.evidence.json",
+      "bytes": 212914,
+      "sha256": "2cbc3cbd7f845bd6e5f0eb40cd4999006f7b5508dbda1fad7e5dd6a207b1f977",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-stand2.evidence.json",
+      "bytes": 167974,
+      "sha256": "f3625fb2210e261546715c5d8ffcc63ea232523ccc0c27395ace3e38b079dd0d",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-report.evidence.json",
+      "bytes": 263119,
+      "sha256": "1d9aad3643ba6df4222906964262739d5082cfb2eacfec269ce2c94aa072a37b",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-stand3.evidence.json",
+      "bytes": 175397,
+      "sha256": "6d944d15e81a03a5d6425180c2c149f5686e3dfe07d99a07cdf718122d2b286c",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-rifleguard.evidence.json",
+      "bytes": 183693,
+      "sha256": "c3e74cdeba82dc8b4752245c0c1eb853a7e476190bb8c2c84e0ceb4364a063b1",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-stand4.evidence.json",
+      "bytes": 147196,
+      "sha256": "c04838de2bc11d975da51ba0a7df71851c1c4161f3d1829cb37702a716936b9c",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-scratch.evidence.json",
+      "bytes": 174962,
+      "sha256": "3e45de33ed4dfaa1677990da426e059e9e53a3856e64f8a4cd93ac0f5de31665",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-swordguard.evidence.json",
+      "bytes": 172844,
+      "sha256": "03635365691cd9e04e7a803b0dd8125dadc70c79ba2ed365949979539099eece",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-usestanding.evidence.json",
+      "bytes": 178707,
+      "sha256": "ed8bdf9688c28fc4d05787e3bda8129bc2a8b9ea4a9f8afba463892b3232d3c8",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-talk.evidence.json",
+      "bytes": 162078,
+      "sha256": "0095da73fa73c41090c1ed58cd44c9d439bcdc928e5053a91a55890030e75e86",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-talkexclamation.evidence.json",
+      "bytes": 138754,
+      "sha256": "74c53a9974b3f09522c7cdfb0ebcc8dcefd10630432de9f43b2efaf4f311d4e1",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/male-talkquestion.evidence.json",
+      "bytes": 158730,
+      "sha256": "56cf216bd1dd57a8037dc244e348c620d7036340dd719bed78c70e7eff17003a",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-owner.evidence.json",
+      "bytes": 89100,
+      "sha256": "366dc215bc86d8a20dcd128b05501fb99dee5a75d39bee7d8501556ef26c32d9",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-stun.evidence.json",
+      "bytes": 150124,
+      "sha256": "9652b79bf77b9abf7b86e4287863d9502aab84503817fff48a3706114202229a",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-rocketstand3.evidence.json",
+      "bytes": 203496,
+      "sha256": "aaf936211b6150462629629dc77b3d937d0d710c59d8f688487150fd55c4c210",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-rocketstand4.evidence.json",
+      "bytes": 199451,
+      "sha256": "1cc032f85dfe572e8217c2ba259d2b4a32f50596be2e082d643acf50ed26e208",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-foldedarms.evidence.json",
+      "bytes": 291949,
+      "sha256": "a22241e849c25379166ad48733fbc874254296e6b2e086265ac4d1d0c8bfa1bc",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-stand3.evidence.json",
+      "bytes": 206891,
+      "sha256": "7cf41a378c3a21b9176764dc857099f2b0f08ce200652d78037fd8271cf0dbcf",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-stand2.evidence.json",
+      "bytes": 171927,
+      "sha256": "918a1a03f2b032cb66b538992719d1f883b3e4093db633e6f0c01642eb9b60c8",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-observe.evidence.json",
+      "bytes": 248868,
+      "sha256": "e4f54b28a6f1234c1f2ad294c8524cd1ad37569792e9ba6651c7b7badd3d5995",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-stand4.evidence.json",
+      "bytes": 244214,
+      "sha256": "8bc4f857f6f39d7d610cfb7addffddc4488a0cba8b3a9cd155c6755fd7af6a09",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-report.evidence.json",
+      "bytes": 290058,
+      "sha256": "0ce320b929f0d1e3b25bfa26699d793e8f879839bf816620e216be629447de74",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-rifleguard.evidence.json",
+      "bytes": 231017,
+      "sha256": "9420bf3cf1465fc7240d68e0601c75771267dafa9db7447a6da2c12e0bb30b6e",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-scratch.evidence.json",
+      "bytes": 215291,
+      "sha256": "38aaac543593349e9b3d14d1e8d791f5ac2d6b5e80660b928c3f2da8156ac7e9",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-swordguard.evidence.json",
+      "bytes": 200871,
+      "sha256": "7bc438b39b67d4ce7d778e914a6df03d12e951f9aa678e6fdfb74e059bf1539e",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-usestanding.evidence.json",
+      "bytes": 204206,
+      "sha256": "0c83cdd4f04bf6257075df1a096d8b6ea1993cb99c11820cde1b9a7adfeaa587",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-talk.evidence.json",
+      "bytes": 145201,
+      "sha256": "a8a85e4cb934030e56032299e3075db42cf4f3b47c652ff798372cb846593f0a",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-talkexclamation.evidence.json",
+      "bytes": 162116,
+      "sha256": "ce766ace8a59756554c5b167bf076d90b01a55f375c26baf13f20536d504dad8",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/legacy-sources/hnpc-idle-20260908/female-talkquestion.evidence.json",
+      "bytes": 169954,
+      "sha256": "e876733de53e28a770dca4a10fc96f5e772fa43c8bca2f2d911b87a06e8f6858",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "path": "characters/player/male/base/male_skeleton.glb",
+      "bytes": 17793684,
+      "sha256": "e72d527d9a164c24a292c4762cfa7d40c3adfb95b14359be15ddbc6d42656bf4",
+      "preserved": {
+        "bytes": 16310552,
+        "sha256": "544b2c110cfaa711c63a43a2403d9b1834267f918d04b1d016cfe3c6ed531114"
+      },
+      "addedClips": [
+        "foldedarms",
+        "observe",
+        "report",
+        "rifleguard",
+        "rocketstand3",
+        "rocketstand4",
+        "scratch",
+        "stand2",
+        "stand3",
+        "stand4",
+        "stun",
+        "swordguard",
+        "talk",
+        "talkexclamation",
+        "talkquestion",
+        "usestanding"
+      ]
+    },
+    {
+      "path": "characters/player/female/base/female_skeleton.glb",
+      "bytes": 21572904,
+      "sha256": "42e253da43527192da2a5510f1a560d5b118e33ff06dd2796776e83983f8c998",
+      "preserved": {
+        "bytes": 19869060,
+        "sha256": "04a7039106e4fa8efc4e9dab4e366674568382926cc7e1ba172b23ddeca2b02e"
+      },
+      "addedClips": [
+        "foldedarms",
+        "observe",
+        "report",
+        "rifleguard",
+        "rocketstand3",
+        "rocketstand4",
+        "scratch",
+        "stand2",
+        "stand3",
+        "stand4",
+        "stun",
+        "swordguard",
+        "talk",
+        "talkexclamation",
+        "talkquestion",
+        "usestanding"
+      ]
+    }
+  ],
+  "transform": {
+    "kind": "append-exact-native-animation-clips",
+    "tool": "tools/native/publish-hnpc-idle-clips.py + export_player_rig_clip_additions",
+    "toolRevision": "857406bc95b5dd7a5983cefc3838c86b302600a8 plus tracked publisher changes",
+    "workingDirectory": ".",
+    "commands": [
+      "cargo build -p ffone-asset-pipeline --bin export_player_rig_clip_additions",
+      "python tools/native/publish-hnpc-idle-clips.py --source-root ../builds/retrobution-20260821 --navigation-dump work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/CharacterSelection.objects.json --target-root ../FFOneClient/assets/game --work work/legacy-sources/hnpc-idle-20260908 --apply"
+    ],
+    "toolFiles": [
+      {
+        "path": "tools/native/publish-hnpc-idle-clips.py",
+        "bytes": 7413,
+        "sha256": "ce4091339ecdd30b4e165ed0714e7588f84ca96a1b2a0eab298a13d129be145d"
+      },
+      {
+        "path": "crates/ffone-asset-pipeline/src/player_shared_rig_publish.rs",
+        "bytes": 160461,
+        "sha256": "cc845ea22ff9ee6872e299710292797b5ab9f9802f0441395f1e2f6355f9fbe9"
+      },
+      {
+        "path": "crates/ffone-asset-pipeline/src/bin/export_player_rig_clip_additions.rs",
+        "bytes": 566,
+        "sha256": "004eb81137d38e0640c1f289c60c73cabdd9d1b677a4da11f1469233db6d80ca"
+      }
+    ]
+  },
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "publisher staging followed by deterministic replay --apply",
+      "result": "passed; pre-existing nodes, accessors, animation metadata and binary payload preserved exactly"
+    },
+    {
+      "command": "cargo test -p ffone-client --lib hnpc_ --no-default-features",
+      "result": "initial implementation: 6 passed"
+    },
+    {
+      "command": "target/debug/deps/ffone_client-6bd263b67a1f7b08.exe hnpc_ --nocapture",
+      "workingDirectory": "../FFOneClient",
+      "result": "final source including authored-end timing: 6 passed, 0 failed; freshly compiled test binary newer than all changed runtime files"
+    },
+    {
+      "command": "target/debug/xtask.exe assets --source assets/game",
+      "workingDirectory": "../FFOneClient",
+      "result": "passed: domains=5 references=43684; development-fast-check"
+    },
+    {
+      "command": "FFONE_PERF_OUTPUT=target/performance/hnpc-idle-crowd-final FFONE_PERF_NPCS=1 FFONE_PERF_POSITION=\"-2146 -50.34 1742\" RUST_LOG=warn,ffone_client::network_world_runtime=debug target/debug/ffone-client.exe --asset-root assets/game --character-asset-root assets/game",
+      "workingDirectory": "../FFOneClient",
+      "result": "exit 0; visible conversational gestures; NPC 2941 transitions through talk/talkexclamation/talkquestion and repeats idle cycles"
+    },
+    {
+      "command": "FFONE_PERF_OUTPUT=target/performance/hnpc-idle-guard-side FFONE_PERF_NPCS=1 FFONE_PERF_POSITION=\"-5979 -57 854\" RUST_LOG=warn,ffone_client::network_world_runtime=debug target/debug/ffone-client.exe --asset-root assets/game --character-asset-root assets/game",
+      "workingDirectory": "../FFOneClient",
+      "result": "exit 0; NPC 1034 visible with rifle guard pose; logs confirm repeated rifleguard and nearby report/usestanding actions"
+    }
+  ],
+  "runtimeEvidence": [
+    {
+      "path": "../FFOneClient/target/performance/hnpc-idle-crowd-final/frame.png",
+      "bytes": 2256517,
+      "sha256": "b0fc054c606a39d0ce2a788840ff7d35dbcb0081c056318e27402ce898517381"
+    },
+    {
+      "path": "../FFOneClient/target/performance/hnpc-idle-crowd-final.log",
+      "bytes": 38682,
+      "sha256": "3482190491ff68f785543fc336ea8b8fe59f3d9659a2a4c81d975911371fbf15"
+    },
+    {
+      "path": "../FFOneClient/target/performance/hnpc-idle-guard-side/frame.png",
+      "bytes": 2446867,
+      "sha256": "532ce35f18a6d493770b90bc8381a9995c74a103902fe14c04f3446768ba418d"
+    },
+    {
+      "path": "../FFOneClient/target/performance/hnpc-idle-guard-side.log",
+      "bytes": 11530,
+      "sha256": "83e16fdd047e9c4156fd7ee84ad64bac1480f1c05cf65e535ec41445decb0a23"
+    }
+  ],
+  "limitations": [
+    "Full-client fixtures have existing unrelated unresolved world materials and NPC rows; no global asset-clean or FPS claim.",
+    "Duplicate queued Cargo test/build commands were cancelled after fresh shared-workspace binaries passed tests and GPU runs; no other task process was stopped."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "customassetbundle-bd5f53480423447d7bcaed95cb2a96c8",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 2,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 115,
+    "name": "EffectEmitterController",
+    "pathId": 1914,
+    "rawBytes": 85,
+    "rawSha256": "ab841e1806323026200eadabd5ee85a95d5f4eb25a9171440c66c865cd56cc9e",
+    "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+    "type": "MonoScript",
+    "typeId": 115,
+    "value": {
+      "m_AssemblyIdentifier": "CSharp - first pass",
+      "m_ClassName": "EffectEmitterController",
+      "m_IsEditorScript": false,
+      "m_Name": "EffectEmitterController",
+      "m_PathName": ""
+    }
+  },
+  "pointers": [],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 33327638,
+    "relativeContainer": "Tutorial.resourceFile",
+    "sha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

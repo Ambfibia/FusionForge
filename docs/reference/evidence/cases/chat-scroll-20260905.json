@@ -1,0 +1,198 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "chat-scroll-20260905",
+  "status": "accepted-input-repair",
+  "question": "Why do chat scrollbar arrows/thumb and wheel-over-text not move the retained history?",
+  "nativeConsumer": "FFOne gameplay_ui chat input and ScrollPosition",
+  "acceptance": [
+    "Real production UI hit testing drags the thumb and wheel scrolls over chat text.",
+    "Pointer capture cancels on release, focus loss, disabled chat and channel change; bounds and UI scale are respected.",
+    "Existing chat/localization tests pass and the development binary starts."
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        "Retrobution 20260821 main.unity3d, 8221718 bytes, SHA256 01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+        "Assembly - CSharp.dll SHA256 0f2513c2303cffc88c541a90b1b8fad1b73f60d5218830be72d0502533bf5792"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "managedClass": "CnGuiChat",
+      "monoScript": 988,
+      "source": "primary",
+      "skinLocalReference": 1368,
+      "pathId": 1564,
+      "container": "main.unity3d",
+      "serializedAsset": "sharedassets0.assets",
+      "ownerGameObject": 1352,
+      "type": "MonoBehaviour"
+    }
+  ],
+  "evidenceArtifacts": [
+    {
+      "bytes": 7499,
+      "kind": "strict_object_evidence",
+      "path": "evidence\\cases\\artifacts\\chat-scroll-20260905-owner.json",
+      "sha256": "4410c820cdbe67f9f5c937f198996887ddba69c4c8f5671bbb0fe5a6e679b18f",
+      "id": "chat-scroll-20260905-owner.json",
+      "producer": {
+        "revision": "86324d05303a076b9814bddff800635cb2f73954",
+        "command": ".\\target-build\\debug\\ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 main.unity3d 1564 --serialized-asset sharedassets0.assets --type MonoBehaviour --out work/projects/retrobution-ui-20260821.ffclient/reports/chat-scroll-owner.evidence.json",
+        "tool": "fusionforge"
+      }
+    },
+    {
+      "bytes": 501431,
+      "kind": "static_managed_interaction",
+      "path": "evidence\\cases\\artifacts\\chat-scroll-20260905-interaction.json",
+      "sha256": "f98291b6435545e65f57e4dfac9a85f5ea0f3f78b55647f2a754686c7d06c913",
+      "id": "chat-scroll-20260905-interaction.json",
+      "producer": {
+        "revision": "86324d05303a076b9814bddff800635cb2f73954",
+        "request": {
+          "schema": "fusionforge.ui-interaction-analysis-request.v1",
+          "managed": {
+            "payload": "Assembly-CSharp.dll",
+            "evidenceReport": "assembly-csharp.evidence.json"
+          },
+          "traversal": {
+            "maxDirectCallDepth": 1,
+            "maxMethods": 512
+          },
+          "roots": [
+            {
+              "parameterTypes": [
+                "UnityEngine.Rect",
+                "System.Boolean"
+              ],
+              "returnType": "System.Void",
+              "declaringType": "CnGuiChat",
+              "name": "DoChatWindow"
+            }
+          ],
+          "schemaVersion": 1
+        },
+        "command": ".\\target-build\\debug\\ff-client-editor.exe fusionforge export-ui-interaction-evidence work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/chat-scroll.request.json --out work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/chat-scroll.interaction.json",
+        "tool": "fusionforge"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "state": "proven",
+      "claim": "The native scrollbar was decorative, with no Interaction component or pointer handler.",
+      "evidence": [
+        "Native spawn/bind code; CnGuiChat.DoChatWindow invokes GUI.VerticalScrollbar behind bEnable."
+      ]
+    },
+    {
+      "state": "proven",
+      "claim": "Chat text prevented viewport hover in Bevy UI focus processing.",
+      "evidence": [
+        "bevy_ui 0.17.3 ui_focus_system stops on the first node with default FocusPolicy::Block, even when that text node has no Interaction. Native chat lines omitted FocusPolicy::Pass."
+      ]
+    }
+  ],
+  "differences": [
+    {
+      "classification": "native adapter",
+      "detail": "Uses existing scrollbar artwork and geometry. New input uses logical-coordinate drag, 10-unit arrow steps, 250ms initial/30ms repeat delay and 90% page steps. These internal Unity engine timing details were not re-exported; do not claim complete engine-widget parity."
+    }
+  ],
+  "conclusion": "Restored mouse-driven chat history scrolling, including wheel-over-text. No native binary assets or localized strings changed. UI pointer acceptance passes on the production widget tree in EN/RU; full-client world smoke passes.",
+  "nativeContract": {
+    "ordering": "bind_chat -> scroll_chat_history -> handle_chat_scrollbar -> bind_chat_scrollbar",
+    "geometry": "Shared track/thumb calculation for rendering and drag; source scrollbar x=log.x-21, width=16.",
+    "capture": "Thumb preserves initial grab offset and captures until mouse release, focus loss, disabled/hidden chat, no overflow, cursor loss or channel change.",
+    "localization": "No new visible strings, voice, font or asset changes. Existing keyed text is retained."
+  },
+  "verification": [
+    {
+      "result": "3 passed (pointer logic); final text focus handoff verified by real wheel input below",
+      "command": "cargo test -p ffone-client --lib chat_scrollbar_tests",
+      "log": "../FFOneClient/target/parity-chat-scrollbar-tests.log"
+    },
+    {
+      "result": "9 passed",
+      "command": "ffone_client-97dc07accad20c7e.exe gameplay_ui::tests::chat",
+      "log": "../FFOneClient/target/parity-chat-regression-tests.log"
+    },
+    {
+      "result": "18 passed",
+      "command": "ffone_client-97dc07accad20c7e.exe localization::tests",
+      "log": "../FFOneClient/target/parity-chat-localization-tests.log"
+    },
+    {
+      "result": "passed; preview subsequently rebuilt after fixture selection corrections",
+      "command": "cargo build -p ffone-client --bin ffone-client --example gameplay_hud_gpu_preview",
+      "log": "../FFOneClient/target/parity-chat-scrollbar-build-final.log"
+    },
+    {
+      "result": "all four probes exit 0; real cursor hit testing and MouseButtonInput/MouseWheel events",
+      "command": "FFONE_CHAT_TAB_PREVIEW=all-scroll FFONE_CHAT_SCROLL_POINTER_PREVIEW=drag|wheel FFONE_LANGUAGE=ru|en WGPU_BACKEND=dx12 gameplay_hud_gpu_preview <capture.png>",
+      "captures": [
+        {
+          "offset": {
+            "before": 210,
+            "after": 0
+          },
+          "visuallyInspected": true,
+          "bytes": 166743,
+          "sha256": "469e21d8a1539985d54ceb8d7d25c7c8f222036dc6e777ea334a0f8c54633e7e",
+          "file": "../FFOneClient/target/ui-parity/chat-scroll-20260905/drag-ru.png"
+        },
+        {
+          "offset": {
+            "before": 210,
+            "after": 0
+          },
+          "visuallyInspected": true,
+          "bytes": 166526,
+          "sha256": "c86009c94d45dd05422bac4c1733ed1d5b8d26886e826f5520c9040b090a1a3e",
+          "file": "../FFOneClient/target/ui-parity/chat-scroll-20260905/drag-en.png"
+        },
+        {
+          "offset": {
+            "before": 210,
+            "after": 165
+          },
+          "visuallyInspected": true,
+          "bytes": 165770,
+          "sha256": "f7e37d21e40d38945ac494599f082130cc4edf63a7f248662284234c98ef7fc9",
+          "file": "../FFOneClient/target/ui-parity/chat-scroll-20260905/wheel-ru.png"
+        },
+        {
+          "offset": {
+            "before": 210,
+            "after": 165
+          },
+          "visuallyInspected": true,
+          "bytes": 165613,
+          "sha256": "792b3e8aa8a0a73288a70625c8f529752b46965d3774136de8699107c10680d9",
+          "file": "../FFOneClient/target/ui-parity/chat-scroll-20260905/wheel-en.png"
+        }
+      ]
+    },
+    {
+      "result": "600 frames, ordinary world/player/HUD smoke completed; no runtime errors",
+      "command": "FFONE_PERF_OUTPUT=target/performance/chat-scroll-smoke-20260905 target/debug/ffone-client.exe --asset-root assets/game --language ru",
+      "log": "../FFOneClient/target/performance/chat-scroll-smoke-20260905/stderr.log"
+    },
+    {
+      "result": "passed",
+      "command": "scoped rustfmt --check and git diff --check"
+    }
+  ],
+  "limitations": [
+    "GUISkin 1368 serializes as MonoBehaviour and its engine MonoScript external library/unity default resources is absent. Strict skin dump correctly fails closed; no skin or texture payload is republished.",
+    "Weapon quick-cycle and right-click unequip already contain earlier fixes; this case does not re-accept their live-server behavior."
+  ],
+  "fixtureCorrections": [
+    "The first probe evaluated clamp for non-overflowing viewports via eager then_some; changed to lazy evaluation.",
+    "Hidden/other scroll nodes must not be treated as chat: probe selects a positive-height overflowing viewport with the largest retained offset. Earlier failed probes are not accepted evidence."
+  ]
+}

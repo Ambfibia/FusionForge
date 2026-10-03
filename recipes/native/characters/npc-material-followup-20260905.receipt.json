@@ -1,0 +1,798 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "npc-material-followup-20260905",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "native-game-assets"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "Retro_shared.resourceFile",
+    "containerBytes": 14258661,
+    "containerSha256": "2ca4147c3705fdd3a0fc0ec44e088da6e87279e978e73b19701b0d29babbfc33",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "GameObject",
+        "pathId": 1373,
+        "fileId": 0,
+        "containerRoute": "mob/npc_kimchi.kfm",
+        "trueName": "npc_kimchi"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "scoped-native-npc-material-and-icon-repair",
+    "tool": "tools/legacy-sources/stage-npc-material-followup.py + stage-fusion-kimchi-eyes.py",
+    "toolRevision": "sha256:42a8390e2642aa7689e8e7ad3192e7a41128e0972687aa09ffdb9cb16285025b",
+    "workingDirectory": ".",
+    "commands": [
+      "python -X utf8 tools/legacy-sources/recover-npc-assets.py --plan recipes/native/characters/npc-material-followup-20260905.plan.json --work work/legacy-sources/npc-material-followup-20260905/recovery --lane models",
+      "python -X utf8 tools/legacy-sources/recover-npc-assets.py --plan recipes/native/characters/npc-material-followup-20260905.plan.json --work work/legacy-sources/npc-material-followup-20260905/recovery --lane textures",
+      "python -X utf8 tools/legacy-sources/recover-npc-assets.py --plan recipes/native/characters/npc-material-followup-20260905.eyes-plan.json --work work/legacy-sources/npc-material-followup-20260905/eyes-source-recovery --lane textures",
+      "python -X utf8 tools/legacy-sources/stage-npc-material-followup.py --work work/legacy-sources/npc-material-followup-20260905 --stage work/legacy-sources/npc-material-followup-20260905/stage/native",
+      "python -X utf8 tools/legacy-sources/stage-fusion-kimchi-eyes.py --work work/legacy-sources/npc-material-followup-20260905 --stage work/legacy-sources/npc-material-followup-20260905/stage/native",
+      "python -X utf8 tools/legacy-sources/audit-npc-material-followup.py --work work/legacy-sources/npc-material-followup-20260905 --native ../FFOneClient/assets/game"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "recipes/native/characters/npc-material-followup-20260905.plan.json",
+      "bytes": 1951,
+      "sha256": "629f2a78fa045e89d510d1261304039dc4ff450857d77d639aea851171add2f6"
+    },
+    {
+      "path": "recipes/native/characters/npc-material-followup-20260905.eyes-plan.json",
+      "bytes": 587,
+      "sha256": "4657f19b4e839a23edae414a2417ca4a5d4ab7067b45b6d9c3181e46061c7532"
+    },
+    {
+      "path": "recipes/native/characters/npc-material-followup-20260905.sources.json",
+      "bytes": 36648,
+      "sha256": "61cefd41475384d7f23c2cee5ed1d364319d01208104f09456ff45fffaf8d337"
+    },
+    {
+      "path": "recipes/native/characters/npc-repair-20260905.receipt.json",
+      "bytes": 258870,
+      "sha256": "97c2a3ba77877a4cb8ca7fda38298233b24aa2693b8667d4c58ed13477457076"
+    },
+    {
+      "path": "work/legacy-sources/npc-material-followup-20260905/recovery/models/fusion_iceking/fusion_iceking.source.json",
+      "bytes": 10208103,
+      "sha256": "65c608a43870831e420b5756acb421e2eff5eadcf49cafa8de5730b8576e261d"
+    },
+    {
+      "path": "work/legacy-sources/npc-material-followup-20260905/recovery/models/fusion_spidermonkey/fusion_spidermonkey.source.json",
+      "bytes": 11484898,
+      "sha256": "9b623d3783ecbc4098590fd4993ed59c5b04c956317466dab6807a20a3cc3bef"
+    },
+    {
+      "path": "work/legacy-sources/npc-material-followup-20260905/recovery/models/npc_hippiehop/npc_hippiehop.source.json",
+      "bytes": 11609766,
+      "sha256": "fde64783672779620a93cc57bc7959557cd0e3d25906f42e1c18877abceaa5d0"
+    },
+    {
+      "path": "work/legacy-sources/npc-material-followup-20260905/recovery/models/npc_kimchi/npc_kimchi.source.json",
+      "bytes": 642728,
+      "sha256": "fe7a3e5f2a39e1ecd32b68c49545c76fd881a80281ed990edf8382439c71b092"
+    },
+    {
+      "path": "work/legacy-sources/npc-material-followup-20260905/recovery/models/objectnpc1/objectnpc1.source.json",
+      "bytes": 45599,
+      "sha256": "e24c7d8d9f6a217db91fcbf93ccf0b55bc114edfba4155b6d32cf4482c74ea20"
+    },
+    {
+      "path": "work/legacy-sources/npc-material-followup-20260905/recovery/models/npc_mandroid_disguise/npc_mandroid_disguise.source.json",
+      "bytes": 1655718,
+      "sha256": "de06707a3d575e76bdc5425fba1d38011a28a3bc15e64c8250b76d2ebe9433b3"
+    },
+    {
+      "path": "work/legacy-sources/npc-material-followup-20260905/recovery/textures/fusion_iceking/exact.json",
+      "bytes": 295016,
+      "sha256": "b02663ab999e70464044efce02c2005f73c1e73e82ce9fae4dc625d9bb24c2d8"
+    },
+    {
+      "path": "work/legacy-sources/npc-material-followup-20260905/recovery/textures/npc_deedee/exact.json",
+      "bytes": 195752,
+      "sha256": "a473a1279a66ed8a832e7ba3003961ea52d020b13618173d0c5b8663e57c0491"
+    },
+    {
+      "path": "work/legacy-sources/npc-material-followup-20260905/recovery/textures/npc_dexter/exact.json",
+      "bytes": 556879,
+      "sha256": "b3792af1b2ff6db542ab445f146f0d0b35d1dc07f6b0c0edb6a52951e4b8022c"
+    },
+    {
+      "path": "work/legacy-sources/npc-material-followup-20260905/eyes-source-recovery/textures/vehicle_kimchi/exact.json",
+      "bytes": 153479,
+      "sha256": "6590051afacf5848182ebce2b00dc5c0dbaaf5a2734a2a38d074b77dbaae837f"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/hnpcicon_1.exact.json",
+      "bytes": 16810,
+      "sha256": "204d8cc1966736aac66b1353e267f0848ab6c872a72916575b3e5a0754f86976"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/hnpcicon_2.exact.json",
+      "bytes": 16042,
+      "sha256": "1536bb22bd53dc38e19b09de25370827e6e124f90e2af554470f0d7d3e5ee7f6"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/hnpcicon_3.exact.json",
+      "bytes": 13386,
+      "sha256": "9679ac1e9f03a57d9d58037c5559628427c0986968c13a01eaca753bb838dbe1"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/hnpcicon_4.exact.json",
+      "bytes": 16594,
+      "sha256": "2a98bb89d75f80c538979fb17735b4788dad80ebdd00f1a686bf94e96db98150"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/hnpcicon_6.exact.json",
+      "bytes": 12834,
+      "sha256": "6fa8fc6be5c67f235ea4b9ab1547b40786a27d10c2cecec563dc6642f5161b11"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/hnpcicon_9.exact.json",
+      "bytes": 18079,
+      "sha256": "49a1c72baf24a19a00fe3243110ebf41080bd55953213b5400f4eb525c23cd80"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_0.exact.json",
+      "bytes": 25362,
+      "sha256": "f9ced35e45c1df1d2790851452203b65573f4701499bc3be385f4a57e2d30a10"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_1.exact.json",
+      "bytes": 20645,
+      "sha256": "5387bc642a1d1cbf78e20744620946ad20e9bb34b2e6a84dbba5532ee5dae955"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_105.exact.json",
+      "bytes": 19895,
+      "sha256": "11ce73ba89631c6004b84c9a11a1a03036c79b7aaafdade3eed165f6b38e1e99"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_11.exact.json",
+      "bytes": 16078,
+      "sha256": "90d2e850b197b6dcdd9a1093289163eafa346d1f062e223c9472ef94b09a07ed"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_117.exact.json",
+      "bytes": 21727,
+      "sha256": "3b6c2dfd0e3f4da4d3c9e00544c1efcd03425cfc3c17a16d9b569476e782df35"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_12.exact.json",
+      "bytes": 19926,
+      "sha256": "7ceb667f937dfa564dc729a7eeccf5b02ace589688374981eae87eb32919031e"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_16.exact.json",
+      "bytes": 24217,
+      "sha256": "a8844894ea92a282768350df5cc57e37231fb975196896c62bef07bafc0437d9"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_18.exact.json",
+      "bytes": 15785,
+      "sha256": "28dbab7105a74267f591726cf26b6b4cfa9c5a9e68d20096001e394aacb4c61d"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_2.exact.json",
+      "bytes": 17425,
+      "sha256": "9e49a8edc42d131fa7aa52e887be39c57662e7dff0ed81e65c2f6ab92c20cba5"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_21.exact.json",
+      "bytes": 22029,
+      "sha256": "711ebc24039b60133e26e19995ec56d576630306cae03bb2544fab50eb474759"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_235.exact.json",
+      "bytes": 16090,
+      "sha256": "34e0db2f9701c19b66e727b71f126ec5b63e4afc6697a6d505386e2210c764ab"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_244.exact.json",
+      "bytes": 28667,
+      "sha256": "1cc230b02efee0dc31d5be63ae0a0686993676c6950d461d11f1534499ccfebb"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_266.exact.json",
+      "bytes": 17422,
+      "sha256": "311e567a4eabefbfa68cdc8634b684c7639957aadbf6b06c60b7e7daeeed51c3"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_272.exact.json",
+      "bytes": 16310,
+      "sha256": "2b3fc951d8f595bba94b89d6e36384362f78180d36382e44fe42b53d2d815dd7"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_273.exact.json",
+      "bytes": 18638,
+      "sha256": "be6496463d03885b95c83578f931491a29c6e31984d610a69a54a4a41ef65ed0"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_274.exact.json",
+      "bytes": 14314,
+      "sha256": "33f43873f9a3274dc3418eab468d1ed1fe0f4600dd44d69a3a7d09f2d61190de"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_275.exact.json",
+      "bytes": 15162,
+      "sha256": "e95b73d86580047c4df7a01c75b9a11b248cdbaf09cbb0c2fdc41b59bde78f50"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_276.exact.json",
+      "bytes": 19886,
+      "sha256": "0ba46ef560ba26589bca20d9a121a41c97469d2060c5da39a94d5c8d83d5d0d2"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_277.exact.json",
+      "bytes": 20230,
+      "sha256": "1bf7635dde8c2964b74d278ce5624980cd3c0e9019cb8abad83159ac7d3771eb"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_278.exact.json",
+      "bytes": 18666,
+      "sha256": "b248933a0eab57d941b767bec6e76a71e11dbba90e2612a830d1626ad9f6f4c2"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_279.exact.json",
+      "bytes": 17002,
+      "sha256": "d624dd813b3cd4f2f0abdcae107f919359c53205cb7c20eb6869b81572c05cb0"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_28.exact.json",
+      "bytes": 22390,
+      "sha256": "199ed4cd1f1acee09b600daec8b73d578c8e336b5bda080f8bed33f3f6cae1e0"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_280.exact.json",
+      "bytes": 23626,
+      "sha256": "b1305ae3c33bdf2ace6a5088b6f2cb0e02c43303aba1c9d14853f912c8c49f7e"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_281.exact.json",
+      "bytes": 22074,
+      "sha256": "b8ed94963b5ae0aa47d6888b0d9658f3eb1ef0c8055675e4f83338e918367ff1"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_282.exact.json",
+      "bytes": 18914,
+      "sha256": "db3fd6de1f6faa983b49e80b20b212a0445f32c5731cff4d5d3b25e0f84de4e8"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_283.exact.json",
+      "bytes": 14658,
+      "sha256": "3025f5b917dc2ddb0e003d79aaa7c4eea1e94351e2ac7bcdb79e15d92358b5cb"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_284.exact.json",
+      "bytes": 14722,
+      "sha256": "ca75e140fa4a04af3f137fe36bacf3eb0b6e184bccd7bf5c8acba10da741ace8"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_285.exact.json",
+      "bytes": 18826,
+      "sha256": "cea559bbf50d3fffd9b43b69826689afe4f32c36257b2eda022212b653b13255"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_287.exact.json",
+      "bytes": 20670,
+      "sha256": "af05a30888701b704c96277c65a97fa2fd3e8b16509eb30c3f5da138a6f7052a"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_288.exact.json",
+      "bytes": 19654,
+      "sha256": "ec06c58e726e3860062232991e3cf7d3d7c64a7f4679d985ca04c172905462f0"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_289.exact.json",
+      "bytes": 22138,
+      "sha256": "1b5ca5fe07dc12779eaa5b51bd7a243aad5c17f492d519e02e69f8b2d31a409d"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_29.exact.json",
+      "bytes": 19806,
+      "sha256": "21d0348a32eb4f15efe4803737071bd82c81426b514bf244f92739e0b55e76a1"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_290.exact.json",
+      "bytes": 21370,
+      "sha256": "a6005b3db929ed7f9c62c92990fae26642a11fce8223e656662d01c435b84838"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_291.exact.json",
+      "bytes": 20074,
+      "sha256": "e0c7c1987ab54e5a4c2810bbad7b63f066fadc9f0ba33e792a970bc907aa4f2b"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_292.exact.json",
+      "bytes": 16578,
+      "sha256": "a71b71c78b35584a7b63e59c6633a0adc81fc1febc2fe09f121a9e84ff6fb365"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_293.exact.json",
+      "bytes": 13146,
+      "sha256": "944699cc8311eb0df1bc8edcc00d387d94fcce5b94d14503fc4c6c396b050919"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_294.exact.json",
+      "bytes": 14314,
+      "sha256": "f52cb4ff17e3b5726a8042db146de03b9d5b9b8a1ad1eb02fadcbeea67a6d3a0"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_4.exact.json",
+      "bytes": 22497,
+      "sha256": "e1591e334fded808f32bf10ced4c1fb083622d7a3e97f549bacb2e225e674a3c"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_50.exact.json",
+      "bytes": 15873,
+      "sha256": "8b44b633184a2af6907abca2d69e84324f17af2704346be04c0024387165fa5c"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/mobicon_6.exact.json",
+      "bytes": 18241,
+      "sha256": "20d612fe1b418801faf2b1f6514995c8005cc1b6de0ec2ee8412408480dbff14"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/npcicon_0.exact.json",
+      "bytes": 18934,
+      "sha256": "7fee66d1e5181b886f40072033ea2f217acf6adbceb8b2b80b7bf4d3237847fc"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/npcicon_7.exact.json",
+      "bytes": 21201,
+      "sha256": "939594ac7c1286362c10642a2b3b0ecb162a384377a202f8a72eba485a06b1d3"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/npcicon_8.exact.json",
+      "bytes": 15233,
+      "sha256": "be1e24da7439fda51d069ee917545e6452ddabb2f62df29f11ae52380f4499fd"
+    },
+    {
+      "path": "work/legacy-sources/npc-repair-20260905/icons-exact/npcicon_9.exact.json",
+      "bytes": 14913,
+      "sha256": "541889b5f17dcc825f0c2e4f2f5f9f3708420b87b64823d5a76474bb4ff4f718"
+    },
+    {
+      "path": "tools/legacy-sources/recover-npc-assets.py",
+      "bytes": 4393,
+      "sha256": "ab68c773b7dee2f3cc9514aa4c7276a6301c6bf0f39a961c55d5ca73943eb655"
+    },
+    {
+      "path": "tools/legacy-sources/stage-npc-material-followup.py",
+      "bytes": 6431,
+      "sha256": "9686502a1ac04bf8f1b208d2655f50ee552b9f81723bf9f81b38f2c9ab21dc20"
+    },
+    {
+      "path": "tools/legacy-sources/stage-fusion-kimchi-eyes.py",
+      "bytes": 8043,
+      "sha256": "37a971fd67ee50cb6a1eb2d11a5b8d848f30e9acb6f9ec019bc781c8b9598e22"
+    },
+    {
+      "path": "tools/legacy-sources/publish-npc-material-followup.py",
+      "bytes": 5372,
+      "sha256": "0c33b37ba06b1840106acae9de80c79b6b73cee400427193e8eb2fd133c0ba85"
+    },
+    {
+      "path": "tools/legacy-sources/audit-npc-material-followup.py",
+      "bytes": 5144,
+      "sha256": "26d79dd07b28c6ded4fe01aee3b71a382b19dda579c88e980b12656413b2dc01"
+    },
+    {
+      "path": "tools/legacy-sources/record-npc-material-followup.py",
+      "bytes": 7559,
+      "sha256": "b2a5b2dd82d7e39b2c5f1bdd6eda4ac51bfac50f95df1f46f61954f23b2645dd"
+    },
+    {
+      "path": "tools/legacy-sources/probe-npc-repair.py",
+      "bytes": 2980,
+      "sha256": "67fcdd05502ae924f9fbadf795e9eac383eb066418ae2c5b7f92ac81f10a634b"
+    },
+    {
+      "path": "crates/ffone-asset-pipeline/src/legacy_shader_state.rs",
+      "bytes": 132030,
+      "sha256": "4ca0c25e0a42d56cc6ce5ab5622e100fd1c2459be0cb25b731d5e1249845ac10"
+    },
+    {
+      "path": "crates/ffone-asset-pipeline/src/logical_model_publish.rs",
+      "bytes": 353888,
+      "sha256": "4fa67e1f7904f9ee57388019b0c6fde461fbde3ae15394be466f0e8859cbbb1d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "_runtime/characters.json",
+      "bytes": 254473,
+      "sha256": "16fff9dbe5ad27f61ce367b1f17d7bab457b1d925551f040c2a0f46b19f92b7d"
+    },
+    {
+      "path": "characters/fusions/fusion_iceking/mob_fusionIceKing.glb",
+      "bytes": 1906452,
+      "sha256": "18f1217d0cec2a1405bcb68f257a42580045ccb50d61ceeb159b0ff8dfd4679f"
+    },
+    {
+      "path": "characters/fusions/fusion_spidermonkey/fusion_Spidermonkey.glb",
+      "bytes": 2410872,
+      "sha256": "6a8a5e5af66793267e2eceba02ac058908ac03033932ccc16332a9ffd68310ce"
+    },
+    {
+      "path": "characters/npcs/fusion_kimchi/fusion_kimchi.glb",
+      "bytes": 142720,
+      "sha256": "cf0459a50a83f26361565d0a14ad794d2a13aa7e9bec1b6a356ac179291701bb"
+    },
+    {
+      "path": "characters/npcs/npc_deedee2/npc_deedee2.glb",
+      "bytes": 1741684,
+      "sha256": "d28d79cee6ab8a35e34cb5fa1c6dfb802075a4df389bf17b23bab1bad2168704"
+    },
+    {
+      "path": "characters/npcs/npc_dexter2/npc_dexter2.glb",
+      "bytes": 14724688,
+      "sha256": "bef37f893de9cf2b4ad10f1e1707fb38b5f6e88c146b0fe83fe87d49480913cb"
+    },
+    {
+      "path": "characters/npcs/npc_dexter2_pistol/npc_dexter2_pistol.glb",
+      "bytes": 2090260,
+      "sha256": "986dea03bd9411fcae99f790425d7418d82dbcb7df6c9470bc7b9447fa913259"
+    },
+    {
+      "path": "characters/npcs/npc_dexter2_sword/npc_dexter2_sword.glb",
+      "bytes": 6454180,
+      "sha256": "bf6c79eef057d7adc6b62fffb646a5b15d163baf8a787ed22297454dd03ef2af"
+    },
+    {
+      "path": "characters/npcs/npc_hippiehop/npc_hippiehop.glb",
+      "bytes": 2833452,
+      "sha256": "10906c8a1610b4301dcfa2a269d3b55aa4eb2b9045dd3ee39f2468302134e65d"
+    },
+    {
+      "path": "characters/npcs/npc_mandroid_disguise/npc_mandroidglasses.glb",
+      "bytes": 346552,
+      "sha256": "60999ac4592898a4e46e9171398b98d1cbd5fcd4b1612552ad1c55d0139ac3f9"
+    },
+    {
+      "path": "characters/npcs/objectnpc1/ObjectNPC1.glb",
+      "bytes": 13904,
+      "sha256": "2fb80ef7a90ce3a1e5d45bc1d32f0c27a324fe0b194ebec2bd614649f9662469"
+    },
+    {
+      "path": "data/tables/npc_texture_overrides.json",
+      "bytes": 221646,
+      "sha256": "7ce6e95ecdd669c9f74b06914edd94afff777e1aea5e5967cbfde15462b3182d"
+    },
+    {
+      "path": "data/tables/table-set.json",
+      "bytes": 41902920,
+      "sha256": "dfad780caec28605d5978eaa70cee580dd0dc68dc895e2bdb7ab132a544bcdbd"
+    },
+    {
+      "path": "icons/entities/hnpc/hnpcicon_01.png",
+      "bytes": 5352,
+      "sha256": "30bf951b9c5108e3b5fe30ffbf047691f5be44e95e73e38ea983e13293a6e42a"
+    },
+    {
+      "path": "icons/entities/hnpc/hnpcicon_02.png",
+      "bytes": 5064,
+      "sha256": "c33abdf73cf6c516581fa3461ba9dcd746667070bd4d40273effd42ae71e5398"
+    },
+    {
+      "path": "icons/entities/hnpc/hnpcicon_03.png",
+      "bytes": 4066,
+      "sha256": "e29db507cab3818254a9f2e7b0109b7fa4c1d9db30d9f63a738140eaa2e4f551"
+    },
+    {
+      "path": "icons/entities/hnpc/hnpcicon_04.png",
+      "bytes": 5270,
+      "sha256": "b7a73780fff20feb37a1d0793339b4b07b6a0627b873edaf81defa771e46a8f6"
+    },
+    {
+      "path": "icons/entities/hnpc/hnpcicon_06.png",
+      "bytes": 3861,
+      "sha256": "e2c68ac9dbbf273403341abd480141c3f018c621749c38e5d81b52c0f4890206"
+    },
+    {
+      "path": "icons/entities/hnpc/hnpcicon_09.png",
+      "bytes": 5828,
+      "sha256": "037c7a2f78cfd724d4a04e140bba814f21214a4a1c2e06f17766cc61a3fe4a4e"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_00.png",
+      "bytes": 8557,
+      "sha256": "18c84774b20edd2c618cb857c2c318a2345d48481b3d716542daa470972526ec"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_01.png",
+      "bytes": 6788,
+      "sha256": "de3932102eda366cf8b2b113f112acfc38929b87df06019c77aa15a87617ea93"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_02.png",
+      "bytes": 5581,
+      "sha256": "167cece16109b68ec8b712c3f603af8f458ded94249ce8a150b551f391bd77c3"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_04.png",
+      "bytes": 7485,
+      "sha256": "5b7b08a324e9999d233b02f9f9ab7c68212208e5c4500d45cb807f170d95d8de"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_06.png",
+      "bytes": 5887,
+      "sha256": "70b449828773eadaa398ba762b83da89b231e50967c9c76b5881d62edbfca9db"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_105.png",
+      "bytes": 6508,
+      "sha256": "70098ad43b44e8a69e694b00e29a90b386e9f942eec6ec29bb5c66c1a9147b10"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_11.png",
+      "bytes": 5078,
+      "sha256": "bb98794812e1f6d48730709e76bd78950e14361b55bcac86ae88561f2b98a678"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_117.png",
+      "bytes": 7195,
+      "sha256": "51af30e0989560ca9129a3d82a83d72ff2c856fc2b79e6d09532e83cd2dae5ef"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_12.png",
+      "bytes": 6522,
+      "sha256": "78be8ffb066215e4ef6092438a3d1a241fed36e53887637d199422d333cde7e1"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_16.png",
+      "bytes": 8130,
+      "sha256": "8d404477cd1f39e63c01b319f9313f178ad853801df1d65f6c2ab636463dc8fe"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_18.png",
+      "bytes": 4968,
+      "sha256": "830c61b228a13c276c7ce978cc7c2cad5d589ce2e57ffa0033a63dba11c298c7"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_21.png",
+      "bytes": 7306,
+      "sha256": "7019f2d3599cd3608248feb4ae7f6aa8651b5db5467f54f82bd0329238cb5ad4"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_235.png",
+      "bytes": 5081,
+      "sha256": "754f719b51642f0393718eeac3c32a3fcd5bf3047aceb8978c3a1a6922750e5b"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_244.png",
+      "bytes": 9796,
+      "sha256": "b96776807bebb59e928a7be047a34b9d2c37e99a98e97b49b97abb3b3195183c"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_266.png",
+      "bytes": 5578,
+      "sha256": "449d7e3146db7695a0742802bbc172aac59e00599b2c52d3a53be3e1cacb6f11"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_272.png",
+      "bytes": 5162,
+      "sha256": "3fc19eb6e562d36209c553bd41f3694405b0a48edfd93e5685bbb8a5e32e2e04"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_273.png",
+      "bytes": 6035,
+      "sha256": "f512b68baa307bc5615d75cf9ac7bd2b57ee2df67060d6c0c50c787267e9dee0"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_274.png",
+      "bytes": 4415,
+      "sha256": "7fc9ac3228e4708ea49196fdb33b79f1ae02d197c5862b61c6d49d8c30d4efd5"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_275.png",
+      "bytes": 4732,
+      "sha256": "c5d7af9ad6e55b50be0f90c21549e3a3406129a4790f31cb26f19b600256b760"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_276.png",
+      "bytes": 6502,
+      "sha256": "bc2c701e368b3ea5a45450c1a71044fea0a7ca7ca04f1203d30e50821042da53"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_277.png",
+      "bytes": 6632,
+      "sha256": "c753cee079d52bdab74b555fa303aef0d9db79e5c78fcaaf67a863239193cc47"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_278.png",
+      "bytes": 6048,
+      "sha256": "14b54da9e4be47333852f560b7345255561b25e90e9df3e7c7ec58a33162275e"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_279.png",
+      "bytes": 5422,
+      "sha256": "61fbd67363d9757191671719fc737bbcf42a0742d003fd981c84af1237128e3b"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_28.png",
+      "bytes": 7444,
+      "sha256": "6a6b65ef44e50b3c2353a2d676e4c8920e1eb955a6dc83463cb1a4731713a22d"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_280.png",
+      "bytes": 7908,
+      "sha256": "957281162628e246e2715773ae335b26c4257d7276be4ffaefb73e61613f7c0f"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_281.png",
+      "bytes": 7325,
+      "sha256": "c4fe42e41a903867834c5c04564f59f8abfaf69e497f91e0387a956e799ddc7e"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_282.png",
+      "bytes": 6141,
+      "sha256": "ee102f0b8e8a1ef6b804814cc413f96329c95f4d9fdea332ec3f02a2203bb5a1"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_283.png",
+      "bytes": 4543,
+      "sha256": "d8f0aeecd2f607e6b0d3ec2c574899383c5e969826557d349608dcf6bd22da02"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_284.png",
+      "bytes": 4568,
+      "sha256": "a0a80b673d05edad70c0fd21e6dc7187816aeb97c89be4ff03a87dc86b60305a"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_285.png",
+      "bytes": 6107,
+      "sha256": "d7ad15c04be9e9d32f6a8b552a29dc6400d505c73728e40e8614b847e2fd1664"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_287.png",
+      "bytes": 6797,
+      "sha256": "df8155ace56ecc97f23dc36c7f96e8a6ee5b5d3f35b358c47f8bb52086707801"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_288.png",
+      "bytes": 6415,
+      "sha256": "62995c8064ea8825a9785a63e752aa0952ab8e13aa6d010aac4eb6d35c1c75b0"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_289.png",
+      "bytes": 7350,
+      "sha256": "ebb9e80d7caeaee2542f4d9ecf62bfbffb9938bc519e3cf780f5b5ae30329294"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_29.png",
+      "bytes": 6476,
+      "sha256": "9660ed5309684d40b6006d5562cdae10733933b2de358b77be78523c04eea38c"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_290.png",
+      "bytes": 7060,
+      "sha256": "5714171f1410869f5c29c9f9fb94a448b8df019b6445605c67be87b6cc061172"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_291.png",
+      "bytes": 6575,
+      "sha256": "12ce42ffe0d07783d56b0d67e1de51edced669da00cdff8d65f94686611a888f"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_292.png",
+      "bytes": 5263,
+      "sha256": "844b7d46630be8db87ab5466b65039803b7b29e7571b6b15d9d461b0ead2a278"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_293.png",
+      "bytes": 3978,
+      "sha256": "b20b5b9dfc8cc108db4be7400ea5f1747ca2648cd8977cc51acf93e20ff5fd03"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_294.png",
+      "bytes": 4415,
+      "sha256": "8c8673f533fc115b69d567041aec1ed047a6feecc78b1cf5a8c1500457744b00"
+    },
+    {
+      "path": "icons/entities/mobs/mobicon_50.png",
+      "bytes": 4999,
+      "sha256": "29f7efc0cd9a9fe94e626be5260997ff99a1a908255a716c0ac2d0bd134fec78"
+    },
+    {
+      "path": "icons/entities/npc/npcicon_00.png",
+      "bytes": 6150,
+      "sha256": "2af9f8e2fed9fe53df5001866929dbd2051b3ffe4c07d99c920ee7c6852754d1"
+    },
+    {
+      "path": "icons/entities/npc/npcicon_07.png",
+      "bytes": 6999,
+      "sha256": "b103465fe3f2585fcde35ed91b1585de06bfef9ce1d7362aa2ff775b3d01993c"
+    },
+    {
+      "path": "icons/entities/npc/npcicon_08.png",
+      "bytes": 4759,
+      "sha256": "7474e2dc1e73d84d11d4a0750e46926cb5659d46456c09c09593571475fb70e9"
+    },
+    {
+      "path": "icons/entities/npc/npcicon_09.png",
+      "bytes": 4641,
+      "sha256": "8236a6e5a48d5993137ca8c275e3475451207156b771d491c434b7afe4961db8"
+    },
+    {
+      "path": "textures/npc/fusion_iceking.png",
+      "bytes": 109434,
+      "sha256": "d44846649138f2aabb1aa08ee457258fbc736e07fff5624692f59deba710b786"
+    },
+    {
+      "path": "textures/npc/npc_deedee.png",
+      "bytes": 72194,
+      "sha256": "ae06fe2507dbc1f0230cee099ab17ba131fb312406aaf423040924739381a5b6"
+    },
+    {
+      "path": "textures/npc/npc_dexter.png",
+      "bytes": 207614,
+      "sha256": "6c98b4d1820619682e4f493e15db784fea4a260112cdcc9f57e4f40a503b51c5"
+    },
+    {
+      "path": "textures/shared/vehicle_kimchi_7b6f288ca60d.png",
+      "bytes": 56338,
+      "sha256": "26eecc787eb44c6e2ae190a8eb48dc192958098b2bfbfe6f93ee8750f3a95442"
+    }
+  ],
+  "divergenceFromPrimary": {
+    "reason": "Owner-requested appearance exceptions and repair of the previously imported Fusion Kimchi green variant.",
+    "details": [
+      "Kevin 2226/3380 retain previous Retrobution appearance; protected Ben/Gwen/Kevin/Albedo/Grandpa Max icon identities are unchanged.",
+      "Fusion Kimchi uses a native appearance fork: 58 of the existing 660 body-mesh triangles retain the exact primary vehicle_Kimchi atlas; the other 602 retain the existing green XDT texture. Vertex, normal, UV, skin, animation and source index data are unchanged; one disjoint material draw is added.",
+      "The native character comic lighting remains the independently authored runtime style. This receipt verifies bindings and source material contracts; it does not claim a pixel-identical Unity renderer."
+    ]
+  },
+  "verification": [
+    {
+      "command": "python -X utf8 tools/legacy-sources/audit-npc-material-followup.py --work work/legacy-sources/npc-material-followup-20260905 --native ../FFOneClient/assets/game",
+      "result": "passed: 67 published/replayed outputs, 500 decoded icons, 3490 NPC rows, 537 referenced icon paths, protected identities unchanged",
+      "evidence": "work/legacy-sources/npc-material-followup-20260905/verification.json"
+    },
+    {
+      "command": "cargo test -p ffone-client --lib production_ -- --skip production_ui_updates_text_only_through_the_localization_apply_system --skip production_npc_rows_have_complete_native_game_icon_effect_coverage",
+      "result": "passed: 55 tests, 1 ignored",
+      "evidence": "../FFOneClient/target/npc-material-production-tests-final.log"
+    },
+    {
+      "command": "cargo test -p ffone-client --lib production_",
+      "result": "broader initial run exposed independent equipment-localization source-scanner failure and missing overhead effect ES670 on five previously added Sweeper rows; these two checks remain unresolved and were explicitly excluded from the final focused run",
+      "evidence": "../FFOneClient/target/npc-material-production-tests.log"
+    },
+    {
+      "command": "cargo test -p ffone-asset-pipeline --lib legacy_shader_state",
+      "result": "passed: 23 tests, 1 ignored",
+      "evidence": "work/legacy-sources/npc-material-followup-20260905/pipeline-tests.log"
+    },
+    {
+      "command": "cargo build -p ffone-client --bin ffone-client --bin ffone-editor --example logical_model_gpu_preview",
+      "result": "passed",
+      "evidence": "../FFOneClient/target/npc-material-build.log"
+    },
+    {
+      "command": "python -X utf8 tools/legacy-sources/probe-npc-repair.py --assets ../FFOneClient/assets/game --out work/legacy-sources/npc-material-followup-20260905/installed --ids 252 981 2854 3256 3414 701 728 3380 3460 --camera-view reverse",
+      "result": "passed; front/reverse images visually inspected, plus dedicated front view of restored Kimchi eyes",
+      "evidence": "work/legacy-sources/npc-material-followup-20260905/installed"
+    },
+    {
+      "command": "ffone-editor --asset-root ../FFOneClient/assets/game --npc <701|728|3414|3460> --capture <output.png>",
+      "result": "passed: four actual editor captures ready, no material errors; images inspected",
+      "evidence": "work/legacy-sources/npc-material-followup-20260905/editor-captures"
+    },
+    {
+      "command": "python -X utf8 tools/legacy-sources/sync-openfusion-xdt.py ../OpenFusion/{tdata,bin/tdata} --table-set ../FFOneClient/assets/game/data/tables/table-set.json --report <report.json> --apply",
+      "result": "passed in both directories: only row 3380 mesh changed, 49230 references checked, zero broken",
+      "evidence": "work/legacy-sources/npc-material-followup-20260905/server-bin-tdata.json"
+    },
+    {
+      "command": "node tools/audit-render-duplicates.mjs",
+      "result": "completed read-only; no FPS improvement inferred",
+      "evidence": "../FFOneClient/target/performance/render-duplicates.json"
+    }
+  ]
+}

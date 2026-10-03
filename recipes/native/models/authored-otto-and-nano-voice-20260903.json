@@ -1,0 +1,110 @@
+{
+ "schema": "fusionforge.native-publication.v1",
+ "id": "authored-otto-and-nano-voice-20260903",
+ "status": "accepted",
+ "supersedes": [],
+ "target": {
+  "alias": "ffone"
+ },
+ "parts": [
+  {
+   "id": "otto-authored-model",
+   "source": {
+    "alias": "authored",
+    "files": [
+     "Models/npc_otto.glb",
+     "Models/npc_otto.png"
+    ],
+    "note": "Supplied by the project owner as the model NPC 3463 was built from. The modded build kept only a decomposed fftools.npc-build-assets.v1 dump of Otto, which has no AssetBundle container table, so export-logical-model-source resolves zero routes for him and the normal publisher can never see him.",
+    "corroboration": {
+     "shader": "npcs/3463__Otto/assets/objects/object_16__16.unityobj declares Shader \"ToonShading_blendSrcalphaInvsrcalpha\", the same ShaderLab program the published npc_rex uses, so its passes, render queue and declared texture defaults are Otto's own rather than a substitute.",
+     "materialValues": "npcs/3463__Otto/assets/materials/npc_otto_material__9.mat gives _Color (0.5,0.5,0.5,1), _AmbColor (0,0,0,1), _Emission 0.2352941, _OutlineColor (0,0,0,1), _Outline 0.005.",
+     "ramp": "_ShaderMap binds the already published ToonRamp9.png, byte-identical to the copy beside npc_rex."
+    }
+   },
+   "transform": {
+    "kind": "authored-character-model-publication",
+    "tool": "tools/legacy-sources/build-authored-character-model.py + ffone-asset-pipeline encode-native-model",
+    "commands": [
+     "python tools/legacy-sources/build-authored-character-model.py --authored ../Models/npc_otto.glb --texture ../Models/npc_otto.png --name npc_otto --material-donor ../FFOneClient/assets/game/characters/npcs/npc_3430_rex/npc_rex.glb --material-values ../builds/retrobution-20260613.ffclient/npcs/3463__Otto/assets/materials/npc_otto_material__9.mat --ramp ../FFOneClient/assets/game/characters/npcs/npc_3430_rex/npc_rex.textures/ToonRamp9.png --animation-name stand1 --repair-winding --out work/legacy-sources/otto-authored-20260903",
+     "cargo run -p ffone-asset-pipeline --bin ffone-asset-pipeline -- encode-native-model work/legacy-sources/otto-authored-20260903/npc_otto.native-model.json work/legacy-sources/otto-authored-20260903/models/npc/npc_otto.glb",
+     "logical_model_gpu_preview.exe --asset-root work/legacy-sources/otto-authored-20260903 --model models/npc/npc_otto.glb --evidence-root work/legacy-sources/otto-gpu-evidence --character-kind npc --true-root npc_otto --npc-scale 1 --animation-name stand1 --frames 240 --timeout 60",
+     "cargo run -p ffone-asset-pipeline --bin ffone-asset-pipeline -- install-runtime-character-model ../FFOneClient/assets/game npc/npc_otto work/legacy-sources/otto-authored-20260903/models/npc/npc_otto.glb work/legacy-sources/otto-gpu-evidence/models/npc/npc_otto.gpu.json"
+    ]
+   },
+   "declaredDivergence": [
+    {
+     "what": "one flipped triangle",
+     "detail": "Triangle 1501 (vertices 1210/1169/350) is wound against its authored normals; its cross-product length is 0.0037 and the normal alignment -0.00012, a near-degenerate sliver. --repair-winding flipped it and reported the numbers. Without the flag the tool only reports such triangles."
+    },
+    {
+     "what": "one animation clip instead of three",
+     "detail": "The authored file carries a single track, Bip01Action.001 (183 channels, 5.86 s), published as stand1. Otto's decomposed dump holds stand1, stand2 and stand3; recovering the other two needs a parser for that authoring format."
+    },
+    {
+     "what": "texture provenance is the authored PNG",
+     "detail": "An authored texture has no Unity byte stream, so the declared source chain is its own decoded RGBA8, recorded as RGBA32 with a single baseLevelOnly level. The published PNG keeps its top-left origin and decoded_rgba8 hashes the flipped buffer, because the runtime reverses vertical-flip-only-for-png-top-left-origin before comparing."
+    }
+   ],
+   "acceptance": {
+    "validator": "ffone_skinned_model::validate, the same one every published model passes",
+    "gpu": "status success, foreground coverage 8.9%, 1 skinned mesh, 1 material applied",
+    "installedAs": "npc/npc_otto (package route equals logicalName, so no alias is needed)"
+   }
+  },
+  {
+   "id": "nano-voice-additive",
+   "source": {
+    "alias": "alternate",
+    "relativeContainer": "Nano_038/039/042/043/044/045/046/047/048/050/051/053/054/055/056/057.resourceFile",
+    "note": "AudioClip payloads in these bundles are already Ogg Vorbis -- the content-pack cooker validates exactly that and emits the stream unchanged -- so nothing was transcoded."
+   },
+   "transform": {
+    "kind": "additive-nano-voice-publication",
+    "tool": "tools/legacy-sources/install-nano-voice.py",
+    "commands": [
+     "bash work/legacy-sources/nano-voice-20260903/survey.sh",
+     "python tools/legacy-sources/plan-nano-voice.py --native-target ../FFOneClient/assets/game --listing work/legacy-sources/nano-voice-20260903/listing --out work/legacy-sources/nano-voice-20260903/clips.tsv",
+     "bash work/legacy-sources/nano-voice-20260903/extract.sh",
+     "python tools/legacy-sources/install-nano-voice.py --native-target ../FFOneClient/assets/game --clips work/legacy-sources/nano-voice-20260903/clips --apply"
+    ],
+    "ownership": "Two data sources decide it: the installed model logicalName and the m_strName of every m_pNanoData row whose m_iMesh selects that model. A clip belongs to a nano when its own name prefix normalises to one of those. Using only the model name hid Princess Bubblegum, whose clips are PBubblegum_*/P.Bubblegum_* after the table spelling P.Bubblegum rather than the registry spelling. The owner is the package route of the model, which is how the installed catalogue keys voice."
+   },
+   "result": {
+    "clips": 936,
+    "owners": [
+     "nano_alienx",
+     "nano_ampfibian",
+     "nano_chowder",
+     "nano_darwin",
+     "nano_flapjack",
+     "nano_gumball",
+     "nano_iceking",
+     "nano_jake",
+     "nano_johnnytest",
+     "nano_mordecai",
+     "nano_princessbubblegum",
+     "nano_rath",
+     "nano_rex",
+     "nano_rigby",
+     "nano_titan",
+     "nano_vankleiss",
+     "nano_zaksaturday"
+    ],
+    "catalogAssets": "8932 -> 9868 (voice 5311 -> 6247)",
+    "stillSilent": {
+     "nanos": [
+      "nano_holonano",
+      "nano_upgrade"
+     ],
+     "reason": "nano_holonano is the unnamed placeholder nano that rows 39 and 40 select with an empty m_strName; nano_upgrade is a model no table row references at all - the string nano_upgrade does not appear in m_pNanoMeshData. Neither has a clip in the clean primary build, the academy donor or the patched build.",
+     "correction": "nano_belladonnaN was listed here before in error: its model is installed as nano/nano_belladonna and its voice already exists under the owner nano_belladonna."
+    }
+   }
+  }
+ ],
+ "notes": [
+  "install-semantic-audio could not be used: it keys on the project asset-manifest.json the native tree no longer carries, the same reason the equipment installers had to be replaced by narrow additive ones.",
+  "gameplay_audio::tests::npc_dialogue_voice_names_follow_call_voice_play_and_resolve_both_locales fails before and after this publication: the trueName it asks for, Dexter_ClickWarp01, is absent from the committed catalog as well."
+ ]
+}

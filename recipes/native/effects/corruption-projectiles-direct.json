@@ -1,0 +1,10 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "corruption-projectiles-primary-direct",
+  "sources": [{
+    "alias": "primary",
+    "path": "Effects.resourceFile",
+    "sha256": "2aa08e85b7aefa8f7e22705ee2f1581befa83cc5708b32116ce8a46a273595e9"
+  }],
+  "steps": [{"operation": "corruption-projectiles", "source": 0}]
+}

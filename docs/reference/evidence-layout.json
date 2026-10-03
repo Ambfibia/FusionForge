@@ -1,0 +1,1465 @@
+{
+  "classification": "Accepted identity observations in recipes; logical model fixtures in tests; source/acceptance records are historical references, not required receipts.",
+  "files": [
+    {
+      "old": "evidence/cases/academy-nano-voice-20260914.json",
+      "new": "docs/reference/evidence/cases/academy-nano-voice-20260914.json",
+      "sha256": "b6b3089f612f3c8ce19acf3c9ff0002b51ae049eb86341692f5159b9776586fc",
+      "currentSha256": "b6b3089f612f3c8ce19acf3c9ff0002b51ae049eb86341692f5159b9776586fc",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/audio-gaps-20260908.json",
+      "new": "docs/reference/evidence/cases/audio-gaps-20260908.json",
+      "sha256": "9860a47f7f32987a80acfbb0d2892ce6b7d48d46170995874bd23a8ebd9c4b27",
+      "currentSha256": "9860a47f7f32987a80acfbb0d2892ce6b7d48d46170995874bd23a8ebd9c4b27",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/candy-cove-20260906.md",
+      "new": "docs/reference/evidence/cases/candy-cove-20260906.md",
+      "sha256": "2d6cab7c68ef6dd1c571193569ebe962722721db0ea76bb730eef092512e19a9",
+      "currentSha256": "2d6cab7c68ef6dd1c571193569ebe962722721db0ea76bb730eef092512e19a9",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/chat-scroll-20260905.json",
+      "new": "docs/reference/evidence/cases/chat-scroll-20260905.json",
+      "sha256": "593fa94db8d1e1534bc0449ae88357235a295796ed31e9184b1e46010f48c7aa",
+      "currentSha256": "593fa94db8d1e1534bc0449ae88357235a295796ed31e9184b1e46010f48c7aa",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/dexter-cutscene-table-routing-20260913.json",
+      "new": "docs/reference/evidence/cases/dexter-cutscene-table-routing-20260913.json",
+      "sha256": "49fa0e4b041f838af8307aaa4ca76e96acd6993a97d797a73011f3772de93c4f",
+      "currentSha256": "49fa0e4b041f838af8307aaa4ca76e96acd6993a97d797a73011f3772de93c4f",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/dialogue-journal-20260905.md",
+      "new": "docs/reference/evidence/cases/dialogue-journal-20260905.md",
+      "sha256": "09b325bdac97b59145f18a31cfb34d69d9338c2c339d34e2effdaa403ea137d9",
+      "currentSha256": "09b325bdac97b59145f18a31cfb34d69d9338c2c339d34e2effdaa403ea137d9",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/email-notice-20260912.json",
+      "new": "docs/reference/evidence/cases/email-notice-20260912.json",
+      "sha256": "bfab6d38a40e4e8580654974d7869640f306ac628843d291eaf81a2ad58ddee0",
+      "currentSha256": "bfab6d38a40e4e8580654974d7869640f306ac628843d291eaf81a2ad58ddee0",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/eruption-animation-20260915.json",
+      "new": "docs/reference/evidence/cases/eruption-animation-20260915.json",
+      "sha256": "cd8b895c12f3bcbbc8069c54ddbc9ff81ae3b252dcb5c0936baf33d3acaab965",
+      "currentSha256": "1fc5fa395c492c4fbd9537677f0356536ec3acee4ad1a1c34e0e10ebc1660007",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/fan-textures-20260913.json",
+      "new": "docs/reference/evidence/cases/fan-textures-20260913.json",
+      "sha256": "e619729b7c69263390e42415c913ba40a67521247dd6fb3ed720e53e515b058a",
+      "currentSha256": "e619729b7c69263390e42415c913ba40a67521247dd6fb3ed720e53e515b058a",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/ffone-completion-plan-20260905.md",
+      "new": "docs/reference/evidence/cases/ffone-completion-plan-20260905.md",
+      "sha256": "a6f03f513bef6b65f29f8d08137aff56e60030c44c112f2e6636ebae9fcf1eec",
+      "currentSha256": "99640c5288587769b1b49c55478efd92f16a51afe75825ceeadff33cf4efbb3b",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/freechat-menuchat-avatar-emotes-primary.json",
+      "new": "docs/reference/evidence/cases/freechat-menuchat-avatar-emotes-primary.json",
+      "sha256": "b6239d05f18be74af6240d0fda3895909fdacc86b3a7e70d49d5137463fe6dc6",
+      "currentSha256": "b6239d05f18be74af6240d0fda3895909fdacc86b3a7e70d49d5137463fe6dc6",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/galaxy-purple-filter-20260913.json",
+      "new": "docs/reference/evidence/cases/galaxy-purple-filter-20260913.json",
+      "sha256": "2a9d6acf923830c88ef09fd9457ad04899050575e7be98502802b65b3ec4a9e4",
+      "currentSha256": "2a9d6acf923830c88ef09fd9457ad04899050575e7be98502802b65b3ec4a9e4",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/hnpc-visual-20260908.json",
+      "new": "docs/reference/evidence/cases/hnpc-visual-20260908.json",
+      "sha256": "4af9cfb8589b01a555655de0ee4e6687bdec4c9a064ddffa9e0c7ee9ca4df844",
+      "currentSha256": "4af9cfb8589b01a555655de0ee4e6687bdec4c9a064ddffa9e0c7ee9ca4df844",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/instance-music-20260910.json",
+      "new": "docs/reference/evidence/cases/instance-music-20260910.json",
+      "sha256": "d758824c5938f1d43c4a1eb40cad8842cdefc29f01b1928a694c08bd9a97a8dd",
+      "currentSha256": "d758824c5938f1d43c4a1eb40cad8842cdefc29f01b1928a694c08bd9a97a8dd",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/item-icons-20260915.json",
+      "new": "docs/reference/evidence/cases/item-icons-20260915.json",
+      "sha256": "a2811827c5b82eeca237c90fc64de556f1f5db34f5dcdfae0674bbf8f609cf4b",
+      "currentSha256": "a2811827c5b82eeca237c90fc64de556f1f5db34f5dcdfae0674bbf8f609cf4b",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/location-notice-20260910.md",
+      "new": "docs/reference/evidence/cases/location-notice-20260910.md",
+      "sha256": "bcb40804365c3a616550e29f68e505519d20ef3767d00b1561c56ad1916f7474",
+      "currentSha256": "bcb40804365c3a616550e29f68e505519d20ef3767d00b1561c56ad1916f7474",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/menu-bugs-20260918.md",
+      "new": "docs/reference/evidence/cases/menu-bugs-20260918.md",
+      "sha256": "eee80d63e135fdd6114835be0392fafdf2615e4894a5516e6397beff3f3fb367",
+      "currentSha256": "eee80d63e135fdd6114835be0392fafdf2615e4894a5516e6397beff3f3fb367",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/mob-animation-priority-20260912.json",
+      "new": "docs/reference/evidence/cases/mob-animation-priority-20260912.json",
+      "sha256": "7886956fd22cbc56d3359549b30109e45aefe3ecad69b51c925cc355bd9c376f",
+      "currentSha256": "7886956fd22cbc56d3359549b30109e45aefe3ecad69b51c925cc355bd9c376f",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/mob-rewards-20260908.md",
+      "new": "docs/reference/evidence/cases/mob-rewards-20260908.md",
+      "sha256": "2bb04936d3f692a60a31602afad9751387dceae1fad9025b82a60633fcf08cd0",
+      "currentSha256": "081f2717118ba6cd3803eabfda2c50ba72d814cafcc8486a7238fd1224b99b25",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/nano-acquisition-runtime-recovery.json",
+      "new": "docs/reference/evidence/cases/nano-acquisition-runtime-recovery.json",
+      "sha256": "c643bb3bcdc495517dcb33a2b12fadf037d591d4a5a8789f6618bbcbeceb9a83",
+      "currentSha256": "c643bb3bcdc495517dcb33a2b12fadf037d591d4a5a8789f6618bbcbeceb9a83",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/nano-belladonna-table-texture-primary-20260904.json",
+      "new": "docs/reference/evidence/cases/nano-belladonna-table-texture-primary-20260904.json",
+      "sha256": "1894f59e80da5afecd9ae7d08d36c29b891211d7e24fe694ac18b2601d745502",
+      "currentSha256": "1894f59e80da5afecd9ae7d08d36c29b891211d7e24fe694ac18b2601d745502",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/nano-dismiss-audio-20260908.json",
+      "new": "docs/reference/evidence/cases/nano-dismiss-audio-20260908.json",
+      "sha256": "3f62e209da8dd924421d2e42590c8691111bb33b89c4a57bf2c7dec169867fff",
+      "currentSha256": "7798e6928e71ddd82947017befa46f2d85a952e3039822ca2f58af4afdb7f2a4",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/nano-editor-catalog-and-materials-primary-20260904.json",
+      "new": "docs/reference/evidence/cases/nano-editor-catalog-and-materials-primary-20260904.json",
+      "sha256": "0956db90b51ea8b3874e3ff08cd0e1adfdfdffc839067297a5dac67f49cecd5b",
+      "currentSha256": "0956db90b51ea8b3874e3ff08cd0e1adfdfdffc839067297a5dac67f49cecd5b",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/nano-station-equip-recovery.json",
+      "new": "docs/reference/evidence/cases/nano-station-equip-recovery.json",
+      "sha256": "62ee60417a26f0374afab0b07fe8b12f3b974f4491e7fc785db1aaa4e1669aee",
+      "currentSha256": "48a4ff89cadb717e6d24fa78f9e80b206ecf8934e6f449f8253aa05ef1aba279",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/nano-travel-20260905.json",
+      "new": "docs/reference/evidence/cases/nano-travel-20260905.json",
+      "sha256": "2f6f6e82109d96519b8c05cf2c890fbcbf7d6f4148827afa66cc1f2b23a03639",
+      "currentSha256": "a612b1d8627bba5c86d29949cfdf8835ed14c913135ae1b8bbc0d7469fd407bf",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/native-cli-migration-20260917.json",
+      "new": "docs/reference/evidence/cases/native-cli-migration-20260917.json",
+      "sha256": "309f10add2f8813e57e5a92a5b386fad86ff48de7adeb141a4239f365a3cb7ab",
+      "currentSha256": "41fb25debc75805cb053ca06711751dcc6b9c731f743745d48c0501720f529c5",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/native-tool-triage-20260918.json",
+      "new": "docs/reference/evidence/cases/native-tool-triage-20260918.json",
+      "sha256": "7f326c67d2bbfbb857a1dcf1b3ffbe27745119f8192bc0b25bed7b7651ddc972",
+      "currentSha256": "7f326c67d2bbfbb857a1dcf1b3ffbe27745119f8192bc0b25bed7b7651ddc972",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/npc-chat-20260905.json",
+      "new": "docs/reference/evidence/cases/npc-chat-20260905.json",
+      "sha256": "ab91de383a7ace6ff3db694e84eb339364af560941cc88d26e14fb37a6501990",
+      "currentSha256": "66943c8b7ff41c2bf55eb5b58ca3436c85d6ee917b32773e99caa4a80e80b6a6",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/npc-email-recovery-20260914.json",
+      "new": "docs/reference/evidence/cases/npc-email-recovery-20260914.json",
+      "sha256": "25bdb8dc4d751e04126abd2d644613259f5828085ebf5d02a06ac1b2ba5419c6",
+      "currentSha256": "25bdb8dc4d751e04126abd2d644613259f5828085ebf5d02a06ac1b2ba5419c6",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/npc-nano-abilities-20260914.json",
+      "new": "docs/reference/evidence/cases/npc-nano-abilities-20260914.json",
+      "sha256": "799c9e032033e4a24ee44358db3db8424df18f23445016a90a93781d20c708f3",
+      "currentSha256": "a009d868ac5cfdc54caec910571bb7c73282ff722cfa58dfa83b0d10c73ada8c",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/option-mode-primary-vs-alternate.json",
+      "new": "docs/reference/evidence/cases/option-mode-primary-vs-alternate.json",
+      "sha256": "0a7ad47a40ecd9cf55cee86b313f9dabfa1135f428e56424cecd05f2681bfefe",
+      "currentSha256": "9a97f1be80619b2fac9b4a5d2def19577e233dddc8bd0567661f81845595b154",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/option-social-languages-20260904.json",
+      "new": "docs/reference/evidence/cases/option-social-languages-20260904.json",
+      "sha256": "2d5d38e581f94ce597b4aa6216d546aa734bef8867b47f95865fc24b003d48bb",
+      "currentSha256": "7c8944499bcda9702527c60ccbedb488017a01c56cda2f06d61964db4bf6e340",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/parity-audit-20260905.json",
+      "new": "docs/reference/evidence/cases/parity-audit-20260905.json",
+      "sha256": "dae32c73c8983502353914c49b34ba34e84371086dfa6e7d34ba32613b037284",
+      "currentSha256": "3f4ea5e6409822b988d76a4c2733feee7e01274f018a7052cebb829804c7547b",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/parity-audit-20260905.md",
+      "new": "docs/reference/evidence/cases/parity-audit-20260905.md",
+      "sha256": "ba82f253b5de595c38e0aeedec8cc16a861d31975ddc2a37f62db67b8ac96244",
+      "currentSha256": "e65fa5cf563a5f406b4708bf8d129855071cbff441cc4e71a41533bbe96eb021",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/personal-vehicles-primary-20260911.json",
+      "new": "docs/reference/evidence/cases/personal-vehicles-primary-20260911.json",
+      "sha256": "d44cabc9290131cf37a4822df3f33dd99eccdb7c8fb903489eed77d6e30a28b7",
+      "currentSha256": "d44cabc9290131cf37a4822df3f33dd99eccdb7c8fb903489eed77d6e30a28b7",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/pirate-nano-voice-20260912.json",
+      "new": "docs/reference/evidence/cases/pirate-nano-voice-20260912.json",
+      "sha256": "88c9bebee79ec39214225448a101c077467f6dc9ca95d69a14315b506d3e08ba",
+      "currentSha256": "88c9bebee79ec39214225448a101c077467f6dc9ca95d69a14315b506d3e08ba",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/player-ability-animation-20260915.json",
+      "new": "docs/reference/evidence/cases/player-ability-animation-20260915.json",
+      "sha256": "83facf2fd16c0d0db1aa7e1553120ee74d377144eac201899176ce03a57cc43e",
+      "currentSha256": "99e6e21df17f24e797e50aadd8e42236f3e2f5d47de0e4e644aef0d65cbfe069",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/player-body-shape-20260912.json",
+      "new": "docs/reference/evidence/cases/player-body-shape-20260912.json",
+      "sha256": "8c06d9dd29e213d8139d617d71fdcec732f3f2671da040478fe6c9571212a4e0",
+      "currentSha256": "5a4e26256df5f51dfe07388036f46ea3132a3e31134a702aa41bdf9b1909526b",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/player-emotes-20260908.json",
+      "new": "docs/reference/evidence/cases/player-emotes-20260908.json",
+      "sha256": "c209d860bed29ddf723381c56ad35edd5649dbad6df65f1808d1d6588be88bb8",
+      "currentSha256": "933bca21780cccf7677eadb76ed59547415fee4dfcf3a8c4020823ee209f0683",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/retrobution-ui-completion-20260907.md",
+      "new": "docs/reference/evidence/cases/retrobution-ui-completion-20260907.md",
+      "sha256": "81724ab2fbd0cd1911d59bba4c99a3c549f576bab9e06575f295626265d856e7",
+      "currentSha256": "b850405908ade29b807ae1921953d1e0de30a827696c80a25813e4a7eadbdfdd",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/reward-status-20260910.md",
+      "new": "docs/reference/evidence/cases/reward-status-20260910.md",
+      "sha256": "56f9b52599ee870787927ac69e44e19a7acd98aaa64f3b9e11ebfb208f2fb4f2",
+      "currentSha256": "56f9b52599ee870787927ac69e44e19a7acd98aaa64f3b9e11ebfb208f2fb4f2",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/scamper-departure-20260908.json",
+      "new": "docs/reference/evidence/cases/scamper-departure-20260908.json",
+      "sha256": "eaf406bb79377ccdc5eaffb154d3446263887939b1ec8944d3934a1e533cee50",
+      "currentSha256": "eaf406bb79377ccdc5eaffb154d3446263887939b1ec8944d3934a1e533cee50",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/scamper-departure-20260908.md",
+      "new": "docs/reference/evidence/cases/scamper-departure-20260908.md",
+      "sha256": "e6ab9add0a4ed0f90cea81be108674dbc9f29b1b03bc496e14553332cfc4ebf0",
+      "currentSha256": "e6ab9add0a4ed0f90cea81be108674dbc9f29b1b03bc496e14553332cfc4ebf0",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/service-controls-20260907.md",
+      "new": "docs/reference/evidence/cases/service-controls-20260907.md",
+      "sha256": "784ef9a4eec7600db71268441f23f9c0823c82a9b96f750fd17441e4b78bf68f",
+      "currentSha256": "784ef9a4eec7600db71268441f23f9c0823c82a9b96f750fd17441e4b78bf68f",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/service-ui-repair-20260912.md",
+      "new": "docs/reference/evidence/cases/service-ui-repair-20260912.md",
+      "sha256": "35be47966ca7d0d461e5e003fde12df65cf794f46204962b15e8f13a05612735",
+      "currentSha256": "35be47966ca7d0d461e5e003fde12df65cf794f46204962b15e8f13a05612735",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/shared-ui-owners-20260905.md",
+      "new": "docs/reference/evidence/cases/shared-ui-owners-20260905.md",
+      "sha256": "01884a6060fec016f837446007cf51cc8300c92b6e6967391bdf15b5ccf5e09b",
+      "currentSha256": "7e13f25503b5989f995be47b1598852ad7def2a63f386344aeccbefdc5d8ba74",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/skyway-hand-contact-20260907.json",
+      "new": "docs/reference/evidence/cases/skyway-hand-contact-20260907.json",
+      "sha256": "87783f93b699940d7e8463f169773aab43d29fa067576a93d503b2a1ce173eab",
+      "currentSha256": "87783f93b699940d7e8463f169773aab43d29fa067576a93d503b2a1ce173eab",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/transport-portrait-20260905.md",
+      "new": "docs/reference/evidence/cases/transport-portrait-20260905.md",
+      "sha256": "a1fcccc04f4b9fd604ba006ef19da5b5e747e8fc8b96859ba0e29d749d23e0a4",
+      "currentSha256": "a1fcccc04f4b9fd604ba006ef19da5b5e747e8fc8b96859ba0e29d749d23e0a4",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/tutorial-avatar-loading-audio-20260912.json",
+      "new": "docs/reference/evidence/cases/tutorial-avatar-loading-audio-20260912.json",
+      "sha256": "060d33a7e01de41a4a6978ae3622a24d146d08cac0eaf00690569035f441da8c",
+      "currentSha256": "060d33a7e01de41a4a6978ae3622a24d146d08cac0eaf00690569035f441da8c",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/tutorial-water-swim-audio-20260904.json",
+      "new": "docs/reference/evidence/cases/tutorial-water-swim-audio-20260904.json",
+      "sha256": "ebdfd03c1b5ff6d7d9494225e9bae30bffe6950a11d3284910eb635f0c2b4621",
+      "currentSha256": "ebdfd03c1b5ff6d7d9494225e9bae30bffe6950a11d3284910eb635f0c2b4621",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/ui-gap-audit-20260907.md",
+      "new": "docs/reference/evidence/cases/ui-gap-audit-20260907.md",
+      "sha256": "53bb5a3103f8f76317f92d754f00b182513bba187ad7bbd7f25552a9af341b56",
+      "currentSha256": "53bb5a3103f8f76317f92d754f00b182513bba187ad7bbd7f25552a9af341b56",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/vendor-portrait-20260907.md",
+      "new": "docs/reference/evidence/cases/vendor-portrait-20260907.md",
+      "sha256": "24aa159fe24dec1641e774b580aa0725cc392f1f93acf773acdf845ae9a08e3c",
+      "currentSha256": "24aa159fe24dec1641e774b580aa0725cc392f1f93acf773acdf845ae9a08e3c",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/whole-client-static-audit-20260905.md",
+      "new": "docs/reference/evidence/cases/whole-client-static-audit-20260905.md",
+      "sha256": "9900e0f8ae27409132fd038a1e91fd58723e8217ef735f2389f5c39018aa3039",
+      "currentSha256": "9900e0f8ae27409132fd038a1e91fd58723e8217ef735f2389f5c39018aa3039",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/world-ui-hotkeys-20260904.json",
+      "new": "docs/reference/evidence/cases/world-ui-hotkeys-20260904.json",
+      "sha256": "bb5af7fde2128ecdd0db1a6e65205c3c2630f44ea758ff3893b38818b11f9fa7",
+      "currentSha256": "bb5af7fde2128ecdd0db1a6e65205c3c2630f44ea758ff3893b38818b11f9fa7",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/world-visual-regressions-20260913.json",
+      "new": "docs/reference/evidence/cases/world-visual-regressions-20260913.json",
+      "sha256": "9cd6e7e92091b770650f3631bc1059d1c27807b55f95f556a1cd99875b8535e1",
+      "currentSha256": "288e7276d48831b8f491a03648558d20e24a7a1220db65a1e7f2a97f0853057c",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/legacy/ffone/gameplay-bugs-20260918.json",
+      "new": "docs/reference/evidence/legacy/ffone/gameplay-bugs-20260918.json",
+      "sha256": "d0fc33365125828fafbcf64219f9e07079de33c4bac453896613f77cc34b5801",
+      "currentSha256": "d0fc33365125828fafbcf64219f9e07079de33c4bac453896613f77cc34b5801",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/retrobution-ui-20260821-publication.json",
+      "new": "docs/reference/evidence/legacy/ffone/retrobution-ui-20260821-publication.json",
+      "sha256": "757156990e722c0bd6b9adce03bfdc5cbaaca8e66d734daa986a09ba5906a90a",
+      "currentSha256": "757156990e722c0bd6b9adce03bfdc5cbaaca8e66d734daa986a09ba5906a90a",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/visual-bugs-20260918.json",
+      "new": "docs/reference/evidence/legacy/ffone/visual-bugs-20260918.json",
+      "sha256": "eefe98e2c9d64f75e259eb593d8491f03219e728bb86cbdf040427ca662eb749",
+      "currentSha256": "eefe98e2c9d64f75e259eb593d8491f03219e728bb86cbdf040427ca662eb749",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/foster-20260907/interior-material-contract.json",
+      "new": "docs/reference/evidence/legacy/foster-20260907/interior-material-contract.json",
+      "sha256": "cff57a4ec076a92bc9189c8e07f68291c31bc3224d9b8d2a93af7cecf80fbe15",
+      "currentSha256": "b8cc8ddd343f199e4a5d5fa6b46ebfb89a9712c62ae26a9b33b829c44ef4ee8a",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/legacy/foster-20260907/key-animation-owner-evidence.json",
+      "new": "docs/reference/evidence/legacy/foster-20260907/key-animation-owner-evidence.json",
+      "sha256": "3e7f2aa7d54112b5f8eda819100873f3135fe28a10d6519f3736a24c87abc25b",
+      "currentSha256": "3e7f2aa7d54112b5f8eda819100873f3135fe28a10d6519f3736a24c87abc25b",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/foster-20260907/key-owner-evidence.json",
+      "new": "docs/reference/evidence/legacy/foster-20260907/key-owner-evidence.json",
+      "sha256": "5104a0e5e392409c134f9cf0067fc5668bcddfde807d486347796396d122949f",
+      "currentSha256": "5104a0e5e392409c134f9cf0067fc5668bcddfde807d486347796396d122949f",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/foster-20260907/native-key-render-contract.glb",
+      "new": "tests/fixtures/legacy/native-key-render-contract.glb",
+      "sha256": "9a1ccf20d75d05e300e0a8a63a963d8936d9ef5796147b7d41588ee74ca343ba",
+      "currentSha256": "9a1ccf20d75d05e300e0a8a63a963d8936d9ef5796147b7d41588ee74ca343ba",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/foster-20260907/retrolit-shader-evidence.json",
+      "new": "docs/reference/evidence/legacy/foster-20260907/retrolit-shader-evidence.json",
+      "sha256": "78c03bbaba41bd160809167fa248c3de3e2ed60135cb2c99700cc405d723f34b",
+      "currentSha256": "78c03bbaba41bd160809167fa248c3de3e2ed60135cb2c99700cc405d723f34b",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/foster-20260907/stand1-evidence.json",
+      "new": "docs/reference/evidence/legacy/foster-20260907/stand1-evidence.json",
+      "sha256": "9f90279c69c57b7b577fed04ef2f5f54fe7f997b0828c294bac9faf2fc15f3d0",
+      "currentSha256": "9f90279c69c57b7b577fed04ef2f5f54fe7f997b0828c294bac9faf2fc15f3d0",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/managed-code/b8c3-native-port-coverage.json",
+      "new": "docs/reference/evidence/legacy/ffone/managed-code/b8c3-native-port-coverage.json",
+      "sha256": "1bee4b163acc79f187744252e8426c7ad995fc8a4d91989c658e175767e16579",
+      "currentSha256": "1bee4b163acc79f187744252e8426c7ad995fc8a4d91989c658e175767e16579",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/managed-code/wire-0104-openfusion-divergence.json",
+      "new": "docs/reference/evidence/legacy/ffone/managed-code/wire-0104-openfusion-divergence.json",
+      "sha256": "6d544471700e2e3b1564c7109c86921b98379eeae63d8e51e7ac4297953b70a3",
+      "currentSha256": "6d544471700e2e3b1564c7109c86921b98379eeae63d8e51e7ac4297953b70a3",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/models/equipment-census-and-weapon-candidates-20260902.json",
+      "new": "docs/reference/evidence/legacy/ffone/models/equipment-census-and-weapon-candidates-20260902.json",
+      "sha256": "1731579ab5e4b4f6a51fe5072ffb23e22420cb50aa8c80d0fb7e4ba4b37d3b79",
+      "currentSha256": "1731579ab5e4b4f6a51fe5072ffb23e22420cb50aa8c80d0fb7e4ba4b37d3b79",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/models/modded-npc-publication-20260903.json",
+      "new": "docs/reference/evidence/legacy/ffone/models/modded-npc-publication-20260903.json",
+      "sha256": "21a08195671ef80947e07625bdc0ebfc8efa346452d1bdec63c2de07452b2f1c",
+      "currentSha256": "21a08195671ef80947e07625bdc0ebfc8efa346452d1bdec63c2de07452b2f1c",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/models/player-shared-skeleton-blocker.json",
+      "new": "docs/reference/evidence/legacy/ffone/models/player-shared-skeleton-blocker.json",
+      "sha256": "f320ef2781dadf4219921d9d5312c9468172a1b26abdc2f76bc2f279dd4fc678",
+      "currentSha256": "f320ef2781dadf4219921d9d5312c9468172a1b26abdc2f76bc2f279dd4fc678",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/models/published-asset-census-20260902.json",
+      "new": "docs/reference/evidence/legacy/ffone/models/published-asset-census-20260902.json",
+      "sha256": "2cb1c081ea2d284f77862955ce08f2d366cecd044693561df205f215bfcb0f33",
+      "currentSha256": "2cb1c081ea2d284f77862955ce08f2d366cecd044693561df205f215bfcb0f33",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/models/retrobution-20260613-dexter-logical-model-contract.json",
+      "new": "tests/fixtures/legacy/retrobution-20260613-dexter-logical-model-contract.json",
+      "sha256": "448ce1eb8f365a2a60e213bd66f7370f2d5396186c9007f9f6a525e48b712a13",
+      "currentSha256": "448ce1eb8f365a2a60e213bd66f7370f2d5396186c9007f9f6a525e48b712a13",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/models/retrobution-20260821-hostile-mob-publication.json",
+      "new": "docs/reference/evidence/legacy/ffone/models/retrobution-20260821-hostile-mob-publication.json",
+      "sha256": "08fec23df4713c3bc6fc64c62280dafa59a510f8bab1d482c0beba6168bd8037",
+      "currentSha256": "08fec23df4713c3bc6fc64c62280dafa59a510f8bab1d482c0beba6168bd8037",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/models/weapon-firing-effect-audit-20260902.json",
+      "new": "docs/reference/evidence/legacy/ffone/models/weapon-firing-effect-audit-20260902.json",
+      "sha256": "dc6cd604ea26d45ea66a87c16a99e4775b91687c0989cde2820c32cd6c975d20",
+      "currentSha256": "dc6cd604ea26d45ea66a87c16a99e4775b91687c0989cde2820c32cd6c975d20",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/models/world-tile-placeholder-finding-20260902.json",
+      "new": "docs/reference/evidence/legacy/ffone/models/world-tile-placeholder-finding-20260902.json",
+      "sha256": "0829d92a841f5b4f463aec5266bdd7a22637c4fe0f552b88b9be5d66b88f88d5",
+      "currentSha256": "0829d92a841f5b4f463aec5266bdd7a22637c4fe0f552b88b9be5d66b88f88d5",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/sources/export-reuse-regression-20260913.json",
+      "new": "docs/reference/evidence/legacy/ffone/sources/export-reuse-regression-20260913.json",
+      "sha256": "251929ea7b4d58b0e810e27e0de4db105af6dc8f97ab71b5991871e5e845e2a9",
+      "currentSha256": "251929ea7b4d58b0e810e27e0de4db105af6dc8f97ab71b5991871e5e845e2a9",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/sources/native-nano-identities-20260913.json",
+      "new": "docs/reference/evidence/legacy/ffone/sources/native-nano-identities-20260913.json",
+      "sha256": "5d593a5ac56bb3bfac9944ed1d105c6627778e209ed9d6f7858f84cecefa86fc",
+      "currentSha256": "5d593a5ac56bb3bfac9944ed1d105c6627778e209ed9d6f7858f84cecefa86fc",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/sources/reborn-cache-20260913.json",
+      "new": "docs/reference/evidence/legacy/ffone/sources/reborn-cache-20260913.json",
+      "sha256": "d29a34adcf251a6287ae7c6d297e8ac3f6fa121b0f3e19b116cda8b73e33a1c9",
+      "currentSha256": "d29a34adcf251a6287ae7c6d297e8ac3f6fa121b0f3e19b116cda8b73e33a1c9",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/sources/retro-unstable-powers-20260915.json",
+      "new": "docs/reference/evidence/legacy/ffone/sources/retro-unstable-powers-20260915.json",
+      "sha256": "6ca55560ec1672aac11b1857a99c5da4332071d20bbc618418e2f3715cc6da84",
+      "currentSha256": "6ca55560ec1672aac11b1857a99c5da4332071d20bbc618418e2f3715cc6da84",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/ui/character-creation-audio.md",
+      "new": "docs/reference/evidence/legacy/ffone/ui/character-creation-audio.md",
+      "sha256": "9483e867df21f2c2930e1cf6afcbd8a74b39e14db5a8e654d985703bcc0c30e4",
+      "currentSha256": "9483e867df21f2c2930e1cf6afcbd8a74b39e14db5a8e654d985703bcc0c30e4",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/legacy/ffone/ui/parity-matrix.json",
+      "new": "docs/reference/evidence/legacy/ffone/ui/parity-matrix.json",
+      "sha256": "034b68df09afc4ee8a22315ea633a56d64d4a4ad47eeee8f991fd20af925040e",
+      "currentSha256": "034b68df09afc4ee8a22315ea633a56d64d4a4ad47eeee8f991fd20af925040e",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/candy-cove-20260906.json",
+      "new": "docs/reference/evidence/cases/artifacts/candy-cove-20260906.json",
+      "sha256": "25ec7c4b8d5ef69e8d30d55aeeb4fb6310d9d81a21fc4f05129e64e558bd5941",
+      "currentSha256": "25ec7c4b8d5ef69e8d30d55aeeb4fb6310d9d81a21fc4f05129e64e558bd5941",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/chat-scroll-20260905-interaction.json",
+      "new": "docs/reference/evidence/cases/artifacts/chat-scroll-20260905-interaction.json",
+      "sha256": "f98291b6435545e65f57e4dfac9a85f5ea0f3f78b55647f2a754686c7d06c913",
+      "currentSha256": "f98291b6435545e65f57e4dfac9a85f5ea0f3f78b55647f2a754686c7d06c913",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/chat-scroll-20260905-owner.json",
+      "new": "docs/reference/evidence/cases/artifacts/chat-scroll-20260905-owner.json",
+      "sha256": "4410c820cdbe67f9f5c937f198996887ddba69c4c8f5671bbb0fe5a6e679b18f",
+      "currentSha256": "4410c820cdbe67f9f5c937f198996887ddba69c4c8f5671bbb0fe5a6e679b18f",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/nano-travel-20260905-assembly.json",
+      "new": "docs/reference/evidence/cases/artifacts/nano-travel-20260905-assembly.json",
+      "sha256": "7ca7adb09268d97f00ca3c494e36a822683aa3865a4ded5e56dbe25c4ab3c8c8",
+      "currentSha256": "7ca7adb09268d97f00ca3c494e36a822683aa3865a4ded5e56dbe25c4ab3c8c8",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/npc-chat-20260905-interaction.json",
+      "new": "docs/reference/evidence/cases/artifacts/npc-chat-20260905-interaction.json",
+      "sha256": "27c3e976a79cdd05dc5fdd2593a48f93752d2e257b0e2ab614b3529be3a2a5dd",
+      "currentSha256": "27c3e976a79cdd05dc5fdd2593a48f93752d2e257b0e2ab614b3529be3a2a5dd",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/npc-chat-20260905-request.json",
+      "new": "docs/reference/evidence/cases/artifacts/npc-chat-20260905-request.json",
+      "sha256": "c827be2e8cba625ca7261086904d7f9e21a24ab1e773e397c1578dc87359195b",
+      "currentSha256": "c827be2e8cba625ca7261086904d7f9e21a24ab1e773e397c1578dc87359195b",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/omniverse-types-20260905.json",
+      "new": "docs/reference/evidence/cases/artifacts/omniverse-types-20260905.json",
+      "sha256": "4cea0cb567334e31280f63a568419f9f5737f31f530740df31caabdb88ff3bc8",
+      "currentSha256": "4cea0cb567334e31280f63a568419f9f5737f31f530740df31caabdb88ff3bc8",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/eruption-animation-20260915/after-frames.json",
+      "new": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/after-frames.json",
+      "sha256": "f12b243bc24327bd574984d517e07c8988e329961824e0233aaf31f33f886dc1",
+      "currentSha256": "f12b243bc24327bd574984d517e07c8988e329961824e0233aaf31f33f886dc1",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/eruption-animation-20260915/animation.json",
+      "new": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/animation.json",
+      "sha256": "9eb2d6488ac665e752372d428ac1efd757d6b8f55b3d211b36fb68a736df5cae",
+      "currentSha256": "9eb2d6488ac665e752372d428ac1efd757d6b8f55b3d211b36fb68a736df5cae",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/eruption-animation-20260915/before-frames.json",
+      "new": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/before-frames.json",
+      "sha256": "812caac818a9c2de9cdbdb621c4e79c7efc80c06d376a5e2c11a09756c155359",
+      "currentSha256": "812caac818a9c2de9cdbdb621c4e79c7efc80c06d376a5e2c11a09756c155359",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/eruption-animation-20260915/bindings-fixed-frames.json",
+      "new": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/bindings-fixed-frames.json",
+      "sha256": "8394e99a1dcd993526a4052d4e7407f9a48385f0469fa872195413c9ad0dcc1a",
+      "currentSha256": "8394e99a1dcd993526a4052d4e7407f9a48385f0469fa872195413c9ad0dcc1a",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/eruption-animation-20260915/controller-script.json",
+      "new": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/controller-script.json",
+      "sha256": "cd176cab8bb7de56786987d31e38ea982e271ec4a1e8a35dfdb09b0714e9870c",
+      "currentSha256": "cd176cab8bb7de56786987d31e38ea982e271ec4a1e8a35dfdb09b0714e9870c",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/eruption-animation-20260915/controller.json",
+      "new": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/controller.json",
+      "sha256": "36e564f34894873055be018d829b420e2f018aed34ee4b54fd5d44ea4807b4c6",
+      "currentSha256": "36e564f34894873055be018d829b420e2f018aed34ee4b54fd5d44ea4807b4c6",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/eruption-animation-20260915/material-bindings.json",
+      "new": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/material-bindings.json",
+      "sha256": "eb9c3771e1bf19fbfc6ea7d9d72119d48100fdbe37691e47b214b92eed31d646",
+      "currentSha256": "eb9c3771e1bf19fbfc6ea7d9d72119d48100fdbe37691e47b214b92eed31d646",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/eruption-animation-20260915/nano-bindings-install.json",
+      "new": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/nano-bindings-install.json",
+      "sha256": "8cca10351e969d2e4728a26980fedff6cb8a76d77f52f4c5ce4743efec0cab81",
+      "currentSha256": "8cca10351e969d2e4728a26980fedff6cb8a76d77f52f4c5ce4743efec0cab81",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/mob-rewards-20260908/artifacts.json",
+      "new": "docs/reference/evidence/cases/artifacts/mob-rewards-20260908/artifacts.json",
+      "sha256": "ad0c2f6594c0d965e684cd443f25d7a5eb09fb08a1c9e4f7d90f3cba1fb6c1ae",
+      "currentSha256": "ad0c2f6594c0d965e684cd443f25d7a5eb09fb08a1c9e4f7d90f3cba1fb6c1ae",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/mob-rewards-20260908/interaction.json",
+      "new": "docs/reference/evidence/cases/artifacts/mob-rewards-20260908/interaction.json",
+      "sha256": "b18c997f1c4039d7225febf3c86a362d148d1fd6b0e8ed3ffa79a52e1ec5c72c",
+      "currentSha256": "b18c997f1c4039d7225febf3c86a362d148d1fd6b0e8ed3ffa79a52e1ec5c72c",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/mob-rewards-20260908/interaction.request.json",
+      "new": "docs/reference/evidence/cases/artifacts/mob-rewards-20260908/interaction.request.json",
+      "sha256": "2cc9eaad1c4dd8411a3664b3c67fffda49391f1a0a9deabfb5c7df35a89fc8f8",
+      "currentSha256": "2cc9eaad1c4dd8411a3664b3c67fffda49391f1a0a9deabfb5c7df35a89fc8f8",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/mob-rewards-20260908/label-font.json",
+      "new": "docs/reference/evidence/cases/artifacts/mob-rewards-20260908/label-font.json",
+      "sha256": "f21fa60e9a49560e11266f69f95931eae2aae1edc702f40d24998cd257de21b3",
+      "currentSha256": "f21fa60e9a49560e11266f69f95931eae2aae1edc702f40d24998cd257de21b3",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/mob-rewards-20260908/managed-evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/mob-rewards-20260908/managed-evidence.json",
+      "sha256": "7ca7adb09268d97f00ca3c494e36a822683aa3865a4ded5e56dbe25c4ab3c8c8",
+      "deduplicatedTo": "docs/reference/evidence/cases/artifacts/nano-travel-20260905-assembly.json",
+      "currentSha256": "7ca7adb09268d97f00ca3c494e36a822683aa3865a4ded5e56dbe25c4ab3c8c8",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/mob-rewards-20260908/outputs.json",
+      "new": "docs/reference/evidence/cases/artifacts/mob-rewards-20260908/outputs.json",
+      "sha256": "da89ed5b862ac07df38e1ce4507bb12b37907c54123dbe6cc75629bb347cf6d9",
+      "currentSha256": "da89ed5b862ac07df38e1ce4507bb12b37907c54123dbe6cc75629bb347cf6d9",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/mob-rewards-20260908/quest-font.json",
+      "new": "docs/reference/evidence/cases/artifacts/mob-rewards-20260908/quest-font.json",
+      "sha256": "f1b07979aa4f27315e0409bd074f460814cf58c315405348e70bf0fb423c89aa",
+      "currentSha256": "f1b07979aa4f27315e0409bd074f460814cf58c315405348e70bf0fb423c89aa",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/mob-rewards-20260908/script.json",
+      "new": "docs/reference/evidence/cases/artifacts/mob-rewards-20260908/script.json",
+      "sha256": "2ca5f1d14f8024c1deadf947a29a081e9adbb55f6c1491120c479095c81137d8",
+      "currentSha256": "2ca5f1d14f8024c1deadf947a29a081e9adbb55f6c1491120c479095c81137d8",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/mob-rewards-20260908/styles.json",
+      "new": "docs/reference/evidence/cases/artifacts/mob-rewards-20260908/styles.json",
+      "sha256": "da5a2233ce53a182bc3a7c16e5d8ada7f5ebe8b34b7ce6b0306ea4ef6d5ddb15",
+      "currentSha256": "da5a2233ce53a182bc3a7c16e5d8ada7f5ebe8b34b7ce6b0306ea4ef6d5ddb15",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/mob-rewards-20260908/visual-acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/mob-rewards-20260908/visual-acceptance.json",
+      "sha256": "a144b6858783b2079da568a7c65e20224eab1910f2e6cb78eafd846bcd80d8ab",
+      "currentSha256": "a144b6858783b2079da568a7c65e20224eab1910f2e6cb78eafd846bcd80d8ab",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/nano-dismiss-20260908/assembly.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/nano-dismiss-20260908/assembly.evidence.json",
+      "sha256": "b51cc3d224c641dee7d2e7b408cd4cdef4bb6a1f6fe3e0cd4535a6b217cbf011",
+      "currentSha256": "b51cc3d224c641dee7d2e7b408cd4cdef4bb6a1f6fe3e0cd4535a6b217cbf011",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/nano-dismiss-20260908/firstpass.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/nano-dismiss-20260908/firstpass.evidence.json",
+      "sha256": "b33603e832594cd6b00e5cc5e1cf9f02d35ce78d3000b7ad78c18013cae6d2b7",
+      "currentSha256": "b33603e832594cd6b00e5cc5e1cf9f02d35ce78d3000b7ad78c18013cae6d2b7",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/nano-station-equip/assembly.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/nano-station-equip/assembly.evidence.json",
+      "sha256": "7ca7adb09268d97f00ca3c494e36a822683aa3865a4ded5e56dbe25c4ab3c8c8",
+      "deduplicatedTo": "docs/reference/evidence/cases/artifacts/nano-travel-20260905-assembly.json",
+      "currentSha256": "7ca7adb09268d97f00ca3c494e36a822683aa3865a4ded5e56dbe25c4ab3c8c8",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/nano-station-equip/button-hover.json",
+      "new": "docs/reference/evidence/cases/artifacts/nano-station-equip/button-hover.json",
+      "sha256": "efd0468c642f01911691d509faeae2798d0863a88ffa0cf865b1424ce43728f8",
+      "currentSha256": "efd0468c642f01911691d509faeae2798d0863a88ffa0cf865b1424ce43728f8",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/nano-station-equip/button-normal.json",
+      "new": "docs/reference/evidence/cases/artifacts/nano-station-equip/button-normal.json",
+      "sha256": "180df0a737c301882fc28448c83134302fa6b7b15d5e8361afa3df4c5e72c048",
+      "currentSha256": "180df0a737c301882fc28448c83134302fa6b7b15d5e8361afa3df4c5e72c048",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/nano-station-equip/nano-machine.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/nano-station-equip/nano-machine.evidence.json",
+      "sha256": "e88830483ead467ef6ccffc5e19bf5d6addd6cf6a345593a01c9cf0d893cdb91",
+      "currentSha256": "e88830483ead467ef6ccffc5e19bf5d6addd6cf6a345593a01c9cf0d893cdb91",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/dexter-apply.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/dexter-apply.json",
+      "sha256": "6a91b92100cdef46e893c9c85e68459824c29beb501cf75eafaf7fd7f2667e8c",
+      "currentSha256": "6a91b92100cdef46e893c9c85e68459824c29beb501cf75eafaf7fd7f2667e8c",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/dexter-current.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/dexter-current.json",
+      "sha256": "757544ba534118f35bcf7649bc8d67e37b5c89b9f527c13e93bc49133470859a",
+      "currentSha256": "757544ba534118f35bcf7649bc8d67e37b5c89b9f527c13e93bc49133470859a",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/dexter-repeat.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/dexter-repeat.json",
+      "sha256": "484b7b7e0fe676cf2bf7fb0960b29099932d6e3ec58689cc6409228bcdf5db7a",
+      "currentSha256": "484b7b7e0fe676cf2bf7fb0960b29099932d6e3ec58689cc6409228bcdf5db7a",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/emote-event-contracts.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/emote-event-contracts.json",
+      "sha256": "35888e650b839d90304baaec2f43d2fb7d0ba04bfb798fa33b83610930294993",
+      "currentSha256": "35888e650b839d90304baaec2f43d2fb7d0ba04bfb798fa33b83610930294993",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/emote-events-apply-publication.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/emote-events-apply-publication.json",
+      "sha256": "f150d5d34917b763f1a9c0cc3ffba2475713cf74d8e62c9bd8a6fbf3cc243ca4",
+      "currentSha256": "f150d5d34917b763f1a9c0cc3ffba2475713cf74d8e62c9bd8a6fbf3cc243ca4",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/emote-events-check.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/emote-events-check.json",
+      "sha256": "b1ae96e4759974e6862527537d4923bbf3ae411d5ded112cd208f6dfd0b22026",
+      "currentSha256": "b1ae96e4759974e6862527537d4923bbf3ae411d5ded112cd208f6dfd0b22026",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/emote-events-publication.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/emote-events-publication.json",
+      "sha256": "6e510a4c088d8891489b27f3fd17566e632a1de148746d870516ff0b8aa98918",
+      "currentSha256": "6e510a4c088d8891489b27f3fd17566e632a1de148746d870516ff0b8aa98918",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/fixture-checks-20260918.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/fixture-checks-20260918.json",
+      "sha256": "25bdcb22d2bb4b538f5857c44b67a31b76f756d81361bff204cf8472aca4b368",
+      "currentSha256": "25bdcb22d2bb4b538f5857c44b67a31b76f756d81361bff204cf8472aca4b368",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/hnpc-clips-check-20260918.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/hnpc-clips-check-20260918.json",
+      "sha256": "942846d274ab58416498508ddcd920803ed7cb034fa88c7c1e8cd5d014f3285e",
+      "currentSha256": "942846d274ab58416498508ddcd920803ed7cb034fa88c7c1e8cd5d014f3285e",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/item-icons-alternate-20260918.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/item-icons-alternate-20260918.json",
+      "sha256": "13eaf03da1da04f758e608e95079bfd0e3d30a8bd3ecde07d46192c0afc19740",
+      "currentSha256": "13eaf03da1da04f758e608e95079bfd0e3d30a8bd3ecde07d46192c0afc19740",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/item-icons-primary-20260918.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/item-icons-primary-20260918.json",
+      "sha256": "142c6139f136c5def3018e1e6abca2ab74df37f4f818e4384623d8d4557a0856",
+      "currentSha256": "142c6139f136c5def3018e1e6abca2ab74df37f4f818e4384623d8d4557a0856",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/native-cli-audio-gaps-20260908-20260917.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-audio-gaps-20260908-20260917.json",
+      "sha256": "4ff45ee56053bf7a2a7f232920ffaa0e8347385133dbedd642c11651d7b80cf2",
+      "currentSha256": "4ff45ee56053bf7a2a7f232920ffaa0e8347385133dbedd642c11651d7b80cf2",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/native-cli-banker-fixture-apply-20260918.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-banker-fixture-apply-20260918.json",
+      "sha256": "19f08607e63b0c37619d2d842a28c797a1d3586036ebe4ce9a0fd18ea2360039",
+      "currentSha256": "19f08607e63b0c37619d2d842a28c797a1d3586036ebe4ce9a0fd18ea2360039",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/native-cli-banker-v4-20260918.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-banker-v4-20260918.json",
+      "sha256": "d7dc63c9b264ca5483555ee735b06492a7c3c9b411175c80b8e4931398e99d07",
+      "currentSha256": "d7dc63c9b264ca5483555ee735b06492a7c3c9b411175c80b8e4931398e99d07",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/native-cli-creation-check-v2-20260917.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-creation-check-v2-20260917.json",
+      "sha256": "467270cf63adc95cd9de5930f42966de3c20d762eb95d7a37f76db8ed14e65a5",
+      "currentSha256": "467270cf63adc95cd9de5930f42966de3c20d762eb95d7a37f76db8ed14e65a5",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/native-cli-game-guide-controls-20260917.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-game-guide-controls-20260917.json",
+      "sha256": "6d55ee42d6cf37334e32f63ee47aea2922180750087cda61e5c2f2257c534e65",
+      "currentSha256": "6d55ee42d6cf37334e32f63ee47aea2922180750087cda61e5c2f2257c534e65",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/native-cli-game-guide-screenshots-20260917.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-game-guide-screenshots-20260917.json",
+      "sha256": "e5d61d749a0039bb46ab6145c31b1ea408b3381231e531ed65ae09a9be6cd61f",
+      "currentSha256": "e5d61d749a0039bb46ab6145c31b1ea408b3381231e531ed65ae09a9be6cd61f",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/native-cli-hnpc-clips-20260918.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-hnpc-clips-20260918.json",
+      "sha256": "46eb1990aba935db9a4bdb6bff0263db3b552e3e5a3e1bde0cb99bebccd1a737",
+      "currentSha256": "46eb1990aba935db9a4bdb6bff0263db3b552e3e5a3e1bde0cb99bebccd1a737",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/native-cli-hnpc-clips-fixture-20260918.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-hnpc-clips-fixture-20260918.json",
+      "sha256": "78c67f2605e2b0c2f722e782e1eee9b488e1482c25aeebee4156ebeaf84d166b",
+      "currentSha256": "78c67f2605e2b0c2f722e782e1eee9b488e1482c25aeebee4156ebeaf84d166b",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/native-cli-nano-voice-fixture-apply-20260918.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-nano-voice-fixture-apply-20260918.json",
+      "sha256": "6655552955f672a390ef9c1d2fcdfb89860b9d1cd9c0a083a0ad12ccbad8049a",
+      "currentSha256": "6655552955f672a390ef9c1d2fcdfb89860b9d1cd9c0a083a0ad12ccbad8049a",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/native-cli-nano-voice-v4-20260918.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-nano-voice-v4-20260918.json",
+      "sha256": "50dd6988fe3f9dc955f2269f19a15a76391d9103ba48550791161167889a9041",
+      "currentSha256": "50dd6988fe3f9dc955f2269f19a15a76391d9103ba48550791161167889a9041",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/native-cli-nanomachine-collision-20260917.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-nanomachine-collision-20260917.json",
+      "sha256": "d40378adb37c9f71d8ce9731111c2aa98a8a1f07a54aa914e73f6bdb42d39edc",
+      "currentSha256": "d40378adb37c9f71d8ce9731111c2aa98a8a1f07a54aa914e73f6bdb42d39edc",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/native-cli-trails-v2-20260917.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-trails-v2-20260917.json",
+      "sha256": "d288f6ba96f4f7dd234d81b6f32dce3765bcf95e32824172309a8e8f94d36247",
+      "currentSha256": "d288f6ba96f4f7dd234d81b6f32dce3765bcf95e32824172309a8e8f94d36247",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/native-cli-trolley-20260917.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-trolley-20260917.json",
+      "sha256": "c958f443a714652b912e83a3bb77ad0cfd763658201f0c693e2e7cc5e6a4b90c",
+      "currentSha256": "c958f443a714652b912e83a3bb77ad0cfd763658201f0c693e2e7cc5e6a4b90c",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/player-damage-rust-publication.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/player-damage-rust-publication.json",
+      "sha256": "5c17f3975740c36e4577558b238c2fe831c8d9318e45cbb68f97466398350cda",
+      "currentSha256": "5c17f3975740c36e4577558b238c2fe831c8d9318e45cbb68f97466398350cda",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/texture-sharing-check-20260918.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/texture-sharing-check-20260918.json",
+      "sha256": "0cbf2aa34835f362eac177d99188b378c953a10679a3653fe3a5c5a6edf64aaa",
+      "currentSha256": "0cbf2aa34835f362eac177d99188b378c953a10679a3653fe3a5c5a6edf64aaa",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/texture-sharing-plan.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/texture-sharing-plan.json",
+      "sha256": "04f99a46e35c5a663300182ed009cf15b1e4abcbb5f981273efe0d8e3dab21e0",
+      "currentSha256": "04f99a46e35c5a663300182ed009cf15b1e4abcbb5f981273efe0d8e3dab21e0",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/texture-sharing-publication.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/texture-sharing-publication.json",
+      "sha256": "053350a6d894b11a24a52e9b220eb97315b65d3ed7f7724d7b8653020b18557d",
+      "currentSha256": "053350a6d894b11a24a52e9b220eb97315b65d3ed7f7724d7b8653020b18557d",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/native-cli-migration-20260917/verification-20260918.json",
+      "new": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/verification-20260918.json",
+      "sha256": "36c235d92dfb34a600725313650635b59e28e668d1956063a64af71b70620a40",
+      "currentSha256": "36c235d92dfb34a600725313650635b59e28e668d1956063a64af71b70620a40",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/option-mode-primary-vs-alternate/alternate.assembly-csharp.managed-evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/option-mode-primary-vs-alternate/alternate.assembly-csharp.managed-evidence.json",
+      "sha256": "f5f50a17c0894cd6c6a997971abab3298681adb14a743bf665bd3a7e52c73a19",
+      "currentSha256": "f5f50a17c0894cd6c6a997971abab3298681adb14a743bf665bd3a7e52c73a19",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/option-mode-primary-vs-alternate/alternate.cnOptionMode.1598.object-evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/option-mode-primary-vs-alternate/alternate.cnOptionMode.1598.object-evidence.json",
+      "sha256": "01dbe24cf44e2a5119d6371989338675db02e6f5583e540a9ad6b997e7d2a674",
+      "currentSha256": "01dbe24cf44e2a5119d6371989338675db02e6f5583e540a9ad6b997e7d2a674",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/option-mode-primary-vs-alternate/primary-vs-alternate.cnOptionMode.diff.json",
+      "new": "docs/reference/evidence/cases/artifacts/option-mode-primary-vs-alternate/primary-vs-alternate.cnOptionMode.diff.json",
+      "sha256": "b5ffeec14ed91cd3b5c3c3945335129daa6d699c115e918dad4791038d8d275a",
+      "currentSha256": "b5ffeec14ed91cd3b5c3c3945335129daa6d699c115e918dad4791038d8d275a",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/option-mode-primary-vs-alternate/primary.assembly-csharp.managed-evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/option-mode-primary-vs-alternate/primary.assembly-csharp.managed-evidence.json",
+      "sha256": "43bb97513752a4c87afe3d87b70125735c13b412e7a4b64d367c835069049400",
+      "currentSha256": "43bb97513752a4c87afe3d87b70125735c13b412e7a4b64d367c835069049400",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/option-mode-primary-vs-alternate/primary.cnOptionMode.1485.object-evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/option-mode-primary-vs-alternate/primary.cnOptionMode.1485.object-evidence.json",
+      "sha256": "e60b7806d265a3894d67128e590b014e17521413c084ca80e013fbd094e3ad3e",
+      "currentSha256": "e60b7806d265a3894d67128e590b014e17521413c084ca80e013fbd094e3ad3e",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/player-body-shape-20260912/csharp.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/player-body-shape-20260912/csharp.evidence.json",
+      "sha256": "1e614f35d4673f6d60dfdd5919bda5864cdc9a0fff15aabae2b9e901be2d7a31",
+      "currentSha256": "1e614f35d4673f6d60dfdd5919bda5864cdc9a0fff15aabae2b9e901be2d7a31",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/player-body-shape-20260912/firstpass.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/player-body-shape-20260912/firstpass.evidence.json",
+      "sha256": "395b41532e53268d7d56d5bb85d51e9ff39a56c13cad77d79ba87a7ebce0f837",
+      "currentSha256": "395b41532e53268d7d56d5bb85d51e9ff39a56c13cad77d79ba87a7ebce0f837",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/player-emotes-20260908/assembly-csharp.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/player-emotes-20260908/assembly-csharp.evidence.json",
+      "sha256": "7ca7adb09268d97f00ca3c494e36a822683aa3865a4ded5e56dbe25c4ab3c8c8",
+      "deduplicatedTo": "docs/reference/evidence/cases/artifacts/nano-travel-20260905-assembly.json",
+      "currentSha256": "7ca7adb09268d97f00ca3c494e36a822683aa3865a4ded5e56dbe25c4ab3c8c8",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/player-emotes-20260908/assembly-firstpass.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/player-emotes-20260908/assembly-firstpass.evidence.json",
+      "sha256": "dd661a29f599440469d787be497619cd047ea988781191b9e0d64b5e9ad76f43",
+      "currentSha256": "dd661a29f599440469d787be497619cd047ea988781191b9e0d64b5e9ad76f43",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/player-emotes-20260908/attack-native-validation.json",
+      "new": "docs/reference/evidence/cases/artifacts/player-emotes-20260908/attack-native-validation.json",
+      "sha256": "1a5bb3bf26b88a5d9d652e36ca4ea2f14526277b30a5092c5f99fe74f41fbba8",
+      "currentSha256": "1a5bb3bf26b88a5d9d652e36ca4ea2f14526277b30a5092c5f99fe74f41fbba8",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/player-emotes-20260908/clip-events.json",
+      "new": "docs/reference/evidence/cases/artifacts/player-emotes-20260908/clip-events.json",
+      "sha256": "986c3f6da1c70b8415d529c17729939a13caec39dd4e5e3c204030dbe71144c0",
+      "currentSha256": "986c3f6da1c70b8415d529c17729939a13caec39dd4e5e3c204030dbe71144c0",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/player-emotes-20260908/managed-consumers.json",
+      "new": "docs/reference/evidence/cases/artifacts/player-emotes-20260908/managed-consumers.json",
+      "sha256": "ea35cdc38b149746265ccde27e629b74c20a2f2f8662e77baae09aa5fb6bc187",
+      "currentSha256": "ea35cdc38b149746265ccde27e629b74c20a2f2f8662e77baae09aa5fb6bc187",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/retrobution-ui-completion-20260907/acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/retrobution-ui-completion-20260907/acceptance.json",
+      "sha256": "ab492e0235db082f7ead16c26dd60e0dc791bcf3780709885d6ab976ded8bc1c",
+      "currentSha256": "ab492e0235db082f7ead16c26dd60e0dc791bcf3780709885d6ab976ded8bc1c",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/retrobution-ui-completion-20260907/combat-notice.json",
+      "new": "docs/reference/evidence/cases/artifacts/retrobution-ui-completion-20260907/combat-notice.json",
+      "sha256": "2b2be70770a8e1a27f13a6f5aa2f166aaa9b947edfc03344eb131df5f693d2a5",
+      "currentSha256": "2b2be70770a8e1a27f13a6f5aa2f166aaa9b947edfc03344eb131df5f693d2a5",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/retrobution-ui-completion-20260907/firstpass-managed.json",
+      "new": "docs/reference/evidence/cases/artifacts/retrobution-ui-completion-20260907/firstpass-managed.json",
+      "sha256": "c6bc1fee037e5075469ed9f7e8f2a4d0436a5ebdee62af31c29a7fdcf17121b2",
+      "currentSha256": "c6bc1fee037e5075469ed9f7e8f2a4d0436a5ebdee62af31c29a7fdcf17121b2",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/retrobution-ui-completion-20260907/group-info.json",
+      "new": "docs/reference/evidence/cases/artifacts/retrobution-ui-completion-20260907/group-info.json",
+      "sha256": "5af5afd44ebd5b0a81dee1492805d6e3f85fee9f8ca344dbd6958c04f7a56b00",
+      "currentSha256": "5af5afd44ebd5b0a81dee1492805d6e3f85fee9f8ca344dbd6958c04f7a56b00",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/retrobution-ui-completion-20260907/interaction-request.json",
+      "new": "docs/reference/evidence/cases/artifacts/retrobution-ui-completion-20260907/interaction-request.json",
+      "sha256": "71c5dcd38f5b8fb2debfcaba0b649987294b09e3a64db8387dcdf970be130b36",
+      "currentSha256": "71c5dcd38f5b8fb2debfcaba0b649987294b09e3a64db8387dcdf970be130b36",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/retrobution-ui-completion-20260907/interaction.json",
+      "new": "docs/reference/evidence/cases/artifacts/retrobution-ui-completion-20260907/interaction.json",
+      "sha256": "fd331d1a0abe35ce4d7978f024412f5b01d7193df2718a4d468ae083bd6ccfc6",
+      "currentSha256": "fd331d1a0abe35ce4d7978f024412f5b01d7193df2718a4d468ae083bd6ccfc6",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/retrobution-ui-completion-20260907/map-native-audit.json",
+      "new": "docs/reference/evidence/cases/artifacts/retrobution-ui-completion-20260907/map-native-audit.json",
+      "sha256": "2435d926511a6ad574a3c8ac39750bf3ef2e416e6db309c64c99efbf47d64b5f",
+      "currentSha256": "2435d926511a6ad574a3c8ac39750bf3ef2e416e6db309c64c99efbf47d64b5f",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/retrobution-ui-completion-20260907/nano-info.json",
+      "new": "docs/reference/evidence/cases/artifacts/retrobution-ui-completion-20260907/nano-info.json",
+      "sha256": "27cb3d4efb4e57b80b9a22d01cc4c31db7f178c4ac6de839eafd5c93d1b7ef61",
+      "currentSha256": "27cb3d4efb4e57b80b9a22d01cc4c31db7f178c4ac6de839eafd5c93d1b7ef61",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/retrobution-ui-completion-20260907/nanocom.json",
+      "new": "docs/reference/evidence/cases/artifacts/retrobution-ui-completion-20260907/nanocom.json",
+      "sha256": "cc4353399c9e88a9c8c656fe5da8fe246007bd916d4b0ce3a8de964b9ea8b6bf",
+      "currentSha256": "cc4353399c9e88a9c8c656fe5da8fe246007bd916d4b0ce3a8de964b9ea8b6bf",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/retrobution-ui-completion-20260907/player-info.json",
+      "new": "docs/reference/evidence/cases/artifacts/retrobution-ui-completion-20260907/player-info.json",
+      "sha256": "6b41ef5db3ec339523eef204a1dd73ebc1e294a3bbcc89c04f8e158e543361fe",
+      "currentSha256": "6b41ef5db3ec339523eef204a1dd73ebc1e294a3bbcc89c04f8e158e543361fe",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/retrobution-ui-completion-20260907/primary-managed.json",
+      "new": "docs/reference/evidence/cases/artifacts/retrobution-ui-completion-20260907/primary-managed.json",
+      "sha256": "6e4b88b02a34add4a3559b903a389af5963caaf48d1f6fd221631469b3d6f2a3",
+      "currentSha256": "6e4b88b02a34add4a3559b903a389af5963caaf48d1f6fd221631469b3d6f2a3",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/retrobution-ui-completion-20260907/quit.json",
+      "new": "docs/reference/evidence/cases/artifacts/retrobution-ui-completion-20260907/quit.json",
+      "sha256": "88eac0f99a79f8179cb516bb16a8f7991c4d817a7558abdb8518d16a23cdd5e6",
+      "currentSha256": "88eac0f99a79f8179cb516bb16a8f7991c4d817a7558abdb8518d16a23cdd5e6",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/retrobution-ui-completion-20260907/target-info.json",
+      "new": "docs/reference/evidence/cases/artifacts/retrobution-ui-completion-20260907/target-info.json",
+      "sha256": "4315180d7d304bb2e345fd7247f763b0df1903de2a61a97e92fc001a8254d2aa",
+      "currentSha256": "4315180d7d304bb2e345fd7247f763b0df1903de2a61a97e92fc001a8254d2aa",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/retrobution-ui-completion-20260907/text-changes.json",
+      "new": "docs/reference/evidence/cases/artifacts/retrobution-ui-completion-20260907/text-changes.json",
+      "sha256": "cee2726bc7e5d59c3542a19bf0905f3742d5bc1f26957e20144257aee620e04d",
+      "currentSha256": "cee2726bc7e5d59c3542a19bf0905f3742d5bc1f26957e20144257aee620e04d",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/retrobution-ui-completion-20260907/world-map.json",
+      "new": "docs/reference/evidence/cases/artifacts/retrobution-ui-completion-20260907/world-map.json",
+      "sha256": "0c3868a32223b861eb6d511f7f228666c59c47eba35f879727a667410b1fb505",
+      "currentSha256": "0c3868a32223b861eb6d511f7f228666c59c47eba35f879727a667410b1fb505",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/reward-status-20260910/cnDisplayMapName.cs",
+      "new": "docs/reference/evidence/cases/artifacts/reward-status-20260910/cnDisplayMapName.cs",
+      "sha256": "dd6a8cf6984b64d6ad1b5a249902165cb888c5511dd3d6a9c642ab770719fb01",
+      "currentSha256": "dd6a8cf6984b64d6ad1b5a249902165cb888c5511dd3d6a9c642ab770719fb01",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/reward-status-20260910/evidence-hashes.json",
+      "new": "docs/reference/evidence/cases/artifacts/reward-status-20260910/evidence-hashes.json",
+      "sha256": "e4eab0e3a7f797813a22373698aec0fa0fbf28850f1398d36114007bbacd4a8c",
+      "currentSha256": "1dfc5f2815a3d6ad6cd08f71f6121662942850f9f7dce7e3c0ebcc749bb46c46",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/artifacts/reward-status-20260910/interaction.json",
+      "new": "docs/reference/evidence/cases/artifacts/reward-status-20260910/interaction.json",
+      "sha256": "fc0312807458ec655c2fda63de2951778a05612d07e052b536b90e8d4c544fba",
+      "currentSha256": "fc0312807458ec655c2fda63de2951778a05612d07e052b536b90e8d4c544fba",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/reward-status-20260910/outputs.json",
+      "new": "docs/reference/evidence/cases/artifacts/reward-status-20260910/outputs.json",
+      "sha256": "c8799ddb4b81d8ec986365f8cd35ed290d03b5c83c8e16e20db26ff0ec10c156",
+      "currentSha256": "c8799ddb4b81d8ec986365f8cd35ed290d03b5c83c8e16e20db26ff0ec10c156",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/bank-delete-acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/bank-delete-acceptance.json",
+      "sha256": "c7ff96d662d6154c7ebcbdaff3222bced367b7ccb5475d6d723cf696ca59d902",
+      "currentSha256": "764cf44b8d6da5d6fe8479daf7101f5de9d4673203118aeaf5096117ecd2a606",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/bank-item-popup-acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/bank-item-popup-acceptance.json",
+      "sha256": "fef6ea09a38e64acf6a79ef9612aed6d0380cede9a7b3dce21ea3ab359cb7917",
+      "currentSha256": "fef6ea09a38e64acf6a79ef9612aed6d0380cede9a7b3dce21ea3ab359cb7917",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/bank-pointer-acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/bank-pointer-acceptance.json",
+      "sha256": "a655b19abae550b4d15696905150b571031dd3ec9c217f3c43e666fdf457b00b",
+      "currentSha256": "19bcd1d95befd4cb70a48a512e652e8047e17e6387d7db958446b14b3dcb8e2d",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/bank-shared-redeem-acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/bank-shared-redeem-acceptance.json",
+      "sha256": "03884fe475742ca4a9db3ae4a25327901003008fcc4a58efbd8cfa676c447c3b",
+      "currentSha256": "03884fe475742ca4a9db3ae4a25327901003008fcc4a58efbd8cfa676c447c3b",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/card-details-acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/card-details-acceptance.json",
+      "sha256": "fd94e3fab2526398ff226bc35978687970fcd47b35a80b05ad9dbed6dd301d0e",
+      "currentSha256": "fd94e3fab2526398ff226bc35978687970fcd47b35a80b05ad9dbed6dd301d0e",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/card-semantics-acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/card-semantics-acceptance.json",
+      "sha256": "68d219f21e7c659c8fb757eb3f9d9e1f19cac6a52d9003e2ffa1004cda64bd84",
+      "currentSha256": "68d219f21e7c659c8fb757eb3f9d9e1f19cac6a52d9003e2ffa1004cda64bd84",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/chat-input-owner.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/chat-input-owner.evidence.json",
+      "sha256": "4410c820cdbe67f9f5c937f198996887ddba69c4c8f5671bbb0fe5a6e679b18f",
+      "deduplicatedTo": "docs/reference/evidence/cases/artifacts/chat-scroll-20260905-owner.json",
+      "currentSha256": "4410c820cdbe67f9f5c937f198996887ddba69c4c8f5671bbb0fe5a6e679b18f",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/combi-camera-render.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/combi-camera-render.evidence.json",
+      "sha256": "a91e3145b796e541e961f8b229baae7d63e5684bf34099c99ed2365bfc92a0da",
+      "currentSha256": "a91e3145b796e541e961f8b229baae7d63e5684bf34099c99ed2365bfc92a0da",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/combi-camera.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/combi-camera.evidence.json",
+      "sha256": "fcb646459eb98a05c3badf858cfbe17cc04eacc2637e65dbcb7daeb1d44ffcdd",
+      "currentSha256": "fcb646459eb98a05c3badf858cfbe17cc04eacc2637e65dbcb7daeb1d44ffcdd",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/combined-presentation-acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/combined-presentation-acceptance.json",
+      "sha256": "668968a89ce6d81e6c0681a69e271a4c0a009956110efa7cf9dbea0aa5c3c6ab",
+      "currentSha256": "668968a89ce6d81e6c0681a69e271a4c0a009956110efa7cf9dbea0aa5c3c6ab",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/enchant-camera.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/enchant-camera.evidence.json",
+      "sha256": "b9d462a84b21b430f9e8260951273455f3a70f8f956970670f1290eecec00f17",
+      "currentSha256": "b9d462a84b21b430f9e8260951273455f3a70f8f956970670f1290eecec00f17",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/item-card-completion-acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/item-card-completion-acceptance.json",
+      "sha256": "5059b4807917d477298f9637c794fd1e9d143c9cee0a93c59d86b505ad35a16c",
+      "currentSha256": "5059b4807917d477298f9637c794fd1e9d143c9cee0a93c59d86b505ad35a16c",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/manifest.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/manifest.json",
+      "sha256": "ad2d370fd811f3140f5fa15dbbeeabe4d9e27bb0fa505bfb448579221554a411",
+      "currentSha256": "e6f0daee05d4c591cef339153a4bc35193b488891497db59ef88785416532438",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/runtime-acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/runtime-acceptance.json",
+      "sha256": "415129e1db8ab4b4cfe9fe927f8734cd9df4dcb0db14ebf49f9997fc590c8211",
+      "currentSha256": "415129e1db8ab4b4cfe9fe927f8734cd9df4dcb0db14ebf49f9997fc590c8211",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/service-1154.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/service-1154.evidence.json",
+      "sha256": "b9e04840fe2e1de2b220e90e842ef9c888627df6759f172acb9641e4a5c18a20",
+      "currentSha256": "b9e04840fe2e1de2b220e90e842ef9c888627df6759f172acb9641e4a5c18a20",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/service-1480.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/service-1480.evidence.json",
+      "sha256": "2d4ff043575392ce750252c052a69cac4428ee6808e28965bf7cbfd0d33cc4ff",
+      "currentSha256": "2d4ff043575392ce750252c052a69cac4428ee6808e28965bf7cbfd0d33cc4ff",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/service-1482.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/service-1482.evidence.json",
+      "sha256": "0dade49b805a232adb675b6cedafdfcce38e4a4d4505fdebc7308867050e6245",
+      "currentSha256": "0dade49b805a232adb675b6cedafdfcce38e4a4d4505fdebc7308867050e6245",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/service-1483.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/service-1483.evidence.json",
+      "sha256": "aafc084effc55bd78612f71d881290b5dc724ac206ec55edee578f4e1cce4d74",
+      "currentSha256": "aafc084effc55bd78612f71d881290b5dc724ac206ec55edee578f4e1cce4d74",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/service-1494.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/service-1494.evidence.json",
+      "sha256": "03c4767708c00bb8bc23a86057f68189ab73bb87b01f2e7a89be618b64b7abeb",
+      "currentSha256": "03c4767708c00bb8bc23a86057f68189ab73bb87b01f2e7a89be618b64b7abeb",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/service-1495.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/service-1495.evidence.json",
+      "sha256": "bbc645964225957140ca7414c0d2217aca1cf7e8ef8eb3f2bb32d03f6f491516",
+      "currentSha256": "bbc645964225957140ca7414c0d2217aca1cf7e8ef8eb3f2bb32d03f6f491516",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/ui-gap-audit-20260907.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/ui-gap-audit-20260907.json",
+      "sha256": "cfcf4a964524cca2e37a3eae536ac52312c2a5c42cae61c016ecb71420701cc9",
+      "currentSha256": "d9d265939a2418e997a78793cb75b8b8c850a0d664bfadf8a9490cbd6360a3a3",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/vendor-card-localization-acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-card-localization-acceptance.json",
+      "sha256": "518adab40cfbdf9629a29278c31ae6fd8b53e02df9c22f31743ab62980327725",
+      "currentSha256": "518adab40cfbdf9629a29278c31ae6fd8b53e02df9c22f31743ab62980327725",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/vendor-chest-acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-chest-acceptance.json",
+      "sha256": "14b5b0c3e35ed1116318862821c497df622bcddf253bbb8e8a2a36e2b58f833c",
+      "currentSha256": "14b5b0c3e35ed1116318862821c497df622bcddf253bbb8e8a2a36e2b58f833c",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/vendor-help-acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-help-acceptance.json",
+      "sha256": "8724286311b8404c51215a22671ad3db3346632e3c757ad2f1fae0818c6762dd",
+      "currentSha256": "8724286311b8404c51215a22671ad3db3346632e3c757ad2f1fae0818c6762dd",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/vendor-tryon-acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-tryon-acceptance.json",
+      "sha256": "ca8c8f9ac057733b5899dd937ef8fbedd4e9eea66edd7fd889e086fb1d1101ca",
+      "currentSha256": "ca8c8f9ac057733b5899dd937ef8fbedd4e9eea66edd7fd889e086fb1d1101ca",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/world-visual-regressions-20260913/nano-shader-2210.json",
+      "new": "docs/reference/evidence/cases/artifacts/world-visual-regressions-20260913/nano-shader-2210.json",
+      "sha256": "594fef3ed6b3d13b4d6bfa997aaac3e83d2e8b8f04d88b7b3d94df2dcd7cf074",
+      "currentSha256": "594fef3ed6b3d13b4d6bfa997aaac3e83d2e8b8f04d88b7b3d94df2dcd7cf074",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/world-visual-regressions-20260913/nano-shader-2212.json",
+      "new": "docs/reference/evidence/cases/artifacts/world-visual-regressions-20260913/nano-shader-2212.json",
+      "sha256": "9e11fa9fd257d9731719630fe111e35b7ad92e552b0d321855351063494b56da",
+      "currentSha256": "9e11fa9fd257d9731719630fe111e35b7ad92e552b0d321855351063494b56da",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/world-visual-regressions-20260913/ship-vortex-animation.json",
+      "new": "docs/reference/evidence/cases/artifacts/world-visual-regressions-20260913/ship-vortex-animation.json",
+      "sha256": "85299b45e40fd5bce276b53dd8a2972d848328e98b0d3e4fdbc40027a932e8d1",
+      "currentSha256": "85299b45e40fd5bce276b53dd8a2972d848328e98b0d3e4fdbc40027a932e8d1",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/world-visual-regressions-20260913/ship-vortex-clip.json",
+      "new": "docs/reference/evidence/cases/artifacts/world-visual-regressions-20260913/ship-vortex-clip.json",
+      "sha256": "2d9b18d557fd7c84b431b4434f85d8b9a374e1577e2bd788be85b9ff39fc955c",
+      "currentSha256": "2d9b18d557fd7c84b431b4434f85d8b9a374e1577e2bd788be85b9ff39fc955c",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/world-visual-regressions-20260913/vortex-shader.json",
+      "new": "docs/reference/evidence/cases/artifacts/world-visual-regressions-20260913/vortex-shader.json",
+      "sha256": "f8c6086a698d45fd94317550440184ffe1b04c3d041b4d0b437272c4b6e33b62",
+      "currentSha256": "f8c6086a698d45fd94317550440184ffe1b04c3d041b4d0b437272c4b6e33b62",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/service-controls/acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/service-controls/acceptance.json",
+      "sha256": "d55ee07e4e7bc42b051cf6e7c30542f75d941f90b5e9729c2e31c434cdff7663",
+      "currentSha256": "d55ee07e4e7bc42b051cf6e7c30542f75d941f90b5e9729c2e31c434cdff7663",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/vendor-portrait/acceptance.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-portrait/acceptance.json",
+      "sha256": "0732e7c63d98ff9a38af9ff7f0102a28fd51fc98c37e13aad5e2761c42fee1cf",
+      "currentSha256": "53182f2f7fa493883c4c184d95762dd045076a3c84364e092deb1c202a1cfbf6",
+      "relocationChangedReferenceText": true
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/vendor-portrait/vendor-1411.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-portrait/vendor-1411.evidence.json",
+      "sha256": "653add975f02ace4481f70a67a4a25eb1895e97061dbd135b8831f839e3b8f77",
+      "currentSha256": "653add975f02ace4481f70a67a4a25eb1895e97061dbd135b8831f839e3b8f77",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/vendor-portrait/vendor-bound-camera.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-portrait/vendor-bound-camera.evidence.json",
+      "sha256": "563cb1f70c74e039e50c0a5ea64f58ccbfeb10bdc4214a715b919de36be1579d",
+      "currentSha256": "563cb1f70c74e039e50c0a5ea64f58ccbfeb10bdc4214a715b919de36be1579d",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/vendor-portrait/vendor-bound-owner.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-portrait/vendor-bound-owner.evidence.json",
+      "sha256": "f78c94bbeda806913eeed317519e786ab8bdf4dca851e3a391456c8915860429",
+      "currentSha256": "f78c94bbeda806913eeed317519e786ab8bdf4dca851e3a391456c8915860429",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/vendor-portrait/vendor-bound-pose.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-portrait/vendor-bound-pose.evidence.json",
+      "sha256": "7edf4d5e5c0420605efae42c9aaab4c83ebad983d94c1de39f2b6d884e562ec8",
+      "currentSha256": "7edf4d5e5c0420605efae42c9aaab4c83ebad983d94c1de39f2b6d884e562ec8",
+      "relocationChangedReferenceText": false
+    },
+    {
+      "old": "evidence/cases/artifacts/shared-ui-owners/vendor-portrait/vendor-owner.evidence.json",
+      "new": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-portrait/vendor-owner.evidence.json",
+      "sha256": "17443900b80409c946ff982a8062dd422421c8d5aba96f5257eb602b339439be",
+      "currentSha256": "17443900b80409c946ff982a8062dd422421c8d5aba96f5257eb602b339439be",
+      "relocationChangedReferenceText": false
+    }
+  ]
+}

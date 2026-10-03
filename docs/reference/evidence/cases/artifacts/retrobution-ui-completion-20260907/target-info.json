@@ -1,0 +1,501 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 114,
+    "name": "",
+    "pathId": 1560,
+    "rawBytes": 488,
+    "rawSha256": "00b8d44d41b9abdd7f3cfd38770e5db5f69eaaa7cdfa7b1c82a1571300d2af11",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "MonoBehaviour",
+    "typeId": -78,
+    "value": {
+      "ABCEffect": [
+        {
+          "fileId": 0,
+          "pathId": 417
+        },
+        {
+          "fileId": 0,
+          "pathId": 349
+        },
+        {
+          "fileId": 0,
+          "pathId": 588
+        }
+      ],
+      "ABCEffect_Rect": {
+        "height": 72.0,
+        "width": 58.0,
+        "x": 6.0,
+        "y": -13.0
+      },
+      "ABCIcon": [
+        {
+          "fileId": 0,
+          "pathId": 503
+        },
+        {
+          "fileId": 0,
+          "pathId": 542
+        },
+        {
+          "fileId": 0,
+          "pathId": 335
+        }
+      ],
+      "ABCIcon_Rect": {
+        "height": 21.0,
+        "width": 21.0,
+        "x": 28.0,
+        "y": 53.0
+      },
+      "ABC_Win": [
+        {
+          "fileId": 0,
+          "pathId": 160
+        },
+        {
+          "fileId": 0,
+          "pathId": 509
+        },
+        {
+          "fileId": 0,
+          "pathId": 286
+        }
+      ],
+      "DangerTexture": {
+        "fileId": 0,
+        "pathId": 607
+      },
+      "DiskFrontTexture": {
+        "fileId": 0,
+        "pathId": 43
+      },
+      "FreeChatRect": {
+        "height": 14.0,
+        "width": 18.0,
+        "x": 3.0,
+        "y": 10.0
+      },
+      "FreeChatTexture": {
+        "fileId": 0,
+        "pathId": 76
+      },
+      "InfoAvatar": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "NanoRect": {
+        "height": 29.0,
+        "width": 154.0,
+        "x": 101.0,
+        "y": 38.0
+      },
+      "RenderNano": 0,
+      "Skill_icon": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "UserCamera": {
+        "fileId": 0,
+        "pathId": 1344
+      },
+      "WindowMobRect": {
+        "height": 66.0,
+        "width": 290.0,
+        "x": 0.0,
+        "y": 5.0
+      },
+      "WindowUserRect": {
+        "height": 66.0,
+        "width": 255.0,
+        "x": 0.0,
+        "y": 5.0
+      },
+      "backMobTexture": {
+        "fileId": 0,
+        "pathId": 492
+      },
+      "backNanoTexture": {
+        "fileId": 0,
+        "pathId": 53
+      },
+      "backNpcTexture": {
+        "fileId": 0,
+        "pathId": 666
+      },
+      "backUserTexture": {
+        "fileId": 0,
+        "pathId": 302
+      },
+      "barTexture": {
+        "fileId": 0,
+        "pathId": 114
+      },
+      "displaytype": 0,
+      "hpRect": {
+        "height": 4.0,
+        "width": 186.0,
+        "x": 58.0,
+        "y": 22.0
+      },
+      "hpValue": 0.5,
+      "iconRect": {
+        "height": 64.0,
+        "width": 64.0,
+        "x": 5.0,
+        "y": -3.0
+      },
+      "level_textRect": {
+        "height": 20.0,
+        "width": 60.0,
+        "x": 90.0,
+        "y": 23.0
+      },
+      "level_textString": "10",
+      "m_Enabled": true,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 1352
+      },
+      "m_Name": "",
+      "m_Script": {
+        "fileId": 0,
+        "pathId": 999
+      },
+      "mob_hpRect": {
+        "height": 4.0,
+        "width": 199.0,
+        "x": 58.0,
+        "y": 22.0
+      },
+      "mop_SkillRect": {
+        "height": 26.0,
+        "width": 26.0,
+        "x": 260.0,
+        "y": 7.0
+      },
+      "name_Rect": {
+        "height": 20.0,
+        "width": 190.0,
+        "x": 70.0,
+        "y": 0.0
+      },
+      "name_String": "monster",
+      "nano_SkillRect": {
+        "height": 26.0,
+        "width": 26.0,
+        "x": 226.0,
+        "y": 40.0
+      },
+      "nano_hpRect": {
+        "height": 4.0,
+        "width": 104.0,
+        "x": 119.0,
+        "y": 57.0
+      },
+      "nano_hpValue": 1.0,
+      "nanoname": "nano",
+      "nanoname_Rect": {
+        "height": 20.0,
+        "width": 100.0,
+        "x": 121.0,
+        "y": 35.0
+      },
+      "pMenuSkin": {
+        "fileId": 0,
+        "pathId": 1372
+      }
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/ABCEffect/0",
+      "fileId": 0,
+      "pathId": 417,
+      "status": "resolved",
+      "target": {
+        "pathId": 417,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ABCEffect/1",
+      "fileId": 0,
+      "pathId": 349,
+      "status": "resolved",
+      "target": {
+        "pathId": 349,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ABCEffect/2",
+      "fileId": 0,
+      "pathId": 588,
+      "status": "resolved",
+      "target": {
+        "pathId": 588,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ABCIcon/0",
+      "fileId": 0,
+      "pathId": 503,
+      "status": "resolved",
+      "target": {
+        "pathId": 503,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ABCIcon/1",
+      "fileId": 0,
+      "pathId": 542,
+      "status": "resolved",
+      "target": {
+        "pathId": 542,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ABCIcon/2",
+      "fileId": 0,
+      "pathId": 335,
+      "status": "resolved",
+      "target": {
+        "pathId": 335,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ABC_Win/0",
+      "fileId": 0,
+      "pathId": 160,
+      "status": "resolved",
+      "target": {
+        "pathId": 160,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ABC_Win/1",
+      "fileId": 0,
+      "pathId": 509,
+      "status": "resolved",
+      "target": {
+        "pathId": 509,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ABC_Win/2",
+      "fileId": 0,
+      "pathId": 286,
+      "status": "resolved",
+      "target": {
+        "pathId": 286,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/DangerTexture",
+      "fileId": 0,
+      "pathId": 607,
+      "status": "resolved",
+      "target": {
+        "pathId": 607,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/DiskFrontTexture",
+      "fileId": 0,
+      "pathId": 43,
+      "status": "resolved",
+      "target": {
+        "pathId": 43,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/FreeChatTexture",
+      "fileId": 0,
+      "pathId": 76,
+      "status": "resolved",
+      "target": {
+        "pathId": 76,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/InfoAvatar",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/Skill_icon",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/UserCamera",
+      "fileId": 0,
+      "pathId": 1344,
+      "status": "resolved",
+      "target": {
+        "pathId": 1344,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/backMobTexture",
+      "fileId": 0,
+      "pathId": 492,
+      "status": "resolved",
+      "target": {
+        "pathId": 492,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/backNanoTexture",
+      "fileId": 0,
+      "pathId": 53,
+      "status": "resolved",
+      "target": {
+        "pathId": 53,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/backNpcTexture",
+      "fileId": 0,
+      "pathId": 666,
+      "status": "resolved",
+      "target": {
+        "pathId": 666,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/backUserTexture",
+      "fileId": 0,
+      "pathId": 302,
+      "status": "resolved",
+      "target": {
+        "pathId": 302,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/barTexture",
+      "fileId": 0,
+      "pathId": 114,
+      "status": "resolved",
+      "target": {
+        "pathId": 114,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 1352,
+      "status": "resolved",
+      "target": {
+        "pathId": 1352,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Script",
+      "fileId": 0,
+      "pathId": 999,
+      "status": "resolved",
+      "target": {
+        "pathId": 999,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoScript"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/pMenuSkin",
+      "fileId": 0,
+      "pathId": 1372,
+      "status": "resolved",
+      "target": {
+        "pathId": 1372,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

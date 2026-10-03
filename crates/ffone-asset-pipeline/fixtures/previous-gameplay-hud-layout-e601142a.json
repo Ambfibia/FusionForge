@@ -1,0 +1,92 @@
+{
+  "schema": "ffone.legacy-gameplay-hud-layout.v1",
+  "referenceResolution": [1280, 720],
+  "coordinateSystem": "top-left origin, +x right, +y down, Unity IMGUI pixel rectangles",
+  "sourceBuild": "retrobution-20260613",
+  "referenceScreenshot": "work/retrobution-reference-20260717/after-enter-click.png",
+  "layers": [
+    {
+      "name": "player_status",
+      "sourceComponent": "CnGuiCharacter_info",
+      "pivot": "top_left",
+      "rect": [0, 6, 255, 66],
+      "children": {
+        "name": [60, 1, 190, 20],
+        "level": [90, 24, 60, 20],
+        "health": [58, 23, 186, 4],
+        "portrait": [7, 0, 50, 60],
+        "disk_front": [1, 49, 69, 23],
+        "free_chat": [3, 10, 19, 14]
+      }
+    },
+    {
+      "name": "minimap",
+      "sourceComponent": "cnGUINanocom",
+      "pivot": "top_right",
+      "rect": [1093, 0, 187, 183],
+      "children": {
+        "map": [14, 12, 148, 148],
+        "frame": [7, -4, 187, 183],
+        "map_name": [30, 120, 120, 60]
+      }
+    },
+    {
+      "name": "tutorial_mouse_right",
+      "sourceComponent": "cntutorialscript.BasicMoveEvent",
+      "pivot": "bottom_left",
+      "children": {
+        "mouse": [80, 370, 116, 154],
+        "right_arrow": [186, 415, 88, 69],
+        "instruction": [0, 180, 1280, 60]
+      }
+    },
+    {
+      "name": "chat",
+      "sourceComponent": "CnGuiChat.initLargeChatStyle",
+      "pivot": "bottom_left",
+      "rect": [0, 570, 460, 150],
+      "children": {
+        "message_area": [0, 13, 440, 120],
+        "entry_area": [-10, 115, 464, 40],
+        "menu_button": [9, 122, 31, 19],
+        "emote_button": [44, 122, 31, 19],
+        "text_field": [78, 122, 288, 23],
+        "send_button": [356, 122, 72, 23],
+        "tab_all": [-30, 0, 135, 14],
+        "tab_group": [230, 0, 135, 14],
+        "tab_buddy": [98, 0, 135, 14],
+        "log_clip": [16, 21, 412, 88]
+      }
+    },
+    {
+      "name": "nano_slots",
+      "sourceComponent": "cnNanoWheel",
+      "pivot": "bottom_right",
+      "rect": [1037, 673, 223, 37]
+    }
+  ],
+  "styles": {
+    "font": {
+      "legacyName": "ChaletBook-Regular",
+      "path": "fonts/chaletbook-regular.ttf"
+    },
+    "chat": [
+      "darkenedChatArea",
+      "largeChatTab",
+      "largeChatTab_sel",
+      "chatEntryArea",
+      "largeChatTextField",
+      "BlueButton"
+    ],
+    "tutorial": ["BigFont16"],
+    "nano": ["centerbox3"],
+    "minimap": ["centerbox2"],
+    "player": ["expbar"]
+  },
+  "knownDynamicSurfaces": {
+    "portrait": "offscreen native 3D avatar render target; never replace with a static bitmap",
+    "minimap": "one of all_minimap_01 through all_minimap_16 sampled by exact RenderMaps tile math, rotated by avatar yaw and clipped by nanocom_minimap_a",
+    "chat": "network/tutorial/system messages bound through the neutral GameplayUiModel",
+    "nano_slots": "slot portraits, skill icons, stamina, cooldown and selection are runtime state"
+  }
+}

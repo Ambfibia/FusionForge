@@ -1,0 +1,102 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "academy-johnny-bravo-power-voices-20260914",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "alternate",
+    "relativeContainer": "Nano_040.resourceFile",
+    "containerBytes": 483479,
+    "containerSha256": "95f216c68291eee28be6ddcdb0d66bf38d7c9cecf3a7fb2f415cbc5d57f4fd25",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-Nano_040",
+        "type": "Animation",
+        "pathId": 352635534,
+        "trueName": "",
+        "rawSha256": "8f7024789de7cf2be3d4b21e4854a8ff4e0b08412573ccb6345e1800b3a832fc",
+        "pointerContext": "Animation owner 352635534 /m_Animations; exact resolved AudioClip and AnimationClip identities in work/cases/academy-voice-20260914/owner.json"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-Nano_040",
+        "type": "AnimationClip",
+        "pathId": 840379773,
+        "trueName": "skill2",
+        "rawSha256": "f5ef6bdc9c798a30a3abb0868e0a5b71545c50fd8b742362c5e9c6a595d0320c",
+        "pointerContext": "Animation owner 352635534 /m_Animations; exact resolved AudioClip and AnimationClip identities in work/cases/academy-voice-20260914/owner.json"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-Nano_040",
+        "type": "AnimationClip",
+        "pathId": 3606557902,
+        "trueName": "skill3",
+        "rawSha256": "76fe59eb593f6db0977b37f10f2c1cd3b9d3166db6fb8ec9f88e1dd6f64e830d",
+        "pointerContext": "Animation owner 352635534 /m_Animations; exact resolved AudioClip and AnimationClip identities in work/cases/academy-voice-20260914/owner.json"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "append-exact-donor-clips-preserving-native-render-assets",
+    "tool": "crates/ffone-asset-pipeline/src/bin/append_model_animations.rs",
+    "toolRevision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working-tree SHA-256 46ac4d1ec90f23552c2f7e70a955b3e047eb6569d894d989d5e1de35f1c4246d",
+    "workingDirectory": "FFClientEditor",
+    "commands": [
+      "work/build/debug/fusionforge.exe index-client ../builds/OG-academy work/sources/alternate",
+      "work/build/debug/fusionforge.exe export-logical-model-source ../builds/OG-academy/Nano_040.resourceFile nano/nano_johnnybravo.kfm work/cases/academy-voice-20260914/johnny.source.json work/sources/alternate",
+      "work/build/debug/ffone-asset-pipeline.exe publish-logical-model work/cases/academy-voice-20260914/johnny.source.json nano work/cases/academy-voice-20260914/donor-a",
+      "cargo build -p ffone-asset-pipeline --bin append_model_animations",
+      "work/build/debug/append_model_animations.exe work/cases/academy-voice-20260914/johnny-before.glb work/cases/academy-voice-20260914/donor-a/models/nano/nano_johnnybravo.glb work/cases/academy-voice-20260914/johnny-after.glb skill2 skill3 --retain-static-root-scale"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/cases/academy-voice-20260914/johnny-before.glb",
+      "bytes": 559072,
+      "sha256": "cce270fd6682248a91d7c054284695e45c93b39443ab64da13acc036a54b67a5",
+      "role": "hash-pinned native preimage; selected native model/scale and texture routes retained"
+    },
+    {
+      "path": "work/cases/academy-voice-20260914/johnny.source.json",
+      "bytes": 12637650,
+      "sha256": "4ec44324921f71658b15d6c1267e47eeb0b2b8730bbcbc1f353c5b0b2f4cad69"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "characters/nanos/nano_johnnybravo/nano_johnnybravo.glb",
+      "bytes": 692984,
+      "sha256": "449f2c4877f0516cee70824ed6c05cb09d5ae301a4fe0b171b46a98d9d51390a"
+    }
+  ],
+  "divergenceFromPrimary": "Explicit Academy donor extension for missing skill2 and skill3, with exact curves and events; existing primary/native call, skill1, geometry and scale retained. Source bundle 40 maps independently to native Nano 38.",
+  "verification": [
+    {
+      "command": "cargo test -p ffone-asset-pipeline --bin append_model_animations",
+      "result": "passed: 3 tests",
+      "evidence": "docs/reference/evidence/cases/academy-nano-voice-20260914.json"
+    },
+    {
+      "command": "nano_audio_standalone --test-threads=1 (fresh production-module rustc build)",
+      "result": "passed: 60 tests in EN and RU",
+      "evidence": "../FFOneClient/target/performance/academy-voice-20260914/tests-final.log"
+    },
+    {
+      "command": "independent raw export, publish-logical-model and append replay",
+      "result": "byte-identical SHA-256 449f2c4877f0516cee70824ed6c05cb09d5ae301a4fe0b171b46a98d9d51390a",
+      "evidence": "work/cases/academy-voice-20260914/johnny-independent-replay.glb"
+    },
+    {
+      "command": "world_nano_summon_gpu_preview 38 <output> 2; world_nano_summon_gpu_preview 38 <output> 3",
+      "result": "passed: actual GLB loading and both animations; screenshots visually inspected",
+      "evidence": "../FFOneClient/target/performance/academy-voice-20260914/"
+    },
+    {
+      "command": "cargo build -p ffone-client --bin ffone-client (FFOneClient)",
+      "result": "passed: development executable rebuilt",
+      "evidence": null
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "replayedOutputs": 267,
+  "installed": [
+    {
+      "path": "effects/skills/freedom_self/freedom_self.glb",
+      "beforeSha256": "cc110de1a1fcab313e6706554e96ceec96f02d4148fce5b9b005f0faf77c6382",
+      "sha256": "15722d9dfc46de84b62c2c72aa5cfb5fd88cfbe387572ec654f64c85074cdd6c",
+      "meshNameChanges": [
+        {
+          "before": "Sphere02",
+          "after": "Sphere02-surface-1"
+        },
+        {
+          "before": "Sphere03",
+          "after": "Sphere03-surface-2"
+        }
+      ],
+      "binaryIdentical": true,
+      "otherJsonIdentical": true
+    },
+    {
+      "path": "effects/skills/nano_rd_e01/nano_rd_e01.glb",
+      "beforeSha256": "9c691393691044a39b1cb8a9df24e193e97fed0275277b74e38731c3f1e2d752",
+      "sha256": "cbdf7025e192e9dee75012063f5e177bff67bb4788067d3d8387e4241e0c07e8",
+      "meshNameChanges": [
+        {
+          "before": "nano_rd_e08_03",
+          "after": "nano_rd_e08_03-surface-1"
+        },
+        {
+          "before": "Editable Mesh",
+          "after": "Editable Mesh-surface-11"
+        },
+        {
+          "before": "nano_rd_e08_04",
+          "after": "nano_rd_e08_04-surface-4"
+        },
+        {
+          "before": "Cylinder01",
+          "after": "Cylinder01-surface-5"
+        },
+        {
+          "before": "Plane",
+          "after": "Plane-surface-12"
+        },
+        {
+          "before": "Plane1",
+          "after": "Plane1-surface-13"
+        },
+        {
+          "before": "Plane2",
+          "after": "Plane2-surface-14"
+        },
+        {
+          "before": "nano_rd_e08_05",
+          "after": "nano_rd_e08_05-surface-10"
+        }
+      ],
+      "binaryIdentical": true,
+      "otherJsonIdentical": true
+    },
+    {
+      "path": "effects/skills/protection_target_e01/protection_target_e01.glb",
+      "beforeSha256": "c81539c6ceffcf26aaa24b101202150ca032a17e39d62bbfac0c9b70fc975ce6",
+      "sha256": "0e24324d945fcb9275cec553a330fbeb08d45e6d0777370250e6b13c747e648a",
+      "meshNameChanges": [
+        {
+          "before": "Plane",
+          "after": "Plane-surface-8"
+        },
+        {
+          "before": "Editable Mesh",
+          "after": "Editable Mesh-surface-6"
+        },
+        {
+          "before": "Editable Mesh1",
+          "after": "Editable Mesh1-surface-4"
+        }
+      ],
+      "binaryIdentical": true,
+      "otherJsonIdentical": true
+    },
+    {
+      "path": "effects/skills/protection_target_e02/protection_target_e02.glb",
+      "beforeSha256": "52ca38c78b45bb8bd6463298077afc23ddcdb79dd00006748dc0fca55c2827ee",
+      "sha256": "41912a4b3ec84f170773c41573a1df317d6fa90edfe3d16c61b0ed6c67117664",
+      "meshNameChanges": [
+        {
+          "before": "Editable Mesh1",
+          "after": "Editable Mesh1-surface-7"
+        },
+        {
+          "before": "Editable Mesh",
+          "after": "Editable Mesh-surface-8"
+        }
+      ],
+      "binaryIdentical": true,
+      "otherJsonIdentical": true
+    },
+    {
+      "path": "effects/skills/sleep_target_e01/sleep_target_e01.glb",
+      "beforeSha256": "78becb6fd30afb02bd7ee3380bf8de1f09e8e26d5805c60a081b6d4c29d60be7",
+      "sha256": "67e5242f211e77e753fa04e3b06972f022d92c6a7173e72549d9d0f33cb0698d",
+      "meshNameChanges": [
+        {
+          "before": "Dummy01",
+          "after": "Dummy01-surface-1"
+        }
+      ],
+      "binaryIdentical": true,
+      "otherJsonIdentical": true
+    }
+  ]
+}

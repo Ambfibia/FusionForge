@@ -1,0 +1,262 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 114,
+    "name": "",
+    "pathId": 1563,
+    "rawBytes": 280,
+    "rawSha256": "bb07457f6c254c96ff7795aa8ac66bdf7ccd68ab69e8bfab44712340ee087058",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "MonoBehaviour",
+    "typeId": -81,
+    "value": {
+      "FreeChatRect": {
+        "height": 14.0,
+        "width": 18.0,
+        "x": 3.0,
+        "y": 5.0
+      },
+      "FreeChatTexture": {
+        "fileId": 0,
+        "pathId": 569
+      },
+      "GroupManager": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "GroupNpc": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "Nano_IconRect": {
+        "height": 26.0,
+        "width": 26.0,
+        "x": 172.0,
+        "y": 21.0
+      },
+      "Window2Rect": {
+        "height": 28.0,
+        "width": 192.0,
+        "x": 5.0,
+        "y": 0.0
+      },
+      "WindowRect": {
+        "height": 48.0,
+        "width": 198.0,
+        "x": 2.0,
+        "y": 0.0
+      },
+      "backTexture": {
+        "fileId": 0,
+        "pathId": 596
+      },
+      "barTexture": {
+        "fileId": 0,
+        "pathId": 114
+      },
+      "character_hpRect": {
+        "height": 4.0,
+        "width": 186.0,
+        "x": 7.0,
+        "y": 17.0
+      },
+      "character_level_textRect": {
+        "height": 20.0,
+        "width": 25.0,
+        "x": 40.0,
+        "y": 25.0
+      },
+      "character_nameRect": {
+        "height": 20.0,
+        "width": 180.0,
+        "x": 10.0,
+        "y": -4.0
+      },
+      "m_Enabled": true,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 1352
+      },
+      "m_Name": "",
+      "m_Script": {
+        "fileId": 0,
+        "pathId": 1135
+      },
+      "nano_hpFameRect": {
+        "height": 6.0,
+        "width": 111.0,
+        "x": 60.0,
+        "y": 35.0
+      },
+      "nano_hpRect": {
+        "height": 4.0,
+        "width": 109.0,
+        "x": 61.0,
+        "y": 36.0
+      },
+      "nano_nameRect": {
+        "height": 20.0,
+        "width": 96.0,
+        "x": 60.0,
+        "y": 15.0
+      },
+      "nanobackTexture": {
+        "fileId": 0,
+        "pathId": 617
+      },
+      "npcBackTexture": {
+        "fileId": 0,
+        "pathId": 48
+      },
+      "npcHPRect": {
+        "height": 4.0,
+        "width": 180.0,
+        "x": 10.0,
+        "y": 17.0
+      },
+      "npcNameRect": {
+        "height": 20.0,
+        "width": 180.0,
+        "x": 10.0,
+        "y": -4.0
+      },
+      "pMenuSkin": {
+        "fileId": 0,
+        "pathId": 1372
+      }
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/FreeChatTexture",
+      "fileId": 0,
+      "pathId": 569,
+      "status": "resolved",
+      "target": {
+        "pathId": 569,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/GroupManager",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/GroupNpc",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/backTexture",
+      "fileId": 0,
+      "pathId": 596,
+      "status": "resolved",
+      "target": {
+        "pathId": 596,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/barTexture",
+      "fileId": 0,
+      "pathId": 114,
+      "status": "resolved",
+      "target": {
+        "pathId": 114,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 1352,
+      "status": "resolved",
+      "target": {
+        "pathId": 1352,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Script",
+      "fileId": 0,
+      "pathId": 1135,
+      "status": "resolved",
+      "target": {
+        "pathId": 1135,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoScript"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/nanobackTexture",
+      "fileId": 0,
+      "pathId": 617,
+      "status": "resolved",
+      "target": {
+        "pathId": 617,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/npcBackTexture",
+      "fileId": 0,
+      "pathId": 48,
+      "status": "resolved",
+      "target": {
+        "pathId": 48,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/pMenuSkin",
+      "fileId": 0,
+      "pathId": 1372,
+      "status": "resolved",
+      "target": {
+        "pathId": 1372,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

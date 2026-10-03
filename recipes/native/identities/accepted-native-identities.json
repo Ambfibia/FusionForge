@@ -1,0 +1,50 @@
+{
+  "schema": "fusionforge.accepted-native-identities.v1",
+  "omniverseVariants": [
+    {
+      "npcType": 3464,
+      "originalType": 732,
+      "semanticId": "npc/omniverse_ben"
+    },
+    {
+      "npcType": 3465,
+      "originalType": 738,
+      "semanticId": "npc/omniverse_gwen"
+    },
+    {
+      "npcType": 3466,
+      "originalType": 749,
+      "semanticId": "npc/omniverse_kevin"
+    },
+    {
+      "npcType": 3467,
+      "originalType": 697,
+      "semanticId": "npc/omniverse_albedo"
+    },
+    {
+      "npcType": 3468,
+      "originalType": 725,
+      "semanticId": "npc/omniverse_max"
+    }
+  ],
+  "npcRemap": {
+    "sourceStart": 3430,
+    "sourceEnd": 3450,
+    "nativeStart": 3469,
+    "nativeEnd": 3489
+  },
+  "unstableNano": {
+    "id": 41,
+    "retiredAlias": 52,
+    "retiredSlot": "empty",
+    "tuneRows": [
+      288,
+      289,
+      290
+    ],
+    "skill": 122,
+    "skillIcon": 67
+  },
+  "vanKleiss": 66,
+  "note": "Independent NPC/Nano/mesh/icon namespaces. September13 observation is historical; September15 correction is accepted. Retention and donor appearance remain in their domain recipes."
+}

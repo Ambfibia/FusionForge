@@ -1,0 +1,16 @@
+{
+  "schema": "fusionforge.native-migration-regression.v1",
+  "banker": {
+    "freshModelsExactSemanticAndBinary": true,
+    "texturePixelsEqual": true,
+    "unrelatedCatalogPreserved": true
+  },
+  "nano": {
+    "missingChowderClipRecovered": true,
+    "allCurvesMatchAccepted": true,
+    "allEventsMatchAccepted": true,
+    "renderAssetsUnchanged": true,
+    "tableMatchesAccepted": true
+  },
+  "productionModified": false
+}

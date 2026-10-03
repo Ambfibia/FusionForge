@@ -1,0 +1,118 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "player-damage-animation-primary-20260918",
+  "status": "native-assets-validated",
+  "source": {
+    "alias": "primary",
+    "canonicalRole": "primary",
+    "relativeContainer": "CharacterSelection.resourceFile"
+  },
+  "publisher": "tools/native/publish-hnpc-idle-clips.py",
+  "arguments": [
+    "--source-root",
+    "../builds/retrobution-20260821",
+    "--navigation-dump",
+    "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/CharacterSelection.objects.json",
+    "--target-root",
+    "../FFOneClient/assets/game",
+    "--work",
+    "work/cases/gameplay-bugs-20260918/player-damage",
+    "--clips",
+    "woundupper",
+    "--semantic-catalog",
+    "characters/player/shared/damage_animations.json",
+    "--apply"
+  ],
+  "preserves": "Existing animation entries, accessors, buffer views, nodes, meshes, skins and binary bytes remain unchanged; woundupper is appended for each gender.",
+  "inputs": [
+    {
+      "path": "work/cases/gameplay-bugs-20260918/player-damage/male-owner.evidence.json",
+      "bytes": 89478,
+      "sha256": "33d05a06cfd89d6f243b929668f5c3be467771ca719320156f680793f6496201",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/gameplay-bugs-20260918/player-damage/male-woundupper.evidence.json",
+      "bytes": 101585,
+      "sha256": "db6b7cc983fac921536ec63a2122d0075bb1c38ab382529efd1797dddd809c96",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/gameplay-bugs-20260918/player-damage/female-owner.evidence.json",
+      "bytes": 89100,
+      "sha256": "366dc215bc86d8a20dcd128b05501fb99dee5a75d39bee7d8501556ef26c32d9",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    },
+    {
+      "path": "work/cases/gameplay-bugs-20260918/player-damage/female-woundupper.evidence.json",
+      "bytes": 108016,
+      "sha256": "c4ee5f18d0dcbabdb1691c67dc4a63ec3952b88cd50ad62a1835644a267f588b",
+      "source": {
+        "alias": "primary",
+        "bytes": 16737641,
+        "relativeContainer": "CharacterSelection.resourceFile",
+        "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "path": "characters/player/male/base/male_skeleton.glb",
+      "bytes": 19660084,
+      "sha256": "ea0783cfc15a5f6770e608fcf786d1e157907f0bc00db626d63c3206a9ac1264",
+      "preserved": {
+        "bytes": 19602528,
+        "sha256": "c5e3e1ff2a93032a10e14f90bd84b7b4ccc9280cf2c48ca5e0c3b7cd8ebe9dc9"
+      },
+      "addedClips": [
+        "woundupper"
+      ]
+    },
+    {
+      "path": "characters/player/female/base/female_skeleton.glb",
+      "bytes": 23718448,
+      "sha256": "62b1bd0808086616cd7d96b0e36feb3fe3839c495f94f398bc2511d4ce19a5f8",
+      "preserved": {
+        "bytes": 23656948,
+        "sha256": "b1a949f5fa7d2d54ead02db344c9431cafb6d18e71c251ae1dba60c5e8d2c3db"
+      },
+      "addedClips": [
+        "woundupper"
+      ]
+    },
+    {
+      "path": "characters/player/shared/damage_animations.json",
+      "bytes": 624,
+      "sha256": "7468ff65b74d27133edb3ce18189f6e6c7ffb9c89658cb0fd59194640c3c501a"
+    }
+  ],
+  "fusionForgeCommand": [
+    "repair-native",
+    "player-damage-animation",
+    "--source-root",
+    "../builds/retrobution-20260821",
+    "--input",
+    "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/CharacterSelection.objects.json",
+    "--target-root",
+    "../FFOneClient/assets/game",
+    "--work",
+    "work/cases/gameplay-bugs-20260918/damage-cli-repeat",
+    "--apply"
+  ],
+  "idempotence": "work/cases/gameplay-bugs-20260918/damage-cli-repeat/publication.json"
+}

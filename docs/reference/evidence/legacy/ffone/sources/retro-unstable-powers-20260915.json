@@ -1,0 +1,209 @@
+{
+  "schema": "fusionforge.focused-table-evidence.v1",
+  "question": "Retire native Unstable alias 52 with Van Kleiss model and restore Nano 41 tuning from owner-selected Retro 010920, independently of Retrobution.",
+  "role": "owner-selected historical Retro power restoration",
+  "source": {
+    "alias": "retro-010920",
+    "bytes": 744830,
+    "relativeContainer": "assets/TableData.resourceFile",
+    "sha256": "700f47e9d80d861b1a6392e80166bd10c18e9db4d463e0e519f60f6bf888d637"
+  },
+  "object": {
+    "classId": 114,
+    "name": "xdtdatas",
+    "pathId": 7,
+    "rawBytes": 6317085,
+    "rawSha256": "26e654d065d5016d39a251925905b2e60ecd95676f176995d79e3133835560a2",
+    "serializedAsset": "CustomAssetBundle-1dca92eecee4742d985b799d8226666d",
+    "type": "MonoBehaviour",
+    "typeId": -2
+  },
+  "producer": {
+    "tool": "work/build/debug/fusionforge.exe",
+    "sha256": "6eb43ab8c28ada1eb03ea373accce8fa8c13c002a38f5aba3a1ea795712a985d",
+    "command": "work/build/debug/fusionforge.exe dump-object-evidence retro-010920 ../builds/retro-010920 assets/TableData.resourceFile 7 --type MonoBehaviour --out work/cases/unstable-nano-20260915/retro-table.evidence.json"
+  },
+  "fullEvidence": {
+    "path": "work/cases/unstable-nano-20260915/retro-table.evidence.json",
+    "sha256": "6f63b57badbeb19cc2757a28f197ee3035f93681d90731ebf91b8dd1f0b4d31d"
+  },
+  "unresolvedPointerCount": 0,
+  "nano": {
+    "m_iAccuracy": 0,
+    "m_iBatteryRecharge": 3,
+    "m_iComment": 41,
+    "m_iDodge": 0,
+    "m_iEffect1": 1,
+    "m_iIcon1": 42,
+    "m_iMesh": 42,
+    "m_iNanoBattery1": 150,
+    "m_iNanoBattery2": 150,
+    "m_iNanoBattery3": 150,
+    "m_iNanoDrain": 2,
+    "m_iNanoName": 41,
+    "m_iNanoNumber": 41,
+    "m_iNanoSet": 1,
+    "m_iNeedFusionMatterCnt": 100,
+    "m_iNeedQItemID": 21,
+    "m_iPower": 0,
+    "m_iProtection": 0,
+    "m_iSound": 1,
+    "m_iStyle": 0,
+    "m_iTune": [
+      210,
+      211,
+      212
+    ]
+  },
+  "tunes": {
+    "210": {
+      "m_iComment": 210,
+      "m_iReqFusionMatter": 100,
+      "m_iReqItemCount": 5,
+      "m_iReqItemID": 37,
+      "m_iSkillID": 122,
+      "m_iTuneName": 210,
+      "m_iTuneNumber": 210
+    },
+    "211": {
+      "m_iComment": 211,
+      "m_iReqFusionMatter": 100,
+      "m_iReqItemCount": 5,
+      "m_iReqItemID": 37,
+      "m_iSkillID": 122,
+      "m_iTuneName": 211,
+      "m_iTuneNumber": 211
+    },
+    "212": {
+      "m_iComment": 212,
+      "m_iReqFusionMatter": 100,
+      "m_iReqItemCount": 5,
+      "m_iReqItemID": 37,
+      "m_iSkillID": 122,
+      "m_iTuneName": 212,
+      "m_iTuneNumber": 212
+    }
+  },
+  "strings": {
+    "210": {
+      "m_iExtraNumber": 0,
+      "m_strComment": "This power doesn’t seem to do anything at the moment.",
+      "m_strComment1": "???",
+      "m_strComment2": "",
+      "m_strName": "UNSTABLE POWER"
+    },
+    "211": {
+      "m_iExtraNumber": 0,
+      "m_strComment": "This power doesn’t seem to do anything at the moment.",
+      "m_strComment1": "???",
+      "m_strComment2": "",
+      "m_strName": "UNSTABLE POWER"
+    },
+    "212": {
+      "m_iExtraNumber": 0,
+      "m_strComment": "This power doesn’t seem to do anything at the moment.",
+      "m_strComment1": "???",
+      "m_strComment2": "",
+      "m_strName": "UNSTABLE POWER"
+    }
+  },
+  "skill": {
+    "m_iBatteryDrainType": 2,
+    "m_iBatteryDrainUse": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "m_iBuffEffect": 0,
+    "m_iCoolTime": 50,
+    "m_iCoolType": 0,
+    "m_iDBType": 0,
+    "m_iDelayTime": 10,
+    "m_iDeleverTime": 200,
+    "m_iDurationTime": [
+      60,
+      66,
+      72,
+      78
+    ],
+    "m_iEffect": 33,
+    "m_iEffectAngle": 0,
+    "m_iEffectArea": 0,
+    "m_iEffectRange": 200,
+    "m_iEffectTarget": 1,
+    "m_iEffectType": 1,
+    "m_iIcon": 1,
+    "m_iInitialTime": 5,
+    "m_iSkillNumber": 122,
+    "m_iSkillType": 23,
+    "m_iSound": 3,
+    "m_iTargetEffect": 0,
+    "m_iTargetNumber": 1,
+    "m_iTargetType": 2,
+    "m_iValueA": [
+      60,
+      69,
+      72,
+      78
+    ],
+    "m_iValueA_Type": 1,
+    "m_iValueB": [
+      20,
+      30,
+      24,
+      26
+    ],
+    "m_iValueB_Type": 1,
+    "m_iValueC": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "m_iValueC_Type": 0
+  },
+  "nativeMapping": {
+    "nano": 41,
+    "sourceTunes": [
+      210,
+      211,
+      212
+    ],
+    "nativeTunes": [
+      288,
+      289,
+      290
+    ],
+    "skill": 122,
+    "retiredNano": 52,
+    "preservedVanKleiss": 66
+  },
+  "textRepair": "Only invalid source apostrophe U+FFFD in doesn�t is normalized to ASCII apostrophe; Russian translation is native authored.",
+  "ownerSelectedIcon": {
+    "number": 67,
+    "skillIconRow": 68,
+    "selection": "Explicit owner selection after reviewing skill icons; not inferred from Retro tune references.",
+    "source": {
+      "alias": "primary",
+      "relativeContainer": "Icons.resourceFile",
+      "bytes": 6557371,
+      "sha256": "e4a4b531cafa44b2c046f8dc8dea97c694bc0c6e455b0329232c2b09596eb96d"
+    },
+    "object": {
+      "asset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+      "assetIndex": 0,
+      "classId": 28,
+      "id": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb:1562",
+      "pathId": 1562,
+      "serializedTypeName": "Texture2D",
+      "type": "Texture2D",
+      "typeId": 28
+    },
+    "decodedRgbaSha256": "a3fa8d3b12f58bbc4207c53158a9bca83abc2578f5f287bed5cd992c90db8c75",
+    "pngSha256": "470d030f1dc4c6e6099db1b3b01b95504565b312c57dc0d8daa3afb5a270793c",
+    "nativeExistingPath": "icons/skills/skillicon_67.png",
+    "nativeUiPath": "ui/en/gameplay/nano/icons/skill/skillicon_67.png",
+    "replay": "work/build/debug/fusionforge.exe export-exact-texture ../builds/retrobution-20260821/Icons.resourceFile 1562 work/cases/unstable-nano-20260915/skill67.exact.json"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "replace-me",
+  "question": "REPLACE_WITH_ONE_OBSERVABLE_EVIDENCE_QUESTION",
+  "status": "open",
+  "nativeConsumer": "REPLACE_RUST_OR_BEVY_OWNER",
+  "acceptance": [
+    "REPLACE_WITH_A_TEST_OR_DETERMINISTIC_CAPTURE"
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": []
+    }
+  ],
+  "candidates": [],
+  "evidenceArtifacts": [
+    {
+      "id": "replace-me",
+      "kind": "strict_object_evidence",
+      "path": "evidence/cases/artifacts/replace-me.json",
+      "bytes": 0,
+      "sha256": "REPLACE_WITH_LOWERCASE_SHA256",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "REPLACE_WITH_TOOL_REVISION",
+        "command": "REPLACE_WITH_REPLAY_COMMAND_USING_SOURCE_ALIASES"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "REPLACE",
+      "state": "unresolved",
+      "evidence": [],
+      "rejectedBecause": null
+    }
+  ],
+  "differences": [],
+  "conclusion": null,
+  "nativeContract": null,
+  "verification": []
+}

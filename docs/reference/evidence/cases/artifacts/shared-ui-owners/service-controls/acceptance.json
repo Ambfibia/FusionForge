@@ -1,0 +1,467 @@
+{
+  "date": "2026-09-07",
+  "source": "retrobution",
+  "role": "primary",
+  "status": "Bank/shop scroll and bank drag implemented; offline GPU accepted",
+  "scope": [
+    "U01",
+    "U02 bank visual feedback only"
+  ],
+  "tests": {
+    "focusedPassed": 59,
+    "localizationPassed": 18,
+    "localizationIgnored": 1,
+    "localizationFailed": 1,
+    "localizationFailure": "Static per-file schedule-string audit flags bank_ui/item_popup.rs; its bind is scheduled before LocalizationSet::Apply by BankUiPlugin. This file was not edited for scroll/drag. EN/RU bundle/key/placeholder tests pass."
+  },
+  "gpu": {
+    "passed": 28,
+    "locales": [
+      "en",
+      "ru"
+    ],
+    "viewport": [
+      1264,
+      681
+    ],
+    "backend": "Vulkan",
+    "actualPointerEvents": true
+  },
+  "devSmoke": {
+    "exitCode": 0,
+    "backend": "D3D12",
+    "offlineWorld": true
+  },
+  "limits": [
+    "No live server transaction or running-Unity pixel comparison",
+    "No second viewport acceptance",
+    "Vendor item drag remains separate",
+    "No FPS gain claimed"
+  ],
+  "artifacts": [
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-cancel-en.log",
+      "sha256": "203d20eed8ae53b90dc306424117483936aded9c4ff368e110923a22ffabc7b3",
+      "bytes": 1040
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-cancel-en.png",
+      "sha256": "904154912ef37f33c0a7daf3528f95e73828143ed0f52dd606140a7d1d7037ba",
+      "bytes": 418938
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-cancel-ru.log",
+      "sha256": "98e099c41b07803f901e24c4406057855ccb92674ce7eb0b32b825400d6e12d8",
+      "bytes": 1041
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-cancel-ru.png",
+      "sha256": "d5054d380feea0ddd0735cc24949a2d6806ffdb677fc712c133c053b6321ab59",
+      "bytes": 421736
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-drop-en.log",
+      "sha256": "ff4be4bec4b13a6185dae96237be5b4e95b8951d9c541c20b8c1c170183268ae",
+      "bytes": 1036
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-drop-en.png",
+      "sha256": "904154912ef37f33c0a7daf3528f95e73828143ed0f52dd606140a7d1d7037ba",
+      "bytes": 418938
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-drop-ru.log",
+      "sha256": "c2a3a0afd8605fc1b67e0ff4d594cc316e3210d584aacf385f2f0e74f6dfd07f",
+      "bytes": 1037
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-drop-ru.png",
+      "sha256": "d5054d380feea0ddd0735cc24949a2d6806ffdb677fc712c133c053b6321ab59",
+      "bytes": 421736
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-hold-en.log",
+      "sha256": "46a1553b655c5fa3aa0b1abdaa40938487c8f05dce1ffbabcde3638054431725",
+      "bytes": 958
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-hold-en.png",
+      "sha256": "60b121d7ea188ced83315aaee348bafc78e776d6053b8643ae2c24da81012c71",
+      "bytes": 424458
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-hold-ru-crop.png",
+      "sha256": "9b7a732a8f6e24c0447a3c76bbe5e830fb41595cafdd15f1241971dabb1d2416",
+      "bytes": 30499
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-hold-ru.log",
+      "sha256": "9c680b086e587e35e844c7ff0a4a31a73f332cb17a59814cf88cdd1301f1e52d",
+      "bytes": 959
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-hold-ru.png",
+      "sha256": "3fe6f7e9086c334dc4fc32e95e300a8d9d141a33d8c97f78647c9f35211f122a",
+      "bytes": 427257
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-modal-en.log",
+      "sha256": "2f0a8b6c23fee9236ad4ece6eeec659f10d3c4c60552ac0816c746a08d1522af",
+      "bytes": 1038
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-modal-en.png",
+      "sha256": "904154912ef37f33c0a7daf3528f95e73828143ed0f52dd606140a7d1d7037ba",
+      "bytes": 418938
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-modal-ru.log",
+      "sha256": "35aa6034b9d94e572d5864406306a8e714701599ce7c995fc7f4fb4b76f5e035",
+      "bytes": 1039
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-drag-modal-ru.png",
+      "sha256": "d5054d380feea0ddd0735cc24949a2d6806ffdb677fc712c133c053b6321ab59",
+      "bytes": 421736
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-inventory-scroll-en.log",
+      "sha256": "e2f87e66d16735ec68179cb631941e63a31faededa30a8e4443c1bb44e43c50a",
+      "bytes": 969
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-inventory-scroll-en.png",
+      "sha256": "cae6abd7aa2ba41788de35bece91908b632b9e0b6ea32e92f7249628a2d518c9",
+      "bytes": 378118
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-inventory-scroll-ru-crop.png",
+      "sha256": "6a58c5f8f714de7f19addb841b3c50c044886a0af7946b611a3a4a714e4add0e",
+      "bytes": 7257
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-inventory-scroll-ru.log",
+      "sha256": "1a3e62cc56718056607f8900926bfeb7ba81fdd76cb643507318526cb2b1f6bb",
+      "bytes": 970
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-inventory-scroll-ru.png",
+      "sha256": "66a5e672ceffe0f33a93870bb932b372c4419a8076bce0d09fa842c4c6fa0ee8",
+      "bytes": 381041
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-hold-en.log",
+      "sha256": "3e6bbd6b564852c62b47c5a0f084dbb7e82b9ba6aa771d4b0a8c8ac471c0f164",
+      "bytes": 946
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-hold-en.png",
+      "sha256": "76c9d90ab97a7aa329174673eaa5602015b17f9d84b75ba947355ae6c7bfda9b",
+      "bytes": 378351
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-hold-ru.log",
+      "sha256": "80c6e8f6480aec7967efb4d76b60bb5552bc98dc15c3c3ad1d275230631a6e57",
+      "bytes": 947
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-hold-ru.png",
+      "sha256": "d4030bd069d97821c23c457ed45db511bef6e76164795da8b2106c4cae249a45",
+      "bytes": 381153
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-thumb-en.log",
+      "sha256": "615781ee8d81007f1f2da413f7c5bae5154631362b35e9eea2b40ea8410e50e4",
+      "bytes": 949
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-thumb-en.png",
+      "sha256": "a324f224b6a9079efde84dcea7591f7535545b391083522887e16ee4bf150150",
+      "bytes": 373874
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-thumb-ru-crop.png",
+      "sha256": "e8a8badda5e5356ede9d78ab8a1f442bbcac703091000c8bdd85cdd5067f6d48",
+      "bytes": 9324
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-thumb-ru.log",
+      "sha256": "9c77f937ca6afdfc469b17006517e3f6bfdcdd6af4a2b759af6ae7b99433368e",
+      "bytes": 950
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-thumb-ru.png",
+      "sha256": "6366272d1148afb8c058766ef945a95330930b483a62d4cbfbef871c00050cb4",
+      "bytes": 376676
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-track-en.log",
+      "sha256": "dd676fcd20a8e9b020e7c819b88cc8d667f330e6b39c431ac91ca25d7798db3d",
+      "bytes": 949
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-track-en.png",
+      "sha256": "4345d1b01051d9f47409d668859a2f1384baa396e1fc4049c9aa700cd4f443a8",
+      "bytes": 376396
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-track-ru.log",
+      "sha256": "00db0fec43c99cb070b15e61cc4a700af2326bb812c9d56753853f80b7935bf5",
+      "bytes": 950
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-track-ru.png",
+      "sha256": "5673c6754d933e0fd790a1c412d7dd437345b3da4c08b01052832ce660bd5608",
+      "bytes": 379187
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-up-en.log",
+      "sha256": "09d52e5b0b1edb3eabaa2f0f7768bb21bd213e70639e5aeb4f2338fedbf21eb1",
+      "bytes": 940
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-up-en.png",
+      "sha256": "904154912ef37f33c0a7daf3528f95e73828143ed0f52dd606140a7d1d7037ba",
+      "bytes": 418938
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-up-ru.log",
+      "sha256": "ed27d731d42f9d36a7f8faea148361bc5695710cd9dc6a9d3bc8de78c4ecfc24",
+      "bytes": 941
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/bank-scroll-up-ru.png",
+      "sha256": "d5054d380feea0ddd0735cc24949a2d6806ffdb677fc712c133c053b6321ab59",
+      "bytes": 421736
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/dev-world-report.json",
+      "sha256": "86822864722ef61996394ebfa15e30d5191c53853f5422b617ca961eeff59330",
+      "bytes": 10251
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/dev-world-ru.png",
+      "sha256": "9cf9d1ba4563a5164e4fc34daf055e7a761f40a7aa21e795feeda6e2c01f8960",
+      "bytes": 3494165
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/dev-world.log",
+      "sha256": "39b6463454325933a27cd167c82c897ff91f11e7ecb0f21f771a56c91c7cad96",
+      "bytes": 145
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-inventory-scroll-en.log",
+      "sha256": "1725133505ea8aa9cd4b63808c044b36a69ce6e972df04dc7f489e85a384379a",
+      "bytes": 986
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-inventory-scroll-en.png",
+      "sha256": "30c552720a69518bc46e0f09443888eee34ee8822ae107980074f4e3751c6ddc",
+      "bytes": 447206
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-inventory-scroll-ru.log",
+      "sha256": "910eec963a539b606b0086756788fcdcd7b3c5cd3b59990d0464612b3100801e",
+      "bytes": 986
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-inventory-scroll-ru.png",
+      "sha256": "735324ce7061f07a063ccec66818eb07851e9bc3360d8913c0d5fe7b4c70ad1d",
+      "bytes": 449763
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-hold-en.log",
+      "sha256": "db3223bb80c9efaeea0abcd7c434272191e9a7053a089ca3c23750b13a4d3a35",
+      "bytes": 957
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-hold-en.png",
+      "sha256": "a6cedfaaca3f4d8a8ef388be2dc15a421c7a286b8706304862433cabbf49fe02",
+      "bytes": 493351
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-hold-ru.log",
+      "sha256": "415c9e7c83aaa984cf2c1e7fdcacf8db15930078e905cd5b7bc298a9a9417ebf",
+      "bytes": 957
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-hold-ru.png",
+      "sha256": "701ca30a287c07dddfb4e2b75284f28251fbc484f7acb36e8f944fde75ddd61a",
+      "bytes": 496282
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-thumb-en.log",
+      "sha256": "c147dc8bbb5f4692a9649b4460152d1070536aece9d5ba361ee2f6c2aea28757",
+      "bytes": 960
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-thumb-en.png",
+      "sha256": "c57590f16a1077f2fab6772310c85baad88922689a249431b3c9ae1662db8e52",
+      "bytes": 487357
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-thumb-ru.log",
+      "sha256": "e9314537673d56016495afc86dd6e845c22d2d4c2a147cab83dfda6cfe894fa9",
+      "bytes": 960
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-thumb-ru.png",
+      "sha256": "99d1ca641eb092ee0e5dbfa7c629cc44dc14d1ab2485a47f7da4478877c52eab",
+      "bytes": 490144
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-track-en.log",
+      "sha256": "f916b35b0ac5427c2046bdf37b9a2b86f9361d93976831fd91e5efc044838c6e",
+      "bytes": 960
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-track-en.png",
+      "sha256": "c57590f16a1077f2fab6772310c85baad88922689a249431b3c9ae1662db8e52",
+      "bytes": 487357
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-track-ru-crop.png",
+      "sha256": "6e68248513909fd885820fd79541af0a9bf8c192dc6e3ffc00d4214b7da84362",
+      "bytes": 43452
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-track-ru.log",
+      "sha256": "3c232feb79cd3f042e1709c3b1eb48d789f22279752626cda28efd76f609a5b5",
+      "bytes": 960
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-track-ru.png",
+      "sha256": "99d1ca641eb092ee0e5dbfa7c629cc44dc14d1ab2485a47f7da4478877c52eab",
+      "bytes": 490144
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-up-en.log",
+      "sha256": "ec8f7dcd97110fe205aaf9910068e121943fdf048adbecb3fc9ed90aa7b75fdf",
+      "bytes": 951
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-up-en.png",
+      "sha256": "6dca028b530d8907afef4b64a04990a6acd2b6ed9291664c1b10975febdde68d",
+      "bytes": 491593
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-up-ru.log",
+      "sha256": "b98cfdf859c0824881dbe05622a13106af0b53f4cf8c51a8b350ab43328c1715",
+      "bytes": 951
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-final/vendor-scroll-up-ru.png",
+      "sha256": "7fc24a3225720fba56e235fa8f517f7362405f9b4277c702e808745ea36406a4",
+      "bytes": 494393
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-bank-tests.log",
+      "sha256": "275caf94f721c42a55f677d7c5827c7cf53134c76fb9aeadb785a21dbd915c79",
+      "bytes": 2899
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-vendor-tests.log",
+      "sha256": "cc8a06ec8fe8a064a1597aa734182cfbc4920b3066664b25f5b410f9cc7608bf",
+      "bytes": 2869
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-scroll-tests.log",
+      "sha256": "5cd307b526bb916f6c74afbf2d7672316fb74cafaede80a204c519439a83ae76",
+      "bytes": 617
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/service-controls-localization-tests.log",
+      "sha256": "f62a983a5f182764ac1741b8c9173d0c1fecebf2968872513bba44853650847e",
+      "bytes": 2552
+    }
+  ],
+  "runtimeSources": [
+    {
+      "path": "crates/ffone-client/src/service_scroll.rs",
+      "sha256": "4274d0c6f81dc7b321e5f456c4f3b0c7fe607d63933d0e479040ebe0e4775269",
+      "bytes": 14934
+    },
+    {
+      "path": "crates/ffone-client/src/bank_ui/drag.rs",
+      "sha256": "f8b98c5590b4f9fa3728ac34410e859ce06f09da9ebbce983e26f7d9fb17a83d",
+      "bytes": 4275
+    },
+    {
+      "path": "crates/ffone-client/src/bank_ui.rs",
+      "sha256": "9990acc66d1ea315276e19560278f860a5392c3f6066d85b7e27c004b31c7168",
+      "bytes": 153216
+    },
+    {
+      "path": "crates/ffone-client/src/vendor_ui.rs",
+      "sha256": "53ddc8e940febecfa014dff5967a1d8393812a8e6f775b44a31ecdb3b830c2a0",
+      "bytes": 212069
+    }
+  ],
+  "binary": {
+    "path": "target/debug/ffone-client.exe",
+    "sha256": "1389fb4034305cf34fa9b3d7010e36d14d2a449dc14b3cb6e358ea053db3670f",
+    "bytes": 208121344
+  },
+  "sharedScrollAssets": [
+    {
+      "path": "assets/game/ui/bank-mode/scroll-track.png",
+      "sha256": "94cc317466de205d6336038b99626a3596ea5592298ecdc409f4e93c7fb83355",
+      "bytes": 225
+    },
+    {
+      "path": "assets/game/ui/bank-mode/scroll-thumb.png",
+      "sha256": "a7afff2d82ddc872cc99bc2695039530ce1e1a554dceb95f33e344804ef589ad",
+      "bytes": 318
+    },
+    {
+      "path": "assets/game/ui/bank-mode/scroll-up.png",
+      "sha256": "4b1a86ad7cd3d5a885f1e0137769d0de9f3ca2226572573bf541e14278f660ee",
+      "bytes": 525
+    },
+    {
+      "path": "assets/game/ui/bank-mode/scroll-down.png",
+      "sha256": "de13be5d83a1e28ebd312c1c38f293dc28126514f90e92124084e431b5a149fd",
+      "bytes": 481
+    },
+    {
+      "path": "assets/game/ui/vendor/scroll-track.png",
+      "sha256": "94cc317466de205d6336038b99626a3596ea5592298ecdc409f4e93c7fb83355",
+      "bytes": 225
+    },
+    {
+      "path": "assets/game/ui/vendor/scroll-thumb.png",
+      "sha256": "a7afff2d82ddc872cc99bc2695039530ce1e1a554dceb95f33e344804ef589ad",
+      "bytes": 318
+    },
+    {
+      "path": "assets/game/ui/vendor/scroll-up.png",
+      "sha256": "4b1a86ad7cd3d5a885f1e0137769d0de9f3ca2226572573bf541e14278f660ee",
+      "bytes": 525
+    },
+    {
+      "path": "assets/game/ui/vendor/scroll-down.png",
+      "sha256": "de13be5d83a1e28ebd312c1c38f293dc28126514f90e92124084e431b5a149fd",
+      "bytes": 481
+    },
+    {
+      "path": "assets/game/ui/user-equip/scroll-track.png",
+      "sha256": "94cc317466de205d6336038b99626a3596ea5592298ecdc409f4e93c7fb83355",
+      "bytes": 225
+    },
+    {
+      "path": "assets/game/ui/user-equip/scroll-thumb.png",
+      "sha256": "a7afff2d82ddc872cc99bc2695039530ce1e1a554dceb95f33e344804ef589ad",
+      "bytes": 318
+    },
+    {
+      "path": "assets/game/ui/user-equip/scroll-up.png",
+      "sha256": "4b1a86ad7cd3d5a885f1e0137769d0de9f3ca2226572573bf541e14278f660ee",
+      "bytes": 525
+    },
+    {
+      "path": "assets/game/ui/user-equip/scroll-down.png",
+      "sha256": "de13be5d83a1e28ebd312c1c38f293dc28126514f90e92124084e431b5a149fd",
+      "bytes": 481
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "schema": "ffone.legacy-source-map.v1",
+  "sources": [
+    {
+      "id": "primary",
+      "aliases": [
+        "retrobution",
+        "retrobution-20260821"
+      ],
+      "name": "Retrobution 2026-08-21 original build",
+      "path": "../builds/retrobution-20260821",
+      "navigationProject": "work/projects/retrobution-ui-20260821.ffclient",
+      "inventory": "inventories\\primary.tsv",
+      "role": "parity_authority",
+      "authorityFor": [
+        "observable 1:1 client behavior",
+        "legacy script and serialized-object structure",
+        "original asset ownership and bundle layout",
+        "original world, UI, audio and visual evidence"
+      ],
+      "readOnly": true,
+      "navigationWorkDir": "work/sources/primary"
+    },
+    {
+      "id": "previous",
+      "aliases": [
+        "reference",
+        "retrobution-20260613"
+      ],
+      "name": "Retrobution 2026-06-13 previous reference build",
+      "path": "../builds/retrobution-20260613",
+      "inventory": "inventories/previous.tsv",
+      "role": "historical_reference",
+      "authorityFor": [
+        "previously established reference behaviour and assets",
+        "comparison against the current primary; not current parity authority",
+        "owner-selected restoration of content changed undesirably in primary, including retained Ben-family models and UI; consult native retention and ID mapping evidence"
+      ],
+      "readOnly": true,
+      "navigationWorkDir": "work/sources/previous"
+    },
+    {
+      "id": "patched",
+      "name": "Retrobution FusionForge project with added content",
+      "path": "../builds/retrobution-20260613.ffclient",
+      "inventory": "inventories\\patched.tsv",
+      "role": "intentional_overlay",
+      "authorityFor": [
+        "new NPC definitions and patched NPC assets",
+        "the expanded XDT at OpenFusion\\bin\\tdata\\xdt.json",
+        "intentional FusionForge patch declarations",
+        "derived bundle and object navigation indexes"
+      ],
+      "readOnly": true,
+      "navigationWorkDir": "work/sources/patched"
+    },
+    {
+      "id": "alternate",
+      "aliases": [
+        "academy",
+        "OG-academy"
+      ],
+      "name": "OG Academy content and selected mechanics donor",
+      "path": "../builds/OG-academy",
+      "inventory": "inventories\\alternate.tsv",
+      "role": "explicit_donor",
+      "authorityFor": [
+        "accepted Nano and NPC donors",
+        "explicit item and location donations",
+        "selected mechanics recorded as donor extensions"
+      ],
+      "readOnly": true,
+      "navigationWorkDir": "work/sources/alternate"
+    },
+    {
+      "id": "beta-20100104",
+      "aliases": [
+        "beta"
+      ],
+      "name": "beta-20100104",
+      "path": "../builds/beta-20100104",
+      "inventory": "inventories/beta-20100104.tsv",
+      "role": "historical_reference",
+      "authorityFor": [
+        "Early beta orientation and focused historical comparison; no default parity authority"
+      ],
+      "readOnly": true,
+      "navigationWorkDir": "work/sources/beta-20100104"
+    },
+    {
+      "id": "retro-010920",
+      "aliases": [],
+      "name": "retro-010920",
+      "path": "../builds/retro-010920",
+      "inventory": "inventories/retro-010920.tsv",
+      "role": "unresolved_reference",
+      "authorityFor": [
+        "Owner-selected latest Retro build (010920); distinct from Retrobution",
+        "Unstable Nano powers restored on 20260915; see docs/reference/evidence/legacy/ffone/sources/retro-unstable-powers-20260915.json. Other historical adoption purposes remain unassigned."
+      ],
+      "readOnly": true,
+      "navigationWorkDir": "work/sources/retro-010920"
+    },
+    {
+      "id": "retro-110219",
+      "aliases": [],
+      "name": "retro-110219",
+      "path": "../builds/retro-110219",
+      "inventory": "inventories/retro-110219.tsv",
+      "role": "unresolved_reference",
+      "authorityFor": [
+        "Retro historical comparison candidate; intended use is not yet assigned by owner"
+      ],
+      "readOnly": true,
+      "navigationWorkDir": "work/sources/retro-110219"
+    },
+    {
+      "id": "retro-112219",
+      "aliases": [],
+      "name": "retro-112219",
+      "path": "../builds/retro-112219",
+      "inventory": "inventories/retro-112219.tsv",
+      "role": "unresolved_reference",
+      "authorityFor": [
+        "Retro historical comparison candidate; intended use is not yet assigned by owner"
+      ],
+      "readOnly": true,
+      "navigationWorkDir": "work/sources/retro-112219"
+    },
+    {
+      "id": "retro-121719",
+      "aliases": [],
+      "name": "retro-121719",
+      "path": "../builds/retro-121719",
+      "inventory": "inventories/retro-121719.tsv",
+      "role": "unresolved_reference",
+      "authorityFor": [
+        "Retro historical comparison candidate; intended use is not yet assigned by owner"
+      ],
+      "readOnly": true,
+      "navigationWorkDir": "work/sources/retro-121719"
+    },
+    {
+      "id": "reborn-cache",
+      "aliases": [
+        "reborn"
+      ],
+      "name": "Reborn historical shared-cache candidate (incomplete, attribution unverified)",
+      "path": "../builds/reborn-cache-candidate-20260913",
+      "inventory": "inventories/reborn-cache.tsv",
+      "role": "unverified_donor_candidate",
+      "authorityFor": [
+        "historical discovery only; verify each selected payload against an attributed Reborn source before publication"
+      ],
+      "readOnly": true,
+      "navigationWorkDir": "work/sources/reborn-cache",
+      "acquisitionEvidence": "docs/reference/evidence/legacy/ffone/sources/reborn-cache-20260913.json"
+    }
+  ]
+}

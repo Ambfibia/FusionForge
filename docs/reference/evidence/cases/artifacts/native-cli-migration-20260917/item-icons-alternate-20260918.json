@@ -1,0 +1,47 @@
+{
+  "applied": false,
+  "outputs": [
+    {
+      "beforeSha256": "831fc33e6fc842fcc845d07653fb3b3d2c26ebbdadfd6d63376ce75fa9739eef",
+      "bytes": 5278,
+      "matchesTarget": true,
+      "path": "icons/items/weapons/wpnicon_891.png",
+      "sha256": "831fc33e6fc842fcc845d07653fb3b3d2c26ebbdadfd6d63376ce75fa9739eef"
+    },
+    {
+      "beforeSha256": "7f42cdabb965b76bb1e73458a837d835646921bc6a247e277da4951865345043",
+      "bytes": 6033,
+      "matchesTarget": true,
+      "path": "icons/items/weapons/wpnicon_959.png",
+      "sha256": "7f42cdabb965b76bb1e73458a837d835646921bc6a247e277da4951865345043"
+    },
+    {
+      "beforeSha256": "df94479c33c666cdcd70643073bc61d3a21e01e02dcc228db2e8ed07a0f5edd2",
+      "bytes": 4530,
+      "matchesTarget": true,
+      "path": "icons/items/cosmetics/cosicon_1650.png",
+      "sha256": "df94479c33c666cdcd70643073bc61d3a21e01e02dcc228db2e8ed07a0f5edd2"
+    },
+    {
+      "beforeSha256": "663ef223ca9c29a55dd65f14e8c55bd33b2e054ad1d2be3f8c26a9e81076d8d6",
+      "bytes": 3454,
+      "matchesTarget": true,
+      "path": "icons/items/cosmetics/cosicon_1642.png",
+      "sha256": "663ef223ca9c29a55dd65f14e8c55bd33b2e054ad1d2be3f8c26a9e81076d8d6"
+    },
+    {
+      "beforeSha256": "97f1fe387fe10fe8d38cf810281d8fbd18f9cb8e90699fb6cca9241abe88a073",
+      "bytes": 4244,
+      "matchesTarget": true,
+      "path": "icons/items/cosmetics/cosicon_1644.png",
+      "sha256": "97f1fe387fe10fe8d38cf810281d8fbd18f9cb8e90699fb6cca9241abe88a073"
+    },
+    {
+      "beforeSha256": "679f0622e0e461d6f7a3493651a47c28772eeb253c9ce0da8c92daa4ec8437b9",
+      "bytes": 4471,
+      "matchesTarget": true,
+      "path": "icons/items/cosmetics/cosicon_1648.png",
+      "sha256": "679f0622e0e461d6f7a3493651a47c28772eeb253c9ce0da8c92daa4ec8437b9"
+    }
+  ]
+}

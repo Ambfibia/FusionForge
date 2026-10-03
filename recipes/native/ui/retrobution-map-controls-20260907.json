@@ -1,0 +1,76 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "retrobution-map-controls-20260907",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "native-target"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "main.unity3d",
+    "containerBytes": 8221718,
+    "containerSha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+    "objects": [
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 595,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "zoom-in"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 312,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "zoom-out"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 393,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "filter-arrow"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "extraction",
+    "tool": "tools/legacy-sources/publish-minimap-zoom.py",
+    "toolRevision": "857406bc95b5dd7a5983cefc3838c86b302600a8+sha256:1fb0218b085c35feefb1480a945dbfed6f7ee56c8029eff8677853090fdce7f4",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/legacy-sources/publish-minimap-zoom.py --target-root ../FFOneClient/assets/game --work work/cases/retrobution-ui-completion/map-control-replay"
+    ]
+  },
+  "inputs": [],
+  "outputs": [
+    {
+      "path": "ui/gameplay/minimap/zoom-in.png",
+      "bytes": 795,
+      "sha256": "4768fa6ae226ea8121f2b6d3bd6a94321a6f8cce38662c5502f5c9d88e1fc7c8"
+    },
+    {
+      "path": "ui/gameplay/minimap/zoom-out.png",
+      "bytes": 711,
+      "sha256": "fa05116a22e775f8b8caf6871a9c96820da1a37ce33e39c8721e3be62bf5dad9"
+    },
+    {
+      "path": "ui/world-map/filters/filter-arrow.png",
+      "bytes": 489,
+      "sha256": "03f1dcf0848a6880808a087c9794db4cbc6757233a5d1c9b5f434b894901e219"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "independent staging replay and byte-for-byte native output comparison",
+      "result": "passed",
+      "evidence": "docs/reference/evidence/cases/retrobution-ui-completion-20260907.md"
+    }
+  ]
+}

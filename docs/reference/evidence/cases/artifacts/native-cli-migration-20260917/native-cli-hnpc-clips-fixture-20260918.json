@@ -1,0 +1,26 @@
+{
+  "applied": true,
+  "outputs": [
+    {
+      "beforeSha256": "a57c1c19387213ad19e0c2a12a6278434ab62fa89b8955a100da42796499a05f",
+      "bytes": 19712768,
+      "matchesTarget": false,
+      "path": "characters/player/male/base/male_skeleton.glb",
+      "sha256": "f9fdf03f598506c8aef1bc5e0fa89bd247f85f0b2ea21c3322c1acf312caf816"
+    },
+    {
+      "beforeSha256": "9409c48186bd2ececfcfb572ec3740d648d36cb355e49b7d11dec7248231c490",
+      "bytes": 23774900,
+      "matchesTarget": false,
+      "path": "characters/player/female/base/female_skeleton.glb",
+      "sha256": "4dab751b1a5b95a9241e5310936ef9a398dba2b723ea71bcda6a7f5ed12c73a4"
+    },
+    {
+      "beforeSha256": null,
+      "bytes": 585,
+      "matchesTarget": false,
+      "path": "characters/player/shared/fixture-clips.json",
+      "sha256": "145ffaa6452cc8eafd37a70dfefcfb1d018951496326136760fff0a0703b88be"
+    }
+  ]
+}

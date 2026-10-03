@@ -1,0 +1,7 @@
+[build]
+target-dir = "target"
+
+[alias]
+dev = "run -p fusionforge --bin fusionforge --"
+fusionforge = "run -p fusionforge --bin fusionforge --"
+reference-audit = "run -p fusionforge --bin fusionforge -- reference-audit scan"

@@ -1,0 +1,1842 @@
+[
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-cry.json",
+    "sha256": "506344757e09cadb8e4a1ed8df6066f6ead246f1b31d8c71f9830512f4ecdab5",
+    "object": {
+      "classId": 74,
+      "name": "cry",
+      "pathId": 34471,
+      "rawBytes": 30144,
+      "rawSha256": "553c0b6b49d3f7635fd1a8f7ef9ff1885ba0cef30f717e7c51f3de11c7c0e77c",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "m_emo_face_sad.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "M_Avatar_Sad0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.3500001430511475
+      },
+      {
+        "data": "",
+        "functionName": "emote_face_off",
+        "messageOptions": 1,
+        "time": 2.5739998817443848
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-cry.json",
+    "sha256": "266fd4c07479afe570e4b56f2b88c3062af9aa0630d7d2a96285e338a43744a4",
+    "object": {
+      "classId": 74,
+      "name": "cry",
+      "pathId": 34494,
+      "rawBytes": 30712,
+      "rawSha256": "2132e570cebc95bc53a28a36cce215d38190db75f9b8023d786bd5e44d130afb",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "f_emo_face_sad.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "F_Avatar_Sad0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.2833333015441895
+      },
+      {
+        "data": "",
+        "functionName": "emote_face_off",
+        "messageOptions": 1,
+        "time": 2.4826669692993164
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-angry.json",
+    "sha256": "3b351de4b8301f0ef73f0c0e90b638300b12fa4b14a1c1b72ec4fe5c1b896382",
+    "object": {
+      "classId": 74,
+      "name": "angry",
+      "pathId": 34304,
+      "rawBytes": 31360,
+      "rawSha256": "457017f616360b50f4440fc60f2b089e2a86c77b1d08f44839c53693b5a24d87",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "m_emo_face_angry.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "704",
+        "functionName": "particle",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "M_Avatar_Angry0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.0166666507720947
+      },
+      {
+        "data": "",
+        "functionName": "emote_face_off",
+        "messageOptions": 1,
+        "time": 1.253999948501587
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-angry.json",
+    "sha256": "3e2f3a9ab28b56c43747eb1ae9811dece1a3c6875a95b016195792e05ff8cb4b",
+    "object": {
+      "classId": 74,
+      "name": "angry",
+      "pathId": 34161,
+      "rawBytes": 27884,
+      "rawSha256": "265dbc9a3cdb4f63e8388d7ba4587078c754845d3b444595d473994f37a3a86d",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "f_emo_face_angry.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "F_Avatar_Angry0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "704",
+        "functionName": "particle",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.0166666507720947
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-shocked.json",
+    "sha256": "03ffa5429206f51a609b842422c4dd2ed471332c1c0748db61a79e12fa69b837",
+    "object": {
+      "classId": 74,
+      "name": "shocked",
+      "pathId": 34383,
+      "rawBytes": 31036,
+      "rawSha256": "51d67b38aa0f73c4482a92d65b0da34c74b4becf080f3b9450916e58f2beee79",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "m_emo_face_shocked.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "M_Avatar_Scared0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.4833333492279053
+      },
+      {
+        "data": "",
+        "functionName": "emote_face_off",
+        "messageOptions": 1,
+        "time": 1.698667049407959
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-shocked.json",
+    "sha256": "3334306c0fd5d614dc2862e90f54342644e7de8b454f3b3b222f180d94cfb6a1",
+    "object": {
+      "classId": 74,
+      "name": "shocked",
+      "pathId": 34629,
+      "rawBytes": 26752,
+      "rawSha256": "3d2e2ae866c82bf2cb15e50ac2475ed27f3f97a768c962ef6986c8c7ce9f05b0",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "f_emo_face_shocked.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "F_Avatar_Scared0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.4833333492279053
+      },
+      {
+        "data": "",
+        "functionName": "emote_face_off",
+        "messageOptions": 1,
+        "time": 1.715999960899353
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-hello.json",
+    "sha256": "6f3bc8db2c4cea77ca34b0dd9deecbb6fe99dd035791ae59eec41c7d2057bb7a",
+    "object": {
+      "classId": 74,
+      "name": "hello",
+      "pathId": 34598,
+      "rawBytes": 29208,
+      "rawSha256": "b7e986eb6a7c60330b6dbbe916f991cf676255aa5c195c56394e39d73514c741",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "M_Avatar_Hello0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.4833333492279053
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-hello.json",
+    "sha256": "de4d7db845a03eed0a7c9e91111e3321d371b3c604e9fcea86280c0ae65bbafc",
+    "object": {
+      "classId": 74,
+      "name": "hello",
+      "pathId": 34192,
+      "rawBytes": 28560,
+      "rawSha256": "7b82d763b077eda67777e59aae623c49699e95504ce1262cfa8dc2f677a353cb",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "F_Avatar_Hello0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.4833333492279053
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-thank.json",
+    "sha256": "cf0ca5ba5cf158ab1abc63a3ef3deeccad15e8f345fc7667104fba7306537c6c",
+    "object": {
+      "classId": 74,
+      "name": "thank",
+      "pathId": 34362,
+      "rawBytes": 27240,
+      "rawSha256": "ec7c1427597c1f4658c6fd769508e9b57a7f1f7c3c12bc29070a224df410b9ea",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "",
+        "functionName": " -GlobalRatio 100 -GlobalCompressFloats true -GlobalDontCompress false",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "M_Avatar_Thanks0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.350000023841858
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-thank.json",
+    "sha256": "0dd86f667da4cb1483682da5eac15a94568f4afa42155f078f8f1c68c471e2ab",
+    "object": {
+      "classId": 74,
+      "name": "thank",
+      "pathId": 34476,
+      "rawBytes": 23948,
+      "rawSha256": "b01f3bcabb6ee8e6306a6a10f40de48416d92c300beb1979324625482b2f88a7",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "F_Avatar_Thanks0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.350000023841858
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-dance1.json",
+    "sha256": "67d523c8df5eadab47efbe1f737e320e02472276feb2a05e67b09e376095f057",
+    "object": {
+      "classId": 74,
+      "name": "dance1",
+      "pathId": 34566,
+      "rawBytes": 35868,
+      "rawSha256": "f27546e2bcee3a7cdd4a12792947a2881664628f10c6b828c30afcf6e5e5e019",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "M_Avatar_Dance01.wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "M_Avatar_SFX_Dance1_0(RAND:1-2).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 3.4833333492279053
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-dance1.json",
+    "sha256": "2dbc008eebc6d2ea0050ded090526ca87342c1f14688d05a2d2569f86d4816bb",
+    "object": {
+      "classId": 74,
+      "name": "dance1",
+      "pathId": 34283,
+      "rawBytes": 54636,
+      "rawSha256": "b45050c89e2ae113367c3de77c8b9c099df66685b114fe4330aadf1a4ebae934",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "F_Avatar_Dance01.wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "F_Avatar_SFX_Dance1_0(RAND:1-2).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 3.883333206176758
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-kiss.json",
+    "sha256": "e87ced55707aaf84a343f7ee0d13cbda062ebb060b5c4702fde76cec1236354d",
+    "object": {
+      "classId": 74,
+      "name": "kiss",
+      "pathId": 34427,
+      "rawBytes": 25960,
+      "rawSha256": "34f81a506a921395d47232efe981779fcd32415b8a1b391af37430ab0fe3b8e7",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "m_emo_face_love.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "687",
+        "functionName": "particle",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "M_Avatar_Love0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.6166666746139526
+      },
+      {
+        "data": "",
+        "functionName": "emote_face_off",
+        "messageOptions": 1,
+        "time": 1.8480000495910645
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-kiss.json",
+    "sha256": "b86e8ec6b65a0cb184dcdfb86f789fbfbd8d41db9b5dd1f9d08060220e75594a",
+    "object": {
+      "classId": 74,
+      "name": "kiss",
+      "pathId": 34602,
+      "rawBytes": 28596,
+      "rawSha256": "a555ca1dbb1d4237bf8ce45770de71293d8b803db2efde3082bac27d066745db",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "f_emo_face_love.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "F_Avatar_Love0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "687",
+        "functionName": "particle",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.4833333492279053
+      },
+      {
+        "data": "",
+        "functionName": "emote_face_off",
+        "messageOptions": 1,
+        "time": 1.698667049407959
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-agree.json",
+    "sha256": "1be5adaf245c9237aa9cd74766bae7f7f55c4cf4f2efef1f8e82ebb3aa6aa870",
+    "object": {
+      "classId": 74,
+      "name": "agree",
+      "pathId": 34319,
+      "rawBytes": 29480,
+      "rawSha256": "524816603e7f075cdab8d1114d2bd9b60bf41e26ff144f2dd275ce07042fb3ae",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "m_emo_face_agree.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "M_Avatar_Yes0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.149999976158142
+      },
+      {
+        "data": "",
+        "functionName": "emote_face_off",
+        "messageOptions": 1,
+        "time": 1.371999979019165
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-agree.json",
+    "sha256": "79f1b51665d458a39118cf76a308f8f356ec3a18a73f30ae4ad456f3cd4e1c2a",
+    "object": {
+      "classId": 74,
+      "name": "agree",
+      "pathId": 34201,
+      "rawBytes": 26108,
+      "rawSha256": "a926853e45f8c14e220f5c345d7ec8026de2f4efefc05cf252b6c3ec3cf26f3f",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "f_emo_face_agree.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "F_Avatar_Yes0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.149999976158142
+      },
+      {
+        "data": "",
+        "functionName": "emote_face_off",
+        "messageOptions": 1,
+        "time": 1.3860000371932983
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-laugh.json",
+    "sha256": "4a8427905b9e180161df3ea6eb5072dd0d38c136668053f7ab75bf800b2688b6",
+    "object": {
+      "classId": 74,
+      "name": "laugh",
+      "pathId": 34353,
+      "rawBytes": 29584,
+      "rawSha256": "418b211b8ef687abe482642338a80f297e0a90da8196daddd22bbe864ee6e6ad",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "m_emo_face_happy.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "M_Avatar_Laugh0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 3.0833334922790527
+      },
+      {
+        "data": "",
+        "functionName": "emote_face_off",
+        "messageOptions": 1,
+        "time": 3.299999952316284
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-laugh.json",
+    "sha256": "74fd36f98ba17263c675f5f1464b2ca1970c208ad0fbf060f96b41c731939a24",
+    "object": {
+      "classId": 74,
+      "name": "laugh",
+      "pathId": 34377,
+      "rawBytes": 31144,
+      "rawSha256": "a7c060101e48f52d679ec19ae112ee2a6d8b8c29e0c334a591bf37b7da8b2bbb",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "f_emo_face_laugh.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "F_Avatar_Laugh0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.4166667461395264
+      },
+      {
+        "data": "",
+        "functionName": "emote_face_off",
+        "messageOptions": 1,
+        "time": 2.613332986831665
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-no.json",
+    "sha256": "da24475772cd2fefb83ed7dcbeffbceb74ea509516256fa633ae99ff6348a8e0",
+    "object": {
+      "classId": 74,
+      "name": "no",
+      "pathId": 34410,
+      "rawBytes": 28704,
+      "rawSha256": "55d72ad75cd063ce6af3287188a70928426275538b96e784b2fcc7ad59065d33",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "M_Avatar_No0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.4166667461395264
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-no.json",
+    "sha256": "56648741d0e4d841c0436f26ed7105ac7c6bfecf038ab8f1e952ae52573f8672",
+    "object": {
+      "classId": 74,
+      "name": "no",
+      "pathId": 34250,
+      "rawBytes": 25240,
+      "rawSha256": "bf1356e360d166a64d8d435a5f03797edcc8e15ce94c25511bf789245a02a791",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "F_Avatar_No0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.4166667461395264
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-flex.json",
+    "sha256": "24594a7dea880c941ad9537c5fdb4e5a672331e9cf467d8c5cc864b3945e4775",
+    "object": {
+      "classId": 74,
+      "name": "flex",
+      "pathId": 34558,
+      "rawBytes": 31804,
+      "rawSha256": "1df348cc176c30176f625787a655456cec23cda2af648a7ae695e2a10b058572",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "m_emo_face_flex.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "M_Avatar_Flex0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.4833333492279053
+      },
+      {
+        "data": "",
+        "functionName": "emote_face_off",
+        "messageOptions": 1,
+        "time": 1.698667049407959
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-flex.json",
+    "sha256": "ebeb45b635b79221d66bc475ec356b6465ee7857b60dbe7ebdb68f9199bcab8d",
+    "object": {
+      "classId": 74,
+      "name": "flex",
+      "pathId": 34218,
+      "rawBytes": 30384,
+      "rawSha256": "bfede490840e16c95c53dee18e737e5057d38d6636e8eca7a39bed930c4dd9a8",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "f_emo_face_flex.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "F_Avatar_Flex0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.4833333492279053
+      },
+      {
+        "data": "",
+        "functionName": "emote_face_off",
+        "messageOptions": 1,
+        "time": 1.715999960899353
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-tease.json",
+    "sha256": "1a1f7b568f8341a9e94be8c1efda4383db831b108e4a2735ae7931f6c28637c0",
+    "object": {
+      "classId": 74,
+      "name": "tease",
+      "pathId": 34623,
+      "rawBytes": 36144,
+      "rawSha256": "ca6d426cfde56f2c81fc726cfd42750c6580a15b41a66f0c9a95ff0cd779896f",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "m_emo_face_tease.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "M_Avatar_Tease0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.4833333492279053
+      },
+      {
+        "data": "",
+        "functionName": "emote_face_off",
+        "messageOptions": 1,
+        "time": 2.7060000896453857
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-tease.json",
+    "sha256": "5a3252189509c605a145d3250f365ccb543ec18e61ca0b2311e9dde693838f3a",
+    "object": {
+      "classId": 74,
+      "name": "tease",
+      "pathId": 34547,
+      "rawBytes": 32768,
+      "rawSha256": "7a912b910e597ab6d3ee5303ec849361442a54f941deabed02a3826abfac2c50",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "f_emo_face_tease.dds",
+        "functionName": "emote_face_on",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "F_Avatar_Tease0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.4833333492279053
+      },
+      {
+        "data": "",
+        "functionName": "emote_face_off",
+        "messageOptions": 1,
+        "time": 2.6786670684814453
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-ok.json",
+    "sha256": "5e5cf9e5a19a363236c305bd0cf2291d4d512a88b5ffe23eb12efd24e036a18f",
+    "object": {
+      "classId": 74,
+      "name": "ok",
+      "pathId": 34423,
+      "rawBytes": 26724,
+      "rawSha256": "2c1c7037d3c25ab2f00655c2c4938d97db09b3ed56b0b3eecbd671aa2d4ab068",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "M_Avatar_Yes0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.4166667461395264
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-ok.json",
+    "sha256": "b43d096caa6c021c3e041e07bda960cfb24c1a5727e9da6dadf49e4e62e4160e",
+    "object": {
+      "classId": 74,
+      "name": "ok",
+      "pathId": 34431,
+      "rawBytes": 24976,
+      "rawSha256": "ddaee32279b61fc94dc29f5cb7197d9321ca28b30b6cb02ab52523259a7aeceb",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "F_Avatar_Yes0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.4166667461395264
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-applaud.json",
+    "sha256": "577dececfd6a8b65961f8b0877b8747f5d795e5a31766fd2ce38f54a168ef72b",
+    "object": {
+      "classId": 74,
+      "name": "applaud",
+      "pathId": 34217,
+      "rawBytes": 29748,
+      "rawSha256": "8eaa9ca41a5a9f9dd714a7e1b8e81f403af34030ae0400846abceb58e698e1b9",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "M_Avatar_Applause.wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.0166666507720947
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-applaud.json",
+    "sha256": "f09b81627bccecc6427ec268f3517eee1b003b2cd67a23dca656cc7b6b5e7b02",
+    "object": {
+      "classId": 74,
+      "name": "applaud",
+      "pathId": 34149,
+      "rawBytes": 33856,
+      "rawSha256": "f420cb1d4c68d0c1c44f922bfc69e6630996ced31ac4794504d4a84ad2718bac",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "F_Avatar_Applause.wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.4166667461395264
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-cheer.json",
+    "sha256": "e0dd1f9916a5ef30598eef4db053605eab9eaa3e1be818579c7fd366d60fd2aa",
+    "object": {
+      "classId": 74,
+      "name": "cheer",
+      "pathId": 34405,
+      "rawBytes": 27604,
+      "rawSha256": "74955c2ce718274a6369c6ee18f78e8cfda7a3344d47194d37d91fe803e14ab2",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "M_Avatar_Happy0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 1.283333420753479
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-cheer.json",
+    "sha256": "1b259b954a788e81b8a105a3fa30788d302f5b069e2f1168390847a27be63930",
+    "object": {
+      "classId": 74,
+      "name": "cheer",
+      "pathId": 34515,
+      "rawBytes": 27860,
+      "rawSha256": "9743338b60f61b46ef35d22fb64b889bf9d698738305562bb3b723b722fcf4d6",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "F_Avatar_Happy0(RAND:1-3).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 0.9500000476837158
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-dance2.json",
+    "sha256": "1dc375b21fc4da9817c64e0d2b9018048f1059ca7ce6b6517611bb9bfa4826c9",
+    "object": {
+      "classId": 74,
+      "name": "dance2",
+      "pathId": 34285,
+      "rawBytes": 43280,
+      "rawSha256": "bdbc101e1b47b5c2a50ba8bcb047346aa0e357e13b182c2cf5d55991cb01f7f1",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "",
+        "functionName": " -GlobalRatio 100 -GlobalCompressFloats true -GlobalDontCompress false",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "M_Avatar_Dance02.wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "M_Avatar_SFX_Dance2_0(RAND:1-2).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.75
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-dance2.json",
+    "sha256": "196402466bd6d8e1a7cb9246833966cbf7cc09fd5b1e8bb7f38f751b2172f3ae",
+    "object": {
+      "classId": 74,
+      "name": "dance2",
+      "pathId": 34430,
+      "rawBytes": 46944,
+      "rawSha256": "dfbfbf97c7fc7a8d9163d26cb5967683e32e24ff2447291135f49f0b5d5b4d94",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "F_Avatar_SFX_Dance2_0(RAND:1-2).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "F_Avatar_Dance02.wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 3.4166667461395264
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-dance3.json",
+    "sha256": "9ef0995a11a2212499d66cb9c7556328a8922690da39683acbb6f35de0d6c6d4",
+    "object": {
+      "classId": 74,
+      "name": "dance3",
+      "pathId": 34225,
+      "rawBytes": 41624,
+      "rawSha256": "140185d2d5ce691ab83305fe97cfb1673720c14cd754be8019353aac5e5121ff",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "M_Avatar_Dance03.wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": " -GlobalRatio 100 -GlobalCompressFloats true -GlobalDontCompress false",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "M_Avatar_SFX_Dance3_0(RAND:1-2).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.75
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-dance3.json",
+    "sha256": "b17be41d496b9883912ab578163172f52ee9291530c4de7bce5f38f727f6ca2b",
+    "object": {
+      "classId": 74,
+      "name": "dance3",
+      "pathId": 34536,
+      "rawBytes": 48368,
+      "rawSha256": "d9d51704454ffdf96996d1807cee60acfd774ca89f287de1f809d4ba8b09d421",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "F_Avatar_Dance03.wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "F_Avatar_SFX_Dance3_0(RAND:1-2).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.683333396911621
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-dance4.json",
+    "sha256": "67ada6a5025ca0de0e4cc0b717c0828b46b32d92e7a97ac0c65fd41592913ca9",
+    "object": {
+      "classId": 74,
+      "name": "dance4",
+      "pathId": 34635,
+      "rawBytes": 51272,
+      "rawSha256": "4425cb133bbf621d016a5f6ce8c5fc32fdbc3ec79aca62b8dfd74d610f859735",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "M_Avatar_SFX_Dance4_0(RAND:1-2).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "M_Avatar_Dance04.wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": " -GlobalRatio 100 -GlobalCompressFloats true -GlobalDontCompress false",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 3.616666793823242
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-dance4.json",
+    "sha256": "fdd25e6670667ec5f3ab28f7e7924db1493dc85d3b6d657baa1d45ae9d00f7b3",
+    "object": {
+      "classId": 74,
+      "name": "dance4",
+      "pathId": 34634,
+      "rawBytes": 44168,
+      "rawSha256": "576c633dce94ef661d31b973803eb5d1496fc80b5b67c33541198221b7f7f370",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "F_Avatar_SFX_Dance4_0(RAND:1-2).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "F_Avatar_Dance04.wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 3.75
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-dance5.json",
+    "sha256": "def0e2c385bf345f49a2339e8c82847f6f00df3285818f46c0fcbbedabf06172",
+    "object": {
+      "classId": 74,
+      "name": "dance5",
+      "pathId": 34316,
+      "rawBytes": 41940,
+      "rawSha256": "9ba072b48266a686e11fd8eb32e24efff863dc4c45df571daeab3ed80869eda9",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "M_Avatar_SFX_Dance5_0(RAND:1-2).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "M_Avatar_Dance05.wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": " -GlobalRatio 100 -GlobalCompressFloats true -GlobalDontCompress false",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.75
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-dance5.json",
+    "sha256": "cc045365e3f8e19953d8d0dc8bfb53f0a7ddf9d3f611ff79b66d126f3774ab36",
+    "object": {
+      "classId": 74,
+      "name": "dance5",
+      "pathId": 34628,
+      "rawBytes": 39048,
+      "rawSha256": "b10755b612d332b01e2435fd6fd216a33d92e06fb1107d5e0f3b81bedada9188",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "F_Avatar_SFX_Dance5_0(RAND:1-2).wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "F_Avatar_Dance05.wav",
+        "functionName": "sound",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 4.016666889190674
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-goodbye.json",
+    "sha256": "a3c61d03ea96a2a6152be61dac1f263b2a0ae18b3ae6d577c3728c8edc7fed9d",
+    "object": {
+      "classId": 74,
+      "name": "goodbye",
+      "pathId": 34310,
+      "rawBytes": 29240,
+      "rawSha256": "051b325223ce77e8af8f1337ea7e503298e6dc88205b5d21b95fe5fd5b1e84b5",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "",
+        "functionName": " -GlobalRatio 100 -GlobalCompressFloats true -GlobalDontCompress false",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.4833333492279053
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-goodbye.json",
+    "sha256": "cbaa9cb7a9506acc217972133ba7a8ef2a107fea00c0f2729c7b9701eb5b5c1f",
+    "object": {
+      "classId": 74,
+      "name": "goodbye",
+      "pathId": 34575,
+      "rawBytes": 34036,
+      "rawSha256": "05e555e6afb3da34a3a7a69173a68842e22c00e56637da1a48585ca308885115",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.4833333492279053
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-beach1.json",
+    "sha256": "fe6c6170f25012ab935d0e870e1a37502de75ced43690eee09b2d456b7c4387d",
+    "object": {
+      "classId": 74,
+      "name": "beach1",
+      "pathId": 34211,
+      "rawBytes": 26648,
+      "rawSha256": "6b49b4d0e2e005f729620ae8421e2dcda871e12bbf62b9895e0b79e9097a310c",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "",
+        "functionName": " -GlobalRatio 100 -GlobalCompressFloats true -GlobalDontCompress false",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.950000047683716
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-beach1.json",
+    "sha256": "02fb11fd6bd200fa04d8cd6942581b20ad4582b21cbb325931a311a0adab2387",
+    "object": {
+      "classId": 74,
+      "name": "beach1",
+      "pathId": 34573,
+      "rawBytes": 33416,
+      "rawSha256": "530297f12e60184f072af18b2971b6760e81532cd660d4f32c6b1cb16a97c726",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.950000047683716
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-beach2.json",
+    "sha256": "4af397b3dd3ef429ff70ea4a6394d969ca54049b6cf8c0f48138ea4633e9edae",
+    "object": {
+      "classId": 74,
+      "name": "beach2",
+      "pathId": 34402,
+      "rawBytes": 26016,
+      "rawSha256": "70029fa48d286bcfb16d77a1eb803034e0ee39c4d338b038c84d24b5a1531dae",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "",
+        "functionName": " -GlobalRatio 100 -GlobalCompressFloats true -GlobalDontCompress false",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.950000047683716
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-beach2.json",
+    "sha256": "c6f0c3fbfe3acc7b09836a94819304fd8e96a7d9785b5739914c325d0e31f394",
+    "object": {
+      "classId": 74,
+      "name": "beach2",
+      "pathId": 34563,
+      "rawBytes": 28792,
+      "rawSha256": "4a89a15aa0eb62d5106726fe04592073518772b002d406b4d41cc1207363d979",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.950000047683716
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/male-beach3.json",
+    "sha256": "9315791c0a0834af225bd157dcd31c709e2d2cc59846916e696a8d2694678c72",
+    "object": {
+      "classId": 74,
+      "name": "beach3",
+      "pathId": 34433,
+      "rawBytes": 25732,
+      "rawSha256": "2bf90c7982cbe86a233fd395c6b9a22ec91a3b9a15d9c6fb70a8534565fbd6e7",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "",
+        "functionName": " -GlobalRatio 100 -GlobalCompressFloats true -GlobalDontCompress false",
+        "messageOptions": 1,
+        "time": 0.25
+      },
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.950000047683716
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  },
+  {
+    "artifact": "work/cases/player-emotes-20260908/events/female-beach3.json",
+    "sha256": "ecd82c95412c15e4918e497f8b7af3a5c43bd882c4f7ca7a4ef105225f1ff4ee",
+    "object": {
+      "classId": 74,
+      "name": "beach3",
+      "pathId": 34552,
+      "rawBytes": 29864,
+      "rawSha256": "54616a9e6b6058c25850c1c7c56952fa6257cd65d5d9532f3de8b8d2e8c7e119",
+      "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "type": "AnimationClip",
+      "typeId": 74
+    },
+    "events": [
+      {
+        "data": "",
+        "functionName": "end",
+        "messageOptions": 1,
+        "time": 2.950000047683716
+      }
+    ],
+    "source": {
+      "alias": "primary",
+      "bytes": 16737641,
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    }
+  }
+]

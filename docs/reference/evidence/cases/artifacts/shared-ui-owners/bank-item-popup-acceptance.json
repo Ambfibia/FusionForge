@@ -1,0 +1,221 @@
+{
+  "schema": "ffone.ui-followup-acceptance.v1",
+  "sourceRole": "primary",
+  "sourceBuild": "retrobution-20260821",
+  "scope": "Bank equipment/general/chest inspection and full-stack transfer; keyed item text. Step 3 remains incomplete.",
+  "checks": {
+    "bankTests": 24,
+    "gpuRuns": 10,
+    "reviewedFrames": [
+      "general en/ru",
+      "equipment en/ru",
+      "chest en/ru",
+      "inventory en/ru"
+    ],
+    "actualTransferLabelClick": "passed EN/RU, exactly one move",
+    "localeKeys": 65849,
+    "missingKeys": 0,
+    "placeholderDifferences": 0,
+    "nonemptyItemTextReferencesChecked": 12852,
+    "missingItemTextKeys": 0,
+    "devBuild": "passed",
+    "fullClientOfflineWorldCapture": "passed",
+    "liveServerTransaction": "not run",
+    "unityPixelComparison": "not run"
+  },
+  "replay": [
+    "cargo test -p ffone-client --lib bank_ui",
+    "cargo build -p ffone-client --bin ffone-client --example bank_ui_gpu_preview",
+    "FFONE_BANK_POINTER=popup-{general,equip,chest,inventory,transfer}; bank_ui_gpu_preview {en,ru} OUTPUT.png",
+    "FFONE_USERNAME=; FFONE_PERF_OUTPUT=target/performance/bank-item-popup-world-smoke; ffone-client --asset-root assets/game --language ru"
+  ],
+  "remaining": [
+    "Bank deletion confirmation and server owner",
+    "Bank vehicle rental/combined-item/eligibility presentation refinements",
+    "Bank drag ghost and scrollbar controls",
+    "Vendor try-on and chest actions",
+    "Service event animation owners"
+  ],
+  "artifacts": [
+    {
+      "path": "../builds/retrobution-20260821/main.unity3d",
+      "bytes": 8221718,
+      "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/PopupControll.cs",
+      "bytes": 26090,
+      "sha256": "c0c49e3a34532eff7cb5173fcdc854db32f88a0d03e7160c6ff37d84313c5fde"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/EquipPopup.cs",
+      "bytes": 84357,
+      "sha256": "3d0db1a1034eb1f1c56d5b96c981fa817aaea352bc69195f61e0803543775ad4"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/TuringPopup.cs",
+      "bytes": 15281,
+      "sha256": "5e4eb71a3d5761e7bbebd16c4d95c74b76fbe987dfae74d63f97c2d6bcd14d22"
+    },
+    {
+      "path": "../FFOneClient/target/debug/ffone-client.exe",
+      "bytes": 207411200,
+      "sha256": "adbb27b95b02e09b66dd21a12801f366ad183b997bbfe98aff68a6c0c83357fe"
+    },
+    {
+      "path": "../FFOneClient/target/debug/examples/bank_ui_gpu_preview.exe",
+      "bytes": 148923904,
+      "sha256": "f25579e51eb15191eb1cfe85feea4b0063ef5956bc8e17e253be735c2c916ee8"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/bank_ui.rs",
+      "bytes": 150547,
+      "sha256": "de821b305955c6b6afe754edfd1fa930049ad5d617e5bac1ef830ea3639d0132"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/bank_ui/item_popup.rs",
+      "bytes": 27466,
+      "sha256": "f78ed5bd1b410d965865fb6e606a9f5af8f617467f33eee0599d42ae552e3b80"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/tutorial_mission_content.rs",
+      "bytes": 294920,
+      "sha256": "b680c1a754f5f419aaa546f576ae9fda12a6a391cc828c36a30bbc421e5d013c"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/examples/bank_ui_gpu_preview.rs",
+      "bytes": 37370,
+      "sha256": "4c8fc849bc3d97005da7f68c2eeb3e835767d48c739c95d97becb573f2bc8f68"
+    },
+    {
+      "path": "../FFOneClient/assets/game/localization/en.json",
+      "bytes": 8090622,
+      "sha256": "cb6d3c2f32574a147728109d406f58a2af6e97f826b9669a51cb10e3772fe54e"
+    },
+    {
+      "path": "../FFOneClient/assets/game/localization/ru.json",
+      "bytes": 11752339,
+      "sha256": "2d1a2a4a498369b709d894164006e1f70d26ff281230c09267c20cf617633ee7"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-tests.log",
+      "bytes": 2382,
+      "sha256": "d609f3f98514bb50e8e1f32199adfba14faf0c1b9df3756400e9d36c99a9ee25"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-item-popup-world-smoke.log",
+      "bytes": 145,
+      "sha256": "1ce484a1bce9fa52fe5b29d1afbd809a7743cba6e370f37920662c402b7efa6d"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-general-en.png",
+      "bytes": 440215,
+      "sha256": "0a0a0f61da884f386014b5a59cc82312b2350563098211a8153788a973f1df50"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-general-en.log",
+      "bytes": 900,
+      "sha256": "3ced7d007f2ffa46adc58a9bb56e35e98b5021621e44319eceba4609f1cba075"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-general-ru.png",
+      "bytes": 447406,
+      "sha256": "7117a9e3d4d7b524bac12122af257e376a570cebba5fc4f296432d2ba3951354"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-general-ru.log",
+      "bytes": 901,
+      "sha256": "e34eb237b377bd133095d1a0a7eedc214d5693ba5d9fd77dbf6eeb40b96861df"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-equip-en.png",
+      "bytes": 439087,
+      "sha256": "0004b536bd245aaa30ee00d8c2e869ab05fefbe314814f9345fea629a86da1f1"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-equip-en.log",
+      "bytes": 896,
+      "sha256": "daaec045cbec04b0c3f4c65420e12f589030131fad66fd7388f9731458e1b230"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-equip-ru.png",
+      "bytes": 445068,
+      "sha256": "99fc3ef1b8425e4eb69bf0283501e23fd8f8fa7d1349cf6e67832f317981ed91"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-equip-ru.log",
+      "bytes": 897,
+      "sha256": "28845f4f38f099ee13349774352e120998dad5dbcae9c4a6ba1d2615dd5513a3"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-chest-en.png",
+      "bytes": 413170,
+      "sha256": "c46a8977f4ce5897640a9ab4762366a879ff32cb389a9ed1bcd43af96d13ef2a"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-chest-en.log",
+      "bytes": 896,
+      "sha256": "65ba98668c1161d1d5953a2fb8d8f918c9d54b5e9dbfb245abec396e20d825e0"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-chest-ru.png",
+      "bytes": 415434,
+      "sha256": "b31c05f5c1b0f02d320dccaa41eb86c9f80467372219bd38433c1a2556bc0535"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-chest-ru.log",
+      "bytes": 897,
+      "sha256": "08fb6db30fd5c962fa14be9d07647ed5f9ad44559bd9b575264eed05050cb1b1"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-inventory-en.png",
+      "bytes": 390117,
+      "sha256": "bf1ec79838ab9f8e3cdade6e25d7d2c86a48cae6923ffa0281529cab5704a1a0"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-inventory-en.log",
+      "bytes": 904,
+      "sha256": "b83d7b8cc78ed82eddfa18dfe84cdee91d0dd06903463610b12821b3e0bfccad"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-inventory-ru.png",
+      "bytes": 398092,
+      "sha256": "6f2bdff2fe602b81adc58748b6ac475c82715e6c8607066d5a89fbcca9df7b43"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-inventory-ru.log",
+      "bytes": 905,
+      "sha256": "5cfd3b98273eddf5ac7894d5d47e6107944f80322b0cc2013a87940d92d7ea8c"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-transfer-en.png",
+      "bytes": 424837,
+      "sha256": "2d46a31040cc31a2bcc483814210e8597d55d0b0064c2a919d6a8d789ea9a6f4"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-transfer-en.log",
+      "bytes": 949,
+      "sha256": "994b439c5423959cbb46c76b88e5913c796b205693f17abbbb0356eefc42a77c"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-transfer-ru.png",
+      "bytes": 427635,
+      "sha256": "cbf12205af97ab5593e8a6de14580d5211f506fb09a7ef2b1d1a2dc5c119ec42"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-popup-transfer-ru.log",
+      "bytes": 950,
+      "sha256": "256541af5196ba8a52b1c3090a86c94adf9546a9d38841c2bd4291af5bf1ec22"
+    },
+    {
+      "path": "../FFOneClient/target/performance/bank-item-popup-world-smoke/frame.png",
+      "bytes": 3659566,
+      "sha256": "55170f0a26cbc3b54cca96609fd9fc56eabf6d6cc776703c7c9bd8b688e8105e"
+    },
+    {
+      "path": "../FFOneClient/target/performance/bank-item-popup-world-smoke/report.json",
+      "bytes": 10152,
+      "sha256": "eccd6ab12e54bb852c3f64f0058be9b1a6bf38ecd39c0837d6a1c807004622de"
+    }
+  ]
+}

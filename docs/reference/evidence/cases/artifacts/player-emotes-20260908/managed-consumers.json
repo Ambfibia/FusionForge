@@ -1,0 +1,12 @@
+[
+  {
+    "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/cnAvatarAnimation.cs",
+    "bytes": 61722,
+    "sha256": "8ef6a22501c8e164bceb5e95f3e2c3401bca3a75abb52a62a4f771ed837805e5"
+  },
+  {
+    "path": "work/projects/retrobution-ui-20260821.ffclient/reports/nano-summon-primary/decompiled/AnimationEventHandler.cs",
+    "bytes": 19483,
+    "sha256": "692f464ce9da7ac4811b14dbea001cb26e965906240f12b9484197d54bf63ebd"
+  }
+]

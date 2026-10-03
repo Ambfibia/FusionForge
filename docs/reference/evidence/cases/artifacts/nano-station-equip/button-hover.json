@@ -1,0 +1,110 @@
+{
+  "height": 25,
+  "id": "sharedassets0.assets:309",
+  "importSettings": {
+    "m_CompleteImageSize": 2000,
+    "m_ImageCount": 1,
+    "m_Limit": -1,
+    "m_MipMap": false,
+    "m_TextureDimension": 2,
+    "m_TextureSettings": {
+      "m_Aniso": 1,
+      "m_FilterMode": 1,
+      "m_MipBias": 0.0,
+      "m_WrapMode": 1
+    },
+    "m_Touchable": false
+  },
+  "mipCount": 1,
+  "mipCountEvidence": {
+    "height": 25,
+    "intentionalDivergence": null,
+    "mMipMap": false,
+    "serializedMipMapContradiction": false,
+    "source": "derived-from-dimensions-format-source-byte-length-and-m_MipMap",
+    "sourceByteLength": 2000,
+    "textureFormat": 4,
+    "width": 20
+  },
+  "mipLevels": [
+    {
+      "decodedRgbaByteLength": 2000,
+      "decodedRgbaSha256": "98e68edde8df2b55d3b46331441edbb13dc4cdf384313f8a06432133c97e69e3",
+      "height": 25,
+      "level": 0,
+      "payload": {
+        "alphaMaskApplied": false,
+        "byteLength": 832,
+        "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAADB0lEQVR4Ae3AA6AkWZbG8f937o3IzKdyS2Oubdu2bdu2bdu2bWmMnpZKr54yMyLu+Xa3anqmhztr1S/IhEywhf1e2D+FffvM9sz2zPbM9sz2zPbMNvat2D+O/Q7YIhMyIRORCdI1wPe8JrzxJwMvD5zhBbsb+HPgs4G/hB8HPgB7NwBhC/jFT4Q3/hL+dRL4GOBr4Qc37Hc7AoT93q8J3/XbgAHzohFXjMDLAf8Ab4X9swF8wBcCEzABEzABIzAAAzAAAzAAIzABIzABAXwRl30AgLD3dmG7AxJIwIC5wjybuEKAgAACuBd4KDwD+8G1h+0A1kADEkjAgAHzbAIECAgggAIsuGwHoAKsgRGYgAY0IAED5tkECAigAAWowMizUAFWwAAMwAg0IIEEzLMFICCAAnRAD0w8CxVgCayANTACI9CABMyzBRBAASrQAyNgnoUKsASOgCUwACMwAQkkYEBAAAFUoANmwBwInoUKcAQcAEfAChiACUggAQMCAgigAjNgDjSg8CxUA0fAAXAALIE1MAINSMCAgAAK0AEzYANIoONZqAAr4Ag4AI6ANTAAE2AggQACKEAPjICBAiTPQgUYgDWwBpbAClgDE5BAAgEE0AETkEABZkDwLFSAERiAJbAElsAaGIEEEgigABWYAAMdMAcqz0IFGIEBGIAVsARWwAg0wICACnRAAgEMwAhMPAsVIIEJGIERWANrYAAaYEBABZIrOmAEJqDxLFSeyUACDWjACIxAAxIIwICACjQgAfMciBH2EyhAAOI5mSsMmGcLIIAA1ly2BxDA390B9EAHdEAHVKAABShAASpQgQ7ogA7ogTu47O8AAvi2HwA2gE1gA1gAC2ABLIA5sAAWwALYADaADWAGfD+XfRuAsAX84lvCG78FcBHYBw6BNTABCQTQATNgA9gBjgM/CfwS/ODMfrc1IDJBugb4nkfDG78hcA1QgDUwAQYEdMAMGIGzwM8Ct8KPAx+AvStAZHKZJOA9gbcGXr7CTbwAE9wK/DnwI8BPYJsr+EeXVyzWc4dVXgAAAABJRU5ErkJggg==",
+        "decodedRgbaSha256": "98e68edde8df2b55d3b46331441edbb13dc4cdf384313f8a06432133c97e69e3",
+        "kind": "decoded-rgba8-png",
+        "mimeType": "image/png",
+        "pixelTransform": "vertical-flip-only-for-png-top-left-origin",
+        "resized": false,
+        "rgbRepair": false,
+        "sha256": "1eff6610db23cffdb5e454708141b56a10a4e60cdfb7d64357efe0c6c30b1798",
+        "tintApplied": false
+      },
+      "sourceByteLength": 2000,
+      "sourceByteOffset": 0,
+      "sourceByteSha256": "98e68edde8df2b55d3b46331441edbb13dc4cdf384313f8a06432133c97e69e3",
+      "width": 20
+    }
+  ],
+  "name": "blue_button_over",
+  "payload": {
+    "alphaMaskApplied": false,
+    "byteLength": 832,
+    "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAADB0lEQVR4Ae3AA6AkWZbG8f937o3IzKdyS2Oubdu2bdu2bdu2bWmMnpZKr54yMyLu+Xa3anqmhztr1S/IhEywhf1e2D+FffvM9sz2zPbM9sz2zPbMNvat2D+O/Q7YIhMyIRORCdI1wPe8JrzxJwMvD5zhBbsb+HPgs4G/hB8HPgB7NwBhC/jFT4Q3/hL+dRL4GOBr4Qc37Hc7AoT93q8J3/XbgAHzohFXjMDLAf8Ab4X9swF8wBcCEzABEzABIzAAAzAAAzAAIzABIzABAXwRl30AgLD3dmG7AxJIwIC5wjybuEKAgAACuBd4KDwD+8G1h+0A1kADEkjAgAHzbAIECAgggAIsuGwHoAKsgRGYgAY0IAED5tkECAigAAWowMizUAFWwAAMwAg0IIEEzLMFICCAAnRAD0w8CxVgCayANTACI9CABMyzBRBAASrQAyNgnoUKsASOgCUwACMwAQkkYEBAAAFUoANmwBwInoUKcAQcAEfAChiACUggAQMCAgigAjNgDjSg8CxUA0fAAXAALIE1MAINSMCAgAAK0AEzYANIoONZqAAr4Ag4AI6ANTAAE2AggQACKEAPjICBAiTPQgUYgDWwBpbAClgDE5BAAgEE0AETkEABZkDwLFSAERiAJbAElsAaGIEEEgigABWYAAMdMAcqz0IFGIEBGIAVsARWwAg0wICACnRAAgEMwAhMPAsVIIEJGIERWANrYAAaYEBABZIrOmAEJqDxLFSeyUACDWjACIxAAxIIwICACjQgAfMciBH2EyhAAOI5mSsMmGcLIIAA1ly2BxDA390B9EAHdEAHVKAABShAASpQgQ7ogA7ogTu47O8AAvi2HwA2gE1gA1gAC2ABLIA5sAAWwALYADaADWAGfD+XfRuAsAX84lvCG78FcBHYBw6BNTABCQTQATNgA9gBjgM/CfwS/ODMfrc1IDJBugb4nkfDG78hcA1QgDUwAQYEdMAMGIGzwM8Ct8KPAx+AvStAZHKZJOA9gbcGXr7CTbwAE9wK/DnwI8BPYJsr+EeXVyzWc4dVXgAAAABJRU5ErkJggg==",
+    "decodedRgbaSha256": "98e68edde8df2b55d3b46331441edbb13dc4cdf384313f8a06432133c97e69e3",
+    "kind": "decoded-rgba8-png",
+    "mimeType": "image/png",
+    "pixelTransform": "vertical-flip-only-for-png-top-left-origin",
+    "resized": false,
+    "rgbRepair": false,
+    "sha256": "1eff6610db23cffdb5e454708141b56a10a4e60cdfb7d64357efe0c6c30b1798",
+    "tintApplied": false
+  },
+  "sampler": {
+    "aniso": {
+      "serialized": true,
+      "source": "m_TextureSettings.m_Aniso",
+      "value": 1
+    },
+    "filterMode": {
+      "serialized": true,
+      "source": "m_TextureSettings.m_FilterMode",
+      "value": 1
+    },
+    "mipBias": {
+      "serialized": true,
+      "source": "m_TextureSettings.m_MipBias",
+      "value": 0.0
+    },
+    "wrapMode": {
+      "serialized": true,
+      "source": "m_TextureSettings.m_WrapMode",
+      "value": 1
+    }
+  },
+  "source": {
+    "asset": "sharedassets0.assets",
+    "assetIndex": 4,
+    "classId": 28,
+    "id": "sharedassets0.assets:309",
+    "pathId": 309,
+    "serializedTypeName": "Texture2D",
+    "type": "Texture2D",
+    "typeId": 28
+  },
+  "sourcePayload": {
+    "byteLength": 2000,
+    "embeddedInExactSource": false,
+    "layout": "largest-to-smallest-contiguous",
+    "levelCount": 1,
+    "sha256": "98e68edde8df2b55d3b46331441edbb13dc4cdf384313f8a06432133c97e69e3"
+  },
+  "textureFormat": 4,
+  "textureFormatName": "RGBA32",
+  "width": 20
+}

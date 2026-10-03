@@ -1,0 +1,146 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "audio-gaps-dongresources-04-13-20260908",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "native-target"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "DongResources_04_13.resourceFile",
+    "containerBytes": 2564056,
+    "containerSha256": "43197938887d08ef1ac0a70b03278887e3c3e5d9bc52894589843a26442d6c2e",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-6d698291d2e8c40beb33b356b6129ab8",
+        "type": "AudioClip",
+        "pathId": 1378,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "noonja_farewell01"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-6d698291d2e8c40beb33b356b6129ab8",
+        "type": "AudioClip",
+        "pathId": 1379,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "noonja_farewell02"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-6d698291d2e8c40beb33b356b6129ab8",
+        "type": "AudioClip",
+        "pathId": 1380,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "noonja_farewell03"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-6d698291d2e8c40beb33b356b6129ab8",
+        "type": "AudioClip",
+        "pathId": 1376,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "noonja_greeting01"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-6d698291d2e8c40beb33b356b6129ab8",
+        "type": "AudioClip",
+        "pathId": 1377,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "noonja_greeting02"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "lossless-audio-publication",
+    "tool": "tools/legacy-sources/publish-audio-gaps.py",
+    "toolRevision": "857406bc95b5dd7a5983cefc3838c86b302600a8 (working tree; tool SHA-256 5e4bde84481aaba0701c8162ab482b0d79a0b2122b9375e9985b1a5ba4a4f7da)",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/legacy-sources/publish-audio-gaps.py --plan recipes/native/audio/audio-gaps-20260908.plan.json --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/cases/audio-gaps-20260908/pass1",
+      "python tools/legacy-sources/publish-audio-gaps.py --plan recipes/native/audio/audio-gaps-20260908.plan.json --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/cases/audio-gaps-20260908/pass2",
+      "python tools/legacy-sources/publish-audio-gaps.py --plan recipes/native/audio/audio-gaps-20260908.plan.json --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/cases/audio-gaps-20260908/pass2 --reuse-evidence --apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "recipes/native/audio/audio-gaps-20260908.plan.json",
+      "sha256": "90f4042d8cb348ccd05f8b96d0f7ba2ea483db5f668ea54db45b4d61cc6be763"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "audio/voice/en/noonja/farewell01.ogg",
+      "bytes": 29079,
+      "sha256": "3cbea40e58656d10833981049ff1e2559e5afe82b6158b26e9a7b7ffcaa5c0e1"
+    },
+    {
+      "path": "audio/voice/en/noonja/farewell02.ogg",
+      "bytes": 40860,
+      "sha256": "60eed3496eae8d4c2d26dbb2214ce417e5fb9466c359a253fac74625189a03be"
+    },
+    {
+      "path": "audio/voice/en/noonja/farewell03.ogg",
+      "bytes": 48434,
+      "sha256": "eecfeef048cff73bca9be73a753ee98de8a9bef8e4da865dfcc0b9429f89ed64"
+    },
+    {
+      "path": "audio/voice/en/noonja/greeting01.ogg",
+      "bytes": 70594,
+      "sha256": "e8c497b4b007dcd1e1590953f1f84f97d32cd3b755b2bc9290f94d1a9e5fe9eb"
+    },
+    {
+      "path": "audio/voice/en/noonja/greeting02.ogg",
+      "bytes": 78614,
+      "sha256": "56c6d094f2c6ff44f2a12e77fc3d1cb1c33da57f6517bd6642925c183362d780"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "Compare pass1/outputs.json with pass2/outputs.json and native output SHA-256 values",
+      "result": "passed: 41 independently exported Ogg payloads match; native files match accepted hashes",
+      "evidence": "work/cases/audio-gaps-20260908/pass2/outputs.json"
+    }
+  ],
+  "nativeRouteRows": [
+    {
+      "logicalKey": "voice/noonja/farewell01",
+      "trueName": "noonja_farewell01",
+      "category": "voice",
+      "owner": "noonja",
+      "path": "noonja/farewell01.ogg"
+    },
+    {
+      "logicalKey": "voice/noonja/farewell02",
+      "trueName": "noonja_farewell02",
+      "category": "voice",
+      "owner": "noonja",
+      "path": "noonja/farewell02.ogg"
+    },
+    {
+      "logicalKey": "voice/noonja/farewell03",
+      "trueName": "noonja_farewell03",
+      "category": "voice",
+      "owner": "noonja",
+      "path": "noonja/farewell03.ogg"
+    },
+    {
+      "logicalKey": "voice/noonja/greeting01",
+      "trueName": "noonja_greeting01",
+      "category": "voice",
+      "owner": "noonja",
+      "path": "noonja/greeting01.ogg"
+    },
+    {
+      "logicalKey": "voice/noonja/greeting02",
+      "trueName": "noonja_greeting02",
+      "category": "voice",
+      "owner": "noonja",
+      "path": "noonja/greeting02.ogg"
+    }
+  ]
+}

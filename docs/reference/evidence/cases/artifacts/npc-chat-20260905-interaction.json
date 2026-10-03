@@ -1,0 +1,1391 @@
+{
+  "evidence": {
+    "schema": "fusionforge.ui-interaction-evidence.v1",
+    "schemaVersion": 1,
+    "requestSha256": "c827be2e8cba625ca7261086904d7f9e21a24ab1e773e397c1578dc87359195b",
+    "requestBytes": 719,
+    "requestHashMode": "exact-request-json-bytes-v1",
+    "traversal": {
+      "maxDirectCallDepth": 1,
+      "maxMethods": 512
+    },
+    "authority": {
+      "evidenceReportBytes": 1386,
+      "evidenceReportSha256": "7CA7ADB09268D97F00CA3C494E36A822683AA3865A4DED5E56DBE25C4AB3C8C8",
+      "sourceAlias": "primary",
+      "rawContainerRelativePath": "main.unity3d",
+      "rawContainerSha256": "01B544976B2D54355507CF30FE6DFADA2B476B92B209A3D47C1499669ED9B4EF",
+      "selectedLevel": 0,
+      "selectedExactEntry": "Assembly - CSharp.dll",
+      "selectedRoute": "level0/Assembly - CSharp.dll",
+      "payloadBytes": 1762816,
+      "payloadSha256": "0F2513C2303CFFC88C541A90B1B8FAD1B73F60D5218830BE72D0502533BF5792",
+      "clrMetadataBytes": 595432,
+      "clrMetadataSha256": "6EE747C023C4371386A91205527D107FBD01839EF496C245E6A3A47F10BDB9D9"
+    },
+    "roots": [
+      {
+        "declaringType": "PrintName",
+        "typeToken": "0x020000F3",
+        "name": "SetChatBubble",
+        "parameterTypes": [
+          "System.String",
+          "eChatbubbleType"
+        ],
+        "returnType": "System.Void",
+        "methodToken": "0x06000B12",
+        "rva": 953832
+      },
+      {
+        "declaringType": "CnGuiChat",
+        "typeToken": "0x02000029",
+        "name": "AddEventString",
+        "parameterTypes": [
+          "System.Int32",
+          "System.String"
+        ],
+        "returnType": "System.Void",
+        "methodToken": "0x06000303",
+        "rva": 259228
+      }
+    ],
+    "methods": [
+      {
+        "method": {
+          "declaringType": "CnGuiChat",
+          "typeToken": "0x02000029",
+          "name": "AddEventString",
+          "parameterTypes": [
+            "System.Int32",
+            "System.String"
+          ],
+          "returnType": "System.Void",
+          "methodToken": "0x06000303",
+          "rva": 259228
+        },
+        "bodySha256": "A5A7138224EB4151A02CE26CAABDBFA127D2E151DD75A92EF4A911B4ECE128C6",
+        "bodyBytes": 65,
+        "certainty": "unresolved",
+        "cfg": {
+          "entryBlock": 0,
+          "blocks": [
+            {
+              "id": 0,
+              "startIlOffset": 0,
+              "endIlOffsetExclusive": 5
+            },
+            {
+              "id": 1,
+              "startIlOffset": 5,
+              "endIlOffsetExclusive": 9
+            },
+            {
+              "id": 2,
+              "startIlOffset": 9,
+              "endIlOffsetExclusive": 21
+            },
+            {
+              "id": 3,
+              "startIlOffset": 21,
+              "endIlOffsetExclusive": 25
+            },
+            {
+              "id": 4,
+              "startIlOffset": 25,
+              "endIlOffsetExclusive": 29
+            },
+            {
+              "id": 5,
+              "startIlOffset": 29,
+              "endIlOffsetExclusive": 41
+            },
+            {
+              "id": 6,
+              "startIlOffset": 41,
+              "endIlOffsetExclusive": 42
+            },
+            {
+              "id": 7,
+              "startIlOffset": 42,
+              "endIlOffsetExclusive": 44
+            },
+            {
+              "id": 8,
+              "startIlOffset": 44,
+              "endIlOffsetExclusive": 45
+            },
+            {
+              "id": 9,
+              "startIlOffset": 45,
+              "endIlOffsetExclusive": 49
+            },
+            {
+              "id": 10,
+              "startIlOffset": 49,
+              "endIlOffsetExclusive": 64
+            },
+            {
+              "id": 11,
+              "startIlOffset": 64,
+              "endIlOffsetExclusive": 65
+            }
+          ],
+          "edges": [
+            {
+              "from": 0,
+              "to": 1,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 0,
+              "to": 2,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 1,
+              "to": 2,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 1,
+              "to": 3,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 2,
+              "to": 3,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 2,
+              "to": 8,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 3,
+              "to": 4,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 3,
+              "to": 5,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 4,
+              "to": 5,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 4,
+              "to": 6,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 5,
+              "to": 7,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 6,
+              "to": 7,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 7,
+              "to": 9,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 8,
+              "to": 9,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 9,
+              "to": 10,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 9,
+              "to": 11,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 10,
+              "to": 11,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            }
+          ],
+          "certainty": "staticProven"
+        },
+        "calls": [
+          {
+            "siteId": "M06000303_IL_0039",
+            "ilOffset": 57,
+            "basicBlock": 10,
+            "opcode": "callvirt",
+            "referencedMember": {
+              "declaringType": "CnGuiChat",
+              "name": "AddChatString",
+              "parameterTypes": [
+                "System.Int32",
+                "System.String"
+              ],
+              "returnType": "System.Void",
+              "metadataToken": "0x06000304"
+            },
+            "dispatch": "virtualReference",
+            "runtimeTargetProven": false,
+            "category": "virtualManagedReference",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          }
+        ],
+        "fieldWrites": [],
+        "resultBranches": [],
+        "callOrder": [],
+        "unresolved": [
+          {
+            "code": "virtualDispatchTargetUnresolved",
+            "detail": "IL_0039 callvirt token 0x06000304 proves only a metadata reference; v1 does not prove or traverse the runtime target",
+            "level": "unresolved"
+          }
+        ]
+      },
+      {
+        "method": {
+          "declaringType": "PrintName",
+          "typeToken": "0x020000F3",
+          "name": "SetChatBubble",
+          "parameterTypes": [
+            "System.String",
+            "eChatbubbleType"
+          ],
+          "returnType": "System.Void",
+          "methodToken": "0x06000B12",
+          "rva": 953832
+        },
+        "bodySha256": "627BAF7DFE1F2095FB4F1040339ACB855429EA3992A3091544EEB93FB625D183",
+        "bodyBytes": 510,
+        "certainty": "unresolved",
+        "cfg": {
+          "entryBlock": 0,
+          "blocks": [
+            {
+              "id": 0,
+              "startIlOffset": 0,
+              "endIlOffsetExclusive": 4
+            },
+            {
+              "id": 1,
+              "startIlOffset": 4,
+              "endIlOffsetExclusive": 12
+            },
+            {
+              "id": 2,
+              "startIlOffset": 12,
+              "endIlOffsetExclusive": 25
+            },
+            {
+              "id": 3,
+              "startIlOffset": 25,
+              "endIlOffsetExclusive": 26
+            },
+            {
+              "id": 4,
+              "startIlOffset": 26,
+              "endIlOffsetExclusive": 30
+            },
+            {
+              "id": 5,
+              "startIlOffset": 30,
+              "endIlOffsetExclusive": 36
+            },
+            {
+              "id": 6,
+              "startIlOffset": 36,
+              "endIlOffsetExclusive": 54
+            },
+            {
+              "id": 7,
+              "startIlOffset": 54,
+              "endIlOffsetExclusive": 90
+            },
+            {
+              "id": 8,
+              "startIlOffset": 90,
+              "endIlOffsetExclusive": 109
+            },
+            {
+              "id": 9,
+              "startIlOffset": 109,
+              "endIlOffsetExclusive": 115
+            },
+            {
+              "id": 10,
+              "startIlOffset": 115,
+              "endIlOffsetExclusive": 321
+            },
+            {
+              "id": 11,
+              "startIlOffset": 321,
+              "endIlOffsetExclusive": 335
+            },
+            {
+              "id": 12,
+              "startIlOffset": 335,
+              "endIlOffsetExclusive": 341
+            },
+            {
+              "id": 13,
+              "startIlOffset": 341,
+              "endIlOffsetExclusive": 381
+            },
+            {
+              "id": 14,
+              "startIlOffset": 381,
+              "endIlOffsetExclusive": 399
+            },
+            {
+              "id": 15,
+              "startIlOffset": 399,
+              "endIlOffsetExclusive": 427
+            },
+            {
+              "id": 16,
+              "startIlOffset": 427,
+              "endIlOffsetExclusive": 448
+            },
+            {
+              "id": 17,
+              "startIlOffset": 448,
+              "endIlOffsetExclusive": 464
+            },
+            {
+              "id": 18,
+              "startIlOffset": 464,
+              "endIlOffsetExclusive": 479
+            },
+            {
+              "id": 19,
+              "startIlOffset": 479,
+              "endIlOffsetExclusive": 482
+            },
+            {
+              "id": 20,
+              "startIlOffset": 482,
+              "endIlOffsetExclusive": 509
+            },
+            {
+              "id": 21,
+              "startIlOffset": 509,
+              "endIlOffsetExclusive": 510
+            }
+          ],
+          "edges": [
+            {
+              "from": 0,
+              "to": 1,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 0,
+              "to": 3,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 1,
+              "to": 2,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 1,
+              "to": 3,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 2,
+              "to": 4,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 3,
+              "to": 4,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 4,
+              "to": 5,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 4,
+              "to": 6,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 5,
+              "to": 21,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 6,
+              "to": 7,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 6,
+              "to": 8,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 7,
+              "to": 8,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 8,
+              "to": 9,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 8,
+              "to": 10,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 9,
+              "to": 21,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 10,
+              "to": 11,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 10,
+              "to": 20,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 11,
+              "to": 12,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 11,
+              "to": 18,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 12,
+              "to": 16,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 13,
+              "to": 14,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 13,
+              "to": 15,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 14,
+              "to": 21,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 15,
+              "to": 16,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 16,
+              "to": 13,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 16,
+              "to": 17,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 17,
+              "to": 19,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 18,
+              "to": 19,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 19,
+              "to": 21,
+              "kind": "branchTaken",
+              "certainty": "staticProven"
+            },
+            {
+              "from": 20,
+              "to": 21,
+              "kind": "fallthrough",
+              "certainty": "staticProven"
+            }
+          ],
+          "certainty": "staticProven"
+        },
+        "calls": [
+          {
+            "siteId": "M06000B12_IL_0005",
+            "ilOffset": 5,
+            "basicBlock": 1,
+            "opcode": "callvirt",
+            "referencedMember": {
+              "declaringType": "System.String",
+              "name": "get_Length",
+              "parameterTypes": [],
+              "returnType": "System.Int32",
+              "metadataToken": "0x0A00004C"
+            },
+            "dispatch": "virtualReference",
+            "runtimeTargetProven": false,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_0012",
+            "ilOffset": 18,
+            "basicBlock": 2,
+            "opcode": "callvirt",
+            "referencedMember": {
+              "declaringType": "System.String",
+              "name": "Equals",
+              "parameterTypes": [
+                "System.String"
+              ],
+              "returnType": "System.Boolean",
+              "metadataToken": "0x0A00010C"
+            },
+            "dispatch": "virtualReference",
+            "runtimeTargetProven": false,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_002B",
+            "ilOffset": 43,
+            "basicBlock": 6,
+            "opcode": "call",
+            "referencedMember": {
+              "declaringType": "UnityEngine.Object",
+              "name": "op_Inequality",
+              "parameterTypes": [
+                "UnityEngine.Object",
+                "UnityEngine.Object"
+              ],
+              "returnType": "System.Boolean",
+              "metadataToken": "0x0A000049"
+            },
+            "dispatch": "direct",
+            "runtimeTargetProven": true,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_004E",
+            "ilOffset": 78,
+            "basicBlock": 7,
+            "opcode": "call",
+            "referencedMember": {
+              "declaringType": "System.String",
+              "name": "Concat",
+              "parameterTypes": [
+                "System.String",
+                "System.String",
+                "System.String"
+              ],
+              "returnType": "System.String",
+              "metadataToken": "0x0A00003B"
+            },
+            "dispatch": "direct",
+            "runtimeTargetProven": true,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_0053",
+            "ilOffset": 83,
+            "basicBlock": 7,
+            "opcode": "call",
+            "referencedMember": {
+              "declaringType": "CnGuiChat",
+              "name": "AddEventString",
+              "parameterTypes": [
+                "System.Int32",
+                "System.String"
+              ],
+              "returnType": "System.Void",
+              "metadataToken": "0x06000303"
+            },
+            "dispatch": "direct",
+            "runtimeTargetProven": true,
+            "category": "directManaged",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_0073",
+            "ilOffset": 115,
+            "basicBlock": 10,
+            "opcode": "newobj",
+            "referencedMember": {
+              "declaringType": "cnChatString",
+              "name": ".ctor",
+              "parameterTypes": [],
+              "returnType": "System.Void",
+              "metadataToken": "0x06000208"
+            },
+            "dispatch": "constructor",
+            "runtimeTargetProven": true,
+            "category": "directManaged",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_007A",
+            "ilOffset": 122,
+            "basicBlock": 10,
+            "opcode": "call",
+            "referencedMember": {
+              "declaringType": "UnityEngine.Time",
+              "name": "get_time",
+              "parameterTypes": [],
+              "returnType": "System.Single",
+              "metadataToken": "0x0A0000E5"
+            },
+            "dispatch": "direct",
+            "runtimeTargetProven": true,
+            "category": "time",
+            "interaction": "timeRead",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_009E",
+            "ilOffset": 158,
+            "basicBlock": 10,
+            "opcode": "newobj",
+            "referencedMember": {
+              "declaringType": "UnityEngine.GUIContent",
+              "name": ".ctor",
+              "parameterTypes": [
+                "System.String"
+              ],
+              "returnType": "System.Void",
+              "metadataToken": "0x0A0002FE"
+            },
+            "dispatch": "constructor",
+            "runtimeTargetProven": true,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_00A7",
+            "ilOffset": 167,
+            "basicBlock": 10,
+            "opcode": "callvirt",
+            "referencedMember": {
+              "declaringType": "UnityEngine.GUIStyle",
+              "name": "CalcMinMaxWidth",
+              "parameterTypes": [
+                "UnityEngine.GUIContent",
+                "System.Single&",
+                "System.Single&"
+              ],
+              "returnType": "System.Void",
+              "metadataToken": "0x0A000312"
+            },
+            "dispatch": "virtualReference",
+            "runtimeTargetProven": false,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_00CA",
+            "ilOffset": 202,
+            "basicBlock": 10,
+            "opcode": "call",
+            "referencedMember": {
+              "declaringType": "UnityEngine.Mathf",
+              "name": "Min",
+              "parameterTypes": [
+                "System.Single",
+                "System.Single"
+              ],
+              "returnType": "System.Single",
+              "metadataToken": "0x0A00001E"
+            },
+            "dispatch": "direct",
+            "runtimeTargetProven": true,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_00CF",
+            "ilOffset": 207,
+            "basicBlock": 10,
+            "opcode": "call",
+            "referencedMember": {
+              "declaringType": "UnityEngine.Mathf",
+              "name": "Max",
+              "parameterTypes": [
+                "System.Single",
+                "System.Single"
+              ],
+              "returnType": "System.Single",
+              "metadataToken": "0x0A000159"
+            },
+            "dispatch": "direct",
+            "runtimeTargetProven": true,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_00E5",
+            "ilOffset": 229,
+            "basicBlock": 10,
+            "opcode": "callvirt",
+            "referencedMember": {
+              "declaringType": "UnityEngine.GUISkin",
+              "name": "get_box",
+              "parameterTypes": [],
+              "returnType": "UnityEngine.GUIStyle",
+              "metadataToken": "0x0A000345"
+            },
+            "dispatch": "virtualReference",
+            "runtimeTargetProven": false,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_00F0",
+            "ilOffset": 240,
+            "basicBlock": 10,
+            "opcode": "newobj",
+            "referencedMember": {
+              "declaringType": "UnityEngine.GUIContent",
+              "name": ".ctor",
+              "parameterTypes": [
+                "System.String"
+              ],
+              "returnType": "System.Void",
+              "metadataToken": "0x0A0002FE"
+            },
+            "dispatch": "constructor",
+            "runtimeTargetProven": true,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_0100",
+            "ilOffset": 256,
+            "basicBlock": 10,
+            "opcode": "callvirt",
+            "referencedMember": {
+              "declaringType": "UnityEngine.GUIStyle",
+              "name": "CalcHeight",
+              "parameterTypes": [
+                "UnityEngine.GUIContent",
+                "System.Single"
+              ],
+              "returnType": "System.Single",
+              "metadataToken": "0x0A0002FF"
+            },
+            "dispatch": "virtualReference",
+            "runtimeTargetProven": false,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_0122",
+            "ilOffset": 290,
+            "basicBlock": 10,
+            "opcode": "call",
+            "referencedMember": {
+              "declaringType": "UnityEngine.Mathf",
+              "name": "Max",
+              "parameterTypes": [
+                "System.Single",
+                "System.Single"
+              ],
+              "returnType": "System.Single",
+              "metadataToken": "0x0A000159"
+            },
+            "dispatch": "direct",
+            "runtimeTargetProven": true,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_0133",
+            "ilOffset": 307,
+            "basicBlock": 10,
+            "opcode": "call",
+            "referencedMember": {
+              "declaringType": "UnityEngine.Object",
+              "name": "op_Inequality",
+              "parameterTypes": [
+                "UnityEngine.Object",
+                "UnityEngine.Object"
+              ],
+              "returnType": "System.Boolean",
+              "metadataToken": "0x0A000049"
+            },
+            "dispatch": "direct",
+            "runtimeTargetProven": true,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_015E",
+            "ilOffset": 350,
+            "basicBlock": 13,
+            "opcode": "callvirt",
+            "referencedMember": {
+              "declaringType": "System.Collections.ArrayList",
+              "name": "get_Item",
+              "parameterTypes": [
+                "System.Int32"
+              ],
+              "returnType": "System.Object",
+              "metadataToken": "0x0A00015B"
+            },
+            "dispatch": "virtualReference",
+            "runtimeTargetProven": false,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_0187",
+            "ilOffset": 391,
+            "basicBlock": 14,
+            "opcode": "callvirt",
+            "referencedMember": {
+              "declaringType": "System.Collections.ArrayList",
+              "name": "Insert",
+              "parameterTypes": [
+                "System.Int32",
+                "System.Object"
+              ],
+              "returnType": "System.Void",
+              "metadataToken": "0x0A000382"
+            },
+            "dispatch": "virtualReference",
+            "runtimeTargetProven": false,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_01B3",
+            "ilOffset": 435,
+            "basicBlock": 16,
+            "opcode": "callvirt",
+            "referencedMember": {
+              "declaringType": "System.Collections.ArrayList",
+              "name": "get_Count",
+              "parameterTypes": [],
+              "returnType": "System.Int32",
+              "metadataToken": "0x0A00015A"
+            },
+            "dispatch": "virtualReference",
+            "runtimeTargetProven": false,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_01C7",
+            "ilOffset": 455,
+            "basicBlock": 17,
+            "opcode": "callvirt",
+            "referencedMember": {
+              "declaringType": "System.Collections.ArrayList",
+              "name": "Add",
+              "parameterTypes": [
+                "System.Object"
+              ],
+              "returnType": "System.Int32",
+              "metadataToken": "0x0A000175"
+            },
+            "dispatch": "virtualReference",
+            "runtimeTargetProven": false,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_01D8",
+            "ilOffset": 472,
+            "basicBlock": 18,
+            "opcode": "callvirt",
+            "referencedMember": {
+              "declaringType": "System.Collections.ArrayList",
+              "name": "Add",
+              "parameterTypes": [
+                "System.Object"
+              ],
+              "returnType": "System.Int32",
+              "metadataToken": "0x0A000175"
+            },
+            "dispatch": "virtualReference",
+            "runtimeTargetProven": false,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_01E9",
+            "ilOffset": 489,
+            "basicBlock": 20,
+            "opcode": "callvirt",
+            "referencedMember": {
+              "declaringType": "System.Collections.ArrayList",
+              "name": "Clear",
+              "parameterTypes": [],
+              "returnType": "System.Void",
+              "metadataToken": "0x0A000173"
+            },
+            "dispatch": "virtualReference",
+            "runtimeTargetProven": false,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_IL_01F6",
+            "ilOffset": 502,
+            "basicBlock": 20,
+            "opcode": "callvirt",
+            "referencedMember": {
+              "declaringType": "System.Collections.ArrayList",
+              "name": "Add",
+              "parameterTypes": [
+                "System.Object"
+              ],
+              "returnType": "System.Int32",
+              "metadataToken": "0x0A000175"
+            },
+            "dispatch": "virtualReference",
+            "runtimeTargetProven": false,
+            "category": "other",
+            "interaction": "other",
+            "certainty": "staticProven",
+            "runtimeExecutionProven": false
+          }
+        ],
+        "fieldWrites": [
+          {
+            "siteId": "M06000B12_FIELD_IL_007F",
+            "ilOffset": 127,
+            "basicBlock": 10,
+            "field": {
+              "declaringType": "cnChatString",
+              "name": "fStartTime",
+              "metadataToken": "0x04000224"
+            },
+            "certainty": "staticProven",
+            "assignedValue": {
+              "state": "unresolved"
+            },
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_FIELD_IL_0086",
+            "ilOffset": 134,
+            "basicBlock": 10,
+            "field": {
+              "declaringType": "cnChatString",
+              "name": "chatstring",
+              "metadataToken": "0x04000223"
+            },
+            "certainty": "staticProven",
+            "assignedValue": {
+              "state": "unresolved"
+            },
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_FIELD_IL_008D",
+            "ilOffset": 141,
+            "basicBlock": 10,
+            "field": {
+              "declaringType": "cnChatString",
+              "name": "ChatType",
+              "metadataToken": "0x04000227"
+            },
+            "certainty": "staticProven",
+            "assignedValue": {
+              "state": "unresolved"
+            },
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_FIELD_IL_00D4",
+            "ilOffset": 212,
+            "basicBlock": 10,
+            "field": {
+              "declaringType": "UnityEngine.Vector2",
+              "name": "x",
+              "metadataToken": "0x0A0000FA"
+            },
+            "certainty": "staticProven",
+            "assignedValue": {
+              "state": "unresolved"
+            },
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_FIELD_IL_0105",
+            "ilOffset": 261,
+            "basicBlock": 10,
+            "field": {
+              "declaringType": "UnityEngine.Vector2",
+              "name": "y",
+              "metadataToken": "0x0A0000FB"
+            },
+            "certainty": "staticProven",
+            "assignedValue": {
+              "state": "unresolved"
+            },
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_FIELD_IL_0127",
+            "ilOffset": 295,
+            "basicBlock": 10,
+            "field": {
+              "declaringType": "cnChatString",
+              "name": "fMaxTime",
+              "metadataToken": "0x04000225"
+            },
+            "certainty": "staticProven",
+            "assignedValue": {
+              "state": "unresolved"
+            },
+            "runtimeExecutionProven": false
+          },
+          {
+            "siteId": "M06000B12_FIELD_IL_019F",
+            "ilOffset": 415,
+            "basicBlock": 15,
+            "field": {
+              "declaringType": "cnChatString",
+              "name": "fStartTime",
+              "metadataToken": "0x04000224"
+            },
+            "certainty": "staticProven",
+            "assignedValue": {
+              "state": "unresolved"
+            },
+            "runtimeExecutionProven": false
+          }
+        ],
+        "resultBranches": [],
+        "callOrder": [
+          {
+            "beforeSiteId": "M06000B12_IL_004E",
+            "afterSiteId": "M06000B12_IL_0053",
+            "basicBlock": 7,
+            "certainty": "staticProven",
+            "proof": "increasing IL offset within one basic block"
+          },
+          {
+            "beforeSiteId": "M06000B12_IL_0073",
+            "afterSiteId": "M06000B12_IL_007A",
+            "basicBlock": 10,
+            "certainty": "staticProven",
+            "proof": "increasing IL offset within one basic block"
+          },
+          {
+            "beforeSiteId": "M06000B12_IL_007A",
+            "afterSiteId": "M06000B12_IL_009E",
+            "basicBlock": 10,
+            "certainty": "staticProven",
+            "proof": "increasing IL offset within one basic block"
+          },
+          {
+            "beforeSiteId": "M06000B12_IL_009E",
+            "afterSiteId": "M06000B12_IL_00A7",
+            "basicBlock": 10,
+            "certainty": "staticProven",
+            "proof": "increasing IL offset within one basic block"
+          },
+          {
+            "beforeSiteId": "M06000B12_IL_00A7",
+            "afterSiteId": "M06000B12_IL_00CA",
+            "basicBlock": 10,
+            "certainty": "staticProven",
+            "proof": "increasing IL offset within one basic block"
+          },
+          {
+            "beforeSiteId": "M06000B12_IL_00CA",
+            "afterSiteId": "M06000B12_IL_00CF",
+            "basicBlock": 10,
+            "certainty": "staticProven",
+            "proof": "increasing IL offset within one basic block"
+          },
+          {
+            "beforeSiteId": "M06000B12_IL_00CF",
+            "afterSiteId": "M06000B12_IL_00E5",
+            "basicBlock": 10,
+            "certainty": "staticProven",
+            "proof": "increasing IL offset within one basic block"
+          },
+          {
+            "beforeSiteId": "M06000B12_IL_00E5",
+            "afterSiteId": "M06000B12_IL_00F0",
+            "basicBlock": 10,
+            "certainty": "staticProven",
+            "proof": "increasing IL offset within one basic block"
+          },
+          {
+            "beforeSiteId": "M06000B12_IL_00F0",
+            "afterSiteId": "M06000B12_IL_0100",
+            "basicBlock": 10,
+            "certainty": "staticProven",
+            "proof": "increasing IL offset within one basic block"
+          },
+          {
+            "beforeSiteId": "M06000B12_IL_0100",
+            "afterSiteId": "M06000B12_IL_0122",
+            "basicBlock": 10,
+            "certainty": "staticProven",
+            "proof": "increasing IL offset within one basic block"
+          },
+          {
+            "beforeSiteId": "M06000B12_IL_0122",
+            "afterSiteId": "M06000B12_IL_0133",
+            "basicBlock": 10,
+            "certainty": "staticProven",
+            "proof": "increasing IL offset within one basic block"
+          },
+          {
+            "beforeSiteId": "M06000B12_IL_01E9",
+            "afterSiteId": "M06000B12_IL_01F6",
+            "basicBlock": 20,
+            "certainty": "staticProven",
+            "proof": "increasing IL offset within one basic block"
+          }
+        ],
+        "unresolved": [
+          {
+            "code": "virtualDispatchTargetUnresolved",
+            "detail": "IL_0005 callvirt token 0x0A00004C proves only a metadata reference; v1 does not prove or traverse the runtime target",
+            "level": "unresolved"
+          },
+          {
+            "code": "virtualDispatchTargetUnresolved",
+            "detail": "IL_0012 callvirt token 0x0A00010C proves only a metadata reference; v1 does not prove or traverse the runtime target",
+            "level": "unresolved"
+          },
+          {
+            "code": "virtualDispatchTargetUnresolved",
+            "detail": "IL_00A7 callvirt token 0x0A000312 proves only a metadata reference; v1 does not prove or traverse the runtime target",
+            "level": "unresolved"
+          },
+          {
+            "code": "virtualDispatchTargetUnresolved",
+            "detail": "IL_00E5 callvirt token 0x0A000345 proves only a metadata reference; v1 does not prove or traverse the runtime target",
+            "level": "unresolved"
+          },
+          {
+            "code": "virtualDispatchTargetUnresolved",
+            "detail": "IL_0100 callvirt token 0x0A0002FF proves only a metadata reference; v1 does not prove or traverse the runtime target",
+            "level": "unresolved"
+          },
+          {
+            "code": "virtualDispatchTargetUnresolved",
+            "detail": "IL_015E callvirt token 0x0A00015B proves only a metadata reference; v1 does not prove or traverse the runtime target",
+            "level": "unresolved"
+          },
+          {
+            "code": "virtualDispatchTargetUnresolved",
+            "detail": "IL_0187 callvirt token 0x0A000382 proves only a metadata reference; v1 does not prove or traverse the runtime target",
+            "level": "unresolved"
+          },
+          {
+            "code": "virtualDispatchTargetUnresolved",
+            "detail": "IL_01B3 callvirt token 0x0A00015A proves only a metadata reference; v1 does not prove or traverse the runtime target",
+            "level": "unresolved"
+          },
+          {
+            "code": "virtualDispatchTargetUnresolved",
+            "detail": "IL_01C7 callvirt token 0x0A000175 proves only a metadata reference; v1 does not prove or traverse the runtime target",
+            "level": "unresolved"
+          },
+          {
+            "code": "virtualDispatchTargetUnresolved",
+            "detail": "IL_01D8 callvirt token 0x0A000175 proves only a metadata reference; v1 does not prove or traverse the runtime target",
+            "level": "unresolved"
+          },
+          {
+            "code": "virtualDispatchTargetUnresolved",
+            "detail": "IL_01E9 callvirt token 0x0A000173 proves only a metadata reference; v1 does not prove or traverse the runtime target",
+            "level": "unresolved"
+          },
+          {
+            "code": "virtualDispatchTargetUnresolved",
+            "detail": "IL_01F6 callvirt token 0x0A000175 proves only a metadata reference; v1 does not prove or traverse the runtime target",
+            "level": "unresolved"
+          }
+        ]
+      }
+    ],
+    "directCalls": [
+      {
+        "callerMethodToken": "0x06000B12",
+        "callIlOffset": 83,
+        "calleeMethodToken": "0x06000303",
+        "depth": 1,
+        "certainty": "staticProven"
+      }
+    ],
+    "limitations": [
+      {
+        "code": "staticEvidenceOnly",
+        "detail": "IL call sites and CFG edges do not prove that Unity executed a method or branch",
+        "level": "unresolved"
+      },
+      {
+        "code": "serializedStateNotJoined",
+        "detail": "v1 does not join MonoScript/MonoBehaviour owner mapping, m_Enabled, GameObject active state, or serialized field defaults",
+        "level": "unresolved"
+      },
+      {
+        "code": "fieldReadsAndControlDependenciesUnresolved",
+        "detail": "v1 records exact writes but does not recover arbitrary field reads, expression dataflow, dominance-based control dependencies, or visibility/enabled gates",
+        "level": "unresolved"
+      },
+      {
+        "code": "crossComponentOrderUnknown",
+        "detail": "managed IL cannot prove Unity OnGUI order between MonoBehaviours or event passes",
+        "level": "unresolved"
+      },
+      {
+        "code": "dynamicDispatchUnknown",
+        "detail": "virtual dispatch, delegates, reflection, coroutines, and external assemblies require additional evidence",
+        "level": "unresolved"
+      },
+      {
+        "code": "layoutAndPickingUnknown",
+        "detail": "IL alone cannot prove GUILayout rectangles, overlap priority, clipping, or pointer hit results",
+        "level": "unresolved"
+      }
+    ],
+    "runtimeBehaviorProven": false
+  },
+  "candidate": {
+    "schema": "fusionforge.ui-interaction-candidate.v1",
+    "schemaVersion": 1,
+    "evidencePayloadSha256": "0F2513C2303CFFC88C541A90B1B8FAD1B73F60D5218830BE72D0502533BF5792",
+    "controls": [],
+    "sideEffects": [],
+    "requiredRuntimeChecks": [
+      "actual visibility and GUI.enabled predicate values for each Unity event pass",
+      "cross-MonoBehaviour OnGUI invocation and draw order",
+      "hit testing, overlap priority, clipping, and modal input blocking",
+      "GUIUtility.hotControl, keyboardControl, focus, and Event.Use transitions",
+      "scroll offsets, GUILayout allocation, and final screen-space rectangles",
+      "packet/event arguments, timer thresholds, and externally mutated state",
+      "virtual, delegate, reflection, coroutine, and cross-assembly call targets"
+    ],
+    "publicationAllowed": false
+  }
+}

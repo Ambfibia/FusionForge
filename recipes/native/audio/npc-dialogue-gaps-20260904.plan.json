@@ -1,0 +1,1097 @@
+{
+  "source": "primary",
+  "container": "Retro_shared.resourceFile",
+  "serializedAsset": "CustomAssetBundle-Retro_shared",
+  "sha256": "2ca4147c3705fdd3a0fc0ec44e088da6e87279e978e73b19701b0d29babbfc33",
+  "entries": [
+    {
+      "trueName": "mvehicle_greeting01",
+      "owner": "mvehicle",
+      "route": "vo/mvehicle_greeting01.wav",
+      "pathId": 4900,
+      "type": "AudioClip",
+      "sourceName": "mvehicle_Greeting01",
+      "evidenceSha256": "1894bf7debdadc45f686630a4a589eaa120f4715f2d4686cbc7c47f1141a0e82"
+    },
+    {
+      "trueName": "mvehicle_greeting02",
+      "owner": "mvehicle",
+      "route": "vo/mvehicle_greeting02.wav",
+      "pathId": 4901,
+      "type": "AudioClip",
+      "sourceName": "mvehicle_Greeting02",
+      "evidenceSha256": "03e135803071bd06ba48180a2c5d7e693d45d37c886a4dd7aef6249347c78faa"
+    },
+    {
+      "trueName": "mvehicle_farewell01",
+      "owner": "mvehicle",
+      "route": "vo/mvehicle_farewell01.wav",
+      "pathId": 4894,
+      "type": "AudioClip",
+      "sourceName": "mvehicle_Farewell01",
+      "evidenceSha256": "7f4da2693f294f1913e44d51b4efeebbc7fdf6e9854f8ea1902adef869462311"
+    },
+    {
+      "trueName": "mvehicle_farewell02",
+      "owner": "mvehicle",
+      "route": "vo/mvehicle_farewell02.wav",
+      "pathId": 4895,
+      "type": "AudioClip",
+      "sourceName": "mvehicle_Farewell02",
+      "evidenceSha256": "d90c738bafe23c45b5c4a752c3d823492a4cf2f397a26c13620ce21a5bcb05fd"
+    },
+    {
+      "trueName": "mvehicle_farewell03",
+      "owner": "mvehicle",
+      "route": "vo/mvehicle_farewell03.wav",
+      "pathId": 4896,
+      "type": "AudioClip",
+      "sourceName": "mvehicle_Farewell03",
+      "evidenceSha256": "7557eb6acf6e875ed43690265188dda9a000a58e1cbf0bc833cfceb136ceb88e"
+    },
+    {
+      "trueName": "noodies_greeting01",
+      "owner": "noodies",
+      "route": "vo/noodies_greeting01.wav",
+      "pathId": 3966,
+      "type": "AudioSource",
+      "sourceName": "Noodies_Greeting01",
+      "evidenceSha256": "9ea67bd9b8623d9837bc6493485adf5bf7974e1234acdcbd25b3a839353d827b"
+    },
+    {
+      "trueName": "noodies_greeting02",
+      "owner": "noodies",
+      "route": "vo/noodies_greeting02.wav",
+      "pathId": 3967,
+      "type": "AudioSource",
+      "sourceName": "Noodies_Greeting02",
+      "evidenceSha256": "681e25bbaca77058ac0c494f79e382de2dbddf859f049131416d6b1889a4c7a0"
+    },
+    {
+      "trueName": "albedo_qgreeting",
+      "owner": "albedo",
+      "route": "vo/albedo_qgreeting.wav",
+      "pathId": 27168,
+      "type": "AudioClip",
+      "sourceName": "Albedo_Greeting01",
+      "evidenceSha256": "579795b02cb969a8af4777e730a68f5f53be9408fd9029386fc91228500f1414"
+    },
+    {
+      "trueName": "albedo_goodluck01",
+      "owner": "albedo",
+      "route": "vo/albedo_goodluck01.wav",
+      "pathId": 29702,
+      "type": "AudioClip",
+      "sourceName": "Albedo_GoodLuck01",
+      "evidenceSha256": "66d25f30c8689b75ed52923a1ed63f088f7485caa5198926685c7705d87090a2"
+    },
+    {
+      "trueName": "albedo_goodluck02",
+      "owner": "albedo",
+      "route": "vo/albedo_goodluck02.wav",
+      "pathId": 29702,
+      "type": "AudioClip",
+      "sourceName": "Albedo_GoodLuck01",
+      "evidenceSha256": "66d25f30c8689b75ed52923a1ed63f088f7485caa5198926685c7705d87090a2"
+    },
+    {
+      "trueName": "albedo_goodluck03",
+      "owner": "albedo",
+      "route": "vo/albedo_goodluck03.wav",
+      "pathId": 29702,
+      "type": "AudioClip",
+      "sourceName": "Albedo_GoodLuck01",
+      "evidenceSha256": "66d25f30c8689b75ed52923a1ed63f088f7485caa5198926685c7705d87090a2"
+    },
+    {
+      "trueName": "albedo_nicejob01",
+      "owner": "albedo",
+      "route": "vo/albedo_nicejob01.wav",
+      "pathId": 29701,
+      "type": "AudioClip",
+      "sourceName": "Albedo_NiceJob01",
+      "evidenceSha256": "53560fdb4b1f63f578cc920f20fa747a0d4f13c0968f5176952309118058aa48"
+    },
+    {
+      "trueName": "albedo_nicejob02",
+      "owner": "albedo",
+      "route": "vo/albedo_nicejob02.wav",
+      "pathId": 29701,
+      "type": "AudioClip",
+      "sourceName": "Albedo_NiceJob01",
+      "evidenceSha256": "53560fdb4b1f63f578cc920f20fa747a0d4f13c0968f5176952309118058aa48"
+    },
+    {
+      "trueName": "albedo_nicejob03",
+      "owner": "albedo",
+      "route": "vo/albedo_nicejob03.wav",
+      "pathId": 29701,
+      "type": "AudioClip",
+      "sourceName": "Albedo_NiceJob01",
+      "evidenceSha256": "53560fdb4b1f63f578cc920f20fa747a0d4f13c0968f5176952309118058aa48"
+    },
+    {
+      "trueName": "ampfibian_greeting01",
+      "owner": "ampfibian",
+      "route": "vo/ampfibian_greeting01.wav",
+      "pathId": 27156,
+      "type": "AudioClip",
+      "sourceName": "Ampfibian_Greeting01",
+      "evidenceSha256": "5d1c195dd7bf93a810491c285a0d87101c94589aa0dd6c197987857aa17d6a85"
+    },
+    {
+      "trueName": "ampfibian_greeting02",
+      "owner": "ampfibian",
+      "route": "vo/ampfibian_greeting02.wav",
+      "pathId": 27158,
+      "type": "AudioClip",
+      "sourceName": "Ampfibian_Greeting02",
+      "evidenceSha256": "e9c247cfbc5a87a36873c566e39b8cadd24a6c60413551fe8130889bce48a40a"
+    },
+    {
+      "trueName": "ampfibian_qgreeting",
+      "owner": "ampfibian",
+      "route": "vo/ampfibian_qgreeting.wav",
+      "pathId": 27158,
+      "type": "AudioClip",
+      "sourceName": "Ampfibian_Greeting02",
+      "evidenceSha256": "e9c247cfbc5a87a36873c566e39b8cadd24a6c60413551fe8130889bce48a40a"
+    },
+    {
+      "trueName": "ampfibian_farewell01",
+      "owner": "ampfibian",
+      "route": "vo/ampfibian_farewell01.wav",
+      "pathId": 27159,
+      "type": "AudioClip",
+      "sourceName": "Ampfibian_Farewell01",
+      "evidenceSha256": "e730460b72348b2e0089522bb84cdf77e5ae3af31a432a95a45ecf35afaccd14"
+    },
+    {
+      "trueName": "ampfibian_farewell02",
+      "owner": "ampfibian",
+      "route": "vo/ampfibian_farewell02.wav",
+      "pathId": 27160,
+      "type": "AudioClip",
+      "sourceName": "Ampfibian_Farewell02",
+      "evidenceSha256": "7179676998c589e0705ccbe6bb97ad64e6336e5bb7e33ac7e08eed167536b0d5"
+    },
+    {
+      "trueName": "ampfibian_farewell03",
+      "owner": "ampfibian",
+      "route": "vo/ampfibian_farewell03.wav",
+      "pathId": 27161,
+      "type": "AudioClip",
+      "sourceName": "Ampfibian_Farewell03",
+      "evidenceSha256": "51e8fa094e9d7b459478e14c2317a09f3d97aa3f0f6520cda06397d6c068e305"
+    },
+    {
+      "trueName": "ampfibian_goodluck01",
+      "owner": "ampfibian",
+      "route": "vo/ampfibian_goodluck01.wav",
+      "pathId": 27166,
+      "type": "AudioClip",
+      "sourceName": "Ampfibian_Goodluck01",
+      "evidenceSha256": "47e84f67d5f12b537492005ac5f580ea8dff010b8bd48d0a96fd5b7deb6bd329"
+    },
+    {
+      "trueName": "ampfibian_goodluck02",
+      "owner": "ampfibian",
+      "route": "vo/ampfibian_goodluck02.wav",
+      "pathId": 27166,
+      "type": "AudioClip",
+      "sourceName": "Ampfibian_Goodluck01",
+      "evidenceSha256": "47e84f67d5f12b537492005ac5f580ea8dff010b8bd48d0a96fd5b7deb6bd329"
+    },
+    {
+      "trueName": "ampfibian_goodluck03",
+      "owner": "ampfibian",
+      "route": "vo/ampfibian_goodluck03.wav",
+      "pathId": 27166,
+      "type": "AudioClip",
+      "sourceName": "Ampfibian_Goodluck01",
+      "evidenceSha256": "47e84f67d5f12b537492005ac5f580ea8dff010b8bd48d0a96fd5b7deb6bd329"
+    },
+    {
+      "trueName": "ampfibian_nicejob01",
+      "owner": "ampfibian",
+      "route": "vo/ampfibian_nicejob01.wav",
+      "pathId": 27167,
+      "type": "AudioClip",
+      "sourceName": "Ampfibian_NiceJob",
+      "evidenceSha256": "e5729b6601d02d286f943592ea8353d62c8f71333532c567f579a68395fc39b0"
+    },
+    {
+      "trueName": "ampfibian_nicejob02",
+      "owner": "ampfibian",
+      "route": "vo/ampfibian_nicejob02.wav",
+      "pathId": 27167,
+      "type": "AudioClip",
+      "sourceName": "Ampfibian_NiceJob",
+      "evidenceSha256": "e5729b6601d02d286f943592ea8353d62c8f71333532c567f579a68395fc39b0"
+    },
+    {
+      "trueName": "ampfibian_nicejob03",
+      "owner": "ampfibian",
+      "route": "vo/ampfibian_nicejob03.wav",
+      "pathId": 27167,
+      "type": "AudioClip",
+      "sourceName": "Ampfibian_NiceJob",
+      "evidenceSha256": "e5729b6601d02d286f943592ea8353d62c8f71333532c567f579a68395fc39b0"
+    },
+    {
+      "trueName": "spidermonkey_qgreeting",
+      "owner": "spidermonkey",
+      "route": "vo/spidermonkey_qgreeting.wav",
+      "pathId": 27152,
+      "type": "AudioClip",
+      "sourceName": "Spidermonkey_Greeting02",
+      "evidenceSha256": "bcc6228c93f875d838b9ae95317b844111b5e61e2a4fcc8546431359b5fb2a4b"
+    },
+    {
+      "trueName": "spidermonkey_goodluck02",
+      "owner": "spidermonkey",
+      "route": "vo/spidermonkey_goodluck02.wav",
+      "pathId": 29700,
+      "type": "AudioClip",
+      "sourceName": "Spidermonkey_Goodluck01",
+      "evidenceSha256": "c7d01ecb3e794559641b00c5a15bd6c214c4065cf3c15117d380de3e91c90531"
+    },
+    {
+      "trueName": "spidermonkey_goodluck03",
+      "owner": "spidermonkey",
+      "route": "vo/spidermonkey_goodluck03.wav",
+      "pathId": 29700,
+      "type": "AudioClip",
+      "sourceName": "Spidermonkey_Goodluck01",
+      "evidenceSha256": "c7d01ecb3e794559641b00c5a15bd6c214c4065cf3c15117d380de3e91c90531"
+    },
+    {
+      "trueName": "spidermonkey_nicejob01",
+      "owner": "spidermonkey",
+      "route": "vo/spidermonkey_nicejob01.wav",
+      "pathId": 27164,
+      "type": "AudioClip",
+      "sourceName": "Spidermonkey_NiceJob01",
+      "evidenceSha256": "3726ec688b3585f9a7d6a6f4f2c8962f15212596ab663d74995a89c942f56a6e"
+    },
+    {
+      "trueName": "spidermonkey_nicejob02",
+      "owner": "spidermonkey",
+      "route": "vo/spidermonkey_nicejob02.wav",
+      "pathId": 27165,
+      "type": "AudioClip",
+      "sourceName": "Spidermonkey_NiceJob02",
+      "evidenceSha256": "e8266c32df5e6cc283e318c7afc5242ba144e9b4c5a0b5337bd4163ee004cdcf"
+    },
+    {
+      "trueName": "spidermonkey_nicejob03",
+      "owner": "spidermonkey",
+      "route": "vo/spidermonkey_nicejob03.wav",
+      "pathId": 27165,
+      "type": "AudioClip",
+      "sourceName": "Spidermonkey_NiceJob02",
+      "evidenceSha256": "e8266c32df5e6cc283e318c7afc5242ba144e9b4c5a0b5337bd4163ee004cdcf"
+    },
+    {
+      "trueName": "fvehicle_greeting01",
+      "owner": "fvehicle",
+      "route": "vo/fvehicle_greeting01.wav",
+      "pathId": 4905,
+      "type": "AudioClip",
+      "sourceName": "fVehicle_Greeting01",
+      "evidenceSha256": "747268c3e026d24bf700efc7cdbb9610ee0f28bebf95afc24b9e8acc7f1729b1"
+    },
+    {
+      "trueName": "fvehicle_greeting02",
+      "owner": "fvehicle",
+      "route": "vo/fvehicle_greeting02.wav",
+      "pathId": 4906,
+      "type": "AudioClip",
+      "sourceName": "fVehicle_Greeting02",
+      "evidenceSha256": "f4ed23366b36e26c9c6630a6c7ed36db61f519c687fded5d95c353ac25b67475"
+    },
+    {
+      "trueName": "fvehicle_farewell01",
+      "owner": "fvehicle",
+      "route": "vo/fvehicle_farewell01.wav",
+      "pathId": 4902,
+      "type": "AudioClip",
+      "sourceName": "fVehicle_Farewell01",
+      "evidenceSha256": "48fa51f1059d7def7e455ed9bed00137c53328bd51a43db8dd757bdefdeb2147"
+    },
+    {
+      "trueName": "fvehicle_farewell02",
+      "owner": "fvehicle",
+      "route": "vo/fvehicle_farewell02.wav",
+      "pathId": 4903,
+      "type": "AudioClip",
+      "sourceName": "fVehicle_Farewell02",
+      "evidenceSha256": "584fc518c4056e288f6c6e475e544c18aaefb45ca7566bd8961cfc7150740364"
+    },
+    {
+      "trueName": "fvehicle_farewell03",
+      "owner": "fvehicle",
+      "route": "vo/fvehicle_farewell03.wav",
+      "pathId": 4904,
+      "type": "AudioClip",
+      "sourceName": "fVehicle_Farewell03",
+      "evidenceSha256": "71ef1aeeb183a72e93fac913f52e3225b0c3f6f37a12311ca2a0a073c82f3260"
+    },
+    {
+      "trueName": "woosh_greeting01",
+      "owner": "woosh",
+      "route": "vo/woosh_greeting01.wav",
+      "pathId": 30015,
+      "type": "AudioClip",
+      "sourceName": "Woosh_Greeting01",
+      "evidenceSha256": "d20c625599dbcbdf1f5a09eea4459b20f5f1a62cc0f37aed707090d6e58b8c50"
+    },
+    {
+      "trueName": "woosh_greeting02",
+      "owner": "woosh",
+      "route": "vo/woosh_greeting02.wav",
+      "pathId": 30016,
+      "type": "AudioClip",
+      "sourceName": "Woosh_Greeting02",
+      "evidenceSha256": "b3faca950d219082765a3f044c2b74bdef23e7636361339fc4e747f8a5ca5db7"
+    },
+    {
+      "trueName": "woosh_farewell01",
+      "owner": "woosh",
+      "route": "vo/woosh_farewell01.wav",
+      "pathId": 30017,
+      "type": "AudioClip",
+      "sourceName": "Woosh_Farewell01",
+      "evidenceSha256": "08cc548fda866d192b589e579cb97c40e865e35bd9d04de20223cd1cc0244a9d"
+    },
+    {
+      "trueName": "woosh_farewell02",
+      "owner": "woosh",
+      "route": "vo/woosh_farewell02.wav",
+      "pathId": 30018,
+      "type": "AudioClip",
+      "sourceName": "Woosh_Farewell02",
+      "evidenceSha256": "b5a7b3191863c35e67343497fbdc253ae827c7874171c20b73cc6a8278367ff6"
+    },
+    {
+      "trueName": "woosh_farewell03",
+      "owner": "woosh",
+      "route": "vo/woosh_farewell03.wav",
+      "pathId": 30019,
+      "type": "AudioClip",
+      "sourceName": "Woosh_Farewell03",
+      "evidenceSha256": "b7ab52d928386350365d1e92ae5106971d7a30bc91681fc9406b48ca2d8c36d3"
+    },
+    {
+      "trueName": "throm_greeting01",
+      "owner": "throm",
+      "route": "vo/throm_greeting01.wav",
+      "pathId": 2,
+      "type": "AudioClip",
+      "sourceName": "Throm_Greeting01",
+      "evidenceSha256": "ef33cc73487442003ef066829fd66a93541cc0a94b1b67202f2b19510be6ab73"
+    },
+    {
+      "trueName": "throm_greeting02",
+      "owner": "throm",
+      "route": "vo/throm_greeting02.wav",
+      "pathId": 172,
+      "type": "AudioClip",
+      "sourceName": "Throm_Greeting02",
+      "evidenceSha256": "a2f16556934929bef73d81fa69eaf3a9f3b03e93573d81dd64843673eb230139"
+    },
+    {
+      "trueName": "throm_qgreeting",
+      "owner": "throm",
+      "route": "vo/throm_qgreeting.wav",
+      "pathId": 176,
+      "type": "AudioClip",
+      "sourceName": "Throm_QGreeting",
+      "evidenceSha256": "412642de9ccf7987ddefdde1ec3ec1134add45ad474348ffa800f55812a6a295"
+    },
+    {
+      "trueName": "throm_farewell01",
+      "owner": "throm",
+      "route": "vo/throm_farewell01.wav",
+      "pathId": 173,
+      "type": "AudioClip",
+      "sourceName": "Throm_Farewell01",
+      "evidenceSha256": "b3f1164243f6f79a1801e01fcc2d587bd215e7e8aa572e861343444dfc415e27"
+    },
+    {
+      "trueName": "throm_farewell02",
+      "owner": "throm",
+      "route": "vo/throm_farewell02.wav",
+      "pathId": 174,
+      "type": "AudioClip",
+      "sourceName": "Throm_Farewell02",
+      "evidenceSha256": "bb6851f6e464f1c0f20bea740457e8f5cf4b7cd1c0dc12a09d98bca8a95fd141"
+    },
+    {
+      "trueName": "throm_farewell03",
+      "owner": "throm",
+      "route": "vo/throm_farewell03.wav",
+      "pathId": 175,
+      "type": "AudioClip",
+      "sourceName": "Throm_Farewell03",
+      "evidenceSha256": "4cad0cf98cd9c50a688553587c2aecd40f6cf903cdc206da9569c0deb0b39900"
+    },
+    {
+      "trueName": "throm_goodluck01",
+      "owner": "throm",
+      "route": "vo/throm_goodluck01.wav",
+      "pathId": 177,
+      "type": "AudioClip",
+      "sourceName": "Throm_Goodluck01",
+      "evidenceSha256": "95c85ce06cf066bfffc0fb51dfba5b3c2f2c1688ef211da3460afa3d73ff3ab4"
+    },
+    {
+      "trueName": "throm_goodluck02",
+      "owner": "throm",
+      "route": "vo/throm_goodluck02.wav",
+      "pathId": 178,
+      "type": "AudioClip",
+      "sourceName": "Throm_Goodluck02",
+      "evidenceSha256": "4937c717bbdac5b24d6a11eb1b0331cc37b36bf02266afd7ab0a290d4c5c67e8"
+    },
+    {
+      "trueName": "throm_goodluck03",
+      "owner": "throm",
+      "route": "vo/throm_goodluck03.wav",
+      "pathId": 179,
+      "type": "AudioClip",
+      "sourceName": "Throm_Goodluck03",
+      "evidenceSha256": "31a72efb7b2c78eef069929e9bcd8f2f7def69c6162b7329e6aef02643f4b038"
+    },
+    {
+      "trueName": "throm_nicejob01",
+      "owner": "throm",
+      "route": "vo/throm_nicejob01.wav",
+      "pathId": 180,
+      "type": "AudioClip",
+      "sourceName": "Throm_NiceJob01",
+      "evidenceSha256": "ace62a7b73d1dd3bf042cbb31cfe61eac226e7005b92d555431514294cf17815"
+    },
+    {
+      "trueName": "throm_nicejob02",
+      "owner": "throm",
+      "route": "vo/throm_nicejob02.wav",
+      "pathId": 181,
+      "type": "AudioClip",
+      "sourceName": "Throm_NiceJob02",
+      "evidenceSha256": "c15dc387f98521dee777603f726eb1857959797f630a0f43b8279d734634127e"
+    },
+    {
+      "trueName": "throm_nicejob03",
+      "owner": "throm",
+      "route": "vo/throm_nicejob03.wav",
+      "pathId": 182,
+      "type": "AudioClip",
+      "sourceName": "Throm_NiceJob03",
+      "evidenceSha256": "c0987f83c6f70cd3e499eb1de9ffc8c4f9103dabd671bdd66298a99e600b06f3"
+    },
+    {
+      "trueName": "f_banker1_greeting01",
+      "owner": "f_banker1",
+      "route": "vo/f_banker1_greeting01.wav",
+      "pathId": 3644,
+      "type": "AudioSource",
+      "sourceName": "F_Banker1_Greeting01",
+      "evidenceSha256": "b4c396f87fbe408999e871ca58288f29a50ea25cd611bb32337f625c183fd627"
+    },
+    {
+      "trueName": "f_banker1_greeting02",
+      "owner": "f_banker1",
+      "route": "vo/f_banker1_greeting02.wav",
+      "pathId": 3645,
+      "type": "AudioClip",
+      "sourceName": "F_Banker1_Greeting02",
+      "evidenceSha256": "a7431c2407337930e7f08c43f60b12532f9526524fef9ea8ff94bf745a569d88"
+    },
+    {
+      "trueName": "f_banker1_farewell01",
+      "owner": "f_banker1",
+      "route": "vo/f_banker1_farewell01.wav",
+      "pathId": 3646,
+      "type": "AudioClip",
+      "sourceName": "F_Banker1_Farewell01",
+      "evidenceSha256": "f7afdaf10d3c7d2efb18d1c6466f5b8396e583ceda1f1180d7bf2079b3df5bb0"
+    },
+    {
+      "trueName": "f_banker1_farewell02",
+      "owner": "f_banker1",
+      "route": "vo/f_banker1_farewell02.wav",
+      "pathId": 3647,
+      "type": "AudioClip",
+      "sourceName": "F_Banker1_Farewell02",
+      "evidenceSha256": "c3975138a5a0729b26ef7aec25ec16a08089f9f4677c45bcf341ece2e50ed54e"
+    },
+    {
+      "trueName": "f_banker1_farewell03",
+      "owner": "f_banker1",
+      "route": "vo/f_banker1_farewell03.wav",
+      "pathId": 3648,
+      "type": "AudioClip",
+      "sourceName": "F_Banker1_Farewell03",
+      "evidenceSha256": "dc58c09b6bd3f2d9740c61b4065f50ac0e599e905deacd6f85ca9962e0e83895"
+    },
+    {
+      "trueName": "kumari_greeting01",
+      "owner": "kumari",
+      "route": "vo/kumari_greeting01.wav",
+      "pathId": 30023,
+      "type": "AudioClip",
+      "sourceName": "Kumari_Greeting01",
+      "evidenceSha256": "92b81a05e25abae4e8720ee3945fc542cfc6aa6f20ff10c915fe0af2a0807bd9"
+    },
+    {
+      "trueName": "kumari_greeting02",
+      "owner": "kumari",
+      "route": "vo/kumari_greeting02.wav",
+      "pathId": 30024,
+      "type": "AudioClip",
+      "sourceName": "Kumari_Greeting02",
+      "evidenceSha256": "91230d81d938e97bb5785ab9116cf977b62a1c41b5e5f1727b291fed04937787"
+    },
+    {
+      "trueName": "kumari_farewell01",
+      "owner": "kumari",
+      "route": "vo/kumari_farewell01.wav",
+      "pathId": 30025,
+      "type": "AudioClip",
+      "sourceName": "Kumari_Farewell01",
+      "evidenceSha256": "4a535ab26dc00c02f51b4dd0d54fd5ec8392d0f72351109252a3e500adb5788d"
+    },
+    {
+      "trueName": "kumari_farewell02",
+      "owner": "kumari",
+      "route": "vo/kumari_farewell02.wav",
+      "pathId": 30026,
+      "type": "AudioClip",
+      "sourceName": "Kumari_Farewell02",
+      "evidenceSha256": "a45867e6c34befbfed2d8934e04470a112ec9fd08e87ff07afe3fb5e8486720a"
+    },
+    {
+      "trueName": "kumari_farewell03",
+      "owner": "kumari",
+      "route": "vo/kumari_farewell03.wav",
+      "pathId": 30027,
+      "type": "AudioClip",
+      "sourceName": "Kumari_Farewell03",
+      "evidenceSha256": "8194879abb861510265ba0b470bfd72137438297a96d31663f9b670762357b3d"
+    },
+    {
+      "trueName": "accountant_greeting01",
+      "owner": "accountant",
+      "route": "vo/accountant_greeting01.wav",
+      "pathId": 30010,
+      "type": "AudioClip",
+      "sourceName": "Accountant_Greeting01",
+      "evidenceSha256": "4acc6e5b54078f7713eb7c87da32fbbc92ea7d5ef90f8d0ea39b93c219b18ef1"
+    },
+    {
+      "trueName": "accountant_greeting02",
+      "owner": "accountant",
+      "route": "vo/accountant_greeting02.wav",
+      "pathId": 30011,
+      "type": "AudioClip",
+      "sourceName": "Accountant_Greeting02",
+      "evidenceSha256": "cf2a858e8ec21b3256d7a534360599a519a0ba6428d141fa319068190ba41d82"
+    },
+    {
+      "trueName": "accountant_farewell01",
+      "owner": "accountant",
+      "route": "vo/accountant_farewell01.wav",
+      "pathId": 30012,
+      "type": "AudioClip",
+      "sourceName": "Accountant_Farewell01",
+      "evidenceSha256": "6e98283577f0ff2645814ff2ad0f62fe7855775f6373e1b34ad4c2ed5df10da8"
+    },
+    {
+      "trueName": "accountant_farewell02",
+      "owner": "accountant",
+      "route": "vo/accountant_farewell02.wav",
+      "pathId": 30013,
+      "type": "AudioClip",
+      "sourceName": "Accountant_Farewell02",
+      "evidenceSha256": "a2333f5d0670a65f5c2a9fdca710f70ed4b524d7a44ee9ec36c196ba3ae3d764"
+    },
+    {
+      "trueName": "accountant_farewell03",
+      "owner": "accountant",
+      "route": "vo/accountant_farewell03.wav",
+      "pathId": 30014,
+      "type": "AudioClip",
+      "sourceName": "Accountant_Farewell03",
+      "evidenceSha256": "e5a7f48030b357cceb3764d82602bbdb0e7c8a10b9f0c0d10bd1cf3a58a242bb"
+    },
+    {
+      "trueName": "carl_greeting01",
+      "owner": "carl",
+      "route": "vo/carl_greeting01.wav",
+      "pathId": 29973,
+      "type": "AudioClip",
+      "sourceName": "Carl_Greeting01",
+      "evidenceSha256": "811121e8208d14144ec04b7f1f656bf235be002c1ed68f9512df358b06c4636c"
+    },
+    {
+      "trueName": "carl_greeting02",
+      "owner": "carl",
+      "route": "vo/carl_greeting02.wav",
+      "pathId": 29974,
+      "type": "AudioClip",
+      "sourceName": "Carl_Greeting02",
+      "evidenceSha256": "21d4fe9428701a55a00e34a0ee2766439638ab4ffeb286ebca15defb03c60d20"
+    },
+    {
+      "trueName": "carl_qgreeting",
+      "owner": "carl",
+      "route": "vo/carl_qgreeting.wav",
+      "pathId": 29974,
+      "type": "AudioClip",
+      "sourceName": "Carl_Greeting02",
+      "evidenceSha256": "21d4fe9428701a55a00e34a0ee2766439638ab4ffeb286ebca15defb03c60d20"
+    },
+    {
+      "trueName": "carl_farewell01",
+      "owner": "carl",
+      "route": "vo/carl_farewell01.wav",
+      "pathId": 29976,
+      "type": "AudioClip",
+      "sourceName": "Carl_Farewell01",
+      "evidenceSha256": "187da7b51f543c86fca4138379880b1bc50270d925b6da93289fae7521836e29"
+    },
+    {
+      "trueName": "carl_farewell02",
+      "owner": "carl",
+      "route": "vo/carl_farewell02.wav",
+      "pathId": 29977,
+      "type": "AudioClip",
+      "sourceName": "Carl_Farewell02",
+      "evidenceSha256": "be2734031e89157464d1b2ba9aba10e780a51dc8deb3f6facb7e1e08446a0838"
+    },
+    {
+      "trueName": "carl_farewell03",
+      "owner": "carl",
+      "route": "vo/carl_farewell03.wav",
+      "pathId": 29978,
+      "type": "AudioClip",
+      "sourceName": "Carl_Farewell03",
+      "evidenceSha256": "93a3f9ed906ea54ac65988efe2841b1a9fda4bf2d9047527aa349f8147c22dca"
+    },
+    {
+      "trueName": "carl_goodluck01",
+      "owner": "carl",
+      "route": "vo/carl_goodluck01.wav",
+      "pathId": 29975,
+      "type": "AudioClip",
+      "sourceName": "Carl_Goodluck_01",
+      "evidenceSha256": "7a6c55406b3aba66dd916b60ebb91b31962e1cccbe17e127f2152f0ef0230942"
+    },
+    {
+      "trueName": "carl_goodluck02",
+      "owner": "carl",
+      "route": "vo/carl_goodluck02.wav",
+      "pathId": 29975,
+      "type": "AudioClip",
+      "sourceName": "Carl_Goodluck_01",
+      "evidenceSha256": "7a6c55406b3aba66dd916b60ebb91b31962e1cccbe17e127f2152f0ef0230942"
+    },
+    {
+      "trueName": "carl_goodluck03",
+      "owner": "carl",
+      "route": "vo/carl_goodluck03.wav",
+      "pathId": 29975,
+      "type": "AudioClip",
+      "sourceName": "Carl_Goodluck_01",
+      "evidenceSha256": "7a6c55406b3aba66dd916b60ebb91b31962e1cccbe17e127f2152f0ef0230942"
+    },
+    {
+      "trueName": "carl_nicejob01",
+      "owner": "carl",
+      "route": "vo/carl_nicejob01.wav",
+      "pathId": 29982,
+      "type": "AudioClip",
+      "sourceName": "Carl_NiceJob",
+      "evidenceSha256": "c1d19367ce2e037116ef5383e94906c8a3bcc7d2ab288babb089a38a1720f782"
+    },
+    {
+      "trueName": "carl_nicejob02",
+      "owner": "carl",
+      "route": "vo/carl_nicejob02.wav",
+      "pathId": 29982,
+      "type": "AudioClip",
+      "sourceName": "Carl_NiceJob",
+      "evidenceSha256": "c1d19367ce2e037116ef5383e94906c8a3bcc7d2ab288babb089a38a1720f782"
+    },
+    {
+      "trueName": "carl_nicejob03",
+      "owner": "carl",
+      "route": "vo/carl_nicejob03.wav",
+      "pathId": 29982,
+      "type": "AudioClip",
+      "sourceName": "Carl_NiceJob",
+      "evidenceSha256": "c1d19367ce2e037116ef5383e94906c8a3bcc7d2ab288babb089a38a1720f782"
+    },
+    {
+      "trueName": "dracula_qgreeting",
+      "owner": "dracula",
+      "route": "vo/dracula_qgreeting.wav",
+      "pathId": 161,
+      "type": "AudioClip",
+      "sourceName": "Dracula_Greeting01",
+      "evidenceSha256": "1b9aca5780c3977cf38c4ab4b5b900dbae5de456025b87a3bc286de16723a64c"
+    },
+    {
+      "trueName": "puckerberry_greeting01",
+      "owner": "puckerberry",
+      "route": "vo/puckerberry_greeting01.wav",
+      "pathId": 1721,
+      "type": "AudioClip",
+      "sourceName": "Puckerberry_Greeting01",
+      "evidenceSha256": "36c7bf41a5cd5f96e96a945d76ad43c97955ba164c19fc66db64b2e674623647"
+    },
+    {
+      "trueName": "puckerberry_greeting02",
+      "owner": "puckerberry",
+      "route": "vo/puckerberry_greeting02.wav",
+      "pathId": 1722,
+      "type": "AudioClip",
+      "sourceName": "Puckerberry_Greeting02",
+      "evidenceSha256": "a905904c6ac64b785a746a8dcdc5fe942c72bb5e06083e1d3ec3866a10d86284"
+    },
+    {
+      "trueName": "puckerberry_qgreeting",
+      "owner": "puckerberry",
+      "route": "vo/puckerberry_qgreeting.wav",
+      "pathId": 1729,
+      "type": "AudioClip",
+      "sourceName": "Puckerberry_QGreeting",
+      "evidenceSha256": "70ec3a234a44da0daadf0d0eebd4976a4d78a69da49cb1ee59e559195b0dbcfb"
+    },
+    {
+      "trueName": "puckerberry_farewell01",
+      "owner": "puckerberry",
+      "route": "vo/puckerberry_farewell01.wav",
+      "pathId": 1723,
+      "type": "AudioClip",
+      "sourceName": "Puckerberry_Farewell01",
+      "evidenceSha256": "f04b28173eba0a82e7572d25d7c03f4c28c303a68638b5f5bb3bb3fe5d9af907"
+    },
+    {
+      "trueName": "puckerberry_farewell02",
+      "owner": "puckerberry",
+      "route": "vo/puckerberry_farewell02.wav",
+      "pathId": 1724,
+      "type": "AudioClip",
+      "sourceName": "Puckerberry_Farewell02",
+      "evidenceSha256": "b7f38e2f4df1874f2e520d9e490f2eb11a0c87ae2a907aab2a985d427dcaffaa"
+    },
+    {
+      "trueName": "puckerberry_farewell03",
+      "owner": "puckerberry",
+      "route": "vo/puckerberry_farewell03.wav",
+      "pathId": 1725,
+      "type": "AudioClip",
+      "sourceName": "Puckerberry_Farewell03",
+      "evidenceSha256": "ad3ff3b49e4bf4ddcc97f212a9766941f2212f1d9549cebd9f66c065652c0a0c"
+    },
+    {
+      "trueName": "puckerberry_nicejob01",
+      "owner": "puckerberry",
+      "route": "vo/puckerberry_nicejob01.wav",
+      "pathId": 1726,
+      "type": "AudioClip",
+      "sourceName": "Puckerberry_NiceJob01",
+      "evidenceSha256": "781b223a4a198a9f73ca1e4ee3eb3dbcec59979e21cbd4401271fdc5db0d1950"
+    },
+    {
+      "trueName": "puckerberry_nicejob02",
+      "owner": "puckerberry",
+      "route": "vo/puckerberry_nicejob02.wav",
+      "pathId": 1727,
+      "type": "AudioClip",
+      "sourceName": "Puckerberry_NiceJob02",
+      "evidenceSha256": "1a891cb9260ff25c701ecc5da02b6fd7d95165a5d7e83f5977db2c0c2ebf489e"
+    },
+    {
+      "trueName": "puckerberry_nicejob03",
+      "owner": "puckerberry",
+      "route": "vo/puckerberry_nicejob03.wav",
+      "pathId": 1728,
+      "type": "AudioClip",
+      "sourceName": "Puckerberry_NiceJob03",
+      "evidenceSha256": "dd4406bdbe2d8188843b52f56c688cf14d10dcbbf62b96c853fba7983146f901"
+    },
+    {
+      "trueName": "jeff_greeting01",
+      "owner": "jeff",
+      "route": "vo/jeff_greeting01.wav",
+      "pathId": 29953,
+      "type": "AudioClip",
+      "sourceName": "Jeff_Greeting01",
+      "evidenceSha256": "811dc8eb41d364a7712b39df11daeb158d44bc39570e998dc7d8a7839d27ab36"
+    },
+    {
+      "trueName": "jeff_greeting02",
+      "owner": "jeff",
+      "route": "vo/jeff_greeting02.wav",
+      "pathId": 29954,
+      "type": "AudioClip",
+      "sourceName": "Jeff_Greeting02",
+      "evidenceSha256": "0856de433eb0d6289163f24b455c2b6bba420b48885ff739297b7e374674a3b3"
+    },
+    {
+      "trueName": "jeff_qgreeting",
+      "owner": "jeff",
+      "route": "vo/jeff_qgreeting.wav",
+      "pathId": 30123,
+      "type": "AudioClip",
+      "sourceName": "",
+      "evidenceSha256": "f35624aa1008a234569669122ec34c66c37dd4b04af3e3edb2dc863b7f6eb795"
+    },
+    {
+      "trueName": "jeff_farewell01",
+      "owner": "jeff",
+      "route": "vo/jeff_farewell01.wav",
+      "pathId": 30125,
+      "type": "AudioClip",
+      "sourceName": "jeff_farewell01",
+      "evidenceSha256": "eb6f4e760b4844909f0dc09b5bdba49f0cb4eee7d15ecdad1d23bf916841c3c1"
+    },
+    {
+      "trueName": "jeff_farewell02",
+      "owner": "jeff",
+      "route": "vo/jeff_farewell02.wav",
+      "pathId": 30126,
+      "type": "AudioClip",
+      "sourceName": "jeff_farewell02",
+      "evidenceSha256": "42c8e633cf61ec79b19612676c40620bc5c2a50b4893f1cabdbd11b0dcbe7c1e"
+    },
+    {
+      "trueName": "jeff_farewell03",
+      "owner": "jeff",
+      "route": "vo/jeff_farewell03.wav",
+      "pathId": 30125,
+      "type": "AudioClip",
+      "sourceName": "jeff_farewell01",
+      "evidenceSha256": "eb6f4e760b4844909f0dc09b5bdba49f0cb4eee7d15ecdad1d23bf916841c3c1"
+    },
+    {
+      "trueName": "jeff_goodluck01",
+      "owner": "jeff",
+      "route": "vo/jeff_goodluck01.wav",
+      "pathId": 29955,
+      "type": "AudioClip",
+      "sourceName": "Jeff_Goodluck01",
+      "evidenceSha256": "bd22db81929cd793cded4df3f1532c658ff4e189ded408a445d770931d1661f1"
+    },
+    {
+      "trueName": "jeff_goodluck02",
+      "owner": "jeff",
+      "route": "vo/jeff_goodluck02.wav",
+      "pathId": 29955,
+      "type": "AudioClip",
+      "sourceName": "Jeff_Goodluck01",
+      "evidenceSha256": "bd22db81929cd793cded4df3f1532c658ff4e189ded408a445d770931d1661f1"
+    },
+    {
+      "trueName": "jeff_goodluck03",
+      "owner": "jeff",
+      "route": "vo/jeff_goodluck03.wav",
+      "pathId": 29955,
+      "type": "AudioClip",
+      "sourceName": "Jeff_Goodluck01",
+      "evidenceSha256": "bd22db81929cd793cded4df3f1532c658ff4e189ded408a445d770931d1661f1"
+    },
+    {
+      "trueName": "jeff_nicejob01",
+      "owner": "jeff",
+      "route": "vo/jeff_nicejob01.wav",
+      "pathId": 30124,
+      "type": "AudioClip",
+      "sourceName": "jeff_nicejob01",
+      "evidenceSha256": "379a54f322b2dc4b74e22bfdd103615e4f312f29fe3edf2a3f99bf0eac886533"
+    },
+    {
+      "trueName": "estrangelove_qgreeting",
+      "owner": "estrangelove",
+      "route": "vo/estrangelove_qgreeting.wav",
+      "pathId": 4899,
+      "type": "AudioClip",
+      "sourceName": "Estrangelove_Qgreeting",
+      "evidenceSha256": "ce16500a2a7750a666015e7ece45635b73b28f3efa01889e31f0706d83dde479"
+    },
+    {
+      "trueName": "estrangelove_goodluck01",
+      "owner": "estrangelove",
+      "route": "vo/estrangelove_goodluck01.wav",
+      "pathId": 4897,
+      "type": "AudioClip",
+      "sourceName": "Estrangelove_Goodluck01",
+      "evidenceSha256": "7d0ef50661fc09c6f44f769ecb715130049d744b5d0ea8a0de5406c043c8ccb1"
+    },
+    {
+      "trueName": "estrangelove_goodluck02",
+      "owner": "estrangelove",
+      "route": "vo/estrangelove_goodluck02.wav",
+      "pathId": 4897,
+      "type": "AudioClip",
+      "sourceName": "Estrangelove_Goodluck01",
+      "evidenceSha256": "7d0ef50661fc09c6f44f769ecb715130049d744b5d0ea8a0de5406c043c8ccb1"
+    },
+    {
+      "trueName": "estrangelove_goodluck03",
+      "owner": "estrangelove",
+      "route": "vo/estrangelove_goodluck03.wav",
+      "pathId": 4897,
+      "type": "AudioClip",
+      "sourceName": "Estrangelove_Goodluck01",
+      "evidenceSha256": "7d0ef50661fc09c6f44f769ecb715130049d744b5d0ea8a0de5406c043c8ccb1"
+    },
+    {
+      "trueName": "estrangelove_nicejob01",
+      "owner": "estrangelove",
+      "route": "vo/estrangelove_nicejob01.wav",
+      "pathId": 4898,
+      "type": "AudioClip",
+      "sourceName": "Estrangelove_Nicejob01",
+      "evidenceSha256": "9efb0247ff2bc690dc51f67f30adc8b9a17df10b964698d77a53af59ba47e51a"
+    },
+    {
+      "trueName": "estrangelove_nicejob02",
+      "owner": "estrangelove",
+      "route": "vo/estrangelove_nicejob02.wav",
+      "pathId": 4898,
+      "type": "AudioClip",
+      "sourceName": "Estrangelove_Nicejob01",
+      "evidenceSha256": "9efb0247ff2bc690dc51f67f30adc8b9a17df10b964698d77a53af59ba47e51a"
+    },
+    {
+      "trueName": "estrangelove_nicejob03",
+      "owner": "estrangelove",
+      "route": "vo/estrangelove_nicejob03.wav",
+      "pathId": 4898,
+      "type": "AudioClip",
+      "sourceName": "Estrangelove_Nicejob01",
+      "evidenceSha256": "9efb0247ff2bc690dc51f67f30adc8b9a17df10b964698d77a53af59ba47e51a"
+    },
+    {
+      "trueName": "fred_greeting01",
+      "owner": "fred",
+      "route": "vo/fred_greeting01.wav",
+      "pathId": 303,
+      "type": "AudioClip",
+      "sourceName": "Fred_Greeting01",
+      "evidenceSha256": "f855ea0084febf913592195e928c91cc2747dcb7ce48804bca3e1b1160c36533"
+    },
+    {
+      "trueName": "fred_greeting02",
+      "owner": "fred",
+      "route": "vo/fred_greeting02.wav",
+      "pathId": 306,
+      "type": "AudioClip",
+      "sourceName": "Fred_Greeting02",
+      "evidenceSha256": "0fc31d77fe39d445318977fad8bb4e07e9930c213413a25d27e6fe125cf85630"
+    },
+    {
+      "trueName": "fred_farewell01",
+      "owner": "fred",
+      "route": "vo/fred_farewell01.wav",
+      "pathId": 305,
+      "type": "AudioClip",
+      "sourceName": "Fred_Farewell01",
+      "evidenceSha256": "2314f4dbded4f642c60d442485ddb1efd0536b7d55f382290d9067e98402e041"
+    },
+    {
+      "trueName": "fred_farewell02",
+      "owner": "fred",
+      "route": "vo/fred_farewell02.wav",
+      "pathId": 304,
+      "type": "AudioClip",
+      "sourceName": "Fred_Farewell02",
+      "evidenceSha256": "f5275fa57566f5883ba80a2fa5a8f240bfa40d44b9da7f2ce885f4fa237d0358"
+    },
+    {
+      "trueName": "fred_farewell03",
+      "owner": "fred",
+      "route": "vo/fred_farewell03.wav",
+      "pathId": 307,
+      "type": "AudioClip",
+      "sourceName": "Fred_Farewell03",
+      "evidenceSha256": "f4bc8643a96a3d5bee67891eae2b82349eba7edaa47e1092e1fdf0e2093d79c9"
+    },
+    {
+      "trueName": "fred_nicejob01",
+      "owner": "fred",
+      "route": "vo/fred_nicejob01.wav",
+      "pathId": 29952,
+      "type": "AudioClip",
+      "sourceName": "Fred_NiceJob01",
+      "evidenceSha256": "91dab20084641df6b590082558543d9738317a0a2e90313fda0a77383772a5c4"
+    },
+    {
+      "trueName": "fred_nicejob02",
+      "owner": "fred",
+      "route": "vo/fred_nicejob02.wav",
+      "pathId": 29952,
+      "type": "AudioClip",
+      "sourceName": "Fred_NiceJob01",
+      "evidenceSha256": "91dab20084641df6b590082558543d9738317a0a2e90313fda0a77383772a5c4"
+    },
+    {
+      "trueName": "fred_nicejob03",
+      "owner": "fred",
+      "route": "vo/fred_nicejob03.wav",
+      "pathId": 29952,
+      "type": "AudioClip",
+      "sourceName": "Fred_NiceJob01",
+      "evidenceSha256": "91dab20084641df6b590082558543d9738317a0a2e90313fda0a77383772a5c4"
+    },
+    {
+      "trueName": "sourron_greeting01",
+      "owner": "sourron",
+      "route": "vo/sourron_greeting01.wav",
+      "pathId": 1776,
+      "type": "AudioClip",
+      "sourceName": "Sourron_Greeting01",
+      "evidenceSha256": "8f60a071e1eb545cc02345dd492a3f03008677bf5712d43766366fd3822bf1f3"
+    },
+    {
+      "trueName": "sourron_greeting02",
+      "owner": "sourron",
+      "route": "vo/sourron_greeting02.wav",
+      "pathId": 1777,
+      "type": "AudioClip",
+      "sourceName": "Sourron_Greeting02",
+      "evidenceSha256": "2c185225b6524a2b5a22794c877661aca4bddd587be0fa3c62f9d0c14efce517"
+    },
+    {
+      "trueName": "sourron_farewell01",
+      "owner": "sourron",
+      "route": "vo/sourron_farewell01.wav",
+      "pathId": 1778,
+      "type": "AudioClip",
+      "sourceName": "Sourron_Farewell01",
+      "evidenceSha256": "67bd5b64654f749027ebc8dfcab4260ea8d2de92c59a3810053188cab1fbc861"
+    },
+    {
+      "trueName": "sourron_farewell02",
+      "owner": "sourron",
+      "route": "vo/sourron_farewell02.wav",
+      "pathId": 1779,
+      "type": "AudioClip",
+      "sourceName": "Sourron_Farewell02",
+      "evidenceSha256": "9e0ce4c055ca112415a83da309ee1361da4c5a84d4aa33dc675320deeb7adf36"
+    },
+    {
+      "trueName": "sourron_farewell03",
+      "owner": "sourron",
+      "route": "vo/sourron_farewell03.wav",
+      "pathId": 1780,
+      "type": "AudioClip",
+      "sourceName": "Sourron_Farewell03",
+      "evidenceSha256": "47a146e290bb6861d34100982481b96c4343304b18a8041bd3baa81c9c7a1be5"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "schema": "ffone.ui-followup-acceptance.v1",
+  "sourceRole": "primary",
+  "sourceBuild": "retrobution-20260821",
+  "scope": "Bank inventory deletion with confirmation; shared dialog centering and button focus",
+  "checks": {
+    "bankTests": 28,
+    "systemMessageTests": 16,
+    "appBankDeleteTests": 2,
+    "gpuRuns": 6,
+    "reviewedConfirmations": [
+      "en",
+      "ru"
+    ],
+    "actualDeleteAndCancelLabelClicks": "passed EN/RU",
+    "localeKeys": 65849,
+    "keyDifferences": 0,
+    "placeholderDifferences": 0,
+    "devBuild": "passed",
+    "offlineFullClientWorld": "passed",
+    "liveServerRoundTrip": "not run",
+    "unityPixelComparison": "not run",
+    "fullStandaloneTestCheck": "blocked by unresolved imports in independent character/options/guide/race/rule harnesses"
+  },
+  "binaryAssetChanges": false,
+  "iconExpectationAuthority": "docs/reference/evidence/legacy/ffone/retrobution-ui-20260821-publication.json",
+  "replay": [
+    "cargo test -p ffone-client --lib bank_ui",
+    "cargo test -p ffone-client --lib system_message_ui",
+    "cargo test -p ffone-client --bin ffone-client bank_delete",
+    "cargo build -p ffone-client --bin ffone-client --example bank_ui_gpu_preview",
+    "FFONE_BANK_POINTER=popup-delete[-accept|-cancel]; bank_ui_gpu_preview {en|ru} OUTPUT.png",
+    "FFONE_USERNAME=; FFONE_PERF_OUTPUT=target/performance/bank-delete-world-smoke; ffone-client --asset-root assets/game --language ru"
+  ],
+  "artifacts": [
+    {
+      "path": "../builds/retrobution-20260821/main.unity3d",
+      "bytes": 8221718,
+      "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/cnBank.cs",
+      "bytes": 9352,
+      "sha256": "b20511589b1d5a354b19aa2f854e71ea0751890ddfa4d6e3906e133cfc4b6c01"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/EquipPopup.cs",
+      "bytes": 84357,
+      "sha256": "3d0db1a1034eb1f1c56d5b96c981fa817aaea352bc69195f61e0803543775ad4"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/TuringPopup.cs",
+      "bytes": 15281,
+      "sha256": "5e4eb71a3d5761e7bbebd16c4d95c74b76fbe987dfae74d63f97c2d6bcd14d22"
+    },
+    {
+      "path": "../FFOneClient/target/debug/ffone-client.exe",
+      "bytes": 207493120,
+      "sha256": "abcf0805b8d8cb04c74b987134447dfd1bd3f1d53585eeda167ab0ddcd41ba76"
+    },
+    {
+      "path": "../FFOneClient/target/debug/examples/bank_ui_gpu_preview.exe",
+      "bytes": 149011456,
+      "sha256": "72eb9c177abf537b9dcd8d0bd1efa7050fec4f1110e11a1af32e812ddac7b5ec"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/bank_ui.rs",
+      "bytes": 150782,
+      "sha256": "68f95f50cc7c7f7e5f8c52f9df02d6b0e1e9c6c2969e7534f03f217a5ef8ee1c"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/bank_ui/item_popup.rs",
+      "bytes": 28841,
+      "sha256": "49ce55029cfb6514777ea9b6ff0476562c3f803cea3ae81e4a4bb68745152155"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/bank_ui/item_delete.rs",
+      "bytes": 11403,
+      "sha256": "568534b990c39ea7127197a6a7bc807c5f23a3b560d435121dcff51bd3c0965c"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/app/bank_delete.rs",
+      "bytes": 8147,
+      "sha256": "28d5a2d6ee50b4119f6759ad447c3d9776db9a7c2e00e2506816366cf85e47b8"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/app/mod.rs",
+      "bytes": 1070585,
+      "sha256": "3ed612384694c26cd401256a287fa2defc491b47100eadd5eee9723d4c06419c"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/app/schedule.rs",
+      "bytes": 55215,
+      "sha256": "cd5d156a86df102e845f16c94f61a3a3cc3ef83fdd7565a4112805c61a082652"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/system_message_ui.rs",
+      "bytes": 95697,
+      "sha256": "007d5e8e91a4485c2a2a5cc65eb98d475fa75854b54705e17d2fada7bf037383"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/examples/bank_ui_gpu_preview.rs",
+      "bytes": 41325,
+      "sha256": "052dbfdbe8a172138f3ae73d261d631206e94b48b4cbcab4165facbae8e1e8cf"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-tests.log",
+      "bytes": 2808,
+      "sha256": "b1b23ad739fc0c462594d768131650cf7857e441b3d8e6aee894a7f63575e219"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-network-tests.log",
+      "bytes": 338,
+      "sha256": "ddd8cc9088613e2787662389dcbfa18d9452deda45e0a40c33a4687ab0c2f095"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-system-message-tests.log",
+      "bytes": 1704,
+      "sha256": "0b4b062f1ec942b7fd38c131bf15958bbfe5064eb8e63e369222613895a7c219"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-world-smoke.log",
+      "bytes": 144,
+      "sha256": "619eca6ff2c862ec9805c609665a8d05efe44a486cb5942363606609bcb71a72"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-icon-expectations.json",
+      "bytes": 1145,
+      "sha256": "ac0cfef5c0825c7a2ec3264b1c6356c2c00e59daa6f0a9da1aa1824a934caa1d"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-confirm-en.png",
+      "bytes": 350333,
+      "sha256": "8fd240ae513174a9031437692b18fc711d20c654613470344cdd94654a34681d"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-confirm-en.log",
+      "bytes": 970,
+      "sha256": "8dfb683fc414100b185f51383d64750d234844e93c5321b14672b9104612df0b"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-confirm-ru.png",
+      "bytes": 354821,
+      "sha256": "c26a29722b8336ec0eb3b4b057c06187884c662a5449421765f7cd868d665e5d"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-confirm-ru.log",
+      "bytes": 971,
+      "sha256": "be1098f07326470371710f980e3e2d20b30255314fa2c31404d42fb84efc75d0"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-accept-en.png",
+      "bytes": 425253,
+      "sha256": "fbde1e3c779fb45a179e0d7597c0efd3b28130461c25f6afa928edf3d9da87f6"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-accept-en.log",
+      "bytes": 1042,
+      "sha256": "ebc6ce218678884abfbcfa7091faaf92c0ad5255b4c0752e9df3f8e946a15cb5"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-accept-ru.png",
+      "bytes": 428051,
+      "sha256": "2924dd7e9b57b13c24d36dda185591b8895e276052292bc688dca1ad311a9839"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-accept-ru.log",
+      "bytes": 1043,
+      "sha256": "c2dc5c1dcb4f757a527932400589c19685ad9d77e9ab9c3d5683c643e09416af"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-cancel-en.png",
+      "bytes": 425253,
+      "sha256": "fbde1e3c779fb45a179e0d7597c0efd3b28130461c25f6afa928edf3d9da87f6"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-cancel-en.log",
+      "bytes": 1042,
+      "sha256": "af5b9d8deeb8c95cc3087248920329f01b67ca7409ab823d07effe30e50ef870"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-cancel-ru.png",
+      "bytes": 428051,
+      "sha256": "2924dd7e9b57b13c24d36dda185591b8895e276052292bc688dca1ad311a9839"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-delete-cancel-ru.log",
+      "bytes": 1043,
+      "sha256": "580b754c15f6754a82113852471290df719c5d5b5e5f4579c60e43217c81a91a"
+    },
+    {
+      "path": "../FFOneClient/target/performance/bank-delete-world-smoke/frame.png",
+      "bytes": 3494985,
+      "sha256": "9d6138468bb6e2021b39fec7c8e8b8756135bf2b4df17f2b087a37916d45e51e"
+    },
+    {
+      "path": "../FFOneClient/target/performance/bank-delete-world-smoke/report.json",
+      "bytes": 10339,
+      "sha256": "1108f8601b233928ef233e990a9cd49312f1ea0f00996363dfc26e6c5a78598a"
+    }
+  ]
+}

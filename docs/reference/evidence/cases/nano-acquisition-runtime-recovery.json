@@ -1,0 +1,80 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "nano-acquisition-runtime-recovery",
+  "question": "Why do Nano acquisition, tuning and camera framing fail in the native client, and which effect dependencies already exist?",
+  "status": "open",
+  "nativeConsumer": "FFOneClient NanoFreeTuning runtime, movement camera and native effect renderer",
+  "acceptance": [
+    "A server-sized Nano book restores identities beyond the fixed login prefix.",
+    "An isolated server grants Nano 50, maps tune 234 to skill 258, equips it and persists it.",
+    "Dropped replies release camera and cursor ownership.",
+    "ES705 compiles without blockers and its material animation runs alongside its mesh animation.",
+    "Inspect EN/RU UI captures; full moving-world acquisition comparison remains required before claiming complete visual parity."
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [{
+        "relativeContainer": "main.unity3d",
+        "bytes": 8221718,
+        "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+      }]
+    }
+  ],
+  "candidates": [
+    "NanoFreeTuningMode.Update/InitMode",
+    "cnPlayerCamera.SetSubTarget/SubTargetUpdate",
+    "NanoAnimation.Call versus NanoMoveControllerClone.Call"
+  ],
+  "evidenceArtifacts": [{
+    "id": "primary-managed-assembly",
+    "kind": "managed_assembly_evidence",
+    "path": "work/legacy-sources/gm-chat-commands-primary/reports/assembly-csharp.evidence.json",
+    "bytes": 1359,
+    "sha256": "d21974cbdf05c51d5d688a02f2510ddd9e94fc0863fe802106a7ceeccf889c7b",
+    "producer": {
+      "tool": "fusionforge",
+      "revision": "86324d05303a076b9814bddff800635cb2f73954",
+      "command": "cargo run -- fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260821 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out work/legacy-sources/gm-chat-commands-primary/reports/assembly-csharp.evidence.json --payload-out work/legacy-sources/gm-chat-commands-primary/managed/Assembly-CSharp.dll"
+    }
+  }],
+  "hypotheses": [
+    {
+      "claim": "Acquisition should instantiate the style-specific summon column ES527..529.",
+      "state": "rejected",
+      "evidence": ["primary-managed-assembly"],
+      "rejectedBecause": "The acquisition mode calls NanoAnimation.Call directly; the style column belongs to NanoMoveControllerClone.Call."
+    },
+    {
+      "claim": "The fourth SetSubTarget parameter is a blending weight.",
+      "state": "rejected",
+      "evidence": ["primary-managed-assembly"],
+      "rejectedBecause": "The camera stores fSubHeight and adds fSubHeight * 0.6 to both camera and focus height."
+    },
+    {
+      "claim": "The complete acquisition sequence is visually identical to primary.",
+      "state": "unresolved",
+      "evidence": [],
+      "rejectedBecause": null
+    }
+  ],
+  "differences": [
+    "Timeout recovery and placement of a resumed tuning preview are explicit native reliability extensions.",
+    "OpenFusion uses its XDT maximum identity for book capacity while preserving the existing 0104 login and subset packet ABI."
+  ],
+  "conclusion": "Network acceptance passes on an isolated database: bank size 67, eight subset packets, Nano 50, tune 234 -> skill 258, no initial tuning charge, equip success, and persisted Nano row. No asset payload was republished by this case.",
+  "nativeContract": "Separate tune and skill identities, authoritative bank/equip commits, restore modal ownership on failure, exact subtarget height/distance, and synchronized native effect preload/material animation.",
+  "verification": [
+    "cargo test -p ffone-client --lib nano_free_tuning: 10 passed",
+    "installed_effect_and_projectile_closures_compile_to_native_plans: passed",
+    "nano_subtarget_keeps_exact_height_and_distance_without_orbit_correction: passed",
+    "nano_acquisition_smoke against isolated OpenFusion: passed",
+    "ES705 native GLB inspection: 21 meshes, 19 materials, 11 images; every image URI exists.",
+    "nano_free_tuning_gpu_preview: EN and RU captures passed the 16-key text audit and were visually inspected.",
+    "nano_creation_effect_gpu_preview: production ES705 renderer captured and visually inspected; beam, rings and sphere visible.",
+    "cargo build -p ffone-client --bin ffone-client: passed; OpenFusion winfusion.exe rebuilt and installed with an earlier-binary backup in ignored work.",
+    "Standalone UI suite: 22 passed, one existing select_hover.png hash mismatch retained for source revalidation.",
+    "Binary unit-test compilation blocked by existing social.rs references to missing open_game_guide_from_nanocom; no unrelated test was disabled."
+  ]
+}

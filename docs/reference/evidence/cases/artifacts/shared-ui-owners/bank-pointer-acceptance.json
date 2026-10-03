@@ -1,0 +1,73 @@
+{
+  "schema": "ffone.ui-followup-acceptance.v1",
+  "sourceRole": "primary",
+  "scope": "Reachable Bank pointer transfer; step 3 remains incomplete; Enchant excluded",
+  "checks": {
+    "bankTestsPassed": 16,
+    "bankTestsFailed": 0,
+    "gpuLocales": [
+      "en",
+      "ru"
+    ],
+    "realUiFocusRightClick": "passed, bank slot 0 to inventory slot 3",
+    "drag": "ECS tested; drag visual remains open",
+    "devBuild": "passed",
+    "fullClientOfflineWorldCapture": "passed",
+    "localeKeys": 65843,
+    "keySetDifferences": 0,
+    "liveServerTransactions": "not run",
+    "unityPixelComparison": "not run"
+  },
+  "artifacts": [
+    {
+      "path": "../FFOneClient/target/debug/ffone-client.exe",
+      "bytes": 207160320,
+      "sha256": "206c6bedd6f0d4f57fabced961baef05bf187910a5ee790731cc3d7ede8324ae"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/bank_ui.rs",
+      "bytes": 141808,
+      "sha256": "da016666697aeb03e0c27c276b21953831b3f91d8a11ea94115d659436177179"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/examples/bank_ui_gpu_preview.rs",
+      "bytes": 32131,
+      "sha256": "fd13f0b782ce0e323ef34657bae1b0278f31445ead2ac7398f0e101840b966f3"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-pointer-en.png",
+      "bytes": 417916,
+      "sha256": "97fcc0e1ab594962db1b8f0384d4773765e90d72287a7d531edc2f7debbbdc33"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-pointer-ru.png",
+      "bytes": 420714,
+      "sha256": "4e720d326a8a62f10a47dd4e28c7ccd5e2cf98ba41ce163b4238046ec9d636ba"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-pointer-en.log",
+      "bytes": 985,
+      "sha256": "ddeec2bcad101a494f9b7890fafc9ee1138e0a4b059da74bf3a2c058f540b41b"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-pointer-ru.log",
+      "bytes": 986,
+      "sha256": "aeea5b9d5c163000be9fef69432455888abda930a679aef1cea60217dc573f52"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-full-client-smoke.log",
+      "bytes": 156,
+      "sha256": "82b42d5c50e2985c88c7048f716a374e5e3652903f0c1e32e37d26675fd0c7d9"
+    },
+    {
+      "path": "../FFOneClient/target/performance/bank-ui-smoke/frame.png",
+      "bytes": 3660464,
+      "sha256": "266ac082418256d0134419454b16b621586f796b4b0bf806f1780af46a82f9de"
+    },
+    {
+      "path": "docs/reference/evidence/legacy/ffone/retrobution-ui-20260821-publication.json",
+      "bytes": 219210,
+      "sha256": "757156990e722c0bd6b9adce03bfdc5cbaaca8e66d734daa986a09ba5906a90a"
+    }
+  ]
+}

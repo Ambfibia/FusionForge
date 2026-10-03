@@ -1,0 +1,88 @@
+{
+  "schema": "ffone.ui-followup-acceptance.v1",
+  "sourceRole": "primary",
+  "scope": "Bank Help/capacity feedback; Bank and Vendor shared redeem owner; step 3 remains incomplete",
+  "checks": {
+    "bankTests": 18,
+    "sharedInputTests": 3,
+    "appSharedRedeemTests": 3,
+    "vendorRedeemTests": 1,
+    "gpuCaptures": 4,
+    "realBankButtons": "Help and Redeem passed",
+    "realSharedSubmitLabel": "BeMore action passed in EN/RU",
+    "localeKeys": 65847,
+    "keyDifferences": 0,
+    "placeholderDifferences": 0,
+    "devBuild": "passed",
+    "fullClientOfflineWorldCapture": "passed",
+    "liveServerRedeem": "not run",
+    "unityPixelComparison": "not run"
+  },
+  "artifacts": [
+    {
+      "path": "../FFOneClient/target/debug/ffone-client.exe",
+      "bytes": 207257600,
+      "sha256": "a2471504cf5fa05ad4423a569f9ca17a7da450a2729d905d52b8f45564464972"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/bank_ui.rs",
+      "bytes": 150059,
+      "sha256": "abd42bdf79ba1ce18ef415b567b6dbb7a8e1fe4ea3e537624aabbdebc2ba1710"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/shared_input_ui.rs",
+      "bytes": 19386,
+      "sha256": "d41bbe7f0f464dbdec201f168888fc93f761fdfbd02c0ebf3fcc6f2724b2747d"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/app/shared_redeem.rs",
+      "bytes": 8163,
+      "sha256": "837561e9225fa0348cb18e60d37ee62b7276d206db51d4c4ad186e25188baa92"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/vendor_ui/item_popup.rs",
+      "bytes": 35663,
+      "sha256": "c40c6371a3c319ec1e1615de75db297f56fa4b075f8dad61de3ad603346bbc52"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-help-en.png",
+      "bytes": 678347,
+      "sha256": "1c705f75e6c5e198861d36629845d9c1f7c0d035a652732c4f078db7f9720746"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-help-ru.png",
+      "bytes": 685142,
+      "sha256": "f15fb27b9c4813843e661903d0cce9e7d286094715f1b331fc71e9b90050ef25"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-redeem-en.png",
+      "bytes": 346683,
+      "sha256": "0e866c8a1213c42b6d534e28bd8e922d0c74e7df3534ff650eafbc02c999acaa"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-redeem-ru.png",
+      "bytes": 351268,
+      "sha256": "fdb2b4287d827a28bd0e96e2b2fd334c1dd03f6adccf330a91d1bf40f128e602"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-redeem-en.log",
+      "bytes": 933,
+      "sha256": "4c29722c80328709ecda4d32c63d185ae44a03538b895b4f61474157902acd2c"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/bank-redeem-ru.log",
+      "bytes": 934,
+      "sha256": "bd98ff1823902e2132ddc557352dd7870750c3087acc56432a8a4633df9b80f5"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/shared-bank-redeem-smoke.log",
+      "bytes": 156,
+      "sha256": "45baabae86553279bf6a452eefb47e7f46c239eb9d7da81bb9ce618160a8c7eb"
+    },
+    {
+      "path": "../FFOneClient/target/performance/shared-ui-bank-redeem-smoke/frame.png",
+      "bytes": 2438840,
+      "sha256": "3c3eb2a8f0c9a14e87fdf09d4eb20eeb2d169d3b851f9e1c87cb82ec0313914a"
+    }
+  ]
+}

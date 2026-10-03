@@ -1,0 +1,151 @@
+{
+  "schema": "ffone.ui-followup-acceptance.v1",
+  "sourceRole": "primary",
+  "sourceBuild": "retrobution-20260821",
+  "scope": "Vendor inventory chest OPEN action, ownership and localized chest text",
+  "binaryAssetChanges": false,
+  "checks": {
+    "vendorUiTests": 26,
+    "sharedInventoryRuntimeTests": 12,
+    "appVendorChestTests": 3,
+    "gpuRuns": 4,
+    "reviewedOpenPanels": [
+      "en",
+      "ru"
+    ],
+    "actualOpenLabelClicks": "passed EN/RU",
+    "localeKeys": 65869,
+    "keyDifferences": 0,
+    "placeholderDifferences": 0,
+    "devBuild": "passed",
+    "offlineFullClientWorld": "passed, exit 0",
+    "liveServerRoundTrip": "not run",
+    "unityPixelComparison": "not run"
+  },
+  "remaining": [
+    "FirstUse 8 chest onboarding",
+    "Vendor try-on",
+    "remaining item presentation fields",
+    "service event animations"
+  ],
+  "replay": [
+    "cargo test -p ffone-client --lib vendor_ui::",
+    "cargo test -p ffone-client --lib user_equip_runtime::tests::",
+    "cargo test -p ffone-client --bin ffone-client app::vendor_chest::tests",
+    "cargo build -p ffone-client --bin ffone-client --example vendor_ui_gpu_preview",
+    "FFONE_VENDOR_POPUP=chest|chest-open; vendor_ui_gpu_preview {en|ru} OUTPUT.png",
+    "FFONE_USERNAME=; FFONE_PERF_OUTPUT=target/performance/vendor-chest-world-smoke; ffone-client --asset-root assets/game --language ru"
+  ],
+  "artifacts": [
+    {
+      "path": "../builds/retrobution-20260821/main.unity3d",
+      "bytes": 8221718,
+      "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/PopupControll.cs",
+      "bytes": 26090,
+      "sha256": "c0c49e3a34532eff7cb5173fcdc854db32f88a0d03e7160c6ff37d84313c5fde"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/TuringPopup.cs",
+      "bytes": 15281,
+      "sha256": "5e4eb71a3d5761e7bbebd16c4d95c74b76fbe987dfae74d63f97c2d6bcd14d22"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/vendor_ui/chest_open.rs",
+      "bytes": 1648,
+      "sha256": "1ae4e0bd068a9ff121ad44a1d225e14787fef0a9e9f49d5f78ca7756db9b0a54"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/vendor_ui/item_popup.rs",
+      "bytes": 39592,
+      "sha256": "5b82f906466449c1f0cf310a4155d576420c80fa330fe2bbac30d0824afd9df9"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/app/vendor_chest.rs",
+      "bytes": 10119,
+      "sha256": "2001f1859aa74b62ea103518e450ab1dfdd32d0a4a47a74eacf411dce7c55ae5"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/examples/vendor_ui_gpu_preview.rs",
+      "bytes": 34108,
+      "sha256": "a1f046d9b5583f15d883b9c0c5859887f91670d8c641387805d2972600053cdc"
+    },
+    {
+      "path": "../FFOneClient/target/debug/ffone-client.exe",
+      "bytes": 207546368,
+      "sha256": "744f0e2f55df66a834f4c0e6fce2d77e4d974cb84532c409ae2ea74c97154fe7"
+    },
+    {
+      "path": "../FFOneClient/target/debug/examples/vendor_ui_gpu_preview.exe",
+      "bytes": 103638016,
+      "sha256": "d9b934e1d674d638885764c72420e6e3177680f03e784f7b74cf169661960fe6"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-chest-en.png",
+      "bytes": 449775,
+      "sha256": "353435c2bc6b08a2fad0f81ecd88d28015b6d4e8e51c6ade34a4c2ca0cfc02de"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-chest-open-en.png",
+      "bytes": 490408,
+      "sha256": "c8200e919dde22a71506d8e69691f72f6b207d9bd0c8726e7d2a68b35aabb63e"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-chest-open-ru.png",
+      "bytes": 493207,
+      "sha256": "22356c2749e61f2c99c54a578f0219383eeeb20f73b181f9fbb83e80e20db8fd"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-chest-ru.png",
+      "bytes": 454514,
+      "sha256": "70e1f9de1beb1cd2d478155f813db6ed10cbac489d1c3886e2df1fd6d5a9a40f"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-chest-app-tests.log",
+      "bytes": 416,
+      "sha256": "15064250a7712d8e05ea16854b7bfc7bb3f33727f923e9687ff179b858475839"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-chest-en.log",
+      "bytes": 844,
+      "sha256": "fd97372e3dc4182ce65e6eea826b40e93033c76857a210ee12697fa52925bfb9"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-chest-open-en.log",
+      "bytes": 895,
+      "sha256": "1771cac9888a4f720c4a9691cea353a653593a6fba3380b76668d2267f390158"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-chest-open-ru.log",
+      "bytes": 895,
+      "sha256": "b6a5bd1c7a9748b88661194133d10bc8b21ada4131281cf7c1c731da6fe5eaf8"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-chest-ru.log",
+      "bytes": 844,
+      "sha256": "a58ca6fe5ccfd90479c39d605bf5d2876de98f919885f557b2c3d838a211fc36"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-chest-shared-runtime-tests.log",
+      "bytes": 1355,
+      "sha256": "cc82a1c8558e31e3d2b6184e3cc93fa4369f2375bea34a1c60097b9792c6f221"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-chest-ui-tests.log",
+      "bytes": 2630,
+      "sha256": "f748ff7e50ec53d5bca50b8d09958708294ecb13dfac135288a63d3743e8f770"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-chest-world-smoke.log",
+      "bytes": 145,
+      "sha256": "ea0ec35b637b9175d6a02c0336977c4dc4a659d6abc5c0996d00f1c01060aa7a"
+    },
+    {
+      "path": "../FFOneClient/target/performance/vendor-chest-world-smoke/report.json",
+      "bytes": 10345,
+      "sha256": "b455d76acb3f1ad9ae1fa3f09d83e5d776010f33f996e2f9fd9e0caa4cda7d64"
+    }
+  ]
+}

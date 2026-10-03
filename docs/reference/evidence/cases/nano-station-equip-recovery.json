@@ -1,0 +1,80 @@
+{
+  "unresolved": [
+    "Unused built-in GUISkin toggle/script pointers remain unresolved; accepted normal/hover/active controls use verified local references.",
+    "Paid power activation and the station camera/animation remain outside the equip/unequip slice.",
+    "No primary-live screenshot comparison is claimed."
+  ],
+  "id": "nano-station-equip-recovery",
+  "conclusion": "The NPC service existed without a NanoStation handler. The normal UserEquip viewer deliberately omitted mutation controls. Station ownership now opens the Nano tab and exposes slot-specific equip and unequip actions; only matching server success closes the popup and refreshes authority.",
+  "question": "Why does the Nano Station service expose no native Nano equip or unequip controls?",
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "status": "closed",
+  "verification": [
+    "Five new Nano Station tests passed, including ECS control geometry and visibility, in the compiled library test executable.",
+    "Three existing Nano projection, tab and viewer regression tests passed.",
+    "All 65711 production EN/RU keys and placeholders matched.",
+    "Both button PNGs match exact primary texture exports.",
+    "The production localization test passed: nine targeted tests total.",
+    "Three native GPU captures were visually accepted: equip EN/RU and unequip RU; paths and SHA-256 are recorded in the replay document.",
+    "The development client built at 03:13 on 2026-09-04 passed asset validation and remained running during a 20-second startup smoke check.",
+    "Final standard Cargo build of the development client and GPU preview completed successfully.",
+    "Live-server equip transactions were not exercised."
+  ],
+  "producer": {
+    "tool": "ff-client-editor fusionforge",
+    "revision": "86324d05303a076b9814bddff800635cb2f73954",
+    "replay": "docs/legacy/ffone/nano-station-equip.md"
+  },
+  "evidenceArtifacts": [
+    {
+      "sha256": "7ca7adb09268d97f00ca3c494e36a822683aa3865a4ded5e56dbe25c4ab3c8c8",
+      "path": "docs/reference/evidence/cases/artifacts/nano-travel-20260905-assembly.json",
+      "bytes": 1386
+    },
+    {
+      "sha256": "efd0468c642f01911691d509faeae2798d0863a88ffa0cf865b1424ce43728f8",
+      "path": "docs/reference/evidence/cases/artifacts/nano-station-equip/button-hover.json",
+      "bytes": 5359
+    },
+    {
+      "sha256": "180df0a737c301882fc28448c83134302fa6b7b15d5e8361afa3df4c5e72c048",
+      "path": "docs/reference/evidence/cases/artifacts/nano-station-equip/button-normal.json",
+      "bytes": 4673
+    },
+    {
+      "sha256": "e88830483ead467ef6ccffc5e19bf5d6addd6cf6a345593a01c9cf0d893cdb91",
+      "path": "docs/reference/evidence/cases/artifacts/nano-station-equip/nano-machine.evidence.json",
+      "bytes": 4642
+    }
+  ],
+  "differences": [
+    "The ten-second unlock is a native recovery extension; timeout never changes Nano authority."
+  ],
+  "versions": [
+    {
+      "role": "parity_authority",
+      "build": "retrobution-20260821",
+      "bytes": 8221718,
+      "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+      "rawContainer": "main.unity3d",
+      "alias": "primary"
+    }
+  ],
+  "nativeConsumer": "ffone-client::user_equip_ui::nano_station and NpcService action routing",
+  "nativeContract": {
+    "optimisticMutation": false,
+    "replaceActiveSlot": false,
+    "equipSlots": [
+      0,
+      1,
+      2
+    ],
+    "allowUnequipActive": true,
+    "coordinates": "popup local x right/y down",
+    "localizationKeys": [
+      "ui.nano_station.equip",
+      "ui.nano_station.unequip",
+      "ui.nano_station.slot"
+    ]
+  }
+}

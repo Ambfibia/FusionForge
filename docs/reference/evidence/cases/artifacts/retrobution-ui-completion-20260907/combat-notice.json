@@ -1,0 +1,212 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 114,
+    "name": "",
+    "pathId": 1620,
+    "rawBytes": 128,
+    "rawSha256": "83b93ce5e4339fce23ab587dd6a37e66aff15f331881b9b8e8515c1922ee5060",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "MonoBehaviour",
+    "typeId": -112,
+    "value": {
+      "BoostTexture": {
+        "fileId": 0,
+        "pathId": 29
+      },
+      "CrateTexture": {
+        "fileId": 0,
+        "pathId": 34
+      },
+      "FMTexture": {
+        "fileId": 0,
+        "pathId": 376
+      },
+      "FullInvenTex": {
+        "fileId": 0,
+        "pathId": 526
+      },
+      "PotionTexture": {
+        "fileId": 0,
+        "pathId": 548
+      },
+      "RaceRingRect": {
+        "height": 50.0,
+        "width": 200.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "RaceTimeRect": {
+        "height": 50.0,
+        "width": 200.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "ShinyTexture": {
+        "fileId": 0,
+        "pathId": 207
+      },
+      "TarosTexture": {
+        "fileId": 0,
+        "pathId": 579
+      },
+      "fMaxtime": 2.0,
+      "fRewardIconTime": 2.0,
+      "m_Enabled": true,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 1361
+      },
+      "m_Name": "",
+      "m_Script": {
+        "fileId": 0,
+        "pathId": 1030
+      },
+      "pMenuSkin": {
+        "fileId": 0,
+        "pathId": 1372
+      }
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/BoostTexture",
+      "fileId": 0,
+      "pathId": 29,
+      "status": "resolved",
+      "target": {
+        "pathId": 29,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/CrateTexture",
+      "fileId": 0,
+      "pathId": 34,
+      "status": "resolved",
+      "target": {
+        "pathId": 34,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/FMTexture",
+      "fileId": 0,
+      "pathId": 376,
+      "status": "resolved",
+      "target": {
+        "pathId": 376,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/FullInvenTex",
+      "fileId": 0,
+      "pathId": 526,
+      "status": "resolved",
+      "target": {
+        "pathId": 526,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/PotionTexture",
+      "fileId": 0,
+      "pathId": 548,
+      "status": "resolved",
+      "target": {
+        "pathId": 548,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ShinyTexture",
+      "fileId": 0,
+      "pathId": 207,
+      "status": "resolved",
+      "target": {
+        "pathId": 207,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/TarosTexture",
+      "fileId": 0,
+      "pathId": 579,
+      "status": "resolved",
+      "target": {
+        "pathId": 579,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 1361,
+      "status": "resolved",
+      "target": {
+        "pathId": 1361,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Script",
+      "fileId": 0,
+      "pathId": 1030,
+      "status": "resolved",
+      "target": {
+        "pathId": 1030,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoScript"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/pMenuSkin",
+      "fileId": 0,
+      "pathId": 1372,
+      "status": "resolved",
+      "target": {
+        "pathId": 1372,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

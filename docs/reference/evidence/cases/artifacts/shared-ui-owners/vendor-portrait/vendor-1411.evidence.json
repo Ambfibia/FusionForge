@@ -1,0 +1,412 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 114,
+    "name": "",
+    "pathId": 1411,
+    "rawBytes": 504,
+    "rawSha256": "1ea90935791544bc698d0eaf121fd7c35c15aa7c7d64547c7f304b351f40153b",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "MonoBehaviour",
+    "typeId": -18,
+    "value": {
+      "NpcFace": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "NpcName": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "UserVenvorRect": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "bInArea": 0,
+      "bSend": 0,
+      "backFillImage": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "backImage": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "cNPC": {
+        "fileId": 0,
+        "pathId": 1413
+      },
+      "fScrollFos": 0.0,
+      "iTabMode": 0,
+      "infoTexture": {
+        "fileId": 0,
+        "pathId": 493
+      },
+      "itemIconRect": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "itmeBar": {
+        "fileId": 0,
+        "pathId": 117
+      },
+      "listBackRect": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "mInventoryManager": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "m_Enabled": true,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 1324
+      },
+      "m_Name": "",
+      "m_Script": {
+        "fileId": 0,
+        "pathId": 1097
+      },
+      "npc": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "npcIcon": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "ownposition": {
+        "height": 150.0,
+        "width": 200.0,
+        "x": 230.0,
+        "y": 0.0
+      },
+      "rectBuyTab": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "rectBuyTabBut": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "rectBuybackTab": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "rectBuybackTabBut": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "rectNpcName": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "rectNpcService": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "rectResent": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "rectStuff": {
+        "height": 25.0,
+        "width": 161.0,
+        "x": 313.0,
+        "y": 586.0
+      },
+      "rectVendor": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "rectVendorTitle": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "rectendorDlg": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "rectvendorinfo": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tableRect": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tableShadowRect": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "textureBuyTab": {
+        "fileId": 0,
+        "pathId": 86
+      },
+      "textureBuyTabNor": {
+        "fileId": 0,
+        "pathId": 103
+      },
+      "textureBuyTabOver": {
+        "fileId": 0,
+        "pathId": 362
+      },
+      "textureBuybackTab": {
+        "fileId": 0,
+        "pathId": 262
+      },
+      "textureBuybackTabNor": {
+        "fileId": 0,
+        "pathId": 621
+      },
+      "textureBuybackTabOver": {
+        "fileId": 0,
+        "pathId": 573
+      },
+      "vecScrollPos": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "vecVenderListPos": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "vendorDlgRect": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/backFillImage",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/backImage",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/cNPC",
+      "fileId": 0,
+      "pathId": 1413,
+      "status": "resolved",
+      "target": {
+        "pathId": 1413,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Camera"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/infoTexture",
+      "fileId": 0,
+      "pathId": 493,
+      "status": "resolved",
+      "target": {
+        "pathId": 493,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/itmeBar",
+      "fileId": 0,
+      "pathId": 117,
+      "status": "resolved",
+      "target": {
+        "pathId": 117,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mInventoryManager",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 1324,
+      "status": "resolved",
+      "target": {
+        "pathId": 1324,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Script",
+      "fileId": 0,
+      "pathId": 1097,
+      "status": "resolved",
+      "target": {
+        "pathId": 1097,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoScript"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/npc",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/npcIcon",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/textureBuyTab",
+      "fileId": 0,
+      "pathId": 86,
+      "status": "resolved",
+      "target": {
+        "pathId": 86,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/textureBuyTabNor",
+      "fileId": 0,
+      "pathId": 103,
+      "status": "resolved",
+      "target": {
+        "pathId": 103,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/textureBuyTabOver",
+      "fileId": 0,
+      "pathId": 362,
+      "status": "resolved",
+      "target": {
+        "pathId": 362,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/textureBuybackTab",
+      "fileId": 0,
+      "pathId": 262,
+      "status": "resolved",
+      "target": {
+        "pathId": 262,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/textureBuybackTabNor",
+      "fileId": 0,
+      "pathId": 621,
+      "status": "resolved",
+      "target": {
+        "pathId": 621,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/textureBuybackTabOver",
+      "fileId": 0,
+      "pathId": 573,
+      "status": "resolved",
+      "target": {
+        "pathId": 573,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

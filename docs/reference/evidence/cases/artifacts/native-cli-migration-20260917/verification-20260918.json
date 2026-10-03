@@ -1,0 +1,38 @@
+{
+  "schema": "fusionforge.native-cli-verification.v1",
+  "date": "2026-09-18",
+  "nativeUnitTests": 81,
+  "consoleIntegrationTests": 5,
+  "allTargetsCargoCheck": "passed",
+  "nativeRepositoryBoundary": "passed",
+  "productionAssetsModified": false,
+  "isolatedApplyFixtures": [
+    "banker",
+    "nano-voice-events",
+    "hnpc-clips",
+    "player-emote-events"
+  ],
+  "removedThisPass": 13,
+  "removedTotal": 38,
+  "fullMigrationComplete": false,
+  "original62": {
+    "portedAndRemoved": 7,
+    "retiredRejectedWorkflow": 3,
+    "retainedIndependent": 7,
+    "pending": 45
+  },
+  "logs": [
+    {
+      "path": "work/native-migration-20260918-final4-tests.log",
+      "sha256": "aed050055092c3e25a94d37bcdf6b4ee9b30e217ff04624ad9929274eaccfdc0"
+    },
+    {
+      "path": "work/native-migration-20260918-final-console.log",
+      "sha256": "419052b920cfd7cf4711b816346ea6c05a06850ac62052b7b4ed00a6344c9777"
+    },
+    {
+      "path": "work/native-migration-20260918-final-all-targets.log",
+      "sha256": "420bb98e24f2d5b93790ab17f1cd625a0756d0f5f16b58c5f6dbc7b5b81f7f3f"
+    }
+  ]
+}

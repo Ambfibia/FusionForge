@@ -1,0 +1,523 @@
+{
+  "schema": "fusionforge.tool-triage.v1",
+  "date": "2026-09-18",
+  "initialReviewCount": 62,
+  "complete": false,
+  "tools": [
+    {
+      "path": "tools/legacy-sources/audio_key_validation.py",
+      "sha256": "49c187d69ffe234d5a90e5c5dd3255eeeb9ffc026b295ef398cd2745d554d051",
+      "lines": 26,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/build-authored-character-model.py",
+      "sha256": "5b7b3c62431affe461090079be92f8b2298b3b0df7043056d62a85e5bcc61112",
+      "lines": 610,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/close-npc-native-textures.py",
+      "sha256": "96282d2fea3b3b859b04d6e2503a72858c7b9b97f8f7965143e5afb97d64161f",
+      "lines": 115,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/build_native_character_ui_assets.mjs",
+      "sha256": "f9cc21cf4f34f3910df73eac26d97de33d51705018dee7dc11c5ce050fbe003b",
+      "lines": 524,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/extract-table-set-table.mjs",
+      "sha256": "81b28f6de2bcf4ca09b30e98af416024a06a7c4c100e511da05bffdef1040ac2",
+      "lines": 88,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/generate_logical_shader_coverage.mjs",
+      "sha256": "62e45f09628feb714ebdf75507fc7b569d4da36c7dfce755b096915226c01442",
+      "lines": 244,
+      "role": "validation-or-analysis",
+      "reason": "Produces reports, galleries or GPU evidence; not an asset conversion step.",
+      "status": "retained-independent-tool"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/install-semantic-character-overlay.mjs",
+      "sha256": "c5314b812cf629387edcdc55f25242c2910b506fa7e665856d1df774ed9abfb9",
+      "lines": 446,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/prepare-retrobution-hostile-overlay.mjs",
+      "sha256": "54635974a81cde1147733a3325e3b7a3df1b5026bdc86851b7d48db9e1d5cdc1",
+      "lines": 307,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/promote_native_world_glb.mjs",
+      "sha256": "4c851f3bae68e2e0311ac5a56de7954db155234959e9965e76797c98b05c25c5",
+      "lines": 94,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/publish-retrobution-world-audio.ps1",
+      "sha256": "92a622402fc87319b0f42e41dcd07d7e842f740412699c909fdcf1f8ca501f8a",
+      "lines": 266,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/publish-xdt-npc-texture-catalog.mjs",
+      "sha256": "52848c76d41885b8657f43a7afc294f95893c0c3e1a1e5235dd7d62e49077803",
+      "lines": 405,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/render_xdt_nano_gallery.mjs",
+      "sha256": "54623afbe0750bef1c8bf3dce3102dda7943434162cb08b2e37d5f4a58a836dc",
+      "lines": 620,
+      "role": "validation-or-analysis",
+      "reason": "Produces reports, galleries or GPU evidence; not an asset conversion step.",
+      "status": "retained-independent-tool"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/report-logical-prop-candidates.mjs",
+      "sha256": "205b3966a7781cd2f1b43e09c0d32e107035a0765e88c763da00a244ab98e1b2",
+      "lines": 130,
+      "role": "validation-or-analysis",
+      "reason": "Produces reports, galleries or GPU evidence; not an asset conversion step.",
+      "status": "retained-independent-tool"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/run-logical-model-gpu-batch.mjs",
+      "sha256": "6885ee08d8115ea53402b263431c4179130984c9038a1813acc9ae26cacec5ba",
+      "lines": 594,
+      "role": "validation-or-analysis",
+      "reason": "Produces reports, galleries or GPU evidence; not an asset conversion step.",
+      "status": "retained-independent-tool"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/select-retrobution-hostile-sources.mjs",
+      "sha256": "4af302cb153358c4e588a028e3f1e33fc7eccf37e181bb119377b163bb877567",
+      "lines": 203,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/summarize-logical-model-gpu-batch.mjs",
+      "sha256": "a9d0eb5e9373119271788e03060b492d39cfe2d0de4ad7e4fc9434a2e848a077",
+      "lines": 259,
+      "role": "validation-or-analysis",
+      "reason": "Produces reports, galleries or GPU evidence; not an asset conversion step.",
+      "status": "retained-independent-tool"
+    },
+    {
+      "path": "tools/legacy-sources/generate-wire-0104.py",
+      "sha256": "9388414fd697f07379448a7fe7fb3db4c9a1451a65d2ae707e91d86b43c3ea8a",
+      "lines": 968,
+      "role": "protocol-code-generator",
+      "reason": "Maintained 0104 protocol source generator; independent of asset-format conversion.",
+      "status": "retained-independent-tool"
+    },
+    {
+      "path": "tools/legacy-sources/import-tabledata-localization.mjs",
+      "sha256": "aed0bae82784939f5437b1d8ba7ab53334a7a589c3620a269d6fd9e16366d148",
+      "lines": 454,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/install-modded-npc-icons.py",
+      "sha256": "249b654b1f1a86bbe90fc7695f97330d64dc184251e7396b9cf4822ded70f598",
+      "lines": 190,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/install-nano-repairs.py",
+      "sha256": "c92fd8b3e61ff658e5643ffaeadf2bba5c426f4f07d74be98f1a5ca34942490f",
+      "lines": 113,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/install-nano-voice.py",
+      "sha256": "1160b38f5f51986593e0bd290c88f5517666d00ff5534ee20f6d16d5bf274e80",
+      "lines": 167,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/move-voice-out-of-sfx.py",
+      "sha256": "caad1974f7299be345b493b5a73571ad1a09fd0162074a22b5c20d217edb9462",
+      "lines": 228,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/normalize-audio-filenames.py",
+      "sha256": "cd9e4d053eec0780587ff7bc2d155c4f0fe4b93f73e49c6208883f5e838f973e",
+      "lines": 234,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/normalize-audio-keys.py",
+      "sha256": "189537afcdb4b2ba39b2733aca8c9a127a0a200844156587ef36e43c409e0e56",
+      "lines": 119,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/normalize-nano-voice.py",
+      "sha256": "42e4b4e57586000df1a73cdc1f85fc7a938332cfceafe1bfa1c3db28989eefeb",
+      "lines": 174,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/plan-nano-voice.py",
+      "sha256": "07d3158a1ca93888045061bbf7c62602d451b75e44592e3c3e4b1f4cf78e967a",
+      "lines": 244,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/prepare-fusion-kimchi-fusion-eyes.py",
+      "sha256": "01aa7f89322251a82cc140fadd38e73520fab4c60241965463566ead49f917cb",
+      "lines": 16,
+      "role": "superseded-rejected-workflow",
+      "reason": "Explicit owner rejection recorded in AGENTS.md and docs/legacy/ffone/fusion-kimchi-academy-20260906.md; accepted publisher dependency on stage-fusion-kimchi-eyes.py remains preserved",
+      "status": "retired-rejected-workflow",
+      "replacement": "Accepted Academy original-atlas workflow; see recipes/native/characters/fusion-kimchi-academy-original-atlas-20260906.receipt.json"
+    },
+    {
+      "path": "tools/legacy-sources/previous_build_retention.py",
+      "sha256": "987089c54c9e7ea75be1591d1475efd53e1b9e69f381b6a7eabea41e11cdd1e0",
+      "lines": 44,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/publish-academy-kimchi.py",
+      "sha256": "24247b0a686c0c74594444e015bc612505db1157f241a7b063a2d92f84cb3660",
+      "lines": 92,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/publish-blackhole-animation.ps1",
+      "sha256": "a019d751dbacde494991ca44e8afada9de6ee63568a9fec14dde7544658cd369",
+      "lines": 165,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/publish-coco-effects.py",
+      "sha256": "9cbd38cd37bd728a727fb0290fff0b871dd2db322a885ea72c4dd285b717c653",
+      "lines": 142,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/publish-coco-eggs.py",
+      "sha256": "9049e13138735f62f6f7cf27860b4276e3ada41c00cf75a78caa4e16a8e34dd7",
+      "lines": 82,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/publish-fusion-kimchi-fusion-eyes.py",
+      "sha256": "414f66995f4b016dac6459d1c7791f88e05660d8c039b16ba350fe29e9ad1349",
+      "lines": 43,
+      "role": "superseded-rejected-workflow",
+      "reason": "Explicit owner rejection recorded in AGENTS.md and docs/legacy/ffone/fusion-kimchi-academy-20260906.md; accepted publisher dependency on stage-fusion-kimchi-eyes.py remains preserved",
+      "status": "retired-rejected-workflow",
+      "replacement": "Accepted Academy original-atlas workflow; see recipes/native/characters/fusion-kimchi-academy-original-atlas-20260906.receipt.json"
+    },
+    {
+      "path": "tools/legacy-sources/publish-larry-voice.py",
+      "sha256": "f7027952cc2c1716fe84c8f46038dcc8615548744cc6469e08936b562a8d4581",
+      "lines": 103,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/publish-nano-status-effects.py",
+      "sha256": "728ee892951bd14bf2ed3654cff4f8455a3beadce7041c3ba898de87c1fa50e2",
+      "lines": 272,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/publish-npc-dialogue-gaps.py",
+      "sha256": "2c729f23c3eb973acc7ca11a93aedb170f857b189b3bfdb93dee9e5ec305d641",
+      "lines": 153,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/publish-npc-material-followup.py",
+      "sha256": "1fdf87e4a1e5a90ca1fe4a6780f9addb22547e62199758469d19604349314b42",
+      "lines": 64,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/publish-npc-repair.py",
+      "sha256": "88f76b9a1849b272c0c76ebe265d82e1ebc14ffef7986cdb2acb9b299c43bd24",
+      "lines": 66,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/publish-omniverse-npcs.py",
+      "sha256": "cadfa4c953a0ba671e9b8cd69ae9fc831df130107caca5a41315cfc5acb5e1c8",
+      "lines": 219,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/publish-retrobution-ui-20260821.py",
+      "sha256": "4e50555624e4f8b8f3bdf887fda64152dbf0376383050fc70a9caaf1466cff2f",
+      "lines": 464,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/recover-npc-assets.py",
+      "sha256": "86e240c34a68391b84138806dea712e79b58aa84be962a1cdb08b27698d6d343",
+      "lines": 76,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/repair-fusion-kimchi-fusion-eyes.py",
+      "sha256": "513d51cb8858e8f28a8caf6a05f7ab648642bd4ff0772eb56e6c56040c0409d2",
+      "lines": 117,
+      "role": "superseded-rejected-workflow",
+      "reason": "Explicit owner rejection recorded in AGENTS.md and docs/legacy/ffone/fusion-kimchi-academy-20260906.md; accepted publisher dependency on stage-fusion-kimchi-eyes.py remains preserved",
+      "status": "retired-rejected-workflow",
+      "replacement": "Accepted Academy original-atlas workflow; see recipes/native/characters/fusion-kimchi-academy-original-atlas-20260906.receipt.json"
+    },
+    {
+      "path": "tools/legacy-sources/repair-nano-materials.py",
+      "sha256": "7e80a16a2781719d63748dd1fd7ec797fc70167844f9f74ac6f45b449e4dccf4",
+      "lines": 120,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/resort-sfx-by-owner.py",
+      "sha256": "cefbbe933c967bdf70452075817cab8ae7f39f342df7cd6ff0db710672d0b353",
+      "lines": 519,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/restore-item-icons.py",
+      "sha256": "e2d809863a3b530d073535a5a4a352c344a67f6bce42ad24d8be4a4c2d170833",
+      "lines": 97,
+      "role": "conversion-or-publication",
+      "reason": "All 204 accepted PNGs reproduced byte-for-byte (198 primary, 6 explicit Academy donors); additive conflict unit test preserves existing artwork",
+      "status": "ported-and-removed",
+      "replacement": "fusionforge publish-native --recipe recipes/native/cli/item-icons-{primary,alternate}.json --source-root <matching-raw-source> --target-root <assets> --work <fresh-case> --check"
+    },
+    {
+      "path": "tools/legacy-sources/retain-previous-build-assets.py",
+      "sha256": "295935a4ab49b7f33787c4247f9b48dfb05366343675d5cbcc2667de3a3a1668",
+      "lines": 518,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/stage-fusion-kimchi-eyes.py",
+      "sha256": "37a971fd67ee50cb6a1eb2d11a5b8d848f30e9acb6f9ec019bc781c8b9598e22",
+      "lines": 92,
+      "role": "shared-helper-with-retired-entrypoint",
+      "reason": "Rejected entrypoint, but accepted publish-academy-kimchi imports its GLB helpers; cannot delete until that dependency is ported.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/stage-npc-material-followup.py",
+      "sha256": "3822feef479aef8f8b8d22a65534bef684a7fc411fee5143b39a38dd25f4d3c7",
+      "lines": 92,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/stage-npc-repair.py",
+      "sha256": "31963c18f4514aab90e1c315b1dc88711cb773f871f4248e6532f18319fa992e",
+      "lines": 276,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/sync-openfusion-xdt.py",
+      "sha256": "141878e38b8bd983d54f3ed84b2fb1a13951acd01ce38c69e399ecd030e6c879",
+      "lines": 309,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/legacy-sources/wire-localized-voice.py",
+      "sha256": "e9a55633bd45bc92035a7862fc52a0b0e861226fe7935c2c1f5780ebd6813141",
+      "lines": 145,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/native/deduplicate_textures.py",
+      "sha256": "0c47c3408d528f4e47bfce580e74ba01f15f40997abd885e40ed9aa312653876",
+      "lines": 199,
+      "role": "conversion-or-publication",
+      "reason": "Full native staging: 2 chain groups, 7 PNG redirects, 7 GLBs; unchanged BIN/material values and exact PNG bytes. Six Rust regression tests cover mip/sampler mismatch, code consumers, stale inputs, malformed GLB and rollback.",
+      "status": "ported-and-removed",
+      "replacement": "fusionforge repair-native deduplicate-textures --target-root <native-assets> --work work/cases/<fresh-case> [--apply]"
+    },
+    {
+      "path": "tools/native/export-player-emote-events.py",
+      "sha256": "d9270e648ee55556056c58f0dff1326b9bb355200fe8a9da9106d441f149129d",
+      "lines": 67,
+      "role": "conversion-or-publication",
+      "reason": "46 owner-validated scoped clips; generated Rust source exactly matches accepted source except generator comment. Native source unchanged during staging.",
+      "status": "ported-and-removed",
+      "replacement": "fusionforge repair-native player-emote-events --source-root <primary> --target-root <native-repository> --work work/cases/<fresh-case> [--apply]"
+    },
+    {
+      "path": "tools/native/generate_character_runtime_gpu_audit.mjs",
+      "sha256": "4b2df18b1033139bd1ac52c9ac62abf84df6aaf8948280ae2d7622848d75cca6",
+      "lines": 322,
+      "role": "validation-or-analysis",
+      "reason": "Produces reports, galleries or GPU evidence; not an asset conversion step.",
+      "status": "retained-independent-tool"
+    },
+    {
+      "path": "tools/native/publish-banker-appearance.py",
+      "sha256": "7146a6d5b1b9e83abdc956b1c7c79852981bac61582cb997e41446be31ec8e7e",
+      "lines": 113,
+      "role": "conversion-or-publication",
+      "reason": "Seven accepted files reproduced byte-identically; isolated fresh models match all JSON values and BIN bytes; PNG pixels equal; unrelated appearances preserved",
+      "status": "ported-and-removed",
+      "replacement": "fusionforge repair-native banker; see docs/native-cli.md"
+    },
+    {
+      "path": "tools/native/publish-hnpc-idle-clips.py",
+      "sha256": "e2452d1bb995abca8cc0d65282510fdf0ab100db129aa1645eb44015ade19e07",
+      "lines": 169,
+      "role": "conversion-or-publication",
+      "reason": "Default replay leaves both production rigs byte-identical; isolated missing male/female stand2 clips recovered; accepted curves/extras and all prior indices/BIN prefix preserved",
+      "status": "ported-and-removed",
+      "replacement": "fusionforge repair-native hnpc-clips --source-root <raw-primary> --target-root <native-assets> --work <fresh-case> [--clips <comma-separated-names>] [--semantic-catalog <relative-json>] [--apply]"
+    },
+    {
+      "path": "tools/native/relocate-native-textures.py",
+      "sha256": "f042b2c42646e44858568dcab689b00fb6834628e21d3465626b4f3e2a461e9e",
+      "lines": 209,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/native/repair-female-banker-routes.py",
+      "sha256": "b2091b7ce72020f2c315e9163dbec5fdfec64d2e2fb09461033db1a274005857",
+      "lines": 102,
+      "role": "conversion-or-publication",
+      "reason": "Five female appearances use scoped primary selection; all seven production files match byte-for-byte",
+      "status": "ported-and-removed",
+      "replacement": "fusionforge repair-native banker; see docs/native-cli.md"
+    },
+    {
+      "path": "tools/native/repair-nano-voice-events.py",
+      "sha256": "64a4bafb3a1bf1cd2121d7a3c3cd702a7e2ddb58266daff74484d09d6e64ef43",
+      "lines": 238,
+      "role": "conversion-or-publication",
+      "reason": "Five production files match byte-for-byte; missing Chowder clip and corrupted sounds restored on isolated fixture; all curves/events and render assets verified",
+      "status": "ported-and-removed",
+      "replacement": "fusionforge repair-native nano-voice-events; see docs/native-cli.md"
+    },
+    {
+      "path": "tools/native/repair-saved-nano-tunes.py",
+      "sha256": "71e9ab99883ae646c4ba853964bb9ee4827ebeedfafa2f7d5598f01dea1e3d1c",
+      "lines": 66,
+      "role": "legacy-server-database-repair",
+      "reason": "Explicit SQLite Nanos ID/Skill repair; RustyFusion is now primary. Never run it automatically on the new server.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/native/restore-foster-key-animation.py",
+      "sha256": "21a6b15f61e9c26a79085893694074fdb07c15741425c548f3b9d57d55bc19dd",
+      "lines": 105,
+      "role": "conversion-or-publication",
+      "reason": "Active domain publisher or reusable dependency; retain until equivalent CLI replay is verified.",
+      "status": "retained-pending-port-or-retirement"
+    },
+    {
+      "path": "tools/native/retire-runtime-inventories.mjs",
+      "sha256": "718fbdeaccc3e8c3dbf1d5a60120443c79062837b4cef21482c27f3988e6306e",
+      "lines": 49,
+      "role": "historical-one-time-migration",
+      "reason": "Consumes retired _runtime files and asserts native_asset_routes does not exist; current runtime already uses that table.",
+      "status": "retained-pending-port-or-retirement"
+    }
+  ],
+  "reviewComplete": true,
+  "migrationComplete": false,
+  "reviewNote": "Every original entry classified; review completion does not imply all active converters have been ported.",
+  "statusCounts": {
+    "retained-pending-port-or-retirement": 45,
+    "retained-independent-tool": 7,
+    "retired-rejected-workflow": 3,
+    "ported-and-removed": 7
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "path": "ui/gameplay/rewards/crate.png",
+    "bytes": 39937,
+    "sha256": "3272717257362843fa19dca30cc2cef83c756ce5528358369cc9cc80723de2ba",
+    "object": {
+      "name": "crate",
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 34
+    },
+    "width": 178,
+    "height": 142,
+    "decodedRgbaSha256": "2f93114057c08e1920f4abd3ed1e3b8a913f61a6eea23821d3cb0b30712d0394",
+    "pixelTransform": "vertical-flip-only-for-png-top-left-origin"
+  },
+  {
+    "path": "ui/gameplay/rewards/potion.png",
+    "bytes": 40183,
+    "sha256": "60ec405991ba8209f5e1e5cf16fbe3a78725c1ed64af114eccf7656a7b99ed85",
+    "object": {
+      "name": "potion",
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 548
+    },
+    "width": 178,
+    "height": 142,
+    "decodedRgbaSha256": "e840a1c62f3f5ee83b8f08d4f5c4b1bd6ab3bb4967353d1fbd00267cebb3296d",
+    "pixelTransform": "vertical-flip-only-for-png-top-left-origin"
+  },
+  {
+    "path": "ui/gameplay/rewards/boost.png",
+    "bytes": 39367,
+    "sha256": "9de3d9effa33ddb456170b136b97d30417b019f8ab62b7bc4bb529360724c94e",
+    "object": {
+      "name": "boost",
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 29
+    },
+    "width": 178,
+    "height": 142,
+    "decodedRgbaSha256": "8b40384812c4c7bc0b146c869e413ace9e35e08485990e624b0d1ec77704bbed",
+    "pixelTransform": "vertical-flip-only-for-png-top-left-origin"
+  },
+  {
+    "path": "ui/gameplay/rewards/fusion-matter.png",
+    "bytes": 10944,
+    "sha256": "97b874456be11c070fc626b12e410629d530414807f3171595c8913fba6fad70",
+    "object": {
+      "name": "fusion-matter",
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 376
+    },
+    "width": 172,
+    "height": 63,
+    "decodedRgbaSha256": "e0a61650e664bab19ccabdd3c56e21c836b3bf5ef79f530330910aee0d53e28a",
+    "pixelTransform": "vertical-flip-only-for-png-top-left-origin"
+  },
+  {
+    "path": "ui/gameplay/rewards/taros.png",
+    "bytes": 10704,
+    "sha256": "7bf96c14cf70627b180dcb3242e34f978e43b884dd80ada3a82ec406659a0709",
+    "object": {
+      "name": "taros",
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 579
+    },
+    "width": 170,
+    "height": 64,
+    "decodedRgbaSha256": "6f6ba556f850ad7f65d9f24b6311684a6b716602b191903a6dc561c0da61566b",
+    "pixelTransform": "vertical-flip-only-for-png-top-left-origin"
+  },
+  {
+    "path": "ui/gameplay/rewards/inventory-full.png",
+    "bytes": 2243,
+    "sha256": "403f1b547fd461278d30a6e5edb980080ac7338568ab09f0840c91e051252291",
+    "object": {
+      "name": "inventory-full",
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 526
+    },
+    "width": 40,
+    "height": 41,
+    "decodedRgbaSha256": "f0c5dc58095b2584f4ebeca2e2c81cdda6fd924dc854588823591302efeb8334",
+    "pixelTransform": "vertical-flip-only-for-png-top-left-origin"
+  }
+]

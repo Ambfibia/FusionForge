@@ -1,0 +1,123 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "fred-default-skin-quality-20260910",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "DongResources_05_06.resourceFile",
+    "containerBytes": 1418950,
+    "containerSha256": "b7d385ff5a86434e3077d9c3f353700c6442280b7a2218f12e8f157c94bf79fd",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-cc046f909412b47d6ace39b333bffa08",
+        "type": "Mesh",
+        "pathId": 423,
+        "fileId": 0
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-cc046f909412b47d6ace39b333bffa08",
+        "type": "SkinnedMeshRenderer",
+        "pathId": 555,
+        "fileId": 0
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-cc046f909412b47d6ace39b333bffa08",
+        "type": "AnimationClip",
+        "pathId": 424,
+        "fileId": 0
+      }
+    ]
+  },
+  "transform": {
+    "kind": "repair",
+    "tool": "tools/native/repair-fred-skin-quality.py",
+    "toolRevision": "sha256:fe398008e6acae93a732c9f4ee3b8733872256bdb2e64dff590ea56977009f30",
+    "workingDirectory": ".",
+    "commands": [
+      "python -c \"import pathlib,subprocess; p=subprocess.check_output(['git','-C','../FFOneClient','show','8ee57e118ab887e47c7892147bea79ffed5ea3d1:assets/game/characters/npcs/npc_fredfredburger2/npc_fredfredburger2.glb']); pathlib.Path('work/cases/fred-eyes-20260910/before.glb').write_bytes(subprocess.check_output(['git','-C','../FFOneClient','lfs','smudge'],input=p))\"",
+      "python tools/native/repair-fred-skin-quality.py --input work/cases/fred-eyes-20260910/before.glb --output work/cases/fred-eyes-20260910/replay.glb --expected-input-sha256 d9f0f364184ea57de9ade8899937f3f681e684f9e27216883b96784a88d775e6"
+    ]
+  },
+  "inputs": [
+    {
+      "kind": "previous-native-payload",
+      "repository": "FFOneClient",
+      "gitRevision": "8ee57e118ab887e47c7892147bea79ffed5ea3d1",
+      "path": "assets/game/characters/npcs/npc_fredfredburger2/npc_fredfredburger2.glb",
+      "sha256": "d9f0f364184ea57de9ade8899937f3f681e684f9e27216883b96784a88d775e6",
+      "bytes": 1005016
+    },
+    {
+      "alias": "primary",
+      "relativeContainer": "main.unity3d",
+      "containerBytes": 8221718,
+      "containerSha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+      "serializedAsset": "mainData",
+      "type": "QualitySettings",
+      "pathId": 14
+    }
+  ],
+  "outputs": [
+    {
+      "path": "characters/npcs/npc_fredfredburger2/npc_fredfredburger2.glb",
+      "bytes": 1005016,
+      "sha256": "a6e9f3792ca6a50fb92688dea3ea7a1dd81f45800db2d1ece26f45e7f8c4d2b0"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "nativeContract": "Bake renderer Auto / primary default Good (quality 3, blendWeights 2): retain first two source palette influences, renormalize, zero remaining weights. Selectable legacy quality levels are outside this repair.",
+  "verification": [
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/cases/fred-eyes-20260910/two-bone --model characters/npcs/npc_fredfredburger2/npc_fredfredburger2.glb --animation-name stand1 --sample-midpoint true --screenshot work/cases/fred-eyes-20260910/stand1.png --report work/cases/fred-eyes-20260910/stand1.json",
+      "result": "passed",
+      "evidence": "work/cases/fred-eyes-20260910/stand1.json",
+      "screenshotSha256": "118088b8eea179f0df460953a9140cd67b934aa3454eca7b253862102120ee9d"
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/cases/fred-eyes-20260910/two-bone --model characters/npcs/npc_fredfredburger2/npc_fredfredburger2.glb --animation-name stand2 --sample-midpoint true --screenshot work/cases/fred-eyes-20260910/stand2.png --report work/cases/fred-eyes-20260910/stand2.json",
+      "result": "passed",
+      "evidence": "work/cases/fred-eyes-20260910/stand2.json",
+      "screenshotSha256": "e8c0423541569d25b6b8ba73e22a6c0853a33f70202e6a19d70524a50cba7848"
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/cases/fred-eyes-20260910/two-bone --model characters/npcs/npc_fredfredburger2/npc_fredfredburger2.glb --animation-name stand3 --sample-midpoint true --screenshot work/cases/fred-eyes-20260910/stand3.png --report work/cases/fred-eyes-20260910/stand3.json",
+      "result": "passed",
+      "evidence": "work/cases/fred-eyes-20260910/stand3.json",
+      "screenshotSha256": "38ba213d3f4f90a533e97b2c498dba663a569e3e7af2d20ef09474b3d24610a1"
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/cases/fred-eyes-20260910/two-bone --model characters/npcs/npc_fredfredburger2/npc_fredfredburger2.glb --animation-name run --sample-midpoint true --screenshot work/cases/fred-eyes-20260910/run.png --report work/cases/fred-eyes-20260910/run.json",
+      "result": "passed",
+      "evidence": "work/cases/fred-eyes-20260910/run.json",
+      "screenshotSha256": "0a677ab14b6569b773edde6228a781ba6a6321e37646908554f5027a18e4ca22"
+    },
+    {
+      "command": "python tools/native/audit-fred-skin-quality.py --evidence-root work/cases/fred-eyes-20260910 --before work/cases/fred-eyes-20260910/before.glb --after ../FFOneClient/assets/game/characters/npcs/npc_fredfredburger2/npc_fredfredburger2.glb",
+      "result": "passed",
+      "evidence": "work/cases/fred-eyes-20260910/skin-audit.json"
+    },
+    {
+      "command": "cargo build -p ffone-client --bin ffone-client --bin ffone-editor",
+      "workingDirectory": "../FFOneClient",
+      "result": "passed"
+    },
+    {
+      "command": "cargo test -p ffone-client --example logical_model_gpu_preview -- --quiet",
+      "workingDirectory": "../FFOneClient",
+      "result": "22 passed"
+    },
+    {
+      "command": "target/debug/ffone-client.exe --validate-assets --asset-root assets/game",
+      "workingDirectory": "../FFOneClient",
+      "result": "passed"
+    }
+  ],
+  "limitations": [
+    "Strict full-model GPU certification remains blocked by 38 pre-existing triangles opposing authored normals. No indices or normals changed. Diagnostic captures freeze clips at 50%.",
+    "Replay pins the previously published native base in FFOneClient Git LFS. This repair does not reconstruct that historical entire model directly from raw source."
+  ]
+}

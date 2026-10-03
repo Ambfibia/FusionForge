@@ -1,0 +1,2117 @@
+{
+  "schema": "ffone.nano-voice-audit.v1",
+  "date": "2026-09-14",
+  "scope": {
+    "nativeIdentities": 67,
+    "nativeModels": 66,
+    "decodedFiles": 762,
+    "missingOrSilentFiles": []
+  },
+  "models": [
+    {
+      "model": "nano_4arms",
+      "clips": {
+        "call": [
+          {
+            "event": "Fourarms_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Fourarms_NanPwrSB0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Fourarms_NanPwrFHB0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Fourarms_NanPwrOP0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_aku",
+      "clips": {
+        "call": [
+          {
+            "event": "Aku_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Aku_NanPwrEE0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Aku_NanPwrAT0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Aku_NanPwrWS0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_alienx",
+      "clips": {
+        "call": [
+          {
+            "event": "AlienX_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "AlienX_NanPwrCLight0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "AlienX_NanPwrBHole0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "AlienX_NanPwrRFade0(RAND:1-3).wav",
+            "time": 0.20000000298023224,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_ampfibian",
+      "clips": {
+        "call": [
+          {
+            "event": "Amphibian_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Amphibian_NanPwrBlackout0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Amphibian_NanPwrCircuit0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Amphibian_NanPwrSurge0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_belladonna",
+      "clips": {
+        "call": [
+          {
+            "event": "Belladonna_Summon0(RAND:1-3).wav",
+            "time": 0.20000000298023224,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Belladonna_PwrPR0(RAND:1-3).wav",
+            "time": 0.6499999761581421,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Btrcup_NanPwrBB02.wav",
+            "time": 0.6499999761581421,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "BelladonnaNan_PwrTC0(RAND:1-3).wav",
+            "time": 0.6499999761581421,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_ben",
+      "clips": {
+        "call": [
+          {
+            "event": "Ben_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Ben_NanPwrJump0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_billy",
+      "clips": {
+        "call": [
+          {
+            "event": "Billy_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Billy_NanPwrUS0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Billy_NanPwrFrat0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Billy_NanPwrSnot0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_bloo",
+      "clips": {
+        "call": [
+          {
+            "event": "Bloo_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Bloo_NanPwrFK0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Bloo_NanPwrBG0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Bloo_NanPwrJB0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_blossom",
+      "clips": {
+        "call": [
+          {
+            "event": "Blossom_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Blossom_NanPwrIce0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Blossom_NanPwrLib0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Blossom_NanPwrNice0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_bubbles",
+      "clips": {
+        "call": [
+          {
+            "event": "Bubbles_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Bubbles_NanPwrTT0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Bubbles_NanPwrBH0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Bubbles_NanPwrLV0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_buttercup",
+      "clips": {
+        "call": [
+          {
+            "event": "Btrcup_NanSummon01_0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Btrcup_NanPwrMF01_0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Btrcup_NanPwrRC01_0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Btrcup_NanPwrBB0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_cheese",
+      "clips": {
+        "Skill1": [
+          {
+            "event": "Cheese_NanPwrH0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "call": [
+          {
+            "event": "Cheese_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_chowder",
+      "clips": {
+        "call": [
+          {
+            "event": "Chowder_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Chowder_NanPwrSTake0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Chowder_NanPwrINYB0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Chowder_NanPwrBMilk0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_coco",
+      "clips": {
+        "call": [
+          {
+            "event": "Coco_NanSummon.wav",
+            "time": 0.25,
+            "declaredTakes": 1
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Coco_NanPwrPS0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Coco_NanPwrBBU0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Coco_NanPwrEB0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_computress",
+      "clips": {
+        "call": [
+          {
+            "event": "Computer_Summon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Computress_NanSBDX_0(RAND:1-2).wav",
+            "time": 0.5,
+            "declaredTakes": 2
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Computress_skill2_0(RAND:1-3).wav",
+            "time": 0.5,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Computress_skill3_0(RAND:1-3).wav",
+            "time": 0.5,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_coop",
+      "clips": {
+        "call": [
+          {
+            "event": "Coop_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Coop_NanPwrCM0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Coop_NanPwrBP0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Coop_NanPwrTJ0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_courage",
+      "clips": {
+        "call": [
+          {
+            "event": "Courage_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Courage_NanPwrHH0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Courage_NanPwrSS0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Courage_NanPwrCP0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_darwin",
+      "clips": {
+        "call": [
+          {
+            "event": "Darwin_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Darwin_NanPwrAdod0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Darwin_NanPwrBhide0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Darwin_NanPwrCttherapy0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_deedee",
+      "clips": {
+        "call": [
+          {
+            "event": "DeeDee_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "DeeDee_NanPwrDiva0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "DeeDee_NanPwrWay0(RAND:1-3)(RAND:1-1).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          },
+          {
+            "event": "DeeDee_NanPwrWay0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "DeeDee_NanPwrPony0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_demongo",
+      "clips": {
+        "call": [
+          {
+            "event": "Demongo_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Demongo_NanPwrDF0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Demongo_NanPwrHS0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Demongo_NanPwrWR0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_dexter",
+      "clips": {
+        "call": [
+          {
+            "event": "Dexter_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Dexter_NanPwrGlide0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Dexter_NanPwrRay0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Dexter_NanPwrTp0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_ed",
+      "clips": {
+        "call": [
+          {
+            "event": "Ed_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Ed_NanPwrPage0(RAND:1-3).wav",
+            "time": 0.21333299577236176,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Ed_NanPwrMT0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Ed_NanPwrGH0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_edd",
+      "clips": {
+        "call": [
+          {
+            "event": "Edd_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Edd_NanPwrNE0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Edd_NanPwrMD0(RAND:1-3).wav",
+            "time": 0.25666698813438416,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Edd_NanPwrSR0(RAND:1-3).wav",
+            "time": 0.14000000059604645,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_eddy",
+      "clips": {
+        "call": [
+          {
+            "event": "Eddy_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Eddy_NanPwrJB0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Eddy_NanPwrSG0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Eddy_NanPwrES0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_eduardo",
+      "clips": {
+        "call": [
+          {
+            "event": "Eduardo_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Eduardo_NanPwrMR0(RAND:1-3).wav",
+            "time": 0.2639999985694885,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Eduardo_NanPwrWT0(RAND:1-3).wav",
+            "time": 0.2879999876022339,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Eduardo_NanPwrPF0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_finn",
+      "clips": {
+        "call": [
+          {
+            "event": "Finn_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Finn_NanPwrLeap0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Finn_NanPwrRecovery0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Finn_NanPwrSmite0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_flapjack",
+      "clips": {
+        "call": [
+          {
+            "event": "Flapjack_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Flapjack_NanPwrLGnat0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Flapjack_NanPwrALullabye0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Flapjack_NanPwrFBurn0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_ghostfreak",
+      "clips": {
+        "call": [],
+        "skill1": [],
+        "skill3": []
+      }
+    },
+    {
+      "model": "nano_grim",
+      "clips": {
+        "call": [
+          {
+            "event": "Grim_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Grim_NanPwrHJJ0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Grim_NanPwrHeck0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Grim_NanPwrSR0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_gumball",
+      "clips": {
+        "call": [
+          {
+            "event": "Gumball_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Gumball_NanPwrAsdeb0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Gumball_NanPwrBtwc0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Gumball_NanPwrCtkd0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_hex",
+      "clips": {
+        "call": [
+          {
+            "event": "Hex_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Hex_NanPwrSC0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Hex_NanPwrSW0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Hex_NanPwrVA0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_him",
+      "clips": {
+        "call": [
+          {
+            "event": "Him_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Him_NanPwrEL0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Him_NanPwrIP0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Him_NanPwrDP0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_holonano",
+      "clips": {
+        "call": [],
+        "skill1": [
+          {
+            "event": "Unstable_NanPwrAAA0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 0
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Unstable_NanPwrBBB0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 0
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Unstable_NanPwrCCC0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 0
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_humongousaur",
+      "clips": {
+        "call": [
+          {
+            "event": "Humongo_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Humongo_NanPwrSS0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Humongo_NanPwrGU0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Humongo_NanPwrGQ0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_iceking",
+      "clips": {
+        "call": [
+          {
+            "event": "IceKing_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "IceKing_NanPwrBolts0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "IceKing_NanPwrBPilot0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "IceKing_NanPwrPSense0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_jackolantern",
+      "clips": {
+        "call": [
+          {
+            "event": "Jack_O_Lantern_NanSummon0(RAND:1-3).wav",
+            "time": 0.009999999776482582,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Jack_O_Lantern_NanPwrTT0(RAND:1-3).wav",
+            "time": 0.009999999776482582,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Jack_O_Lantern_NanPwrLL0(RAND:1-3).wav",
+            "time": 0.009999999776482582,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Jack_O_Lantern_NanPwrDLYH0(RAND:1-3).wav",
+            "time": 0.009999999776482582,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_jake",
+      "clips": {
+        "call": [
+          {
+            "event": "Jake_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Jake_NanPwrEarGlide0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Jake_NanPwrLegStretch0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Jake_NanPwrVLull0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_johnnybravo",
+      "clips": {
+        "call": [
+          {
+            "event": "JBravo_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "JBravo_NanPwrStn0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "JBravo_NanPwrB0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "JBravo_NanPwrC0(RAND:1-2).wav",
+            "time": 0.25,
+            "declaredTakes": 2
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_johnnytest",
+      "clips": {
+        "call": [
+          {
+            "event": "JohnnyTest_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "JohnnyTest_NanPwrHHands0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "JohnnyTest_NanPwrPPoots0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "JohnnyTest_NanPwrTurbo0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_juniper_lee",
+      "clips": {
+        "call": [
+          {
+            "event": "Juniper_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Juniper_NanPwrMB0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Juniper_NanPwrZap0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Juniper_NanPwrMA0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_mac",
+      "clips": {
+        "call": [
+          {
+            "event": "Mac_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Mac_NanPwrFR0(RAND:1-3).wav",
+            "time": 0.1080000028014183,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Mac_NanPwrHS0(RAND:1-3).wav",
+            "time": 0.12666699290275574,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Mac_NanPwrSS0(RAND:1-3).wav",
+            "time": 0.1466670036315918,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_mandark",
+      "clips": {
+        "call": [
+          {
+            "event": "Mandark_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Mandark_NanPwrBD0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Mandark_NanPwrMan0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Mandark_NanPwrRT0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_mandy",
+      "clips": {
+        "call": [
+          {
+            "event": "Mandy_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Mandy_NanPwrSlap0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Mandy_NanPwrMore0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Mandy_NanPwrDR0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_megas",
+      "clips": {
+        "call": [
+          {
+            "event": "Megas_NanSummon01.wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 1
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Megas_NanPwrEF01.wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 1
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Megas_NanPwrSM01.wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 1
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Megas_NanPwrGSS01.wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 1
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_mojojo",
+      "clips": {
+        "call": [
+          {
+            "event": "Mojo_NanSummon0(RAND:1-4).wav",
+            "time": 0.25,
+            "declaredTakes": 4
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Mojo_NanPwrJJ0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Mojo_NanPwrRay0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Mojo_NanPwrBP0(RAND:1-4).wav",
+            "time": 0.25,
+            "declaredTakes": 4
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_mordecai",
+      "clips": {
+        "call": [
+          {
+            "event": "Mordecai_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Mordecai_NanPwrDBlock0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Mordecai_NanPwrPunchies0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Mordecai_NanPwrWorkin0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_numbuhfive",
+      "clips": {
+        "call": [
+          {
+            "event": "NumFive_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "NumFive_NanPwrMed0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "NumFive_NanPwrAgent0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "NumFive_NanPwrKick0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_numbuhfour",
+      "clips": {
+        "call": [
+          {
+            "event": "NumFour_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "NumFour_NanPwrDGU0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "NumFour_NanPwrBB0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "NumFour_NanPwrSS0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_numbuhone",
+      "clips": {
+        "call": [
+          {
+            "event": "NumOne_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "NumOne_NanPwrSV0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "NumOne_NanPwrFA0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "NumOne_NanPwrBB0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_numbuhthree",
+      "clips": {
+        "call": [
+          {
+            "event": "NumThree_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "NumThree_NanPwrSL0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "NumThree_NanPwrSS0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "NumThree_NanPwrRR0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_numbuhtwo",
+      "clips": {
+        "call": [
+          {
+            "event": "NumTwo_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "NumTwo_NanPwrFF0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "NumTwo_NanPwrNF0(RAND:1-3).wav",
+            "time": 0.31166699528694153,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "NumTwo_NanPwrLM0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_panini",
+      "clips": {
+        "call": [
+          {
+            "event": "Panini_NanSummon0(RAND:1-3).wav",
+            "time": 0.009999999776482582,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Panini_NanPwrCM0(RAND:1-3).wav",
+            "time": 0.009999999776482582,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Panini_NanPwrBP0(RAND:1-3).wav",
+            "time": 0.009999999776482582,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Panini_NanPwrTJ0(RAND:1-3).wav",
+            "time": 0.009999999776482582,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_princessbubblegum",
+      "clips": {
+        "call": [
+          {
+            "event": "PBubblegum_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "PBubblegum_NanPwrSDreams0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "PBubblegum_NanPwrDSerum0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "PBubblegum_NanPwrPCandy0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_rath",
+      "clips": {
+        "call": [
+          {
+            "event": "Rath_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Rath_NanPwrCStopMe0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Rath_NanPwrRWrath0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Rath_NanPwrLMTYS0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_rex",
+      "clips": {
+        "call": [
+          {
+            "event": "Rex_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Rex_NanPwrSS0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Rex_NanPwrGU0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Rex_NanPwrGQ0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_rigby",
+      "clips": {
+        "call": [
+          {
+            "event": "Rigby_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Rigby_NanPwrDPunch0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Rigby_NanPwrJJolt0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Rigby_NanPwrKeyboard0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_runty",
+      "clips": {
+        "call": [],
+        "skill1": [],
+        "skill2": [],
+        "skill3": []
+      }
+    },
+    {
+      "model": "nano_samuraijack",
+      "clips": {
+        "call": [
+          {
+            "event": "SJack_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "SJack_NanPwrRS0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "SJack_NanPwrSS0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "SJack_NanPwrSG0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_swampfire",
+      "clips": {
+        "call": [
+          {
+            "event": "Swampfire_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Swampfire_NanPwrHS0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Swampfire_NanPwrSG0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Swampfire_NanPwrCV0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_titan",
+      "clips": {
+        "call": [
+          {
+            "event": "Titan_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Titan_NanPwrSSword0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Titan_NanPwrSArray0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Titan_NanPwrBRockets0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 0
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_upgrade",
+      "clips": {
+        "call": [],
+        "skill1": [],
+        "skill2": [],
+        "skill3": []
+      }
+    },
+    {
+      "model": "nano_utonium",
+      "clips": {
+        "call": [
+          {
+            "event": "Utonium_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Utonium_NanPwrPP0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Utonium_NanPwrRP0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Utonium_NanPwrUZ0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_vankleiss",
+      "clips": {
+        "call": [
+          {
+            "event": "VanKleiss_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "VanKleiss_NanPwrELeech0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "VanKleiss_NanPwrNRegen0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "VanKleiss_NanPwrVines0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_vilgax",
+      "clips": {
+        "call": [
+          {
+            "event": "Vilgax_NanSummon0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Vilgax_NanPwrSP0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Vilgax_NanPwrLS0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Vilgax_NanPwrNVP0(RAND:1-3).wav",
+            "time": 0.25,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_wilt",
+      "clips": {
+        "call": [
+          {
+            "event": "Wilt_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Wilt_NanPwrCA0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Wilt_NanPwrZD0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Wilt_NanPwrNBN0(RAND:1-3).wav",
+            "time": 0.1120000034570694,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    },
+    {
+      "model": "nano_zaksaturday",
+      "clips": {
+        "call": [
+          {
+            "event": "Zak_NanSummon0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill1": [
+          {
+            "event": "Zak_NanPwrCAssault0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill2": [
+          {
+            "event": "Zak_NanPwrClaw0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ],
+        "skill3": [
+          {
+            "event": "Zak_NanPwrMHunter0(RAND:1-3).wav",
+            "time": 0.10000000149011612,
+            "declaredTakes": 3
+          }
+        ]
+      }
+    }
+  ],
+  "repair": {
+    "nativeId": 38,
+    "model": "nano_johnnybravo",
+    "appended": [
+      "skill2",
+      "skill3"
+    ],
+    "preserved": [
+      "all original nodes and root scale 1.2999999523162842",
+      "all original animations",
+      "all original accessors and buffer views",
+      "original binary prefix",
+      "meshes, materials, textures, skins and render order"
+    ],
+    "output": {
+      "bytes": 692984,
+      "sha256": "449f2c4877f0516cee70824ed6c05cb09d5ae301a4fe0b171b46a98d9d51390a"
+    },
+    "replay": {
+      "bytes": 692984,
+      "sha256": "449f2c4877f0516cee70824ed6c05cb09d5ae301a4fe0b171b46a98d9d51390a"
+    }
+  },
+  "limitations": [
+    "Titan skill3 references Titan_NanPwrBRockets; no recordings in the exact OG-academy Nano_048 raw bundle.",
+    "Ghostfreak and Upgrade have no declared voice recordings. Ben and Cheese have only one authored skill animation. Holonano has unresolved placeholder power cues.",
+    "Existing Johnny Bravo geometry has four triangles opposing authored normals; the animation-only update preserves the entire render data and the same validator finding.",
+    "ECS audio tests validate dispatch, locale resolution and player creation; 762 files independently decoded. GPU captures validate the two appended animations, not live-server acoustic output."
+  ]
+}

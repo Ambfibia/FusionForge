@@ -1,0 +1,77 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "hnpc-palette-20260908",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "native-target"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "main.unity3d",
+    "containerBytes": 8221718,
+    "containerSha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+    "objects": [
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour",
+        "pathId": 1378,
+        "fileId": 0,
+        "containerRoute": "male.bsd.asset",
+        "trueName": "male.bsd"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "repair",
+    "tool": "tools/native/publish-hnpc-palette.py",
+    "toolRevision": "sha256:79e3c8bb4f56d7ecf2f4eee2c78efbb57118d9fc6821a853c5420136f20151b7",
+    "workingDirectory": ".",
+    "commands": [
+      "fusionforge dump-object-evidence primary ../builds/retrobution-20260821 main.unity3d 1378 --serialized-asset sharedassets0.assets --type MonoBehaviour --out work/cases/npc-visual-20260908/palette-owner.json",
+      "python tools/native/publish-hnpc-palette.py --evidence work/cases/npc-visual-20260908/palette-owner.json --output-root work/cases/npc-visual-20260908/palette-stage",
+      "python tools/native/publish-hnpc-palette.py --evidence work/cases/npc-visual-20260908/palette-owner.json --output-root ../FFOneClient/assets/game"
+    ]
+  },
+  "inputs": [],
+  "outputs": [
+    {
+      "path": "data/hnpc/palette.json",
+      "bytes": 3068,
+      "sha256": "9f26f688c62effaf7fc81e0bda8ef30d17c2463ea9c3afebe6fbd5ffc6f408ab"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "target/debug/deps/ffone_client-6bd263b67a1f7b08.exe hnpc_runtime::tests --nocapture",
+      "workingDirectory": "../FFOneClient",
+      "result": "passed: 2 tests",
+      "evidence": null
+    },
+    {
+      "command": "target/debug/xtask.exe assets --source assets/game",
+      "workingDirectory": "../FFOneClient",
+      "result": "passed: 43804 references",
+      "evidence": null
+    },
+    {
+      "command": "Replay recorded publisher to work/cases/npc-visual-20260908/replay and compare every output byte and recorded SHA-256 with the native target",
+      "result": "passed",
+      "evidence": null
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/hnpc_player_gpu_preview.exe ../FFOneClient/assets/game 31 work/cases/npc-visual-20260908/skin-15.png",
+      "result": "passed: ReadyAnimated and GPU capture",
+      "evidence": "work/cases/npc-visual-20260908/skin-15.png",
+      "sha256": "c30153f16e49a3a3196d9eab65548b73fd0a7cc7f0a633f04250e3e08e441041"
+    },
+    {
+      "command": "target/debug/ffone-client.exe --validate-assets --asset-root assets/game",
+      "workingDirectory": "../FFOneClient",
+      "result": "passed: status ok; development executable built 2026-09-08 21:51:44 +03:00 and contains data/hnpc/palette.json",
+      "executableSha256": "1879ae549eccb384a27c0c769f0bc29afc3fd084d885353dc871297f452aa3d3",
+      "evidence": null
+    }
+  ]
+}

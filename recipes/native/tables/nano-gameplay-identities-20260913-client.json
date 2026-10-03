@@ -1,0 +1,81 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "nano-gameplay-identities-20260913-client",
+  "status": "accepted",
+  "supersedes": [
+    "nano-tuning-identities-20260908-client"
+  ],
+  "target": {
+    "alias": "ffone-client"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "TableData.resourceFile",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-1dca92eecee4742d985b799d8226666d",
+        "type": "MonoBehaviour",
+        "pathId": 7,
+        "rawSha256": "2c9db47141ffa8f6033978356b142088643d412fc2e703c1f686afe0bc6f002a",
+        "fileId": 0,
+        "pointerContext": "Unique xdtdatas MonoBehaviour in primary TableData; strict object evidence resolves its script in the same serialized asset with zero unresolved pointers."
+      }
+    ],
+    "containerBytes": 802929,
+    "containerSha256": "bd8767c2d316f60a4b38de320794701b2391d7b40412020bdc1d17e88c7b7212"
+  },
+  "transform": {
+    "kind": "repair",
+    "tool": "tools/native/restore-nano-identities.py",
+    "toolRevision": "sha256:7042270735a51b4c768d7fecaa89b03d5775430e6f43e023e768d2bbb77e6103",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/native/restore-nano-identities.py --target-root ../FFOneClient --server-xdt ../OpenFusion/bin/tdata/xdt.json --stage work/cases/nano-identities-20260913/stage",
+      "python tools/native/restore-nano-identities.py --target-root ../FFOneClient --server-xdt ../OpenFusion/bin/tdata/xdt.json --stage work/cases/nano-identities-20260913/applied --apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/cases/nano-identities-20260913/applied/0-before.json",
+      "sha256": "6fc339f1e13e92ddbc971faaa4bfc996c7b0f0ca21997448ce760dcf3a37b17c"
+    },
+    {
+      "path": "work/cases/nano-identities-20260913/applied/2-before.json",
+      "sha256": "2bb0b8d65796b56f8f57f6503196a7411ce4a37c7521cc71b6f8f4cf31c8de04"
+    },
+    {
+      "path": "work/cases/nano-identities-20260913/applied/3-before.json",
+      "sha256": "12d5c1a8916aa3443039b5ed792185f64453f09a375c023e1f4be12c4d60d450"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/game/data/tables/table-set.json",
+      "bytes": 46003953,
+      "sha256": "1f972ea50447acef94a5844050b03fdcb3f8e0707008ca574d9cdd00f9a4ba5e"
+    },
+    {
+      "path": "assets/game/localization/en.json",
+      "bytes": 8098131,
+      "sha256": "e802022ca8986d02741b7637374c290aab5684ace3c9326ae39c13d0502cec57"
+    },
+    {
+      "path": "assets/game/localization/ru.json",
+      "bytes": 11765097,
+      "sha256": "d9aacc1865d075c3b6ad24992aad1b0c2a13edf046666e24a1a2b84c0378fa00"
+    }
+  ],
+  "divergenceFromPrimary": "Owner-requested restoration: mission 841 keeps native Nano 41, now selecting the already installed hologram model. Coop retains primary appearance/powers under independent native ID 67. Disabled primary Flapjack/Johnny Bravo rows become active IDs 37/38. Installed Ben/Ghostfreak/Upgrade models receive IDs 68/69/70 and owner-selected copies of the restored event Nano power effects with neutral localized text. IDs 52/66 and all other existing identities survive. No model or animation bytes change; Ghostfreak/Upgrade retain explicit missing portrait assets.",
+  "verification": [
+    {
+      "command": "cargo test -p ffone-client --test nano_identity_roster",
+      "result": "passed: 2 production-bundle tests",
+      "evidence": "docs/legacy/ffone/nano-gameplay-identities-20260913.md"
+    },
+    {
+      "command": "nano_acquisition_client_smoke for IDs 37,38,41,67,68,69,70,52,66 on isolated OpenFusion",
+      "result": "passed: all 27 ability/equip/relogin cases",
+      "evidence": "../OpenFusion/work/nano-relogin-20260913/identity-nanos-final.log"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "applied": true,
+  "outputs": [
+    {
+      "beforeSha256": "645cd8ccd811178055c2bb7ef1539bd5a9997a9b69cd41735a5c4086dbdc4844",
+      "bytes": 3186256,
+      "matchesTarget": false,
+      "path": "characters/nanos/nano_flapjack/nano_flapjack.glb",
+      "sha256": "edbce5a4f3cb23cdbc3c4d8be5bf35ef5464c76edc87a61bf585eb98baa78372"
+    },
+    {
+      "beforeSha256": "12c0e4fbd6a6909b664e3983df75c9a2216bb02214a554f3f33c192d359c8a85",
+      "bytes": 4994532,
+      "matchesTarget": false,
+      "path": "characters/nanos/nano_chowder/nano_chowder.glb",
+      "sha256": "71b77e7db468cebfd5d1643ce72202c206bebb7ef2578d4563a32414a45e2b1c"
+    },
+    {
+      "beforeSha256": "55d48118322a2b85b02af313bc2fc6f5083f110441e6181872e20dc3526dec81",
+      "bytes": 3010136,
+      "matchesTarget": false,
+      "path": "characters/nanos/nano_zaksaturday/nano_zaksaturday.glb",
+      "sha256": "7ca428be927598dd7cd75fbfbd060d04f2cb1b701769e1bdb8645be378e9fd4c"
+    },
+    {
+      "beforeSha256": "90ebeb83027e8baee44ad25514c75207a38e992d751fd267fc7512f96eb8891d",
+      "bytes": 10276272,
+      "matchesTarget": false,
+      "path": "characters/nanos/nano_jackolantern/nano_jackolantern.glb",
+      "sha256": "bdae7147ce4e09e69ad50569209ac5ef19902677eb36e71859ce06d786354704"
+    },
+    {
+      "beforeSha256": "5d0974b87bfb6a163b0ea2ebdf7310a39d9294a4b49cb1fc29bf67b924cefa3c",
+      "bytes": 47756098,
+      "matchesTarget": false,
+      "path": "data/tables/table-set.json",
+      "sha256": "26e942c4acd801dbe47c2c7944ed3ba31b02bccf607885c2712f6b73c0f15936"
+    }
+  ]
+}

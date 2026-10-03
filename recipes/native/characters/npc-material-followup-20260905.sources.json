@@ -1,0 +1,1017 @@
+{
+  "schema": "fusionforge.npc-material-source-evidence.v1",
+  "models": [
+    {
+      "source": {
+        "alias": "primary",
+        "relativeContainer": "DongResources_07_06.resourceFile",
+        "containerBytes": 5819047,
+        "containerSha256": "781d469e59e08d76a45b372f7d4b3a1c0475579d7c5514378a39681968a61491"
+      },
+      "route": "mob/fusion_iceking.kfm",
+      "targets": [
+        {
+          "assetIndex": 1,
+          "assetName": "CustomAssetBundle-e5a53b272630f4113ac7dfa756eae499",
+          "containerAssetIndex": 1,
+          "containerAssetName": "CustomAssetBundle-e5a53b272630f4113ac7dfa756eae499",
+          "exactRoute": "mob/fusion_iceking.kfm",
+          "objectType": "GameObject",
+          "pathId": 1252,
+          "proof": "directAssetBundleContainerPointer"
+        }
+      ],
+      "materials": [
+        {
+          "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+          "type": "Material",
+          "pathId": 1701,
+          "trueName": "spawn11_green",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+            "type": "Shader",
+            "pathId": 1622,
+            "pointer": {
+              "fileId": 0,
+              "isNull": false,
+              "pathId": 1622,
+              "sourceAssetIndex": 2
+            },
+            "declaredName": "SkinnedFusionMatterLightDir_blendSrcalphaInvsrcalpha",
+            "scriptSha256": "a151f6c8746046984ec3fcac358b852e83e0535b7c169d10f16019ebfd02cc8d"
+          }
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-e5a53b272630f4113ac7dfa756eae499",
+          "type": "Material",
+          "pathId": 1468,
+          "trueName": "spwaneye",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-e5a53b272630f4113ac7dfa756eae499",
+            "type": "Shader",
+            "pathId": 1469,
+            "pointer": {
+              "fileId": 0,
+              "isNull": false,
+              "pathId": 1469,
+              "sourceAssetIndex": 1
+            },
+            "declaredName": "normal_blendOneOneTest_cullOff",
+            "scriptSha256": "cb4b27442bbd396742347760f7610d17d767e2d4fa226ec8cd3ec863cdebe0ed"
+          }
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-e5a53b272630f4113ac7dfa756eae499",
+          "type": "Material",
+          "pathId": 213,
+          "trueName": "mob_roadgorlem-sub-link_a.dds",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+            "type": "Shader",
+            "pathId": 1616,
+            "pointer": {
+              "fileId": 1,
+              "isNull": false,
+              "pathId": 1616,
+              "sourceAssetIndex": 1
+            },
+            "declaredName": "normal_blendSrcalphaOne_zwriteOff_cullOff",
+            "scriptSha256": "70fc44ad7628b4791d774f2ce72dbe8fbe72c5b643cb8676066d7466bfc0b2b1"
+          }
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-e5a53b272630f4113ac7dfa756eae499",
+          "type": "Material",
+          "pathId": 222,
+          "trueName": "mob_roadgorlem-main-link_a.dds",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+            "type": "Shader",
+            "pathId": 665,
+            "pointer": {
+              "fileId": 4,
+              "isNull": false,
+              "pathId": 665,
+              "sourceAssetIndex": 1
+            },
+            "declaredName": "SkinnedToonShading_blendSrcalphaInvsrcalpha",
+            "scriptSha256": "7be0aa97a32e4c012f0fa2da8b1e392de8ec63d97c66e66678570e4492257fbb"
+          }
+        }
+      ],
+      "input": {
+        "path": "work/legacy-sources/npc-material-followup-20260905/recovery/models/fusion_iceking/fusion_iceking.source.json",
+        "bytes": 10208103,
+        "sha256": "65c608a43870831e420b5756acb421e2eff5eadcf49cafa8de5730b8576e261d"
+      }
+    },
+    {
+      "source": {
+        "alias": "primary",
+        "relativeContainer": "DongResources_11_12.resourceFile",
+        "containerBytes": 842117,
+        "containerSha256": "4369b2173f1000c86eb79cde220c9fdb0d294b8249ad9a41255894b8d87d589f"
+      },
+      "route": "mob/fusion_spidermonkey.kfm",
+      "targets": [
+        {
+          "assetIndex": 4,
+          "assetName": "CustomAssetBundle-3e3b3a79894c6476fab21a645211407a",
+          "containerAssetIndex": 4,
+          "containerAssetName": "CustomAssetBundle-3e3b3a79894c6476fab21a645211407a",
+          "exactRoute": "mob/fusion_spidermonkey.kfm",
+          "objectType": "GameObject",
+          "pathId": 8,
+          "proof": "directAssetBundleContainerPointer"
+        }
+      ],
+      "materials": [
+        {
+          "serializedAsset": "CustomAssetBundle-3e3b3a79894c6476fab21a645211407a",
+          "type": "Material",
+          "pathId": 223,
+          "trueName": "spwaneye",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-3e3b3a79894c6476fab21a645211407a",
+            "type": "Shader",
+            "pathId": 224,
+            "pointer": {
+              "fileId": 0,
+              "isNull": false,
+              "pathId": 224,
+              "sourceAssetIndex": 4
+            },
+            "declaredName": "normal_blendOneOneTest_cullOff",
+            "scriptSha256": "cb4b27442bbd396742347760f7610d17d767e2d4fa226ec8cd3ec863cdebe0ed"
+          }
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Retro_shared",
+          "type": "Material",
+          "pathId": 152,
+          "trueName": "npc_dracula-main-link_a.dds",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+            "type": "Shader",
+            "pathId": 665,
+            "pointer": {
+              "fileId": 2,
+              "isNull": false,
+              "pathId": 665,
+              "sourceAssetIndex": 0
+            },
+            "declaredName": "SkinnedToonShading_blendSrcalphaInvsrcalpha",
+            "scriptSha256": "7be0aa97a32e4c012f0fa2da8b1e392de8ec63d97c66e66678570e4492257fbb"
+          }
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Retro_shared",
+          "type": "Material",
+          "pathId": 1611,
+          "trueName": "fusion_chowder-sub-link_b.dds",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+            "type": "Shader",
+            "pathId": 1622,
+            "pointer": {
+              "fileId": 1,
+              "isNull": false,
+              "pathId": 1622,
+              "sourceAssetIndex": 0
+            },
+            "declaredName": "SkinnedFusionMatterLightDir_blendSrcalphaInvsrcalpha",
+            "scriptSha256": "a151f6c8746046984ec3fcac358b852e83e0535b7c169d10f16019ebfd02cc8d"
+          }
+        }
+      ],
+      "input": {
+        "path": "work/legacy-sources/npc-material-followup-20260905/recovery/models/fusion_spidermonkey/fusion_spidermonkey.source.json",
+        "bytes": 11484898,
+        "sha256": "9b623d3783ecbc4098590fd4993ed59c5b04c956317466dab6807a20a3cc3bef"
+      }
+    },
+    {
+      "source": {
+        "alias": "primary",
+        "relativeContainer": "DongResources_10_10.resourceFile",
+        "containerBytes": 4660645,
+        "containerSha256": "66adf49efbe0f7d058cf28f985a9b5f16b33617b53184dd63346b7dbb5263550"
+      },
+      "route": "mob/npc_hippiehop.kfm",
+      "targets": [
+        {
+          "assetIndex": 1,
+          "assetName": "CustomAssetBundle-903ddb08babc94bb1add9a53773d342e",
+          "containerAssetIndex": 1,
+          "containerAssetName": "CustomAssetBundle-903ddb08babc94bb1add9a53773d342e",
+          "exactRoute": "mob/npc_hippiehop.kfm",
+          "objectType": "GameObject",
+          "pathId": 2362,
+          "proof": "directAssetBundleContainerPointer"
+        }
+      ],
+      "materials": [
+        {
+          "serializedAsset": "CustomAssetBundle-903ddb08babc94bb1add9a53773d342e",
+          "type": "Material",
+          "pathId": 2295,
+          "trueName": "npc_hippiehop-main_link_a.dds",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+            "type": "Shader",
+            "pathId": 7274,
+            "pointer": {
+              "fileId": 1,
+              "isNull": false,
+              "pathId": 7274,
+              "sourceAssetIndex": 1
+            },
+            "declaredName": "Skin_FusionEffect_blendSrcalphaInvsrcalpha_tutorial",
+            "scriptSha256": "8e826e84ccc9d38379299fb8f6fec0506b4e7585dd651a166f99e290ac73c680"
+          }
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-903ddb08babc94bb1add9a53773d342e",
+          "type": "Material",
+          "pathId": 2296,
+          "trueName": "npc_hippiehop-main_link_b.dds",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+            "type": "Shader",
+            "pathId": 7274,
+            "pointer": {
+              "fileId": 1,
+              "isNull": false,
+              "pathId": 7274,
+              "sourceAssetIndex": 1
+            },
+            "declaredName": "Skin_FusionEffect_blendSrcalphaInvsrcalpha_tutorial",
+            "scriptSha256": "8e826e84ccc9d38379299fb8f6fec0506b4e7585dd651a166f99e290ac73c680"
+          }
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-903ddb08babc94bb1add9a53773d342e",
+          "type": "Material",
+          "pathId": 2297,
+          "trueName": "npc_hippiehop-sub_link_a.dds",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-903ddb08babc94bb1add9a53773d342e",
+            "type": "Shader",
+            "pathId": 2294,
+            "pointer": {
+              "fileId": 0,
+              "isNull": false,
+              "pathId": 2294,
+              "sourceAssetIndex": 1
+            },
+            "declaredName": "normal_blendOneOne_zwriteOff_cullOff",
+            "scriptSha256": "9609d98348a9a69435c7b01485eaa12cd939b91153baeb69dfee20d28b80af79"
+          }
+        }
+      ],
+      "input": {
+        "path": "work/legacy-sources/npc-material-followup-20260905/recovery/models/npc_hippiehop/npc_hippiehop.source.json",
+        "bytes": 11609766,
+        "sha256": "fde64783672779620a93cc57bc7959557cd0e3d25906f42e1c18877abceaa5d0"
+      }
+    },
+    {
+      "source": {
+        "alias": "primary",
+        "relativeContainer": "Retro_shared.resourceFile",
+        "containerBytes": 14258661,
+        "containerSha256": "2ca4147c3705fdd3a0fc0ec44e088da6e87279e978e73b19701b0d29babbfc33"
+      },
+      "route": "mob/npc_kimchi.kfm",
+      "targets": [
+        {
+          "assetIndex": 0,
+          "assetName": "CustomAssetBundle-Retro_shared",
+          "containerAssetIndex": 0,
+          "containerAssetName": "CustomAssetBundle-Retro_shared",
+          "exactRoute": "mob/npc_kimchi.kfm",
+          "objectType": "GameObject",
+          "pathId": 1373,
+          "proof": "directAssetBundleContainerPointer"
+        }
+      ],
+      "materials": [
+        {
+          "serializedAsset": "CustomAssetBundle-Retro_shared",
+          "type": "Material",
+          "pathId": 1412,
+          "trueName": "npc_kimchi-material #26",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+            "type": "Shader",
+            "pathId": 665,
+            "pointer": {
+              "fileId": 2,
+              "isNull": false,
+              "pathId": 665,
+              "sourceAssetIndex": 0
+            },
+            "declaredName": "SkinnedToonShading_blendSrcalphaInvsrcalpha",
+            "scriptSha256": "7be0aa97a32e4c012f0fa2da8b1e392de8ec63d97c66e66678570e4492257fbb"
+          }
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Retro_shared",
+          "type": "Material",
+          "pathId": 1424,
+          "trueName": "npc_kimchi-material #27",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+            "type": "Shader",
+            "pathId": 665,
+            "pointer": {
+              "fileId": 2,
+              "isNull": false,
+              "pathId": 665,
+              "sourceAssetIndex": 0
+            },
+            "declaredName": "SkinnedToonShading_blendSrcalphaInvsrcalpha",
+            "scriptSha256": "7be0aa97a32e4c012f0fa2da8b1e392de8ec63d97c66e66678570e4492257fbb"
+          }
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Retro_shared",
+          "type": "Material",
+          "pathId": 1436,
+          "trueName": "npc_kimchi-material #25",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+            "type": "Shader",
+            "pathId": 665,
+            "pointer": {
+              "fileId": 2,
+              "isNull": false,
+              "pathId": 665,
+              "sourceAssetIndex": 0
+            },
+            "declaredName": "SkinnedToonShading_blendSrcalphaInvsrcalpha",
+            "scriptSha256": "7be0aa97a32e4c012f0fa2da8b1e392de8ec63d97c66e66678570e4492257fbb"
+          }
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Retro_shared",
+          "type": "Material",
+          "pathId": 1450,
+          "trueName": "npc_kimchi-main-link_a.dds",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+            "type": "Shader",
+            "pathId": 665,
+            "pointer": {
+              "fileId": 2,
+              "isNull": false,
+              "pathId": 665,
+              "sourceAssetIndex": 0
+            },
+            "declaredName": "SkinnedToonShading_blendSrcalphaInvsrcalpha",
+            "scriptSha256": "7be0aa97a32e4c012f0fa2da8b1e392de8ec63d97c66e66678570e4492257fbb"
+          }
+        }
+      ],
+      "input": {
+        "path": "work/legacy-sources/npc-material-followup-20260905/recovery/models/npc_kimchi/npc_kimchi.source.json",
+        "bytes": 642728,
+        "sha256": "fe7a3e5f2a39e1ecd32b68c49545c76fd881a80281ed990edf8382439c71b092"
+      }
+    },
+    {
+      "source": {
+        "alias": "primary",
+        "relativeContainer": "Tutorial.resourceFile",
+        "containerBytes": 33327638,
+        "containerSha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916"
+      },
+      "route": "mob/objectnpc1.kfm",
+      "targets": [
+        {
+          "assetIndex": 0,
+          "assetName": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+          "containerAssetIndex": 0,
+          "containerAssetName": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+          "exactRoute": "mob/objectnpc1.kfm",
+          "objectType": "GameObject",
+          "pathId": 4841,
+          "proof": "directAssetBundleContainerPointer"
+        }
+      ],
+      "materials": [
+        {
+          "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+          "type": "Material",
+          "pathId": 1895,
+          "trueName": "objectnpc1-01 - default-link_a.dds",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+            "type": "Shader",
+            "pathId": 1615,
+            "pointer": {
+              "fileId": 0,
+              "isNull": false,
+              "pathId": 1615,
+              "sourceAssetIndex": 0
+            },
+            "declaredName": "normal_blendSrcalphaInvsrcalpha",
+            "scriptSha256": "290562bc8d56959490861ceddd9adab6f2d298c50e00a73ce4d6e356f2023c3b"
+          }
+        }
+      ],
+      "input": {
+        "path": "work/legacy-sources/npc-material-followup-20260905/recovery/models/objectnpc1/objectnpc1.source.json",
+        "bytes": 45599,
+        "sha256": "e24c7d8d9f6a217db91fcbf93ccf0b55bc114edfba4155b6d32cf4482c74ea20"
+      }
+    },
+    {
+      "source": {
+        "alias": "primary",
+        "relativeContainer": "Retro_shared_part2.resourceFile",
+        "containerBytes": 3513561,
+        "containerSha256": "f61f0e9cbd8d265f1909b39eda875a62926356610e4b4e3711ad9eedcd3e471b"
+      },
+      "route": "mob/npc_mandroid_disguise.kfm",
+      "targets": [
+        {
+          "assetIndex": 1,
+          "assetName": "CustomAssetBundle-Retro_shared_part2",
+          "containerAssetIndex": 1,
+          "containerAssetName": "CustomAssetBundle-Retro_shared_part2",
+          "exactRoute": "mob/npc_mandroid_disguise.kfm",
+          "objectType": "GameObject",
+          "pathId": 358,
+          "proof": "directAssetBundleContainerPointer"
+        }
+      ],
+      "materials": [
+        {
+          "serializedAsset": "CustomAssetBundle-Retro_shared_part2",
+          "type": "Material",
+          "pathId": 449,
+          "trueName": "npc_toon-sub-link_a.dds",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+            "type": "Shader",
+            "pathId": 665,
+            "pointer": {
+              "fileId": 3,
+              "isNull": false,
+              "pathId": 665,
+              "sourceAssetIndex": 1
+            },
+            "declaredName": "SkinnedToonShading_blendSrcalphaInvsrcalpha",
+            "scriptSha256": "7be0aa97a32e4c012f0fa2da8b1e392de8ec63d97c66e66678570e4492257fbb"
+          }
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Retro_shared_part2",
+          "type": "Material",
+          "pathId": 451,
+          "trueName": "npc_toon_flipped-main-link_a.dds",
+          "shader": {
+            "serializedAsset": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+            "type": "Shader",
+            "pathId": 665,
+            "pointer": {
+              "fileId": 3,
+              "isNull": false,
+              "pathId": 665,
+              "sourceAssetIndex": 1
+            },
+            "declaredName": "SkinnedToonShading_blendSrcalphaInvsrcalpha",
+            "scriptSha256": "7be0aa97a32e4c012f0fa2da8b1e392de8ec63d97c66e66678570e4492257fbb"
+          }
+        }
+      ],
+      "input": {
+        "path": "work/legacy-sources/npc-material-followup-20260905/recovery/models/npc_mandroid_disguise/npc_mandroid_disguise.source.json",
+        "bytes": 1655718,
+        "sha256": "de06707a3d575e76bdc5425fba1d38011a28a3bc15e64c8250b76d2ebe9433b3"
+      }
+    }
+  ],
+  "existingModelLineage": [
+    {
+      "source": {
+        "alias": "primary",
+        "role": "primary",
+        "relativeContainer": "CharacterCreation.resourceFile",
+        "bytes": 14379095,
+        "sha256": "18b40ba54e4840beb768a9aec03fff8d66dfac82ca4171c5d1b5701775126666"
+      },
+      "route": "mob/npc_deedee2.kfm",
+      "targets": [
+        {
+          "assetIndex": 0,
+          "assetName": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+          "containerAssetIndex": 0,
+          "containerAssetName": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+          "exactRoute": "mob/npc_deedee2.kfm",
+          "objectType": "GameObject",
+          "pathId": 1343,
+          "proof": "directAssetBundleContainerPointer"
+        }
+      ],
+      "sourceSha256": "cb24f14ebf4a1f546f99e6b06980bb17775bd282f627874bc9c94e8820120767"
+    },
+    {
+      "source": {
+        "alias": "primary",
+        "role": "primary",
+        "relativeContainer": "CharacterCreation.resourceFile",
+        "bytes": 14379095,
+        "sha256": "18b40ba54e4840beb768a9aec03fff8d66dfac82ca4171c5d1b5701775126666"
+      },
+      "route": "mob/npc_dexter2.kfm",
+      "targets": [
+        {
+          "assetIndex": 0,
+          "assetName": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+          "containerAssetIndex": 0,
+          "containerAssetName": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+          "exactRoute": "mob/npc_dexter2.kfm",
+          "objectType": "GameObject",
+          "pathId": 1708,
+          "proof": "directAssetBundleContainerPointer"
+        }
+      ],
+      "sourceSha256": "e2acf8c31caf153c0f5a07a149d1c5a67e5b7be27956d7a3f2fc38847a8ec1da"
+    },
+    {
+      "source": {
+        "alias": "primary",
+        "role": "primary",
+        "relativeContainer": "Tutorial.resourceFile",
+        "bytes": 33327638,
+        "sha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916"
+      },
+      "route": "mob/npc_dexter2_pistol.kfm",
+      "targets": [
+        {
+          "assetIndex": 1,
+          "assetName": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+          "containerAssetIndex": 1,
+          "containerAssetName": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+          "exactRoute": "mob/npc_dexter2_pistol.kfm",
+          "objectType": "GameObject",
+          "pathId": 7490,
+          "proof": "directAssetBundleContainerPointer"
+        }
+      ],
+      "sourceSha256": "e31c5159b76c524d05db55f02e7d3c3b1b3b233dbbd558511f4375544255479b"
+    },
+    {
+      "source": {
+        "alias": "primary",
+        "role": "primary",
+        "relativeContainer": "Tutorial.resourceFile",
+        "bytes": 33327638,
+        "sha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916"
+      },
+      "route": "mob/npc_dexter2_sword.kfm",
+      "targets": [
+        {
+          "assetIndex": 1,
+          "assetName": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+          "containerAssetIndex": 1,
+          "containerAssetName": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+          "exactRoute": "mob/npc_dexter2_sword.kfm",
+          "objectType": "GameObject",
+          "pathId": 7938,
+          "proof": "directAssetBundleContainerPointer"
+        }
+      ],
+      "sourceSha256": "e999995f35214292440828d87f9a0ca8df2b177e641d125bf68aab196225608d"
+    }
+  ],
+  "textures": [
+    {
+      "source": {
+        "alias": "primary",
+        "role": "primary",
+        "relativeContainer": "Retro_shared.resourceFile",
+        "bytes": 14258661,
+        "sha256": "2ca4147c3705fdd3a0fc0ec44e088da6e87279e978e73b19701b0d29babbfc33"
+      },
+      "route": "texture/fusion_iceking.dds",
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "type": "Texture2D",
+      "pathId": 30045,
+      "exactSha256": "b02663ab999e70464044efce02c2005f73c1e73e82ce9fae4dc625d9bb24c2d8",
+      "pngSha256": "d44846649138f2aabb1aa08ee457258fbc736e07fff5624692f59deba710b786"
+    },
+    {
+      "source": {
+        "alias": "primary",
+        "role": "primary",
+        "relativeContainer": "CharacterCreation.resourceFile",
+        "bytes": 14379095,
+        "sha256": "18b40ba54e4840beb768a9aec03fff8d66dfac82ca4171c5d1b5701775126666"
+      },
+      "route": "texture/npc_deedee.dds",
+      "serializedAsset": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+      "type": "Texture2D",
+      "pathId": 93,
+      "exactSha256": "a473a1279a66ed8a832e7ba3003961ea52d020b13618173d0c5b8663e57c0491",
+      "pngSha256": "ae06fe2507dbc1f0230cee099ab17ba131fb312406aaf423040924739381a5b6"
+    },
+    {
+      "source": {
+        "alias": "primary",
+        "role": "primary",
+        "relativeContainer": "CharacterCreation.resourceFile",
+        "bytes": 14379095,
+        "sha256": "18b40ba54e4840beb768a9aec03fff8d66dfac82ca4171c5d1b5701775126666"
+      },
+      "route": "texture/npc_dexter.dds",
+      "serializedAsset": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+      "type": "Texture2D",
+      "pathId": 44,
+      "exactSha256": "b3792af1b2ff6db542ab445f146f0d0b35d1dc07f6b0c0edb6a52951e4b8022c",
+      "pngSha256": "6c98b4d1820619682e4f493e15db784fea4a260112cdcc9f57e4f40a503b51c5"
+    },
+    {
+      "source": {
+        "alias": "primary",
+        "role": "primary",
+        "relativeContainer": "NpcTexture.resourceFile",
+        "bytes": 15239269,
+        "sha256": "95504fa80830d2c54540e576a44707096b746d761448d086e294a6f1cd0dc171"
+      },
+      "route": "texture/vehicle_kimchi.dds",
+      "serializedAsset": "CustomAssetBundle-d304c52c4bae348e38c743762c1bd818",
+      "type": "Texture2D",
+      "pathId": 144,
+      "exactSha256": "6590051afacf5848182ebce2b00dc5c0dbaaf5a2734a2a38d074b77dbaae837f",
+      "pngSha256": "26eecc787eb44c6e2ae190a8eb48dc192958098b2bfbfe6f93ee8750f3a95442"
+    }
+  ],
+  "icons": [
+    {
+      "source": {
+        "alias": "primary",
+        "role": "primary",
+        "relativeContainer": "Icons.resourceFile",
+        "bytes": 6557371,
+        "sha256": "e4a4b531cafa44b2c046f8dc8dea97c694bc0c6e455b0329232c2b09596eb96d"
+      },
+      "objects": [
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 208,
+          "fileId": 0,
+          "trueName": "mobicon_29"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 240,
+          "fileId": 0,
+          "trueName": "mobicon_11"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 243,
+          "fileId": 0,
+          "trueName": "mobicon_105"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 429,
+          "fileId": 0,
+          "trueName": "npcicon_0"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 432,
+          "fileId": 0,
+          "trueName": "mobicon_28"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 434,
+          "fileId": 0,
+          "trueName": "mobicon_244"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 627,
+          "fileId": 0,
+          "trueName": "hnpcicon_9"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 683,
+          "fileId": 0,
+          "trueName": "mobicon_12"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 894,
+          "fileId": 0,
+          "trueName": "mobicon_117"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 974,
+          "fileId": 0,
+          "trueName": "mobicon_0"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 1144,
+          "fileId": 0,
+          "trueName": "hnpcicon_4"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 1274,
+          "fileId": 0,
+          "trueName": "mobicon_21"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 1288,
+          "fileId": 0,
+          "trueName": "mobicon_16"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 1310,
+          "fileId": 0,
+          "trueName": "mobicon_235"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 1682,
+          "fileId": 0,
+          "trueName": "mobicon_18"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 1787,
+          "fileId": 0,
+          "trueName": "npcicon_8"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 1792,
+          "fileId": 0,
+          "trueName": "mobicon_1"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 1796,
+          "fileId": 0,
+          "trueName": "mobicon_2"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 1995,
+          "fileId": 0,
+          "trueName": "hnpcicon_6"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 2027,
+          "fileId": 0,
+          "trueName": "hnpcicon_2"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 2071,
+          "fileId": 0,
+          "trueName": "hnpcicon_3"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 2133,
+          "fileId": 0,
+          "trueName": "mobicon_4"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 2308,
+          "fileId": 0,
+          "trueName": "hnpcicon_1"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 2328,
+          "fileId": 0,
+          "trueName": "mobicon_6"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 2420,
+          "fileId": 0,
+          "trueName": "npcicon_9"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 2643,
+          "fileId": 0,
+          "trueName": "npcicon_7"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 2756,
+          "fileId": 0,
+          "trueName": "mobicon_50"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 2819,
+          "fileId": 0,
+          "trueName": "mobicon_266"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3339,
+          "fileId": 0,
+          "trueName": "mobicon_272"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3517,
+          "fileId": 0,
+          "trueName": "mobicon_273"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3518,
+          "fileId": 0,
+          "trueName": "mobicon_274"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3519,
+          "fileId": 0,
+          "trueName": "mobicon_275"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3520,
+          "fileId": 0,
+          "trueName": "mobicon_276"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3521,
+          "fileId": 0,
+          "trueName": "mobicon_277"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3522,
+          "fileId": 0,
+          "trueName": "mobicon_278"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3523,
+          "fileId": 0,
+          "trueName": "mobicon_279"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3524,
+          "fileId": 0,
+          "trueName": "mobicon_280"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3525,
+          "fileId": 0,
+          "trueName": "mobicon_281"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3526,
+          "fileId": 0,
+          "trueName": "mobicon_282"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3527,
+          "fileId": 0,
+          "trueName": "mobicon_283"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3528,
+          "fileId": 0,
+          "trueName": "mobicon_284"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3529,
+          "fileId": 0,
+          "trueName": "mobicon_285"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3531,
+          "fileId": 0,
+          "trueName": "mobicon_287"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3532,
+          "fileId": 0,
+          "trueName": "mobicon_288"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3533,
+          "fileId": 0,
+          "trueName": "mobicon_289"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3534,
+          "fileId": 0,
+          "trueName": "mobicon_290"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3535,
+          "fileId": 0,
+          "trueName": "mobicon_291"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3536,
+          "fileId": 0,
+          "trueName": "mobicon_292"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3537,
+          "fileId": 0,
+          "trueName": "mobicon_293"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+          "type": "Texture2D",
+          "pathId": 3538,
+          "fileId": 0,
+          "trueName": "mobicon_294"
+        }
+      ]
+    }
+  ],
+  "historicalReceipt": "recipes/native/characters/npc-repair-20260905.receipt.json",
+  "historyNote": "Historical receipt is a different schema and is referenced for recovered evidence, not claimed as canonical coverage."
+}

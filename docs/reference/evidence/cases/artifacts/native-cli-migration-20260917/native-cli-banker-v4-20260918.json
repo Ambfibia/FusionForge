@@ -1,0 +1,54 @@
+{
+  "applied": false,
+  "outputs": [
+    {
+      "beforeSha256": "b3c9949fff8f6e276c9736610c141d391c76edf6a456e0ff9b5ccdd0fba0e36c",
+      "bytes": 94000,
+      "matchesTarget": true,
+      "path": "characters/player/hnpc/banker/f_shirt_secretagent.glb",
+      "sha256": "b3c9949fff8f6e276c9736610c141d391c76edf6a456e0ff9b5ccdd0fba0e36c"
+    },
+    {
+      "beforeSha256": "713175764284173b3757dee0711248df285e096c98ec3629f8ad5266156d78ad",
+      "bytes": 38260,
+      "matchesTarget": true,
+      "path": "characters/player/hnpc/banker/f_pants_secretagent.glb",
+      "sha256": "713175764284173b3757dee0711248df285e096c98ec3629f8ad5266156d78ad"
+    },
+    {
+      "beforeSha256": "77d68b83517670914c04d7315a2686133a82c32b66f3c2b4dd3d2ade57db65a3",
+      "bytes": 41504,
+      "matchesTarget": true,
+      "path": "characters/player/hnpc/banker/f_shoes_secretagent.glb",
+      "sha256": "77d68b83517670914c04d7315a2686133a82c32b66f3c2b4dd3d2ade57db65a3"
+    },
+    {
+      "beforeSha256": "160efc4670ce0353ae8461a26cbc9f697fb02bde94501771313813229ee62b3e",
+      "bytes": 18987,
+      "matchesTarget": true,
+      "path": "characters/hnpc/textures/shoes_agentsix.png",
+      "sha256": "160efc4670ce0353ae8461a26cbc9f697fb02bde94501771313813229ee62b3e"
+    },
+    {
+      "beforeSha256": "b9381b1b60d77b39046ca2dbcf4b51a8c313458de7939bf72d9ede9780122b6d",
+      "bytes": 30155,
+      "matchesTarget": true,
+      "path": "characters/hnpc/textures/female_banker_jacket.png",
+      "sha256": "b9381b1b60d77b39046ca2dbcf4b51a8c313458de7939bf72d9ede9780122b6d"
+    },
+    {
+      "beforeSha256": "e8b08872a508833344bd50a43f07a85011a31c44ff5712b5aa4c30c8a9f7f5c9",
+      "bytes": 37988,
+      "matchesTarget": true,
+      "path": "characters/hnpc/textures/female_banker_trousers.png",
+      "sha256": "e8b08872a508833344bd50a43f07a85011a31c44ff5712b5aa4c30c8a9f7f5c9"
+    },
+    {
+      "beforeSha256": "96299a7bd6c7367a0d10e29ebc626718eda8197bb437b55e20303c8390936bc5",
+      "bytes": 1002147,
+      "matchesTarget": true,
+      "path": "data/hnpc/catalog.json",
+      "sha256": "96299a7bd6c7367a0d10e29ebc626718eda8197bb437b55e20303c8390936bc5"
+    }
+  ]
+}

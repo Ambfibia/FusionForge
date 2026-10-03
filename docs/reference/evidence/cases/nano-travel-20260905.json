@@ -1,0 +1,116 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "nano-travel-20260905",
+  "status": "accepted-scoped-runtime",
+  "question": "Why can the player attack during Skyway/zipline travel, and why do server Nano movement buffs only update HUD icons?",
+  "nativeConsumer": "FFOne app action gate, movement controller and protocol-0104 buff ingress",
+  "acceptance": [
+    "Transport ownership blocks Fire1, Nano use and weapon cycle; removing ownership restores actions without a stale visual lock.",
+    "Decoded Add/Change/Del buff values change controller attributes without compounding; 60 Hz simulation proves displacement and jump force.",
+    "Real development binary builds and starts with production ECS schedule."
+  ],
+  "versions": [
+    {
+      "anchors": [
+        "Retrobution 20260821 main.unity3d SHA256 01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef; 8221718 bytes",
+        "level0/Assembly - CSharp.dll SHA256 0f2513c2303cffc88c541a90b1b8fad1b73f60d5218830be72d0502533bf5792; 1762816 bytes"
+      ],
+      "role": "parity_authority",
+      "alias": "primary"
+    }
+  ],
+  "candidates": [],
+  "evidenceArtifacts": [
+    {
+      "producer": {
+        "command": ".\\target-build\\debug\\ff-client-editor.exe fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260821 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/assembly-csharp.evidence.json --payload-out work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/Assembly-CSharp.dll",
+        "tool": "fusionforge",
+        "revision": "86324d05303a076b9814bddff800635cb2f73954"
+      },
+      "kind": "managed_assembly_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/nano-travel-20260905-assembly.json",
+      "bytes": 1386,
+      "sha256": "7ca7adb09268d97f00ca3c494e36a822683aa3865a4ded5e56dbe25c4ab3c8c8",
+      "id": "primary-managed"
+    }
+  ],
+  "hypotheses": [
+    {
+      "rejectedBecause": null,
+      "state": "proven",
+      "claim": "Action gate forced MoveMode::None despite authoritative scripted travel.",
+      "evidence": [
+        "primary-managed: cnAvatarAttack.Update returns for nonzero MoveTYPE; cnAvatarThirdPersonMove uses BroomStick, EpZipline, EpRope and EpSlope; native sync_tutorial_action_gate hardcoded None."
+      ]
+    },
+    {
+      "rejectedBecause": "This slice is a missing runtime consumer; it does not require changing extracted skill data.",
+      "state": "rejected",
+      "claim": "Movement buffs are missing because skill table values were reversed incorrectly.",
+      "evidence": [
+        "primary-managed: Status.UpdateSkillBuff consumes packet TimeBuff.iValue directly. Native ingress only forwarded this packet to SkillBuffUiModel."
+      ]
+    },
+    {
+      "rejectedBecause": null,
+      "state": "unresolved",
+      "claim": "All active and passive Nano abilities are now implemented.",
+      "evidence": []
+    }
+  ],
+  "differences": [
+    {
+      "detail": "Buff IDs 1 speed, 3 jump and 8 slow use packet values: Add=1 and Change=3 replace, Del=2 clears; run speed clamps at zero; personal vehicle suppresses jump bonus.",
+      "classification": "primary parity"
+    },
+    {
+      "detail": "Vehicle table speed override and equipment movement modifiers are separate existing gaps; no new values are invented.",
+      "classification": "unresolved"
+    }
+  ],
+  "conclusion": "Fixed missing scripted-travel action gate and server movement-buff consumption. Four new regressions pass, including deterministic movement simulation. Full-client world smoke completes. The broader Nano ability backlog is still open.",
+  "nativeContract": {
+    "timing": "Ingress before NetworkSessionLifecycleSet::Apply completion, projection before LegacyMovementSet::Simulate. Action gate reads current traversal components and transport resource, not later animation presentation.",
+    "payloadsChanged": [],
+    "ownership": "MovementBuffs owns numeric server modifiers independently from icon UI. Session reset and PC load clear them. Each player retains unmodified controller base attributes.",
+    "authority": "No client-side buff expiry or magnitude synthesis. OpenFusion src/Buffs.cpp Buffs::timeBuffUpdate sends the maximum stack magnitude in TimeBuff.iValue (file SHA256 75c0ed3d97427433c15cd998e733d90bb6b05b571e55ab6847cd803ff6d7106c).",
+    "npcPlacementsChanged": false
+  },
+  "verification": [
+    {
+      "log": "../FFOneClient/target/parity-movement-buffs-tests.log",
+      "result": "3 passed",
+      "command": "cargo test -p ffone-client --bin ffone-client movement_buffs"
+    },
+    {
+      "log": "../FFOneClient/target/parity-nano-travel-world-tests.log",
+      "result": "103 passed, 4 failed; includes new scripted travel regression",
+      "command": "ffone_client-c559ac50861573bd.exe app::tests::world"
+    },
+    {
+      "log": "../FFOneClient/target/parity-nano-travel-tutorial-tests.log",
+      "result": "73 passed, 1 failed",
+      "command": "ffone_client-c559ac50861573bd.exe app::tests::tutorial"
+    },
+    {
+      "log": "../FFOneClient/target/parity-nano-travel-build.log",
+      "result": "passed; existing unused CameraProjection import warning",
+      "command": "cargo build -p ffone-client --bin ffone-client"
+    },
+    {
+      "result": "600 frames, automatic completion, world/player/HUD visible; no error or panic. Ordinary production schedule smoke, not a live server ability/transport encounter or FPS comparison.",
+      "command": "FFONE_PERF_OUTPUT=target/performance/nano-travel-smoke-20260905 target/debug/ffone-client.exe --asset-root assets/game --language ru",
+      "sha256": "3fff264c5b54bc364a9e375d20a17208ba3d11f8d645b1ea05104c57232cd0b9",
+      "capture": "../FFOneClient/target/performance/nano-travel-smoke-20260905/frame.png"
+    },
+    {
+      "result": "passed",
+      "command": "scoped rustfmt --check and git diff --check"
+    }
+  ],
+  "limitations": [
+    "Live server Nano combat and a ridden Skyway/zipline journey still need interactive acceptance.",
+    "Wider tests have five unresolved failures: cyber_combat_command_faces_attacks_and_enters_death_clip (missing fixture content), ordinary_world_weapon_visuals_use_only_validated_bullets_and_hitscan_endpoints, selected_mission_smart_indicator_uses_grant_waypoint_and_npc_radius, task_start_ack_returns_to_exact_close_only_npc_mode, live_buttercup_interaction_opens_and_recovers_the_nano_mission_list. Their expectations were not changed here.",
+    "No full passive/active skill, equipment movement modifier, personal vehicle speed, travel scale/position/handle/render or optimization claim."
+  ]
+}

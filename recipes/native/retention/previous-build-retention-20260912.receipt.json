@@ -1,0 +1,593 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "previous-build-retention-20260912",
+  "status": "accepted",
+  "generatedAtUtc": "2026-09-12T05:25:27.495839+00:00",
+  "supersedes": [],
+  "supersedesOutputsOf": [
+    {
+      "record": "docs/reference/evidence/legacy/ffone/retrobution-ui-20260821-publication.json",
+      "outputs": [
+        "ui/gameplay/intro/tutorialpan_06.png",
+        "ui/gameplay/intro/tutorialpan_07.png",
+        "ui/gameplay/loading/load.png",
+        "ui/launcher/login/login_screen_bg_16x10.png",
+        "ui/gameplay/guide/ben.png",
+        "ui/gameplay/guide/ben_confirm.png",
+        "ui/gameplay/guide/ben_icon.png",
+        "ui/gameplay/mission/guide-banners/ben.png"
+      ]
+    },
+    {
+      "record": "recipes/native/characters/npc-repair-20260905.receipt.json",
+      "outputs": [
+        "data/tables/npc_texture_overrides.json#npc_deedee",
+        "data/tables/table-set.json#m_pNpcTable/m_pNpcData/701"
+      ]
+    },
+    {
+      "record": "recipes/native/characters/npc-material-followup-20260905.receipt.json",
+      "outputs": [
+        "data/tables/npc_texture_overrides.json#npc_deedee"
+      ]
+    }
+  ],
+  "target": {
+    "alias": "ffone-client"
+  },
+  "source": {
+    "alias": "previous",
+    "build": "retrobution-20260613",
+    "containers": [
+      {
+        "relativeContainer": "CharacterCreation.resourceFile",
+        "containerBytes": 8974798,
+        "containerSha256": "78785925e716027de4bec897c402c352bb411b7d627de1783e6fbda8bf34e59e"
+      },
+      {
+        "relativeContainer": "TableData.resourceFile",
+        "containerBytes": 784963,
+        "containerSha256": "6d4cea151152e2ab75b7d16590bda00fba172600a163e0b3a5318564df0d7e3b"
+      },
+      {
+        "relativeContainer": "Tutorial.resourceFile",
+        "containerBytes": 27003826,
+        "containerSha256": "49a684ff4236848d0b882a5d725ffbe99d5cfb5d2090dc8705350e97dd3fd024"
+      },
+      {
+        "relativeContainer": "main.unity3d",
+        "containerBytes": 7000415,
+        "containerSha256": "59788201962b6a1737b114486c361fe74eef69f507d1d125ca3171377eec602f"
+      }
+    ],
+    "objects": [
+      {
+        "relativeContainer": "Tutorial.resourceFile",
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "Texture2D",
+        "pathId": 170,
+        "trueName": "TutorialPan_06",
+        "nativeRoute": "ui/en/gameplay/intro/tutorialpan_06.png"
+      },
+      {
+        "relativeContainer": "Tutorial.resourceFile",
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "Texture2D",
+        "pathId": 148,
+        "trueName": "TutorialPan_07",
+        "nativeRoute": "ui/en/gameplay/intro/tutorialpan_07.png"
+      },
+      {
+        "relativeContainer": "main.unity3d",
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 369,
+        "trueName": "load",
+        "nativeRoute": "ui/en/gameplay/loading/load.png"
+      },
+      {
+        "relativeContainer": "CharacterCreation.resourceFile",
+        "serializedAsset": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+        "type": "Texture2D",
+        "pathId": 35,
+        "trueName": "login_screen_bg_16x10",
+        "nativeRoute": "ui/en/launcher/login/login_screen_bg_16x10.png"
+      },
+      {
+        "relativeContainer": "main.unity3d",
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 135,
+        "trueName": "Ben",
+        "nativeRoute": "ui/en/gameplay/guide/ben.png"
+      },
+      {
+        "relativeContainer": "main.unity3d",
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 211,
+        "trueName": "ben confirm",
+        "nativeRoute": "ui/en/gameplay/guide/ben_confirm.png"
+      },
+      {
+        "relativeContainer": "main.unity3d",
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 517,
+        "trueName": "ben icon",
+        "nativeRoute": "ui/en/gameplay/guide/ben_icon.png"
+      },
+      {
+        "relativeContainer": "main.unity3d",
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 575,
+        "trueName": "ben_banner",
+        "nativeRoute": "ui/en/gameplay/mission/guide-banners/ben.png"
+      },
+      {
+        "relativeContainer": "CharacterCreation.resourceFile",
+        "serializedAsset": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+        "type": "Texture2D",
+        "pathId": 93,
+        "containerRoute": "texture/npc_deedee.dds",
+        "trueName": "npc_deedee",
+        "nativeRoute": "characters/npcs/npc_deedee/npc_deedee.textures/npc_deedee.png"
+      },
+      {
+        "relativeContainer": "TableData.resourceFile",
+        "serializedAsset": "CustomAssetBundle-1dca92eecee4742d985b799d8226666d",
+        "type": "MonoBehaviour",
+        "pathId": 7,
+        "trueName": "xdtdatas",
+        "nativeRoute": "data/tables/table-set.json#m_pNpcTable"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "owner-selected-previous-build-retention",
+    "tool": "tools/legacy-sources/retain-previous-build-assets.py",
+    "toolRevision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+    "workingTreeDirty": true,
+    "toolSha256": {
+      "tools/legacy-sources/retain-previous-build-assets.py": "295935a4ab49b7f33787c4247f9b48dfb05366343675d5cbcc2667de3a3a1668",
+      "tools/legacy-sources/previous_build_retention.py": "987089c54c9e7ea75be1591d1475efd53e1b9e69f381b6a7eabea41e11cdd1e0"
+    },
+    "declaration": {
+      "path": "recipes/native/retention/previous-build-retention.json",
+      "sha256": "a7123f558f9df2d16e088d7609a6528702e402ff1530980d074ed93a1fd677f9"
+    },
+    "binaries": [
+      {
+        "path": "work/build/release/fusionforge.exe",
+        "sha256": "376a0930ef603df68b059a13e59647b6cbe1612fafa1bc5aae23a371549dca7e"
+      },
+      {
+        "path": "work/build/debug/ffone-asset-pipeline.exe",
+        "sha256": "c338d86b6416768acfcb5580448f24915d565636b9a76c93470cbef017c2c64b"
+      }
+    ],
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/legacy-sources/retain-previous-build-assets.py --previous-build ../builds/retrobution-20260613 --work work/cases/previous-build-retention-20260912 --target-root ../FFOneClient/assets/game --receipt recipes/native/retention/previous-build-retention-20260912.receipt.json --apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/cases/previous-build-retention-20260912/ui/ui__en__gameplay__intro__tutorialpan_06.png/exact.json",
+      "bytes": 1910100,
+      "sha256": "85cb2b2adb2c898efc8f1a7f74c27527a9b1ecbeeff5e752e7249c6265b402b8"
+    },
+    {
+      "path": "work/cases/previous-build-retention-20260912/ui/ui__en__gameplay__intro__tutorialpan_07.png/exact.json",
+      "bytes": 1264676,
+      "sha256": "8a08d3f93391fb4b2dbee4eeb494a5378cafe2fdd0c7912da85323a8a43b6b09"
+    },
+    {
+      "path": "work/cases/previous-build-retention-20260912/ui/ui__en__gameplay__loading__load.png/exact.json",
+      "bytes": 6291254,
+      "sha256": "ccaf7ffe80d9d0f4d9689c4806d32930b5ac7fac3397b7cc152f10247a33e847"
+    },
+    {
+      "path": "work/cases/previous-build-retention-20260912/ui/ui__en__launcher__login__login_screen_bg_16x10.png/exact.json",
+      "bytes": 8217958,
+      "sha256": "0f9470609e85ee2744973ad2b872bc2f089572145b6bcb8d7000d395156e9ffb"
+    },
+    {
+      "path": "work/cases/previous-build-retention-20260912/ui/ui__en__gameplay__guide__ben.png/exact.json",
+      "bytes": 174454,
+      "sha256": "c6bbc4d2d35f73d3c1b73ac611fa4dc1d70fbdae709ceb49c4426b31744804bc"
+    },
+    {
+      "path": "work/cases/previous-build-retention-20260912/ui/ui__en__gameplay__guide__ben_confirm.png/exact.json",
+      "bytes": 98761,
+      "sha256": "e70d13c48732b051a408c07d9199017d3d327740911753902d4ea896a7c12edd"
+    },
+    {
+      "path": "work/cases/previous-build-retention-20260912/ui/ui__en__gameplay__guide__ben_icon.png/exact.json",
+      "bytes": 10289,
+      "sha256": "eb8c9fc5177521ee05fb6b3cc7917af34a075b5ff0c6e59f05af8d1b9872d2ba"
+    },
+    {
+      "path": "work/cases/previous-build-retention-20260912/ui/ui__en__gameplay__mission__guide-banners__ben.png/exact.json",
+      "bytes": 94758,
+      "sha256": "b5090e1abb55bdb8adb7ec759d63972b67104b661a0bef3c7324f5136144d590"
+    },
+    {
+      "path": "work/cases/previous-build-retention-20260912/npc-textures/npc_deedee/exact.json",
+      "bytes": 225511,
+      "sha256": "68306a7254bcd5a2b6b765b4ca44c111e7bde7eebd5d1194454af92e999f8e4d"
+    },
+    {
+      "path": "work/cases/previous-build-retention-20260912/xdt/previous-xdtdatas.json",
+      "bytes": 31995448,
+      "sha256": "57c2721e8eeaead7ca8e316f2162b95193b3ab75415d0fd279d3d5c076759a7b"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "ui/en/gameplay/intro/tutorialpan_06.png",
+      "bytes": 715066,
+      "sha256": "3ed4e3d0c17ee79a2326bf58127cacf52959254855462a1534a6ce7a09b772b8",
+      "beforeSha256": "bc7e3e0048f7be47c5a4c87905e6f8171aba3b8305a36bbf9810f9bcc4a7c7c7"
+    },
+    {
+      "path": "ui/en/gameplay/intro/tutorialpan_07.png",
+      "bytes": 473033,
+      "sha256": "9186f12139c193eecfd7ce225d515996fc7e743dc97def6f0214aec4ca95b295",
+      "beforeSha256": "9ddc15d01b21e4e1b0c13a4f2022628d3bd8541059dd286b489afa108f687e8e"
+    },
+    {
+      "path": "ui/en/gameplay/loading/load.png",
+      "bytes": 2358034,
+      "sha256": "b6876bebf285520966eefe76fd1307fef8f7b1dff092a1d30808532ae706d76a",
+      "beforeSha256": "a08ddd03d9d92815da5aafb628b24e08c27b9e2ce483762b0f225db7ab6bb6b9"
+    },
+    {
+      "path": "ui/en/launcher/login/login_screen_bg_16x10.png",
+      "bytes": 3080509,
+      "sha256": "0cd6f24d9412914ede3369228581bae52f37e653e1ca71d9e6b763d8a549c3ef",
+      "beforeSha256": "7bd93ccf732293bfbd0edf8b8f4f173f3648f7852f9798f287f93a7ad99dbc9a"
+    },
+    {
+      "path": "ui/en/gameplay/guide/ben.png",
+      "bytes": 64242,
+      "sha256": "a448c64754f40ee63bce0c5e9f5a524f8d0b4f99bb9251f1d1083192dd161187",
+      "beforeSha256": "49a42b27e7d2bc69abbac19729db8aa099e0dd1d8f065cb429c5a0321d7323e2"
+    },
+    {
+      "path": "ui/en/gameplay/guide/ben_confirm.png",
+      "bytes": 35854,
+      "sha256": "30c3c1890ef34cfd7cc902a096ae748a26de709fff001ae361996c02a07c972b",
+      "beforeSha256": "132c62e03de639624cfe07813a3891d575f461ac91dc434aba87786c0a3899e4"
+    },
+    {
+      "path": "ui/en/gameplay/guide/ben_icon.png",
+      "bytes": 2685,
+      "sha256": "2c906540dd48cdb546b2594bae6c40546a47fc7f6b261ef82109113a7e0439da",
+      "beforeSha256": "c4e365b314b9dbc334fc214f2beae9e74381014a1be4e81b2e3cc1d5061bd7f5"
+    },
+    {
+      "path": "ui/en/gameplay/mission/guide-banners/ben.png",
+      "bytes": 34354,
+      "sha256": "8cc70aec4453e26390f11621a1c3d6577a4ae194de7396d99406fecf50ce2a2b",
+      "beforeSha256": "742bf44f3c0353d2b405a908775d5b643a09d4f7dbf227c3bdb7e8fbc9509088"
+    },
+    {
+      "path": "data/tables/npc_texture_overrides.json",
+      "bytes": 222795,
+      "sha256": "b5f506f132921c1478c822c9827bbbe3055518d86dab331e11d35c500ca8a82c",
+      "beforeSha256": "845332b51e8d4d19840bfb104bd13e3c337cbe94284725da2f2bcb5d606add34"
+    },
+    {
+      "path": "data/tables/table-set.json",
+      "bytes": 47424060,
+      "sha256": "7dd763df6b841932cda56405402d8a571c7b78604765afd789d9f671fd3eec3f",
+      "beforeSha256": "6897f79862fc18b6e9b9e83f4eee442b29c11b138d2beda6ffeda3286269ccd1"
+    }
+  ],
+  "npcRowChanges": [
+    {
+      "row": 137,
+      "name": "Fire Hydra",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 138,
+      "name": "Freakshow Fred",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 149,
+      "name": "Cogfish",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 152,
+      "name": "Tentakiller",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 153,
+      "name": "Squish Fish",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 157,
+      "name": "Jamcycle",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 158,
+      "name": "Motoro",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 229,
+      "name": "Pharaoh Freak",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 230,
+      "name": "Tar Tyrant",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 231,
+      "name": "Desert Bullfish",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 331,
+      "name": "Fire Hydra",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 332,
+      "name": "Freakshow Fred",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 343,
+      "name": "Cogfish",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 346,
+      "name": "Tentakiller",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 347,
+      "name": "Squish Fish",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 351,
+      "name": "Jamcycle",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 352,
+      "name": "Motoro",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 423,
+      "name": "Pharaoh Freak",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 424,
+      "name": "Tar Tyrant",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 425,
+      "name": "Desert Bullfish",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 525,
+      "name": "Blazing Hydra",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 526,
+      "name": "Freakshow Fred",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 537,
+      "name": "Cogfish",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 538,
+      "name": "Bullfish",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 539,
+      "name": "Ironjaw",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 540,
+      "name": "Tentakiller",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 541,
+      "name": "Squish Fish",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 545,
+      "name": "Jamcycle",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 546,
+      "name": "Motoro",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 547,
+      "name": "Roadblock Rhino",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 617,
+      "name": "Pharaoh Freak",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 618,
+      "name": "Tar Tyrant",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 619,
+      "name": "Desert Bullfish",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    },
+    {
+      "row": 701,
+      "name": "Dee Dee",
+      "m_iMesh": [
+        600,
+        16
+      ]
+    }
+  ],
+  "divergenceFromPrimary": "Owner-selected retention: these FFOne assets keep the clean Retrobution 20260613 appearance. The 20260821 primary revisions of the same routes, rows and textures are declined and must not be republished.",
+  "verification": [
+    {
+      "command": "retain-previous-build-assets.py identity checks",
+      "result": "passed",
+      "evidence": "every UI texture decodes to its declared PathID pixels; every model texture level is byte-identical to its declared native chain; NPC rows and mesh row match the raw previous XDT"
+    },
+    {
+      "command": "python tools/legacy-sources/retain-previous-build-assets.py --previous-build ../builds/retrobution-20260613 --work work/cases/previous-build-retention-20260912 --target-root ../FFOneClient/assets/game --receipt recipes/native/retention/previous-build-retention-20260912.receipt.json --apply",
+      "result": "passed; replay of the corrected declaration reports all ten outputs current and rewrote no bytes",
+      "evidence": "work/cases/previous-build-retention-20260912/plan.json"
+    },
+    {
+      "command": "native audit of the installed target",
+      "result": "passed",
+      "evidence": [
+        "all 36 retained NPC rows select npc_deedee; no NPC row selects npc_deedee2",
+        "table-set.json changed only m_iMesh 600 -> 16 on 34 rows and kept its CRLF serialization",
+        "npc_texture_overrides.json changed only npc_deedee; its sha256 matches the file",
+        "six unrelated override entries already mismatched their files at FFOne HEAD c88e460e9",
+        "all eight UI routes decode to the declared previous pixels",
+        "the FFOne diff is exactly the ten declared outputs"
+      ]
+    },
+    {
+      "command": "owner correction 2026-09-12: Fusion Dee Dee is not retained",
+      "result": "applied",
+      "evidence": "characters/fusions/fusion_deedee/fusion_deedee.glb restored from the tool backup to the 20260821 publication, sha256 18e65c8be61065667a8b7a52dcf165f2b399e663e43c1c60651a62ec77ba530d, identical to FFOne HEAD c88e460e9; the declaration lists no retained models"
+    }
+  ]
+}

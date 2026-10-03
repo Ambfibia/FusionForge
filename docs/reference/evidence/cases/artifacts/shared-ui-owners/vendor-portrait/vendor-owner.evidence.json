@@ -1,0 +1,137 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 1,
+    "name": "Vendor",
+    "pathId": 1324,
+    "rawBytes": 83,
+    "rawSha256": "fe15a10854bfec889af4896eaaf1bc33025924427a748997cabc649600aefecd",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "GameObject",
+    "typeId": 1,
+    "value": {
+      "m_Component": [
+        [
+          4,
+          {
+            "fileId": 0,
+            "pathId": 1226
+          }
+        ],
+        [
+          114,
+          {
+            "fileId": 0,
+            "pathId": 1409
+          }
+        ],
+        [
+          114,
+          {
+            "fileId": 0,
+            "pathId": 1410
+          }
+        ],
+        [
+          114,
+          {
+            "fileId": 0,
+            "pathId": 1411
+          }
+        ],
+        [
+          114,
+          {
+            "fileId": 0,
+            "pathId": 1412
+          }
+        ]
+      ],
+      "m_IsActive": 0,
+      "m_Layer": 0,
+      "m_Name": "Vendor",
+      "m_Tag": 0
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/m_Component/0/1",
+      "fileId": 0,
+      "pathId": 1226,
+      "status": "resolved",
+      "target": {
+        "pathId": 1226,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Transform"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Component/1/1",
+      "fileId": 0,
+      "pathId": 1409,
+      "status": "resolved",
+      "target": {
+        "pathId": 1409,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Component/2/1",
+      "fileId": 0,
+      "pathId": 1410,
+      "status": "resolved",
+      "target": {
+        "pathId": 1410,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Component/3/1",
+      "fileId": 0,
+      "pathId": 1411,
+      "status": "resolved",
+      "target": {
+        "pathId": 1411,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Component/4/1",
+      "fileId": 0,
+      "pathId": 1412,
+      "status": "resolved",
+      "target": {
+        "pathId": 1412,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "schema": "ffone.logical-model-fixture.v1",
+  "sourceBuild": "retrobution-20260613",
+  "rule": "Container identity is (asset/fileID,pathID). Never resolve or merge models by fuzzy filename tokens.",
+  "models": [
+    {
+      "containerRoute": "mob/npc_dexter.kfm",
+      "sourceBundle": "CharacterCreation.resourceFile",
+      "containerObject": { "fileID": 0, "pathID": 943 },
+      "logicalName": "npc_dexter",
+      "outputFilename": "npc_dexter.glb",
+      "logicalRoots": 1,
+      "hierarchyNodes": 68,
+      "meshes": [
+        {
+          "name": "Editable Mesh",
+          "component": "SkinnedMeshRenderer",
+          "vertices": 1812,
+          "indices": 6660,
+          "joints": 60,
+          "material": "npc_dexter-main-link_a.dds"
+        },
+        {
+          "name": "Editable Mesh1",
+          "component": "MeshFilter",
+          "vertices": 8,
+          "indices": 12,
+          "material": "npc_dexter-glass-npc_dexter_glass.dds"
+        }
+      ],
+      "skeletonJoints": 65,
+      "animations": 22,
+      "animationEvents": 24,
+      "animationTracks": { "cubicSpline": 1404, "linear": 1234 },
+      "animationKeys": 19438,
+      "materials": 2,
+      "knownTextures": [
+        {
+          "name": "npc_dexter",
+          "width": 256,
+          "height": 256,
+          "format": "DXT1",
+          "mips": 1,
+          "decodedPngSha256": "4CE3B66E81FDC0DFB3C1164217F972FC82921322BDCC66E39D1895ED8606C89A"
+        },
+        {
+          "name": "ToonRamp9.bmp",
+          "width": 256,
+          "height": 1,
+          "format": "RGB24",
+          "mips": 1,
+          "decodedPngSha256": "5CEA554B1C9F36F0FB0C680D6CDB2160F09F822774627DF5985995295C67DB89"
+        },
+        {
+          "name": "npc_dexter_glass.dds",
+          "width": 32,
+          "height": 32,
+          "format": "DXT5",
+          "mips": 6,
+          "decodedPngSha256": "F475B08C702A691C6F2B7046EB365E3D1D09446AC2B67293D34D12D34682CD88"
+        }
+      ],
+      "warnings": 0
+    },
+    {
+      "containerRoute": "mob/fusion_dexter.kfm",
+      "sourceBundle": "World_shared_part5.resourceFile",
+      "containerObject": { "fileID": 0, "pathID": 12719 },
+      "logicalName": "fusion_dexter",
+      "outputFilename": "fusion_dexter.glb",
+      "logicalRoots": 1,
+      "hierarchyNodes": 80,
+      "meshes": [
+        {
+          "name": "NPC_Dexter:0",
+          "component": "SkinnedMeshRenderer",
+          "vertices": 1646,
+          "indices": 5946,
+          "joints": 54,
+          "material": "fusion_dexter-main-link_a.dds"
+        },
+        {
+          "name": "NPC_Dexter:1",
+          "component": "SkinnedMeshRenderer",
+          "vertices": 8,
+          "indices": 12,
+          "joints": 1,
+          "material": "fusion_dexter_glass"
+        },
+        {
+          "name": "NPC_Dexter:2",
+          "component": "SkinnedMeshRenderer",
+          "vertices": 166,
+          "indices": 714,
+          "joints": 8,
+          "material": "fusion_dexter-sub-link_b.dds"
+        },
+        {
+          "name": "Editable Mesh",
+          "component": "MeshFilter",
+          "vertices": 352,
+          "indices": 1020,
+          "material": "fusion_dexter-weapon-melee_valerionssword.dds",
+          "attachment": "sword_clawarm"
+        },
+        {
+          "name": "PolyMesh",
+          "component": "MeshFilter",
+          "vertices": 8,
+          "indices": 12,
+          "material": "spwaneye",
+          "attachment": "eye01"
+        }
+      ],
+      "skeletonJoints": 75,
+      "animations": 19,
+      "animationEvents": 38,
+      "animationTracks": { "cubicSpline": 1239, "linear": 1088 },
+      "animationKeys": 9585,
+      "materials": 5,
+      "knownTextures": [
+        { "name": "melee_valerionssword.dds", "width": 256, "height": 256, "format": "DXT1", "mips": 1 },
+        { "name": "spwaneye.dds", "width": 64, "height": 256, "format": "ARGB32", "mips": 9 },
+        { "name": "bubble2.dds", "width": 256, "height": 256, "format": "ARGB32", "mips": 9 },
+        { "name": "fusionlight.DDS", "width": 128, "height": 128, "format": "ARGB32", "mips": 8 },
+        { "name": "ToonRamp9.bmp", "width": 256, "height": 1, "format": "RGB24", "mips": 1 },
+        { "name": "fusion_dexter", "width": 256, "height": 256, "format": "DXT1", "mips": 1 },
+        { "name": "fusion_dexter_glass.dds", "width": 64, "height": 64, "format": "ARGB32", "mips": 7 }
+      ],
+      "warnings": 0
+    }
+  ],
+  "forbidden": [
+    "Publishing npc_dexter and fusion_dexter as one model",
+    "Publishing Mesh objects as standalone hash or PathID filenames",
+    "Dropping sword_clawarm or eye01 from fusion_dexter",
+    "Dropping JOINTS_0, WEIGHTS_0, inverse bind matrices, clips, Hermite tangents or events",
+    "Resizing source textures during decode",
+    "Replacing an exact source m_Name with a slug, transliteration, hash or PathID",
+    "Inventing tangent, color or extra UV channels absent from the source mesh"
+  ]
+}

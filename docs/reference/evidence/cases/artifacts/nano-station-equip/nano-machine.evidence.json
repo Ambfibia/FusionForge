@@ -1,0 +1,218 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 114,
+    "name": "",
+    "pathId": 1420,
+    "rawBytes": 120,
+    "rawSha256": "e42020f86b7d42ed222fd74963cb59cc55612cc04c430b0bfc82a1e280a536da",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "MonoBehaviour",
+    "typeId": -25,
+    "value": {
+      "InvenMode": 0,
+      "NanoSkin": {
+        "fileId": 0,
+        "pathId": 1379
+      },
+      "PopupWindowType": 0,
+      "avatarstatus": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "bGUIEnabled": 1,
+      "bShowPopupWindow": 0,
+      "basestatus": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "m_Enabled": true,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 1338
+      },
+      "m_Name": "",
+      "m_Script": {
+        "fileId": 0,
+        "pathId": 1141
+      },
+      "myuser": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "ownstatus": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "texGaugeFM": {
+        "fileId": 0,
+        "pathId": 661
+      },
+      "texGaugeItem": {
+        "fileId": 0,
+        "pathId": 593
+      },
+      "texNanoPopupBG": {
+        "fileId": 0,
+        "pathId": 677
+      },
+      "texNanoPupupEquippedBG": {
+        "fileId": 0,
+        "pathId": 609
+      },
+      "texNextNanoPopupBG": {
+        "fileId": 0,
+        "pathId": 552
+      }
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/NanoSkin",
+      "fileId": 0,
+      "pathId": 1379,
+      "status": "resolved",
+      "target": {
+        "pathId": 1379,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/avatarstatus",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/basestatus",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 1338,
+      "status": "resolved",
+      "target": {
+        "pathId": 1338,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Script",
+      "fileId": 0,
+      "pathId": 1141,
+      "status": "resolved",
+      "target": {
+        "pathId": 1141,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoScript"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/myuser",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/ownstatus",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/texGaugeFM",
+      "fileId": 0,
+      "pathId": 661,
+      "status": "resolved",
+      "target": {
+        "pathId": 661,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/texGaugeItem",
+      "fileId": 0,
+      "pathId": 593,
+      "status": "resolved",
+      "target": {
+        "pathId": 593,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/texNanoPopupBG",
+      "fileId": 0,
+      "pathId": 677,
+      "status": "resolved",
+      "target": {
+        "pathId": 677,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/texNanoPupupEquippedBG",
+      "fileId": 0,
+      "pathId": 609,
+      "status": "resolved",
+      "target": {
+        "pathId": 609,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/texNextNanoPopupBG",
+      "fileId": 0,
+      "pathId": 552,
+      "status": "resolved",
+      "target": {
+        "pathId": 552,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "nanomachine-collision-front-faces-20260910",
+  "status": "accepted",
+  "supersedes": [
+    "nanomachine-collision-20260904"
+  ],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "World_shared_part5.resourceFile",
+    "containerBytes": 23289685,
+    "containerSha256": "29b0b4c238077a36dd8f328e54ef8d9cd6bd3720a74f0a9faaa3b66c15459fb1",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-bf22cf134e84044c18d80e6c70a99425",
+        "type": "GameObject",
+        "pathId": 14896,
+        "fileId": 0,
+        "containerRoute": "mob/nanomachine.kfm",
+        "trueName": "Editable Mesh"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-bf22cf134e84044c18d80e6c70a99425",
+        "type": "MeshCollider",
+        "pathId": 19431,
+        "fileId": 0,
+        "containerRoute": "mob/nanomachine.kfm",
+        "trueName": null
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-bf22cf134e84044c18d80e6c70a99425",
+        "type": "Mesh",
+        "pathId": 354,
+        "fileId": 0,
+        "containerRoute": "mob/nanomachine.kfm",
+        "trueName": "Editable Mesh"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "collision-reflection-front-face-repair",
+    "tool": "tools/native/publish-nanomachine-collision.py",
+    "toolRevision": "sha256:1e3767e2c324f049cb46fee256254f6a2949ab82b74c15157bf42bfaf5f32bc2",
+    "workingDirectory": ".",
+    "commands": [
+      "work/build/debug/fusionforge.exe dump-object-evidence primary ../builds/retrobution-20260821 World_shared_part5.resourceFile 354 --serialized-asset CustomAssetBundle-bf22cf134e84044c18d80e6c70a99425 --type Mesh --out work/cases/nanomachine-collision-20260910/mesh.evidence.json",
+      "work/build/debug/fusionforge.exe dump-object-evidence primary ../builds/retrobution-20260821 World_shared_part5.resourceFile 19431 --serialized-asset CustomAssetBundle-bf22cf134e84044c18d80e6c70a99425 --type MeshCollider --out work/cases/nanomachine-collision-20260910/collider.evidence.json",
+      "python tools/native/publish-nanomachine-collision.py --mesh-evidence work/cases/nanomachine-collision-20260910/mesh.evidence.json --collider-evidence work/cases/nanomachine-collision-20260910/collider.evidence.json --stage work/cases/nanomachine-collision-20260910/staged --target-root ../FFOneClient/assets/game --apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/cases/nanomachine-collision-20260910/mesh.evidence.json",
+      "bytes": 29535,
+      "sha256": "6417be13de144305e48a9e84bba93b769041b46380630bf17a36323fd34e7244"
+    },
+    {
+      "path": "work/cases/nanomachine-collision-20260910/collider.evidence.json",
+      "bytes": 3109,
+      "sha256": "96786f82bfacee80255613b93a223b92fe83aa4ab56e4255d3c53a6b0dfecd63"
+    },
+    {
+      "path": "tools/legacy-sources/build-character-collision-glb.py",
+      "bytes": 9219,
+      "sha256": "4a1ea5c698ddb36a7ef9de62813959dac1625b96a5d8536630f8426c8faaf66f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "characters/npcs/nanomachine/Nanomachine.collision.glb",
+      "bytes": 7256,
+      "sha256": "32e0eed45175c3174be9133a22b6a1896689161ed14ff72d65aa498d909207b1"
+    },
+    {
+      "path": "characters/npcs/nanomachine/Nanomachine.collision.json",
+      "bytes": 657,
+      "sha256": "dee83afddc6734452a18d36833f312236057a7e815e97ccfe2de58a6c7254d4a"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "python tools/native/publish-nanomachine-collision.py --mesh-evidence work/cases/nanomachine-collision-20260910/mesh.evidence.json --collider-evidence work/cases/nanomachine-collision-20260910/collider.evidence.json --stage work/cases/nanomachine-collision-20260910/staged --target-root ../FFOneClient/assets/game --apply",
+      "result": "passed",
+      "evidence": "work/cases/nanomachine-collision-20260910/staged/geometry-verification.json: two byte-identical replays, 332 unchanged vertices, 394 unchanged triangle memberships; compensated reflection changes signed volume from -2.860365629600397 to +2.860365629600397."
+    },
+    {
+      "command": "cargo test -p ffone-client --lib production_nano_stations_bind_exact_native_collision",
+      "result": "passed: 1 passed, 0 failed",
+      "evidence": "Production native catalog and both visual/collider BLAKE3 bindings validate after publication."
+    },
+    {
+      "command": "cargo test -p ffone-client --lib nanomachine_top_stops_a_falling_capsule",
+      "result": "passed: 1 passed, 0 failed",
+      "evidence": "Nine downward capsule sweeps, 32 radial approaches and an inward-winding negative control."
+    },
+    {
+      "command": "cargo build -p ffone-client --bin ffone-client --locked",
+      "result": "passed",
+      "evidence": "Real development binary built successfully with cargo build -p ffone-client --bin ffone-client --locked. Existing warnings in gameplay_audio/nano.rs and app/mod.rs are outside this repair."
+    },
+    {
+      "command": "../FFOneClient/target/debug/deps/ffone_client-735e7cd1cecfebb2.exe slider_idle_rider_keeps_support_and_publishes_route_positions --nocapture",
+      "result": "passed: 1 passed, 0 failed",
+      "evidence": "600 frames on the production Slider collider, varying route translation and height; support retained and periodic STOP packets carry the resolved world position."
+    },
+    {
+      "command": "../FFOneClient/target/debug/deps/ffone_client-735e7cd1cecfebb2.exe movement::tests --nocapture",
+      "result": "passed: 32 passed, 0 failed",
+      "evidence": "Includes pending platform motion across packet intervals, no idle duplicate and authoritative-teleport reset."
+    },
+    {
+      "command": "../FFOneClient/target/debug/deps/ffone_client-735e7cd1cecfebb2.exe network_world_runtime::transportation::tests --nocapture",
+      "result": "passed: 8 passed, 0 failed",
+      "evidence": "Authored Slider asset hashes, collision counts, animation binding and facing remain valid."
+    },
+    {
+      "command": "native focused verification suite",
+      "result": "passed: 46 tests, 0 failed",
+      "evidence": "32 movement tests, 8 Slider contract tests, 3 support/transform tests, 1 production Nanomachine catalog test, 1 Nanomachine capsule sweep test and 1 600-frame Slider ride test. No live-server visual session was run."
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "zipline-trolley-primary-20260907",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "CharacterSelection.resourceFile",
+    "containerBytes": 16737641,
+    "containerSha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "GameObject",
+        "pathId": 147411,
+        "fileId": 0,
+        "containerRoute": "wear/pistol_trolley.nif",
+        "trueName": "pistol_trolley"
+      }
+    ],
+    "dependencies": [
+      {
+        "relativeContainer": "CharacterCreation.resourceFile",
+        "containerBytes": 14379095,
+        "containerSha256": "18b40ba54e4840beb768a9aec03fff8d66dfac82ca4171c5d1b5701775126666",
+        "serializedAsset": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+        "type": "Texture2D",
+        "pathId": 53
+      },
+      {
+        "relativeContainer": "NpcTexture.resourceFile",
+        "containerBytes": 15239269,
+        "containerSha256": "95504fa80830d2c54540e576a44707096b746d761448d086e294a6f1cd0dc171",
+        "serializedAsset": "CustomAssetBundle-d304c52c4bae348e38c743762c1bd818",
+        "type": "Texture2D",
+        "pathId": 407
+      }
+    ]
+  },
+  "transform": {
+    "kind": "exact-logical-model-publication",
+    "tool": "FusionForge + ffone-asset-pipeline + tools/native/publish-traversal-trolley.ps1",
+    "toolRevision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+    "workingDirectory": ".",
+    "commands": [
+      "powershell -File tools/native/publish-traversal-trolley.ps1 -SourceRoot ../builds/retrobution-20260821 -NavigationRoot work/projects/retrobution-ui-20260821.ffclient -WorkRoot work/cases/traversal-trolley-replay-20260907 -TargetRoot ../FFOneClient/assets/game -Apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/cases/traversal-attachments-20260907/pistol_trolley.source.json",
+      "bytes": 310317,
+      "sha256": "311ee28ce26966cf7723a34d92c3116781e3ff5a4e3787e43c276a133b76c5c8"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/assembly.evidence.json",
+      "bytes": 1348,
+      "sha256": "384ac294e816a01806d42caab57cbc6bdade05eb0f613b6cae4faa6f8308b4ab"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/firstpass.evidence.json",
+      "bytes": 1409,
+      "sha256": "f136701d13be4a87bdddee372c5120cb1b210471f42160b2ab4647368e516e16"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/trolley-owner.json",
+      "bytes": 3081,
+      "sha256": "afaf643e706334bf43f8fa2054473cd02d1e97f18cb7f28b0f73dfe12d00f709"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/decompiled/cnAvatarAnimation.decompiled.cs",
+      "bytes": 60562,
+      "sha256": "9a55ea01bfee3f7a88bdf18636a9f14a7ea6837d25a781955734b1c230994a40"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/decompiled/cnAvatarStatus.decompiled.cs",
+      "bytes": 51430,
+      "sha256": "684752e07acaffb12dcf964a2b3f5f1f91a4c9aa6e8e70c1e04aa4bddfe1cb86"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/decompiled/ActorSkinCombiner.decompiled.cs",
+      "bytes": 15564,
+      "sha256": "30d45ba1c429da353112d88eca3e6b0e0b471ee9d5a90955aa9b9269ac41230c"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/gpu/models/traversal/pistol_trolley.gpu.json",
+      "bytes": 1280,
+      "sha256": "90c51f7ee3eb2d4895e8bf49f3d6b061b7a892b4b163e8dcd1cce3b3dc38c907"
+    },
+    {
+      "path": "tools/native/publish-traversal-trolley.ps1",
+      "bytes": 2835,
+      "sha256": "2060d532031cab22f2793fe34ff7dde45dc9b69c3eec4eb711b9eb2ae284f5a7"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/skyway-player.png",
+      "bytes": 71752,
+      "sha256": "743510f2846dc3e9098982269425311cc23818b83265670a28c3442813ffffd1"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/skyway-player.log",
+      "bytes": 790,
+      "sha256": "1a963a51ebd720265799ce6277522329b289fa5d5d114bb6b8eb241927bf28f8"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/zipline-player.png",
+      "bytes": 91210,
+      "sha256": "ac6ae8aa7cb3395c4897f727894bf34d45deb6cb5a5c930eabdd5003e5bff5c7"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/zipline-player.log",
+      "bytes": 790,
+      "sha256": "656b46c428e8cd52dc509d8808164307ede8b4dfb2a5496510e528c64ca9dd96"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/skyway-short-player.png",
+      "bytes": 71628,
+      "sha256": "2d8a7a7855f8db5e2fdeba506e2ba67bb7ec5d91d1a22c9f6a4a3ecda1a0fa49"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/skyway-short-player.log",
+      "bytes": 796,
+      "sha256": "acbb9579adab04850ae5f0c68966eae3c2f58b34f01414d307220f26c922faca"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/native-socket-scales.json",
+      "bytes": 841,
+      "sha256": "0d7c1e4f31f1d9a4ae1291761dc92a06e94b868d3b5a55fc79635615bd049bc6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/game/characters/player/traversal/pistol_trolley/pistol_trolley.glb",
+      "bytes": 35528,
+      "sha256": "507b5fdc72b985fa80fcaa5528d3fb39d16bc3cefdfeb2fa61d57e2ce79422c5"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-01.png",
+      "bytes": 18736,
+      "sha256": "f65b1170fdf29dc7814ae04fe4e2b948edc7e97938bf1d8af882e8088e32c472"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-02.png",
+      "bytes": 6269,
+      "sha256": "c77386e1e4ec136893b9f095ccaa5501281622b390436011840c0abc05e59e61"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-03.png",
+      "bytes": 2094,
+      "sha256": "4838179b4597bc832f7b237c5978a306d367a90db90bb267dd6240ae935ac5fe"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-04.png",
+      "bytes": 643,
+      "sha256": "68c723701cd57a4b6f72da8a571ccdced73025897c654bbef411400a2f7ea9b5"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-05.png",
+      "bytes": 269,
+      "sha256": "18386bd4514c650e44ed45cdf0207ca81eb08c15fe4e0723d48a459ba1c2acc0"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-06.png",
+      "bytes": 136,
+      "sha256": "04a681e9fe3ba5679a1d53d4fb8d8c0e3589b1d5cc14821dfdc5cfba74303110"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-07.png",
+      "bytes": 86,
+      "sha256": "455e49ead67b935a7f977551481a202d14bf3b375ebfd20b166d14ade5e5d59a"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-08.png",
+      "bytes": 73,
+      "sha256": "3f1142e18a892e7ca9e3c1b602ec3d5ce1810ae7643542e79f0b4d2d4902b56b"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.png",
+      "bytes": 47334,
+      "sha256": "85c3d520b2f253372e7a6ef00ae7d8ea5ebbe07259233af9af6b2cdedadf2379"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/pistol_trolley/pistol_trolley.textures/ToonRamp9.png",
+      "bytes": 142,
+      "sha256": "5cea554b1c9f36f0fb0c680d6cdb2160f09f822774627df5985995295c67db89"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "ffone-asset-pipeline publish-logical-model pistol_trolley.source.json traversal <fresh-candidate>; repeat into <fresh-replay>; compare every GLB/PNG byte",
+      "result": "passed: 11 identical native files",
+      "evidence": "work/cases/traversal-attachments-20260907/replay"
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/cases/traversal-attachments-20260907/candidate --model models/traversal/pistol_trolley.glb --evidence-root work/cases/traversal-attachments-20260907/gpu --outline source --frames 120 --timeout 30",
+      "result": "passed: 1 mesh, 1 material, 9 mip levels, zero material/shader errors; native image inspected",
+      "evidence": "work/cases/traversal-attachments-20260907/gpu/models/traversal/pistol_trolley.gpu.json"
+    },
+    {
+      "command": "cargo test -p ffone-client --lib traversal -- --nocapture; ffone_client test binary skyway_attachment --nocapture",
+      "result": "passed: 9 focused tests",
+      "evidence": null
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/tutorial_player_rig_gpu_preview.exe ../FFOneClient/assets/game work/cases/traversal-attachments-20260907/skyway-player.png 2 1 0 skyway",
+      "result": "passed: production animated pose, native screenshot visually inspected, attachment removed after dismount",
+      "evidence": "work/cases/traversal-attachments-20260907/skyway-player.log"
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/tutorial_player_rig_gpu_preview.exe ../FFOneClient/assets/game work/cases/traversal-attachments-20260907/zipline-player.png 2 1 0 zipline",
+      "result": "passed: production animated pose, native screenshot visually inspected, attachment removed after dismount",
+      "evidence": "work/cases/traversal-attachments-20260907/zipline-player.log"
+    },
+    {
+      "command": "CARGO_INCREMENTAL=0 cargo build -p ffone-client --bin ffone-client --example tutorial_player_rig_gpu_preview",
+      "result": "passed; retry without incremental cache after undefined LLVM symbols in an earlier cached library",
+      "evidence": "../FFOneClient/target/performance/traversal-build.log"
+    },
+    {
+      "command": "ffone_client unit-test binary tutorial_player_rig_runtime::tests --test-threads=1",
+      "result": "passed: 24 tests",
+      "evidence": null
+    },
+    {
+      "command": "../FFOneClient/target/debug/xtask.exe assets",
+      "result": "passed: 5 domains, 43684 references",
+      "evidence": null
+    }
+  ]
+}

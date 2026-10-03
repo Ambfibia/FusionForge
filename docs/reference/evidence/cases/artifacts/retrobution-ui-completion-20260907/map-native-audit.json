@@ -1,0 +1,713 @@
+[
+  {
+    "path": "ui/character/creation/layout/CCLeftIn3BG.png",
+    "bytes": 790,
+    "sha256": "c6efa25b04bdd536ca630ecbf5977abacc1307506e5a0992514178b91ba035a6",
+    "size": [
+      30,
+      35
+    ]
+  },
+  {
+    "path": "ui/world-map/backdrop.png",
+    "bytes": 1249122,
+    "sha256": "fb9c6c8a4b8313766364ff3398070b35d8a4137f511accc4ddaaea91bd0162f1",
+    "size": [
+      1920,
+      1440
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/NanoMachineHelpButton.png",
+    "bytes": 1159,
+    "sha256": "2695dafc3747dc2d1e7f78ef0cbd1a0cdfef1e4fdc1f00f2c45e1d8c690d6591",
+    "size": [
+      32,
+      32
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/NanoMachineHelpButtonOver.png",
+    "bytes": 1346,
+    "sha256": "dc8a67ad7dbb73606ff6312c1307515e151ff7d2558ee66356d91bd7311f1551",
+    "size": [
+      32,
+      32
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/close.png",
+    "bytes": 2055,
+    "sha256": "5f5f6bfce0bf796d802714ea75ff49bebf21bb536674143bbcb925a0bd57929d",
+    "size": [
+      32,
+      33
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/closeover.png",
+    "bytes": 1588,
+    "sha256": "cbbc0520c3ada6ab47311caacf342fa7fb7f0f062279f8793bf2a392a89bee1d",
+    "size": [
+      32,
+      33
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/dn_n.png",
+    "bytes": 2015,
+    "sha256": "f947bde18142a3688df5c3a7dc2002100d86a5b07beea8b2b997d546000f46da",
+    "size": [
+      40,
+      37
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/dn_o.png",
+    "bytes": 1762,
+    "sha256": "91e64361a5b20f540f16987615b7c792935adf10bbedcef2b424e53225cf36e7",
+    "size": [
+      40,
+      37
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/lt_n.png",
+    "bytes": 2114,
+    "sha256": "07120e6a909b7edcda6f1fa173dde8deab9149572f006c8e563ade1c208d8e21",
+    "size": [
+      37,
+      40
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/lt_o.png",
+    "bytes": 1901,
+    "sha256": "db9a21e6806d0e8c04de0960471ac3a339fe24ebfb97405e8968fd5273be1733",
+    "size": [
+      37,
+      40
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/rt_n.png",
+    "bytes": 2128,
+    "sha256": "c3efba31ac8f2e54c3cb02c2b76f8e7c377f78d02084c0aa55a38115138538dd",
+    "size": [
+      38,
+      41
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/rt_o.png",
+    "bytes": 1846,
+    "sha256": "2c0ceb51ad3412b5dca3849344ddd4fd915c0ab5f4cdbee321f90ef2833da0ca",
+    "size": [
+      38,
+      41
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/up_n.png",
+    "bytes": 1998,
+    "sha256": "6f3534269dc8303302bdf8750dfc37ca90eaca94d244d28a72546af39944598d",
+    "size": [
+      40,
+      37
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/up_o.png",
+    "bytes": 1756,
+    "sha256": "93137d4e7eaf231cb2f535c4fc29c7c726f168d28048e51ae50a4a7e2a101612",
+    "size": [
+      40,
+      37
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/view_but.png",
+    "bytes": 501,
+    "sha256": "b55743ae5d20c95845d6f9533bdbe40bb8d7441ca2d1a98743da46554d86164c",
+    "size": [
+      20,
+      18
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/view_but_off.png",
+    "bytes": 472,
+    "sha256": "e5b3d1236c2d2bbb082cb1e463f54a81af5ffcc523bd1d9e0cecb093e2e8f6d7",
+    "size": [
+      20,
+      18
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/zoom_bar.png",
+    "bytes": 231,
+    "sha256": "a3898cd3e6667e17f716c695a2344a2508674bf6963491c39dd833af92841187",
+    "size": [
+      7,
+      11
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/zoom_in_n.png",
+    "bytes": 1535,
+    "sha256": "0c2de6a4da56ae9aba01e524180b412d908a8c23ccf452e65212aa20cf45cb25",
+    "size": [
+      26,
+      26
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/zoom_in_over.png",
+    "bytes": 1043,
+    "sha256": "1e49491fad1fb8694e38cedef737a0340e3a5b48efe3cdfe6a23400a12f4b53b",
+    "size": [
+      26,
+      26
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/zoom_n.png",
+    "bytes": 370,
+    "sha256": "3f97330afd3c1ba3f76bd99549bf512bdd80cc447f16621c3ffd77d4acec6c78",
+    "size": [
+      20,
+      7
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/zoom_out_n.png",
+    "bytes": 1565,
+    "sha256": "8388e55b0a9b9c29d23e32b4f96ca4ce8d0a25dda1aaa03ac7e752556b9d4ee3",
+    "size": [
+      26,
+      26
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/zoom_out_over.png",
+    "bytes": 945,
+    "sha256": "3dfc72b171c70535300c04e2729f1a385bef8297089befda6cd08642466f75a7",
+    "size": [
+      26,
+      26
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/zoom_over.png",
+    "bytes": 183,
+    "sha256": "1b0e24da7189ff3b92b5e69014ee31d0e5b38be32bba005df7055c15d9906705",
+    "size": [
+      20,
+      7
+    ]
+  },
+  {
+    "path": "ui/world-map/controls/zoom_select.png",
+    "bytes": 196,
+    "sha256": "a3d16e3bdb6f67c88f1dc3d84f59e833b71788819e9ad3cd4a4bd47d46f54761",
+    "size": [
+      20,
+      7
+    ]
+  },
+  {
+    "path": "ui/world-map/filters/filter-arrow.png",
+    "bytes": 489,
+    "sha256": "03f1dcf0848a6880808a087c9794db4cbc6757233a5d1c9b5f434b894901e219",
+    "size": [
+      13,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/frame.png",
+    "bytes": 38875,
+    "sha256": "dc72af7bda7610ee3e52addad38c2a17b4bae04ad89c800fdd6c830e26665644",
+    "size": [
+      959,
+      632
+    ]
+  },
+  {
+    "path": "ui/world-map/maps/darkland_001.png",
+    "bytes": 345506,
+    "sha256": "f3aec2d9d2b17ed7cc91d9cf31d42f8792cbf277e2f34be394fb8458c9a1db23",
+    "size": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "path": "ui/world-map/maps/darkland_002.png",
+    "bytes": 347252,
+    "sha256": "ad2228e5be852d83136a9dc24af194b8d4185807e49fbd79ac980b38edfb288e",
+    "size": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "path": "ui/world-map/maps/freezone_001.png",
+    "bytes": 991269,
+    "sha256": "ca08082653726459a7974b99f65d36f441f230666f43c7eb512be1460654dbe9",
+    "size": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "path": "ui/world-map/maps/freezone_002.png",
+    "bytes": 975992,
+    "sha256": "dad8a436e651b7de300de073fbc027a149ed39fb216e44868ce793324490bc23",
+    "size": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "path": "ui/world-map/maps/payzone_001.png",
+    "bytes": 562344,
+    "sha256": "7845598c306b0d0f620ae6d57f2ed0ac71bd78df9ea0eb9c7b0ef5a954db85c6",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "path": "ui/world-map/maps/payzone_002.png",
+    "bytes": 556514,
+    "sha256": "79bfd1370467a238c9f424b1668e1399772e3d27cc25819b93b855b30edacc57",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "path": "ui/world-map/maps/payzone_003.png",
+    "bytes": 1756008,
+    "sha256": "e8371aa15b4943618ec229a5857801ee6d0e6eef46a98a2610f2bb5602d8613b",
+    "size": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "path": "ui/world-map/maps/payzone_004.png",
+    "bytes": 1722289,
+    "sha256": "5f9c58f51a283a72381d9f0b2e41951aa9894a742f1a2d8070bd2e58792a9e72",
+    "size": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_00.png",
+    "bytes": 823,
+    "sha256": "49f27f04c9130ccfdd2e7c9a1289068aa1b43be903d4f2deb9056df8466dc949",
+    "size": [
+      18,
+      18
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_01.png",
+    "bytes": 657,
+    "sha256": "5abadc1c8a8c96398be2270434c857088ee14cca09e1e31aa68b2732ff206e3a",
+    "size": [
+      32,
+      32
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_02.png",
+    "bytes": 630,
+    "sha256": "ce6e1723b798a39a62b338fa038439db6af493d84d7b93124dfe48b0b5bb8a43",
+    "size": [
+      17,
+      17
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_03.png",
+    "bytes": 623,
+    "sha256": "343ac902975ca0f76f50b9f8d4b4fe0310568178d21cfc16ae0964e4dec0c444",
+    "size": [
+      17,
+      17
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_04.png",
+    "bytes": 588,
+    "sha256": "239a603ebb1ce27b05f61705b719f0148a446d9bbc190aaf25acd87c02f89628",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_05.png",
+    "bytes": 386,
+    "sha256": "e01bb09c1df8002bbb9954831857787b031ae3a19184a567e9efdbff78a2bd20",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_06.png",
+    "bytes": 430,
+    "sha256": "af6115fe898c49cf6ca471faeade7baad9bb99803a12dc0b198d3f4991366a5a",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_07.png",
+    "bytes": 497,
+    "sha256": "776c824b4d4a3689cb224d8c61d8fa798b257f771e231824ed4d383fafb9d4a6",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_08.png",
+    "bytes": 572,
+    "sha256": "4accaf0c083304e5dfe7a8a69587ab757f5d128d17a8f8e3ac3156c744874042",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_09.png",
+    "bytes": 424,
+    "sha256": "2ef4f86ae45075f763038c7e2076866d560a906003faa8502f0d403b1f7d0bbb",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_10.png",
+    "bytes": 535,
+    "sha256": "663da5a28e3fb0d406e6ced791bf2ba430b05447eeba3ce6ba0283588c856465",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_11.png",
+    "bytes": 606,
+    "sha256": "23f23d4b71718ec9b36245cdda1920635904528961c924ebda6f5c892e960e06",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_12.png",
+    "bytes": 768,
+    "sha256": "6d2eb647dea992f6e22b6bc5d7372d489624a902d8fbb0e6f91c514458c1fd3f",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_13.png",
+    "bytes": 649,
+    "sha256": "d7e71ff72500d2e69c628b654f97bf842a11f91ca8c7a6af1e80f023b1e488fc",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_14.png",
+    "bytes": 678,
+    "sha256": "75c5ed4d594b71d34ff9cf76d4270585084f25e90462c3d2e68e0efbd18d1c03",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_15.png",
+    "bytes": 423,
+    "sha256": "9da9e8acc9869b48798a01682bd388daf44f50c07348c0215887a31fc0db6b6c",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_16.png",
+    "bytes": 605,
+    "sha256": "4edf211e5c1575153e7605c717db72f7f615a40b6222d04f39c111fd2b29caf5",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_17.png",
+    "bytes": 470,
+    "sha256": "eb3de3bccd399a82918c1f14ca21a56b8f6621b508b9b3da31161438fc4a5da2",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_18.png",
+    "bytes": 512,
+    "sha256": "172994e119c71de84afd584e2fbb407ea60350441aea4fa86bbedf7e0f1c190b",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_19.png",
+    "bytes": 554,
+    "sha256": "1ea8c16dcfc3500f1670761c3487eb9b18bc999628d9b40d9534471a0845ac59",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_20.png",
+    "bytes": 563,
+    "sha256": "cb4c2893acb7f98c03ce5c1cdfc958a8a6d5eaa3bd33ffce041988d0cf6fe3b3",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_21.png",
+    "bytes": 708,
+    "sha256": "552aebca361ef57c9fd42afaff49531601a94a0cb789f85cb40978edcfe94691",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_22.png",
+    "bytes": 509,
+    "sha256": "616dc832007cd2b745b5b28bd8c1d124c36447dd8514444d96bc0d30ad9bfa14",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_23.png",
+    "bytes": 557,
+    "sha256": "a0725b5c90ecb64fd30a0eaa3713a67c2d03f947da91fdb9b239e742025ec7aa",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_24.png",
+    "bytes": 607,
+    "sha256": "30754cd24c965f413dbe19b0d6de3c7a6cfd38df78416525ca1417759cb2f387",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_25.png",
+    "bytes": 594,
+    "sha256": "c7e3fc52adc23751aed15a3fdb03e717519cd8796ce5c91af53c179be3c00472",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_25_active.png",
+    "bytes": 1623,
+    "sha256": "debb125326cfa4f9fb74b3b42dd4a085298a51a7cfac8bd33479471ba9f6ae7d",
+    "size": [
+      28,
+      28
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_26.png",
+    "bytes": 500,
+    "sha256": "225118fbd875085ce0542f9995ab6c2d716c47a5f2d29cc3f946e046ab9b696a",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_27.png",
+    "bytes": 679,
+    "sha256": "f75b4524cdefd6eaa6de6e6a1e328a2e1e17da93473959e388cf8d2d7da731cf",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_30.png",
+    "bytes": 745,
+    "sha256": "b2192501f34dbae6288dec29e394e80a9839fa6fd2f781903846dca601cdb0f7",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_31.png",
+    "bytes": 712,
+    "sha256": "89bb07baf81a10fb538923ba6632c30d00c739f1c165a992dff4d69f8875cfa0",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_32.png",
+    "bytes": 602,
+    "sha256": "69f641304be35fbe0b9da529ab0871bf8d7d2c35f1c7161221fd17f888ede049",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_33.png",
+    "bytes": 669,
+    "sha256": "521f1a917587086d1391f6a94645f9740b6eb6364dbf70dbfa6c147a5de8bd9f",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/map_icon_woosh.png",
+    "bytes": 324,
+    "sha256": "914ab58b76f29fa247f8d0ebc3cb4d8d111a4429663f069be28136d972cfab6a",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/minus_but_1.png",
+    "bytes": 640,
+    "sha256": "34c17a839688a35523496226e880dcaed1f232ae998f2cbd4a643d74942e7486",
+    "size": [
+      17,
+      17
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/neon-shine-background.png",
+    "bytes": 940,
+    "sha256": "8df314a96cdc15dff4d2bbeb5c9300494e343b07493b91f49d6dcc363146b095",
+    "size": [
+      25,
+      25
+    ]
+  },
+  {
+    "path": "ui/world-map/markers/plus_but_1.png",
+    "bytes": 723,
+    "sha256": "e01d1e2189a4efa53c89a43ee7798be4e5fcdacdfe9965cde73adddb9e07da87",
+    "size": [
+      17,
+      17
+    ]
+  },
+  {
+    "path": "ui/world-map/no_map.png",
+    "bytes": 1433355,
+    "sha256": "757df0b6d19fb0757a97d12ffe918b5378acaa2b6ec1a8ea0246b19f6d1b22e4",
+    "size": [
+      958,
+      631
+    ]
+  },
+  {
+    "path": "ui/world-map/overlays/line_main.png",
+    "bytes": 2551,
+    "sha256": "b34793c098d3355d6731fec19681deba1ba7e921e5a126716f58d466f8feded2",
+    "size": [
+      16,
+      512
+    ]
+  },
+  {
+    "path": "ui/world-map/overlays/line_main00.png",
+    "bytes": 583,
+    "sha256": "28d53e5feb7da88bf05ec5c489e21c0f886ed89f0acaee38f2a17a8f80cc90dc",
+    "size": [
+      16,
+      64
+    ]
+  },
+  {
+    "path": "ui/world-map/overlays/line_main01.png",
+    "bytes": 144,
+    "sha256": "35b25afbef1a08a303b3cf2a787ce0f6b5bb81d1497a133da44387b838bcac4e",
+    "size": [
+      16,
+      4
+    ]
+  },
+  {
+    "path": "ui/world-map/skin/back.png",
+    "bytes": 140,
+    "sha256": "02f754e0e1267317940b0703ea7bab4c421cc13467d385d72136b80109099a81",
+    "size": [
+      8,
+      8
+    ]
+  },
+  {
+    "path": "ui/world-map/skin/buddy_select.png",
+    "bytes": 419,
+    "sha256": "68de12850d59b84b358f17d40c78b447a8ea02769b03fd9563a89302c4b17d0e",
+    "size": [
+      38,
+      17
+    ]
+  },
+  {
+    "path": "ui/world-map/skin/gray.png",
+    "bytes": 222,
+    "sha256": "35f6ea68ff0216d4c10b1f171a386d6fc0078a13c53402339c8923e2b06a5c06",
+    "size": [
+      23,
+      19
+    ]
+  },
+  {
+    "path": "ui/world-map/skin/map_back.png",
+    "bytes": 7603,
+    "sha256": "4545f9c936a7c82a9ed5c6283d2db14d36055c9060253da0e07005257f0236c8",
+    "size": [
+      40,
+      653
+    ]
+  }
+]

@@ -1,0 +1,476 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "unstable-powers-client",
+  "sources": [
+    {
+      "alias": "retro-010920",
+      "path": "assets/TableData.resourceFile",
+      "sha256": "700f47e9d80d861b1a6392e80166bd10c18e9db4d463e0e519f60f6bf888d637",
+      "bytes": 744830
+    }
+  ],
+  "steps": [
+    {
+      "operation": "json-patch",
+      "output": "data/tables/table-set.json",
+      "edits": [
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/41/m_iMesh",
+          "before": 40,
+          "after": 40
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iBatteryDrainType",
+          "before": 2,
+          "after": 2
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iBatteryDrainUse",
+          "before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iBuffEffect",
+          "before": 0,
+          "after": 0
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iCoolTime",
+          "before": 50,
+          "after": 50
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iCoolType",
+          "before": 0,
+          "after": 0
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iDBType",
+          "before": 0,
+          "after": 0
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iDelayTime",
+          "before": 10,
+          "after": 10
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iDeleverTime",
+          "before": 200,
+          "after": 200
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iDurationTime",
+          "before": [
+            60,
+            66,
+            72,
+            78
+          ],
+          "after": [
+            60,
+            66,
+            72,
+            78
+          ]
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iEffect",
+          "before": 33,
+          "after": 33
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iEffectAngle",
+          "before": 0,
+          "after": 0
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iEffectArea",
+          "before": 0,
+          "after": 0
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iEffectRange",
+          "before": 200,
+          "after": 200
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iEffectTarget",
+          "before": 1,
+          "after": 1
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iEffectType",
+          "before": 1,
+          "after": 1
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iInitialTime",
+          "before": 5,
+          "after": 5
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iSkillNumber",
+          "before": 122,
+          "after": 122
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iSkillType",
+          "before": 23,
+          "after": 23
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iSound",
+          "before": 3,
+          "after": 3
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iTargetEffect",
+          "before": 0,
+          "after": 0
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iTargetNumber",
+          "before": 1,
+          "after": 1
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iTargetType",
+          "before": 2,
+          "after": 2
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iValueA",
+          "before": [
+            60,
+            69,
+            72,
+            78
+          ],
+          "after": [
+            60,
+            69,
+            72,
+            78
+          ]
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iValueA_Type",
+          "before": 1,
+          "after": 1
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iValueB",
+          "before": [
+            20,
+            30,
+            24,
+            26
+          ],
+          "after": [
+            20,
+            30,
+            24,
+            26
+          ]
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iValueB_Type",
+          "before": 1,
+          "after": 1
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iValueC",
+          "before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/122/m_iValueC_Type",
+          "before": 0,
+          "after": 0
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/41/m_iTune/0",
+          "before": 285,
+          "after": 288
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/41/m_iTune/1",
+          "before": 286,
+          "after": 289
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/41/m_iTune/2",
+          "before": 287,
+          "after": 290
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/288",
+          "after": {
+            "m_iComment": 288,
+            "m_iReqFusionMatter": 100,
+            "m_iReqItemCount": 5,
+            "m_iReqItemID": 37,
+            "m_iSkillID": 122,
+            "m_iTuneName": 288,
+            "m_iTuneNumber": 288
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/289",
+          "after": {
+            "m_iComment": 289,
+            "m_iReqFusionMatter": 100,
+            "m_iReqItemCount": 5,
+            "m_iReqItemID": 37,
+            "m_iSkillID": 122,
+            "m_iTuneName": 289,
+            "m_iTuneNumber": 289
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/290",
+          "after": {
+            "m_iComment": 290,
+            "m_iReqFusionMatter": 100,
+            "m_iReqItemCount": 5,
+            "m_iReqItemID": 37,
+            "m_iSkillID": 122,
+            "m_iTuneName": 290,
+            "m_iTuneNumber": 290
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneStringData/288",
+          "after": {
+            "m_iExtraNumber": 0,
+            "m_strComment": "This power doesn’t seem to do anything at the moment.",
+            "m_strComment1": "???",
+            "m_strComment2": "",
+            "m_strName": "UNSTABLE POWER"
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneStringData/289",
+          "after": {
+            "m_iExtraNumber": 0,
+            "m_strComment": "This power doesn’t seem to do anything at the moment.",
+            "m_strComment1": "???",
+            "m_strComment2": "",
+            "m_strName": "UNSTABLE POWER"
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneStringData/290",
+          "after": {
+            "m_iExtraNumber": 0,
+            "m_strComment": "This power doesn’t seem to do anything at the moment.",
+            "m_strComment1": "???",
+            "m_strComment2": "",
+            "m_strName": "UNSTABLE POWER"
+          }
+        }
+      ]
+    },
+    {
+      "operation": "json-patch",
+      "output": "localization/en.json",
+      "edits": [
+        {
+          "path": "/entries/content.nano_tune.288.name",
+          "after": "UNSTABLE POWER"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.288.str_name",
+          "after": "UNSTABLE POWER"
+        },
+        {
+          "path": "/entries/content.nano_tune.288.type_label",
+          "after": "???"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.288.str_comment1",
+          "after": "???"
+        },
+        {
+          "path": "/entries/content.nano_tune.288.description",
+          "after": "This power doesn't seem to do anything at the moment."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.288.str_comment",
+          "after": "This power doesn't seem to do anything at the moment."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.288.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.nano_tune.289.name",
+          "after": "UNSTABLE POWER"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.289.str_name",
+          "after": "UNSTABLE POWER"
+        },
+        {
+          "path": "/entries/content.nano_tune.289.type_label",
+          "after": "???"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.289.str_comment1",
+          "after": "???"
+        },
+        {
+          "path": "/entries/content.nano_tune.289.description",
+          "after": "This power doesn't seem to do anything at the moment."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.289.str_comment",
+          "after": "This power doesn't seem to do anything at the moment."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.289.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.nano_tune.290.name",
+          "after": "UNSTABLE POWER"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.290.str_name",
+          "after": "UNSTABLE POWER"
+        },
+        {
+          "path": "/entries/content.nano_tune.290.type_label",
+          "after": "???"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.290.str_comment1",
+          "after": "???"
+        },
+        {
+          "path": "/entries/content.nano_tune.290.description",
+          "after": "This power doesn't seem to do anything at the moment."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.290.str_comment",
+          "after": "This power doesn't seem to do anything at the moment."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.290.str_comment2",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "operation": "json-patch",
+      "output": "localization/ru.json",
+      "edits": [
+        {
+          "path": "/entries/content.nano_tune.288.name",
+          "after": "НЕСТАБИЛЬНАЯ СИЛА"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.288.str_name",
+          "after": "НЕСТАБИЛЬНАЯ СИЛА"
+        },
+        {
+          "path": "/entries/content.nano_tune.288.type_label",
+          "after": "???"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.288.str_comment1",
+          "after": "???"
+        },
+        {
+          "path": "/entries/content.nano_tune.288.description",
+          "after": "Похоже, сейчас эта способность ничего не делает."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.288.str_comment",
+          "after": "Похоже, сейчас эта способность ничего не делает."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.288.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.nano_tune.289.name",
+          "after": "НЕСТАБИЛЬНАЯ СИЛА"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.289.str_name",
+          "after": "НЕСТАБИЛЬНАЯ СИЛА"
+        },
+        {
+          "path": "/entries/content.nano_tune.289.type_label",
+          "after": "???"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.289.str_comment1",
+          "after": "???"
+        },
+        {
+          "path": "/entries/content.nano_tune.289.description",
+          "after": "Похоже, сейчас эта способность ничего не делает."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.289.str_comment",
+          "after": "Похоже, сейчас эта способность ничего не делает."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.289.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.nano_tune.290.name",
+          "after": "НЕСТАБИЛЬНАЯ СИЛА"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.290.str_name",
+          "after": "НЕСТАБИЛЬНАЯ СИЛА"
+        },
+        {
+          "path": "/entries/content.nano_tune.290.type_label",
+          "after": "???"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.290.str_comment1",
+          "after": "???"
+        },
+        {
+          "path": "/entries/content.nano_tune.290.description",
+          "after": "Похоже, сейчас эта способность ничего не делает."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.290.str_comment",
+          "after": "Похоже, сейчас эта способность ничего не делает."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.290.str_comment2",
+          "after": ""
+        }
+      ]
+    }
+  ]
+}

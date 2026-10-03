@@ -1,0 +1,9 @@
+{
+  "schema": "fusionforge.native-emote-events-check.v1",
+  "scopedClips": 46,
+  "ownerValidated": true,
+  "matchesAcceptedRustExceptGeneratorComment": true,
+  "isolatedApplyMatchesStage": true,
+  "backupPreserved": true,
+  "nativeTargetUnchanged": true
+}

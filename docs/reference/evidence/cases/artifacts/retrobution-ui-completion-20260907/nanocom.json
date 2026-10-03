@@ -1,0 +1,1604 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 114,
+    "name": "",
+    "pathId": 1562,
+    "rawBytes": 1276,
+    "rawSha256": "315de9c6279d2ad83fcc5236159b8b769df786cb62bf531433eb6e48b107c518",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "MonoBehaviour",
+    "typeId": -80,
+    "value": {
+      "BonusTexture": {
+        "fileId": 0,
+        "pathId": 681
+      },
+      "BoxAlpha": {
+        "fileId": 0,
+        "pathId": 546
+      },
+      "EmailNoticeTexture": {
+        "fileId": 0,
+        "pathId": 529
+      },
+      "EmailNoticeTextureOver": {
+        "fileId": 0,
+        "pathId": 69
+      },
+      "FMBar": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "FMBarRight": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "FMRect": {
+        "height": 170.0,
+        "width": 172.0,
+        "x": 2.0,
+        "y": 0.0
+      },
+      "IconTexture": [
+        {
+          "fileId": 0,
+          "pathId": 220
+        },
+        {
+          "fileId": 0,
+          "pathId": 674
+        },
+        {
+          "fileId": 0,
+          "pathId": 79
+        },
+        {
+          "fileId": 0,
+          "pathId": 26
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        }
+      ],
+      "LineEffect": {
+        "fileId": 0,
+        "pathId": 125
+      },
+      "MapTexture": [
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        },
+        {
+          "fileId": 0,
+          "pathId": 0
+        }
+      ],
+      "MenuRect": {
+        "height": 294.0,
+        "width": 178.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "MinimapAlpha": {
+        "fileId": 0,
+        "pathId": 414
+      },
+      "NanoComEtcBg": {
+        "fileId": 0,
+        "pathId": 290
+      },
+      "NanoComNPCBg": {
+        "fileId": 0,
+        "pathId": 565
+      },
+      "NanoComNanoBg": {
+        "fileId": 0,
+        "pathId": 137
+      },
+      "NanoComNanoBox": {
+        "height": 122.0,
+        "width": 372.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "NanoComNpcBox": {
+        "height": 119.0,
+        "width": 321.0,
+        "x": 51.0,
+        "y": 3.0
+      },
+      "NanoComUserBg": {
+        "fileId": 0,
+        "pathId": 258
+      },
+      "NanoComUserBox": {
+        "height": 119.0,
+        "width": 271.0,
+        "x": 101.0,
+        "y": 3.0
+      },
+      "NanoIconRect": {
+        "height": 64.0,
+        "width": 64.0,
+        "x": 55.0,
+        "y": 10.0
+      },
+      "NanoMessageRect": {
+        "height": 122.0,
+        "width": 372.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "NanoNoRect": {
+        "height": 25.0,
+        "width": 150.0,
+        "x": 44.0,
+        "y": 124.0
+      },
+      "NanoOkRect": {
+        "height": 25.0,
+        "width": 110.0,
+        "x": 374.0,
+        "y": 124.0
+      },
+      "NanoPopupRect": {
+        "height": 164.0,
+        "width": 520.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "NanoPopupTextRect": {
+        "height": 104.0,
+        "width": 340.0,
+        "x": 90.0,
+        "y": 30.0
+      },
+      "NanoTextRect": {
+        "height": 70.0,
+        "width": 180.0,
+        "x": 120.0,
+        "y": 25.0
+      },
+      "NanoTitleRect": {
+        "height": 30.0,
+        "width": 200.0,
+        "x": 130.0,
+        "y": 2.0
+      },
+      "NanoYesRect": {
+        "height": 25.0,
+        "width": 150.0,
+        "x": 334.0,
+        "y": 124.0
+      },
+      "NpcIconRect": {
+        "height": 64.0,
+        "width": 64.0,
+        "x": 60.0,
+        "y": 15.0
+      },
+      "RingTexture": {
+        "fileId": 0,
+        "pathId": 294
+      },
+      "TaskBustTexture": {
+        "fileId": 0,
+        "pathId": 570
+      },
+      "WayPointpt": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "WindowRect": {
+        "height": 174.0,
+        "width": 174.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "bNanoComMsg": 0,
+      "bViewMenu": 0,
+      "bViewMob": 0,
+      "bViewShiny": 0,
+      "bViewWayPoint": 0,
+      "backMenuTexture": {
+        "fileId": 0,
+        "pathId": 622
+      },
+      "bkRect": {
+        "height": 0.0,
+        "width": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "blackBack": {
+        "fileId": 0,
+        "pathId": 270
+      },
+      "bonusFMBar": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "bonusFMBarRight": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "ddd": 0.5,
+      "dongName": "map name",
+      "dongRect": {
+        "height": 60.0,
+        "width": 120.0,
+        "x": 30.0,
+        "y": 120.0
+      },
+      "edRect": {
+        "height": 30.0,
+        "width": 187.0,
+        "x": 5.0,
+        "y": 5.0
+      },
+      "fCheckInterval": 0.5,
+      "fEMailAlarmTime": 0.0,
+      "fMiniMapRatio": 8.0,
+      "fNanoMessageTime": 20.0,
+      "fPivotPoint": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "fRotateAngleDegrees": 0.0,
+      "fSlideMenu": 0.0,
+      "m_Enabled": true,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 1352
+      },
+      "m_Name": "",
+      "m_Script": {
+        "fileId": 0,
+        "pathId": 1112
+      },
+      "mailRect": {
+        "height": 30.0,
+        "width": 30.0,
+        "x": 140.0,
+        "y": 150.0
+      },
+      "mailTexture": {
+        "fileId": 0,
+        "pathId": 419
+      },
+      "mapIcons": [
+        {
+          "fileId": 0,
+          "pathId": 173
+        },
+        {
+          "fileId": 0,
+          "pathId": 653
+        },
+        {
+          "fileId": 0,
+          "pathId": 353
+        },
+        {
+          "fileId": 0,
+          "pathId": 311
+        },
+        {
+          "fileId": 0,
+          "pathId": 557
+        },
+        {
+          "fileId": 0,
+          "pathId": 139
+        },
+        {
+          "fileId": 0,
+          "pathId": 383
+        },
+        {
+          "fileId": 0,
+          "pathId": 496
+        },
+        {
+          "fileId": 0,
+          "pathId": 56
+        },
+        {
+          "fileId": 0,
+          "pathId": 450
+        },
+        {
+          "fileId": 0,
+          "pathId": 150
+        },
+        {
+          "fileId": 0,
+          "pathId": 486
+        },
+        {
+          "fileId": 0,
+          "pathId": 507
+        },
+        {
+          "fileId": 0,
+          "pathId": 64
+        },
+        {
+          "fileId": 0,
+          "pathId": 460
+        },
+        {
+          "fileId": 0,
+          "pathId": 388
+        },
+        {
+          "fileId": 0,
+          "pathId": 7
+        },
+        {
+          "fileId": 0,
+          "pathId": 263
+        },
+        {
+          "fileId": 0,
+          "pathId": 431
+        },
+        {
+          "fileId": 0,
+          "pathId": 608
+        },
+        {
+          "fileId": 0,
+          "pathId": 439
+        },
+        {
+          "fileId": 0,
+          "pathId": 273
+        },
+        {
+          "fileId": 0,
+          "pathId": 679
+        },
+        {
+          "fileId": 0,
+          "pathId": 468
+        },
+        {
+          "fileId": 0,
+          "pathId": 676
+        },
+        {
+          "fileId": 0,
+          "pathId": 359
+        },
+        {
+          "fileId": 0,
+          "pathId": 249
+        },
+        {
+          "fileId": 0,
+          "pathId": 100
+        },
+        {
+          "fileId": 0,
+          "pathId": 184
+        },
+        {
+          "fileId": 0,
+          "pathId": 45
+        },
+        {
+          "fileId": 0,
+          "pathId": 171
+        },
+        {
+          "fileId": 0,
+          "pathId": 347
+        },
+        {
+          "fileId": 0,
+          "pathId": 394
+        },
+        {
+          "fileId": 0,
+          "pathId": 651
+        }
+      ],
+      "minimapMaterial": {
+        "fileId": 0,
+        "pathId": 900
+      },
+      "minimapRect": {
+        "height": 148.0,
+        "width": 148.0,
+        "x": 14.0,
+        "y": 12.0
+      },
+      "minusRect": {
+        "height": 18.0,
+        "width": 18.0,
+        "x": 130.0,
+        "y": 92.0
+      },
+      "minusTexture": {
+        "fileId": 0,
+        "pathId": 312
+      },
+      "pMenuSkin": {
+        "fileId": 0,
+        "pathId": 1372
+      },
+      "plusRect": {
+        "height": 18.0,
+        "width": 18.0,
+        "x": 130.0,
+        "y": 68.0
+      },
+      "plusTexture": {
+        "fileId": 0,
+        "pathId": 595
+      },
+      "rectTimeIcon": {
+        "height": 33.0,
+        "width": 38.0,
+        "x": 52.0,
+        "y": 20.0
+      },
+      "restFMBar": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "restFMBarRight": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "rtAlarmImage": {
+        "fileId": 0,
+        "pathId": 464
+      },
+      "rtBackImage": {
+        "fileId": 0,
+        "pathId": 476
+      },
+      "rtBackImage2Left": {
+        "fileId": 0,
+        "pathId": 457
+      },
+      "rtBackImage2Right": {
+        "fileId": 0,
+        "pathId": 479
+      },
+      "rtNewBackImage": {
+        "fileId": 0,
+        "pathId": 37
+      },
+      "timeMachineBut": {
+        "height": 95.0,
+        "width": 270.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "timeMachineInBoxRect": {
+        "height": 38.0,
+        "width": 187.0,
+        "x": 43.0,
+        "y": 15.0
+      },
+      "timeMachineRect": {
+        "height": 95.0,
+        "width": 410.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "timeSkin": {
+        "fileId": 0,
+        "pathId": 1371
+      }
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/BonusTexture",
+      "fileId": 0,
+      "pathId": 681,
+      "status": "resolved",
+      "target": {
+        "pathId": 681,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/BoxAlpha",
+      "fileId": 0,
+      "pathId": 546,
+      "status": "resolved",
+      "target": {
+        "pathId": 546,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/EmailNoticeTexture",
+      "fileId": 0,
+      "pathId": 529,
+      "status": "resolved",
+      "target": {
+        "pathId": 529,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/EmailNoticeTextureOver",
+      "fileId": 0,
+      "pathId": 69,
+      "status": "resolved",
+      "target": {
+        "pathId": 69,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/FMBar",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/FMBarRight",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/IconTexture/0",
+      "fileId": 0,
+      "pathId": 220,
+      "status": "resolved",
+      "target": {
+        "pathId": 220,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/IconTexture/1",
+      "fileId": 0,
+      "pathId": 674,
+      "status": "resolved",
+      "target": {
+        "pathId": 674,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/IconTexture/2",
+      "fileId": 0,
+      "pathId": 79,
+      "status": "resolved",
+      "target": {
+        "pathId": 79,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/IconTexture/3",
+      "fileId": 0,
+      "pathId": 26,
+      "status": "resolved",
+      "target": {
+        "pathId": 26,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/IconTexture/4",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/IconTexture/5",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/IconTexture/6",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/IconTexture/7",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/IconTexture/8",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/IconTexture/9",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/LineEffect",
+      "fileId": 0,
+      "pathId": 125,
+      "status": "resolved",
+      "target": {
+        "pathId": 125,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/0",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/1",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/2",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/3",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/4",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/5",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/6",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/7",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/8",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/9",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/10",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/11",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/12",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/13",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/14",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MapTexture/15",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/MinimapAlpha",
+      "fileId": 0,
+      "pathId": 414,
+      "status": "resolved",
+      "target": {
+        "pathId": 414,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/NanoComEtcBg",
+      "fileId": 0,
+      "pathId": 290,
+      "status": "resolved",
+      "target": {
+        "pathId": 290,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/NanoComNPCBg",
+      "fileId": 0,
+      "pathId": 565,
+      "status": "resolved",
+      "target": {
+        "pathId": 565,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/NanoComNanoBg",
+      "fileId": 0,
+      "pathId": 137,
+      "status": "resolved",
+      "target": {
+        "pathId": 137,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/NanoComUserBg",
+      "fileId": 0,
+      "pathId": 258,
+      "status": "resolved",
+      "target": {
+        "pathId": 258,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/RingTexture",
+      "fileId": 0,
+      "pathId": 294,
+      "status": "resolved",
+      "target": {
+        "pathId": 294,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/TaskBustTexture",
+      "fileId": 0,
+      "pathId": 570,
+      "status": "resolved",
+      "target": {
+        "pathId": 570,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/backMenuTexture",
+      "fileId": 0,
+      "pathId": 622,
+      "status": "resolved",
+      "target": {
+        "pathId": 622,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/blackBack",
+      "fileId": 0,
+      "pathId": 270,
+      "status": "resolved",
+      "target": {
+        "pathId": 270,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/bonusFMBar",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/bonusFMBarRight",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 1352,
+      "status": "resolved",
+      "target": {
+        "pathId": 1352,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Script",
+      "fileId": 0,
+      "pathId": 1112,
+      "status": "resolved",
+      "target": {
+        "pathId": 1112,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoScript"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mailTexture",
+      "fileId": 0,
+      "pathId": 419,
+      "status": "resolved",
+      "target": {
+        "pathId": 419,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/0",
+      "fileId": 0,
+      "pathId": 173,
+      "status": "resolved",
+      "target": {
+        "pathId": 173,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/1",
+      "fileId": 0,
+      "pathId": 653,
+      "status": "resolved",
+      "target": {
+        "pathId": 653,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/2",
+      "fileId": 0,
+      "pathId": 353,
+      "status": "resolved",
+      "target": {
+        "pathId": 353,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/3",
+      "fileId": 0,
+      "pathId": 311,
+      "status": "resolved",
+      "target": {
+        "pathId": 311,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/4",
+      "fileId": 0,
+      "pathId": 557,
+      "status": "resolved",
+      "target": {
+        "pathId": 557,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/5",
+      "fileId": 0,
+      "pathId": 139,
+      "status": "resolved",
+      "target": {
+        "pathId": 139,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/6",
+      "fileId": 0,
+      "pathId": 383,
+      "status": "resolved",
+      "target": {
+        "pathId": 383,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/7",
+      "fileId": 0,
+      "pathId": 496,
+      "status": "resolved",
+      "target": {
+        "pathId": 496,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/8",
+      "fileId": 0,
+      "pathId": 56,
+      "status": "resolved",
+      "target": {
+        "pathId": 56,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/9",
+      "fileId": 0,
+      "pathId": 450,
+      "status": "resolved",
+      "target": {
+        "pathId": 450,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/10",
+      "fileId": 0,
+      "pathId": 150,
+      "status": "resolved",
+      "target": {
+        "pathId": 150,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/11",
+      "fileId": 0,
+      "pathId": 486,
+      "status": "resolved",
+      "target": {
+        "pathId": 486,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/12",
+      "fileId": 0,
+      "pathId": 507,
+      "status": "resolved",
+      "target": {
+        "pathId": 507,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/13",
+      "fileId": 0,
+      "pathId": 64,
+      "status": "resolved",
+      "target": {
+        "pathId": 64,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/14",
+      "fileId": 0,
+      "pathId": 460,
+      "status": "resolved",
+      "target": {
+        "pathId": 460,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/15",
+      "fileId": 0,
+      "pathId": 388,
+      "status": "resolved",
+      "target": {
+        "pathId": 388,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/16",
+      "fileId": 0,
+      "pathId": 7,
+      "status": "resolved",
+      "target": {
+        "pathId": 7,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/17",
+      "fileId": 0,
+      "pathId": 263,
+      "status": "resolved",
+      "target": {
+        "pathId": 263,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/18",
+      "fileId": 0,
+      "pathId": 431,
+      "status": "resolved",
+      "target": {
+        "pathId": 431,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/19",
+      "fileId": 0,
+      "pathId": 608,
+      "status": "resolved",
+      "target": {
+        "pathId": 608,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/20",
+      "fileId": 0,
+      "pathId": 439,
+      "status": "resolved",
+      "target": {
+        "pathId": 439,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/21",
+      "fileId": 0,
+      "pathId": 273,
+      "status": "resolved",
+      "target": {
+        "pathId": 273,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/22",
+      "fileId": 0,
+      "pathId": 679,
+      "status": "resolved",
+      "target": {
+        "pathId": 679,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/23",
+      "fileId": 0,
+      "pathId": 468,
+      "status": "resolved",
+      "target": {
+        "pathId": 468,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/24",
+      "fileId": 0,
+      "pathId": 676,
+      "status": "resolved",
+      "target": {
+        "pathId": 676,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/25",
+      "fileId": 0,
+      "pathId": 359,
+      "status": "resolved",
+      "target": {
+        "pathId": 359,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/26",
+      "fileId": 0,
+      "pathId": 249,
+      "status": "resolved",
+      "target": {
+        "pathId": 249,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/27",
+      "fileId": 0,
+      "pathId": 100,
+      "status": "resolved",
+      "target": {
+        "pathId": 100,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/28",
+      "fileId": 0,
+      "pathId": 184,
+      "status": "resolved",
+      "target": {
+        "pathId": 184,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/29",
+      "fileId": 0,
+      "pathId": 45,
+      "status": "resolved",
+      "target": {
+        "pathId": 45,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/30",
+      "fileId": 0,
+      "pathId": 171,
+      "status": "resolved",
+      "target": {
+        "pathId": 171,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/31",
+      "fileId": 0,
+      "pathId": 347,
+      "status": "resolved",
+      "target": {
+        "pathId": 347,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/32",
+      "fileId": 0,
+      "pathId": 394,
+      "status": "resolved",
+      "target": {
+        "pathId": 394,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mapIcons/33",
+      "fileId": 0,
+      "pathId": 651,
+      "status": "resolved",
+      "target": {
+        "pathId": 651,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/minimapMaterial",
+      "fileId": 0,
+      "pathId": 900,
+      "status": "resolved",
+      "target": {
+        "pathId": 900,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Material"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/minusTexture",
+      "fileId": 0,
+      "pathId": 312,
+      "status": "resolved",
+      "target": {
+        "pathId": 312,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/pMenuSkin",
+      "fileId": 0,
+      "pathId": 1372,
+      "status": "resolved",
+      "target": {
+        "pathId": 1372,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/plusTexture",
+      "fileId": 0,
+      "pathId": 595,
+      "status": "resolved",
+      "target": {
+        "pathId": 595,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/restFMBar",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/restFMBarRight",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/rtAlarmImage",
+      "fileId": 0,
+      "pathId": 464,
+      "status": "resolved",
+      "target": {
+        "pathId": 464,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/rtBackImage",
+      "fileId": 0,
+      "pathId": 476,
+      "status": "resolved",
+      "target": {
+        "pathId": 476,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/rtBackImage2Left",
+      "fileId": 0,
+      "pathId": 457,
+      "status": "resolved",
+      "target": {
+        "pathId": 457,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/rtBackImage2Right",
+      "fileId": 0,
+      "pathId": 479,
+      "status": "resolved",
+      "target": {
+        "pathId": 479,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/rtNewBackImage",
+      "fileId": 0,
+      "pathId": 37,
+      "status": "resolved",
+      "target": {
+        "pathId": 37,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/timeSkin",
+      "fileId": 0,
+      "pathId": 1371,
+      "status": "resolved",
+      "target": {
+        "pathId": 1371,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

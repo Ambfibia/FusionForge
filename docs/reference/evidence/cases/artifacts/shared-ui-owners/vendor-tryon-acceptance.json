@@ -1,0 +1,102 @@
+{
+  "slice": "Vendor catalog equipment TRY ON",
+  "sourceRole": "primary",
+  "source": "retrobution-20260821",
+  "checks": {
+    "vendorTests": 28,
+    "previewTests": 17,
+    "localizationKeyCount": 65882,
+    "gpuScenarios": [
+      "try-on/en",
+      "try-on/ru",
+      "try-on-close/en",
+      "try-on-close/ru"
+    ],
+    "realPointer": "TRY ON, held rotation, preview-only close passed",
+    "build": "Dev client and GPU fixture built",
+    "offlineClient": "exit 0",
+    "fullAssets": "blocked by existing m_face_006_a.png missing owner group"
+  },
+  "limits": [
+    "No live-server interaction required or exercised",
+    "No claim of pixel comparison against a running Unity client",
+    "Shared UI completion remains open"
+  ],
+  "artifacts": [
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/tryon-background.png",
+      "sha256": "e990a8f268afad7781b360ddc3cb38f697f3271535dd9705fd7b347105f6312d",
+      "bytes": 67326
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/tryon-close-en.log",
+      "sha256": "802d3a4edf75994957b12c8ae07eba48364d2bbbbb56700e58b1cd1a60d4cc57",
+      "bytes": 938
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/tryon-close-en.png",
+      "sha256": "3947a680dd14fca7f597c1f986d7e8c9ba3c62b463bc3d94fdaea925c664ecaf",
+      "bytes": 490174
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/tryon-close-ru.log",
+      "sha256": "dd9f61535a63f131481d07d1941da1d7e30c984cb5ed2f47144ef416af8a40e7",
+      "bytes": 938
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/tryon-close-ru.png",
+      "sha256": "8eb147ae68e20e665330265f5ca1703855fedb36933cefbe9ff2ec895e2781bb",
+      "bytes": 500150
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/tryon-en.log",
+      "sha256": "21e72e098b4e0708397b9c11ed81e0b97dede2292d9feb71f51403ab3533c258",
+      "bytes": 872
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/tryon-en.png",
+      "sha256": "d1136e0c958345d5a410996fc2b1489299711f639ddf16edcfe4ef95f4e0bc97",
+      "bytes": 525564
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/tryon-localization-check.log",
+      "sha256": "06244346add2aaf14e015ba5df7e31eb892e6b9f5d2179e1e8bf8034cb3df89b",
+      "bytes": 77
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/tryon-native-validation.log",
+      "sha256": "525b2cd15569f8b05521dafae9d56bed52e81e8a1b7a587700df21ae27fdf250",
+      "bytes": 518
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/tryon-preview-tests.log",
+      "sha256": "9bf6b0798d2c40012cec76ace674302303c92aafcf16157a37cc66f18d4752a5",
+      "bytes": 1781
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/tryon-replay.png",
+      "sha256": "e990a8f268afad7781b360ddc3cb38f697f3271535dd9705fd7b347105f6312d",
+      "bytes": 67326
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/tryon-ru.log",
+      "sha256": "7b672aa09a2e7b435d15885096825a5a5f63999e137c9bffa309ad9c79d459b5",
+      "bytes": 872
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/tryon-ru.png",
+      "sha256": "47e262444b49014518868fc2446820659989a1c031b9a6923072445a9c7ac458",
+      "bytes": 533865
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/tryon-vendor-tests.log",
+      "sha256": "7257f9fdc49b5f6bc813b326edfff6542a5582b099bfb1ec09c52d06509bb4b8",
+      "bytes": 2869
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/tryon-world-smoke.log",
+      "sha256": "6dc9923f39f2791e403e028c83efdaf41fbc83004713cde877af46ef9e37dbad",
+      "bytes": 145
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "ffone.wire-0104-openfusion-divergence.v1",
+  "clean_client": "retrobution-20260821 Assembly-CSharp (decompiled)",
+  "openfusion_header": "work/ffone/legacy-content/imported/Kate/Kates FF Modding Workspace/rbution-server-SRC/OpenFusion-WIP-Retro/src/structs/0104.hpp",
+  "size_mismatch": [
+    {
+      "struct": "sP_CL2FE_REQ_PC_BANK_OPEN",
+      "retrobution": 8,
+      "openfusion": 4
+    },
+    {
+      "struct": "sP_CL2FE_REQ_PC_WARP_USE_TRANSPORTATION",
+      "retrobution": 16,
+      "openfusion": 16
+    },
+    {
+      "struct": "sP_FE2CL_NPC_SKILL_READY",
+      "retrobution": 24,
+      "openfusion": 20
+    },
+    {
+      "struct": "sP_FE2CL_REP_PC_BANK_OPEN_SUCC",
+      "retrobution": 2404,
+      "openfusion": 1432
+    },
+    {
+      "struct": "sP_FE2CL_REP_PC_ENTER_SUCC",
+      "retrobution": 2564,
+      "openfusion": 2700
+    },
+    {
+      "struct": "sP_FE2CL_REP_PC_VENDOR_TABLE_UPDATE_SUCC",
+      "retrobution": 1200,
+      "openfusion": 480
+    },
+    {
+      "struct": "sPCLoadData2CL",
+      "retrobution": 2552,
+      "openfusion": 2688
+    }
+  ],
+  "retrobution_only": [
+    "sP_CL2FE_REQ_PC_BARBER_CONFIRM",
+    "sP_CL2FE_REQ_PC_BARBER_OPEN",
+    "sP_CL2FE_REQ_PRESENT_NPC_TYPES",
+    "sP_FE2CL_NPC_CUSTOM_ATTACK_PCs",
+    "sP_FE2CL_NPC_SELF_EFFECT",
+    "sP_FE2CL_PC_STYLE_CHANGE",
+    "sP_FE2CL_REP_NANO_BOOK_SUBSET",
+    "sP_FE2CL_REP_PC_BARBER_CONFIRM",
+    "sP_FE2CL_REP_PC_BARBER_OPEN_SUCC",
+    "sP_FE2CL_REP_PRESENT_NPC_TYPES"
+  ],
+  "openfusion_only": [
+    "sPacket",
+    "sPacket2x",
+    "sPacket2x_Full",
+    "sPacket_Full"
+  ]
+}

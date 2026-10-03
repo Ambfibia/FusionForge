@@ -1,0 +1,84 @@
+{
+  "profile": "direct-rustc opt-level=0 linked to existing workspace dependencies; production HUD constructors",
+  "frames": [
+    {
+      "path": "chat-ru-preview.png",
+      "bytes": 194098,
+      "sha256": "024af4494aa7287064c52bf1cdc96ca622db8fc6bfb9c6d073b8e3b12aef6051"
+    },
+    {
+      "path": "found-fade-en-preview.png",
+      "bytes": 309093,
+      "sha256": "a81dd971e030a877223426cb64e1d1ae13e1525e328fd3acfe74ac13e98f23d9"
+    },
+    {
+      "path": "found-ru-preview.png",
+      "bytes": 309672,
+      "sha256": "6b21443886228f46f2c39ed04a56b6b30b48637b4b31d577dd1aa6c8b3d0d713"
+    },
+    {
+      "path": "missing-fade-ru-preview.png",
+      "bytes": 308921,
+      "sha256": "ccd4c5a0ca2228da171d4604d7c9894ff2387c4096b6499f34e1cb8164ca5ece"
+    },
+    {
+      "path": "missing-ru-preview.png",
+      "bytes": 309659,
+      "sha256": "ed888c31e9e13ae10ab7dcad4c7c0f096da45965dbf77c3961cfd5195b33c740"
+    }
+  ],
+  "tests": {
+    "reward_regressions": "cargo test -p ffone-client --lib gameplay_ui::rewards -- --nocapture: 5 passed, 0 failed on final display/sampler source",
+    "source_format": "passed",
+    "en_ru_keys_placeholders": "passed",
+    "full_asset_check": "blocked: textures/hnpc/m_face_006_a.png has no declared runtime owner group"
+  },
+  "limitations": [
+    "No live shard combat replay performed; reward inputs are deterministic protocol-shaped fixtures.",
+    "Global localization scan fails on pre-existing bank_ui/item_popup.rs scheduling marker.",
+    "Broad content suite: 24 passed; 3 failures (vendor fixture missing m_strComment; existing duplicate-error text; current Oil Ogre mesh ID differs from fixture).",
+    "Full asset owner audit stops at textures/hnpc/m_face_006_a.png, outside reward files."
+  ],
+  "finalDev": {
+    "binary": "final-client.exe",
+    "bytes": 209263616,
+    "sha256": "43ef91e597f4aa5fe4d9e0729927f1f20a0ff5d5f20914191e17903ffd144c26",
+    "build": "cargo build -p ffone-client --bin ffone-client: passed after world-entry reset",
+    "frames": [
+      {
+        "path": "accepted-ru/frame.png",
+        "bytes": 3617256,
+        "sha256": "349582352a3dd3c10568d7e53362fc6e6010e99c873ad68e9a2b37eb895dc0cf"
+      }
+    ]
+  },
+  "previousDev": {
+    "binary": "final-client.exe",
+    "bytes": 209263616,
+    "sha256": "132f36f24c05b5136e3b15868dacfc86b81bec651c2a65b45c3f366c9b96d1d1",
+    "build": "cargo build -p ffone-client --bin ffone-client --example gameplay_hud_gpu_preview: passed",
+    "frames": [
+      {
+        "path": "found-ru-final/frame.png",
+        "bytes": 3459514,
+        "sha256": "914b3f7001cbe97eeed7fc327ba1aa2bbf316fd3892576f595b9147c3e20f67c"
+      },
+      {
+        "path": "missing-en-final/frame.png",
+        "bytes": 3619666,
+        "sha256": "cfc1c10e9f11ab5878cbe0fb676161c500adbdb619dcc7f4ba95bd5462903fce"
+      },
+      {
+        "path": "found-ru-final-preview.png",
+        "bytes": 309596,
+        "sha256": "db93d3cceb2e5cb6ca093eabcc9e53188f0486c513062a15a2e9d5da0b2ee586"
+      }
+    ]
+  },
+  "sourceSha256": {
+    "crates/ffone-client/src/gameplay_ui/rewards.rs": "8269c77e26c4a681eac10a943b732ca245ec8612b92c4c3ff90d508f0401c37a",
+    "crates/ffone-client/src/app/network_ingress.rs": "882f9419944c3ab5da06722117a1239aa79a97d6a980f87a209d9b94d460d439",
+    "crates/ffone-client/src/app/session_lifecycle.rs": "f036320bc159d59b8b2a647f4d41153032e4dbcb58c5fbecd3a3919562aa6491",
+    "crates/ffone-client/src/tutorial_mission_content.rs": "c6f1f98015893d6546872a7578af88126fbd9c41db027c076740fe7c92bb0907"
+  }
+}

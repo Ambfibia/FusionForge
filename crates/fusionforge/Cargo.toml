@@ -1,0 +1,47 @@
+[package]
+name = "fusionforge"
+autobins = false
+default-run = "fusionforge"
+version = "0.1.0"
+description = "FusionFall inspection and native asset export tools"
+authors = ["FFTools"]
+edition = "2021"
+rust-version = "1.98"
+
+[lib]
+name = "fusionforge_lib"
+crate-type = ["rlib"]
+
+[[bin]]
+name = "fusionforge"
+path = "src/fusionforge_main.rs"
+
+[dependencies]
+ffone-ui-layout = { path = "../../../FFOneClient/crates/ffone-ui-layout" }
+ffone-reference-audit = { path = "../ffone-reference-audit" }
+base64 = "0.22"
+blake3 = "1.8"
+clrmeta = "0.1"
+ffbuildtool = { path = "../../vendor/ffbuildtool", default-features = false, features = ["lzma"] }
+ffone-content = { path = "../ffone-content" }
+ffone-asset-pipeline = { path = "../ffone-asset-pipeline" }
+ffone-skinned-model = { path = "../../../FFOneClient/crates/ffone-skinned-model" }
+gltf = { version = "1.4", default-features = false, features = ["import", "names", "utils"] }
+image = { version = "0.25", default-features = false, features = ["png"] }
+nif = { version = "0.5", default-features = false }
+portex = "0.1"
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["raw_value"] }
+sha1 = "0.10"
+sha2 = "0.10"
+thiserror = "1"
+tokio = { version = "1.41.1", features = ["full"] }
+tempfile = "3"
+unicode-normalization = "0.1"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = ["Win32_Foundation", "Win32_Graphics_Gdi"] }
+
+[[test]]
+name = "console"
+path = "../../tests/console.rs"

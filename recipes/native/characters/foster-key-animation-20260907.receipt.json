@@ -1,0 +1,156 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "foster-key-animation-20260907",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone-client"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "Retro_shared.resourceFile",
+    "containerBytes": 14258661,
+    "containerSha256": "2ca4147c3705fdd3a0fc0ec44e088da6e87279e978e73b19701b0d29babbfc33",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "GameObject",
+        "pathId": 27118,
+        "fileId": 0,
+        "containerRoute": "mob/npc_key.kfm",
+        "trueName": "npc_icekey"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "Animation",
+        "pathId": 27141,
+        "fileId": 0,
+        "containerRoute": "mob/npc_key.kfm",
+        "trueName": ""
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AnimationClip",
+        "pathId": 27143,
+        "fileId": 0,
+        "containerRoute": "mob/npc_key.kfm",
+        "trueName": "stand1"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "repair",
+    "tool": "tools/native/restore-foster-key-animation.py",
+    "toolRevision": "857406bc95b5dd7a5983cefc3838c86b302600a8 + script SHA-256 in inputs",
+    "workingDirectory": ".",
+    "commands": [
+      ".\\fusionforge.cmd export-logical-model-source ../builds/retrobution-20260821/Retro_shared.resourceFile mob/npc_key.kfm work/cases/foster-20260907/key-source.json work/projects/retrobution-ui-20260821.ffclient",
+      ".\\work\\build\\debug\\ffone-asset-pipeline.exe publish-logical-model work/cases/foster-20260907/key-source.json npc work/cases/foster-20260907/key-candidate",
+      "python tools/native/restore-foster-key-animation.py --base tests/fixtures/legacy/native-key-render-contract.glb --animation-glb work/cases/foster-20260907/key-candidate/models/npc/npc_icekey.glb --output work/cases/foster-20260907/native/characters/npcs/npc_key/npc_icekey.glb",
+      "python tools/native/restore-foster-key-animation.py --base tests/fixtures/legacy/native-key-render-contract.glb --animation-glb work/cases/foster-20260907/key-candidate/models/npc/npc_icekey.glb --output ../FFOneClient/assets/game/characters/npcs/npc_key/npc_icekey.glb --registry ../FFOneClient/assets/game/_runtime/characters.json"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "docs/reference/evidence/legacy/foster-20260907/key-animation-owner-evidence.json",
+      "bytes": 3078,
+      "sha256": "3e7f2aa7d54112b5f8eda819100873f3135fe28a10d6519f3736a24c87abc25b"
+    },
+    {
+      "path": "docs/reference/evidence/legacy/foster-20260907/key-owner-evidence.json",
+      "bytes": 2385,
+      "sha256": "5104a0e5e392409c134f9cf0067fc5668bcddfde807d486347796396d122949f"
+    },
+    {
+      "path": "tests/fixtures/legacy/native-key-render-contract.glb",
+      "bytes": 29544,
+      "sha256": "9a1ccf20d75d05e300e0a8a63a963d8936d9ef5796147b7d41588ee74ca343ba"
+    },
+    {
+      "path": "docs/reference/evidence/legacy/foster-20260907/stand1-evidence.json",
+      "bytes": 11137,
+      "sha256": "9f90279c69c57b7b577fed04ef2f5f54fe7f997b0828c294bac9faf2fc15f3d0"
+    },
+    {
+      "path": "tools/native/restore-foster-key-animation.py",
+      "bytes": 4850,
+      "sha256": "21a6b15f61e9c26a79085893694074fdb07c15741425c548f3b9d57d55bc19dd"
+    },
+    {
+      "path": "work/cases/foster-20260907/key-source.json",
+      "bytes": 355885,
+      "sha256": "571fd32d19e0729f87eb6e69bd6cd845c9c7daa779558335d73d5533412fd288"
+    },
+    {
+      "path": "work/cases/foster-20260907/key-candidate/models/npc/npc_icekey.glb",
+      "bytes": 35396,
+      "sha256": "9491e41eb5d234f86e580392dcd0d56718f5fbe88ea8bb4f12eb60d0cc88e1c2"
+    },
+    {
+      "path": "../FFOneClient/target/performance/foster-20260907/key-smoke.json",
+      "bytes": 998,
+      "sha256": "6aac7502761431dea52b49111cb231dfe9c3012b0735405f11ae8fbe74ab2ac7"
+    },
+    {
+      "path": "../FFOneClient/target/performance/foster-20260907/key-gpu/characters/npcs/npc_key/npc_icekey.gpu.json",
+      "bytes": 1289,
+      "sha256": "1231d2dbc377845d7b9ff97f48633da5c8debc04dbd9eb6ff99b7b76a81a66b9"
+    },
+    {
+      "path": "../FFOneClient/target/performance/foster-20260907/key-silver-report.json",
+      "bytes": 3667,
+      "sha256": "0b77b59b17f87b3681bdabc246b5831fd5316b7183e68432235500bf4dc6a29d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "characters/npcs/npc_key/npc_icekey.glb",
+      "bytes": 34160,
+      "sha256": "b528112e580b1cd3bc78453e5777138bcea9d5d9b29db5afdf34437cecc23c19"
+    },
+    {
+      "path": "_runtime/characters.json",
+      "bytes": 254497,
+      "sha256": "f55bb8ba633d5835dd4f5a91595e11d9dfd63a5a49108e282a37eba118dda38e"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "preservedContract": "All existing mesh, node, material, image, texture, sampler, skin, scene, accessor and buffer-view values and original binary bytes preserved exactly. Only stand1 animation data appended; shared texture paths retained.",
+  "verification": [
+    {
+      "command": "restore-foster-key-animation.py repeated into replay.glb; byte comparison",
+      "result": "passed",
+      "evidence": null
+    },
+    {
+      "command": "fusionforge dump-object-evidence for GameObject 27118, Animation 27141 and AnimationClip 27143",
+      "result": "passed",
+      "evidence": "evidence/legacy/foster-20260907"
+    },
+    {
+      "command": "cargo test -p ffone-client --lib foster_ -- --nocapture",
+      "result": "passed: 2 tests",
+      "evidence": "../FFOneClient/target/performance/foster-20260907/regression-tests.txt"
+    },
+    {
+      "command": "ffone-client lib test executable world::tests::grounded_ --nocapture",
+      "result": "passed: 3 tests",
+      "evidence": "../FFOneClient/target/performance/foster-20260907/grounded-tests.txt"
+    },
+    {
+      "command": "cargo build -p ffone-client --bin ffone-client --example logical_model_gpu_preview",
+      "result": "passed (one unrelated unused CameraProjection import warning)",
+      "evidence": null
+    },
+    {
+      "command": "logical_model_gpu_preview --asset-root assets/game --model characters/npcs/npc_key/npc_icekey.glb --animation-name stand1 --character-kind npc --true-root npc_icekey --npc-scale 2 --evidence-root target/performance/foster-20260907/key-gpu --report target/performance/foster-20260907/key-gpu-report.json --runtime-smoke target/performance/foster-20260907/key-smoke.json --timeout 90",
+      "result": "passed: scene/dependencies loaded; 1 AnimationPlayer; 199 animation evaluation frames; 0 material/shader errors; midpoint GPU capture",
+      "evidence": "../FFOneClient/target/performance/foster-20260907/key-smoke.json"
+    },
+    {
+      "command": "logical_model_gpu_preview with --main-texture characters/shared/runtime-textures/npc_key_silver.png --screenshot target/performance/foster-20260907/key-silver.png --report target/performance/foster-20260907/key-silver-report.json (other model/animation arguments as above, without evidence-root/runtime-smoke)",
+      "result": "passed: live looping animation; 71 animation evaluation frames; 2 silver texture bindings; 0 material/shader errors; screenshot visually inspected",
+      "evidence": "../FFOneClient/target/performance/foster-20260907/key-silver-report.json"
+    }
+  ]
+}

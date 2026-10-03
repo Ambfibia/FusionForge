@@ -1,0 +1,108 @@
+{
+  "id": "npc-email-recovery-20260914",
+  "source": "primary",
+  "question": "Why does the native Guide Email folder omit active NPC letters and available Guide/Nano invitations?",
+  "managedEvidence": "work/cases/email-notice-20260912/assembly-csharp.evidence.json",
+  "artifacts": [
+    {
+      "path": "../builds/retrobution-20260821/main.unity3d",
+      "bytes": 8221718,
+      "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/Assembly-CSharp.dll",
+      "bytes": 1762816,
+      "sha256": "0f2513c2303cffc88c541a90b1b8fad1b73f60d5218830be72d0502533bf5792"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/cnEmailSystemManager.cs",
+      "bytes": 7660,
+      "sha256": "72066868460a23245d1a3bf051067867c3d1e3b2c9276f2db1b6d8c7adbd2810"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/Panel_EmailList.cs",
+      "bytes": 81901,
+      "sha256": "32de9ed992818eeaceb95c4ab12a8c903cd3e87c0aff7cab2bf9aacf31d73adb"
+    }
+  ],
+  "findings": [
+    "cnEmailSystemManager.AddEmail(MissionElement) admits active task letters only for start message types 4 or 6; their email mode is 1.",
+    "ReceiveRefreshEmailInfo adds active letters first, then the first available Guide and Nano invitation in table order, with email mode 2. Active or completed mission owners are excluded.",
+    "Panel_EmailList mode 1 uses the start-message sender and current start-message string; mode 2 uses the selected mentor sender and mentor-email string column.",
+    "The native implementation previously admitted only active task IDs with mentor copy, and incorrectly used the task type as email mode.",
+    "The native refresh also reset the selected row every frame even when the projected letters were identical."
+  ],
+  "nativeChanges": [
+    "Restore active NPC letter admission and available invitations using authoritative mission availability.",
+    "Use the same invitation selection for login mail/no-mail notification.",
+    "Bind NPC sender, mission title and letter body to existing EN/RU semantic keys.",
+    "Preserve selected mail when the projection is unchanged."
+  ],
+  "limits": [
+    "No Unity binary or native asset payload was changed. Existing native geometry and fonts are reused.",
+    "Live authenticated shard exchange was not exercised; the mail projection is client-owned and was tested against production tables and explicit in-memory progression."
+  ],
+  "validation": {
+    "runtimeTests": {
+      "passed": 14,
+      "log": "../FFOneClient/target/email-runtime-tests.log"
+    },
+    "productionHotkeyTests": {
+      "passed": 4,
+      "log": "../FFOneClient/target/email-hotkey-tests.log"
+    },
+    "localizedSubjectTests": {
+      "passed": 1,
+      "log": "../FFOneClient/target/email-subject-tests.log"
+    },
+    "priorUiAndTransportTests": {
+      "passed": 55,
+      "log": "../FFOneClient/target/email-library-tests.log"
+    },
+    "broaderLocalizationTests": {
+      "passed": 20,
+      "failed": 2,
+      "unrelatedFailures": [
+        "production_ui_updates_text_only_through_the_localization_apply_system: gm_runtime.rs binder ordering",
+        "production_appearance_nano_and_minimap_keys_resolve_in_both_languages: content.appearance.male.face.2.name"
+      ]
+    },
+    "nativeBuild": {
+      "command": "cargo build -p ffone-client --bin ffone-client",
+      "result": "success",
+      "log": "../FFOneClient/target/email-build-final.log"
+    },
+    "captures": [
+      {
+        "path": "../FFOneClient/target/performance/email-regression/en/npc-letter.png",
+        "bytes": 832426,
+        "sha256": "b516ed03a09ab010afc2cf073ed9ee8962d2a50db5a3b8debca64a0a704cbad7",
+        "review": "sender, subject, portrait and complete localized body visible; native 1920x1080 capture"
+      },
+      {
+        "path": "../FFOneClient/target/performance/email-regression/en/mentor-invitation.png",
+        "bytes": 869998,
+        "sha256": "b321f1168ff1b431bd925bf4af68cbab3f63de52884ce7a24d9755e548d10ede",
+        "review": "sender, subject, portrait and complete localized body visible; native 1920x1080 capture"
+      },
+      {
+        "path": "../FFOneClient/target/performance/email-regression/ru/npc-letter.png",
+        "bytes": 852554,
+        "sha256": "0d90b13fcb4e947509cb29c906a057e239702dfbbd9faf2f2f52e9fad3e44be5",
+        "review": "sender, subject, portrait and complete localized body visible; native 1920x1080 capture"
+      },
+      {
+        "path": "../FFOneClient/target/performance/email-regression/ru/mentor-invitation.png",
+        "bytes": 886491,
+        "sha256": "99713b76a90638d556acb4a970a71a1980ba7611db46f0be024932f721cbaa59",
+        "review": "sender, subject, portrait and complete localized body visible; native 1920x1080 capture"
+      }
+    ]
+  },
+  "fixtureNotes": [
+    "The production network error handler closes modal windows when the offline bridge rejects gameplay requests before shard entry. The mail fixture replays its in-memory authority and reopens via the production action. It must also reapply its requested invitation selection after those session resets.",
+    "Persistent selection without fixture intervention is covered by email_runtime::tests::unchanged_npc_mail_refresh_preserves_the_selected_letter_and_page.",
+    "Native capture does not claim a live authenticated shard exchange."
+  ],
+  "status": "native-regression-verified"
+}

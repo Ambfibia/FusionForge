@@ -1,0 +1,146 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "customassetbundle-b4f543c102ded400fbc6f1da25d9679a",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 2,
+      "filePath": "customassetbundle-b7afc5c36d0034850882d2aa88361576",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 3,
+      "filePath": "CustomAssetBundle-Retro_shared",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 4,
+      "filePath": "CustomAssetBundle-d496634eb571e4a8c82489c2e7fddf70",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 5,
+      "filePath": "CustomAssetBundle-bd5f53480423447d7bcaed95cb2a96c8",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 48,
+    "name": "",
+    "pathId": 168,
+    "rawBytes": 8440,
+    "rawSha256": "7eb3090530dd7b6f75dcb046723ad0f18f38ae065fc9769752e85647945c7bb7",
+    "serializedAsset": "CustomAssetBundle-574ca8c2fed89492582a3fbd49965c12",
+    "type": "Shader",
+    "typeId": 48,
+    "value": {
+      "m_DefaultProperties": {
+        "m_Colors": [
+          [
+            {
+              "name": "_Color"
+            },
+            {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            }
+          ],
+          [
+            {
+              "name": "_SpecColor"
+            },
+            {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            }
+          ],
+          [
+            {
+              "name": "_Emission"
+            },
+            {
+              "a": 0.0,
+              "b": 0.0,
+              "g": 0.0,
+              "r": 0.0
+            }
+          ]
+        ],
+        "m_Floats": [
+          [
+            {
+              "name": "_Shininess"
+            },
+            0.699999988079071
+          ]
+        ],
+        "m_TexEnvs": [
+          [
+            {
+              "name": "_MainTex"
+            },
+            {
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Texture": {
+                "fileId": 0,
+                "pathId": 0
+              }
+            }
+          ]
+        ]
+      },
+      "m_Name": "",
+      "m_PathName": "",
+      "m_Script": "Shader \"RetroLit\" {\nProperties {\n\t_Color (\"Main Color\", Color) = (1,1,1,1)\n\t_SpecColor (\"Spec Color\", Color) = (1,1,1,1)\n\t_Emission (\"Emissive Color\", Color) = (0,0,0,0)\n\t_Shininess (\"Shininess\", Range (0.01, 1)) = 0.7\n\t_MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n}\n\nSubShader {\n\tTags { \"RenderType\"=\"Opaque\" }\n\tLOD 100\n\t\n\t// Normal rendering pass\n\tPass {\n\t\tMaterial {\n\t\t\tDiffuse [_Color]\n\t\t\tAmbient [_Color]\n\t\t\tShininess [_Shininess]\n\t\t\tSpecular [_SpecColor]\n\t\t\tEmission [_Emission]\n\t\t} \n\t\tLighting On\n\t\tSeparateSpecular On\n\t\tSetTexture [_MainTex] {\n\t\t\tCombine texture * primary DOUBLE, texture * primary\n\t\t} \n\t}\n\t\n\t// Pass to render object as a shadow caster\n\tPass {\n\t\tName \"ShadowCaster\"\n\t\tTags { \"LightMode\" = \"ShadowCaster\" }\n\t\t\n\t\tFog {Mode Off}\n\t\tZWrite On ZTest Less Cull Off\n\t\tOffset [_ShadowBias], [_ShadowBiasSlope]\n\nProgram \"\" {\n// Vertex combos: 2\n//   opengl - ALU: 8 to 10\n//   d3d9 - ALU: 8 to 13\n// Fragment combos: 2\n//   opengl - ALU: 1 to 7, TEX: 0 to 0\n//   d3d9 - ALU: 4 to 8\nSubProgram \"opengl \" {\nKeywords { \"SHADOWS_NATIVE\" }\nBind \"vertex\", Vertex\nLocal 1, [_LightDirectionBias]\n\"!!ARBvp1.0\n# 10 ALU\nPARAM c[6] = { program.local[0..1],\n\t\tstate.matrix.mvp };\nTEMP R0;\nTEMP R1;\nMOV R0.w, vertex.position;\nMAD R0.xyz, c[1], c[1].w, vertex.position;\nDP4 R1.x, R0, c[5];\nDP4 R1.y, R0, c[4];\nSLT R1.z, R1.y, -R1.x;\nADD R1.w, -R1.x, -R1.y;\nMAD result.position.z, R1.w, R1, R1.y;\nMOV result.position.w, R1.x;\nDP4 result.position.y, R0, c[3];\nDP4 result.position.x, R0, c[2];\nEND\n# 10 instructions, 2 R-regs\n\"\n}\n\nSubProgram \"d3d9 \" {\nKeywords { \"SHADOWS_NATIVE\" }\nBind \"vertex\", Vertex\nLocal 4, [_LightDirectionBias]\nMatrix 0, [glstate_matrix_mvp]\n\"vs_1_1\n; 13 ALU\ndcl_position v0\ndef c5, 0.00000000, 1.00000000, 0, 0\nmov r1.w, v0\nmad r1.xyz, c4, c4.w, v0\ndp4 r0.x, r1, c2\nslt r0.y, r0.x, c5.x\nmax r0.y, -r0, r0\nslt r0.y, c5.x, r0\nadd r0.y, -r0, c5\nmul r0.z, r0.y, r0.x\ndp4 r0.w, r1, c3\ndp4 r0.x, r1, c0\ndp4 r0.y, r1, c1\nmov oPos, r0\nmov oT0, r0\n\"\n}\n\nSubProgram \"opengl \" {\nKeywords { \"SHADOWS_CUBE\" }\nBind \"vertex\", Vertex\nMatrix 1, [_Object2World]\nLocal 5, [_LightPositionRange]\n\"!!ARBvp1.0\n# 8 ALU\nPARAM c[10] = { program.local[0..5],\n\t\tstate.matrix.mvp };\nTEMP R0;\nDP4 R0.z, vertex.position, c[3];\nDP4 R0.x, vertex.position, c[1];\nDP4 R0.y, vertex.position, c[2];\nADD result.texcoord[0].xyz, R0, -c[5];\nDP4 result.position.w, vertex.position, c[9];\nDP4 result.position.z, vertex.position, c[8];\nDP4 result.position.y, vertex.position, c[7];\nDP4 result.position.x, vertex.position, c[6];\nEND\n# 8 instructions, 1 R-regs\n\"\n}\n\nSubProgram \"d3d9 \" {\nKeywords { \"SHADOWS_CUBE\" }\nBind \"vertex\", Vertex\nMatrix 0, [_Object2World]\nLocal 8, [_LightPositionRange]\nMatrix 4, [glstate_matrix_mvp]\n\"vs_1_1\n; 8 ALU\ndcl_position v0\ndp4 r0.z, v0, c2\ndp4 r0.x, v0, c0\ndp4 r0.y, v0, c1\nadd oT0.xyz, r0, -c8\ndp4 oPos.w, v0, c7\ndp4 oPos.z, v0, c6\ndp4 oPos.y, v0, c5\ndp4 oPos.x, v0, c4\n\"\n}\n\nSubProgram \"opengl \" {\nKeywords { \"SHADOWS_NATIVE\" }\n\"!!ARBfp1.0\nOPTION ARB_precision_hint_fastest;\n# 1 ALU, 0 TEX\nPARAM c[1] = { { 0 } };\nMOV result.color, c[0].x;\nEND\n# 1 instructions, 0 R-regs\n\"\n}\n\nSubProgram \"d3d9 \" {\nKeywords { \"SHADOWS_NATIVE\" }\n\"ps_2_0\n; 4 ALU\ndcl t0.xyzw\nrcp r0.x, t0.w\nmul r0.x, t0.z, r0\nmov r0, r0.x\nmov oC0, r0\n\"\n}\n\nSubProgram \"opengl \" {\nKeywords { \"SHADOWS_CUBE\" }\nLocal 0, [_LightPositionRange]\nLocal 1, [_RGBAEncodeDot]\nLocal 2, [_RGBAEncodeBias]\n\"!!ARBfp1.0\nOPTION ARB_precision_hint_fastest;\n# 7 ALU, 0 TEX\nPARAM c[3] = { program.local[0..2] };\nTEMP R0;\nDP3 R0.x, fragment.texcoord[0], fragment.texcoord[0];\nRSQ R0.x, R0.x;\nRCP R0.x, R0.x;\nMUL R0.x, R0, c[0].w;\nMUL R0, R0.x, c[1];\nFRC R0, R0;\nADD result.color, R0, c[2];\nEND\n# 7 instructions, 1 R-regs\n\"\n}\n\nSubProgram \"d3d9 \" {\nKeywords { \"SHADOWS_CUBE\" }\nLocal 0, [_LightPositionRange]\nLocal 1, [_RGBAEncodeDot]\nLocal 2, [_RGBAEncodeBias]\n\"ps_2_0\n; 8 ALU\ndcl t0.xyz\ndp3 r0.x, t0, t0\nrsq r0.x, r0.x\nrcp r0.x, r0.x\nmul r0.x, r0, c0.w\nmul r0, r0.x, c1\nfrc r0, r0\nadd r0, r0, c2\nmov oC0, r0\n\"\n}\n\n}\n#LINE 61\n\n\n\t}\n\t\n\t// Pass to render object as a shadow collector\n\tPass {\n\t\tName \"ShadowCollector\"\n\t\tTags { \"LightMode\" = \"ShadowCollector\" }\n\t\t\n\t\tFog {Mode Off}\n\t\tZWrite On ZTest Less\n\nProgram \"\" {\n// Vertex combos: 1\n//   opengl - ALU: 27 to 27\n//   d3d9 - ALU: 27 to 27\n// Fragment combos: 1\n//   opengl - ALU: 20 to 20, TEX: 1 to 1\n//   d3d9 - ALU: 22 to 22, TEX: 1 to 1\nSubProgram \"opengl \" {\nKeywords { }\nBind \"vertex\", ATTR0\nMatrix 1, [_Object2World]\nMatrix 5, [_World2Shadow]\nMatrix 9, [_World2Shadow1]\nMatrix 13, [_World2Shadow2]\nMatrix 17, [_World2Shadow3]\nLocal 21, [_LightShadowData]\n\"!!ARBvp1.0\n# 27 ALU\nPARAM c[30] = { program.local[0..21],\n\t\tstate.matrix.modelview[0],\n\t\tstate.matrix.mvp };\nTEMP R0;\nDP4 R0.x, vertex.attrib[0], c[1];\nDP4 R0.w, vertex.attrib[0], c[4];\nDP4 R0.z, vertex.attrib[0], c[3];\nDP4 R0.y, vertex.attrib[0], c[2];\nDP4 result.texcoord[0].w, R0, c[8];\nDP4 result.texcoord[0].z, R0, c[7];\nDP4 result.texcoord[0].y, R0, c[6];\nDP4 result.texcoord[0].x, R0, c[5];\nDP4 result.texcoord[1].w, R0, c[12];\nDP4 result.texcoord[1].z, R0, c[11];\nDP4 result.texcoord[1].y, R0, c[10];\nDP4 result.texcoord[1].x, R0, c[9];\nDP4 result.texcoord[2].w, R0, c[16];\nDP4 result.texcoord[2].z, R0, c[15];\nDP4 result.texcoord[2].y, R0, c[14];\nDP4 result.texcoord[2].x, R0, c[13];\nDP4 result.texcoord[3].w, R0, c[20];\nDP4 result.texcoord[3].z, R0, c[19];\nDP4 result.texcoord[3].y, R0, c[18];\nDP4 result.texcoord[3].x, R0, c[17];\nDP4 R0.x, vertex.attrib[0], c[24];\nDP4 result.position.w, vertex.attrib[0], c[29];\nDP4 result.position.z, vertex.attrib[0], c[28];\nDP4 result.position.y, vertex.attrib[0], c[27];\nDP4 result.position.x, vertex.attrib[0], c[26];\nMAD result.texcoord[4].y, -R0.x, c[21].z, c[21].w;\nMOV result.texcoord[4].x, -R0;\nEND\n# 27 instructions, 1 R-regs\n\"\n}\n\nSubProgram \"d3d9 \" {\nKeywords { }\nBind \"vertex\", Vertex\nMatrix 0, [_Object2World]\nMatrix 4, [_World2Shadow]\nMatrix 8, [_World2Shadow1]\nMatrix 12, [_World2Shadow2]\nMatrix 16, [_World2Shadow3]\nLocal 28, [_LightShadowData]\nMatrix 20, [glstate_matrix_modelview0]\nMatrix 24, [glstate_matrix_mvp]\n\"vs_1_1\n; 27 ALU\ndcl_position v0\ndp4 r0.x, v0, c0\ndp4 r0.w, v0, c3\ndp4 r0.z, v0, c2\ndp4 r0.y, v0, c1\ndp4 oT0.w, r0, c7\ndp4 oT0.z, r0, c6\ndp4 oT0.y, r0, c5\ndp4 oT0.x, r0, c4\ndp4 oT1.w, r0, c11\ndp4 oT1.z, r0, c10\ndp4 oT1.y, r0, c9\ndp4 oT1.x, r0, c8\ndp4 oT2.w, r0, c15\ndp4 oT2.z, r0, c14\ndp4 oT2.y, r0, c13\ndp4 oT2.x, r0, c12\ndp4 oT3.w, r0, c19\ndp4 oT3.z, r0, c18\ndp4 oT3.y, r0, c17\ndp4 oT3.x, r0, c16\ndp4 r0.x, v0, c22\ndp4 oPos.w, v0, c27\ndp4 oPos.z, v0, c26\ndp4 oPos.y, v0, c25\ndp4 oPos.x, v0, c24\nmad oT4.y, -r0.x, c28.z, c28.w\nmov oT4.x, -r0\n\"\n}\n\nSubProgram \"opengl \" {\nKeywords { }\nLocal 0, [_LightShadowData]\nLocal 1, [_LightSplitsNear]\nLocal 2, [_LightSplitsFar]\nSetTexture [_ShadowMapTexture] {2D}\n\"!!ARBfp1.0\nOPTION ARB_precision_hint_fastest;\n# 20 ALU, 1 TEX\nPARAM c[4] = { program.local[0..2],\n\t\t{ 1, 255 } };\nTEMP R0;\nTEMP R1;\nSLT R1, fragment.texcoord[4].x, c[2];\nSGE R0, fragment.texcoord[4].x, c[1];\nMUL R0, R0, R1;\nMUL R1, R0.y, fragment.texcoord[1];\nMAD R1, R0.x, fragment.texcoord[0], R1;\nMAD R1, R0.z, fragment.texcoord[2], R1;\nMAD R0, fragment.texcoord[3], R0.w, R1;\nMOV result.color.y, c[3].x;\nTXP R0.x, R0, texture[0], 2D;\nRCP R0.y, R0.w;\nMAD R0.x, -R0.z, R0.y, R0;\nMOV R0.w, c[3].x;\nCMP R0.x, R0, c[0], R0.w;\nMOV_SAT R0.y, fragment.texcoord[4];\nADD_SAT result.color.x, R0, R0.y;\nMUL R0.z, -fragment.texcoord[4].x, c[0].y;\nADD_SAT R0.x, R0.z, c[3];\nMUL R0.y, R0.x, c[3];\nMOV result.color.z, R0.x;\nFRC result.color.w, R0.y;\nEND\n# 20 instructions, 2 R-regs\n\"\n}\n\nSubProgram \"d3d9 \" {\nKeywords { }\nLocal 0, [_LightShadowData]\nLocal 1, [_LightSplitsNear]\nLocal 2, [_LightSplitsFar]\nSetTexture [_ShadowMapTexture] {2D}\n\"ps_2_0\n; 22 ALU, 1 TEX\ndcl_2d s0\ndef c3, 1.00000000, 0.00000000, 255.00000000, 0\ndcl t0\ndcl t1\ndcl t2\ndcl t3\ndcl t4.xy\nadd r1, t4.x, -c2\nadd r0, t4.x, -c1\ncmp r1, r1, c3.y, c3.x\ncmp r0, r0, c3.x, c3.y\nmul r0, r0, r1\nmul r1, r0.y, t1\nmad r1, r0.x, t0, r1\nmad r1, r0.z, t2, r1\nmad r0, t3, r0.w, r1\nrcp r2.x, r0.w\nmov_pp r2.y, c3.x\ntexldp r1, r0, s0\nmad r1.x, -r0.z, r2, r1\nmov r0.x, c0\ncmp r1.x, r1, c3, r0\nmul r0.x, -t4, c0.y\nadd_sat r0.x, r0, c3\nmov_sat r2.x, t4.y\nadd_sat r2.x, r1, r2\nmul_pp r1.x, r0, c3.z\nfrc_pp r2.w, r1.x\nmov_pp r2.z, r0.x\nmov_pp oC0, r2\n\"\n}\n\n}\n#LINE 100\n\n\n\t}\n}\n}\n",
+      "m_StaticProperties": {
+        "m_Colors": [],
+        "m_Floats": [],
+        "m_TexEnvs": []
+      }
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/m_DefaultProperties/m_TexEnvs/0/1/m_Texture",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 1316545,
+    "relativeContainer": "DongResources_10_07.resourceFile",
+    "sha256": "b3527b2661fef59a5cdaaab023e310929ee974d677e7f6b6bce25e1c1cd7cbdd"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

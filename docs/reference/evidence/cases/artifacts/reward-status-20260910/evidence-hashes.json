@@ -1,0 +1,17 @@
+[
+  {
+    "path": "docs/reference/evidence/cases/artifacts/reward-status-20260910/cnDisplayMapName.cs",
+    "bytes": 35976,
+    "sha256": "dd6a8cf6984b64d6ad1b5a249902165cb888c5511dd3d6a9c642ab770719fb01"
+  },
+  {
+    "path": "docs/reference/evidence/cases/artifacts/reward-status-20260910/interaction.json",
+    "bytes": 590358,
+    "sha256": "fc0312807458ec655c2fda63de2951778a05612d07e052b536b90e8d4c544fba"
+  },
+  {
+    "path": "docs/reference/evidence/cases/artifacts/reward-status-20260910/outputs.json",
+    "bytes": 2926,
+    "sha256": "c8799ddb4b81d8ec986365f8cd35ed290d03b5c83c8e16e20db26ff0ec10c156"
+  }
+]

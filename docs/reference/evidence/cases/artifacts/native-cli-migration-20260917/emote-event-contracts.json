@@ -1,0 +1,508 @@
+[
+  {
+    "clip": "Cry",
+    "end": 2.3500001430511475,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Sad0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Cry",
+    "end": 2.2833333015441895,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_Sad0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Angry",
+    "end": 1.0166666507720947,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Angry0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Angry",
+    "end": 1.0166666507720947,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_Angry0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Shocked",
+    "end": 1.4833333492279053,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Scared0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Shocked",
+    "end": 1.4833333492279053,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_Scared0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Hello",
+    "end": 2.4833333492279053,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Hello0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Hello",
+    "end": 2.4833333492279053,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_Hello0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Thank",
+    "end": 1.350000023841858,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Thanks0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Thank",
+    "end": 1.350000023841858,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_Thanks0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Dance1",
+    "end": 3.4833333492279053,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Dance01.wav"
+      ],
+      [
+        0.25,
+        "M_Avatar_SFX_Dance1_0(RAND:1-2).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Dance1",
+    "end": 3.883333206176758,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_Dance01.wav"
+      ],
+      [
+        0.25,
+        "F_Avatar_SFX_Dance1_0(RAND:1-2).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Kiss",
+    "end": 1.6166666746139526,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Love0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Kiss",
+    "end": 1.4833333492279053,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_Love0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Agree",
+    "end": 1.149999976158142,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Yes0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Agree",
+    "end": 1.149999976158142,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_Yes0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Laugh",
+    "end": 3.0833334922790527,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Laugh0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Laugh",
+    "end": 2.4166667461395264,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_Laugh0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "No",
+    "end": 1.4166667461395264,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_No0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "No",
+    "end": 1.4166667461395264,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_No0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Flex",
+    "end": 1.4833333492279053,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Flex0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Flex",
+    "end": 1.4833333492279053,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_Flex0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Tease",
+    "end": 2.4833333492279053,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Tease0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Tease",
+    "end": 2.4833333492279053,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_Tease0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Ok",
+    "end": 1.4166667461395264,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Yes0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Ok",
+    "end": 1.4166667461395264,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_Yes0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Applaud",
+    "end": 2.0166666507720947,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Applause.wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Applaud",
+    "end": 2.4166667461395264,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_Applause.wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Cheer",
+    "end": 1.283333420753479,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Happy0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Cheer",
+    "end": 0.9500000476837158,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_Happy0(RAND:1-3).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Dance2",
+    "end": 2.75,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Dance02.wav"
+      ],
+      [
+        0.25,
+        "M_Avatar_SFX_Dance2_0(RAND:1-2).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Dance2",
+    "end": 3.4166667461395264,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_SFX_Dance2_0(RAND:1-2).wav"
+      ],
+      [
+        0.25,
+        "F_Avatar_Dance02.wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Dance3",
+    "end": 2.75,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_Dance03.wav"
+      ],
+      [
+        0.25,
+        "M_Avatar_SFX_Dance3_0(RAND:1-2).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Dance3",
+    "end": 2.683333396911621,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_Dance03.wav"
+      ],
+      [
+        0.25,
+        "F_Avatar_SFX_Dance3_0(RAND:1-2).wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Dance4",
+    "end": 3.616666793823242,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_SFX_Dance4_0(RAND:1-2).wav"
+      ],
+      [
+        0.25,
+        "M_Avatar_Dance04.wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Dance4",
+    "end": 3.75,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_SFX_Dance4_0(RAND:1-2).wav"
+      ],
+      [
+        0.25,
+        "F_Avatar_Dance04.wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Dance5",
+    "end": 2.75,
+    "gender": "Male",
+    "sounds": [
+      [
+        0.25,
+        "M_Avatar_SFX_Dance5_0(RAND:1-2).wav"
+      ],
+      [
+        0.25,
+        "M_Avatar_Dance05.wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Dance5",
+    "end": 4.016666889190674,
+    "gender": "Female",
+    "sounds": [
+      [
+        0.25,
+        "F_Avatar_SFX_Dance5_0(RAND:1-2).wav"
+      ],
+      [
+        0.25,
+        "F_Avatar_Dance05.wav"
+      ]
+    ]
+  },
+  {
+    "clip": "Goodbye",
+    "end": 2.4833333492279053,
+    "gender": "Male",
+    "sounds": []
+  },
+  {
+    "clip": "Goodbye",
+    "end": 2.4833333492279053,
+    "gender": "Female",
+    "sounds": []
+  },
+  {
+    "clip": "Beach1",
+    "end": 2.950000047683716,
+    "gender": "Male",
+    "sounds": []
+  },
+  {
+    "clip": "Beach1",
+    "end": 2.950000047683716,
+    "gender": "Female",
+    "sounds": []
+  },
+  {
+    "clip": "Beach2",
+    "end": 2.950000047683716,
+    "gender": "Male",
+    "sounds": []
+  },
+  {
+    "clip": "Beach2",
+    "end": 2.950000047683716,
+    "gender": "Female",
+    "sounds": []
+  },
+  {
+    "clip": "Beach3",
+    "end": 2.950000047683716,
+    "gender": "Male",
+    "sounds": []
+  },
+  {
+    "clip": "Beach3",
+    "end": 2.950000047683716,
+    "gender": "Female",
+    "sounds": []
+  }
+]

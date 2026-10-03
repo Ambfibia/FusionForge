@@ -1,0 +1,166 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "parity-audit-20260905",
+  "question": "Which reported native failures are runtime defects versus reverse-engineering or validation defects, and can the five requested alternate NPC types be added without replacing or placing characters?",
+  "status": "partial",
+  "nativeConsumer": "FFOneClient: app resurrection context, UI startup, network NPC catalog, packaging",
+  "acceptance": [
+    "Strict raw primary evidence for recovered behavior",
+    "Native production resolver and state-machine tests",
+    "Exact binary replay and GPU texture/animation checks",
+    "Preserve original NPC identities and placement bytes"
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        {
+          "relativeContainer": "main.unity3d",
+          "bytes": 8221718,
+          "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+        },
+        {
+          "relativeContainer": "TableData.resourceFile",
+          "bytes": 802929,
+          "sha256": "bd8767c2d316f60a4b38de320794701b2391d7b40412020bdc1d17e88c7b7212"
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "evidenceArtifacts": [
+    {
+      "id": "managed-assembly",
+      "kind": "evidence",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/assembly-csharp.evidence.json",
+      "bytes": 1386,
+      "sha256": "7ca7adb09268d97f00ca3c494e36a822683aa3865a4ded5e56dbe25c4ab3c8c8",
+      "producer": {
+        "tool": "FFClientEditor / native validation",
+        "revision": "source hashes and revision in linked publication receipts",
+        "command": "fusionforge export-managed-assembly-evidence; use exact arguments recorded in artifact"
+      }
+    },
+    {
+      "id": "instance-respawn-test",
+      "kind": "test-output",
+      "path": "../FFOneClient/target/parity-resurrection-context.log",
+      "bytes": 815,
+      "sha256": "45dee4e3de00999157f247f8ef77a6e37b060428c600667dfe51407e4f145ac0",
+      "producer": {
+        "tool": "FFClientEditor / native validation",
+        "revision": "source hashes and revision in linked publication receipts",
+        "command": "cargo test -p ffone-client --bin ffone-client resurrection_context_allows_the_server_to_resolve_an_instance_respawn --locked"
+      }
+    },
+    {
+      "id": "winding-test",
+      "kind": "test-output",
+      "path": "work/legacy-sources/parity-audit-20260905/winding-final.log",
+      "bytes": 3976,
+      "sha256": "b2441751047bf14813679b2770517027f14b8b83547a59f0facb39b6ac953c83",
+      "producer": {
+        "tool": "FFClientEditor / native validation",
+        "revision": "source hashes and revision in linked publication receipts",
+        "command": "cargo test -p ffone-asset-pipeline --lib winding_uses_the_persisted_f32_geometry --locked"
+      }
+    },
+    {
+      "id": "model-publisher-tests",
+      "kind": "test-output",
+      "path": "work/legacy-sources/parity-audit-20260905/model-publisher-tests-final.log",
+      "bytes": 9227,
+      "sha256": "79b48e6323f747692198697312031276f00f368fc6d48987d6055a7194acf177",
+      "producer": {
+        "tool": "FFClientEditor / native validation",
+        "revision": "source hashes and revision in linked publication receipts",
+        "command": "cargo test -p ffone-asset-pipeline --lib logical_model_publish --locked"
+      }
+    },
+    {
+      "id": "native-type-contract",
+      "kind": "evidence",
+      "path": "docs/reference/evidence/cases/artifacts/omniverse-types-20260905.json",
+      "bytes": 2523,
+      "sha256": "4cea0cb567334e31280f63a568419f9f5737f31f530740df31caabdb88ff3bc8",
+      "producer": {
+        "tool": "FFClientEditor / native validation",
+        "revision": "source hashes and revision in linked publication receipts",
+        "command": "python tools/legacy-sources/publish-omniverse-npcs.py; declared types-only replay in publication receipts"
+      }
+    },
+    {
+      "id": "source-census",
+      "kind": "evidence",
+      "path": "work/legacy-sources/parity-audit-20260905/census-after.json",
+      "bytes": 4935,
+      "sha256": "9449661fa8a0e1f7e86f3c84545517ab25224639e0ec7df65c45eb10a402f15d",
+      "producer": {
+        "tool": "FFClientEditor / native validation",
+        "revision": "source hashes and revision in linked publication receipts",
+        "command": "python tools/legacy-sources/asset-census.py"
+      }
+    },
+    {
+      "id": "full-assets",
+      "kind": "test-output",
+      "path": "../FFOneClient/target/parity-full-assets-v2.log",
+      "bytes": 387,
+      "sha256": "df55a785bacccf47e93db96e1a1ab754356db523d2598735cf3b15c1546cf166",
+      "producer": {
+        "tool": "FFClientEditor / native validation",
+        "revision": "source hashes and revision in linked publication receipts",
+        "command": "cargo run -p xtask -- assets --source assets/game --full"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "Rejecting every nonzero map prevents the client from requesting shard-owned respawn.",
+      "state": "proven",
+      "evidence": [
+        "managed-assembly",
+        "instance-respawn-test"
+      ],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "The Ben GLB triangle is rejected because the pre-serialization winding audit uses different precision from the final vertex buffer.",
+      "state": "proven",
+      "evidence": [
+        "winding-test",
+        "model-publisher-tests"
+      ],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "All items in the original gameplay bug list are fixed.",
+      "state": "unresolved",
+      "evidence": [],
+      "rejectedBecause": null
+    }
+  ],
+  "differences": [
+    {
+      "classification": "patched extension",
+      "description": "Five independent NPC types; no world placements; original characters and guide/service ownership retained."
+    },
+    {
+      "classification": "conversion artifact",
+      "description": "Ben triangle f32 winding and exact-case character alias repair."
+    }
+  ],
+  "conclusion": "Accepted bounded fixes and additive NPC definitions; the full gameplay parity backlog remains open. See parity-audit-20260905.md.",
+  "nativeContract": "No legacy runtime dependency or source IDs in new native definitions; language keys EN/RU agree; placement files untouched.",
+  "verification": [
+    {
+      "result": "passed",
+      "scope": "new NPC production routes, localized bundles, packaging, GPU load and deterministic publication replay"
+    },
+    {
+      "result": "incomplete",
+      "scope": "full client suite retains 39 baseline failures; server gameplay and primary golden visual comparison remain open"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "chat-large-emote-primary-20260821",
+  "status": "accepted",
+  "supersedes": [],
+  "target": { "alias": "ffone" },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "Tutorial.resourceFile",
+    "containerBytes": 33327638,
+    "containerSha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916",
+    "objects": [
+      { "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a", "type": "Texture2D", "pathId": 190, "fileId": 0, "containerRoute": "tutorialassets/emotechaticon/helloicon.png", "trueName": "helloIcon" },
+      { "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a", "type": "Texture2D", "pathId": 6, "fileId": 0, "containerRoute": "tutorialassets/emotechaticon/goodbyeicon.png", "trueName": "goodbyeIcon" },
+      { "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a", "type": "Texture2D", "pathId": 343, "fileId": 0, "containerRoute": "tutorialassets/emotechaticon/laughicon.png", "trueName": "laughIcon" }
+    ]
+  },
+  "transform": {
+    "kind": "exact-texture-decode",
+    "tool": "fusionforge export-exact-texture",
+    "workingDirectory": ".",
+    "commands": [
+      "target-build\\debug\\ff-client-editor.exe fusionforge export-exact-texture ..\\builds\\retrobution-20260821\\Tutorial.resourceFile 190 work\\projects\\retrobution-ui-20260821.ffclient\\reports\\chat-ui-primary\\emote-icons\\hello.json",
+      "target-build\\debug\\ff-client-editor.exe fusionforge export-exact-texture ..\\builds\\retrobution-20260821\\Tutorial.resourceFile 6 work\\projects\\retrobution-ui-20260821.ffclient\\reports\\chat-ui-primary\\emote-icons\\goodbye.json",
+      "target-build\\debug\\ff-client-editor.exe fusionforge export-exact-texture ..\\builds\\retrobution-20260821\\Tutorial.resourceFile 343 work\\projects\\retrobution-ui-20260821.ffclient\\reports\\chat-ui-primary\\emote-icons\\laugh.json"
+    ]
+  },
+  "inputs": [
+    { "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-primary/emote-icons/hello.json", "bytes": 4133, "sha256": "05d97270a90d0c02826fa0981e5c1e3c0a251ac3482a89146e91b073bc448706" },
+    { "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-primary/emote-icons/goodbye.json", "bytes": 4113, "sha256": "1dd0428c93cdb2a0db4b7352ee4d462371c4d93503c5931a6807fba906a76159" },
+    { "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-primary/emote-icons/laugh.json", "bytes": 4261, "sha256": "2f768b05062ab20785695ed662e512536fd64830ed9a8da7b550fae74b106105" }
+  ],
+  "outputs": [
+    { "path": "assets/game/ui/gameplay/chat/emotes/hello.png", "bytes": 343, "sha256": "65ae72411f898c2270b82f1831d197e334c56893ee08f701c419b4fc838ffad8" },
+    { "path": "assets/game/ui/gameplay/chat/emotes/goodbye.png", "bytes": 337, "sha256": "f4dc1431b9757517f4f2f0a76ce8be0d1593521b0df8c91b8f0b3e7caee25b9a" },
+    { "path": "assets/game/ui/gameplay/chat/emotes/laugh.png", "bytes": 393, "sha256": "98f9cbaec8eca031a04bdec367770d52fbef7211728bd578d57312ae3425ce01" }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    { "command": "cargo test -p ffone-client chat_textures_match_the_primary_path_id_contracts", "result": "passed", "evidence": "runtime hashes every published quick-chat/emote texture" }
+  ]
+}

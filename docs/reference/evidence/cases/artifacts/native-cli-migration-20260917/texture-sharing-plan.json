@@ -1,0 +1,44 @@
+{
+  "applied": false,
+  "chainGroups": 2,
+  "deletions": [
+    {
+      "path": "characters/mobs/npc_deedee2/npc_deedee2.textures/npc_deedee_face_normal.png",
+      "sha256": "88d2bf799afcaf7df405e576f759540cdbe79b878ca16b9548b6750a1c8ff1e9"
+    },
+    {
+      "path": "characters/npcs/npc_deedee2/npc_deedee2.textures/npc_deedee_face_normal.png",
+      "sha256": "88d2bf799afcaf7df405e576f759540cdbe79b878ca16b9548b6750a1c8ff1e9"
+    },
+    {
+      "path": "characters/npcs/omniverse_albedo/npc_albedo.textures/ToonRamp9.png",
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "characters/npcs/omniverse_ben/npc_bentennyson.textures/ToonRamp9.png",
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "characters/npcs/omniverse_gwen/npc_gwen1.textures/ToonRamp9.png",
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "characters/npcs/omniverse_kevin/npc_kevinlevin.textures/ToonRamp9.png",
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "characters/npcs/omniverse_max/npc_max.textures/ToonRamp9.png",
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    }
+  ],
+  "redirects": {
+    "characters/mobs/npc_deedee2/npc_deedee2.textures/npc_deedee_face_normal.png": "characters/shared/textures/npc_deedee_face_normal.png",
+    "characters/npcs/npc_deedee2/npc_deedee2.textures/npc_deedee_face_normal.png": "characters/shared/textures/npc_deedee_face_normal.png",
+    "characters/npcs/omniverse_albedo/npc_albedo.textures/ToonRamp9.png": "characters/npcs/shared/textures/toonramp9.png",
+    "characters/npcs/omniverse_ben/npc_bentennyson.textures/ToonRamp9.png": "characters/npcs/shared/textures/toonramp9.png",
+    "characters/npcs/omniverse_gwen/npc_gwen1.textures/ToonRamp9.png": "characters/npcs/shared/textures/toonramp9.png",
+    "characters/npcs/omniverse_kevin/npc_kevinlevin.textures/ToonRamp9.png": "characters/npcs/shared/textures/toonramp9.png",
+    "characters/npcs/omniverse_max/npc_max.textures/ToonRamp9.png": "characters/npcs/shared/textures/toonramp9.png"
+  },
+  "schema": "fusionforge.native-texture-sharing.v2"
+}

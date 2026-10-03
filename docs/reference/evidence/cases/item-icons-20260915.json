@@ -1,0 +1,36 @@
+{
+  "schema": "fusionforge.item-icon-recovery-evidence.v1",
+  "id": "item-icons-20260915",
+  "scope": "All 6427 nonempty inventory item rows; native item IDs, tables, appearance and preexisting icons unchanged.",
+  "finding": "192 missing icon routes belong to primary Retro_shared. Canonical classId 28 was incorrectly rejected when type-tree id 27 displayed Texture. Six additional missing routes are primary Icons, six are Academy donor icons.",
+  "nativeBehavior": "Email rendering preserves item identity with optional artwork. Mail opening/refresh no longer depends on icons. Trade metadata and attachment authorization remain required.",
+  "primarySharedTextureEvidence": "work/cases/item-icons-20260915/shared-texture.json",
+  "donorValidation": "The six Academy donor items match native item names and exact (iconType, iconNumber): Birthday Candle Hat, Nanomech Head, Birthday Party Hat, Gangreen Gang Autographed Jacket, Ship Arm Cannon, Bobo Haha's Big Gun.",
+  "tableEvidence": [
+    {
+      "alias": "primary",
+      "container": "TableData.resourceFile",
+      "bytes": 802929,
+      "sha256": "bd8767c2d316f60a4b38de320794701b2391d7b40412020bdc1d17e88c7b7212",
+      "pathId": 7,
+      "dump": "work/cases/item-icons-20260915/primary-xdt.json",
+      "dumpSha256": "f30b33d768750a3a00a653c4aef65a94ac442c607a3664d4374c276b97fbd2d2",
+      "serializedAsset": "CustomAssetBundle-1dca92eecee4742d985b799d8226666d",
+      "type": "MonoBehaviour"
+    },
+    {
+      "alias": "alternate",
+      "container": "TableData.resourceFile",
+      "bytes": 751481,
+      "sha256": "d724c9417de5ff35e9bdb7bdfcf9bb93b4c8f715f42623fa2e1834d835be60a5",
+      "pathId": 2139558964,
+      "dump": "work/cases/item-icons-20260915/alternate-xdt.json",
+      "dumpSha256": "ee0d2ca4b988ff60d1267d962674eae7d022e5ea04b9f057559d44079fa5066a",
+      "serializedAsset": "CustomAssetBundle-TableData",
+      "type": "MonoBehaviour",
+      "rawObjectSha256": "b537132f88d84fbfc0238eba8b5a46fcdc3dc7732a0174a27a0c9958fc4fcde5",
+      "evidence": "work/cases/item-icons-20260915/alternate-table-evidence.json"
+    }
+  ],
+  "receipt": "recipes/native/icons/item-icons-restored-20260915.receipt.json"
+}

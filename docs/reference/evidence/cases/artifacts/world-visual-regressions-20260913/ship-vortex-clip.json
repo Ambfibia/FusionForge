@@ -1,0 +1,440 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "customassetbundle-b4f543c102ded400fbc6f1da25d9679a",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 2,
+      "filePath": "customassetbundle-755e8d758154e4b5cb1ee36c6cdedc63",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 3,
+      "filePath": "customassetbundle-bd5f53480423447d7bcaed95cb2a96c8",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 4,
+      "filePath": "customassetbundle-fa9dbcf4604f64024b06ff1d5e375918",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 5,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 6,
+      "filePath": "customassetbundle-d304c52c4bae348e38c743762c1bd818",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 74,
+    "name": "nif-default",
+    "pathId": 183,
+    "rawBytes": 1832,
+    "rawSha256": "804c306ee659b19a70e68d3d8d514a10b2c0fb52dd21b09ebb6f2b8483f473ea",
+    "serializedAsset": "CustomAssetBundle-b35a71b799a32429bbe08591cf8fa254",
+    "type": "AnimationClip",
+    "typeId": 74,
+    "value": {
+      "m_CompressedRotationCurves": [
+        {
+          "m_Path": "Cylinder05",
+          "m_PostInfinity": 1,
+          "m_PreInfinity": 1,
+          "m_Slopes": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "IPCDIuCLtTLX/vf59azUog+IC14sgHkBg/MOVdBXHOBzHeB3",
+              "bytes": 36
+            },
+            "m_NumItems": 48,
+            "m_Range": 4.434772491455078,
+            "m_Start": -2.2173867225646973
+          },
+          "m_Times": {
+            "m_BitSize": 5,
+            "m_Data": {
+              "base64": "YFx8L773ngE=",
+              "bytes": 8
+            },
+            "m_NumItems": 12
+          },
+          "m_Values": {
+            "m_Data": {
+              "base64": "/PffJWRXYiZtiHBD/W/2f42XcLybnV2Ji0ytSlYSbJJW6mZSvPlYKpSYXSb8998l",
+              "bytes": 48
+            },
+            "m_NumItems": 12
+          }
+        },
+        {
+          "m_Path": "Cylinder06",
+          "m_PostInfinity": 1,
+          "m_PreInfinity": 1,
+          "m_Slopes": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "HfB3HNBziDIjgOcByKwgVw9cWQ9k",
+              "bytes": 21
+            },
+            "m_NumItems": 28,
+            "m_Range": 4.434771537780762,
+            "m_Start": -2.2173869609832764
+          },
+          "m_Times": {
+            "m_BitSize": 5,
+            "m_Data": {
+              "base64": "YFx86QA=",
+              "bytes": 5
+            },
+            "m_NumItems": 7
+          },
+          "m_Values": {
+            "m_Data": {
+              "base64": "m/3ff5udXYmNl3C8/W/2f22IcEPMpuQnZFdiJg==",
+              "bytes": 28
+            },
+            "m_NumItems": 7
+          }
+        },
+        {
+          "m_Path": "Cylinder07",
+          "m_PostInfinity": 1,
+          "m_PreInfinity": 1,
+          "m_Slopes": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "H9B/I9CPtjLbvef19qzYYw+Mjj44AEoBgqQKkLBDHdB3HfB3",
+              "bytes": 36
+            },
+            "m_NumItems": 48,
+            "m_Range": 3.328742027282715,
+            "m_Start": -1.6643716096878052
+          },
+          "m_Times": {
+            "m_BitSize": 5,
+            "m_Data": {
+              "base64": "wHjvvffexwE=",
+              "bytes": 8
+            },
+            "m_NumItems": 12
+          },
+          "m_Values": {
+            "m_Data": {
+              "base64": "/PffJRSHoyadCPFE/W/2f1UXsbqLbRyOy8yrUH7T6puui2ldjLqVL2w43iX8998l",
+              "bytes": 48
+            },
+            "m_NumItems": 12
+          }
+        },
+        {
+          "m_Path": "Cylinder08",
+          "m_PostInfinity": 1,
+          "m_PreInfinity": 1,
+          "m_Slopes": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "IPCDJ9CfuQPnPqn5823MnQ90SI0gQNgBhjIbGuBrHuB7",
+              "bytes": 33
+            },
+            "m_NumItems": 44,
+            "m_Range": 2.220423936843872,
+            "m_Start": -1.1102123260498047
+          },
+          "m_Times": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "APS+7uu+r6sA",
+              "bytes": 9
+            },
+            "m_NumItems": 11
+          },
+          "m_Values": {
+            "m_Data": {
+              "base64": "/PffJYTWJSnSCRpOxTE2jlu80bibLSF79vffv5YQbYTeyOJG3GicJvz33yU=",
+              "bytes": 44
+            },
+            "m_NumItems": 11
+          }
+        },
+        {
+          "m_Path": "Cylinder09",
+          "m_PostInfinity": 1,
+          "m_PreInfinity": 1,
+          "m_Slopes": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "78C/bNCzGPBjxkIbQBcCBPwQiI0gC24s",
+              "bytes": 24
+            },
+            "m_NumItems": 32,
+            "m_Range": 8.682422637939453,
+            "m_Start": -4.398347854614258
+          },
+          "m_Times": {
+            "m_BitSize": 4,
+            "m_Data": {
+              "base64": "MKqqQw==",
+              "bytes": 4
+            },
+            "m_NumItems": 8
+          },
+          "m_Values": {
+            "m_Data": {
+              "base64": "m7zsTDONqF1znVqVTTdxutVwtoYNKnNQKkgfQcy0bDU=",
+              "bytes": 32
+            },
+            "m_NumItems": 8
+          }
+        },
+        {
+          "m_Path": "Cylinder10",
+          "m_PostInfinity": 1,
+          "m_PreInfinity": 1,
+          "m_Slopes": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "s4HPNWLXPlb6fBvx7j642w9siI0gQIkBQtQK0LBDI+CPrcC377C/",
+              "bytes": 39
+            },
+            "m_NumItems": 52,
+            "m_Range": 6.583893299102783,
+            "m_Start": -3.2919459342956543
+          },
+          "m_Times": {
+            "m_BitSize": 4,
+            "m_Data": {
+              "base64": "MO3d3u19Aw==",
+              "bytes": 7
+            },
+            "m_NumItems": 13
+          },
+          "m_Values": {
+            "m_Data": {
+              "base64": "zLRsNRx0rz7lDTZvzVR0pusMVauT3SJ0G3zvQRHSiZAuy2hZtAqVMETXYiaUlSkuzLRsNQ==",
+              "bytes": 52
+            },
+            "m_NumItems": 13
+          }
+        },
+        {
+          "m_Path": "Cylinder11",
+          "m_PostInfinity": 1,
+          "m_PreInfinity": 1,
+          "m_Slopes": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "MYHHcnHLfTb+OczkZQ+Uzh44QDoBgKQCULBDJ9CfbrC776C/",
+              "bytes": 36
+            },
+            "m_NumItems": 48,
+            "m_Range": 4.3509674072265625,
+            "m_Start": -2.1538357734680176
+          },
+          "m_Times": {
+            "m_BitSize": 5,
+            "m_Data": {
+              "base64": "YFx8L773ngE=",
+              "bytes": 8
+            },
+            "m_NumItems": 12
+          },
+          "m_Values": {
+            "m_Data": {
+              "base64": "zLRsNVSUbjt1TrZzXXbysnOdWpXzrOpUznNqnraraV1sKtYuZEYmKUylajDMtGw1",
+              "bytes": 48
+            },
+            "m_NumItems": 12
+          }
+        },
+        {
+          "m_Path": "Cylinder12",
+          "m_PostInfinity": 1,
+          "m_PreInfinity": 1,
+          "m_Slopes": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "83HPdkLb/Tb+evvoLC+wWQ9kCJ0gwLgBwtMKkMBDJNCTJ9Cf",
+              "bytes": 36
+            },
+            "m_NumItems": 48,
+            "m_Range": 8.740379333496094,
+            "m_Start": -4.370189666748047
+          },
+          "m_Times": {
+            "m_BitSize": 4,
+            "m_Data": {
+              "base64": "MKqquao6",
+              "bytes": 6
+            },
+            "m_NumItems": 12
+          },
+          "m_Values": {
+            "m_Data": {
+              "base64": "zLRsNSpIH0F1TrZzVdWzqhMtFqeL/eNvzndgvoaR7IuequdUbCrWLvz2IyfUhWgs",
+              "bytes": 48
+            },
+            "m_NumItems": 12
+          }
+        },
+        {
+          "m_Path": "Cylinder13",
+          "m_PostInfinity": 1,
+          "m_PreInfinity": 1,
+          "m_Slopes": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "TaE3i5EvgEYCROwQ1w9cqw+sbC+w",
+              "bytes": 21
+            },
+            "m_NumItems": 28,
+            "m_Range": 4.319490432739258,
+            "m_Start": -2.1853578090667725
+          },
+          "m_Times": {
+            "m_BitSize": 5,
+            "m_Data": {
+              "base64": "YFx86QA=",
+              "bytes": 5
+            },
+            "m_NumItems": 7
+          },
+          "m_Values": {
+            "m_Data": {
+              "base64": "w+wTsGv80bflMTaP9QmzT3QWJim3wqdgfPoVLw==",
+              "bytes": 28
+            },
+            "m_NumItems": 7
+          }
+        },
+        {
+          "m_Path": "Cylinder14",
+          "m_PostInfinity": 1,
+          "m_PreInfinity": 1,
+          "m_Slopes": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "0KBD0KBDZ9CfugPrPqn5M17M3Q90SJ0gAOgBxzIfS4EvDJEz",
+              "bytes": 36
+            },
+            "m_NumItems": 48,
+            "m_Range": 4.428318500518799,
+            "m_Start": -2.21567964553833
+          },
+          "m_Times": {
+            "m_BitSize": 5,
+            "m_Data": {
+              "base64": "YFx8L773ngE=",
+              "bytes": 8
+            },
+            "m_NumItems": 12
+          },
+          "m_Values": {
+            "m_Data": {
+              "base64": "/OrTM3z6FS90FiYp9QmzT+UxNo9r/NG3m33hednXz75u8GyDxojiRXz7ETn86tMz",
+              "bytes": 48
+            },
+            "m_NumItems": 12
+          }
+        },
+        {
+          "m_Path": "Cylinder15",
+          "m_PostInfinity": 1,
+          "m_PreInfinity": 1,
+          "m_Slopes": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "z7A/FuBbrMCzvMTyvlr57y681w9chMwQACcCyXEnDKEz",
+              "bytes": 33
+            },
+            "m_NumItems": 44,
+            "m_Range": 2.185361862182617,
+            "m_Start": -1.1025233268737793
+          },
+          "m_Times": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "APS+7uu+r6sA",
+              "bytes": 9
+            },
+            "m_NumItems": 11
+          },
+          "m_Values": {
+            "m_Data": {
+              "base64": "/OrTM6RJ2SmcZekthYs0XJ1T9Zzr7BSse/3ka4a25LOmzux0tAsRPPzq0zM=",
+              "bytes": 44
+            },
+            "m_NumItems": 11
+          }
+        },
+        {
+          "m_Path": "Cylinder16",
+          "m_PostInfinity": 1,
+          "m_PreInfinity": 1,
+          "m_Slopes": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "D5E/UsBLaNCjuQPn/pj5833M3w98yn0owJgBxPMSS4EvDIEz",
+              "bytes": 36
+            },
+            "m_NumItems": 48,
+            "m_Range": 3.3284518718719482,
+            "m_Start": -1.6642253398895264
+          },
+          "m_Times": {
+            "m_BitSize": 5,
+            "m_Data": {
+              "base64": "wHjvvffexwE=",
+              "bytes": 8
+            },
+            "m_NumItems": 12
+          },
+          "m_Values": {
+            "m_Data": {
+              "base64": "/OrTMzQKFy1MpuYp9QmzT51R9ow7DFG7m60fgVNsLkbmceyONqpmUVx7kjf86tMz",
+              "bytes": 48
+            },
+            "m_NumItems": 12
+          }
+        }
+      ],
+      "m_Events": [],
+      "m_FloatCurves": [],
+      "m_Name": "nif-default",
+      "m_PositionCurves": [],
+      "m_RotationCurves": [],
+      "m_SampleRate": 30.0,
+      "m_ScaleCurves": [],
+      "m_UseCompression": true
+    }
+  },
+  "pointers": [],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 4417951,
+    "relativeContainer": "DongResources_12_10.resourceFile",
+    "sha256": "8a3606b22a4f044789caaa111c111eafb1f5566a2632352c545886a5d3d3368e"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

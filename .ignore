@@ -1,0 +1,20 @@
+# Scope broad ripgrep searches to maintained implementation and current contracts.
+# For an excluded area use: rg --no-ignore -n <pattern> <exact-file-or-directory>
+# These are search filters, not Git exclusions or build/test exclusions.
+/target/
+/vendor/
+/assets/
+/Cargo.lock
+/recipes/
+/docs/legacy/
+/docs/reference/
+**/fixtures/
+**/tests/
+**/tests.rs
+**/*_tests.rs
+**/test/
+**/test.rs
+**/examples/
+/REFACTOR-NOTES.md
+
+__pycache__/

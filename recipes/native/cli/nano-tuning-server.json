@@ -1,0 +1,858 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "nano-tuning-server",
+  "sources": [
+    {
+      "alias": "alternate",
+      "path": "TableData.resourceFile",
+      "sha256": "d724c9417de5ff35e9bdb7bdfcf9bb93b4c8f715f42623fa2e1834d835be60a5",
+      "bytes": 751481
+    }
+  ],
+  "steps": [
+    {
+      "operation": "json-patch",
+      "output": "xdt.json",
+      "edits": [
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/51/m_iTune",
+          "before": [
+            237,
+            238,
+            239
+          ],
+          "after": [
+            237,
+            238,
+            239
+          ]
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillIconData/5",
+          "before": {
+            "m_iIconNumber": 4,
+            "m_iIconType": 2
+          },
+          "after": {
+            "m_iIconNumber": 4,
+            "m_iIconType": 2
+          }
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/111/m_iTuneNumber",
+          "before": 1,
+          "after": 111
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/112/m_iTuneNumber",
+          "before": 1,
+          "after": 112
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/113/m_iTuneNumber",
+          "before": 1,
+          "after": 113
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/114/m_iTuneNumber",
+          "before": 1,
+          "after": 114
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/115/m_iTuneNumber",
+          "before": 1,
+          "after": 115
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/116/m_iTuneNumber",
+          "before": 1,
+          "after": 116
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/117/m_iTuneNumber",
+          "before": 1,
+          "after": 117
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/118/m_iTuneNumber",
+          "before": 1,
+          "after": 118
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/119/m_iTuneNumber",
+          "before": 1,
+          "after": 119
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/120/m_iTuneNumber",
+          "before": 1,
+          "after": 120
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/121/m_iTuneNumber",
+          "before": 1,
+          "after": 121
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/122/m_iTuneNumber",
+          "before": 1,
+          "after": 122
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/123/m_iTuneNumber",
+          "before": 1,
+          "after": 123
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/124/m_iTuneNumber",
+          "before": 1,
+          "after": 124
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/125/m_iTuneNumber",
+          "before": 1,
+          "after": 125
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/126/m_iTuneNumber",
+          "before": 1,
+          "after": 126
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/127/m_iTuneNumber",
+          "before": 1,
+          "after": 127
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/128/m_iTuneNumber",
+          "before": 1,
+          "after": 128
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/129/m_iTuneNumber",
+          "before": 1,
+          "after": 129
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/130/m_iTuneNumber",
+          "before": 1,
+          "after": 130
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/131/m_iTuneNumber",
+          "before": 1,
+          "after": 131
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/132/m_iTuneNumber",
+          "before": 1,
+          "after": 132
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/133/m_iTuneNumber",
+          "before": 1,
+          "after": 133
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/134/m_iTuneNumber",
+          "before": 1,
+          "after": 134
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/135/m_iTuneNumber",
+          "before": 1,
+          "after": 135
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/136/m_iTuneNumber",
+          "before": 1,
+          "after": 136
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/137/m_iTuneNumber",
+          "before": 1,
+          "after": 137
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/138/m_iTuneNumber",
+          "before": 1,
+          "after": 138
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/139/m_iTuneNumber",
+          "before": 1,
+          "after": 139
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/140/m_iTuneNumber",
+          "before": 1,
+          "after": 140
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/141/m_iTuneNumber",
+          "before": 1,
+          "after": 141
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/142/m_iTuneNumber",
+          "before": 1,
+          "after": 142
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/143/m_iTuneNumber",
+          "before": 1,
+          "after": 143
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/144/m_iTuneNumber",
+          "before": 1,
+          "after": 144
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/145/m_iTuneNumber",
+          "before": 1,
+          "after": 145
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/146/m_iTuneNumber",
+          "before": 1,
+          "after": 146
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/147/m_iTuneNumber",
+          "before": 1,
+          "after": 147
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/148/m_iTuneNumber",
+          "before": 1,
+          "after": 148
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/149/m_iTuneNumber",
+          "before": 1,
+          "after": 149
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/150/m_iTuneNumber",
+          "before": 1,
+          "after": 150
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/151/m_iTuneNumber",
+          "before": 1,
+          "after": 151
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/152/m_iTuneNumber",
+          "before": 1,
+          "after": 152
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/153/m_iTuneNumber",
+          "before": 1,
+          "after": 153
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/154/m_iTuneNumber",
+          "before": 1,
+          "after": 154
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/155/m_iTuneNumber",
+          "before": 1,
+          "after": 155
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/156/m_iTuneNumber",
+          "before": 1,
+          "after": 156
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/157/m_iTuneNumber",
+          "before": 1,
+          "after": 157
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/158/m_iTuneNumber",
+          "before": 1,
+          "after": 158
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/159/m_iTuneNumber",
+          "before": 1,
+          "after": 159
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/160/m_iTuneNumber",
+          "before": 1,
+          "after": 160
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/161/m_iTuneNumber",
+          "before": 1,
+          "after": 161
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/162/m_iTuneNumber",
+          "before": 1,
+          "after": 162
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/163/m_iTuneNumber",
+          "before": 1,
+          "after": 163
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/164/m_iTuneNumber",
+          "before": 1,
+          "after": 164
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/165/m_iTuneNumber",
+          "before": 1,
+          "after": 165
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/166/m_iTuneNumber",
+          "before": 1,
+          "after": 166
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/167/m_iTuneNumber",
+          "before": 1,
+          "after": 167
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/168/m_iTuneNumber",
+          "before": 1,
+          "after": 168
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/169/m_iTuneNumber",
+          "before": 1,
+          "after": 169
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/170/m_iTuneNumber",
+          "before": 1,
+          "after": 170
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/171/m_iTuneNumber",
+          "before": 1,
+          "after": 171
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/172/m_iTuneNumber",
+          "before": 1,
+          "after": 172
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/173/m_iTuneNumber",
+          "before": 1,
+          "after": 173
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/174/m_iTuneNumber",
+          "before": 1,
+          "after": 174
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/175/m_iTuneNumber",
+          "before": 1,
+          "after": 175
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/176/m_iTuneNumber",
+          "before": 1,
+          "after": 176
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/177/m_iTuneNumber",
+          "before": 1,
+          "after": 177
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/178/m_iTuneNumber",
+          "before": 1,
+          "after": 178
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/179/m_iTuneNumber",
+          "before": 1,
+          "after": 179
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/180/m_iTuneNumber",
+          "before": 1,
+          "after": 180
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/181/m_iTuneNumber",
+          "before": 1,
+          "after": 181
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/182/m_iTuneNumber",
+          "before": 1,
+          "after": 182
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/183/m_iTuneNumber",
+          "before": 1,
+          "after": 183
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/184/m_iTuneNumber",
+          "before": 1,
+          "after": 184
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/185/m_iTuneNumber",
+          "before": 1,
+          "after": 185
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/186/m_iTuneNumber",
+          "before": 1,
+          "after": 186
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/187/m_iTuneNumber",
+          "before": 1,
+          "after": 187
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/188/m_iTuneNumber",
+          "before": 1,
+          "after": 188
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/189/m_iTuneNumber",
+          "before": 1,
+          "after": 189
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/190/m_iTuneNumber",
+          "before": 1,
+          "after": 190
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/191/m_iTuneNumber",
+          "before": 1,
+          "after": 191
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/192/m_iTuneNumber",
+          "before": 1,
+          "after": 192
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/193/m_iTuneNumber",
+          "before": 1,
+          "after": 193
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/194/m_iTuneNumber",
+          "before": 1,
+          "after": 194
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/195/m_iTuneNumber",
+          "before": 1,
+          "after": 195
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/196/m_iTuneNumber",
+          "before": 1,
+          "after": 196
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/197/m_iTuneNumber",
+          "before": 1,
+          "after": 197
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/204/m_iTuneNumber",
+          "before": 3,
+          "after": 204
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/205/m_iTuneNumber",
+          "before": 3,
+          "after": 205
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/206/m_iTuneNumber",
+          "before": 3,
+          "after": 206
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/207/m_iTuneNumber",
+          "before": 3,
+          "after": 207
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/208/m_iTuneNumber",
+          "before": 3,
+          "after": 208
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/209/m_iTuneNumber",
+          "before": 3,
+          "after": 209
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/228/m_iTuneNumber",
+          "before": 199,
+          "after": 228
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/229/m_iTuneNumber",
+          "before": 200,
+          "after": 229
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/230/m_iTuneNumber",
+          "before": 201,
+          "after": 230
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/231/m_iTuneNumber",
+          "before": 202,
+          "after": 231
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/232/m_iTuneNumber",
+          "before": 203,
+          "after": 232
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/233/m_iTuneNumber",
+          "before": 204,
+          "after": 233
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/234/m_iTuneNumber",
+          "before": 205,
+          "after": 234
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/235/m_iTuneNumber",
+          "before": 206,
+          "after": 235
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/236/m_iTuneNumber",
+          "before": 207,
+          "after": 236
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/237/m_iSkillID",
+          "before": 0,
+          "after": 286
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/237/m_iTuneNumber",
+          "before": 211,
+          "after": 237
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/238/m_iTuneNumber",
+          "before": 212,
+          "after": 238
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/239/m_iTuneNumber",
+          "before": 213,
+          "after": 239
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/240/m_iTuneNumber",
+          "before": 217,
+          "after": 240
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/241/m_iTuneNumber",
+          "before": 218,
+          "after": 241
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/242/m_iTuneNumber",
+          "before": 219,
+          "after": 242
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/243/m_iTuneNumber",
+          "before": 229,
+          "after": 243
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/244/m_iTuneNumber",
+          "before": 230,
+          "after": 244
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/245/m_iTuneNumber",
+          "before": 231,
+          "after": 245
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/246/m_iTuneNumber",
+          "before": 226,
+          "after": 246
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/247/m_iTuneNumber",
+          "before": 227,
+          "after": 247
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/248/m_iTuneNumber",
+          "before": 228,
+          "after": 248
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/249/m_iTuneNumber",
+          "before": 235,
+          "after": 249
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/250/m_iTuneNumber",
+          "before": 236,
+          "after": 250
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/251/m_iTuneNumber",
+          "before": 237,
+          "after": 251
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/252/m_iTuneNumber",
+          "before": 232,
+          "after": 252
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/253/m_iTuneNumber",
+          "before": 233,
+          "after": 253
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/254/m_iTuneNumber",
+          "before": 234,
+          "after": 254
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/255/m_iTuneNumber",
+          "before": 238,
+          "after": 255
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/256/m_iTuneNumber",
+          "before": 239,
+          "after": 256
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/257/m_iTuneNumber",
+          "before": 240,
+          "after": 257
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/258/m_iTuneNumber",
+          "before": 241,
+          "after": 258
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/259/m_iTuneNumber",
+          "before": 242,
+          "after": 259
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/260/m_iTuneNumber",
+          "before": 243,
+          "after": 260
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/261/m_iTuneNumber",
+          "before": 220,
+          "after": 261
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/262/m_iTuneNumber",
+          "before": 221,
+          "after": 262
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/263/m_iTuneNumber",
+          "before": 222,
+          "after": 263
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/264/m_iTuneNumber",
+          "before": 244,
+          "after": 264
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/265/m_iTuneNumber",
+          "before": 245,
+          "after": 265
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/266/m_iTuneNumber",
+          "before": 246,
+          "after": 266
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/267/m_iTuneNumber",
+          "before": 247,
+          "after": 267
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/268/m_iTuneNumber",
+          "before": 248,
+          "after": 268
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/269/m_iTuneNumber",
+          "before": 249,
+          "after": 269
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/270/m_iTuneNumber",
+          "before": 250,
+          "after": 270
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/271/m_iTuneNumber",
+          "before": 251,
+          "after": 271
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/272/m_iTuneNumber",
+          "before": 252,
+          "after": 272
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/273/m_iTuneNumber",
+          "before": 253,
+          "after": 273
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/274/m_iTuneNumber",
+          "before": 254,
+          "after": 274
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/275/m_iTuneNumber",
+          "before": 255,
+          "after": 275
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/276/m_iTuneNumber",
+          "before": 256,
+          "after": 276
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/277/m_iTuneNumber",
+          "before": 257,
+          "after": 277
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/278/m_iTuneNumber",
+          "before": 258,
+          "after": 278
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/279/m_iTuneNumber",
+          "before": 259,
+          "after": 279
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/280/m_iTuneNumber",
+          "before": 260,
+          "after": 280
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/281/m_iTuneNumber",
+          "before": 261,
+          "after": 281
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/282/m_iTuneNumber",
+          "before": 217,
+          "after": 282
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/283/m_iTuneNumber",
+          "before": 218,
+          "after": 283
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoTuneData/284/m_iTuneNumber",
+          "before": 219,
+          "after": 284
+        },
+        {
+          "path": "/m_pSkillTable/m_pSkillData/286",
+          "after": {
+            "m_iBatteryDrainType": 1,
+            "m_iBatteryDrainUse": [
+              30,
+              27,
+              24,
+              21
+            ],
+            "m_iBuffEffect": 0,
+            "m_iCoolTime": 30,
+            "m_iCoolType": 7,
+            "m_iDBType": 0,
+            "m_iDelayTime": 10,
+            "m_iDeleverTime": 160,
+            "m_iDurationTime": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iEffect": 19,
+            "m_iEffectAngle": 0,
+            "m_iEffectArea": 0,
+            "m_iEffectRange": 1600,
+            "m_iEffectTarget": 5,
+            "m_iEffectType": 1,
+            "m_iIcon": 5,
+            "m_iInitialTime": 50,
+            "m_iSkillNumber": 286,
+            "m_iSkillType": 2,
+            "m_iSound": 7,
+            "m_iTargetEffect": 88,
+            "m_iTargetNumber": 4,
+            "m_iTargetType": 3,
+            "m_iValueA": [
+              210,
+              242,
+              252,
+              273
+            ],
+            "m_iValueA_Type": 2,
+            "m_iValueB": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueB_Type": 0,
+            "m_iValueC": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueC_Type": 0
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "skyway-hand-contact-20260907",
+  "question": "Does restoring Skyway world scale also align the monkey hands with the player hands during flight?",
+  "status": "closed",
+  "nativeConsumer": "FFOneClient selected-player Skyway attachment",
+  "acceptance": [
+    "current-frame vertical grip alignment under an animated, rotated, scaled parent",
+    "unchanged mesh scale and horizontal placement",
+    "production GPU captures for male and female rigs",
+    "dismount releases the attachment"
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority"
+    }
+  ],
+  "candidates": [
+    "CharacterSelection.resourceFile:wear/item_broom_01.nif"
+  ],
+  "hypotheses": [
+    {
+      "claim": "Preserving prefab world scale is sufficient for vertical hand contact.",
+      "status": "rejected",
+      "reason": "Owner identified a remaining height mismatch; GPU transforms measure a mean wrist-height gap of about 0.10 native units."
+    },
+    {
+      "claim": "Matching wrist origins is sufficient for visible palm height.",
+      "status": "rejected",
+      "reason": "Wrist-aligned GPU captures pass the wrist metric but differently sized hands place their palms at different heights; use the middle-finger base at each palm edge."
+    }
+  ],
+  "differences": [
+    {
+      "classification": "owner-requested native extension",
+      "description": "Align the mean height of the monkey and player palm grip points (Bip01 L/R Finger2) every animated frame. This is an owner-requested native correction, not a claim about primary script behavior."
+    }
+  ],
+  "nativeContract": {
+    "ownership": "Resolve exact monkey hand hierarchy paths once on scene readiness and canonical player hand paths through NativePlayerRigBones; release with the traversal attachment.",
+    "schedule": "After AnimationSystems and before TransformSystems::Propagate; TransformHelper samples current local transforms.",
+    "translation": "Convert the world-Y palm midpoint height error into the socket parent local vector and apply only that translation.",
+    "preserved": [
+      "scale",
+      "rotation",
+      "world X/Z placement",
+      "source animation clips",
+      "player controller pose",
+      "network movement authority"
+    ]
+  },
+  "conclusion": "Vertical palm alignment passes on both production gender rigs. Mean height error is below 0.000001 native units; individual grip height differences are below 0.001 native units in the captured poses. Horizontal pose, scale and original clips are preserved; this is a height constraint, not full arm IK.",
+  "verification": [
+    {
+      "command": "../FFOneClient/target/debug/examples/tutorial_player_rig_gpu_preview.exe ../FFOneClient/assets/game work/cases/traversal-attachments-20260907/skyway-palms-male.png 2 1 0 skyway male",
+      "result": "passed: GPU capture inspected; attachment released on dismount",
+      "evidence": "work/cases/traversal-attachments-20260907/skyway-palms-male.log"
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/tutorial_player_rig_gpu_preview.exe ../FFOneClient/assets/game work/cases/traversal-attachments-20260907/skyway-palms-female.png 4 2 0 skyway female",
+      "result": "passed: GPU capture inspected; attachment released on dismount",
+      "evidence": "work/cases/traversal-attachments-20260907/skyway-palms-female.log"
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/tutorial_player_rig_gpu_preview.exe ../FFOneClient/assets/game work/cases/traversal-attachments-20260907/zipline-final.png 2 1 0 zipline male",
+      "result": "passed: GPU capture inspected; attachment released on dismount",
+      "evidence": "work/cases/traversal-attachments-20260907/zipline-final.log"
+    },
+    {
+      "command": "CARGO_INCREMENTAL=0 cargo test -p ffone-client --lib skyway_",
+      "result": "2 passed: world scale and current-frame height constraint",
+      "evidence": "../FFOneClient/target/performance/skyway-grip-tests.log"
+    },
+    {
+      "command": "native unit-test binary tutorial_player_rig_runtime::tests --test-threads=1",
+      "result": "25 passed",
+      "evidence": "../FFOneClient/target/performance/skyway-rig-module-tests.log"
+    },
+    {
+      "command": "CARGO_INCREMENTAL=0 cargo build -p ffone-client --bin ffone-client --example tutorial_player_rig_gpu_preview",
+      "result": "passed with final palm bindings",
+      "evidence": "../FFOneClient/target/performance/skyway-palm-build.log"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "work/cases/traversal-attachments-20260907/assembly.evidence.json",
+      "bytes": 1348,
+      "sha256": "384ac294e816a01806d42caab57cbc6bdade05eb0f613b6cae4faa6f8308b4ab"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/firstpass.evidence.json",
+      "bytes": 1409,
+      "sha256": "f136701d13be4a87bdddee372c5120cb1b210471f42160b2ab4647368e516e16"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/skyway-grip-before.log",
+      "bytes": 1921,
+      "sha256": "6af8e6b8aa625cc51072ef075eafedd3ea12d98896187c026b2c7ad61e11f025"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/skyway-grip-male.png",
+      "bytes": 73130,
+      "sha256": "b098367c58d3abbcfda3366b592dc89389d880ab78fabab78973ecff82bd2685"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/skyway-grip-female.png",
+      "bytes": 72791,
+      "sha256": "02bd8dc5ea536e4d264f22be206c490bbfe092209422b7e4dff3b51ee68d0d5a"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/skyway-palms-male.png",
+      "bytes": 78978,
+      "sha256": "58edc970f764c0672429a5b9392bf3f56fe3bdad691e6b57f4ba9d572c65b627"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/skyway-palms-male.log",
+      "bytes": 1139,
+      "sha256": "bd261b66c8f2e45ffe35f9d321373f93f9399aec537e717efebda46eda9daf3c"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/skyway-palms-female.png",
+      "bytes": 78771,
+      "sha256": "9444a7d377dfbf107b6ed346014fab8b72d840a72251fd9950cedadf6200d123"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/skyway-palms-female.log",
+      "bytes": 1139,
+      "sha256": "131c70e7c8ead1170bf2fff60e428fd58c1252dc0d6e37584ac36d2ba823549b"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/zipline-final.png",
+      "bytes": 91581,
+      "sha256": "17cce4ecae840fe79aeb9b94a1f952283e1a331a7de8b9e774d9cd799453be69"
+    },
+    {
+      "path": "work/cases/traversal-attachments-20260907/zipline-final.log",
+      "bytes": 787,
+      "sha256": "fecdd2fe4e0bf385a158417d8bd41709b696ceefb6bb4b4a765927ffc917c794"
+    },
+    {
+      "path": "../FFOneClient/target/performance/skyway-grip-tests.log",
+      "bytes": 623,
+      "sha256": "85fa1f87606b881a6c97354cc1f62b4e7bad213aa5d722b0b0b6a6b5a42375ea"
+    },
+    {
+      "path": "../FFOneClient/target/performance/skyway-rig-module-tests.log",
+      "bytes": 2986,
+      "sha256": "dbec94da41aadcf46d56529cdd3366b4de08fbc7fe827dc797b707af50c83e0f"
+    },
+    {
+      "path": "../FFOneClient/target/performance/skyway-palm-build.log",
+      "bytes": 498,
+      "sha256": "3ea385736272209e2d4ce112cf85b1d0e09112ba16baf32470dc057e0afb299a"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/tutorial_player_rig_runtime.rs",
+      "bytes": 168668,
+      "sha256": "9a0bce14fb30e9b6e30df28daad0ee87f78921585f7105eda8f27c100ccf93ca"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/examples/tutorial_player_rig_gpu_preview.rs",
+      "bytes": 36154,
+      "sha256": "63fddb9b823c3bfabe8a9e2b8c537770406b61807962c9969828246065cb0741"
+    }
+  ],
+  "producerToolRevision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+  "ownerCorrection": {
+    "date": "2026-09-08",
+    "superseded": true,
+    "acceptedBehavior": "Restore the original Broomstick socket position at shoulder level; remove dynamic wrist/palm height alignment. Preserve corrected world scale and zipline handle."
+  }
+}

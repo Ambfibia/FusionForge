@@ -1,0 +1,701 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "retrobution-creation-colors-20260907",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "native-target"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "CharTexture.resourceFile",
+    "containerBytes": 25185223,
+    "containerSha256": "b22d64844a25dc6010d2b1bfbcf5120d57097d6e5a4602401ba7d85f17545586",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2433,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_001_f"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2434,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_001_g"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2435,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_001_h"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2436,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_001_i"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2437,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_001_j"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2438,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_002_f"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2439,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_002_g"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2440,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_002_h"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2441,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_002_i"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2442,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_002_j"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2443,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_003_f"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2444,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_003_g"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2445,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_003_h"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2446,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_003_i"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2447,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_003_j"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2448,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_004_f"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2449,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_004_g"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2450,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_004_h"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2451,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_004_i"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2452,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_004_j"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2453,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_005_f"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2454,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_005_g"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2455,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_005_h"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2456,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_005_i"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2457,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_face_005_j"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2458,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_001_f"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2459,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_001_g"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2460,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_001_h"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2461,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_001_i"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2462,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_001_j"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2463,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_002_f"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2464,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_002_g"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2465,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_002_h"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2466,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_002_i"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2467,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_002_j"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2468,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_003_f"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2469,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_003_g"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2470,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_003_h"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2471,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_003_i"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2472,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_003_j"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2473,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_004_f"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2474,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_004_g"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2475,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_004_h"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2476,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_004_i"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2477,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_004_j"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2478,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_005_f"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2479,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_005_g"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2480,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_005_h"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2481,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_005_i"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+        "type": "Texture2D",
+        "pathId": 2482,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "f_face_005_j"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "extraction",
+    "tool": "tools/legacy-sources/publish-creation-expansion.py",
+    "toolRevision": "857406bc95b5dd7a5983cefc3838c86b302600a8+sha256:9737b66d62a327118302d76efadc61972d5847167339084338a5569a504c3036",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/legacy-sources/publish-creation-expansion.py --target-root ../FFOneClient/assets/game --work work/cases/retrobution-ui-completion/publication-replay"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/cases/retrobution-ui-completion/creation-fresh-replay/managed-evidence.json",
+      "bytes": 1373,
+      "sha256": "9a7ef1d1f334fabec172015479edf768b4e684c311ebe50a88137b60d7861497",
+      "assemblySha256": "0f2513c2303cffc88c541a90b1b8fad1b73f60d5218830be72d0502533bf5792",
+      "managedType": "UserContainer",
+      "member": ".cctor"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "characters/player/appearance/m_face_001_f.png",
+      "bytes": 11985,
+      "sha256": "1c72dadd236eff881534cab72522d0db188cb1085c8814caa7d6ae122eda3e7e"
+    },
+    {
+      "path": "characters/player/appearance/m_face_001_g.png",
+      "bytes": 12081,
+      "sha256": "878cf82b8e4ca7a2b0fa895a47c892968bd8668882699a5fd1205aa4d215cc5d"
+    },
+    {
+      "path": "characters/player/appearance/m_face_001_h.png",
+      "bytes": 12180,
+      "sha256": "4346567a549adbb12669b8438a38c7ae0097e9b0e74e52e7ecf6ec11e3105ee6"
+    },
+    {
+      "path": "characters/player/appearance/m_face_001_i.png",
+      "bytes": 11956,
+      "sha256": "3aaba8e6561627a8a58decab9cf386861c02e1ba8eb116d5ff6adac00347a581"
+    },
+    {
+      "path": "characters/player/appearance/m_face_001_j.png",
+      "bytes": 12277,
+      "sha256": "f9443dfae40107cdeeba664bc474147de41fb72158cca6ac0092711d531a3e1d"
+    },
+    {
+      "path": "characters/player/appearance/m_face_002_f.png",
+      "bytes": 11996,
+      "sha256": "f9b7219295a7db23362c8ad85b2e3882b704521adc9f400f4f981ed22359acc7"
+    },
+    {
+      "path": "characters/player/appearance/m_face_002_g.png",
+      "bytes": 11961,
+      "sha256": "89bfc86156c5ca0f19a905f134a242f17e18816514119e6d2a3496fe1e08cc14"
+    },
+    {
+      "path": "characters/player/appearance/m_face_002_h.png",
+      "bytes": 12021,
+      "sha256": "6255d92c16b5b58d7cfde29d5faf22de5e803a3d345d735c0f0bb3c27e5ae750"
+    },
+    {
+      "path": "characters/player/appearance/m_face_002_i.png",
+      "bytes": 11746,
+      "sha256": "62be9cee12b544b127e024037a254afa9b1f0e10fb211cb1f616e415b2fd2c31"
+    },
+    {
+      "path": "characters/player/appearance/m_face_002_j.png",
+      "bytes": 12254,
+      "sha256": "9f9266e37af79c4284586573ddff4445494e902ef735257be89deb6c9aa6354e"
+    },
+    {
+      "path": "characters/player/appearance/m_face_003_f.png",
+      "bytes": 13211,
+      "sha256": "92773e59fc691c73d99b1f733b3624dcabe0c2059fb8a44024afefd6e2616bd3"
+    },
+    {
+      "path": "characters/player/appearance/m_face_003_g.png",
+      "bytes": 13107,
+      "sha256": "798540267e45f2f08ac6c3562d850ecbe3fc38df54ddd44d5cccf31f20297a25"
+    },
+    {
+      "path": "characters/player/appearance/m_face_003_h.png",
+      "bytes": 12993,
+      "sha256": "1c98c41c1abb89d1bf7438970179905365fc5b151a5ac5979373775ce1e6541f"
+    },
+    {
+      "path": "characters/player/appearance/m_face_003_i.png",
+      "bytes": 12975,
+      "sha256": "83c0d99b10ee07d1cdd19cad861b4838260565185d12c72ce4a3c3fd11bd27f1"
+    },
+    {
+      "path": "characters/player/appearance/m_face_003_j.png",
+      "bytes": 13309,
+      "sha256": "c06f428c2631b5a21241138cba9ef546446b24644ca949476259780d72e68a1b"
+    },
+    {
+      "path": "characters/player/appearance/m_face_004_f.png",
+      "bytes": 11313,
+      "sha256": "db0a7470a34eec214614c3a3f2333590626b307caf7870bf75c3085c24e790e6"
+    },
+    {
+      "path": "characters/player/appearance/m_face_004_g.png",
+      "bytes": 11268,
+      "sha256": "e3dc6f001bedb2e9a873c316cc7a99d23d517686c12e8c3629e955315f00eed1"
+    },
+    {
+      "path": "characters/player/appearance/m_face_004_h.png",
+      "bytes": 11352,
+      "sha256": "62b844652cd86179a2316953d22844e7d87c220bacdf0035edb3a8c77fdeecbf"
+    },
+    {
+      "path": "characters/player/appearance/m_face_004_i.png",
+      "bytes": 11124,
+      "sha256": "b9e077909ecae7405e09438347e5df02abab32edca4f877c005b343919fb70e9"
+    },
+    {
+      "path": "characters/player/appearance/m_face_004_j.png",
+      "bytes": 11497,
+      "sha256": "ec39e87fea2d19a577b37a88a233410311a6f9c3239be6e73af7e9b04e5ab626"
+    },
+    {
+      "path": "characters/player/appearance/m_face_005_f.png",
+      "bytes": 10739,
+      "sha256": "4dacd280a7cc428b0aeec80d0f1783d3916358c59fc6f7a50119ccffe3818bdb"
+    },
+    {
+      "path": "characters/player/appearance/m_face_005_g.png",
+      "bytes": 10710,
+      "sha256": "d4dd7032b634f7df70486595e7ac6e836658523a75fa02a69b325c874079d383"
+    },
+    {
+      "path": "characters/player/appearance/m_face_005_h.png",
+      "bytes": 10721,
+      "sha256": "25cd50f785f342e19b827edfa3990bdc7287e74bb36930f168bdb4337fb83879"
+    },
+    {
+      "path": "characters/player/appearance/m_face_005_i.png",
+      "bytes": 10716,
+      "sha256": "7134e8b85dc90ebab01ee4a550292d147f9b133774cabbd20963273764b99097"
+    },
+    {
+      "path": "characters/player/appearance/m_face_005_j.png",
+      "bytes": 10910,
+      "sha256": "ab6b642e203460e0a71834f6678bfd108325d9b0e0979c5397afdfe5248386cd"
+    },
+    {
+      "path": "characters/player/appearance/f_face_001_f.png",
+      "bytes": 11012,
+      "sha256": "909f60652d65791ec73c1b2e350b3e9cc0b564f7b7cc0b13383cba0272d27b7c"
+    },
+    {
+      "path": "characters/player/appearance/f_face_001_g.png",
+      "bytes": 10994,
+      "sha256": "b8052f36aad0c57f57dad5838bc0dd6776b9345df985702c74834755080056d6"
+    },
+    {
+      "path": "characters/player/appearance/f_face_001_h.png",
+      "bytes": 11038,
+      "sha256": "33322ec232b74544ec7eb4c497c882c6f7ef95bfaa73c0b7636829b721f3a3d9"
+    },
+    {
+      "path": "characters/player/appearance/f_face_001_i.png",
+      "bytes": 10576,
+      "sha256": "253c84126ca52faa830d71cccecc6b73c8fb3b2ed30999b5abc820ab70f94d1f"
+    },
+    {
+      "path": "characters/player/appearance/f_face_001_j.png",
+      "bytes": 10267,
+      "sha256": "81ac66cac3bdb5372625b4ad2a623b990a4bd9a7273c8f8bc8155ea0960d0b41"
+    },
+    {
+      "path": "characters/player/appearance/f_face_002_f.png",
+      "bytes": 10507,
+      "sha256": "dc1929cbdc20d750f03dbebb5f0803177773b7587469efe7e0c73937464b7ae8"
+    },
+    {
+      "path": "characters/player/appearance/f_face_002_g.png",
+      "bytes": 10612,
+      "sha256": "cc495758b333c11ad0eac670c98487a0c1cb5188eebf4cd9c153584079f77b6b"
+    },
+    {
+      "path": "characters/player/appearance/f_face_002_h.png",
+      "bytes": 10627,
+      "sha256": "a08ff0ffc902a38027938d4cc3d87780e1f792722e07f087f0ebf8d6ad83fe1e"
+    },
+    {
+      "path": "characters/player/appearance/f_face_002_i.png",
+      "bytes": 10200,
+      "sha256": "7105d0bb726ca2715bf24f11c7372d2693e23ff7bd921a1f1d927e81f4a4e3aa"
+    },
+    {
+      "path": "characters/player/appearance/f_face_002_j.png",
+      "bytes": 9849,
+      "sha256": "50851e7be6ed486bba6f28b941167d1cd2f4a38f7917b6dbbc32f4bfc535bda5"
+    },
+    {
+      "path": "characters/player/appearance/f_face_003_f.png",
+      "bytes": 10954,
+      "sha256": "22f30b516167d082aea17e7c08add6341d6f457acfef0b5a3d31de17fcc0e0d4"
+    },
+    {
+      "path": "characters/player/appearance/f_face_003_g.png",
+      "bytes": 10964,
+      "sha256": "b98d72dd5e3e49086d67c95f32c635b0587afb11ee58f4d44d3b64ed4405e420"
+    },
+    {
+      "path": "characters/player/appearance/f_face_003_h.png",
+      "bytes": 10761,
+      "sha256": "fa4ba70244120817f590e39884ca9fb59e4d533b103cef823b947bb2c0f2dd44"
+    },
+    {
+      "path": "characters/player/appearance/f_face_003_i.png",
+      "bytes": 10831,
+      "sha256": "2e7d209e84bfbcb1328da5bbf21abde853b00f0dbd0d53e432931752dc4fe993"
+    },
+    {
+      "path": "characters/player/appearance/f_face_003_j.png",
+      "bytes": 10152,
+      "sha256": "a5b55996a48878b682c6a84b3a8b133d9f24dc02b2a4b46ed5ce6c64188aa722"
+    },
+    {
+      "path": "characters/player/appearance/f_face_004_f.png",
+      "bytes": 9908,
+      "sha256": "f2b2f6d7c8e257bf6a5a2ba8bc16a9b2287752a39cefc447efe9686f9f9d07d3"
+    },
+    {
+      "path": "characters/player/appearance/f_face_004_g.png",
+      "bytes": 9812,
+      "sha256": "16a06a26e6bfdacbfd502dd7bdaefa0402160a5f79331ec998a4a9151a5f2af3"
+    },
+    {
+      "path": "characters/player/appearance/f_face_004_h.png",
+      "bytes": 9827,
+      "sha256": "eb2f5c34c2ab65c2b34517906ae4b7f58088a302fa1d253e0a5fb116eb620f3f"
+    },
+    {
+      "path": "characters/player/appearance/f_face_004_i.png",
+      "bytes": 9629,
+      "sha256": "85607b4d535d9a3780a9426605228502a887cfff7b1f074438bd58b6d6d398ea"
+    },
+    {
+      "path": "characters/player/appearance/f_face_004_j.png",
+      "bytes": 10000,
+      "sha256": "368dc40752041d377faeefec90a70b214546e3dc5acee59f277f0bdb82b2bbbe"
+    },
+    {
+      "path": "characters/player/appearance/f_face_005_f.png",
+      "bytes": 9351,
+      "sha256": "4b26dd47ed3d637331977e548a52dba4356e157ca22970503fe51a3a8f42f75a"
+    },
+    {
+      "path": "characters/player/appearance/f_face_005_g.png",
+      "bytes": 9359,
+      "sha256": "229de7c4cb212918062d7f852e319eff6242436abbb552a8777956ba0860a1aa"
+    },
+    {
+      "path": "characters/player/appearance/f_face_005_h.png",
+      "bytes": 9366,
+      "sha256": "5454d0e1932ea18d298c0ac343d01a121f08a820db0362dd2d69cb124fa9f2c6"
+    },
+    {
+      "path": "characters/player/appearance/f_face_005_i.png",
+      "bytes": 9240,
+      "sha256": "52702d01a18b46e00c499feff2d9fc8361e54fea7ad70853314137250ed26404"
+    },
+    {
+      "path": "characters/player/appearance/f_face_005_j.png",
+      "bytes": 9558,
+      "sha256": "94a6458868d867015ac7fb96717d0fad5d94df89c7800d0714cd57d2e81d5aec"
+    },
+    {
+      "path": "data/character_creation/customization.json",
+      "bytes": 33127,
+      "sha256": "6bd92ca0925bdde4775d6596e70b232af81618b74013e74def3e80f1869a2f19"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "independent staging replay and byte-for-byte native output comparison",
+      "result": "passed",
+      "evidence": "docs/reference/evidence/cases/retrobution-ui-completion-20260907.md"
+    }
+  ]
+}

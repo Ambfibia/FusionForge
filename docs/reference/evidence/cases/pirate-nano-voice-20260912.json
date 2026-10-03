@@ -1,0 +1,372 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "pirate-nano-voice-20260912",
+  "question": "Why can Candy Buccaneer play NPC dialogue during combat, and which Academy Nano summon/skill voices are missing from native playback?",
+  "status": "closed-with-unresolved-source-gap",
+  "nativeConsumer": "gameplay_audio; network_world_runtime; tutorial_nano_gameplay",
+  "acceptance": [
+    "Pirate_Melee1 spawns the primary combat SFX in EN and RU.",
+    "Recovered model events spawn their own LocalizedVoice in EN and RU.",
+    "Chowder donor skills load against the preserved native skeleton."
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        "DongResources_08_06.resourceFile",
+        "Nano.resourceFile"
+      ]
+    },
+    {
+      "alias": "alternate",
+      "role": "explicit_donor",
+      "anchors": [
+        "Nano_044.resourceFile",
+        "Nano_046.resourceFile",
+        "Nano_049.resourceFile"
+      ]
+    }
+  ],
+  "candidates": [],
+  "evidenceArtifacts": [
+    {
+      "id": "nano_flapjack-owner",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_flapjack-owner.json",
+      "bytes": 13859,
+      "sha256": "f8c16059d16b49106450f1729321fc8e342ecf040b3fca5d66e9346c212669b3",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence alternate ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a Nano_044.resourceFile 2742116923 --serialized-asset CustomAssetBundle-Nano_044 --type Animation --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_flapjack-owner.json"
+      }
+    },
+    {
+      "id": "nano_flapjack-call",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_flapjack-call.json",
+      "bytes": 237274,
+      "sha256": "4d8687697f7e75690b0a94a32c7e74f3df20ebe17816435686fa0f0f237bc089",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence alternate ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a Nano_044.resourceFile 354693194 --serialized-asset CustomAssetBundle-Nano_044 --type AnimationClip --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_flapjack-call.json"
+      }
+    },
+    {
+      "id": "nano_flapjack-skill1",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_flapjack-skill1.json",
+      "bytes": 344740,
+      "sha256": "fc19138fe65d2486cb7c966248d683f9aebfa7940254821882f59ef4b6f70779",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence alternate ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a Nano_044.resourceFile 2820527001 --serialized-asset CustomAssetBundle-Nano_044 --type AnimationClip --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_flapjack-skill1.json"
+      }
+    },
+    {
+      "id": "nano_flapjack-skill2",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_flapjack-skill2.json",
+      "bytes": 709180,
+      "sha256": "5d887343cd1430f0fc9a6a9ed0f4b9a46094170535f16b073afe8d9fc312e58b",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence alternate ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a Nano_044.resourceFile 3615652454 --serialized-asset CustomAssetBundle-Nano_044 --type AnimationClip --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_flapjack-skill2.json"
+      }
+    },
+    {
+      "id": "nano_flapjack-skill3",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_flapjack-skill3.json",
+      "bytes": 147095,
+      "sha256": "ee6322819e1e524bd236ad1b64422cdf5bc16a6e5e432e0d1905394d5531e3d5",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence alternate ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a Nano_044.resourceFile 708455227 --serialized-asset CustomAssetBundle-Nano_044 --type AnimationClip --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_flapjack-skill3.json"
+      }
+    },
+    {
+      "id": "nano_chowder-owner",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_chowder-owner.json",
+      "bytes": 13876,
+      "sha256": "9561d1fef6879964a37d6172b0cbf86874981e3e7cb2abf1f0e5e23c80397b56",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence alternate ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a Nano_046.resourceFile 2187236750 --serialized-asset CustomAssetBundle-Nano_046 --type Animation --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_chowder-owner.json"
+      }
+    },
+    {
+      "id": "nano_chowder-call",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_chowder-call.json",
+      "bytes": 381380,
+      "sha256": "427535b61e5dca2db7ca6f3eccb7faaa326def2d642720b4e001bd613da8129e",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence alternate ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a Nano_046.resourceFile 1511668751 --serialized-asset CustomAssetBundle-Nano_046 --type AnimationClip --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_chowder-call.json"
+      }
+    },
+    {
+      "id": "nano_chowder-skill1",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_chowder-skill1.json",
+      "bytes": 458687,
+      "sha256": "0cb0a7591bd9c47f95eb3f1dc4d31384cc759f9f9cb3ce4b9801344852dbfe81",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence alternate ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a Nano_046.resourceFile 1934724603 --serialized-asset CustomAssetBundle-Nano_046 --type AnimationClip --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_chowder-skill1.json"
+      }
+    },
+    {
+      "id": "nano_chowder-skill2",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_chowder-skill2.json",
+      "bytes": 413847,
+      "sha256": "3e7cfb7916b2ac9b3da14c96edce9170d84ef275507f62b5ffc65980ec85b9c3",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence alternate ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a Nano_046.resourceFile 1982085174 --serialized-asset CustomAssetBundle-Nano_046 --type AnimationClip --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_chowder-skill2.json"
+      }
+    },
+    {
+      "id": "nano_chowder-skill3",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_chowder-skill3.json",
+      "bytes": 487896,
+      "sha256": "31f12fa9a1ee25a41fe6cbcf287188dd1611719f5deccaedf090ff173706f6db",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence alternate ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a Nano_046.resourceFile 671541331 --serialized-asset CustomAssetBundle-Nano_046 --type AnimationClip --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_chowder-skill3.json"
+      }
+    },
+    {
+      "id": "nano_zaksaturday-owner",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_zaksaturday-owner.json",
+      "bytes": 14645,
+      "sha256": "0e42d4f2514ea8b7d892309ed28248f015e9b8d94c773c21d7bd1d2386345818",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence alternate ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a Nano_049.resourceFile 3868737284 --serialized-asset CustomAssetBundle-Nano_049 --type Animation --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_zaksaturday-owner.json"
+      }
+    },
+    {
+      "id": "nano_zaksaturday-call",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_zaksaturday-call.json",
+      "bytes": 227267,
+      "sha256": "db841f6d30695bfdaa24ae8e5a4a96009414724d0fb8e5f81e1f983f1760c566",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence alternate ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a Nano_049.resourceFile 3621751189 --serialized-asset CustomAssetBundle-Nano_049 --type AnimationClip --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_zaksaturday-call.json"
+      }
+    },
+    {
+      "id": "nano_zaksaturday-skill1",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_zaksaturday-skill1.json",
+      "bytes": 280604,
+      "sha256": "f8de1239029c268eef2dd559d3f2951eecf7ba138ebbbdf988ddbd144e2b7e4e",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence alternate ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a Nano_049.resourceFile 282365582 --serialized-asset CustomAssetBundle-Nano_049 --type AnimationClip --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_zaksaturday-skill1.json"
+      }
+    },
+    {
+      "id": "nano_zaksaturday-skill2",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_zaksaturday-skill2.json",
+      "bytes": 421765,
+      "sha256": "3d473429c92a88badfb387652131d439a863f534500d832fd286ba2c85a3eca7",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence alternate ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a Nano_049.resourceFile 3158146062 --serialized-asset CustomAssetBundle-Nano_049 --type AnimationClip --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_zaksaturday-skill2.json"
+      }
+    },
+    {
+      "id": "nano_zaksaturday-skill3",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_zaksaturday-skill3.json",
+      "bytes": 218856,
+      "sha256": "75fd3b48cf564a1af0a2e68509afe21e0f7b0fc387f16346c0935d904087722d",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence alternate ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a Nano_049.resourceFile 1667824429 --serialized-asset CustomAssetBundle-Nano_049 --type AnimationClip --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/nano_zaksaturday-skill3.json"
+      }
+    },
+    {
+      "id": "pirate-melee1",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/pirate-nano-audio-20260912/replay-a/evidence/pirate-melee1.json",
+      "bytes": 12970,
+      "sha256": "798a42750041aac73b608016b6d86f5654e32e805210e4d06bbd04a1dabd5ad3",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a + working tree tool SHA-256 de39d545a117eb5a8c47c733ffb96046a450623c6c2511363a9c3d38b5280eb5",
+        "command": "work/build/debug/fusionforge.exe dump-object-evidence primary ../builds/retrobution-20260821 DongResources_08_06.resourceFile 179 --serialized-asset CustomAssetBundle-a3962f73ba4214b50b6d88e38442b1c2 --type AudioClip --out work/cases/pirate-nano-audio-20260912/replay-a/evidence/pirate-melee1.json"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "Academy itself contains no Zak summon/skill voice events.",
+      "state": "rejected",
+      "evidence": [
+        "nano_zaksaturday-call",
+        "nano_zaksaturday-skill1",
+        "nano_zaksaturday-skill2",
+        "nano_zaksaturday-skill3"
+      ],
+      "rejectedBecause": "The exact raw donor clips contain sound events at 0.1 seconds; the native model omitted them."
+    },
+    {
+      "claim": "Chowder has no recoverable skill animation.",
+      "state": "rejected",
+      "evidence": [
+        "nano_chowder-skill1",
+        "nano_chowder-skill2",
+        "nano_chowder-skill3"
+      ],
+      "rejectedBecause": "All three exact Academy clips exist and convert against the identical rest hierarchy."
+    },
+    {
+      "claim": "Pirate combat must use the existing primary SFX payload.",
+      "state": "proven",
+      "evidence": [
+        "pirate-melee1"
+      ],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "Titan BRockets voice can be recovered from the inspected source routes.",
+      "state": "unresolved",
+      "evidence": [],
+      "rejectedBecause": null
+    }
+  ],
+  "differences": [
+    {
+      "kind": "alternate donor",
+      "detail": "Explicit Academy voice-event donor; Chowder skill clips restored on exact native rest hierarchy. Pirate localization collision removed; Jack voice spelling repaired."
+    },
+    {
+      "kind": "native semantic correction",
+      "detail": "Remove erroneous Pirate voice route; fix exact Jack_O_Lantern voice event prefix."
+    }
+  ],
+  "conclusion": "Pirate combat cue and four Nano model voice routes repaired and verified. Titan third power recording remains unresolved.",
+  "nativeContract": {
+    "voice": "Existing catalog take selection, requested locale -> EN -> silence, and LocalizedVoice ownership.",
+    "models": "Original geometry, materials, images and nodes preserved; only missing donor skills/events and exact semantic event prefix corrected."
+  },
+  "verification": [
+    {
+      "command": "python target/performance/pirate-nano-audio/verify-consumers.py (audio-tests stages)",
+      "result": "59 tests passed, including both new regressions",
+      "evidence": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/audio-tests.log",
+        "bytes": 6319,
+        "sha256": "092830c84afdcf268338e78535ef6e13578b8177b7c511b04d316a61b075b5d4"
+      }
+    },
+    {
+      "command": "python target/performance/pirate-nano-audio/verify-snapshot.py",
+      "result": "Real client library, main executable and preview built from a consistent source snapshot using the current development dependencies. Initial live builds hit unrelated concurrent UI API edits.",
+      "evidence": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/client-build.log",
+        "bytes": 381,
+        "sha256": "856435bae3550a9e0037cdd4f0abbfeabf2dce5dafeeca72cef5b0c9013c45b3"
+      },
+      "sourceSnapshot": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/source-snapshot.json",
+        "bytes": 37460,
+        "sha256": "2b8b0ffda86fda836e65783bb1f27886f01d9b4add3586c74c258ce7f1684ab7"
+      },
+      "executable": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/ffone-client.exe",
+        "bytes": 268825600,
+        "sha256": "33a2a9775abf08a4fef773d786387eaf82aed5733d8cf5587cb0497521ccddea"
+      }
+    },
+    {
+      "command": "target/performance/pirate-nano-audio/ffone-client.exe --validate-assets",
+      "result": "passed; table-data-v1 routing status ok",
+      "evidence": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/validate-assets.log",
+        "bytes": 294,
+        "sha256": "97c6d97fa2372c3369d8b85e2a88ae5fcb78230a7254ef23c0fa03429cb6c34d"
+      }
+    },
+    {
+      "command": "target/performance/pirate-nano-audio/nano-skill-preview.exe 55 target/performance/pirate-nano-audio/chowder-skill-1.png 1",
+      "result": "passed; active model after skill request; capture visually inspected with no skeleton distortion",
+      "evidence": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/chowder-skill-1.log",
+        "bytes": 575,
+        "sha256": "2127aa5ac3ee30af7bf20d08398b0929a9b21333845b484e504ce722101a9cff"
+      },
+      "capture": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/chowder-skill-1.png",
+        "bytes": 51060,
+        "sha256": "52af47f7224cd6438d7f3098b572e8ff0f43cbb54684780833f6cd2d209308d1"
+      }
+    },
+    {
+      "command": "target/performance/pirate-nano-audio/nano-skill-preview.exe 55 target/performance/pirate-nano-audio/chowder-skill-2.png 2",
+      "result": "passed; active model after skill request; capture visually inspected with no skeleton distortion",
+      "evidence": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/chowder-skill-2.log",
+        "bytes": 575,
+        "sha256": "ee5e1b1f06024d90244b7a4863255a197722bbb1fa9cf78557d36d240b39ec11"
+      },
+      "capture": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/chowder-skill-2.png",
+        "bytes": 48977,
+        "sha256": "90078995ee9b84306752e01b61b5e1b6731832bb730f53e8544b5e601a8da21e"
+      }
+    },
+    {
+      "command": "target/performance/pirate-nano-audio/nano-skill-preview.exe 55 target/performance/pirate-nano-audio/chowder-skill-3.png 3",
+      "result": "passed; active model after skill request; capture visually inspected with no skeleton distortion",
+      "evidence": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/chowder-skill-3.log",
+        "bytes": 575,
+        "sha256": "0dbfa1012102ead7eea8341202e50ec15c3406f624535a6b0900b69bdd664736"
+      },
+      "capture": {
+        "path": "../FFOneClient/target/performance/pirate-nano-audio/chowder-skill-3.png",
+        "bytes": 49105,
+        "sha256": "1116673cb2ce069052f21a13bdcd4b5a9b127ae62123022a377e9520d6de78b7"
+      }
+    },
+    {
+      "command": "python tools/native/repair-nano-voice-events.py --source-root ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a --primary-root ../builds/retrobution-20260821 --target-root ../FFOneClient/assets/game --work work/cases/pirate-nano-audio-20260912/idempotence",
+      "result": "All five already-installed output hashes unchanged; existing Chowder clips require exact channel values and rest hierarchy equality before being retained.",
+      "evidence": {
+        "path": "work/cases/pirate-nano-audio-20260912/idempotence/publication.json",
+        "bytes": 12706,
+        "sha256": "1f9d771a706a705f93443f725baff970393a03b09918ff7a1a7aa3d1a1163fdb"
+      }
+    }
+  ],
+  "publication": {
+    "path": "recipes/native/audio/pirate-nano-voice-repair-20260912.receipt.json",
+    "sha256": "7064f9bf994f92bff803215a17abfa035869e39c435bb946c62785ccba34a469"
+  }
+}

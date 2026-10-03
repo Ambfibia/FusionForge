@@ -1,0 +1,164 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "email-notice-20260912",
+  "question": "Which clean Retrobution mechanics produce the new-mail arrival sound, the briefly blinking mail icon beside the minimap, and the guide e-mail sender icon, and which exact timing, geometry and transport must FFOne reproduce?",
+  "status": "open",
+  "nativeConsumer": "ffone-client: app::poll_email_update_check_0104, app::consume_email_production_outputs_0104 (EmailUiAction::NewEmailCount), gameplay_ui::new_mail_icon, email_ui::sync_email_guide_sender_icon",
+  "acceptance": [
+    "app::tests::economy::email_update_check_poll_matches_clean_nanocom_timer_and_openfusion_abi",
+    "app::tests::economy::positive_new_email_count_rings_twice_and_arms_nanocom_notices",
+    "app::tests::economy::email_guide_projection_uses_serialized_mentor_order_not_wire_id_order",
+    "gameplay_ui::new_mail_icon::tests::new_mail_icon_blinks_for_two_seconds_only_while_the_menu_is_closed",
+    "gameplay_ui::new_mail_icon::tests::new_mail_alpha_is_the_absolute_cosine_of_global_time",
+    "gameplay_ui::new_mail_icon::tests::new_mail_icon_texture_matches_native_contract",
+    "email_ui::tests::guide_detail_labels_sender_icon_and_shifts_from_subject_like_panel_email_list"
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        "main.unity3d sha256 01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+        "Assembly - CSharp.dll: GameFrame (P_FE2CL_REP_PC_NEW_EMAIL, iNewEmailCnt > 0 -> cnEvent(2,4,19)), cnMainGame.ReceiveNewMail, cnGUINanocom.Start/SetNewMail/Update/RenderMenu/OnOwnGUI, EmailMode.funcP_FE2CL_REP_PC_NEW_EMAIL (empty) and funcP_FE2CL_REP_PC_READ_EMAIL_SUCC, Panel_EmailList.OnClick/DoData",
+        "Assembly - CSharp - first pass.dll: SoundUtil.Playsound/PlayUISoundAtPoint/IsPlayable and the <PlayUISountAt>d__40 coroutine"
+      ]
+    }
+  ],
+  "candidates": [],
+  "evidenceArtifacts": [
+    {
+      "id": "managed-assembly",
+      "kind": "managed_assembly_evidence",
+      "path": "work/cases/email-notice-20260912/assembly-csharp.evidence.json",
+      "bytes": 1347,
+      "sha256": "9209a4c1b35a330d6a74615922358f49cf8d8c537961c4b96d34cd0a3af72118",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260821 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out work/cases/email-notice-20260912/assembly-csharp.evidence.json --payload-out work/cases/email-notice-20260912/managed/Assembly-CSharp.dll"
+      }
+    },
+    {
+      "id": "nanocom-owner",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/email-notice-20260912/replay/owner.json",
+      "bytes": 32710,
+      "sha256": "cc4353399c9e88a9c8c656fe5da8fe246007bd916d4b0ce3a8de964b9ea8b6bf",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "fusionforge dump-object-evidence primary ../builds/retrobution-20260821 main.unity3d 1562 --serialized-asset sharedassets0.assets --type MonoBehaviour"
+      }
+    },
+    {
+      "id": "mail-but-texture",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/email-notice-20260912/replay/texture.json",
+      "bytes": 1743,
+      "sha256": "3297c1251c3a5c05b4011de6e5c2e8be1661e88f95e2efcb117dc4c29f6fc807",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "fusionforge dump-object-evidence primary ../builds/retrobution-20260821 main.unity3d 419 --serialized-asset sharedassets0.assets --type Texture2D"
+      }
+    },
+    {
+      "id": "mail-but-exact",
+      "kind": "exact_texture_export",
+      "path": "work/cases/email-notice-20260912/replay/exact.json",
+      "bytes": 4171,
+      "sha256": "8bee4d75cc4ce17d8e9ea0d80dbd2b72b9fac5e6c88b9c7e6e95661eb15a24b6",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "fusionforge export-exact-texture ../builds/retrobution-20260821/main.unity3d 419 <out.json>"
+      }
+    },
+    {
+      "id": "hud-skin-triage",
+      "kind": "triage_object_evidence",
+      "path": "work/cases/email-notice-20260912/pmenuskin.triage.json",
+      "bytes": 282685,
+      "sha256": "d01702ab29e7f8dda57caa24cf66e143d339cde3334e44c91a5e046025e50e42",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "fusionforge dump-object-evidence primary ../builds/retrobution-20260821 main.unity3d 1372 --serialized-asset sharedassets0.assets --type MonoBehaviour --allow-unresolved-pointers"
+      }
+    },
+    {
+      "id": "inventory-skin-triage",
+      "kind": "triage_object_evidence",
+      "path": "work/cases/email-notice-20260912/invenskin.triage.json",
+      "bytes": 555444,
+      "sha256": "6c8df0a3de540f2d54642042d30b8205cbd33f8203b4301d46610342603313d6",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "fusionforge dump-object-evidence primary ../builds/retrobution-20260821 main.unity3d 1366 --serialized-asset sharedassets0.assets --type MonoBehaviour --allow-unresolved-pointers"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "FFOne never receives P_FE2CL_REP_PC_NEW_EMAIL because OpenFusion emits it only as the reply to P_CL2FE_REQ_PC_EMAIL_UPDATE_CHECK, which clean cnGUINanocom.Update sends 60 s after start (fNewUserMailTime) and then every 600 s once GameFrame.IsReadyForPlay(), and FFOne had no producer for that request.",
+      "state": "accepted",
+      "evidence": ["managed-assembly", "OpenFusion src/Email.cpp emailUpdateCheck"],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "A positive count plays Email_Arrived twice: cnMainGame.ReceiveNewMail and cnGUINanocom.SetNewMail each call SoundUtil.Playsound; PlayUISountAt allocates a new AudioSource per call and IsPlayable only caps the global sound count.",
+      "state": "accepted",
+      "evidence": ["managed-assembly"],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "SetNewMail arms bNewMail for fEMailAlarmTime = 2 s; RenderMenu draws GUI.Label(mailRect(140,150,30,30), mailTexture, imagewindow2) in the NanoRect group with alpha |cos(2*pi*Time.time)| while !bViewMenu. imagewindow2 is MiddleCenter/ImageAbove with zero padding, so the 19x14 mail_but lands at NanoRect-local (145.5,158). Live WindowRect is set to (7,-4,187,183) in Start, so FFOne's minimap group equals NanoRect.",
+      "state": "accepted",
+      "evidence": ["managed-assembly", "nanocom-owner", "mail-but-texture", "hud-skin-triage"],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "Panel_EmailList.DoData (guide tab, bComEmail) labels the FFSlotEmpty backdrop for a selected row and the GetEquipIconElement(30, sender NPC) icon into rectGuideIcon(10,10,79,68) with FusionFallInvenSkin label (UpperLeft, ImageLeft, padding 3/0/3/0), i.e. 62x62 at (10,13), and moves FROM/SUBJECT right by 79; the player tab does not.",
+      "state": "accepted",
+      "evidence": ["managed-assembly", "inventory-skin-triage"],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "EmailNotice (529) and EmailNoticeUp (69) are byte-identical to mail_but (419).",
+      "state": "rejected",
+      "evidence": [],
+      "rejectedBecause": "The identical sha256 in the dump reports was the container hash; texel identity was never measured."
+    }
+  ],
+  "differences": [
+    {
+      "subject": "P_CL2FE_REQ_PC_EMAIL_UPDATE_CHECK payload",
+      "classification": "primary parity",
+      "detail": "The clean client sends the empty struct with 0 payload bytes. Pinned OpenFusion and FFOne's request registry use its 1-byte C++ size; OpenFusion also zero-fills a 0-byte body. FFOne sends one zero byte, as for P_CL2FE_REQ_PC_GROUP_LEAVE."
+    }
+  ],
+  "conclusion": "FFOne now polls the unread-mail check on the clean schedule, rings Email_Arrived twice and blinks the published mail_but icon for two seconds on a positive count, and draws the guide sender icon with the clean label shift. The Nanocom E-MAIL row notice (EmailNoticeTexture at EMailRect) remains unrendered and is tracked separately.",
+  "nativeContract": {
+    "asset": "ui/en/gameplay/minimap/new-mail.png (393 bytes, sha256 7f2ec8c023456f7d12d33b91cc46bbd5241a6f66746fd9cf72ef871410cc0fd5, Bilinear/Repeat, no mips)",
+    "receipt": "recipes/native/ui/new-mail-icon-primary-20260912.json"
+  },
+  "verification": [
+    {
+      "command": "cargo test -p ffone-client --lib --bin ffone-client --locked --no-run, then the lib unittest binary filtered to new_mail, guide_detail_labels_sender_icon and email_ui::",
+      "result": "passed: 35 tests"
+    },
+    {
+      "command": "bin unittest binary filtered to email",
+      "result": "passed: 11 tests, including the update-check poll/ABI test, the two-cue notice test and type-30 icon resolution for guide NPCs 707, 728, 731, 732 and 1171"
+    },
+    {
+      "command": "python tools/legacy-sources/publish-new-mail-icon.py --source-root ../builds/retrobution-20260821 --work work/cases/email-notice-20260912/replay-verify --target-root ../FFOneClient/assets/game",
+      "result": "passed: deterministic replay matches the installed payload"
+    },
+    {
+      "command": "Live client capture of the minimap alarm, both arrival sounds and the guide detail against Retrobution",
+      "result": "not run; the case stays open until runtime or GPU evidence is captured"
+    }
+  ]
+}

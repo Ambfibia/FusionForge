@@ -1,0 +1,941 @@
+{
+  "schema": "fusionforge.candy-cove-repair-evidence.v1",
+  "sources": [
+    {
+      "alias": "primary",
+      "relativeContainer": "Map_08_06.unity3d",
+      "bytes": 143489,
+      "sha256": "0c64a46d26cdc1d6a3a81fcacd23ffd338e4de11dfee64445bbd125530947520"
+    },
+    {
+      "alias": "primary",
+      "relativeContainer": "DongResources_08_06.resourceFile",
+      "bytes": 4079280,
+      "sha256": "782cda4c1c811a4d46139d441821b55fe386cc87156629f4387fddb39994ef2f"
+    }
+  ],
+  "strictObjects": [
+    {
+      "externalFiles": [
+        {
+          "assetPath": "",
+          "fileId": 1,
+          "filePath": "customassetbundle-b7afc5c36d0034850882d2aa88361576",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 2,
+          "filePath": "customassetbundle-b4f543c102ded400fbc6f1da25d9679a",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 3,
+          "filePath": "customassetbundle-a3962f73ba4214b50b6d88e38442b1c2",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 4,
+          "filePath": "library/unity default resources",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 5,
+          "filePath": "customassetbundle-fa9dbcf4604f64024b06ff1d5e375918",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 6,
+          "filePath": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        }
+      ],
+      "object": {
+        "classId": 1,
+        "name": "Plane01",
+        "pathId": 8712,
+        "rawBytes": 59,
+        "rawSha256": "567b9f937658092f503d025274513888c2155bbaa2629eb762c7037d28e36ef9",
+        "serializedAsset": "BuildPlayer-Map_08_06",
+        "type": "GameObject",
+        "typeId": 1,
+        "value": {
+          "m_Component": [
+            [
+              4,
+              {
+                "fileId": 0,
+                "pathId": 5128
+              }
+            ],
+            [
+              33,
+              {
+                "fileId": 0,
+                "pathId": 8713
+              }
+            ],
+            [
+              23,
+              {
+                "fileId": 0,
+                "pathId": 8714
+              }
+            ]
+          ],
+          "m_IsActive": 1,
+          "m_Layer": 12,
+          "m_Name": "Plane01",
+          "m_Tag": 0
+        }
+      },
+      "pointers": [
+        {
+          "error": null,
+          "fieldPath": "/m_Component/0/1",
+          "fileId": 0,
+          "pathId": 5128,
+          "status": "resolved",
+          "target": {
+            "pathId": 5128,
+            "serializedAsset": "BuildPlayer-Map_08_06",
+            "type": "Transform"
+          }
+        },
+        {
+          "error": null,
+          "fieldPath": "/m_Component/1/1",
+          "fileId": 0,
+          "pathId": 8713,
+          "status": "resolved",
+          "target": {
+            "pathId": 8713,
+            "serializedAsset": "BuildPlayer-Map_08_06",
+            "type": "MeshFilter"
+          }
+        },
+        {
+          "error": null,
+          "fieldPath": "/m_Component/2/1",
+          "fileId": 0,
+          "pathId": 8714,
+          "status": "resolved",
+          "target": {
+            "pathId": 8714,
+            "serializedAsset": "BuildPlayer-Map_08_06",
+            "type": "MeshRenderer"
+          }
+        }
+      ],
+      "schema": "fusionforge.object-evidence.v1",
+      "source": {
+        "alias": "primary",
+        "bytes": 143489,
+        "relativeContainer": "Map_08_06.unity3d",
+        "sha256": "0c64a46d26cdc1d6a3a81fcacd23ffd338e4de11dfee64445bbd125530947520"
+      },
+      "triage": {
+        "allowUnresolvedPointers": false,
+        "unresolvedPointerCount": 0
+      }
+    },
+    {
+      "externalFiles": [
+        {
+          "assetPath": "",
+          "fileId": 1,
+          "filePath": "customassetbundle-b7afc5c36d0034850882d2aa88361576",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 2,
+          "filePath": "customassetbundle-b4f543c102ded400fbc6f1da25d9679a",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 3,
+          "filePath": "customassetbundle-a3962f73ba4214b50b6d88e38442b1c2",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 4,
+          "filePath": "library/unity default resources",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 5,
+          "filePath": "customassetbundle-fa9dbcf4604f64024b06ff1d5e375918",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 6,
+          "filePath": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        }
+      ],
+      "object": {
+        "classId": 1,
+        "name": "",
+        "pathId": 13249,
+        "rawBytes": 39,
+        "rawSha256": "90cf3b62b4da76abef40e6d2e0d45205f3dd408948c2bca02b02aaf2249a4388",
+        "serializedAsset": "BuildPlayer-Map_08_06",
+        "type": "GameObject",
+        "typeId": 1,
+        "value": {
+          "m_Component": [
+            [
+              4,
+              {
+                "fileId": 0,
+                "pathId": 5134
+              }
+            ],
+            [
+              111,
+              {
+                "fileId": 0,
+                "pathId": 13250
+              }
+            ]
+          ],
+          "m_IsActive": 1,
+          "m_Layer": 12,
+          "m_Name": "",
+          "m_Tag": 0
+        }
+      },
+      "pointers": [
+        {
+          "error": null,
+          "fieldPath": "/m_Component/0/1",
+          "fileId": 0,
+          "pathId": 5134,
+          "status": "resolved",
+          "target": {
+            "pathId": 5134,
+            "serializedAsset": "BuildPlayer-Map_08_06",
+            "type": "Transform"
+          }
+        },
+        {
+          "error": null,
+          "fieldPath": "/m_Component/1/1",
+          "fileId": 0,
+          "pathId": 13250,
+          "status": "resolved",
+          "target": {
+            "pathId": 13250,
+            "serializedAsset": "BuildPlayer-Map_08_06",
+            "type": "Animation"
+          }
+        }
+      ],
+      "schema": "fusionforge.object-evidence.v1",
+      "source": {
+        "alias": "primary",
+        "bytes": 143489,
+        "relativeContainer": "Map_08_06.unity3d",
+        "sha256": "0c64a46d26cdc1d6a3a81fcacd23ffd338e4de11dfee64445bbd125530947520"
+      },
+      "triage": {
+        "allowUnresolvedPointers": false,
+        "unresolvedPointerCount": 0
+      }
+    },
+    {
+      "externalFiles": [
+        {
+          "assetPath": "",
+          "fileId": 1,
+          "filePath": "customassetbundle-b7afc5c36d0034850882d2aa88361576",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 2,
+          "filePath": "customassetbundle-b4f543c102ded400fbc6f1da25d9679a",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 3,
+          "filePath": "customassetbundle-a3962f73ba4214b50b6d88e38442b1c2",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 4,
+          "filePath": "library/unity default resources",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 5,
+          "filePath": "customassetbundle-fa9dbcf4604f64024b06ff1d5e375918",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 6,
+          "filePath": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        }
+      ],
+      "object": {
+        "classId": 4,
+        "name": "",
+        "pathId": 5128,
+        "rawBytes": 60,
+        "rawSha256": "cb841668a0525368045d77ba7c7b94cbcd211a97b4d677ac666410254a8d6635",
+        "serializedAsset": "BuildPlayer-Map_08_06",
+        "type": "Transform",
+        "typeId": 4,
+        "value": {
+          "m_Children": [],
+          "m_Father": {
+            "fileId": 0,
+            "pathId": 5132
+          },
+          "m_GameObject": {
+            "fileId": 0,
+            "pathId": 8712
+          },
+          "m_LocalPosition": {
+            "x": 25.0,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "m_LocalRotation": {
+            "w": 0.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        }
+      },
+      "pointers": [
+        {
+          "error": null,
+          "fieldPath": "/m_Father",
+          "fileId": 0,
+          "pathId": 5132,
+          "status": "resolved",
+          "target": {
+            "pathId": 5132,
+            "serializedAsset": "BuildPlayer-Map_08_06",
+            "type": "Transform"
+          }
+        },
+        {
+          "error": null,
+          "fieldPath": "/m_GameObject",
+          "fileId": 0,
+          "pathId": 8712,
+          "status": "resolved",
+          "target": {
+            "pathId": 8712,
+            "serializedAsset": "BuildPlayer-Map_08_06",
+            "type": "GameObject"
+          }
+        }
+      ],
+      "schema": "fusionforge.object-evidence.v1",
+      "source": {
+        "alias": "primary",
+        "bytes": 143489,
+        "relativeContainer": "Map_08_06.unity3d",
+        "sha256": "0c64a46d26cdc1d6a3a81fcacd23ffd338e4de11dfee64445bbd125530947520"
+      },
+      "triage": {
+        "allowUnresolvedPointers": false,
+        "unresolvedPointerCount": 0
+      }
+    },
+    {
+      "externalFiles": [
+        {
+          "assetPath": "",
+          "fileId": 1,
+          "filePath": "customassetbundle-b7afc5c36d0034850882d2aa88361576",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 2,
+          "filePath": "customassetbundle-b4f543c102ded400fbc6f1da25d9679a",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 3,
+          "filePath": "customassetbundle-a3962f73ba4214b50b6d88e38442b1c2",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 4,
+          "filePath": "library/unity default resources",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 5,
+          "filePath": "customassetbundle-fa9dbcf4604f64024b06ff1d5e375918",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        },
+        {
+          "assetPath": "",
+          "fileId": 6,
+          "filePath": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+          "guid": "00000000000000000000000000000000",
+          "typeId": 0
+        }
+      ],
+      "object": {
+        "classId": 1,
+        "name": "",
+        "pathId": 11271,
+        "rawBytes": 51,
+        "rawSha256": "4c4daa13cd03b75560acbca1cf082b7f8e33bd8c703fcd9614c8773129c30238",
+        "serializedAsset": "BuildPlayer-Map_08_06",
+        "type": "GameObject",
+        "typeId": 1,
+        "value": {
+          "m_Component": [
+            [
+              4,
+              {
+                "fileId": 0,
+                "pathId": 1740
+              }
+            ],
+            [
+              33,
+              {
+                "fileId": 0,
+                "pathId": 11272
+              }
+            ],
+            [
+              23,
+              {
+                "fileId": 0,
+                "pathId": 11273
+              }
+            ]
+          ],
+          "m_IsActive": 1,
+          "m_Layer": 16,
+          "m_Name": "",
+          "m_Tag": 0
+        }
+      },
+      "pointers": [
+        {
+          "error": null,
+          "fieldPath": "/m_Component/0/1",
+          "fileId": 0,
+          "pathId": 1740,
+          "status": "resolved",
+          "target": {
+            "pathId": 1740,
+            "serializedAsset": "BuildPlayer-Map_08_06",
+            "type": "Transform"
+          }
+        },
+        {
+          "error": null,
+          "fieldPath": "/m_Component/1/1",
+          "fileId": 0,
+          "pathId": 11272,
+          "status": "resolved",
+          "target": {
+            "pathId": 11272,
+            "serializedAsset": "BuildPlayer-Map_08_06",
+            "type": "MeshFilter"
+          }
+        },
+        {
+          "error": null,
+          "fieldPath": "/m_Component/2/1",
+          "fileId": 0,
+          "pathId": 11273,
+          "status": "resolved",
+          "target": {
+            "pathId": 11273,
+            "serializedAsset": "BuildPlayer-Map_08_06",
+            "type": "MeshRenderer"
+          }
+        }
+      ],
+      "schema": "fusionforge.object-evidence.v1",
+      "source": {
+        "alias": "primary",
+        "bytes": 143489,
+        "relativeContainer": "Map_08_06.unity3d",
+        "sha256": "0c64a46d26cdc1d6a3a81fcacd23ffd338e4de11dfee64445bbd125530947520"
+      },
+      "triage": {
+        "allowUnresolvedPointers": false,
+        "unresolvedPointerCount": 0
+      }
+    }
+  ],
+  "octopus": {
+    "export": {
+      "bytes": 394207,
+      "sha256": "1fb0537b74c71652388276fe4c2ef6b4dd6e546bfa864f4473befbd0c0e2d812",
+      "command": "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/DongResources_08_06.resourceFile map/ep/ep_exsh_iumppad_octopus_01.nif work/legacy-sources/candy-cove-20260906/octopus-source.json work/projects/retrobution-ui-20260821.ffclient"
+    },
+    "exactContainerTargets": [
+      {
+        "assetIndex": 0,
+        "assetName": "CustomAssetBundle-a3962f73ba4214b50b6d88e38442b1c2",
+        "containerAssetIndex": 0,
+        "containerAssetName": "CustomAssetBundle-a3962f73ba4214b50b6d88e38442b1c2",
+        "exactRoute": "map/ep/ep_exsh_iumppad_octopus_01.nif",
+        "objectType": "GameObject",
+        "pathId": 1367,
+        "proof": "directAssetBundleContainerPointer"
+      }
+    ],
+    "modelHierarchy": {
+      "nodes": [
+        {
+          "gameObjectPathId": 1367,
+          "name": "EP_EXSH_iumppad_octopus_01",
+          "parent": null,
+          "path": "EP_EXSH_iumppad_octopus_01",
+          "rotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sourceAssetIndex": 0,
+          "transformPathId": 1368,
+          "translation": [
+            -0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "gameObjectPathId": 1370,
+          "name": "EP_iumppad_octopus_01",
+          "parent": "EP_EXSH_iumppad_octopus_01",
+          "path": "EP_EXSH_iumppad_octopus_01/EP_iumppad_octopus_01",
+          "rotation": [
+            -0.7071067811865475,
+            -0.0,
+            -0.0,
+            0.7071067811865475
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sourceAssetIndex": 0,
+          "transformPathId": 1369,
+          "translation": [
+            0.0,
+            0.0,
+            -1.7053025658242404e-13
+          ]
+        },
+        {
+          "gameObjectPathId": 1377,
+          "name": "collision",
+          "parent": "EP_EXSH_iumppad_octopus_01",
+          "path": "EP_EXSH_iumppad_octopus_01/collision",
+          "rotation": [
+            -0.7071067811865475,
+            -0.0,
+            -0.0,
+            0.7071067811865475
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sourceAssetIndex": 0,
+          "transformPathId": 1376,
+          "translation": [
+            4.470348358154297e-08,
+            0.0,
+            3.4152269900999954e-10
+          ]
+        }
+      ],
+      "roots": [
+        {
+          "gameObjectPathId": 1367,
+          "name": "EP_EXSH_iumppad_octopus_01",
+          "path": "EP_EXSH_iumppad_octopus_01",
+          "sourceAssetIndex": 0,
+          "transformPathId": 1368
+        }
+      ],
+      "source": "unity-transform-hierarchy"
+    },
+    "rendererMaterialBindings": [
+      {
+        "gameObject": {
+          "asset": "CustomAssetBundle-a3962f73ba4214b50b6d88e38442b1c2",
+          "assetIndex": 0,
+          "classId": 1,
+          "id": "CustomAssetBundle-a3962f73ba4214b50b6d88e38442b1c2:1370",
+          "pathId": 1370,
+          "serializedTypeName": "GameObject",
+          "type": "GameObject",
+          "typeId": 1
+        },
+        "materialSlots": [
+          {
+            "materialId": "CustomAssetBundle-a3962f73ba4214b50b6d88e38442b1c2:1374",
+            "pointer": {
+              "fileId": 0,
+              "isNull": false,
+              "pathId": 1374,
+              "sourceAssetIndex": 0
+            },
+            "slot": 0
+          }
+        ],
+        "mesh": {
+          "asset": "CustomAssetBundle-a3962f73ba4214b50b6d88e38442b1c2",
+          "assetIndex": 0,
+          "classId": 43,
+          "id": "CustomAssetBundle-a3962f73ba4214b50b6d88e38442b1c2:1372",
+          "pathId": 1372,
+          "serializedTypeName": "Mesh",
+          "type": "Mesh",
+          "typeId": 43
+        },
+        "renderer": {
+          "asset": "CustomAssetBundle-a3962f73ba4214b50b6d88e38442b1c2",
+          "assetIndex": 0,
+          "classId": 23,
+          "id": "CustomAssetBundle-a3962f73ba4214b50b6d88e38442b1c2:1373",
+          "pathId": 1373,
+          "type": "MeshRenderer",
+          "typeId": 23
+        },
+        "rendererType": "MeshRenderer"
+      }
+    ]
+  },
+  "captures": [
+    {
+      "path": "../FFOneClient/target/performance/candy-pad-before",
+      "frame": {
+        "bytes": 735236,
+        "sha256": "41d4d8e956f4eb300fbc49ee5e39160bdf6f0e8f9cefa6081b212b18a3aaf73c"
+      },
+      "placements": {
+        "bytes": 3471628,
+        "sha256": "016e8a202e21ccf0c63207d56fabab0478736976e31e93c067aa1e763c521753"
+      },
+      "foliage": [
+        {
+          "model": "objects/nature/wd_plant_004_standard_1_wd_ruins_plant004/models/wd_plant_004_standard_1_wd_ruins_plant004_variant_0002/visual.glb",
+          "name": "wd_plant_004-standard_1-wd_ruins_plant004 [BuildPlayer-Map_08_06#8712 visual]",
+          "source": "models/world/maps/map_08_06/v-02106-8714-c7873b8e59c8.glb",
+          "world": [
+            -1.4775868654251099,
+            0.04691868647933006,
+            -9.890121459960938,
+            0.0,
+            -9.890190124511719,
+            -0.0361873097717762,
+            1.4774248600006104,
+            0.0,
+            -0.02885892242193222,
+            9.999821662902832,
+            0.051749952137470245,
+            0.0,
+            -4399.0947265625,
+            -60.169925689697266,
+            3279.128662109375,
+            1.0
+          ]
+        },
+        {
+          "model": "objects/nature/standard_1_wd_jugw_tree_02_6/models/wd_jugw_tree_02_standard_1/visual.glb",
+          "name": "wd_jugw_tree_02-standard_1-wd_jugw_tree_02_6 [BuildPlayer-Map_08_06#8715 visual]",
+          "source": "models/world/maps/map_08_06/v-02107-8717-00ee7f59cec2.glb",
+          "world": [
+            -0.5171553492546082,
+            0.016421539708971977,
+            -3.4615426063537598,
+            0.0,
+            -3.461566686630249,
+            -0.01266555953770876,
+            0.5170987844467163,
+            0.0,
+            -0.010100623592734337,
+            3.4999377727508545,
+            0.018112484365701675,
+            0.0,
+            -4361.49365234375,
+            -49.61382293701172,
+            3192.67236328125,
+            1.0
+          ]
+        },
+        {
+          "model": "objects/nature/standard_2_wd_jugw_tree_02_4/models/wd_jugw_tree_02_standard_2/visual.glb",
+          "name": "wd_jugw_tree_02-standard_2-wd_jugw_tree_02_4 [BuildPlayer-Map_08_06#8718 visual]",
+          "source": "models/world/maps/map_08_06/v-02108-8720-52e39a65c564.glb",
+          "world": [
+            -0.5171553492546082,
+            0.016421539708971977,
+            -3.4615426063537598,
+            0.0,
+            -3.461566686630249,
+            -0.01266555953770876,
+            0.5170987844467163,
+            0.0,
+            -0.010100623592734337,
+            3.4999377727508545,
+            0.018112484365701675,
+            0.0,
+            -4361.49365234375,
+            -49.61382293701172,
+            3192.67236328125,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "../FFOneClient/target/performance/candy-pad-after",
+      "frame": {
+        "bytes": 678629,
+        "sha256": "b736a3e810f0ebe9bbb788d7decf06fd74f17f19505840ab8f06082510bbdf29"
+      },
+      "placements": {
+        "bytes": 3470222,
+        "sha256": "edecdc030111d12bb04a51b90440acd784c00c23f5a76889507748073d055ee1"
+      },
+      "foliage": [
+        {
+          "model": "objects/nature/standard_2_wd_jugw_tree_02_4/models/wd_jugw_tree_02_standard_2/visual.glb",
+          "name": "wd_jugw_tree_02-standard_2-wd_jugw_tree_02_4 [BuildPlayer-Map_08_06#8718 visual]",
+          "source": "models/world/maps/map_08_06/v-02108-8720-52e39a65c564.glb",
+          "world": [
+            -3.5,
+            1.2434497875801753e-14,
+            -3.0597971090173814e-07,
+            0.0,
+            -3.05979767745157e-07,
+            -4.1723257027115324e-07,
+            3.500000238418579,
+            0.0,
+            -3.730350040366884e-14,
+            3.500000238418579,
+            6.258488838284393e-07,
+            0.0,
+            -4266.091796875,
+            -48.99730682373047,
+            2981.979248046875,
+            1.0
+          ]
+        },
+        {
+          "model": "objects/nature/standard_1_wd_jugw_tree_02_6/models/wd_jugw_tree_02_standard_1/visual.glb",
+          "name": "wd_jugw_tree_02-standard_1-wd_jugw_tree_02_6 [BuildPlayer-Map_08_06#8715 visual]",
+          "source": "models/world/maps/map_08_06/v-02107-8717-00ee7f59cec2.glb",
+          "world": [
+            -3.5,
+            1.2434497875801753e-14,
+            -3.0597971090173814e-07,
+            0.0,
+            -3.05979767745157e-07,
+            -4.1723257027115324e-07,
+            3.500000238418579,
+            0.0,
+            -3.730350040366884e-14,
+            3.500000238418579,
+            6.258488838284393e-07,
+            0.0,
+            -4266.091796875,
+            -48.99730682373047,
+            2981.979248046875,
+            1.0
+          ]
+        },
+        {
+          "model": "objects/nature/wd_plant_004_standard_1_wd_ruins_plant004/models/wd_plant_004_standard_1_wd_ruins_plant004_variant_0002/visual.glb",
+          "name": "wd_plant_004-standard_1-wd_ruins_plant004 [BuildPlayer-Map_08_06#8712 visual]",
+          "source": "models/world/maps/map_08_06/v-02106-8714-c7873b8e59c8.glb",
+          "world": [
+            -10.0,
+            3.552713678800501e-14,
+            -8.74227794156468e-07,
+            0.0,
+            -8.742278509998869e-07,
+            -1.1920930091946502e-06,
+            10.0,
+            0.0,
+            -1.0658142391654218e-13,
+            10.0,
+            1.7881395706353942e-06,
+            0.0,
+            -4186.091796875,
+            -58.997314453125,
+            3031.979248046875,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "../FFOneClient/target/performance/candy-second-pad-after",
+      "frame": {
+        "bytes": 1187498,
+        "sha256": "c786e5d0b7e1faba7ad96d0940b6d27fe9ebfcca294f1b82dbe1f1566661bc43"
+      },
+      "placements": {
+        "bytes": 3470265,
+        "sha256": "007deed461098aecded3cd364928e0e7e3bf600faa5d4e9d85bd12fbc73036b6"
+      },
+      "foliage": [
+        {
+          "model": "objects/nature/standard_2_wd_jugw_tree_02_4/models/wd_jugw_tree_02_standard_2/visual.glb",
+          "name": "wd_jugw_tree_02-standard_2-wd_jugw_tree_02_4 [BuildPlayer-Map_08_06#8718 visual]",
+          "source": "models/world/maps/map_08_06/v-02108-8720-52e39a65c564.glb",
+          "world": [
+            -3.5,
+            1.2434497875801753e-14,
+            -3.0597971090173814e-07,
+            0.0,
+            -3.05979767745157e-07,
+            -4.1723257027115324e-07,
+            3.500000238418579,
+            0.0,
+            -3.730350040366884e-14,
+            3.500000238418579,
+            6.258488838284393e-07,
+            0.0,
+            -4266.091796875,
+            -48.99730682373047,
+            2981.979248046875,
+            1.0
+          ]
+        },
+        {
+          "model": "objects/nature/standard_1_wd_jugw_tree_02_6/models/wd_jugw_tree_02_standard_1/visual.glb",
+          "name": "wd_jugw_tree_02-standard_1-wd_jugw_tree_02_6 [BuildPlayer-Map_08_06#8715 visual]",
+          "source": "models/world/maps/map_08_06/v-02107-8717-00ee7f59cec2.glb",
+          "world": [
+            -3.5,
+            1.2434497875801753e-14,
+            -3.0597971090173814e-07,
+            0.0,
+            -3.05979767745157e-07,
+            -4.1723257027115324e-07,
+            3.500000238418579,
+            0.0,
+            -3.730350040366884e-14,
+            3.500000238418579,
+            6.258488838284393e-07,
+            0.0,
+            -4266.091796875,
+            -48.99730682373047,
+            2981.979248046875,
+            1.0
+          ]
+        },
+        {
+          "model": "objects/nature/wd_plant_004_standard_1_wd_ruins_plant004/models/wd_plant_004_standard_1_wd_ruins_plant004_variant_0002/visual.glb",
+          "name": "wd_plant_004-standard_1-wd_ruins_plant004 [BuildPlayer-Map_08_06#8712 visual]",
+          "source": "models/world/maps/map_08_06/v-02106-8714-c7873b8e59c8.glb",
+          "world": [
+            -10.0,
+            3.552713678800501e-14,
+            -8.74227794156468e-07,
+            0.0,
+            -8.742278509998869e-07,
+            -1.1920930091946502e-06,
+            10.0,
+            0.0,
+            -1.0658142391654218e-13,
+            10.0,
+            1.7881395706353942e-06,
+            0.0,
+            -4186.091796875,
+            -58.997314453125,
+            3031.979248046875,
+            1.0
+          ]
+        }
+      ]
+    }
+  ],
+  "fullClient": {
+    "files": [
+      {
+        "path": "..\\FFOneClient\\target\\performance\\candy-full-client\\frame.png",
+        "bytes": 2219594,
+        "sha256": "7c9dc1a33086f7bff603b3f8285a39e9e3dcba4d4a3633d075e28187bf426004"
+      },
+      {
+        "path": "..\\FFOneClient\\target\\performance\\candy-full-client\\report.json",
+        "bytes": 10338,
+        "sha256": "e26c436fc98ded7d1b8cadb6721eb1955195e037888d0c42512f287a729ea883"
+      },
+      {
+        "path": "..\\FFOneClient\\target\\performance\\candy-full-client\\run.log",
+        "bytes": 144,
+        "sha256": "8f215073b36a4274a9df0c4b9698318d1d1ff8e78345ad82ef997029795ac9c8"
+      }
+    ],
+    "exitCode": 0
+  }
+}

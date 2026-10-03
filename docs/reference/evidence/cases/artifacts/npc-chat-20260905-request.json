@@ -1,0 +1,32 @@
+{
+  "managed": {
+    "payload": "Assembly-CSharp.dll",
+    "evidenceReport": "assembly-csharp.evidence.json"
+  },
+  "traversal": {
+    "maxMethods": 512,
+    "maxDirectCallDepth": 1
+  },
+  "schema": "fusionforge.ui-interaction-analysis-request.v1",
+  "schemaVersion": 1,
+  "roots": [
+    {
+      "name": "SetChatBubble",
+      "parameterTypes": [
+        "System.String",
+        "eChatbubbleType"
+      ],
+      "declaringType": "PrintName",
+      "returnType": "System.Void"
+    },
+    {
+      "name": "AddEventString",
+      "parameterTypes": [
+        "System.Int32",
+        "System.String"
+      ],
+      "declaringType": "CnGuiChat",
+      "returnType": "System.Void"
+    }
+  ]
+}

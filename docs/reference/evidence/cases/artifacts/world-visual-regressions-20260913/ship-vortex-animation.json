@@ -1,0 +1,126 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "customassetbundle-b4f543c102ded400fbc6f1da25d9679a",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 2,
+      "filePath": "customassetbundle-755e8d758154e4b5cb1ee36c6cdedc63",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 3,
+      "filePath": "customassetbundle-bd5f53480423447d7bcaed95cb2a96c8",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 4,
+      "filePath": "customassetbundle-fa9dbcf4604f64024b06ff1d5e375918",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 5,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 6,
+      "filePath": "customassetbundle-d304c52c4bae348e38c743762c1bd818",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 111,
+    "name": "",
+    "pathId": 1637,
+    "rawBytes": 39,
+    "rawSha256": "50adc79f60426e58e6cc11373bd91be646cc9400015a753c4dc66cdc719bf5bd",
+    "serializedAsset": "CustomAssetBundle-b35a71b799a32429bbe08591cf8fa254",
+    "type": "Animation",
+    "typeId": 111,
+    "value": {
+      "m_AnimateIfVisible": true,
+      "m_AnimatePhysics": false,
+      "m_Animation": {
+        "fileId": 0,
+        "pathId": 183
+      },
+      "m_Animations": [
+        {
+          "fileId": 0,
+          "pathId": 183
+        }
+      ],
+      "m_Enabled": true,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 824
+      },
+      "m_PlayAutomatically": true,
+      "m_WrapMode": 0
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/m_Animation",
+      "fileId": 0,
+      "pathId": 183,
+      "status": "resolved",
+      "target": {
+        "pathId": 183,
+        "serializedAsset": "CustomAssetBundle-b35a71b799a32429bbe08591cf8fa254",
+        "type": "AnimationClip"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Animations/0",
+      "fileId": 0,
+      "pathId": 183,
+      "status": "resolved",
+      "target": {
+        "pathId": 183,
+        "serializedAsset": "CustomAssetBundle-b35a71b799a32429bbe08591cf8fa254",
+        "type": "AnimationClip"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 824,
+      "status": "resolved",
+      "target": {
+        "pathId": 824,
+        "serializedAsset": "CustomAssetBundle-b35a71b799a32429bbe08591cf8fa254",
+        "type": "GameObject"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 4417951,
+    "relativeContainer": "DongResources_12_10.resourceFile",
+    "sha256": "8a3606b22a4f044789caaa111c111eafb1f5566a2632352c545886a5d3d3368e"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

@@ -1,0 +1,604 @@
+{
+  "schema": "fusionforge.visual-corrections-evidence.v1",
+  "date": "2026-09-18",
+  "status": "native-assets-validated",
+  "request": "Native Mordecai/Titan cel shading, Darwin triangular head shading, healing/Coco skill VFX.",
+  "primary": [
+    {
+      "alias": "primary",
+      "container": "Effects.resourceFile",
+      "bytes": 8130528,
+      "sha256": "2aa08e85b7aefa8f7e22705ee2f1581befa83cc5708b32116ce8a46a273595e9"
+    },
+    {
+      "alias": "primary",
+      "container": "Tutorial.resourceFile",
+      "bytes": 33327638,
+      "sha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916"
+    }
+  ],
+  "darwinDonor": {
+    "alias": "alternate",
+    "role": "explicit_donor",
+    "container": "Nano_054.resourceFile",
+    "sha256": "dd5c749c4bd02e0ba98cdbe88a8b9e92ee644ca2dc3c37e7c86faa6dd79748c4"
+  },
+  "changes": {
+    "cel": "Explicit nativeSurfaceStyle=cel on existing accepted materials. Every source render pass, texture and BIN byte retained.",
+    "darwin": "Area-weighted head normals only, exact position plus skin equality; 60-degree crease threshold. 299 groups, 4077 float components changed. No vertex welding; all non-normal GLB bytes preserved.",
+    "compressedNormals": "Editor compressed unit normal decoder now reconstructs signed sqrt(1-x*x-y*y); quantization overflow normalizes XY. This does not automatically republish other accepted models.",
+    "skillHits": {
+      "effects": [
+        54,
+        407,
+        438,
+        500,
+        502,
+        827,
+        828
+      ],
+      "projectiles": [
+        88,
+        92,
+        97,
+        105
+      ],
+      "authority": "Primary Effects/Tutorial particle closures and BulletTable/controller evidence. Native projectile data contain semantic paths only."
+    }
+  },
+  "replay": {
+    "models": "repair-native nano-cel-shading / darwin-head-normals; byte-identical idempotent replay",
+    "skillHits": "Fresh publish-skill-hit-effects output manifest and every installed SHA-256 match",
+    "scriptIntegration": "Maintained Python particle compiler is exposed by FusionForge CLI; not yet ported fully to Rust."
+  },
+  "work": "work/cases/visual-bugs-20260918",
+  "runtimeVerification": "../FFOneClient/target/performance/visual-bugs",
+  "outputs": [
+    {
+      "path": "characters/nanos/nano_mordecai/nano_mordecai.glb",
+      "bytes": 1259320,
+      "sha256": "193b2e33828a2a58594f88193fcaf3f2bc69af1ce32cd0633d32fb216e030325"
+    },
+    {
+      "path": "characters/nanos/nano_titan/nano_titan.glb",
+      "bytes": 2503160,
+      "sha256": "5898ba88a184157bbae8b66729f7237084e7663098c18bd6350dd34bfc8b2226"
+    },
+    {
+      "path": "characters/nanos/nano_darwin/nano_darwin.glb",
+      "bytes": 1895088,
+      "sha256": "ccb07b8ff2db0147ddf51c4c337cbd9c65515ff582fc87a55ece98116d5bb5c4"
+    },
+    {
+      "path": "effects/skill-hits/catalog.json",
+      "bytes": 56382,
+      "sha256": "29053f26f187f4b12157c0e38adef63babc1bde401a73a2b816a4c9581b4c8c4"
+    },
+    {
+      "path": "effects/skill-hits/projectiles.json",
+      "bytes": 1318,
+      "sha256": "9a1f99bea9c4685749ca9c5a5840ec220533e8ee9395c722546b5cc8a2aefb7f"
+    },
+    {
+      "path": "effects/skill-hits/textures/a00.mip1.png",
+      "bytes": 19966,
+      "sha256": "e2e27e3e209e2a1f79235eab3c25b820916be6eed31d49f4a14840ec4abce66b"
+    },
+    {
+      "path": "effects/skill-hits/textures/a00.mip2.png",
+      "bytes": 6628,
+      "sha256": "b084b1726dfca216a2bcabada7e59e6b2727c91e0a8edc1baefd49175a1a74b0"
+    },
+    {
+      "path": "effects/skill-hits/textures/a00.mip3.png",
+      "bytes": 2246,
+      "sha256": "3f8a477fec2d3ee2cee08347540b4bb905a89a94eb6a331a37759c25010e2e29"
+    },
+    {
+      "path": "effects/skill-hits/textures/a00.mip4.png",
+      "bytes": 816,
+      "sha256": "61095802f3c864658e2d137a815bf5e1076585c7eabfeb5bb60b9392249a7194"
+    },
+    {
+      "path": "effects/skill-hits/textures/a00.mip5.png",
+      "bytes": 301,
+      "sha256": "cc9f3504aa15bbefa51ea6f83d383663675b2a31d1b24da48d9e6c6dc2a59f03"
+    },
+    {
+      "path": "effects/skill-hits/textures/a00.mip6.png",
+      "bytes": 178,
+      "sha256": "d1928dc4fb699838b1a3c41527f67172f18333bd1d0d8da1c6a2081d87984cdf"
+    },
+    {
+      "path": "effects/skill-hits/textures/a00.mip7.png",
+      "bytes": 102,
+      "sha256": "1791dc823537d529c967239b3dd4b4dae98e60bef759d8299f6e50cd87f8499b"
+    },
+    {
+      "path": "effects/skill-hits/textures/a00.mip8.png",
+      "bytes": 77,
+      "sha256": "c6fd7307c5437a4dcde43bac7e80a864a57265923708cb3697f6bb01e5e04e26"
+    },
+    {
+      "path": "effects/skill-hits/textures/a00.mip9.png",
+      "bytes": 73,
+      "sha256": "5d0cb0e2c17f145ea78c563f9b6f8fb7e427056f89c14d5bc025a43cae557f36"
+    },
+    {
+      "path": "effects/skill-hits/textures/a00.png",
+      "bytes": 62913,
+      "sha256": "de736fdcf35a2668f3694d2e2b786b06b3a8447d3ba23a6776a3a9e8c94b9cc6"
+    },
+    {
+      "path": "effects/skill-hits/textures/attack_hit_11.mip1.png",
+      "bytes": 5579,
+      "sha256": "90c2c09c768863aa2b448903ea93fcd160945169d596c80292d33cb1fc33dfb5"
+    },
+    {
+      "path": "effects/skill-hits/textures/attack_hit_11.mip2.png",
+      "bytes": 1896,
+      "sha256": "284ff152c3d400bfb06ee1d5a5b3c7bb3cb39c1c2058c8848edcd846e045bcca"
+    },
+    {
+      "path": "effects/skill-hits/textures/attack_hit_11.mip3.png",
+      "bytes": 699,
+      "sha256": "e9d0ff55e4a50d21ea345f626afd20de78f5719db9152a0f5d3384218a06d2f4"
+    },
+    {
+      "path": "effects/skill-hits/textures/attack_hit_11.mip4.png",
+      "bytes": 284,
+      "sha256": "7dc1b64e04d8f2519b9b1dfce9832ae62c7d8df9c56e6cc0323d9778dbd13676"
+    },
+    {
+      "path": "effects/skill-hits/textures/attack_hit_11.mip5.png",
+      "bytes": 136,
+      "sha256": "66fb7f133661e13bc58306e35562384c2b280c92854a95b77dbcaae5e6f86ff8"
+    },
+    {
+      "path": "effects/skill-hits/textures/attack_hit_11.mip6.png",
+      "bytes": 86,
+      "sha256": "d617af7b722e9d70be62eb81ed5b85893c8c4612c864eda14f4639096cad45ac"
+    },
+    {
+      "path": "effects/skill-hits/textures/attack_hit_11.mip7.png",
+      "bytes": 73,
+      "sha256": "698aea8be2cb88ab3e004cef63aeabff57eef8874519db2f7031a0050caaffad"
+    },
+    {
+      "path": "effects/skill-hits/textures/attack_hit_11.png",
+      "bytes": 16963,
+      "sha256": "f6dded916c81d428d8133d2d9473120cf4f3d0b8978406da480e9b84cd13f5fd"
+    },
+    {
+      "path": "effects/skill-hits/textures/bloodsucking_target_e03.mip1.png",
+      "bytes": 1983,
+      "sha256": "e4640b04826e6436effec9a0e3d532ebf2dd95591e61bd05d385d62185293c5d"
+    },
+    {
+      "path": "effects/skill-hits/textures/bloodsucking_target_e03.mip2.png",
+      "bytes": 618,
+      "sha256": "be53560056b10364539cadc55ce53d163bf2b8e7edb2f21907ecbc5bed127591"
+    },
+    {
+      "path": "effects/skill-hits/textures/bloodsucking_target_e03.mip3.png",
+      "bytes": 251,
+      "sha256": "24782e2981208988e26a4aeef5ca7336515d66b9523b32a8257f75979fec4f1e"
+    },
+    {
+      "path": "effects/skill-hits/textures/bloodsucking_target_e03.mip4.png",
+      "bytes": 136,
+      "sha256": "92f7d6ccba2462f53a50b68c78a55fd708a4e21d14ea8ea0ff587ec34a62278b"
+    },
+    {
+      "path": "effects/skill-hits/textures/bloodsucking_target_e03.mip5.png",
+      "bytes": 86,
+      "sha256": "d18937a4ec80115aab99d3cc82a9f4438aabd1f49ed608619070ee88d25e8883"
+    },
+    {
+      "path": "effects/skill-hits/textures/bloodsucking_target_e03.mip6.png",
+      "bytes": 73,
+      "sha256": "a3229077672443c2aede2cce55e92b9f31e9bba8165b49b3c2142c56c61b767c"
+    },
+    {
+      "path": "effects/skill-hits/textures/bloodsucking_target_e03.png",
+      "bytes": 6134,
+      "sha256": "96369b8d9ab34b996e5b0c1cd01378015aeb65f389cdea07de189f65318cce7b"
+    },
+    {
+      "path": "effects/skill-hits/textures/bloodsucking_target_e04.png",
+      "bytes": 5136,
+      "sha256": "97f214e20b32d5ab0a05f78da1cfaf7c449c6742e96524d78c79bc49753a86b8"
+    },
+    {
+      "path": "effects/skill-hits/textures/candy.png",
+      "bytes": 3541,
+      "sha256": "ade8e99b15f91cf7a418a9f084729216b921be0a8385e6bc22b7950fd4b548fe"
+    },
+    {
+      "path": "effects/skill-hits/textures/fluid_01.mip1.png",
+      "bytes": 46485,
+      "sha256": "085f578ac5e286f9a28d50413912cd90b903dcb343da461e9c2d7104c9520aec"
+    },
+    {
+      "path": "effects/skill-hits/textures/fluid_01.mip2.png",
+      "bytes": 15334,
+      "sha256": "8733a47237ba21947c37d5c0f81dfa7b7b34dfa0379ea26b6a4503d6d9784f75"
+    },
+    {
+      "path": "effects/skill-hits/textures/fluid_01.mip3.png",
+      "bytes": 4713,
+      "sha256": "42c12d71002a10ed45589c6b9a36e88dc21fef98ac217b8b23a594c6d8a0eab3"
+    },
+    {
+      "path": "effects/skill-hits/textures/fluid_01.mip4.png",
+      "bytes": 1340,
+      "sha256": "aa5a206d791f7a04c00967ff49faed8622648186a3d684688de305b5b9e5349c"
+    },
+    {
+      "path": "effects/skill-hits/textures/fluid_01.mip5.png",
+      "bytes": 509,
+      "sha256": "7d2816fece50b26dd3a33c1fcf4e3571f258eb63b55921506dd807b7509f33b0"
+    },
+    {
+      "path": "effects/skill-hits/textures/fluid_01.mip6.png",
+      "bytes": 235,
+      "sha256": "d7ea095acd73fc7f802e52d187204597b66b3dfaae8637f0e1b1091aed92f89d"
+    },
+    {
+      "path": "effects/skill-hits/textures/fluid_01.mip7.png",
+      "bytes": 136,
+      "sha256": "3a43017f667a5ba8b1eb5694b41bc9b5a3052b9d5a63d3469b16a05e2968228d"
+    },
+    {
+      "path": "effects/skill-hits/textures/fluid_01.mip8.png",
+      "bytes": 86,
+      "sha256": "85b889938b3cb8e5f0ff21a367ffcff1282c82faa8155f70131f742e9b039a56"
+    },
+    {
+      "path": "effects/skill-hits/textures/fluid_01.mip9.png",
+      "bytes": 73,
+      "sha256": "691f9b5c302d217dc14c0e224fcf8f26eee416c7b91c698c4e6fd9ec04a269bd"
+    },
+    {
+      "path": "effects/skill-hits/textures/fluid_01.png",
+      "bytes": 147662,
+      "sha256": "1db151a489757dabe7df59da5547893d3977dbc4b8dbae4a7498abe0a26abda0"
+    },
+    {
+      "path": "effects/skill-hits/textures/green_boom_01.mip1.png",
+      "bytes": 1994,
+      "sha256": "ae3ee14340ac7248a521f0fe10960825b701a60ca0f6b4d0aeaea64653362013"
+    },
+    {
+      "path": "effects/skill-hits/textures/green_boom_01.mip2.png",
+      "bytes": 681,
+      "sha256": "aae4c718fb3e7934af4393ee250524909a963e9d225d0fe525cabda423704a67"
+    },
+    {
+      "path": "effects/skill-hits/textures/green_boom_01.mip3.png",
+      "bytes": 254,
+      "sha256": "c055fc4981040b0be5152c94365e72f1a71a55c548696cc89427ef9b5ce5a195"
+    },
+    {
+      "path": "effects/skill-hits/textures/green_boom_01.mip4.png",
+      "bytes": 136,
+      "sha256": "4542887873597a1d4e06bc6231916d9e5e838232537f07b0d512163472512b52"
+    },
+    {
+      "path": "effects/skill-hits/textures/green_boom_01.mip5.png",
+      "bytes": 86,
+      "sha256": "ac5b8399cfafe31d16ba5778ea35058d03e3adb26718d4410589f4f39f55e1d1"
+    },
+    {
+      "path": "effects/skill-hits/textures/green_boom_01.mip6.png",
+      "bytes": 73,
+      "sha256": "65017a6ba43b02164622f4530b27f5dcfa5ce2b3fb486e9f4bb9988baa9d1131"
+    },
+    {
+      "path": "effects/skill-hits/textures/green_boom_01.png",
+      "bytes": 7014,
+      "sha256": "9ac6df9fe16b2516a25b064b16aaac9d88d57b42d449de2873541f5217897682"
+    },
+    {
+      "path": "effects/skill-hits/textures/hit_04.mip1.png",
+      "bytes": 4944,
+      "sha256": "179a0652847f3df5cf4d32a35dfaa3e5611ad16071c3378b60315b765e2dd1bc"
+    },
+    {
+      "path": "effects/skill-hits/textures/hit_04.mip2.png",
+      "bytes": 1610,
+      "sha256": "8a54348738cdf73705ff1c28abba2abad05eaf80ab47de843a254eaaa59705d9"
+    },
+    {
+      "path": "effects/skill-hits/textures/hit_04.mip3.png",
+      "bytes": 587,
+      "sha256": "b326bad1563c8f7203d8cd40f4478e531adb1b23e4666c44219b98ef2af76b94"
+    },
+    {
+      "path": "effects/skill-hits/textures/hit_04.mip4.png",
+      "bytes": 259,
+      "sha256": "ada8ff7589827e82ac23387a65e357422af9fa4fd5676187db29f76d3ceecde7"
+    },
+    {
+      "path": "effects/skill-hits/textures/hit_04.mip5.png",
+      "bytes": 136,
+      "sha256": "540768d28844f14494ccdd250be5077b9bf37e0cb18c59ea9e954fadd3f65d5f"
+    },
+    {
+      "path": "effects/skill-hits/textures/hit_04.mip6.png",
+      "bytes": 86,
+      "sha256": "c3d504728c4b568643b317763f208fc8b56a72b50ed0b899c31d193d481d1d68"
+    },
+    {
+      "path": "effects/skill-hits/textures/hit_04.mip7.png",
+      "bytes": 73,
+      "sha256": "34aea138b5a481ee4f0270f4b8ca2be6d5d605d9e85cf128f8d144ea8bd9d606"
+    },
+    {
+      "path": "effects/skill-hits/textures/hit_04.png",
+      "bytes": 15892,
+      "sha256": "fdf2b69f0f114babbea134f91b820b2f03bc7fa7195e34e2ce6a52a72dfb0a55"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_heal_t_01.mip1.png",
+      "bytes": 1308,
+      "sha256": "e1d251dd57372c498f50c92bb1d2dad920a972d9be845c2dafb5dafb5d862a57"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_heal_t_01.mip2.png",
+      "bytes": 563,
+      "sha256": "1c02a9b6c900ca5f61c082988717a048a11acaa5ed0f9e5514785663f7a58e7e"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_heal_t_01.mip3.png",
+      "bytes": 285,
+      "sha256": "3bf8de92c7f9dd4daadf445f0415217b3d8f46d0a380a025a81c488b0b20ff57"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_heal_t_01.mip4.png",
+      "bytes": 185,
+      "sha256": "2ae1d56afda95995d38a5e9b69a625d5e7f331e01568f0bc1593644ce38c9c3e"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_heal_t_01.mip5.png",
+      "bytes": 104,
+      "sha256": "9b939ca5eab8d4ad8f1f00512fa0c95b1770ab18e39a17af8530d225be15f814"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_heal_t_01.mip6.png",
+      "bytes": 78,
+      "sha256": "146bd2575c10d454afde626dd20d2ef1c08e94b5fcca454e1d0e57078763677e"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_heal_t_01.mip7.png",
+      "bytes": 73,
+      "sha256": "8b998797da9390fda6ab374ef6623c0ee16491f972afd7d0681fd16325cd87e9"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_heal_t_01.png",
+      "bytes": 3242,
+      "sha256": "7f7484aeb3f0b33d11a29bd305aca8936874bc2383c62e8017dc9e12bf13475a"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_health_area_05.png",
+      "bytes": 3662,
+      "sha256": "b57736e298852919982e0a075f8fb9c4e91b0de357c6257b6bd7829abc325cde"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_resurrection_c.mip1.png",
+      "bytes": 925,
+      "sha256": "4bda0f2ea3ba8391be1db83de2d1c860374632c8c56dc4a5a71d1f94fda946d5"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_resurrection_c.mip2.png",
+      "bytes": 487,
+      "sha256": "3df412dcf7d608924284dcfcabf74b3925934f7c468cd52f84b033580e659d74"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_resurrection_c.mip3.png",
+      "bytes": 277,
+      "sha256": "3496f3db5bdb90ab1b9f4bd926c2d217633cb9e09050e2f418a7418eed21ad7a"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_resurrection_c.mip4.png",
+      "bytes": 188,
+      "sha256": "2c101b4f3bb625480b5215df6d67b34e07c98bcc3dc0ca07aeec0c145f692696"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_resurrection_c.mip5.png",
+      "bytes": 104,
+      "sha256": "a1728cecf7b6bbaa20f51bb72915c5654e792c780a6c621dbd97fc05c1ce4915"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_resurrection_c.mip6.png",
+      "bytes": 78,
+      "sha256": "3f9fae524c54c3cbbc0fd984a4d63bd6e1fb1b10bb38bd8b9357bb97619403fc"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_resurrection_c.mip7.png",
+      "bytes": 73,
+      "sha256": "f7ce0ed68e9298a4cbf1dea9a192d9bafea5881c8e507c5003ff91a09922ebdd"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_resurrection_c.png",
+      "bytes": 2333,
+      "sha256": "dc6d8f222c826117ec827aae228ac724bceb5a8c2c251400fdd1e291db134f46"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_testing_b.mip1.png",
+      "bytes": 755,
+      "sha256": "3f5fbeaab5ade9c59dcbea84d4be0a662ab84fd2586ebc72d94267d5344056c8"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_testing_b.mip2.png",
+      "bytes": 314,
+      "sha256": "104113718863a59ce873b2fe98c2e46b3de46b870bd1e721cba8083fea71fab0"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_testing_b.mip3.png",
+      "bytes": 136,
+      "sha256": "4f0fa6de57196b76bc98a5d67353b1bb484acd1c574d14d46ab81b31e729b7ba"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_testing_b.mip4.png",
+      "bytes": 86,
+      "sha256": "aafebe598c45ad65b87aa7757a45272ed12b6fe678c8c40fdaf63e858d7fa1ec"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_testing_b.mip5.png",
+      "bytes": 73,
+      "sha256": "c8363f424609289b50944e795ec718a78cc7ad41355a8b29cea0231a12966b79"
+    },
+    {
+      "path": "effects/skill-hits/textures/k_testing_b.png",
+      "bytes": 2177,
+      "sha256": "aed957435321919db22c9abb6c4dd67994ddefd278eac00474aae3197f4e84d9"
+    },
+    {
+      "path": "effects/skill-hits/textures/mega.png",
+      "bytes": 62138,
+      "sha256": "3e220bf58596f4520f24e2da6fb7d7a7892f838330013a7d6feeac65e31b022f"
+    },
+    {
+      "path": "effects/skill-hits/textures/mega_area_e01_6.png",
+      "bytes": 21337,
+      "sha256": "75c7a75c4ded874b3cb0b9d56e3dbd21055827175f4f503a7ca2d9254284c43e"
+    },
+    {
+      "path": "effects/skill-hits/textures/nano_fire_stm.mip1.png",
+      "bytes": 3360,
+      "sha256": "1860da53b484983824fdeac7e751f8cb447ed776dad3e9a950e044833a47ba50"
+    },
+    {
+      "path": "effects/skill-hits/textures/nano_fire_stm.mip2.png",
+      "bytes": 1082,
+      "sha256": "006c89a7f5df942799b312bf3b885dd7e75f6b912756404d45af7bfcc272daa4"
+    },
+    {
+      "path": "effects/skill-hits/textures/nano_fire_stm.mip3.png",
+      "bytes": 434,
+      "sha256": "75123f09f861907faa96d2fdf627f26cb76f9804fefc9b75354741a29803c71e"
+    },
+    {
+      "path": "effects/skill-hits/textures/nano_fire_stm.mip4.png",
+      "bytes": 228,
+      "sha256": "251f96824a4261babd21e765ccac0c50f8e2e12de4c71ef83a14a60717e9d5e3"
+    },
+    {
+      "path": "effects/skill-hits/textures/nano_fire_stm.mip5.png",
+      "bytes": 136,
+      "sha256": "07aacb7b9c0ccef4727f5289862baa54ec5ff31009a7abb37b211e6a9e877e30"
+    },
+    {
+      "path": "effects/skill-hits/textures/nano_fire_stm.mip6.png",
+      "bytes": 86,
+      "sha256": "d8cd6e7299be4a7315a9f1b637ed4f1e540141be842c63b44d7f655730f2aa17"
+    },
+    {
+      "path": "effects/skill-hits/textures/nano_fire_stm.mip7.png",
+      "bytes": 73,
+      "sha256": "7190e7b47b75c7efbcd86b7bd6afdcfdcfb187fe8a30e9f6284c5ab74a280c09"
+    },
+    {
+      "path": "effects/skill-hits/textures/nano_fire_stm.png",
+      "bytes": 9765,
+      "sha256": "1f8ecf6849880c6690a3c528537b332edc758177d6685b1c1cf71228e7ef48d7"
+    },
+    {
+      "path": "effects/skill-hits/textures/shotgun_e01.mip1.png",
+      "bytes": 4762,
+      "sha256": "9aafd3614934c2412986dc0aafc6bcbd13e466af69a55f642d0aff7cefc7dc94"
+    },
+    {
+      "path": "effects/skill-hits/textures/shotgun_e01.mip2.png",
+      "bytes": 1543,
+      "sha256": "2e12cb58ee575f0f1a88050e1867bfc42c5f9d4c4079f922a32b3000381dcf89"
+    },
+    {
+      "path": "effects/skill-hits/textures/shotgun_e01.mip3.png",
+      "bytes": 526,
+      "sha256": "afaf8f8e8bf2a29e051f14f543db4a2df44235318e033063cf1caf56dbebf57f"
+    },
+    {
+      "path": "effects/skill-hits/textures/shotgun_e01.mip4.png",
+      "bytes": 226,
+      "sha256": "0f86f67ed76a7909d8f38b4bef99d86e6af2bde7d3302c07675c0d86345266c9"
+    },
+    {
+      "path": "effects/skill-hits/textures/shotgun_e01.mip5.png",
+      "bytes": 136,
+      "sha256": "3b6b1d2f72ea6f55190a27652cece9c4ab631fe8fb182cae73d8223d2f209fd9"
+    },
+    {
+      "path": "effects/skill-hits/textures/shotgun_e01.mip6.png",
+      "bytes": 86,
+      "sha256": "785ebdfcd5d5ea1932f760126df3729b805384bfced9902db6464b031f07a60a"
+    },
+    {
+      "path": "effects/skill-hits/textures/shotgun_e01.mip7.png",
+      "bytes": 73,
+      "sha256": "31c9dcdf50ff1467cb9ddf04a0aa717baa80fafaebc2f41a5a2bb17c52e97f98"
+    },
+    {
+      "path": "effects/skill-hits/textures/shotgun_e01.png",
+      "bytes": 16779,
+      "sha256": "62965947cb0e89cba2543e7a3883417c09e345838cc14e11c714610ee836a182"
+    },
+    {
+      "path": "effects/skill-hits/textures/wus001.mip1.png",
+      "bytes": 7266,
+      "sha256": "978e4ec2963df463f3a6bd37aba1f680d6956e6b98d89734f16c038dc7c5b2ee"
+    },
+    {
+      "path": "effects/skill-hits/textures/wus001.mip2.png",
+      "bytes": 2266,
+      "sha256": "a574535b4698dbbd86e6f340c89c25c0135a47dc3702e114bd5eb51ebe41fafc"
+    },
+    {
+      "path": "effects/skill-hits/textures/wus001.mip3.png",
+      "bytes": 725,
+      "sha256": "392f495617abffa1f7c754d87ac2f1ba65a1e5ed043e816135c0e495c583678a"
+    },
+    {
+      "path": "effects/skill-hits/textures/wus001.mip4.png",
+      "bytes": 276,
+      "sha256": "70c25c2c2c6565c24deec7894411b982b85f5ba26b47632a30055567833d4b1e"
+    },
+    {
+      "path": "effects/skill-hits/textures/wus001.mip5.png",
+      "bytes": 136,
+      "sha256": "e5c8a22a489c3d239342c22f2f70d0aacfbf781a6f4a2c8541b79e69c7958e17"
+    },
+    {
+      "path": "effects/skill-hits/textures/wus001.mip6.png",
+      "bytes": 86,
+      "sha256": "06fa77ad75c71f17fbbfdbe0fc0802203289c882c318b84f5bea940417fe7cec"
+    },
+    {
+      "path": "effects/skill-hits/textures/wus001.mip7.png",
+      "bytes": 73,
+      "sha256": "b4db34cc840b7a101e8556374c89a0c3bbb863ee2c8ca98012853fc4d2614bac"
+    },
+    {
+      "path": "effects/skill-hits/textures/wus001.png",
+      "bytes": 20893,
+      "sha256": "715ecbd46844991647e4657576f2c5464d4dc046ea22ca02457d3782bd62e2e4"
+    }
+  ],
+  "validation": {
+    "installedOutputsVerified": 106,
+    "gpuModels": [
+      "Darwin front: reported cheek triangles removed",
+      "Mordecai front: cel shading, original pass count",
+      "Titan front: cel shading with transparent shell retained"
+    ],
+    "gpuSkillFixture": {
+      "nanoHealing": 2,
+      "eggDamage": 184,
+      "healingTick": 24,
+      "radarExpiry": true,
+      "finalMask": 0
+    },
+    "scope": "Native publication accepted; broader current-client test suite has separately recorded failures."
+  }
+}

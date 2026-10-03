@@ -1,0 +1,86 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "new-mail-icon",
+  "sources": [
+    {
+      "alias": "primary",
+      "path": "main.unity3d",
+      "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+      "bytes": 8221718
+    }
+  ],
+  "steps": [
+    {
+      "operation": "evidence",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 1562,
+      "type": "MonoBehaviour",
+      "name": "owner.json",
+      "assertions": [
+        {
+          "pointer": "/object/rawSha256",
+          "equals": "315de9c6279d2ad83fcc5236159b8b769df786cb62bf531433eb6e48b107c518"
+        },
+        {
+          "pointer": "/object/value/mailTexture",
+          "equals": {
+            "fileId": 0,
+            "pathId": 419
+          }
+        },
+        {
+          "pointer": "/object/value/mailRect",
+          "equals": {
+            "x": 140.0,
+            "y": 150.0,
+            "width": 30.0,
+            "height": 30.0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "evidence",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 419,
+      "type": "Texture2D",
+      "name": "texture.json",
+      "assertions": [
+        {
+          "pointer": "/object/value/m_Name",
+          "equals": "mail_but"
+        },
+        {
+          "pointer": "/object/value/m_Width",
+          "equals": 19
+        },
+        {
+          "pointer": "/object/value/m_Height",
+          "equals": 14
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 419,
+      "output": "ui/en/gameplay/minimap/new-mail.png",
+      "sha256": "7f2ec8c023456f7d12d33b91cc46bbd5241a6f66746fd9cf72ef871410cc0fd5",
+      "bytes": 393,
+      "assertions": [
+        {
+          "pointer": "/importSettings/m_TextureSettings",
+          "equals": {
+            "m_Aniso": 1,
+            "m_FilterMode": 1,
+            "m_MipBias": 0.0,
+            "m_WrapMode": 0
+          }
+        }
+      ]
+    }
+  ]
+}

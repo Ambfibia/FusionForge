@@ -1,0 +1,101 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "chat-empty-state-primary-20260821",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "main.unity3d",
+    "containerBytes": 8221718,
+    "containerSha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+    "objects": [
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour",
+        "pathId": 1564,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "CnGuiChat"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour",
+        "pathId": 1368,
+        "fileId": 0,
+        "containerRoute": "CnGuiChat.pMenuSkin",
+        "trueName": "FusionFallChatSkin.chatNullBack"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 478,
+        "fileId": 0,
+        "containerRoute": "FusionFallChatSkin.chatNullBack.m_Normal.m_Background",
+        "trueName": "chatNullBack"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "exact-texture-decode",
+    "tool": "crates/ffone-asset-pipeline/src/bin/publish_exact_texture.rs",
+    "toolRevision": "workspace-file-sha256:8086597cd29797bb0c173370dc6e601ff0003ee4634d4c9d808540616e6550ba",
+    "workingDirectory": ".",
+    "commands": [
+      "cargo run -- fusionforge dump-object-evidence primary ..\\builds\\retrobution-20260821 main.unity3d 1564 --serialized-asset sharedassets0.assets --type MonoBehaviour --out work\\projects\\retrobution-ui-20260821.ffclient\\reports\\chat-ui-primary\\cnguichat-1564.object-evidence.json",
+      "cargo run -- fusionforge dump-object-evidence primary ..\\builds\\retrobution-20260821 main.unity3d 1368 --serialized-asset sharedassets0.assets --type MonoBehaviour --out work\\projects\\retrobution-ui-20260821.ffclient\\reports\\chat-ui-primary\\fusionfall-chat-skin-1368.evidence.json --allow-unresolved-pointers",
+      "cargo run -- fusionforge dump-object-evidence primary ..\\builds\\retrobution-20260821 main.unity3d 478 --serialized-asset sharedassets0.assets --type Texture2D --out work\\projects\\retrobution-ui-20260821.ffclient\\reports\\chat-ui-primary\\chat-null-background-478.evidence.json",
+      "cargo run -- fusionforge export-exact-texture ..\\builds\\retrobution-20260821\\main.unity3d 478 work\\projects\\retrobution-ui-20260821.ffclient\\reports\\chat-ui-primary\\exact-textures\\478.json",
+      "cargo run -p ffone-asset-pipeline --bin publish_exact_texture -- work\\projects\\retrobution-ui-20260821.ffclient\\reports\\chat-ui-primary\\exact-textures\\478.json work\\projects\\retrobution-ui-20260821.ffclient\\staged\\assets\\game\\ui\\gameplay\\chat\\empty-state-background.png"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-primary/cnguichat-1564.object-evidence.json",
+      "bytes": 7499,
+      "sha256": "4410c820cdbe67f9f5c937f198996887ddba69c4c8f5671bbb0fe5a6e679b18f"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-primary/fusionfall-chat-skin-1368.evidence.json",
+      "bytes": 358357,
+      "sha256": "cae1bd82d56613e9dfd0a4b0742fc732fe374b45c42ed4cfcd88eca93817f27b"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-primary/chat-null-background-478.evidence.json",
+      "bytes": 23346,
+      "sha256": "d0d9b1a8a6419c2db5d64512dab0d81359860b46d4486c8436e28eb762ac550c"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-primary/exact-textures/478.json",
+      "bytes": 5283,
+      "sha256": "47f3459d61a20db23f3c57a7abdca6518540cdd1ebff627851cc6d003d9a070d"
+    },
+    {
+      "path": "crates/ffone-asset-pipeline/src/bin/publish_exact_texture.rs",
+      "bytes": 3446,
+      "sha256": "8086597cd29797bb0c173370dc6e601ff0003ee4634d4c9d808540616e6550ba"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/game/ui/gameplay/chat/empty-state-background.png",
+      "bytes": 804,
+      "sha256": "ebeae8c153a81e3f47b775acb588c8bdb4409629e0d0af784a12f1f745572f0b"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "cargo test -p ffone-asset-pipeline --bin publish_exact_texture",
+      "result": "passed",
+      "evidence": null
+    },
+    {
+      "command": "Get-FileHash -Algorithm SHA256 work\\projects\\retrobution-ui-20260821.ffclient\\staged\\assets\\game\\ui\\gameplay\\chat\\empty-state-background.png; Get-FileHash -Algorithm SHA256 ..\\FFOneClient\\assets\\game\\ui\\gameplay\\chat\\empty-state-background.png",
+      "result": "passed: both ebeae8c153a81e3f47b775acb588c8bdb4409629e0d0af784a12f1f745572f0b",
+      "evidence": "work/projects/retrobution-ui-20260821.ffclient/reports/chat-ui-primary/exact-textures/478.json"
+    }
+  ]
+}

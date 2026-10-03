@@ -1,0 +1,80 @@
+{
+  "schema": "ffone.omniverse-native-extension.v1",
+  "types": [
+    {
+      "npcType": 3464,
+      "originalType": 732,
+      "semanticId": "npc/omniverse_ben"
+    },
+    {
+      "npcType": 3465,
+      "originalType": 738,
+      "semanticId": "npc/omniverse_gwen"
+    },
+    {
+      "npcType": 3466,
+      "originalType": 749,
+      "semanticId": "npc/omniverse_kevin"
+    },
+    {
+      "npcType": 3467,
+      "originalType": 697,
+      "semanticId": "npc/omniverse_albedo"
+    },
+    {
+      "npcType": 3468,
+      "originalType": 725,
+      "semanticId": "npc/omniverse_max"
+    }
+  ],
+  "placements": "none; owner-managed",
+  "nativeDocuments": [
+    {
+      "path": "_runtime/characters.json",
+      "bytes": 249864,
+      "sha256": "354df3cf734338feb5b7b6b9c6b94465fae671c5e6f3f8dd68183290805ded95",
+      "before": "4341a4fd69b7f60ba2beb7751365383499e9214fa4bbb8cef2a59a70d23ba9e4"
+    },
+    {
+      "path": "data/tables/npc_texture_overrides.json",
+      "bytes": 221792,
+      "sha256": "795b4f6dc4c32fad20b2df09d50e74321b908b24472f12151af70e762fb3093c",
+      "before": "ccad557f0336cb45d07da53b40372da371b79f27e099cafccb2db34d3663fbbd"
+    },
+    {
+      "path": "data/tables/table-set.json",
+      "bytes": 43144024,
+      "sha256": "7caac2d78b85fde44c2d08abe818475c8984d7757b3206cc733f388c94fa81e1",
+      "before": "aaa60befdeef9b506a3a130a9fa103ff6d9946c4b2556fb004ff5237d6715507"
+    },
+    {
+      "path": "localization/en.json",
+      "bytes": 8082863,
+      "sha256": "f4c968fe187a976a6da6f22bf1b3c0ac9ddc883d48c3caf5251136e99bf3537f",
+      "before": "846e588c09504a159c1c7fd21e646ca2c4dd0bfc352cfe58537c62c55895ca97"
+    },
+    {
+      "path": "localization/ru.json",
+      "bytes": 11742708,
+      "sha256": "80464c3b66740933211a861a5bd16e09499bda547b4b1fe38183b81d029cb5b1",
+      "before": "b9c4591fb254db1f5dd85b750bbee2bfe9d7017f1fde5540da6070c017c98233"
+    }
+  ],
+  "serverDocuments": [
+    {
+      "path": "tdata/xdt.json",
+      "before": "e670ffcf00637b303a3fe4a9290017fffa17dcfed2a980177b2c5ef6f99d41f9",
+      "sha256": "5c9be2093f1f5fafaf621b93f7c1df86a6a6e545ce2358a3aec870e0ee7fb3b4"
+    },
+    {
+      "path": "bin/tdata/xdt.json",
+      "before": "e670ffcf00637b303a3fe4a9290017fffa17dcfed2a980177b2c5ef6f99d41f9",
+      "sha256": "5c9be2093f1f5fafaf621b93f7c1df86a6a6e545ce2358a3aec870e0ee7fb3b4"
+    }
+  ],
+  "replay": {
+    "status": "passed",
+    "nativeFiles": 27,
+    "serverTableFiles": 2
+  }
+}

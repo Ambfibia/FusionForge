@@ -1,0 +1,72 @@
+{
+  "slice": "Equipment protocol type labels, weapon-only range, combined appearance text",
+  "date": "2026-09-07",
+  "sourceRole": "primary",
+  "source": "retrobution-20260821",
+  "checks": {
+    "vendorTests": 28,
+    "bankTests": 28,
+    "protocolTypeLocalizationTest": 1,
+    "localeKeyParity": 65887,
+    "gpu": [
+      "vendor/en",
+      "vendor/ru",
+      "bank/en",
+      "bank/ru"
+    ],
+    "devBuild": "passed",
+    "offlineWorldSmoke": "exit 0"
+  },
+  "limits": [
+    "No full equipment-card parity claim",
+    "Rental periods and long-name fitting remain pending",
+    "Combined icon/trade presentation is outside this text correction",
+    "Inventory shares the corrected type helper; GPU captures in this slice cover Bank/Vendor"
+  ],
+  "artifacts": [
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-semantics-bank-en.log",
+      "sha256": "16401e17eeef472be794201cab5ef93b3deb233ac95ca935fa3bb06ecc3b281e"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-semantics-bank-en.png",
+      "sha256": "284ae96050b9e0ce35bf4353e106656ed079f3e50ad505972ba076884203ec6b"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-semantics-bank-ru.log",
+      "sha256": "14e0af2754000bd27b49507ffebef210f64045fec7508c1de432419738704208"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-semantics-bank-ru.png",
+      "sha256": "2d835419717b06e2a9e3ae459bf636152155f4f68951746ef5d4efb146869909"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-semantics-bank-tests.log",
+      "sha256": "dbb688a3caf4ad10cf725f57f5c555ef78403650b691ff5275e0a4fc6e56dc5f"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-semantics-types-tests.log",
+      "sha256": "f17f6d48a45e987a69199d4e63705b760ed5f1d6da31f27543bde1cd127f179a"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-semantics-vendor-en.log",
+      "sha256": "555c02f47d337c2b8c16deca5062c066df16cc524ba60c1ab5e9910b13b77cd0"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-semantics-vendor-en.png",
+      "sha256": "d5eb3802aaa52efa110ed65e6374133fe578c7a0351ab12e19fd7298f272b577"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-semantics-vendor-ru.log",
+      "sha256": "c2a4b15b85f812a863a0e3bcfad4479009edde1a73c8260f85a53f08d5820eae"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-semantics-vendor-ru.png",
+      "sha256": "884ad402381ce92ab491929332752f00431ec9d1e2db8a1d810b6d5c24eac7ec"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-semantics-world-smoke.log",
+      "sha256": "9b52a0a0ed6c19e33db0d09624c86eae0cd859b7c63cb52a5a1fc07d30c40fa8"
+    }
+  ]
+}

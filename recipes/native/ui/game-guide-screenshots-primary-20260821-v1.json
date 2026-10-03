@@ -1,0 +1,1025 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "game-guide-screenshots-primary-20260821-v1",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "Icons.resourceFile",
+    "containerBytes": 6557371,
+    "containerSha256": "e4a4b531cafa44b2c046f8dc8dea97c694bc0c6e455b0329232c2b09596eb96d",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2674,
+        "fileId": 0,
+        "containerRoute": "Help/ABC.jpg",
+        "trueName": "ABC"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 302,
+        "fileId": 0,
+        "containerRoute": "Help/banker.jpg",
+        "trueName": "banker"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1449,
+        "fileId": 0,
+        "containerRoute": "Help/buddy_icon.jpg",
+        "trueName": "buddy_icon"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1231,
+        "fileId": 0,
+        "containerRoute": "Help/buddy_window - tight.jpg",
+        "trueName": "buddy_window - tight"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2017,
+        "fileId": 0,
+        "containerRoute": "Help/character_screen.jpg",
+        "trueName": "character_screen"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1989,
+        "fileId": 0,
+        "containerRoute": "Help/coco.jpg",
+        "trueName": "coco"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2274,
+        "fileId": 0,
+        "containerRoute": "Help/combined_item.jpg",
+        "trueName": "combined_item"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2633,
+        "fileId": 0,
+        "containerRoute": "Help/corruption.jpg",
+        "trueName": "corruption"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2741,
+        "fileId": 0,
+        "containerRoute": "Help/crate.jpg",
+        "trueName": "crate"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1641,
+        "fileId": 0,
+        "containerRoute": "Help/creation.jpg",
+        "trueName": "creation"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 62,
+        "fileId": 0,
+        "containerRoute": "Help/crocpot_screen.jpg",
+        "trueName": "crocpot_screen"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2535,
+        "fileId": 0,
+        "containerRoute": "Help/crocpot_vendor.jpg",
+        "trueName": "crocpot_vendor"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1157,
+        "fileId": 0,
+        "containerRoute": "Help/egger.jpg",
+        "trueName": "egger"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2690,
+        "fileId": 0,
+        "containerRoute": "Help/email.jpg",
+        "trueName": "email"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1304,
+        "fileId": 0,
+        "containerRoute": "Help/equip.jpg",
+        "trueName": "equip"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2014,
+        "fileId": 0,
+        "containerRoute": "Help/eruption.jpg",
+        "trueName": "eruption"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1555,
+        "fileId": 0,
+        "containerRoute": "Help/flier.jpg",
+        "trueName": "flier"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2326,
+        "fileId": 0,
+        "containerRoute": "Help/fusion_pod.jpg",
+        "trueName": "fusion_pod"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 713,
+        "fileId": 0,
+        "containerRoute": "Help/GameGuideSelection.jpg",
+        "trueName": "GameGuideSelection"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1958,
+        "fileId": 0,
+        "containerRoute": "Help/group.jpg",
+        "trueName": "group"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1447,
+        "fileId": 0,
+        "containerRoute": "Help/GuideChanger.jpg",
+        "trueName": "GuideChanger"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 124,
+        "fileId": 0,
+        "containerRoute": "Help/infected_patch.jpg",
+        "trueName": "infected_patch"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1758,
+        "fileId": 0,
+        "containerRoute": "Help/infected_zone_inside.jpg",
+        "trueName": "infected_zone_inside"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2443,
+        "fileId": 0,
+        "containerRoute": "Help/infected_zone_outside.jpg",
+        "trueName": "infected_zone_outside"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2591,
+        "fileId": 0,
+        "containerRoute": "Help/lair.jpg",
+        "trueName": "lair"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1515,
+        "fileId": 0,
+        "containerRoute": "Help/launcher.jpg",
+        "trueName": "launcher"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2701,
+        "fileId": 0,
+        "containerRoute": "Help/Login.jpg",
+        "trueName": "Login"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 81,
+        "fileId": 0,
+        "containerRoute": "Help/menu_chat.jpg",
+        "trueName": "menu_chat"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 398,
+        "fileId": 0,
+        "containerRoute": "Help/mission giver.jpg",
+        "trueName": "mission giver"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1324,
+        "fileId": 0,
+        "containerRoute": "Help/mission_giver.jpg",
+        "trueName": "mission_giver"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 499,
+        "fileId": 0,
+        "containerRoute": "Help/mission_journal.jpg",
+        "trueName": "mission_journal"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1988,
+        "fileId": 0,
+        "containerRoute": "Help/mission_update.jpg",
+        "trueName": "mission_update"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1035,
+        "fileId": 0,
+        "containerRoute": "Help/mob_HP.jpg",
+        "trueName": "mob_HP"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 975,
+        "fileId": 0,
+        "containerRoute": "Help/movement_controls.jpg",
+        "trueName": "movement_controls"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1723,
+        "fileId": 0,
+        "containerRoute": "Help/name.jpg",
+        "trueName": "name"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1888,
+        "fileId": 0,
+        "containerRoute": "Help/nano_com.jpg",
+        "trueName": "nano_com"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1779,
+        "fileId": 0,
+        "containerRoute": "Help/nano_stamina.jpg",
+        "trueName": "nano_stamina"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1480,
+        "fileId": 0,
+        "containerRoute": "Help/nano_tune.jpg",
+        "trueName": "nano_tune"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 176,
+        "fileId": 0,
+        "containerRoute": "Help/nano_wheel.jpg",
+        "trueName": "nano_wheel"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2523,
+        "fileId": 0,
+        "containerRoute": "Help/nanocom.jpg",
+        "trueName": "nanocom"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 341,
+        "fileId": 0,
+        "containerRoute": "Help/platform.jpg",
+        "trueName": "platform"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1273,
+        "fileId": 0,
+        "containerRoute": "Help/player_trading.jpg",
+        "trueName": "player_trading"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 641,
+        "fileId": 0,
+        "containerRoute": "Help/power_selection.jpg",
+        "trueName": "power_selection"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2469,
+        "fileId": 0,
+        "containerRoute": "Help/Powers1.jpg",
+        "trueName": "Powers1"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1817,
+        "fileId": 0,
+        "containerRoute": "Help/Powers2.jpg",
+        "trueName": "Powers2"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1142,
+        "fileId": 0,
+        "containerRoute": "Help/recall.jpg",
+        "trueName": "recall"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 394,
+        "fileId": 0,
+        "containerRoute": "Help/recovery.jpg",
+        "trueName": "recovery"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 165,
+        "fileId": 0,
+        "containerRoute": "Help/rest_0.jpg",
+        "trueName": "rest_0"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1697,
+        "fileId": 0,
+        "containerRoute": "Help/rest_100.jpg",
+        "trueName": "rest_100"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2,
+        "fileId": 0,
+        "containerRoute": "Help/rest_50.jpg",
+        "trueName": "rest_50"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1258,
+        "fileId": 0,
+        "containerRoute": "Help/resurrect.jpg",
+        "trueName": "resurrect"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 254,
+        "fileId": 0,
+        "containerRoute": "Help/satellite_map.jpg",
+        "trueName": "satellite_map"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2750,
+        "fileId": 0,
+        "containerRoute": "Help/scamper.jpg",
+        "trueName": "scamper"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 642,
+        "fileId": 0,
+        "containerRoute": "Help/scores.jpg",
+        "trueName": "scores"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1577,
+        "fileId": 0,
+        "containerRoute": "Help/selection.jpg",
+        "trueName": "selection"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 825,
+        "fileId": 0,
+        "containerRoute": "Help/slide.jpg",
+        "trueName": "slide"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2499,
+        "fileId": 0,
+        "containerRoute": "Help/slider.jpg",
+        "trueName": "slider"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1519,
+        "fileId": 0,
+        "containerRoute": "Help/starter.jpg",
+        "trueName": "starter"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 559,
+        "fileId": 0,
+        "containerRoute": "Help/station.jpg",
+        "trueName": "station"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1172,
+        "fileId": 0,
+        "containerRoute": "Help/success_chance.jpg",
+        "trueName": "success_chance"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1666,
+        "fileId": 0,
+        "containerRoute": "Help/targeting_single.jpg",
+        "trueName": "targeting_single"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1019,
+        "fileId": 0,
+        "containerRoute": "Help/targeting_two.jpg",
+        "trueName": "targeting_two"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 349,
+        "fileId": 0,
+        "containerRoute": "Help/trading.jpg",
+        "trueName": "trading"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 838,
+        "fileId": 0,
+        "containerRoute": "Help/vault.jpg",
+        "trueName": "vault"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1527,
+        "fileId": 0,
+        "containerRoute": "Help/vehicle_stats.jpg",
+        "trueName": "vehicle_stats"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1823,
+        "fileId": 0,
+        "containerRoute": "Help/vehicle_vendor.jpg",
+        "trueName": "vehicle_vendor"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2407,
+        "fileId": 0,
+        "containerRoute": "Help/vendor_npc.jpg",
+        "trueName": "vendor_npc"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2270,
+        "fileId": 0,
+        "containerRoute": "Help/vendor_screen.jpg",
+        "trueName": "vendor_screen"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 726,
+        "fileId": 0,
+        "containerRoute": "Help/warp_gate.jpg",
+        "trueName": "warp_gate"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 1613,
+        "fileId": 0,
+        "containerRoute": "Help/waypoint_offscreen.jpg",
+        "trueName": "waypoint_offscreen"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 519,
+        "fileId": 0,
+        "containerRoute": "Help/waypoint_rings.jpg",
+        "trueName": "waypoint_rings"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2297,
+        "fileId": 0,
+        "containerRoute": "Help/waypoint_target.jpg",
+        "trueName": "waypoint_target"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2570,
+        "fileId": 0,
+        "containerRoute": "Help/world_map.jpg",
+        "trueName": "world_map"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "type": "Texture2D",
+        "pathId": 2185,
+        "fileId": 0,
+        "containerRoute": "Help/zip_line.jpg",
+        "trueName": "zip_line"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "exact-texture-decode",
+    "tool": "tools/legacy-sources/publish-game-guide-primary.ps1",
+    "toolRevision": "workspace-file-sha256:8f1774fb1570f53a31c32e578c6a9e8a79fbefa9bb64fb240696e3815d2d3918",
+    "workingDirectory": ".",
+    "commands": [
+      "powershell -NoProfile -File tools\\legacy-sources\\publish-game-guide-primary.ps1 -NativeRoot ..\\FFOneClient\\assets\\game -Apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "tools/legacy-sources/publish-game-guide-primary.ps1",
+      "bytes": 4589,
+      "sha256": "8f1774fb1570f53a31c32e578c6a9e8a79fbefa9bb64fb240696e3815d2d3918"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/abc.png",
+      "bytes": 25652,
+      "sha256": "89049b8f56eef6bf94a8ccf087930a793b681353a86703c3195f67f0822d2e63"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/banker.png",
+      "bytes": 107466,
+      "sha256": "73238e0066f1a2584b26511559865b9a41921384f77bda8cccf112780b5c19ee"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/buddy_icon.png",
+      "bytes": 86899,
+      "sha256": "a2d93fa70d9a5626c75784d0cac189901ad4df0b5ce2c0ea060d2ffc95e39f57"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/buddy_window---tight.png",
+      "bytes": 69112,
+      "sha256": "f6bcea500c3146315f56302f5bbe39b0c43b3324f269b2ac753d9262dce95498"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/character_screen.png",
+      "bytes": 81129,
+      "sha256": "f26b6356e491596ef9818ab695a0584321d6a1db9f30b38121dc31563ba86f0e"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/coco.png",
+      "bytes": 122566,
+      "sha256": "110cb070d56c8942f06dd8172388bd5b0db50a67cb698b6ff15bf214853435de"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/combined_item.png",
+      "bytes": 57596,
+      "sha256": "3cb8efdd784f0a19cfabddec34351fd12262141d01f94dacbd1601843195ef34"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/corruption.png",
+      "bytes": 137798,
+      "sha256": "8c9d019bebcc333e791e51cfc39f9a5083dd490c3f57de06f33aa79585633e1c"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/crate.png",
+      "bytes": 18610,
+      "sha256": "b8cff0f095c4b6fe36102fd8b0ddd541205e5cc7fe7cf72aed85ca2c190a30e8"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/creation.png",
+      "bytes": 75279,
+      "sha256": "91959a49425c63e858a6c0dc1d76bbf9a286ec2e8aaa024d393519d1c7895eb7"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/crocpot_screen.png",
+      "bytes": 71303,
+      "sha256": "f42788a0ff25e4c3edbfbe0cdf39367f11d52074b0c4e8bccf06278b81c85a0e"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/crocpot_vendor.png",
+      "bytes": 96137,
+      "sha256": "72a487e76f097ab4a11abe81690f470231b1d09c1e88277553035b069567668e"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/egger.png",
+      "bytes": 125845,
+      "sha256": "8ba2547143f5a4b81db2e1500ddf68669c8f820d389891b33fd6464d4f8432f7"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/email.png",
+      "bytes": 42816,
+      "sha256": "825bab552e95357f440b9be929787430f486c3daada75942865c35c31cb983f4"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/equip.png",
+      "bytes": 82315,
+      "sha256": "0180d13eac5d84d49f5d122ac956ae4af255ff91013c185a326798e77d7fe240"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/eruption.png",
+      "bytes": 149475,
+      "sha256": "d72cf71cd7f6f117a2ab4526f73162c77f0d13f73b801cbfe5930daa44edd3be"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/flier.png",
+      "bytes": 131941,
+      "sha256": "29d5ae331fb033c8d02f62b67eb21fbbe9833c8b9a13630ee52d79e887154555"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/fusion_pod.png",
+      "bytes": 102638,
+      "sha256": "e5df77190bbf6dee6a26d28da0f8ad4db1deced2438fb91deb19176da12c2344"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/gameguideselection.png",
+      "bytes": 105643,
+      "sha256": "0a7d78461ce7536806d9e803298b24dfb20b1b3f65461f06dbcdfe98689fc87b"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/group.png",
+      "bytes": 116101,
+      "sha256": "029c7be5e769bf5915e52a53bf027fc877cd5a85b6595029b92c0645d6fbe84d"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/guidechanger.png",
+      "bytes": 125666,
+      "sha256": "d0ab8fbc92e589e68a94b72ebe67df15effd29427bf74e4f10c0bd4bee8470d8"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/infected_patch.png",
+      "bytes": 113003,
+      "sha256": "7922b4be6cdae782bf775919c9473c7335b004efa070a8db6e80b845e6f65e7f"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/infected_zone_inside.png",
+      "bytes": 112571,
+      "sha256": "114c2d181594835c7009c54902de3b9b49ded4ecbd06b324ed800aac40d516e4"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/infected_zone_outside.png",
+      "bytes": 119366,
+      "sha256": "364f855a8407b74cea6c8e1a61ebb919953af894eb290cfbda54b0ba6b1806b9"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/lair.png",
+      "bytes": 164139,
+      "sha256": "2e2bf1cf35fa1bc8ee06d8367680d7cd6a8a02075f3abcf592ebaf3bd236b305"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/launcher.png",
+      "bytes": 103252,
+      "sha256": "b7985c7b0e8df03418f17260c4a87f631140198ca1b0f186094b6725646ac85b"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/login.png",
+      "bytes": 110992,
+      "sha256": "18504bf72eb46f256314cc360fb877c159f5bad76ef1360484c30643fb4b658c"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/menu_chat.png",
+      "bytes": 92401,
+      "sha256": "f46a6c73da72aeada4be31ff770eec9ad20be0e13f9bfffefa6a8e44ca9af752"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/mission-giver.png",
+      "bytes": 113831,
+      "sha256": "6052cb0b7e64513a6b313315fb12bd55b7893cb3cd849121856ed3bd5e13ebd1"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/mission_giver.png",
+      "bytes": 113826,
+      "sha256": "b3e87459912638aea76f9524bbad61a4b71c926c609ca02d51d02a4388d6863d"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/mission_journal.png",
+      "bytes": 51316,
+      "sha256": "71d1f7c8e244739f3552c23edf96d011fb255b8d250b525a801c222c3ad34149"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/mission_update.png",
+      "bytes": 97374,
+      "sha256": "d151d321962dd1ef4dd3afbffdaa5f82bc96b5fccd4d0ad457d1de7f46319ba1"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/mob_hp.png",
+      "bytes": 101655,
+      "sha256": "f496f161bafa901b24e093d395c6bc065ab673379cd283e3ef0dd1578802493b"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/movement_controls.png",
+      "bytes": 73160,
+      "sha256": "82916308f371677662004d8f8f9a36a6f12c8660b007c12fbc07c95cd4a0f880"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/name.png",
+      "bytes": 63107,
+      "sha256": "6869ae0e7ad334b91aaa5c63e173c4a9b3f00f1d076c3c829efab433e476d239"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/nano_com.png",
+      "bytes": 140735,
+      "sha256": "dfbeb0485684f302e9de4efcb861464ad587fedea07c13c54bb2a62c84e9233b"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/nano_stamina.png",
+      "bytes": 75614,
+      "sha256": "42807aedc0026be46fc185c2f9828b50bf74e827d36f65d7319bcfc2e5a85f72"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/nano_tune.png",
+      "bytes": 75293,
+      "sha256": "60da555884cf7603d4a398193fa56576511a214d8b9baa547ed1f96c69c80a94"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/nano_wheel.png",
+      "bytes": 85282,
+      "sha256": "1eb26e50b6e21010cf939dcc0827818c1fbce4f27b07785d60118ed7ce9e1764"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/nanocom.png",
+      "bytes": 95918,
+      "sha256": "b9d409d5f603b4bb812f16acf11fd6f28224b9c721486b415339dd0e4460f3cf"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/platform.png",
+      "bytes": 119420,
+      "sha256": "4b8ebe9f5ae5a22801d3d909ad85af6f5bc4daf16129af7472cd4b4b00a64197"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/player_trading.png",
+      "bytes": 86899,
+      "sha256": "a2d93fa70d9a5626c75784d0cac189901ad4df0b5ce2c0ea060d2ffc95e39f57"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/power_selection.png",
+      "bytes": 111402,
+      "sha256": "05356927935b3cd43c235b8418a882d595ebae37b933aa731bee64aacc46489b"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/powers1.png",
+      "bytes": 43847,
+      "sha256": "3c4c96e89e34f081b5c3d7d5944612d914d2ea979e6cef5328eedd5bf7c99547"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/powers2.png",
+      "bytes": 38877,
+      "sha256": "bd9afcaf4f8c407bb6406f7cf37860e43ae7588a3658f4dc54e4db35662cfc09"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/recall.png",
+      "bytes": 112697,
+      "sha256": "05e5fd7276d6b1484b4e210646ec573e5e960de54b290cac27033d943a64321d"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/recovery.png",
+      "bytes": 100683,
+      "sha256": "8a80e6f7188f950bdb1feb8aa4ee7c9b36841461e370abfbcd30579db3dcd764"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/rest_0.png",
+      "bytes": 35197,
+      "sha256": "3dfa83e9710dfdab5d115a446dc29b1ad49aebbbdfb054d2ef02230e6330750d"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/rest_100.png",
+      "bytes": 44890,
+      "sha256": "b08a654d410800e071ad4843fc60187d59d6c6ab7dae918dfd0d875cf7e63ba7"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/rest_50.png",
+      "bytes": 76193,
+      "sha256": "76a5e67781fec443d7aedcf85c089f1bb994790970113b6edf2da1d7b8126fb0"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/resurrect.png",
+      "bytes": 117047,
+      "sha256": "21fb6426e1468f202bdce76ea361276608b8c9f1d0e7b3fae8628b3e80001aa5"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/satellite_map.png",
+      "bytes": 68527,
+      "sha256": "e83d109ece7777b965f4fe09ee7c367482f50ff278597f48ccb6d4d73e6a8964"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/scamper.png",
+      "bytes": 98083,
+      "sha256": "d0a83c04030876f4f5dce87eb9003ecf8125f5311e876fcea4bad4906735800e"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/scores.png",
+      "bytes": 78307,
+      "sha256": "84bee82746d5027236ca3403ec56f8c3890767007a5b6e354adcc11e6fc7d9d9"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/selection.png",
+      "bytes": 93513,
+      "sha256": "5c59f21de89817e78200610260683aaa0cf605434d6e507851cec90b8c3f131e"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/slide.png",
+      "bytes": 110501,
+      "sha256": "f8bf4a44ba2216d6c4d10b1ce7fe86d33f5993b2552f14933af1b84a19bf87c5"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/slider.png",
+      "bytes": 100040,
+      "sha256": "c56f18a677cef453d3bea5fc2c30d80bc481bc6c354cd9ac0f6af1695151f94b"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/starter.png",
+      "bytes": 76309,
+      "sha256": "9015a5e19fb1ad63f9d0663083e30da3593dbc9b2819a2d6d886806b6f64b7d2"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/station.png",
+      "bytes": 77953,
+      "sha256": "29a28fa98b10df2d282f43df7f07e32ad3e7e4f617a292e83a63aa894508fde0"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/success_chance.png",
+      "bytes": 43337,
+      "sha256": "c56b11a82378479a88492d0e6fd206a49a2891c8e5cd132854d74281f2081c2e"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/targeting_single.png",
+      "bytes": 126887,
+      "sha256": "eb243f12dba3533cdeedeb9e769f3d4c11bf6c7708e2702d6e3c1c9c41973dda"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/targeting_two.png",
+      "bytes": 121866,
+      "sha256": "39d2f6f36537e1535bd1951830264acb9c2688ab662ae7b6152be30ed6312638"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/trading.png",
+      "bytes": 50300,
+      "sha256": "c96a3baf42a27eb32c8678ac8603c297c351f84b82e1f11563b3500cc8d38d10"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/vault.png",
+      "bytes": 47534,
+      "sha256": "cdcb93ba0d2d1421b3e732c4607ce341a64fff1c9163a96b013607190167242d"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/vehicle_stats.png",
+      "bytes": 81598,
+      "sha256": "b560e75679609f102044ee0b58d987cb23e80a683a898b5b526c01aa143f0019"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/vehicle_vendor.png",
+      "bytes": 72820,
+      "sha256": "29fd2596e73c21ef13ab29fef9b514bbba9cd074f452e27b7aa94d4064b1ab9f"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/vendor_npc.png",
+      "bytes": 116460,
+      "sha256": "83a35092e882c2fe82404238f80e1d9f0d7b96fa2ea87de8c8aa416e391bad64"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/vendor_screen.png",
+      "bytes": 60553,
+      "sha256": "22a9487c540daffd0dc4280dd71d40baf097038463106498bd031ee8eb76ffdf"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/warp_gate.png",
+      "bytes": 111681,
+      "sha256": "6fea1b23b7d1e151ec3376a40fe1e4f1b91f47f223ab955ca83032e95983ea16"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/waypoint_offscreen.png",
+      "bytes": 114588,
+      "sha256": "1a827b35592d6719bbd352afd84c45de7197c1a22e11bcb22daeeb26972ab32a"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/waypoint_rings.png",
+      "bytes": 107134,
+      "sha256": "499fb83d212a4b3e4af4d558befa235d5d50793ab266f7928506f8b35cfa05c7"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/waypoint_target.png",
+      "bytes": 100719,
+      "sha256": "2734a22b1ae3ef436c36b91a95481fa21edcbb21e90ca7eb8f0ce5a200b303a8"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/world_map.png",
+      "bytes": 69646,
+      "sha256": "57cb0fc7c76ce66a3ee1724eb907f7eda95e56c1d3e2e66801829cf7e0dc5deb"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/screenshots/zip_line.png",
+      "bytes": 113412,
+      "sha256": "9e5853fce09e35931c95b7dc3ed88d5242f0d8e48db52d565ab68f9a13aef713"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "cargo test --manifest-path Cargo.toml -p ffone-client --lib game_guide_ui -- --nocapture",
+      "result": "passed: 5 tests",
+      "evidence": null
+    },
+    {
+      "command": "cargo run --manifest-path Cargo.toml -p xtask -- assets --source assets/game --full",
+      "result": "passed: 67321 files, 3321725342 bytes, root 65c337d5adc5ee0b56f53d85add9440acd0828e5683007d0f6a1fa464b23786b",
+      "evidence": null
+    },
+    {
+      "command": "GPU preview: game_guide_ui_gpu_preview en and ru at 1264x681",
+      "result": "passed",
+      "evidence": "target/ui-parity/game-guide-initial-en-1264x681.png; target/ui-parity/game-guide-initial-ru-1264x681.png"
+    },
+    {
+      "command": "powershell -NoProfile -File tools\\legacy-sources\\publish-game-guide-primary.ps1 -NativeRoot ..\\FFOneClient\\assets\\game",
+      "result": "passed: 81 staged outputs; all staged SHA-256 hashes match the published native files",
+      "evidence": null
+    },
+    {
+      "command": "Resolve every primary type-2 Help page route",
+      "result": "passed: 74 published; Help/lteminfo.jpg intentionally unresolved in primary and preserved as an empty row",
+      "evidence": "crates/ffone-client/src/game_guide_ui.rs"
+    }
+  ]
+}

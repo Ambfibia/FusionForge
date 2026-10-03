@@ -1,0 +1,73 @@
+{
+  "schema": "ffone.native-mechanics-evidence.v1",
+  "id": "player-ability-animation-20260915",
+  "sourceRole": "primary",
+  "assemblyEvidence": "docs/reference/evidence/cases/artifacts/nano-travel-20260905-assembly.json",
+  "decompiledArtifacts": [
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/cnAvatarAnimation.cs",
+      "sha256": "8ef6a22501c8e164bceb5e95f3e2c3401bca3a75abb52a62a4f771ed837805e5"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/Status.cs",
+      "sha256": "b8746db3130fe198b9d215c3b044b4a3cc3589fbb8083bb6a6474b4732b9ae1b"
+    }
+  ],
+  "publication": "recipes/native/characters/player-ability-animation-primary-20260915.json",
+  "contracts": {
+    "dash": "AvatarDash selects rifledash for rifle, rifletumbling for pistol, stickdash otherwise. Airborne motion selects rocketsomersault and upper dodge by weapon style; water uses stickdodgeupper. Runtime resolves native clip names without legacy object identities.",
+    "stun": "Status buff 10 sets time condition 5 and plays stun once. Both original actor clips schedule gender-owned Stun0(RAND:1-3) voice at 0.25 seconds. Native sound resolves the declared variant through NativeAudioCatalog and VoiceLanguage.",
+    "server": "OpenFusion production MobAI::combatStep selects abilities using table probabilities. tests/mob_special_combat.cpp registers real chunks, runs production AI and NPCManager, receives/decrypts loopback CNSocket packets and asserts corruption stamina=60 from150 and eruption player damage at packet position."
+  },
+  "validation": {
+    "rust": [
+      "nano_dash_and_stun_preempt_locomotion_and_release_without_retriggering passed",
+      "swimming_and_stun_cues_spawn_audio_after_delay_with_localized_voice_routes passed for male/female and EN/RU",
+      "tutorial_player_presentation::tests: 23 passed",
+      "production_catalog_verifies_both_native_shared_rigs passed, including unique native ability names and clamp playback for both genders"
+    ],
+    "serverReport": "../OpenFusion/work/mob-ability-tests/combat.json",
+    "serverCounts": [
+      {
+        "npcType": 1,
+        "corruptionReadyAndHit": 23,
+        "eruptionReadyAndHit": 24
+      },
+      {
+        "npcType": 2,
+        "corruptionReadyAndHit": 23,
+        "eruptionReadyAndHit": 24
+      },
+      {
+        "npcType": 121,
+        "corruptionReadyAndHit": 25,
+        "eruptionReadyAndHit": 9
+      }
+    ],
+    "fullClient": {
+      "report": "../FFOneClient/target/performance/ability-animation-followup/player/ability-presentation.json",
+      "sha256": "90cc312b4f990f267cdaa1ed8526b6c9fb284ee81a2ddf1de2d308ac6f8dc27a",
+      "rigPlayback": true,
+      "localizedVoice": [
+        "M_Avatar_Stun01"
+      ],
+      "screenshotsInspected": [
+        "ability-65.png",
+        "ability-200.png"
+      ],
+      "postStunFrame": 430,
+      "postStunClip": "stand1"
+    },
+    "combinedClientReplay": {
+      "report": "../FFOneClient/target/performance/ability-animation-followup/combined/ability-presentation.json",
+      "sha256": "cc4b60b38b3033d99fb34b5a918c0a1c7d4e67f1ded730914672335797ad4e5e",
+      "npcAnimationReport": "../FFOneClient/target/performance/ability-animation-followup/combined/mob-animation-replay.json",
+      "exitCode": 0,
+      "scope": "Opt-in offline renderer replay of scripted NPC packets alongside the player ability fixture. Autonomous AI selection is validated separately by the OpenFusion loopback combat test."
+    }
+  },
+  "limits": [
+    "The server test preserves table probability and is a simulated sustained fight, not a reproduction of the owner's unidentified live fight.",
+    "This publication adds actor clips; it does not claim reconstruction of the dash foot particle event."
+  ]
+}

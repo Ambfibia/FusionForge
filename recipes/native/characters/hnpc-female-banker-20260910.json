@@ -1,0 +1,469 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "hnpc-female-banker-20260910",
+  "status": "accepted",
+  "supersedes": [
+    "hnpc-banker-20260908"
+  ],
+  "target": {
+    "alias": "native-target"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "TableData.resourceFile",
+    "containerBytes": 802929,
+    "containerSha256": "bd8767c2d316f60a4b38de320794701b2391d7b40412020bdc1d17e88c7b7212",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-1dca92eecee4742d985b799d8226666d",
+        "type": "MonoBehaviour",
+        "pathId": 6,
+        "fileId": 0,
+        "containerRoute": "all_hnpc.asset",
+        "trueName": "all_hnpc"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "repair",
+    "tool": "tools/native/repair-female-banker-routes.py",
+    "toolRevision": "sha256:b2091b7ce72020f2c315e9163dbec5fdfec64d2e2fb09461033db1a274005857",
+    "workingDirectory": ".",
+    "commands": [
+      "fusionforge dump-object-evidence primary ../builds/retrobution-20260821 TableData.resourceFile 6 --serialized-asset CustomAssetBundle-1dca92eecee4742d985b799d8226666d --type MonoBehaviour --out work/cases/banker-20260910/hnpc-source.json",
+      "fusionforge dump-object-evidence primary ../builds/retrobution-20260821 Retro_shared.resourceFile 1966 --serialized-asset CustomAssetBundle-Retro_shared --type Texture --out work/cases/banker-20260910/shirt-pointer.json",
+      "fusionforge export-exact-texture ../builds/retrobution-20260821/Retro_shared.resourceFile 1967 work/cases/banker-20260910/pants-exact.json",
+      "python tools/native/repair-female-banker-routes.py --assets ../FFOneClient/assets/game --source-evidence work/cases/banker-20260910/hnpc-source.json --source-root ../builds/retrobution-20260821 --output-root work/cases/banker-20260910/replay",
+      "python tools/native/repair-female-banker-routes.py --assets ../FFOneClient/assets/game --source-evidence work/cases/banker-20260910/hnpc-source.json --source-root ../builds/retrobution-20260821 --output-root ../FFOneClient/assets/game"
+    ]
+  },
+  "inputs": [
+    {
+      "sourceAlias": "primary",
+      "relativeContainer": "CharacterSelection.resourceFile",
+      "bytes": 16737641,
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+    },
+    {
+      "sourceAlias": "primary",
+      "relativeContainer": "CharTexture.resourceFile",
+      "bytes": 25185223,
+      "sha256": "b22d64844a25dc6010d2b1bfbcf5120d57097d6e5a4602401ba7d85f17545586"
+    },
+    {
+      "path": "work/cases/npc-visual-20260908/banker/f_shirt.source.json",
+      "sha256": "fa68fb33bcaff096ce781c8578f5e930e3d0b994de4cd702f56d65e5b28d66eb",
+      "exactContainerRoute": "wear/f_shirt_secretagent.nif",
+      "rendererBindings": [
+        {
+          "gameObject": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 1,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243585",
+            "pathId": 243585,
+            "serializedTypeName": "GameObject",
+            "type": "GameObject",
+            "typeId": 1
+          },
+          "materialSlots": [
+            {
+              "materialId": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243394",
+              "pointer": {
+                "fileId": 0,
+                "isNull": false,
+                "pathId": 243394,
+                "sourceAssetIndex": 1
+              },
+              "slot": 0
+            }
+          ],
+          "mesh": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 43,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243391",
+            "pathId": 243391,
+            "serializedTypeName": "Mesh",
+            "type": "Mesh",
+            "typeId": 43
+          },
+          "renderer": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 137,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243594",
+            "pathId": 243594,
+            "type": "SkinnedMeshRenderer",
+            "typeId": 137
+          },
+          "rendererType": "SkinnedMeshRenderer"
+        },
+        {
+          "gameObject": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 1,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243583",
+            "pathId": 243583,
+            "serializedTypeName": "GameObject",
+            "type": "GameObject",
+            "typeId": 1
+          },
+          "materialSlots": [
+            {
+              "materialId": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243395",
+              "pointer": {
+                "fileId": 0,
+                "isNull": false,
+                "pathId": 243395,
+                "sourceAssetIndex": 1
+              },
+              "slot": 0
+            }
+          ],
+          "mesh": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 43,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243392",
+            "pathId": 243392,
+            "serializedTypeName": "Mesh",
+            "type": "Mesh",
+            "typeId": 43
+          },
+          "renderer": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 137,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243596",
+            "pathId": 243596,
+            "type": "SkinnedMeshRenderer",
+            "typeId": 137
+          },
+          "rendererType": "SkinnedMeshRenderer"
+        }
+      ]
+    },
+    {
+      "path": "work/cases/npc-visual-20260908/banker/f_pants.source.json",
+      "sha256": "54ebf79c30b087e5c6eab0fe80abe1d0b7825df1fc758fbcf880ded712e05d60",
+      "exactContainerRoute": "wear/f_pants_secretagent.nif",
+      "rendererBindings": [
+        {
+          "gameObject": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 1,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243659",
+            "pathId": 243659,
+            "serializedTypeName": "GameObject",
+            "type": "GameObject",
+            "typeId": 1
+          },
+          "materialSlots": [
+            {
+              "materialId": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243604",
+              "pointer": {
+                "fileId": 0,
+                "isNull": false,
+                "pathId": 243604,
+                "sourceAssetIndex": 1
+              },
+              "slot": 0
+            }
+          ],
+          "mesh": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 43,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243601",
+            "pathId": 243601,
+            "serializedTypeName": "Mesh",
+            "type": "Mesh",
+            "typeId": 43
+          },
+          "renderer": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 137,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243668",
+            "pathId": 243668,
+            "type": "SkinnedMeshRenderer",
+            "typeId": 137
+          },
+          "rendererType": "SkinnedMeshRenderer"
+        },
+        {
+          "gameObject": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 1,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243657",
+            "pathId": 243657,
+            "serializedTypeName": "GameObject",
+            "type": "GameObject",
+            "typeId": 1
+          },
+          "materialSlots": [
+            {
+              "materialId": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243605",
+              "pointer": {
+                "fileId": 0,
+                "isNull": false,
+                "pathId": 243605,
+                "sourceAssetIndex": 1
+              },
+              "slot": 0
+            }
+          ],
+          "mesh": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 43,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243602",
+            "pathId": 243602,
+            "serializedTypeName": "Mesh",
+            "type": "Mesh",
+            "typeId": 43
+          },
+          "renderer": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 137,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243670",
+            "pathId": 243670,
+            "type": "SkinnedMeshRenderer",
+            "typeId": 137
+          },
+          "rendererType": "SkinnedMeshRenderer"
+        }
+      ]
+    },
+    {
+      "path": "work/cases/npc-visual-20260908/banker/f_shoes.source.json",
+      "sha256": "0ce2553b871dd3a67a772ae35a14f2dade30a83dec839c48640c0efdfee59ee1",
+      "exactContainerRoute": "wear/f_shoes_secretagent.nif",
+      "rendererBindings": [
+        {
+          "gameObject": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 1,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243733",
+            "pathId": 243733,
+            "serializedTypeName": "GameObject",
+            "type": "GameObject",
+            "typeId": 1
+          },
+          "materialSlots": [
+            {
+              "materialId": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243678",
+              "pointer": {
+                "fileId": 0,
+                "isNull": false,
+                "pathId": 243678,
+                "sourceAssetIndex": 1
+              },
+              "slot": 0
+            }
+          ],
+          "mesh": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 43,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243675",
+            "pathId": 243675,
+            "serializedTypeName": "Mesh",
+            "type": "Mesh",
+            "typeId": 43
+          },
+          "renderer": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 137,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243742",
+            "pathId": 243742,
+            "type": "SkinnedMeshRenderer",
+            "typeId": 137
+          },
+          "rendererType": "SkinnedMeshRenderer"
+        },
+        {
+          "gameObject": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 1,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243731",
+            "pathId": 243731,
+            "serializedTypeName": "GameObject",
+            "type": "GameObject",
+            "typeId": 1
+          },
+          "materialSlots": [
+            {
+              "materialId": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243679",
+              "pointer": {
+                "fileId": 0,
+                "isNull": false,
+                "pathId": 243679,
+                "sourceAssetIndex": 1
+              },
+              "slot": 0
+            }
+          ],
+          "mesh": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 43,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243676",
+            "pathId": 243676,
+            "serializedTypeName": "Mesh",
+            "type": "Mesh",
+            "typeId": 43
+          },
+          "renderer": {
+            "asset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+            "assetIndex": 1,
+            "classId": 137,
+            "id": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99:243744",
+            "pathId": 243744,
+            "type": "SkinnedMeshRenderer",
+            "typeId": 137
+          },
+          "rendererType": "SkinnedMeshRenderer"
+        }
+      ]
+    },
+    {
+      "sourceAlias": "primary",
+      "relativeContainer": "CharTexture.resourceFile",
+      "serializedAsset": "CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+      "type": "Texture2D",
+      "pathId": 2337,
+      "containerRoute": "texture/shoes_agentsix.dds"
+    },
+    {
+      "sourceAlias": "primary",
+      "relativeContainer": "Retro_shared.resourceFile",
+      "bytes": 14258661,
+      "sha256": "2ca4147c3705fdd3a0fc0ec44e088da6e87279e978e73b19701b0d29babbfc33",
+      "objects": [
+        {
+          "serializedAsset": "CustomAssetBundle-Retro_shared",
+          "type": "Texture2D",
+          "pathId": 1966,
+          "fileId": 0
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-Retro_shared",
+          "type": "Texture2D",
+          "pathId": 1967,
+          "fileId": 0
+        }
+      ]
+    },
+    {
+      "path": "work/cases/banker-20260910/hnpc-source.json",
+      "bytes": 254545,
+      "sha256": "a78da05aaae676963247a0b111e7ba7f47c26034d337513a66dcf0587124b694"
+    },
+    {
+      "path": "work/cases/banker-20260910/shirt-pointer.json",
+      "bytes": 45668,
+      "sha256": "4f0715958c5cdea43262189026f9be41270229d766a2a374d398ea15a1e4f435"
+    },
+    {
+      "path": "work/cases/banker-20260910/pants-exact.json",
+      "bytes": 104494,
+      "sha256": "765a7ca4f7e5117eb1ab5615efcf612561f18ac5f7ec1f7d75b3df7a7cd95281"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/hnpc/catalog.json",
+      "bytes": 1002004,
+      "sha256": "27a4cf6677e780d46e798c141ecfb15058425f57e0a12cf484b479820b1dcced"
+    },
+    {
+      "path": "textures/hnpc/shoes_agentsix.png",
+      "bytes": 18987,
+      "sha256": "160efc4670ce0353ae8461a26cbc9f697fb02bde94501771313813229ee62b3e"
+    },
+    {
+      "path": "characters/player/hnpc/banker/f_shirt_secretagent.glb",
+      "bytes": 94000,
+      "sha256": "b3c9949fff8f6e276c9736610c141d391c76edf6a456e0ff9b5ccdd0fba0e36c"
+    },
+    {
+      "path": "characters/player/hnpc/banker/f_pants_secretagent.glb",
+      "bytes": 38260,
+      "sha256": "713175764284173b3757dee0711248df285e096c98ec3629f8ad5266156d78ad"
+    },
+    {
+      "path": "characters/player/hnpc/banker/f_shoes_secretagent.glb",
+      "bytes": 41504,
+      "sha256": "77d68b83517670914c04d7315a2686133a82c32b66f3c2b4dd3d2ade57db65a3"
+    },
+    {
+      "path": "textures/hnpc/female_banker_jacket.png",
+      "bytes": 30155,
+      "sha256": "b9381b1b60d77b39046ca2dbcf4b51a8c313458de7939bf72d9ede9780122b6d"
+    },
+    {
+      "path": "textures/hnpc/female_banker_trousers.png",
+      "bytes": 37988,
+      "sha256": "e8b08872a508833344bd50a43f07a85011a31c44ff5712b5aa4c30c8a9f7f5c9"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "python tools/native/repair-female-banker-routes.py --assets ../FFOneClient/assets/game --source-evidence work/cases/banker-20260910/hnpc-source.json --source-root ../builds/retrobution-20260821 --output-root work/cases/banker-20260910/replay",
+      "result": "passed: 3 declared changed outputs replay byte-identically; other appearances unchanged"
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/hnpc_player_gpu_preview.exe ../FFOneClient/assets/game 144 work/cases/banker-20260910/144-final.png",
+      "result": "passed: ReadyAnimated, GPU screenshot inspected",
+      "evidence": "work/cases/banker-20260910/144-final.png",
+      "sha256": "28a0895834cba4218d839984b6c9bb465122835a36c5dabc0b9179967cc37ce7"
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/hnpc_player_gpu_preview.exe ../FFOneClient/assets/game 145 work/cases/banker-20260910/145-final.png",
+      "result": "passed: ReadyAnimated, GPU screenshot inspected",
+      "evidence": "work/cases/banker-20260910/145-final.png",
+      "sha256": "564dabe9860081e436f7214f26c1a4839ef37390ea9fe8ffd9cb6b0cbf9109f8"
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/hnpc_player_gpu_preview.exe ../FFOneClient/assets/game 178 work/cases/banker-20260910/178-final.png",
+      "result": "passed: ReadyAnimated, GPU screenshot inspected",
+      "evidence": "work/cases/banker-20260910/178-final.png",
+      "sha256": "f49d5ba2db52bc31a26ac642b601976c77d28f1cb4aabd17f65b81c636d8cae6"
+    },
+    {
+      "command": "target/debug/xtask.exe assets --source assets/game",
+      "workingDirectory": "../FFOneClient",
+      "result": "passed: 43816 references"
+    },
+    {
+      "command": "target/debug/ffone-client.exe --validate-assets --asset-root assets/game",
+      "workingDirectory": "../FFOneClient",
+      "result": "passed: status ok"
+    },
+    {
+      "command": "cargo build -p ffone-client --example hnpc_player_gpu_preview --bin ffone-client",
+      "workingDirectory": "../FFOneClient",
+      "result": "passed"
+    },
+    {
+      "command": "target/debug/deps/ffone_client-735e7cd1cecfebb2.exe hnpc_runtime::tests --nocapture",
+      "workingDirectory": "../FFOneClient",
+      "result": "passed: 2 tests on final assets; executable includes expanded model-route checks, built before final new-atlas path assertions"
+    },
+    {
+      "command": "cargo test -p ffone-client --lib hnpc_runtime::tests -- --nocapture",
+      "workingDirectory": "../FFOneClient",
+      "result": "initial run passed 2 tests; final repeat remained queued behind concurrent builds and was cancelled. Additional final texture-route assertions verified directly against production JSON; newly extended Rust assertions were not rerun."
+    }
+  ]
+}

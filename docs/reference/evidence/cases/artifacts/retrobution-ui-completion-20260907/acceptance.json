@@ -1,0 +1,141 @@
+{
+  "case": "retrobution-ui-completion-20260907",
+  "source": "retrobution",
+  "canonicalRole": "primary",
+  "runtimeVerification": "native-offline-verified",
+  "primaryLiveComparison": "not-run",
+  "build": "passed",
+  "targetedTestsPassed": 162,
+  "testSuites": [
+    {
+      "log": "test-character_creation_data.log",
+      "result": "test result: ok. 16 passed; 0 failed; 0 ignored; 0 measured; 1710 filtered out; finished in 8.61s"
+    },
+    {
+      "log": "test-character_creation_ui.log",
+      "result": "test result: ok. 27 passed; 0 failed; 0 ignored; 0 measured; 1699 filtered out; finished in 0.85s"
+    },
+    {
+      "log": "test-damage_bar.log",
+      "result": "test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 1723 filtered out; finished in 0.01s"
+    },
+    {
+      "log": "test-gameplay_ui.log",
+      "result": "test result: ok. 69 passed; 0 failed; 0 ignored; 0 measured; 1657 filtered out; finished in 1.06s"
+    },
+    {
+      "log": "test-map_preferences.log",
+      "result": "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 1725 filtered out; finished in 0.00s"
+    },
+    {
+      "log": "test-quit_menu_ui.log",
+      "result": "test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 1711 filtered out; finished in 0.02s"
+    },
+    {
+      "log": "test-ui_icon_variants.log",
+      "result": "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 1725 filtered out; finished in 0.00s"
+    },
+    {
+      "log": "test-user_settings.log",
+      "result": "test result: ok. 11 passed; 0 failed; 0 ignored; 0 measured; 1715 filtered out; finished in 0.03s"
+    },
+    {
+      "log": "test-world_map.log",
+      "result": "test result: ok. 19 passed; 0 failed; 0 ignored; 0 measured; 1707 filtered out; finished in 0.21s"
+    }
+  ],
+  "localization": {
+    "passed": 17,
+    "failed": 1,
+    "failure": "Static ordering audit checks bank_ui/item_popup.rs in isolation; Apply ordering is in parent bank_ui.rs."
+  },
+  "fullAssetValidation": {
+    "status": "blocked-by-shared-tree",
+    "error": "textures/hnpc/m_face_006_a.png has no declared runtime owner group"
+  },
+  "publicationReplay": {
+    "byteForByteNativeMatch": true,
+    "creationOutputs": 51,
+    "mapControlOutputs": 3
+  },
+  "mapEn": {
+    "assets": "Ready",
+    "hover": "WorldMapPresentationHover { control: None, marker_index: Some(50), pointer: WorldMapUiPoint { x: 332.22852, y: 462.0605 } }",
+    "markers": 297,
+    "phase": "Open",
+    "runtimeMessage": "Network error: gameplay packet requested before entering the world",
+    "transport": 30,
+    "validation": "Ok(())"
+  },
+  "mapRu": {
+    "assets": "Ready",
+    "hover": "WorldMapPresentationHover { control: None, marker_index: Some(50), pointer: WorldMapUiPoint { x: 332.22852, y: 462.0605 } }",
+    "markers": 297,
+    "phase": "Open",
+    "runtimeMessage": "Network error: gameplay packet requested before entering the world",
+    "transport": 30,
+    "validation": "Ok(())"
+  },
+  "captures": [
+    {
+      "target": "native-target",
+      "path": "target/performance/retrobution-ui/map-en/frame.png",
+      "bytes": 1665176,
+      "sha256": "eb87e961065266f5c626d6c51d44c88fd6d5fe0e60765f23f9512c097aa0972d"
+    },
+    {
+      "target": "native-target",
+      "path": "target/performance/retrobution-ui/map-ru/frame.png",
+      "bytes": 1669145,
+      "sha256": "eca3c454d57ecfe53cd2d30f0f4006a5bac84c3f6fba702a4a2735380be6a51b"
+    },
+    {
+      "target": "native-target",
+      "path": "target/performance/retrobution-ui/creator-name-en.png",
+      "bytes": 511248,
+      "sha256": "eff892b18381778112af39474e708bd190232d29f27af6980bc20e8cfacd5ece"
+    },
+    {
+      "target": "native-target",
+      "path": "target/performance/retrobution-ui/creator-name-ru.png",
+      "bytes": 513140,
+      "sha256": "2b5f86514de031df2c47d32b26384e8f9c9a81e3a4666d2c04b72c2cdf345886"
+    },
+    {
+      "target": "native-target",
+      "path": "target/performance/retrobution-ui/creator-pages-en.png",
+      "bytes": 544369,
+      "sha256": "efb6f3733d6c39035953b56faa219293b0cd9d51facc42be36d39a6aa5cb2f17"
+    },
+    {
+      "target": "native-target",
+      "path": "target/performance/retrobution-ui/creator-pages-ru.png",
+      "bytes": 548239,
+      "sha256": "6dd5a29aa2210d1c64c39f3292b6d609ed2a4ff5db1025de5924416b000bc618"
+    },
+    {
+      "target": "native-target",
+      "path": "target/performance/retrobution-ui/hud-damage-en.png",
+      "bytes": 229085,
+      "sha256": "e688d46bd711571c73b4fd1715a4b06c847573425f143d8e5d84d2dcd7079893"
+    },
+    {
+      "target": "native-target",
+      "path": "target/performance/retrobution-ui/hud-damage-ru.png",
+      "bytes": 223097,
+      "sha256": "ba8cab8ba59ff6b9b6b4428d9c3fb980aeea28aafe7c92f5a14b458abecd7071"
+    },
+    {
+      "target": "native-target",
+      "path": "target/performance/retrobution-ui/map-standalone-en.png",
+      "bytes": 582866,
+      "sha256": "c84beb80559714ef67921cb58987c01672feffaa49120768ea79e142f6ddc5a6"
+    },
+    {
+      "target": "native-target",
+      "path": "target/performance/retrobution-ui/map-standalone-ru.png",
+      "bytes": 582953,
+      "sha256": "5d72ce44fab5fd0ba29bb4065ca58c59c4b073dd9dae1b70b5cbc6e10cc43f55"
+    }
+  ]
+}

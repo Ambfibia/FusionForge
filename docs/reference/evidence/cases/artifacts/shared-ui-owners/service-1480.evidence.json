@@ -1,0 +1,87 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 20,
+    "name": "",
+    "pathId": 1480,
+    "rawBytes": 84,
+    "rawSha256": "013750532786ad1d18d4fe943b8a0828afc1c91fcda8195beab8f831a673b60e",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "Camera",
+    "typeId": 20,
+    "value": {
+      "far clip plane": 5.0,
+      "field of view": 45.0,
+      "m_BackGroundColor": {
+        "a": 0.019607843831181526,
+        "b": 0.4745098054409027,
+        "g": 0.3019607961177826,
+        "r": 0.1921568661928177
+      },
+      "m_ClearFlags": 3,
+      "m_CullingMask": {
+        "m_Bits": 1024
+      },
+      "m_Depth": 0.0,
+      "m_Enabled": false,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 1294
+      },
+      "m_NormalizedViewPortRect": {
+        "height": 1.0,
+        "width": 1.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_TargetTexture": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "near clip plane": 0.20000000298023224,
+      "orthographic": false,
+      "orthographic size": 100.0
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 1294,
+      "status": "resolved",
+      "target": {
+        "pathId": 1294,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_TargetTexture",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

@@ -1,0 +1,4772 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "item-icons-primary",
+  "sources": [
+    {
+      "alias": "primary",
+      "path": "Icons.resourceFile",
+      "sha256": "e4a4b531cafa44b2c046f8dc8dea97c694bc0c6e455b0329232c2b09596eb96d",
+      "bytes": 6557371
+    },
+    {
+      "alias": "primary",
+      "path": "Retro_shared.resourceFile",
+      "sha256": "2ca4147c3705fdd3a0fc0ec44e088da6e87279e978e73b19701b0d29babbfc33",
+      "bytes": 14258661
+    }
+  ],
+  "steps": [
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3923,
+      "output": "icons/items/weapons/wpnicon_960.png",
+      "sha256": "108fb92fd5f4ed570c5392f74177ab1ed7b3abfcf21d09b9de9cfd54d4695df8",
+      "bytes": 2257,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3926,
+      "output": "icons/items/cosmetics/cosicon_1690.png",
+      "sha256": "e714cd4784d809400ee79bb78be10d739f45e400a5b228e35973adfb08f7eb2a",
+      "bytes": 4201,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3929,
+      "output": "icons/items/cosmetics/cosicon_1693.png",
+      "sha256": "d8449299a02d6169bc081a002523f7db16d4c84966127cf7f5e734342bbc71ab",
+      "bytes": 3946,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3931,
+      "output": "icons/items/cosmetics/cosicon_1695.png",
+      "sha256": "bfdad8f84bba36ab3b17b78a2cffe8dcd962d0c903652f2f536bf9cfe12f2f6f",
+      "bytes": 3207,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3934,
+      "output": "icons/items/cosmetics/cosicon_1698.png",
+      "sha256": "84ad8183a4c69462b287cec6a8957836ef80c536a95be605a4aa52ed6e0b6bd2",
+      "bytes": 4523,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3932,
+      "output": "icons/items/cosmetics/cosicon_1696.png",
+      "sha256": "532c732ed9f09d7688b54265cc15b8c48b6527c09a5e99a095bab487fbcf8572",
+      "bytes": 2258,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3927,
+      "output": "icons/items/cosmetics/cosicon_1691.png",
+      "sha256": "64dc089edf134ab58039123917c44c963140af0d5340ca74728c6171c5e5fecd",
+      "bytes": 3357,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3936,
+      "output": "icons/items/cosmetics/cosicon_1700.png",
+      "sha256": "887c1489f56e55a2270c23427902432a7f9d7b80909daa0cc171f22ad95b1329",
+      "bytes": 2450,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3930,
+      "output": "icons/items/cosmetics/cosicon_1694.png",
+      "sha256": "88852b5e1d3adf2f65e91c0dc0ad19751a5d948bc546a3214fec4c81d7b12981",
+      "bytes": 3131,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3935,
+      "output": "icons/items/cosmetics/cosicon_1699.png",
+      "sha256": "11552b57f9eeed18057a652caef05a720a238646a5eef2ac0571aeab978659de",
+      "bytes": 3886,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3924,
+      "output": "icons/items/cosmetics/cosicon_1688.png",
+      "sha256": "f679638d41ddd1d83a262ec657e3a0c596c065aa5dbbedb92d2bd26be7928d5f",
+      "bytes": 3954,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3925,
+      "output": "icons/items/cosmetics/cosicon_1689.png",
+      "sha256": "bdfbe84868fa3d873285c6682498452645f4f7c82f505e40a855fdbd285e560e",
+      "bytes": 4330,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3933,
+      "output": "icons/items/cosmetics/cosicon_1697.png",
+      "sha256": "1e2fb02b0adcdfeb74907d7cf7cfdf7b3dfd8ec5c5699164ab509592357ae449",
+      "bytes": 3357,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3928,
+      "output": "icons/items/cosmetics/cosicon_1692.png",
+      "sha256": "39df7ef6979dc2374e87e846c81e4214b7f082ad9edaaeecf8b98d06bfb56647",
+      "bytes": 2501,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+      "pathId": 100,
+      "output": "icons/items/cosmetics/cosicon_1645.png",
+      "sha256": "a72e3be0f3e22256639adb7b302ef5801d2959da66b1adf1e78c0345e0452ffb",
+      "bytes": 3705,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3650,
+      "output": "icons/items/cosmetics/cosicon_1658.png",
+      "sha256": "6fc16a8961b81891971ad59890b5a81aeb1b0c5e4201642f9a58fa505a30095f",
+      "bytes": 2435,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3901,
+      "output": "icons/items/cosmetics/cosicon_1666.png",
+      "sha256": "d98bc710b069d2b2f8e3a160b91390b775366a65f672288563318b41d40711d5",
+      "bytes": 2044,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3911,
+      "output": "icons/items/cosmetics/cosicon_1676.png",
+      "sha256": "43d361974cf11a826350612afc624faeaee84e7f5f567e16a026ddb1d2260f67",
+      "bytes": 2680,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3920,
+      "output": "icons/items/cosmetics/cosicon_1685.png",
+      "sha256": "8d61abd739eaad7b8a34d50f2ac759e7cee2ef9e8f6da3475fde7e374c14cdf8",
+      "bytes": 3848,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3951,
+      "output": "icons/items/cosmetics/cosicon_1715.png",
+      "sha256": "d917e16b1bb15c0c8de482464277b14b8f90c7d5dcb6ec84dd513ab6b5d2a0f1",
+      "bytes": 2072,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3948,
+      "output": "icons/items/cosmetics/cosicon_1712.png",
+      "sha256": "28e77fa1abe43d6b42a125b3e0a61f9ba48f347988920e113f1cfefae9d870a5",
+      "bytes": 2595,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 4916,
+      "output": "icons/items/cosmetics/cosicon_1728.png",
+      "sha256": "59f7bbc2c07925f5d3899c900f6b1932b214615ee69fac1753a42856e56a02c7",
+      "bytes": 2533,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 4914,
+      "output": "icons/items/cosmetics/cosicon_1726.png",
+      "sha256": "c2964d948ebf45193b9d4915771fcfab6aea85dee0419c17a27b47bd0a426b95",
+      "bytes": 3313,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3938,
+      "output": "icons/items/cosmetics/cosicon_1702.png",
+      "sha256": "598e740469ecbde075ebae7d897878f054af8a80dcf9a43e83c9d7df8c6ff803",
+      "bytes": 3795,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3941,
+      "output": "icons/items/cosmetics/cosicon_1705.png",
+      "sha256": "54be6649daf6dd7728f4c06410995f81a9a004a50a5d4d237109cca9a876bac0",
+      "bytes": 2802,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3943,
+      "output": "icons/items/cosmetics/cosicon_1707.png",
+      "sha256": "ef9863a8988c998af18bc8cf6165fd0fe63198523da35dff023cc0822972c264",
+      "bytes": 2463,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3944,
+      "output": "icons/items/cosmetics/cosicon_1708.png",
+      "sha256": "f45cae907451bb6ee77bd63448ac2fe4d8579726f265ddb1b7910788c8983f8a",
+      "bytes": 3072,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3939,
+      "output": "icons/items/cosmetics/cosicon_1703.png",
+      "sha256": "d1e471e34a67e3856f327716b3cf07106d4e6924651b5e7ff30df35f5054c934",
+      "bytes": 2319,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3945,
+      "output": "icons/items/cosmetics/cosicon_1709.png",
+      "sha256": "0fee039a53add45bf5b19f1d679257f37f2062e3b9a7933e8cf18cb2c4207d46",
+      "bytes": 2146,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3942,
+      "output": "icons/items/cosmetics/cosicon_1706.png",
+      "sha256": "79ffcd69cf9a91a5d84684ff7c62b26360bc4b3c564962fb7e6bcd95d6fcb832",
+      "bytes": 2225,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3937,
+      "output": "icons/items/cosmetics/cosicon_1701.png",
+      "sha256": "bdbaf8962b25c518031aece6b73ab9b5ebd6bb9223ba0199b40c30448115bbdb",
+      "bytes": 2620,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3940,
+      "output": "icons/items/cosmetics/cosicon_1704.png",
+      "sha256": "0abd816054b8273f5bf3c8786600fe3679b13a7725bc235743cf24b40854a9b2",
+      "bytes": 1863,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+      "pathId": 2136,
+      "output": "icons/items/cosmetics/cosicon_1456.png",
+      "sha256": "4218f620d402768d40e0d5048e80109b768591e7a565e018bc3d2b8baf65fe8c",
+      "bytes": 2506,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+      "pathId": 2728,
+      "output": "icons/items/cosmetics/cosicon_1646.png",
+      "sha256": "c52fae5ac4b49686fc92bc1f971a4adf7d3f16944eaf4bff934636fde19950c7",
+      "bytes": 2163,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3908,
+      "output": "icons/items/cosmetics/cosicon_1673.png",
+      "sha256": "6d1bf87044f728e1a44a7c471823b06fab8cfa61afef2f018220dcea994711b5",
+      "bytes": 4203,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3902,
+      "output": "icons/items/cosmetics/cosicon_1667.png",
+      "sha256": "f012685f28bfe3c3ab3083603c8a2d27914b2c0efedc7a5d7c5997afc23d2661",
+      "bytes": 2910,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3912,
+      "output": "icons/items/cosmetics/cosicon_1677.png",
+      "sha256": "4b3346c08ce3d30d9834259306b3d0f2c3fa3ab99d4892fba462731883cdf47a",
+      "bytes": 3532,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3921,
+      "output": "icons/items/cosmetics/cosicon_1686.png",
+      "sha256": "09d3bbcada7a4169c0b4a31454b14f433b03e383d4e401729b3a6471c85966f7",
+      "bytes": 2476,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3952,
+      "output": "icons/items/cosmetics/cosicon_1716.png",
+      "sha256": "ce39375adf52c0f4387e56fe7f9db143c3e890bc5c2817e3b1daa21142b29477",
+      "bytes": 2120,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3949,
+      "output": "icons/items/cosmetics/cosicon_1713.png",
+      "sha256": "11e059b4202ec88c93e7659060e3b3338603d37ee5f9f95e5ecf5ecfa0c8ba48",
+      "bytes": 3351,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 4917,
+      "output": "icons/items/cosmetics/cosicon_1729.png",
+      "sha256": "c7bd83bb9ac17c4a7f38d7d8f1f9b79b99c55d6f2f82615ae3a70dccc7d5d459",
+      "bytes": 3879,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29950,
+      "output": "icons/items/cosmetics/cosicon_1938.png",
+      "sha256": "838e719e15f60589d10e71bc306e77329a725b01bb43d92910c25866f9d1fc5d",
+      "bytes": 1950,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3950,
+      "output": "icons/items/cosmetics/cosicon_1714.png",
+      "sha256": "011a0819d3fba01374902b2820dfc2fbae562c7ec5692345699d9b0be01871c6",
+      "bytes": 4909,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3947,
+      "output": "icons/items/cosmetics/cosicon_1711.png",
+      "sha256": "92b541163474aab757a5e20fff27f5f92a2199a227b9da149cbe1f20383a605b",
+      "bytes": 4526,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3946,
+      "output": "icons/items/cosmetics/cosicon_1710.png",
+      "sha256": "eed77e0254a1a5d7f713092f4033503b7ae4f477fcd3ad551bbb7261a1f6afcd",
+      "bytes": 4575,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+      "pathId": 92,
+      "output": "icons/items/cosmetics/cosicon_1653.png",
+      "sha256": "61e8b41e5e7c9440a90dadce39914436b511bd1180950f1ee6fc52e903730194",
+      "bytes": 4367,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3903,
+      "output": "icons/items/cosmetics/cosicon_1668.png",
+      "sha256": "ad3d529562cf0aa93cbd95409ada30b9e8ff8d894a03f49ddcfde4673bd5e26a",
+      "bytes": 4142,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3922,
+      "output": "icons/items/cosmetics/cosicon_1687.png",
+      "sha256": "e51e2c734344ad920117910778c8b3b73c68991c1fa521efb75ab9af45a63be3",
+      "bytes": 6472,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29951,
+      "output": "icons/items/cosmetics/cosicon_1939.png",
+      "sha256": "fa69e14e1e1685821488ea91091721a7f55c4725640f7c1852c38f31b79f82d1",
+      "bytes": 2208,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3916,
+      "output": "icons/items/cosmetics/cosicon_1681.png",
+      "sha256": "5e29126f6a2809df20f2f67910c2b22a7bf4c0f0e317a54dac54230f1e7501c9",
+      "bytes": 5948,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3649,
+      "output": "icons/items/cosmetics/cosicon_1657.png",
+      "sha256": "990b0cd4690a767f5455d0ef575e7d4ec1eff9b5335236d8df8a14d80faaf9f9",
+      "bytes": 2800,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3917,
+      "output": "icons/items/cosmetics/cosicon_1682.png",
+      "sha256": "a4aba4d39545c99ab5e085c6d8108536ad4ae7554ea73d9b6586a215bec47e7e",
+      "bytes": 2962,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3919,
+      "output": "icons/items/cosmetics/cosicon_1684.png",
+      "sha256": "ffaa2db6b4b936b93200e8533dff501484c7c360944c04db762330f33d2d55c6",
+      "bytes": 3703,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3918,
+      "output": "icons/items/cosmetics/cosicon_1683.png",
+      "sha256": "45681c2d22e30a1cd942d8b6658c1556e22795a7fed369ecf35c0c40cc51b360",
+      "bytes": 4177,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3915,
+      "output": "icons/items/cosmetics/cosicon_1680.png",
+      "sha256": "77bad534792431b16315efa490d6d74f6494245db57101749c14d5344fdde629",
+      "bytes": 2943,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3910,
+      "output": "icons/items/cosmetics/cosicon_1675.png",
+      "sha256": "7e96d41da4b3c1cf442179999000d9abf534cfbb224ca03157065f57a7037921",
+      "bytes": 4106,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3907,
+      "output": "icons/items/cosmetics/cosicon_1672.png",
+      "sha256": "9f13c7cdd2900acb84de5247ae7a12a1ff360755f7930a6ee31288e6a07867cf",
+      "bytes": 2394,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3909,
+      "output": "icons/items/cosmetics/cosicon_1674.png",
+      "sha256": "ce2b2de3471c0f1cdc971af1a79302c9ade66398c95315fb651cc3caffd071e8",
+      "bytes": 4575,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3914,
+      "output": "icons/items/cosmetics/cosicon_1679.png",
+      "sha256": "390aea56c83ad7af6525dfd741ff61084fc1101bb43d303acecbe04cff22a5f4",
+      "bytes": 3113,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3913,
+      "output": "icons/items/cosmetics/cosicon_1678.png",
+      "sha256": "9dbefc7e2e0eed6f20ca799dd65ee30b07b6c70b4350c5ae08c88b1500e21e6c",
+      "bytes": 3675,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3899,
+      "output": "icons/items/cosmetics/cosicon_1664.png",
+      "sha256": "e315b35c3921f2d40ef429de703470ac0e5547641adff6cab599511c522d089b",
+      "bytes": 3577,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3904,
+      "output": "icons/items/cosmetics/cosicon_1669.png",
+      "sha256": "32107053e786cbdb74b4869b031ef2fbc500d3662c14231aafb513aa3792813d",
+      "bytes": 2321,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3905,
+      "output": "icons/items/cosmetics/cosicon_1670.png",
+      "sha256": "c55fc451601ff840337bd516df216f4a22b6b52b8f03399295fc9bb9af485b2f",
+      "bytes": 2133,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 4915,
+      "output": "icons/items/cosmetics/cosicon_1727.png",
+      "sha256": "5618ecd3e8628f82416104dbe632744a70b092ab9eeca518054570df54bfabbd",
+      "bytes": 3812,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3906,
+      "output": "icons/items/cosmetics/cosicon_1671.png",
+      "sha256": "606375d9001a7256ba7454aadf4571d30d5c754748f7f41514d90905365c6776",
+      "bytes": 1628,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3900,
+      "output": "icons/items/cosmetics/cosicon_1665.png",
+      "sha256": "5d218a90f104e23f9702a8730b9b85c75dc2815e4424148a4ad3b6d933bce124",
+      "bytes": 2916,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+      "pathId": 2379,
+      "output": "icons/items/cosmetics/cosicon_1610.png",
+      "sha256": "aa81fa366ff4d3b5a2d70682468480935f35b71c9db46d49d4c8bd1d0100060c",
+      "bytes": 4333,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+      "pathId": 854,
+      "output": "icons/items/cosmetics/cosicon_1641.png",
+      "sha256": "204f27d8cf1a1ed49d9412e3a7bcfd8942a31a5b2309163796ccf58ba5549e21",
+      "bytes": 3772,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 27732,
+      "output": "icons/items/general/generalitemicon_84.png",
+      "sha256": "a2fe891a4918bbe74d890fb600ef38981315d49ea47035c127cea26c3c42bb3b",
+      "bytes": 4115,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 30006,
+      "output": "icons/items/general/generalitemicon_90.png",
+      "sha256": "5a81c4f9bb983f2952bfdc167c9f9cd566dd945d9cae51162bb67247802965a9",
+      "bytes": 6127,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 8842,
+      "output": "icons/items/general/generalitemicon_81.png",
+      "sha256": "a6ca4f702cdab599d1d22c26f8dbc89407dbc4e0aad2d2762af93c1a18e2c493",
+      "bytes": 5124,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 30051,
+      "output": "icons/items/general/generalitemicon_94.png",
+      "sha256": "ab9f37cb6a25d4b37b973cc3e1cd876bbfd2f2066fd7deeebf603984fcb05ebb",
+      "bytes": 3982,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 30008,
+      "output": "icons/items/general/generalitemicon_92.png",
+      "sha256": "f38b44e4416cb068b10c31c37018c3d58f6ec7feb58cbafc98386a321199aec3",
+      "bytes": 5499,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 30009,
+      "output": "icons/items/general/generalitemicon_93.png",
+      "sha256": "49e33f7310655bd70051f2b3a9cde7c11cc37d4382b19c4d30aef5c7af588920",
+      "bytes": 5007,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29994,
+      "output": "icons/items/general/generalitemicon_89.png",
+      "sha256": "3fe4631b55b4e6bd4756ab69df756ae83894bad26e96b1e96a7c61a34e2758ef",
+      "bytes": 6163,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 30007,
+      "output": "icons/items/general/generalitemicon_91.png",
+      "sha256": "859e4505f1335d584a8fdf712984f96e384bcd186729991395e2b01c29053f1e",
+      "bytes": 5793,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 30052,
+      "output": "icons/items/general/generalitemicon_95.png",
+      "sha256": "c1f93e58361f133e611437920f05047ec60f18d61e0684792417a4c5f8d58385",
+      "bytes": 4878,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 30053,
+      "output": "icons/items/general/generalitemicon_96.png",
+      "sha256": "55b2bb96e2cf33b1543673d21a73721a0e8678f58cc48fd358c98e249949cc82",
+      "bytes": 4967,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 30054,
+      "output": "icons/items/general/generalitemicon_97.png",
+      "sha256": "d6f23c571bfbd5e2d844f7d53cbfa4a419352a67ac68f1d796a4ac007d9c1f7d",
+      "bytes": 4612,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 30055,
+      "output": "icons/items/general/generalitemicon_98.png",
+      "sha256": "4312f279df3a28748a51361d1d46a9b23881ba66aa2701ad454d6a865ab30aaf",
+      "bytes": 3470,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 27117,
+      "output": "icons/items/general/generalitemicon_83.png",
+      "sha256": "777d0b1013041157fd863903a6cd0dc2f8dacc0a6d3c0f54d85eb22e915c37d5",
+      "bytes": 6609,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29698,
+      "output": "icons/items/general/generalitemicon_85.png",
+      "sha256": "1fe891e9e4afbce5be5db46b682e2f095db9cc79c71ff33e9c9043e90a0740bf",
+      "bytes": 3390,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 8843,
+      "output": "icons/items/general/generalitemicon_82.png",
+      "sha256": "9dd727a05c6ad9d3b5020fe95f3082357adf095c6baf1a96d0d2ef8639f4ced3",
+      "bytes": 6224,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 5277,
+      "output": "icons/items/general/generalitemicon_80.png",
+      "sha256": "4836d038a160bc9b00178cafd431719e190ab67b30d381cdd2567f5716b08b03",
+      "bytes": 5259,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 30113,
+      "output": "icons/items/general/generalitemicon_101.png",
+      "sha256": "be90eed8164522217b1b6addf2e3fd248afc9dd1cea8e84d138e2771b67dde07",
+      "bytes": 5296,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3964,
+      "output": "icons/items/general/generalitemicon_78.png",
+      "sha256": "25864d3c46b14bf899ad3e0c010ec7448928ce6f76d3a13d8deb3cf7daa25afa",
+      "bytes": 4818,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 5275,
+      "output": "icons/items/general/generalitemicon_79.png",
+      "sha256": "66c07c779cecc948ea4220857c45f70cfeb1fac7c16cc144b92159bf730265a4",
+      "bytes": 3300,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29703,
+      "output": "icons/items/general/generalitemicon_87.png",
+      "sha256": "68199260a3afe41abbacc25ef3fe6bc70604fa9cc1d194615c511cd4873f9dc6",
+      "bytes": 6036,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29993,
+      "output": "icons/items/general/generalitemicon_88.png",
+      "sha256": "a1aaeb879a7c034e8749fb3c0fafce7cfc3ff1d27def35cd11ae92d34a9ca119",
+      "bytes": 8955,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 30111,
+      "output": "icons/items/general/generalitemicon_99.png",
+      "sha256": "92a5a4fc69f80003f60d99b258cadcb950327e6be757deeb8cdcd00dddfd540d",
+      "bytes": 3077,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 30112,
+      "output": "icons/items/general/generalitemicon_100.png",
+      "sha256": "2c44ac1dc78648b56d460822fd8820889d395da62776592ad7b4251ba273de90",
+      "bytes": 2975,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3960,
+      "output": "icons/items/vehicles/vehicle_25.png",
+      "sha256": "36584a3c5e69b494b1726eebeae1ced88ae53ccd48ab9911d5b948a470dcaf8a",
+      "bytes": 3469,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3954,
+      "output": "icons/items/vehicles/vehicle_19.png",
+      "sha256": "29a282f81c86814f137c4164e5d554b984b95451bfee09d51232cf5a7702f1aa",
+      "bytes": 5332,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3955,
+      "output": "icons/items/vehicles/vehicle_20.png",
+      "sha256": "36c02e05526e369211f6a8a4764fbf72724af1883879d8090df391c5999be6d1",
+      "bytes": 2975,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29733,
+      "output": "icons/items/vehicles/vehicle_35.png",
+      "sha256": "ac75c0ce9048fdaa07223a8e236851dfe9727ac57527e54f8d31171ccc06eeca",
+      "bytes": 5264,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29734,
+      "output": "icons/items/vehicles/vehicle_36.png",
+      "sha256": "3a9d68a2afb4083249fbcb7b101b4d560870be85059dd35b94d90443443ee0c0",
+      "bytes": 5917,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29735,
+      "output": "icons/items/vehicles/vehicle_37.png",
+      "sha256": "ebd68c0e966d6747171a532e6124015d4b1cae5b5ec37d00ce6faa96774b5139",
+      "bytes": 5585,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29736,
+      "output": "icons/items/vehicles/vehicle_38.png",
+      "sha256": "d1b9affb564cc5c217c2e6a734253445dcca7da19b7685154f0f7e485b581d32",
+      "bytes": 7012,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29737,
+      "output": "icons/items/vehicles/vehicle_39.png",
+      "sha256": "66f0b873ebda70029a1a1ad18601bbc3eb5519b9cdc405f082065b6fc42ca780",
+      "bytes": 6073,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29827,
+      "output": "icons/items/vehicles/vehicle_125.png",
+      "sha256": "09da979a4edf57025cc94857ad6986526f03b7938b7762ce6dd2e78197f20430",
+      "bytes": 4003,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3962,
+      "output": "icons/items/vehicles/vehicle_27.png",
+      "sha256": "576e940ee33dc9b99df0d1154c7f6e65f6a55bb93a27a6f0127af2d197ae19ac",
+      "bytes": 4024,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3963,
+      "output": "icons/items/vehicles/vehicle_28.png",
+      "sha256": "1e557630454d4d85f41bfa4f949c730d535955ca96813d75754390896e719f57",
+      "bytes": 3869,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3961,
+      "output": "icons/items/vehicles/vehicle_26.png",
+      "sha256": "3789aab607e168f2a72774bafe31516c574320c36dbf5bf6401ee7e4c4563f58",
+      "bytes": 4423,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3958,
+      "output": "icons/items/vehicles/vehicle_23.png",
+      "sha256": "8dfffccc9329b17da76b0885762215da3093f8773541a2f9859647e466e00dbc",
+      "bytes": 5246,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3959,
+      "output": "icons/items/vehicles/vehicle_24.png",
+      "sha256": "22571d5b4a5acabf8f2943781ef4f1901fdfa1dbbbb3387c3801a1a7b890a061",
+      "bytes": 6007,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3957,
+      "output": "icons/items/vehicles/vehicle_22.png",
+      "sha256": "f9f2b292cae191998e1808ede7812ff35691b26fc3d743cb4ea574968cadc5e1",
+      "bytes": 4525,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 4051,
+      "output": "icons/items/vehicles/vehicle_30.png",
+      "sha256": "d74355a4cfe0a2d96457ae1dfb95650f40938661e20cdd5e5891645274ffb207",
+      "bytes": 3535,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 4050,
+      "output": "icons/items/vehicles/vehicle_29.png",
+      "sha256": "cdfb6cd8dfcd95879d4448c7d9f9b513f571b46e773b527db8cb9c251f8d6964",
+      "bytes": 2398,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 4912,
+      "output": "icons/items/vehicles/vehicle_31.png",
+      "sha256": "78d5c5416559015c9a2e5c97cefa1b0aec31ebaa0aa6517720cdba49e50de669",
+      "bytes": 5631,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 8813,
+      "output": "icons/items/vehicles/vehicle_32.png",
+      "sha256": "91310d56048628ed7ccad46bd9b9f64212307fa0fbf4e997930e02b9327dfbff",
+      "bytes": 5759,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 8814,
+      "output": "icons/items/vehicles/vehicle_33.png",
+      "sha256": "afd95b402a4dde49180ac6aca8f1d7123ac7ee306aa0dac9e046f5f2c5ff6a06",
+      "bytes": 4676,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 8815,
+      "output": "icons/items/vehicles/vehicle_34.png",
+      "sha256": "866fb3c2b9a39067916248b47f599dbf8c9eec3f30b002d5de82c73896d9a25c",
+      "bytes": 4727,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29828,
+      "output": "icons/items/vehicles/vehicle_126.png",
+      "sha256": "061769ad1c04a2d3aac00cbe41763addbf3c29957961132adb4c574eda71522b",
+      "bytes": 4306,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29834,
+      "output": "icons/items/vehicles/vehicle_132.png",
+      "sha256": "70931e458d4a39d0ae870c20c998420db955e94d769efe094fa57021deda5269",
+      "bytes": 4882,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29835,
+      "output": "icons/items/vehicles/vehicle_133.png",
+      "sha256": "0c278d2ec35a06576fb5dfc0e172493bac60196d3f07a0178b7d6537e48465e1",
+      "bytes": 5105,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29742,
+      "output": "icons/items/vehicles/vehicle_44.png",
+      "sha256": "bbf4deeb2aa1e6bb64ce69f91d46e6ea184ddf561a8a4c4a58fde1cf4b310cbf",
+      "bytes": 6770,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29743,
+      "output": "icons/items/vehicles/vehicle_45.png",
+      "sha256": "402cf2d94b96687767db9b7d9773adaf4f7a111e806847215b93cdf84379fcce",
+      "bytes": 5017,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29744,
+      "output": "icons/items/vehicles/vehicle_46.png",
+      "sha256": "38a28d3a408d96a45ae2b31053b26d9cfa2aab709b4199220adadc987127c899",
+      "bytes": 6127,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29745,
+      "output": "icons/items/vehicles/vehicle_47.png",
+      "sha256": "d579080fb291627401327f971f15fedf40e30374d852787cff81bf5d858fd853",
+      "bytes": 5853,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29746,
+      "output": "icons/items/vehicles/vehicle_48.png",
+      "sha256": "1721bb18b8c3a909b2ada0ae080647e0a2d566e8b73c071231123efae4a34ce1",
+      "bytes": 4494,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29747,
+      "output": "icons/items/vehicles/vehicle_49.png",
+      "sha256": "65f91250ea0470251455b25f0690ded248dd470f3c070f6cfb1fdea11f2558d0",
+      "bytes": 6163,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29829,
+      "output": "icons/items/vehicles/vehicle_127.png",
+      "sha256": "47a196b3690fb1feb62372056a9a97987164818a2a4ba43d4291575c35f9b958",
+      "bytes": 6342,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29749,
+      "output": "icons/items/vehicles/vehicle_51.png",
+      "sha256": "c38ff76571291304b21b2bf98a3223fda621782f774cf143228645de1d983180",
+      "bytes": 6886,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29750,
+      "output": "icons/items/vehicles/vehicle_52.png",
+      "sha256": "dd41082a3c6e7cfd96756109b1da856fe0e8c6bc0f584d2ff4a679e33d525454",
+      "bytes": 6655,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29751,
+      "output": "icons/items/vehicles/vehicle_53.png",
+      "sha256": "58080a2f8580254147c8aa8d7329808f92a02eee09423ff0c1335cd392a59852",
+      "bytes": 5357,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29752,
+      "output": "icons/items/vehicles/vehicle_54.png",
+      "sha256": "6422790cc5a772873ceccb7012deb16797f52601077186e5d0b6ed9222a7267f",
+      "bytes": 7044,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29836,
+      "output": "icons/items/vehicles/vehicle_134.png",
+      "sha256": "830307d59f2da17186fe1ff60ea784dcb243c39001a84fee35dde85293d5ad8e",
+      "bytes": 6513,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29754,
+      "output": "icons/items/vehicles/vehicle_56.png",
+      "sha256": "0481f24cbd16b6f9dcecb1b82a5ccc4bdd71cd9b276392664296c0ee5420b884",
+      "bytes": 5301,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29755,
+      "output": "icons/items/vehicles/vehicle_57.png",
+      "sha256": "1621f2f5d599db2929411aec80591c20b55a24e8e30323423920d81f1032f3c9",
+      "bytes": 4446,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29756,
+      "output": "icons/items/vehicles/vehicle_58.png",
+      "sha256": "7a3e442e29bce386e1160a9ce485abdf0cdb94fbed43477b949d5cd39da34285",
+      "bytes": 7409,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29757,
+      "output": "icons/items/vehicles/vehicle_59.png",
+      "sha256": "144501283a6cc1a1b5e127b91f98ab85b9c064b2ad14bc296a8fe2bc72cf0edc",
+      "bytes": 5799,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29758,
+      "output": "icons/items/vehicles/vehicle_60.png",
+      "sha256": "0649a08041a1bcb1c1d5a64d39dbfafa97579aad0eea1db418188af8b9bf306c",
+      "bytes": 5315,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29759,
+      "output": "icons/items/vehicles/vehicle_61.png",
+      "sha256": "2c96d67b80ffa08e7001c8f1c851dda139438992030bf977d39314fdf5d9eeda",
+      "bytes": 8166,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29760,
+      "output": "icons/items/vehicles/vehicle_62.png",
+      "sha256": "f3bba54f6da401f2e0c4c249b0abbccea6438ffd9c9baca74a17e20937181c07",
+      "bytes": 6635,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29761,
+      "output": "icons/items/vehicles/vehicle_63.png",
+      "sha256": "aae51fa3b4f8f9488dff5bf4efec33736120eaf66cf0b8c8a934e681917c6a9a",
+      "bytes": 5327,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29762,
+      "output": "icons/items/vehicles/vehicle_64.png",
+      "sha256": "64096f6a3a9d3fb91df1d69e89b578dc41f220b18de474b1eaa87d6a1dc7501d",
+      "bytes": 3992,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29763,
+      "output": "icons/items/vehicles/vehicle_65.png",
+      "sha256": "7ee1a656eb7854b5dff43d96196253c7ec47a2359713a7a4f000323f17c0c7bd",
+      "bytes": 6227,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29764,
+      "output": "icons/items/vehicles/vehicle_66.png",
+      "sha256": "ba4f2b98bb1c8fce100961dccf08c8c7e5ab79cc1f559599f9226ff5a3c7a001",
+      "bytes": 5869,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29765,
+      "output": "icons/items/vehicles/vehicle_67.png",
+      "sha256": "17be4cc3777f26fca209f08a5cf0bd64eec558fd8b0e6a83a0e398125c06ada0",
+      "bytes": 5609,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29766,
+      "output": "icons/items/vehicles/vehicle_68.png",
+      "sha256": "cac7afd9f6fd31822e19933387041b3f310be98a506ccadd50c370b19b251754",
+      "bytes": 4846,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29767,
+      "output": "icons/items/vehicles/vehicle_69.png",
+      "sha256": "6e504a22a7f9fba47ccfdfb0afc934d8d85c73aee7c3bf4fd252533275fb4f90",
+      "bytes": 7023,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29768,
+      "output": "icons/items/vehicles/vehicle_70.png",
+      "sha256": "aa778e9fa2a1c71895ad3dc6f4c54d5c53357c9ee7f9aeb1c6c5d590c10e3ad4",
+      "bytes": 6712,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29769,
+      "output": "icons/items/vehicles/vehicle_71.png",
+      "sha256": "3160931430c042210f45a1e0bd673659abd283190c5ca9d98125feb43b22c338",
+      "bytes": 6414,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29830,
+      "output": "icons/items/vehicles/vehicle_128.png",
+      "sha256": "2743b8b6afececd0c2f6b220c0ddb549e8716325ea80459f8affa54d5cd3dbfa",
+      "bytes": 5306,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29831,
+      "output": "icons/items/vehicles/vehicle_129.png",
+      "sha256": "404f12ef37a87a01b7d15ec6ab816638e1896d648696fd9a668feef8d7f12f59",
+      "bytes": 6101,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29837,
+      "output": "icons/items/vehicles/vehicle_135.png",
+      "sha256": "86ed1b64c964c7d0ac25d749826e5a1f9057370e24a74c271a18b9b12b72f557",
+      "bytes": 5856,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29838,
+      "output": "icons/items/vehicles/vehicle_136.png",
+      "sha256": "de232f7bcbc8d8e926888bfbbe1b40a33a6035f611700970f6254eff4c1d07de",
+      "bytes": 6975,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29839,
+      "output": "icons/items/vehicles/vehicle_137.png",
+      "sha256": "911ee1db9c726f1eb56ba4e85a6610712159ed8a1efe2cff8fec027aa58f9bcc",
+      "bytes": 6633,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29775,
+      "output": "icons/items/vehicles/vehicle_77.png",
+      "sha256": "c1c3c78aa9dc2579830a9408fad471a6571bd10a1f9c1501168e03575a5bd404",
+      "bytes": 5876,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29776,
+      "output": "icons/items/vehicles/vehicle_78.png",
+      "sha256": "edba39a51f75d339f4a5661c97cc505101e09aa983ae2a5fdc64caa8d5e462cd",
+      "bytes": 5687,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29777,
+      "output": "icons/items/vehicles/vehicle_79.png",
+      "sha256": "8142caf9b7694ab9eeda8e051dd0bd3498fec7da16400325bf9c213c7e4b7ada",
+      "bytes": 5678,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29778,
+      "output": "icons/items/vehicles/vehicle_80.png",
+      "sha256": "68d649fe3323f469e88e288d916837c62684c5f7881b705da9e8606abe002e7d",
+      "bytes": 5887,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29779,
+      "output": "icons/items/vehicles/vehicle_81.png",
+      "sha256": "9afbe3e4244a6473de8289845055cdb2fc6533f8251c144c84803edcace2a720",
+      "bytes": 6749,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29780,
+      "output": "icons/items/vehicles/vehicle_82.png",
+      "sha256": "079acbb2b471fa8e585d51425ecda1557f6a12154ab109fc9e6c71b589f1b718",
+      "bytes": 6577,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29781,
+      "output": "icons/items/vehicles/vehicle_83.png",
+      "sha256": "78b70146e16030c3a1bc9dd836d87ed0511220d316f17fa4b9d63a7c3f1df211",
+      "bytes": 6554,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29782,
+      "output": "icons/items/vehicles/vehicle_84.png",
+      "sha256": "74d21fbb2220b36fbbaecc06ec62e00ecabaebe2910027439993045cd4459638",
+      "bytes": 6762,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29840,
+      "output": "icons/items/vehicles/vehicle_138.png",
+      "sha256": "f208790c2ccb8c6c60a9b813abba4d5506d266abdf1bb8d0dc8a2a52624f8209",
+      "bytes": 6486,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29785,
+      "output": "icons/items/vehicles/vehicle_86.png",
+      "sha256": "0c1e97f33d8f7277a570d025aa554eea4cf5e5c84c0aeb20bc9e7fb19ec779e0",
+      "bytes": 4072,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29786,
+      "output": "icons/items/vehicles/vehicle_87.png",
+      "sha256": "23291442c7bc76296dc5d6111216cb37063db9e77aee44588269a437084c1d90",
+      "bytes": 4728,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29832,
+      "output": "icons/items/vehicles/vehicle_130.png",
+      "sha256": "4b44c21689fdef33a2d97da84c93bcc3844da850b0221565a7d5ab50eb4865a5",
+      "bytes": 2861,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29788,
+      "output": "icons/items/vehicles/vehicle_89.png",
+      "sha256": "944f815f8f402899d943d623c4229cbf5def1c940a79cd5747826e3d20bf61d0",
+      "bytes": 4764,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29789,
+      "output": "icons/items/vehicles/vehicle_90.png",
+      "sha256": "c0e07513b4fbbac04e73c741e7ac11d268cbf08b356532f8cc2d4af9266ae72a",
+      "bytes": 5588,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29841,
+      "output": "icons/items/vehicles/vehicle_139.png",
+      "sha256": "48405f89cffc8f8271aa55eb2c30821e013bc241aff2d08f26eeae5012773bb3",
+      "bytes": 3706,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29791,
+      "output": "icons/items/vehicles/vehicle_92.png",
+      "sha256": "398edb27184e980ec5addb4777f1d89eef823e932910067c7fa275f021c512aa",
+      "bytes": 5024,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29792,
+      "output": "icons/items/vehicles/vehicle_93.png",
+      "sha256": "a0f076cb8db65a16df1bdd5a86bfc97aa63465282620f7ed2be546566e0f9035",
+      "bytes": 5902,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29793,
+      "output": "icons/items/vehicles/vehicle_94.png",
+      "sha256": "2fbb702804c63f0e92693b4b51a4be546cef329f8981d476fad1cc97cd0bc1b4",
+      "bytes": 3594,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29794,
+      "output": "icons/items/vehicles/vehicle_95.png",
+      "sha256": "c5a73df95b1f972b1e8260cb91a9c72cdfb9a64509147d8af2589907ce152547",
+      "bytes": 6700,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29795,
+      "output": "icons/items/vehicles/vehicle_96.png",
+      "sha256": "557e1bcde15486625008a55753380a57de88aafdef5f6e0d7f49043cc9756979",
+      "bytes": 4274,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29833,
+      "output": "icons/items/vehicles/vehicle_131.png",
+      "sha256": "aa3276a739ba796d0058fa68f1642953c9a79758ddaefd3dc53992fe7b699347",
+      "bytes": 4804,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29797,
+      "output": "icons/items/vehicles/vehicle_98.png",
+      "sha256": "8d181440580eb1d971acd6d4edd09b9e20fecef75dec1aa767c6e9cec1595527",
+      "bytes": 4782,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29842,
+      "output": "icons/items/vehicles/vehicle_140.png",
+      "sha256": "23ca473b2e78c642159847512f6b5054dd464ced0b17c5c56c81a9f4b26b4711",
+      "bytes": 5589,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29799,
+      "output": "icons/items/vehicles/vehicle_100.png",
+      "sha256": "e49b860a2ba12cb079fddc11215bf7b50f40b56b0efa5ce9940b4e29ae7a2b25",
+      "bytes": 5621,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29800,
+      "output": "icons/items/vehicles/vehicle_101.png",
+      "sha256": "56d3a96a2f50e63108a3b86ae03a01ca5aac68a641195802d1ca79607924110b",
+      "bytes": 6089,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29801,
+      "output": "icons/items/vehicles/vehicle_102.png",
+      "sha256": "413fbd1af0c35ae22355e677a0e49aafa3e0cdd265cc3292567c06b1ccd42355",
+      "bytes": 6101,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29802,
+      "output": "icons/items/vehicles/vehicle_103.png",
+      "sha256": "4087bac500bec788a77f33f46b1f0a95140b8f73b6874b0ea8b905a3fd181795",
+      "bytes": 6980,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29803,
+      "output": "icons/items/vehicles/vehicle_104.png",
+      "sha256": "88a89634ead9c4aea64e47cfd60a74d6b80d46fd2d9f9c09751959dc6050e4a0",
+      "bytes": 6815,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29804,
+      "output": "icons/items/vehicles/vehicle_105.png",
+      "sha256": "56aed65fc1431dfd2c3b3beac33c13c51a356ba5715dcbf046b8da4785d007c6",
+      "bytes": 5201,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29805,
+      "output": "icons/items/vehicles/vehicle_106.png",
+      "sha256": "de0cee00c19dce083ce92280f7a501dbd83894b212a2d88a2e373b09c6b56781",
+      "bytes": 6078,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29806,
+      "output": "icons/items/vehicles/vehicle_107.png",
+      "sha256": "7f36d714ee7fbaffecdd208f1d49b4f70bd21821acab118b3a718b4a180d92ac",
+      "bytes": 5656,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29807,
+      "output": "icons/items/vehicles/vehicle_108.png",
+      "sha256": "8f8dc8e7e001ad7e64076697cedbaaef065698b36f9ee4c898de0019aa9f1817",
+      "bytes": 5671,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29808,
+      "output": "icons/items/vehicles/vehicle_109.png",
+      "sha256": "e5f2dd5118e9bb6d2aab08bc7b57065ea6dde539ac14dc7da972c81ccae9e029",
+      "bytes": 5248,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29809,
+      "output": "icons/items/vehicles/vehicle_110.png",
+      "sha256": "df6437bb318bf9e2896fd6574b8a85e62b31bf1980e1044589f2c65a2a9bb661",
+      "bytes": 5481,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29810,
+      "output": "icons/items/vehicles/vehicle_111.png",
+      "sha256": "ee5a4c84ceafca89d04dd5ee91a1f592d639e5872d21d6b2150156312d579b80",
+      "bytes": 5956,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29811,
+      "output": "icons/items/vehicles/vehicle_112.png",
+      "sha256": "7628f435f73bb40a469cbd811d1244bef03ec79cef0c064d95b00b111d381525",
+      "bytes": 5552,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29812,
+      "output": "icons/items/vehicles/vehicle_113.png",
+      "sha256": "8a74395feecdad556c5e861603bff12a8ccc8bda6a84c0ea0d12a68baa7b25e9",
+      "bytes": 5784,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29813,
+      "output": "icons/items/vehicles/vehicle_114.png",
+      "sha256": "8afeacf589705506b55262f2192cf43d39ef9e2212b51ed2d0cf736d57b3fe0e",
+      "bytes": 5086,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29814,
+      "output": "icons/items/vehicles/vehicle_115.png",
+      "sha256": "a63f7000d5c6d4ca5d9fc8223ae80bf559cdef9b882b86b4051d0d3a764ac0f2",
+      "bytes": 5483,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29815,
+      "output": "icons/items/vehicles/vehicle_116.png",
+      "sha256": "d704363401dcadd2dd4c3044ca0db58dd74b94ad1bc23beef00c00098898a8cb",
+      "bytes": 4564,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29816,
+      "output": "icons/items/vehicles/vehicle_117.png",
+      "sha256": "9265756095f6c2dc1a84bdd65ad5ae703cd053dc52e217c7770c9ddd77da1b65",
+      "bytes": 7351,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29817,
+      "output": "icons/items/vehicles/vehicle_118.png",
+      "sha256": "f895be6f2fe7cf16817aa1f85ed89ed2fba904daebc940e06d5b64e7e60eed05",
+      "bytes": 5976,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29818,
+      "output": "icons/items/vehicles/vehicle_119.png",
+      "sha256": "d35f9907b4048015880b42373bf0378c130faf21f870122f6b35ebbc3b4b99d8",
+      "bytes": 6281,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29819,
+      "output": "icons/items/vehicles/vehicle_120.png",
+      "sha256": "cd83c7cdadd65133c3bde43debd47253b8c8330b30992461ba9ca2cae24ec29c",
+      "bytes": 3840,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29820,
+      "output": "icons/items/vehicles/vehicle_121.png",
+      "sha256": "1aaa3cdc66edf06ca40a3c564ed92e3a5ba215f88ed6afd208c57cf037c91460",
+      "bytes": 5694,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29821,
+      "output": "icons/items/vehicles/vehicle_122.png",
+      "sha256": "b3d5f0d26d5feb969a9286c660914dd2405bd98bba0072bd1ea3eda632c125e0",
+      "bytes": 4694,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29822,
+      "output": "icons/items/vehicles/vehicle_123.png",
+      "sha256": "aa9a1fc43b0f505f991f2e260bee6f480939603466de9bd5bee96c014ebbd3c0",
+      "bytes": 4507,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29823,
+      "output": "icons/items/vehicles/vehicle_124.png",
+      "sha256": "38f9c3937cb7848cae71339a6a6f03afffaf4279caa0522df40e8a16dd72c745",
+      "bytes": 6409,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 3956,
+      "output": "icons/items/vehicles/vehicle_21.png",
+      "sha256": "6bb1efcfe6b508edd15e402999143daf030260bf4e7bc6297a5cbb1476c7dcba",
+      "bytes": 6584,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    },
+    {
+      "operation": "texture",
+      "source": 1,
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "pathId": 29740,
+      "output": "icons/items/vehicles/vehicle_42.png",
+      "sha256": "66f0b873ebda70029a1a1ad18601bbc3eb5519b9cdc405f082065b6fc42ca780",
+      "bytes": 6073,
+      "additive": true,
+      "assertions": [
+        {
+          "pointer": "/mipCount",
+          "equals": 1
+        },
+        {
+          "pointer": "/width",
+          "equals": 64
+        },
+        {
+          "pointer": "/height",
+          "equals": 64
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "status": "accepted",
+  "source": {
+    "alias": "retro-010920",
+    "relativeContainer": "assets/TableData.resourceFile",
+    "containerBytes": 744830,
+    "containerSha256": "700f47e9d80d861b1a6392e80166bd10c18e9db4d463e0e519f60f6bf888d637",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-1dca92eecee4742d985b799d8226666d",
+        "type": "MonoBehaviour",
+        "pathId": 7,
+        "rawSha256": "26e654d065d5016d39a251925905b2e60ecd95676f176995d79e3133835560a2",
+        "fileId": 0,
+        "pointerContext": "Unique xdtdatas; strict object evidence resolves all pointers."
+      }
+    ]
+  },
+  "additionalSources": [
+    {
+      "number": 67,
+      "skillIconRow": 68,
+      "selection": "Explicit owner selection after reviewing skill icons; not inferred from Retro tune references.",
+      "source": {
+        "alias": "primary",
+        "relativeContainer": "Icons.resourceFile",
+        "bytes": 6557371,
+        "sha256": "e4a4b531cafa44b2c046f8dc8dea97c694bc0c6e455b0329232c2b09596eb96d"
+      },
+      "object": {
+        "asset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+        "assetIndex": 0,
+        "classId": 28,
+        "id": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb:1562",
+        "pathId": 1562,
+        "serializedTypeName": "Texture2D",
+        "type": "Texture2D",
+        "typeId": 28
+      },
+      "decodedRgbaSha256": "a3fa8d3b12f58bbc4207c53158a9bca83abc2578f5f287bed5cd992c90db8c75",
+      "pngSha256": "470d030f1dc4c6e6099db1b3b01b95504565b312c57dc0d8daa3afb5a270793c",
+      "nativeExistingPath": "icons/skills/skillicon_67.png",
+      "nativeUiPath": "ui/en/gameplay/nano/icons/skill/skillicon_67.png",
+      "replay": "work/build/debug/fusionforge.exe export-exact-texture ../builds/retrobution-20260821/Icons.resourceFile 1562 work/cases/unstable-nano-20260915/skill67.exact.json"
+    }
+  ],
+  "transform": {
+    "kind": "repair",
+    "tool": "tools/native/restore-retro-unstable-powers.py",
+    "toolRevision": "sha256:4d5adb208e62c2ee0089b51313fd99492bcfabbe6831c06523a8be269eb7e445",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/native/retire-unstable-nano-alias.py --target-root ../FFOneClient --server-xdt ../OpenFusion/bin/tdata/xdt.json --stage work/cases/unstable-nano-20260915/retired --apply",
+      "python tools/native/restore-retro-unstable-powers.py --target-root ../FFOneClient --server-xdt ../OpenFusion/bin/tdata/xdt.json --source-evidence work/cases/unstable-nano-20260915/retro-table.evidence.json --stage work/cases/unstable-nano-20260915/powers --apply",
+      "python tools/native/restore-unstable-power-icon.py --target-root ../FFOneClient --server-xdt ../OpenFusion/bin/tdata/xdt.json --stage work/cases/unstable-nano-20260915/icon --apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "tools/native/retire-unstable-nano-alias.py",
+      "sha256": "62e2abb2eec91abef0fd94f957ce359f47a08da10de6ab4036c3efbbc8898144"
+    },
+    {
+      "path": "tools/native/restore-unstable-power-icon.py",
+      "sha256": "9d355db9f83bbe2d3553c50ccb540cba194b68e069426e299898c6013323df68"
+    },
+    {
+      "path": "docs/reference/evidence/legacy/ffone/sources/retro-unstable-powers-20260915.json",
+      "sha256": "6ca55560ec1672aac11b1857a99c5da4332071d20bbc618418e2f3715cc6da84"
+    }
+  ],
+  "divergenceFromPrimary": "Owner-selected Retro 010920 powers for native Nano 41 replace the earlier neutral Coop-derived extension. Source tunes 210-212 map to native 288-290; all use skill 122. The owner explicitly selects icon 67 (native icon row 68), an appearance override over Retro. Invalid source apostrophe repaired and Russian text authored. Alias 52 is retired in place; Van Kleiss 66, Coop 67 and all other Nano identities/powers survive.",
+  "verification": [
+    {
+      "command": "cargo test -p ffone-client --lib gameplay_nano_portraits::tests",
+      "result": "passed: 6 tests, including world material isolation and one-time alpha adaptation",
+      "evidence": "docs/legacy/ffone/unstable-nano-retro-20260915.md"
+    },
+    {
+      "command": "ffone_client library test executable user_equip_ui::tests",
+      "result": "passed: 35 tests",
+      "evidence": "work/cases/unstable-nano-20260915/gallery-tests.log"
+    },
+    {
+      "command": "nano_acquisition_client_smoke, Nano 41, isolated server 23260",
+      "result": "passed: all 3 choices, old tune rejection, equip and saved skill 122 after relogin",
+      "evidence": "work/cases/unstable-nano-20260915/server/acquisition.log"
+    },
+    {
+      "command": "Final semantic verification and publisher replay",
+      "result": "passed: client/server tables agree, only declared fields changed, replay produces identical bytes",
+      "evidence": "work/cases/unstable-nano-20260915/final-semantic-verification.json"
+    },
+    {
+      "command": "cargo test -p ffone-client --test nano_identity_roster",
+      "result": "passed: 2 production-bundle tests including icon 67 path",
+      "evidence": "../FFOneClient/crates/ffone-client/tests/nano_identity_roster.rs"
+    },
+    {
+      "command": "cargo build -p ffone-client --bin ffone-client --example gameplay_hud_gpu_preview --example nano_acquisition_client_smoke --example user_equip_ui_gpu_preview",
+      "result": "passed",
+      "evidence": "docs/legacy/ffone/unstable-nano-retro-20260915.md"
+    },
+    {
+      "command": "FFONE_HUD_NANO_ID=41 FFONE_LANGUAGE=ru gameplay_hud_gpu_preview; additionally FFONE_MISSION_UI_PREVIEW=nano FFONE_MISSION_NANO_TASK_ID=5215 for journal",
+      "result": "passed: reviewed visible hologram and icon 67 in HUD/journal",
+      "evidence": "work/cases/unstable-nano-20260915/hud-journal-after.png"
+    },
+    {
+      "command": "FFONE_PERF_OUTPUT=target/performance/unstable-nano-20260915 FFONE_PERF_NANO_ACQUISITION=41 ffone-client",
+      "result": "passed: production app selected=true; PowerSelection and ResultSkill captures reviewed; offline synthetic reply, actual network persistence verified separately",
+      "evidence": "../FFOneClient/target/performance/unstable-nano-20260915/nano-acquisition.json"
+    }
+  ],
+  "id": "unstable-nano-retro-20260915-client",
+  "supersedes": [
+    "nano-gameplay-identities-20260913-client"
+  ],
+  "target": {
+    "alias": "ffone-client"
+  },
+  "outputs": [
+    {
+      "path": "assets/game/data/tables/table-set.json",
+      "bytes": 46005570,
+      "sha256": "a0ae162b795a4742ed86c6db97a812804a4d76f3bbaf8c750b2584ad85265a4d"
+    },
+    {
+      "path": "assets/game/localization/en.json",
+      "bytes": 8099952,
+      "sha256": "3944373212e22e41e1c8bd41eb544de5e640d91cb636e0ae058ee62fbc088beb"
+    },
+    {
+      "path": "assets/game/localization/ru.json",
+      "bytes": 11767307,
+      "sha256": "c35272c3266cb24a1d9b7cf647f1eb329af309996fadb78d877b39d25c5f105f"
+    },
+    {
+      "path": "assets/game/ui/en/gameplay/nano/icons/skill/skillicon_67.png",
+      "bytes": 2533,
+      "sha256": "470d030f1dc4c6e6099db1b3b01b95504565b312c57dc0d8daa3afb5a270793c"
+    }
+  ],
+  "captures": [
+    {
+      "path": "work/cases/unstable-nano-20260915/hud-journal-after.png",
+      "sha256": "fe485571ec742bc3f7a6e3036ee62b02a73d664a98a5a5b080c9bed726395bb1"
+    },
+    {
+      "path": "work/cases/unstable-nano-20260915/hud-after.png",
+      "sha256": "00ce5b33a1baea78247a45373928007984ab872af6451f2f1c7871e77027c1d1"
+    }
+  ]
+}

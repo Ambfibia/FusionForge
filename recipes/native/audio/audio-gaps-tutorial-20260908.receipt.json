@@ -1,0 +1,186 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "audio-gaps-tutorial-20260908",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "native-target"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "Tutorial.resourceFile",
+    "containerBytes": 33327638,
+    "containerSha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "AudioClip",
+        "pathId": 7266,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_barber_clickbarb01"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "AudioClip",
+        "pathId": 7267,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_barber_clickbarb02"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "AudioClip",
+        "pathId": 7261,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_barber_farewell01"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "AudioClip",
+        "pathId": 7262,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_barber_farewell02"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "AudioClip",
+        "pathId": 7263,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_barber_farewell03"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "AudioClip",
+        "pathId": 7264,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_barber_greeting01"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "AudioClip",
+        "pathId": 7265,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "m_barber_greeting02"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "lossless-audio-publication",
+    "tool": "tools/legacy-sources/publish-audio-gaps.py",
+    "toolRevision": "857406bc95b5dd7a5983cefc3838c86b302600a8 (working tree; tool SHA-256 5e4bde84481aaba0701c8162ab482b0d79a0b2122b9375e9985b1a5ba4a4f7da)",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/legacy-sources/publish-audio-gaps.py --plan recipes/native/audio/audio-gaps-20260908.plan.json --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/cases/audio-gaps-20260908/pass1",
+      "python tools/legacy-sources/publish-audio-gaps.py --plan recipes/native/audio/audio-gaps-20260908.plan.json --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/cases/audio-gaps-20260908/pass2",
+      "python tools/legacy-sources/publish-audio-gaps.py --plan recipes/native/audio/audio-gaps-20260908.plan.json --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/cases/audio-gaps-20260908/pass2 --reuse-evidence --apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "recipes/native/audio/audio-gaps-20260908.plan.json",
+      "sha256": "90f4042d8cb348ccd05f8b96d0f7ba2ea483db5f668ea54db45b4d61cc6be763"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "audio/voice/en/m_barber/clickbarb01.ogg",
+      "bytes": 84886,
+      "sha256": "d4055ff03f0d172c723c28a95facb3f9638c08c70daa7ed3f4b4e26efa7b4da2"
+    },
+    {
+      "path": "audio/voice/en/m_barber/clickbarb02.ogg",
+      "bytes": 43841,
+      "sha256": "70d8e09de2e1b1ce28df67cf142b7a6776d15688366ada4f4adcbd73adad2ddd"
+    },
+    {
+      "path": "audio/voice/en/m_barber/farewell01.ogg",
+      "bytes": 61530,
+      "sha256": "2b77b1325c1a6a7de65cadf6b8e12e608f97e3c1825b3b768c80daccb378af76"
+    },
+    {
+      "path": "audio/voice/en/m_barber/farewell02.ogg",
+      "bytes": 114528,
+      "sha256": "632714ddc62a427e6a653e3adb3e0bcecf635d21cde289860558ee48e168c7ea"
+    },
+    {
+      "path": "audio/voice/en/m_barber/farewell03.ogg",
+      "bytes": 111229,
+      "sha256": "d73fa2cf733d7ca41ae3ba6c30ea07ac875a490bf8f4a296f33e1c17b8e9b8dc"
+    },
+    {
+      "path": "audio/voice/en/m_barber/greeting01.ogg",
+      "bytes": 73137,
+      "sha256": "5464644d0ea0a36f30cd2665591b1d4bc72f254c73d6f8406fe2277d0f982643"
+    },
+    {
+      "path": "audio/voice/en/m_barber/greeting02.ogg",
+      "bytes": 104850,
+      "sha256": "5602762affc842ac6a021c5aae925d8da50774e383a322dac13253a482c8b09c"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "Compare pass1/outputs.json with pass2/outputs.json and native output SHA-256 values",
+      "result": "passed: 41 independently exported Ogg payloads match; native files match accepted hashes",
+      "evidence": "work/cases/audio-gaps-20260908/pass2/outputs.json"
+    }
+  ],
+  "nativeRouteRows": [
+    {
+      "logicalKey": "voice/m_barber/clickbarb01",
+      "trueName": "m_barber_clickbarb01",
+      "category": "voice",
+      "owner": "m_barber",
+      "path": "m_barber/clickbarb01.ogg"
+    },
+    {
+      "logicalKey": "voice/m_barber/clickbarb02",
+      "trueName": "m_barber_clickbarb02",
+      "category": "voice",
+      "owner": "m_barber",
+      "path": "m_barber/clickbarb02.ogg"
+    },
+    {
+      "logicalKey": "voice/m_barber/farewell01",
+      "trueName": "m_barber_farewell01",
+      "category": "voice",
+      "owner": "m_barber",
+      "path": "m_barber/farewell01.ogg"
+    },
+    {
+      "logicalKey": "voice/m_barber/farewell02",
+      "trueName": "m_barber_farewell02",
+      "category": "voice",
+      "owner": "m_barber",
+      "path": "m_barber/farewell02.ogg"
+    },
+    {
+      "logicalKey": "voice/m_barber/farewell03",
+      "trueName": "m_barber_farewell03",
+      "category": "voice",
+      "owner": "m_barber",
+      "path": "m_barber/farewell03.ogg"
+    },
+    {
+      "logicalKey": "voice/m_barber/greeting01",
+      "trueName": "m_barber_greeting01",
+      "category": "voice",
+      "owner": "m_barber",
+      "path": "m_barber/greeting01.ogg"
+    },
+    {
+      "logicalKey": "voice/m_barber/greeting02",
+      "trueName": "m_barber_greeting02",
+      "category": "voice",
+      "owner": "m_barber",
+      "path": "m_barber/greeting02.ogg"
+    }
+  ]
+}

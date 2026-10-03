@@ -1,0 +1,60 @@
+{
+  "schema": "ffone.scamper-departure-investigation.v1",
+  "sourceRole": "primary",
+  "rawEvidence": [
+    {
+      "source": {
+        "alias": "primary",
+        "bytes": 33327638,
+        "relativeContainer": "Tutorial.resourceFile",
+        "sha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916"
+      },
+      "object": {
+        "name": "M_KNDTransport1_ClickMove02",
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "AudioClip",
+        "pathId": 1497,
+        "rawSha256": "cae63cc74a9e8ed36a8ba9c50f4da751c82e4849a8a3f5777dcb87b0efd9be51"
+      },
+      "evidence": "work/cases/scamper-departure-20260908/clickmove02.evidence.json"
+    },
+    {
+      "source": {
+        "alias": "primary",
+        "bytes": 2678099,
+        "relativeContainer": "DongResources_06_10.resourceFile",
+        "sha256": "7e78f604f412299731254ab1099003f204fe69d51097ba49a20cf7b34557b236"
+      },
+      "object": {
+        "name": "MKNDTransport2_ClickWarp02",
+        "serializedAsset": "CustomAssetBundle-fa3d425d6dbc24cee8ec6c3ffda4bef2",
+        "type": "AudioClip",
+        "pathId": 300,
+        "rawSha256": "993ad4ce2889f3f258091695be978e1bf5e1f03a294938a3501764bfd525e151"
+      },
+      "evidence": "work/cases/scamper-departure-20260908/clickwarp02.evidence.json"
+    }
+  ],
+  "nativeRussianFiles": [
+    {
+      "sha256": "abb48926ef555056cdcf943a042884d7d2041761e7996a41340fbbe49f7515c0",
+      "path": "audio/voice/ru/m_kndtransport1/MKNDTransport1_ClickWarp02.ogg",
+      "bytes": 47956
+    },
+    {
+      "sha256": "2679db27da821cd0b2ab448bfbe848b4e44becf22b7f1bc0b042dac4a4a4265b",
+      "path": "audio/voice/ru/m_kndtransport1/MKNDTransport1_ClickWarp03.ogg",
+      "bytes": 26918
+    },
+    {
+      "sha256": "abb48926ef555056cdcf943a042884d7d2041761e7996a41340fbbe49f7515c0",
+      "path": "audio/voice/ru/m_kndtransport2/MKNDTransport2_ClickWarp02.ogg",
+      "bytes": 47956
+    },
+    {
+      "sha256": "2679db27da821cd0b2ab448bfbe848b4e44becf22b7f1bc0b042dac4a4a4265b",
+      "path": "audio/voice/ru/m_kndtransport2/MKNDTransport2_ClickWarp03.ogg",
+      "bytes": 26918
+    }
+  ]
+}

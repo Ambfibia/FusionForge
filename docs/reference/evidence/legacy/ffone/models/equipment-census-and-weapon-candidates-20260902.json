@@ -1,0 +1,69 @@
+{
+  "schema": "ffone.asset-census-evidence.v1",
+  "id": "equipment-census-and-weapon-candidates-20260902",
+  "status": "measured-and-staged",
+  "supersedes": ["published-asset-census-20260902 equipment section"],
+  "question": "How much player equipment is genuinely missing from the FFOne asset tree, and can the gap be published?",
+  "correctedMeasurement": {
+    "previousMethod": "XDT item mesh strings compared with characters/player/items/catalog.json trueName",
+    "previousResult": "421 unresolved, 188 publishable from primary",
+    "whyWrong": [
+      "One legacy NIF can contain several named parts. `wear/back_cardboardwings.nif` publishes as `back_cardboardwing` AND `back_penguinpal`, so a published trueName is often not any NIF file stem: 150 of 1465 published models are in that state.",
+      "The XDT names the NIF file; the catalog names the parts inside it. Comparing the two invents hundreds of gaps.",
+      "trueName is not the runtime's resolution key. `data/character_creation/avatar_items.json` is: it carries a per-gender `modelStatus` and the `exactRoute` (`wear/*.nif`) of every resolved model."
+    ],
+    "correctMethod": "read modelStatus per gender slot from the generated avatar_items.json",
+    "correctResult": {
+      "modelReferences": 6669,
+      "resolvedModels": 6659,
+      "modelStatus": {
+        "verified_unique": 6547,
+        "verified_variants": 112,
+        "missing": 169
+      },
+      "missingSlotsWhereTableNamesNoModel": 159,
+      "missingSlotsWithASourceModel": 10,
+      "distinctUnresolvedModels": 5,
+      "publishableFromPrimary": 4,
+      "absentFromEveryBuild": 1
+    }
+  },
+  "findings": [
+    "Player equipment is 6659/6669 = 99.85 percent resolved. The real gap is four weapon models, not 188.",
+    "The 159 `missing` slots whose table row names no model are correct behaviour: a boys-only shoe, shirt or trouser has no female model, and the two Invisible Hovercar/Hoverboard vehicles are invisible by design.",
+    "pistol_musket (item 758, M.U.S.K.E.T.) has no `wear/pistol_musket.nif` in the clean build or in the Academy donor. It cannot be published.",
+    "All four publishable weapons live in CharacterSelection.resourceFile and their XDT primary textures exist: shattergun_wilt, rocket_mojotankcannon and melee_eduardoclub name themselves, melee_razor names mob_knifetoenail in NpcTexture.resourceFile."
+  ],
+  "work": {
+    "root": "work/legacy-sources/equip-additive-20260902",
+    "models": [
+      {"trueName": "shattergun_wilt", "item": 759, "name": "Wilt's Basketball Blaster"},
+      {"trueName": "rocket_mojotankcannon", "item": 761, "name": "Mojo Tank Cannon"},
+      {"trueName": "melee_eduardoclub", "item": 762, "name": "Eduardo Horned Club"},
+      {"trueName": "melee_razor", "item": 764, "name": "Razor Mantis Scythe"}
+    ],
+    "replay": [
+      "cargo run -- fusionforge export-equipment-model-sources 'work\\projects\\retrobution-ui-20260821.ffclient' 'work\\legacy-sources\\equip-additive-20260902\\semantic-plan.json' 'work\\legacy-sources\\equip-additive-20260902\\batch-source'",
+      "cargo run -p ffone-asset-pipeline --bin ffone-asset-pipeline -- publish-equipment-logical-model-batch 'work\\legacy-sources\\equip-additive-20260902\\batch-source' 'work\\legacy-sources\\equip-additive-20260902\\candidates'",
+      "cargo build --manifest-path ..\\FFOneClient\\Cargo.toml --profile release-fast --example logical_model_gpu_preview -p ffone-client",
+      "cargo run -p ffone-asset-pipeline --bin ffone-asset-pipeline -- accept-equipment-gpu-batch 'work\\legacy-sources\\equip-additive-20260902\\candidates' 'work\\legacy-sources\\equip-additive-20260902\\gpu-evidence-full' '..\\FFOneClient\\target\\release-fast\\examples\\logical_model_gpu_preview.exe' full 'work\\legacy-sources\\equip-additive-20260902\\gpu-batch-full.json'"
+    ],
+    "results": {
+      "batchExport": "4 routes, 0 blockers",
+      "batchPublish": "4 GLBs, 4 PNGs, 0 typed blockers, structuralAudit=passed, productionAssetsMutated=false",
+      "gpuAcceptance": "full batch 4/4 standalone gates passed, 0 execution blockers, playerAttachmentParity=not-asserted"
+    }
+  },
+  "installBlocker": {
+    "command": "ffone-asset-pipeline install-player-equipment <candidates> <gpu-batch> ..\\FFOneClient\\assets\\game retrobution-20260821",
+    "observed": "I/O error at assets/game/asset-manifest.json (os error 2)",
+    "cause": "install-player-equipment writes the retired pre-organization layout `characters/player/equipment/` and maintains a global asset-manifest.json. The tree has since been migrated by organize-player-item-sets into `characters/player/items/` with a ffone.player-item-set-catalog.v1 catalog, and verify_player_item_sets now REJECTS the existence of characters/player/equipment. The global manifest was removed with the same migration.",
+    "sameClassAs": "the world-tile blocker in published-asset-census-20260902: an organizer performed a one-way migration and the upstream installer has not caught up",
+    "requiredWork": [
+      "A new incremental installer for the organized layout that, per model, creates characters/player/items/<category>/<name>/{set.json,models/<name>/{item.json,model.glb},textures/<name>.png} and atomically appends to characters/player/items/catalog.json.",
+      "Its identity derivation is verified: item id = 'player-item-' + blake3(characters/player/equipment/<category>/<trueName>/<trueName>.glb); a single-member set id is 'player-item-set-' + the same hash. Recomputing that for the installed back_alien reproduces fc2d2f7c765af95c9d3cddbee4e45b8320ebbd7dd23031e57c4bbf634f09d86f exactly.",
+      "The set's primary texture must come from the XDT item texture column, not from the NIF material: the batch publication embeds only ToonRamp9 because the material slot references an external link_a.dds. A resolved weapon such as theown_discobomb carries textures/thrown_spideregg.png, which is its XDT texture name.",
+      "After installing, regenerate data/character_creation/avatar_items.json so the four modelStatus entries flip from missing to verified."
+    ]
+  }
+}

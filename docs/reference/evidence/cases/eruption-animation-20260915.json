@@ -1,0 +1,94 @@
+{
+  "schema": "fusionforge.case-evidence.v1",
+  "id": "eruption-animation-primary-20260915",
+  "authority": "primary",
+  "inputs": [
+    {
+      "path": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/controller.json",
+      "bytes": 6050,
+      "sha256": "36e564f34894873055be018d829b420e2f018aed34ee4b54fd5d44ea4807b4c6"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/controller-script.json",
+      "bytes": 1294,
+      "sha256": "cd176cab8bb7de56786987d31e38ea982e271ec4a1e8a35dfdb09b0714e9870c"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/animation.json",
+      "bytes": 455788,
+      "sha256": "9eb2d6488ac665e752372d428ac1efd757d6b8f55b3d211b36fb68a736df5cae"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/nano-bindings-install.json",
+      "bytes": 3511,
+      "sha256": "8cca10351e969d2e4728a26980fedff6cb8a76d77f52f4c5ce4743efec0cab81"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/material-bindings.json",
+      "bytes": 2089,
+      "sha256": "eb9c3771e1bf19fbfc6ea7d9d72119d48100fdbe37691e47b214b92eed31d646"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/before-frames.json",
+      "bytes": 50710,
+      "sha256": "812caac818a9c2de9cdbdb621c4e79c7efc80c06d376a5e2c11a09756c155359"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/bindings-fixed-frames.json",
+      "bytes": 44685,
+      "sha256": "8394e99a1dcd993526a4052d4e7407f9a48385f0469fa872195413c9ad0dcc1a"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/eruption-animation-20260915/after-frames.json",
+      "bytes": 41069,
+      "sha256": "f12b243bc24327bd574984d517e07c8988e329961824e0233aaf31f33f886dc1"
+    }
+  ],
+  "defect": "Publisher renamed glTF nodes for material curves but retained different mesh names. Bevy names renderer primitives from mesh names, so material readiness never completed and both geometry and texture animation remained stalled.",
+  "repair": "Assign matching stable node and mesh names for actual renderer targets; copy mesh metadata only when shared geometry has separate animation owners. Source curves on non-renderer nodes remain no-ops. No primitive, material, texture, transform or binary geometry changes.",
+  "controllerEvidence": {
+    "object": "Effects.resourceFile/CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918 MonoBehaviour 15173, owner GameObject 9840, mesh GameObject 11118",
+    "externalPointer": "controller.json allows the external m_Script fileId=1 pathId=1914 only; controller-script.json independently resolves it strictly through Tutorial.resourceFile/CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a MonoScript 1914, EffectEmitterController, CSharp - first pass.",
+    "managedCode": "work/projects/retrobution-ui-20260821.ffclient/reports/nano-summon-primary/decompiled/EffectEmitterController.cs",
+    "managedCodeSha256": "1b8925c6352ce83d05013c11b5aa641055b2f172ca1e7a359ee10ddf59806230",
+    "assemblyEvidence": "work/projects/retrobution-ui-20260821.ffclient/reports/nano-summon-primary/assembly-firstpass.evidence.json",
+    "assemblySha256": "afff470bec30bf06703eb0664de364ce37ea7b8092c848420a92fba63e91da81",
+    "contract": "Start loops mesh animation. Update destroys mesh when timer > maximum_timer=1, retains particles until timer > maximum_timer+longest_lifetime=2. Clip duration 0.966667056; source UV rotation is degrees."
+  },
+  "runtimeChanges": [
+    "Loop eruption geometry with its material curves.",
+    "Synchronize mesh visibility, particles and clock at native material readiness.",
+    "Remove EffectEmitterController-owned mesh at emission end while retaining particle tail."
+  ],
+  "verification": [
+    {
+      "command": "python tools/legacy-sources/test_native_effect_material_bindings.py",
+      "result": "2 passed"
+    },
+    {
+      "command": "cargo test -p ffone-client --lib tutorial_effects_runtime::tutorial_native_effects:: -- --nocapture",
+      "workingDirectory": "../FFOneClient",
+      "result": "62 passed, including renderer bindings and exact lifetime regression"
+    },
+    {
+      "command": "cargo build -p ffone-client --example tutorial_combat_vfx_gpu_preview --bin ffone-client",
+      "workingDirectory": "../FFOneClient",
+      "result": "passed"
+    },
+    {
+      "command": "target/debug/examples/tutorial_combat_vfx_gpu_preview.exe assets/game eruption target/performance/eruption-animation/after/frame.png",
+      "workingDirectory": "../FFOneClient",
+      "result": "7 GPU captures: ready true; UV offsets and rotations change across 0.033/0.133/0.35/0.65 sec; mesh absent at 1.05 and 1.60; root gone at 2.10. Before repair all samples unready and static."
+    },
+    {
+      "command": "FFONE_PERF_SPECIAL_SKILLS=1 FFONE_PERF_OUTPUT=target/performance/eruption-animation/world target/debug/ffone-client.exe --asset-root assets/game --character-asset-root assets/game",
+      "workingDirectory": "../FFOneClient",
+      "result": "full native client scripted READY/HIT replay completed; special-475.png visually inspected with animated eruption at player position. This does not prove autonomous AI in a logged-in fight."
+    }
+  ],
+  "limitations": [
+    "Five additional Nano renderer bindings verified structurally, with identical geometry/materials/textures and deterministic publication; not a full per-Nano visual choreography audit.",
+    "No live-server player combat session in this validation."
+  ],
+  "divergenceFromPrimary": null
+}

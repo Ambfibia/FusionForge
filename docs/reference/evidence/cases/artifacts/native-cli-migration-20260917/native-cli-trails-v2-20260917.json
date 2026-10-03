@@ -1,0 +1,33 @@
+{
+  "applied": false,
+  "outputs": [
+    {
+      "beforeSha256": "ac774e9843ec6da2ca3b5e33e8d18c30133b46318009f1e4cecda983d518f797",
+      "bytes": 1174,
+      "matchesTarget": true,
+      "path": "effects/vehicles/catalog.json",
+      "sha256": "ac774e9843ec6da2ca3b5e33e8d18c30133b46318009f1e4cecda983d518f797"
+    },
+    {
+      "beforeSha256": "13376abc51c4e2b7a59f2e67044a8562829c1872fe5da1c41ca8f5e07b08e561",
+      "bytes": 2890,
+      "matchesTarget": true,
+      "path": "effects/vehicles/textures/board.png",
+      "sha256": "13376abc51c4e2b7a59f2e67044a8562829c1872fe5da1c41ca8f5e07b08e561"
+    },
+    {
+      "beforeSha256": "ec3049f1dca1a7b9e6e3350c5d0b7b2834d82d86b7af7c009245351433cd9a2e",
+      "bytes": 4162,
+      "matchesTarget": true,
+      "path": "effects/vehicles/textures/cloud.png",
+      "sha256": "ec3049f1dca1a7b9e6e3350c5d0b7b2834d82d86b7af7c009245351433cd9a2e"
+    },
+    {
+      "beforeSha256": "53bb2420656647f68aa3feb1ed675298dc2c85cdafe2e74ae47ae30a9bd74fe6",
+      "bytes": 5308,
+      "matchesTarget": true,
+      "path": "effects/vehicles/textures/standard.png",
+      "sha256": "53bb2420656647f68aa3feb1ed675298dc2c85cdafe2e74ae47ae30a9bd74fe6"
+    }
+  ]
+}

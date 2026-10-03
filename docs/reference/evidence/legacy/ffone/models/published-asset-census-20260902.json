@@ -1,0 +1,99 @@
+{
+  "schema": "ffone.asset-census-evidence.v1",
+  "id": "published-asset-census-20260902",
+  "status": "measured",
+  "question": "How much of the clean primary build's model and world-tile content is actually missing from the FFOne native asset tree, and how much of that is publishable at all?",
+  "producer": {
+    "tool": "tools/legacy-sources/asset-census.py",
+    "command": "python tools\\legacy-sources\\asset-census.py work\\legacy-sources\\asset-census.json",
+    "primaryBuild": "retrobution-20260821",
+    "navigationProject": "work/projects/retrobution-ui-20260821.ffclient",
+    "donorBuild": "6543a2bb-d154-4087-b9ee-3c8aa778580a"
+  },
+  "resolutionRules": [
+    "A character mesh name resolves against _runtime/characters.json logicalName OR any legacyAliases entry, matching ffone-client network_world_runtime::by_logical_name. Twelve published models carry aliases (fusion_echoecho <- fusion_echo, npc_ampfibian <- fusion_ampfibian, EX_EXMN_Kevin_Car <- npc_kevincar and nine more); ignoring them inflates the gap.",
+    "An m_pNpcData row with m_iHNpc != 0 builds its body from the shared player rig, so its m_pstrMMeshModelString names an idle pose, not a model. Seventeen such names exist and are not model debt.",
+    "An equipment model name resolves against characters/player/items/catalog.json trueName. A \"null\" mesh string means the slot renders nothing for that gender.",
+    "Raw XDT row counts are not a denominator: m_pNpcMeshData has 653 rows for 390 distinct model references, and the item tables reference one model from many item rows."
+  ],
+  "result": {
+    "characters": {
+      "xdtModelReferences": 390,
+      "publishedPackages": 410,
+      "resolvableNames": 419,
+      "hnpcPoseNames": 17,
+      "unresolved": 75,
+      "publishableFromPrimary": 19,
+      "donorOnly": 7,
+      "absentFromEveryBuild": 49
+    },
+    "equipment": {
+      "supersededBy": "equipment-census-and-weapon-candidates-20260902",
+      "retractedResult": {
+        "xdtModelReferences": 1685,
+        "publishedModels": 1465,
+        "unresolved": 421,
+        "publishableFromPrimary": 188,
+        "donorOnly": 169,
+        "absentFromEveryBuild": 64
+      },
+      "whyRetracted": "Measured against characters/player/items/catalog.json trueName, which is not the runtime's resolution key. One legacy NIF can hold several named parts, so 150 of 1465 published models carry a trueName that is no NIF file stem, and the comparison invented hundreds of gaps.",
+      "correctedResult": {
+        "modelReferences": 6669,
+        "resolvedModels": 6659,
+        "publishableFromPrimary": 4,
+        "absentFromEveryBuild": 1
+      }
+    },
+    "tiles": {
+      "sourceTiles": 173,
+      "publishedTiles": 170,
+      "unpublished": ["00_08", "01_09", "11_15"]
+    },
+    "sourceModelCounts": {
+      "primaryMobKfm": 358,
+      "primaryWearNif": 1510
+    }
+  },
+  "findings": [
+    "The previously recorded asset gap was overstated by roughly an order of magnitude because it compared XDT row counts with published package counts.",
+    "Forty-nine character names and sixty-four equipment names exist in the installed XDT but have no model in primary or in the Academy donor (npc_3430_rex, npc_3399_tom, npc_3152_zaksaturday and similar). They are a property of the expanded table, not publication debt.",
+    "One hundred sixty-nine equipment models and seven character models exist only in the Academy donor build. Publishing them is an explicit donor extension and needs an owner decision, not a parity claim.",
+    "Map_00_08, Map_01_09 and Map_11_15 are byte-identical in retrobution-20260613 and retrobution-20260821 (SHA-256 9afff215.., c10f317c.., 4376a437..), so the three unpublished tiles are a tooling gap, not a source gap.",
+    "mob/rxcom.kfm contains no publishable mesh: the XDT NPC that selects it is the invisible Recall Point marker. A census reference is not proof that a model exists; the exporter is the final arbiter."
+  ],
+  "toolingBlockers": [
+    {
+      "area": "world tiles",
+      "detail": "fusionforge export-native-static-world and ffone-asset-pipeline install-world-map-static-world read _runtime/world.json, which the asset tree no longer has. organize-map migrated the world into map/catalog.json plus a deduplicated objects/ library and the legacy world/ and models/ trees were removed. Adding a tile now needs an incremental merge path that folds one fresh static-world export into the existing library against 9867 catalogued objects.",
+      "reproduce": "cargo run -- fusionforge export-native-static-world ..\\builds\\retrobution-20260613\\Map_00_08.unity3d ..\\builds\\retrobution-20260613 ..\\FFOneClient\\assets\\game <fresh-root>",
+      "observed": "could not read runtime world registry ...\\assets\\game\\_runtime\\world.json (os error 2)"
+    },
+    {
+      "area": "character and equipment install",
+      "detail": "install-runtime-character-model and install-player-equipment require ffone.logical-model-gpu-evidence.v1 per model. Export and staged publication are unblocked; installation needs a real GPU render pass per model and is deliberately not bypassable."
+    }
+  ],
+  "work": {
+    "charactersExported": 18,
+    "charactersExportFailed": ["RXcom"],
+    "exportRoot": "work/legacy-sources/chars-additive-20260902/source",
+    "candidateRoot": "work/legacy-sources/chars-additive-20260902/candidates",
+    "replay": [
+      "bash work/legacy-sources/chars-additive-20260902/export-sources.sh",
+      "bash work/legacy-sources/chars-additive-20260902/publish-candidates.sh"
+    ],
+    "outcome": "The eighteen exported sources published to candidates as GLBs whose Unity root names are npc_icekey, fusion_butterdonna, npc_simon and so on. Comparing those names with the installed registry proved every one of them is ALREADY installed under exactly that name, at exactly the expected package route, with the registry id already set to the XDT name. None of the nineteen was a missing model: all of them were a missing legacyAliases entry, so the case-sensitive runtime probe on the XDT string could not reach the installed GLB.",
+    "resolution": {
+      "recipe": "recipes/native/models/character-registry-alias-repair-20260902.json",
+      "tool": "ffone-asset-pipeline repair-character-registry-aliases",
+      "changedEntries": 19,
+      "characterGapAfter": 1,
+      "remaining": "RXcom, whose mob/rxcom.kfm contains no publishable mesh"
+    }
+  },
+  "correctedFindings": [
+    "The nineteen character entries were never a model-publication gap. Exporting and publishing them was the evidence that proved it: the candidate GLBs carry the same Unity root names as the already-installed models. The defect was in the generated registry, and it was fixed without touching a single payload byte.",
+    "Equipment WAS re-examined afterwards and fell to the same class of error, in the opposite direction: see equipment-census-and-weapon-candidates-20260902. The 188 figure is retracted; the real gap is four weapon models. A census reference is a question, not a conclusion, and the denominator must be the document the runtime actually resolves with."
+  ]
+}

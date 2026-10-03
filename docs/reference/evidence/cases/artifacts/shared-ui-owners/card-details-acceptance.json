@@ -1,0 +1,98 @@
+{
+  "slice": "Bank/Vendor combined badge and vehicle speed fields",
+  "sourceRole": "primary",
+  "source": "retrobution-20260821",
+  "checks": {
+    "vendorTests": 28,
+    "bankTests": 28,
+    "localeKeys": 65882,
+    "gpuCaptures": 8,
+    "developmentBuild": "passed",
+    "offlineWorldSmoke": "exit 0",
+    "diffCheck": "passed"
+  },
+  "scope": "Badge (52,52,26,26), positive signed appearance word for types 0..3; vehicle combat panel hidden; localized Speed/Class and transition back to Range",
+  "limits": [
+    "Rental dates/durations remain unimplemented in these cards",
+    "Long Russian shirt name overlaps level; replacement-font layout follow-up required",
+    "Existing item-type labels and nonweapon range need separate correction",
+    "Bank fixture retains synthetic icon catalog; checker in vehicle fixture is not a production icon acceptance",
+    "Unrelated standalone examples have existing unresolved crate imports; selected examples and actual client build pass",
+    "No binary assets changed; existing combined.png contract reused",
+    "No full running-Unity pixel-parity claim"
+  ],
+  "artifacts": [
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-bank-combined-en.log",
+      "sha256": "07dbfdd8f91bb44a29a33fab6554d0dfab4f7cc5f45fc540c0eba78fb6526a28"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-bank-combined-en.png",
+      "sha256": "36f292d835d0a42197b39a9b282eb078209d2cc9cabf54105c0e2e8b4ef323ee"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-bank-combined-ru.log",
+      "sha256": "9b400aad0d1f55e4205b2fcb073d3aeb2801efb77111c4f779c5c08b0780ca4e"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-bank-combined-ru.png",
+      "sha256": "b5b04b1e42b2786fdbf94557b73ebfc7f8544f60aa45ab5332a9bae9f98b6116"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-bank-tests.log",
+      "sha256": "3f3f106da6b3209f9500d7c00a22be6886561fff610af7ba590111d209d1f6f2"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-bank-vehicle-en.log",
+      "sha256": "6d4b44c52a984725fa6769f615e90c273345a8b9d600287e0151b7c38ba266fc"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-bank-vehicle-en.png",
+      "sha256": "a2b7cfdf48e0761ce1c56e16dcf773445cd72f127b5619b2d3edde8c53986f62"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-bank-vehicle-ru.log",
+      "sha256": "41f36379109fc197677d3d27d2b8e6b145b7333b90b753978a5f093f8bc8726a"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-bank-vehicle-ru.png",
+      "sha256": "05d106a629b55aff0df8ae960c6772ea1d8ce77a2932e499031a04cc4d60d2eb"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-vendor-combined-en.log",
+      "sha256": "b0064c88df59bb32102d052c4c0bbdb528b80d042073ecc4b61bb68b6f76aa03"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-vendor-combined-en.png",
+      "sha256": "1f7f4aa7e55f85566b4fe108363072e1b30898b13f9c4b9049320b81ee6458f2"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-vendor-combined-ru.log",
+      "sha256": "11ea2f84ab1dd8be741580a683ae828eb3f77e219ad592b7825d2a9fd25e1e35"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-vendor-combined-ru.png",
+      "sha256": "6fe5f97f99562c5233d55175d94d9a41e6c5ae177069faafea747d47cd1b4b7d"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-vendor-vehicle-en.log",
+      "sha256": "2abd65c37d293184e7401d26fc8c0cb515fbeb6a6c9d4e356e35f9f725d56a69"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-vendor-vehicle-en.png",
+      "sha256": "75fa9769c863cad6e328b72c399d040ef04da45cd62983ba29e694be88ccb9a5"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-vendor-vehicle-ru.log",
+      "sha256": "a55092771675fa018d7fb2643336e4c6a82fa2323c4a35aaf404908a02fe85ce"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-vendor-vehicle-ru.png",
+      "sha256": "33ff204000b16a0a10823cd03a55c01b9dd9e7237d60291769f3eb9abe5e51a2"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/card-details-world-smoke.log",
+      "sha256": "02feab257f91ddeef98196a5d7773ac502b032f235d3424df7ae0423ba4e93c5"
+    }
+  ]
+}

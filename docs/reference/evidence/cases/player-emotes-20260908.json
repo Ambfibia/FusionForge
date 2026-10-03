@@ -1,0 +1,230 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "player-emotes-20260908",
+  "question": "Why do owned beach/dance emotes stop after one clip and why are their sounds absent?",
+  "status": "accepted",
+  "nativeConsumer": "TutorialPlayerAnimationAdapter / GameplayAudioRuntime / SocialIngressPlugin",
+  "acceptance": [
+    "Repeated dance and beach cycles with delayed server echoes",
+    "Movement releases emote ownership",
+    "All 46 primary clips use exact ordered sound/end events",
+    "All sound variants spawn through semantic EN/RU audio routing",
+    "Real development binary and GPU fixtures build"
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        {
+          "relativePath": "main.unity3d",
+          "bytes": 8221718,
+          "sha256": "01B544976B2D54355507CF30FE6DFADA2B476B92B209A3D47C1499669ED9B4EF"
+        },
+        {
+          "alias": "primary",
+          "bytes": 16737641,
+          "relativeContainer": "CharacterSelection.resourceFile",
+          "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "evidenceArtifacts": [
+    {
+      "id": "assembly-csharp.evidence",
+      "kind": "managed_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/nano-travel-20260905-assembly.json",
+      "bytes": 1386,
+      "sha256": "7ca7adb09268d97f00ca3c494e36a822683aa3865a4ded5e56dbe25c4ab3c8c8",
+      "producer": {
+        "tool": "FusionForge and export-player-emote-events.py",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "./fusionforge.cmd export-managed-assembly-evidence primary ../builds/retrobution-20260821 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/assembly-csharp.evidence.json --payload-out work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/Assembly-CSharp.dll",
+        "publisherSha256": "d9270e648ee55556056c58f0dff1326b9bb355200fe8a9da9106d441f149129d"
+      }
+    },
+    {
+      "id": "assembly-firstpass.evidence",
+      "kind": "managed_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/player-emotes-20260908/assembly-firstpass.evidence.json",
+      "bytes": 1442,
+      "sha256": "dd661a29f599440469d787be497619cd047ea988781191b9e0d64b5e9ad76f43",
+      "producer": {
+        "tool": "FusionForge and export-player-emote-events.py",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "./fusionforge.cmd export-managed-assembly-evidence primary ../builds/retrobution-20260821 main.unity3d \"Assembly - CSharp - first pass.dll\" --level 0 --out work/projects/retrobution-ui-20260821.ffclient/reports/nano-summon-primary/assembly-firstpass.evidence.json --payload-out work/projects/retrobution-ui-20260821.ffclient/reports/nano-summon-primary/Assembly-CSharp-firstpass.dll",
+        "publisherSha256": "d9270e648ee55556056c58f0dff1326b9bb355200fe8a9da9106d441f149129d"
+      }
+    },
+    {
+      "id": "clip-events",
+      "kind": "scoped_clip_events",
+      "path": "docs/reference/evidence/cases/artifacts/player-emotes-20260908/clip-events.json",
+      "bytes": 55611,
+      "sha256": "986c3f6da1c70b8415d529c17729939a13caec39dd4e5e3c204030dbe71144c0",
+      "producer": {
+        "tool": "FusionForge and export-player-emote-events.py",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "python tools/native/export-player-emote-events.py --source-root ../builds/retrobution-20260821 --work work/cases/player-emotes-20260908/events --target-root ../FFOneClient",
+        "publisherSha256": "d9270e648ee55556056c58f0dff1326b9bb355200fe8a9da9106d441f149129d"
+      }
+    },
+    {
+      "id": "managed-consumers",
+      "kind": "managed_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/player-emotes-20260908/managed-consumers.json",
+      "bytes": 486,
+      "sha256": "ea35cdc38b149746265ccde27e629b74c20a2f2f8662e77baae09aa5fb6bc187",
+      "producer": {
+        "tool": "FusionForge and export-player-emote-events.py",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "Decompile the two verified payloads with dotnet run --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- <payload.dll> -o <report-dir>/decompiled -p --preserve-iterator-state-machines -r <report-dir>; hash cnAvatarAnimation.cs and AnimationEventHandler.cs at the exact paths recorded in this artifact.",
+        "publisherSha256": "d9270e648ee55556056c58f0dff1326b9bb355200fe8a9da9106d441f149129d"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "All emotes are one-shot clips which should return to idle on completion.",
+      "state": "rejected",
+      "evidence": [
+        "assembly-csharp.evidence",
+        "managed-consumers"
+      ],
+      "rejectedBecause": "EndAnimation has explicit beach renewal and server-authoritative randomized dance continuation branches."
+    },
+    {
+      "claim": "Player audio requires additional binary assets.",
+      "state": "rejected",
+      "evidence": [
+        "clip-events"
+      ],
+      "rejectedBecause": "All 110 expanded sound references already exist in the native catalog."
+    }
+  ],
+  "differences": [
+    {
+      "classification": "primary parity",
+      "description": "Recover missing continuation and animation sound-event consumers; no binary or donor change."
+    }
+  ],
+  "conclusion": "Restored primary owned beach/dance continuation, event-timed player audio, and authoritative command precedence. No binary payload changes. Live shard behavior was not exercised; server echoes were simulated with delay.",
+  "nativeContract": "docs/legacy/ffone/player-emote-continuation-20260908.md",
+  "verification": [
+    {
+      "check": "46 strict primary clip exports; both managed payload hashes verified",
+      "result": "passed"
+    },
+    {
+      "check": "Native event publisher replay in Editor staging",
+      "result": "passed",
+      "sha256": "cd0b467d93b93c49d1343f1578f28295107d3d843518ce4e4b85407a24486b9a"
+    },
+    {
+      "check": "emote test filter",
+      "result": "37 passed"
+    },
+    {
+      "check": "selected-player rig test filter (overlaps emote filter)",
+      "result": "24 passed"
+    },
+    {
+      "check": "real Dev binary and updated GPU fixture build",
+      "result": "passed"
+    },
+    {
+      "check": "native asset validation and full-client offline fixture",
+      "result": "passed"
+    },
+    {
+      "check": "male/female dance and beach3 GPU fixtures, two renewals with delayed echo and movement cancellation",
+      "result": "4 passed; every case returned to run; captures visually inspected"
+    }
+  ],
+  "nativeVerificationArtifacts": [
+    {
+      "path": "../FFOneClient/target/performance/player-emotes/emote-tests.log",
+      "bytes": 3715,
+      "sha256": "75ed871f05960e67ef89b6d14c9fec2fe5572e9ce81365bb52cd3661d2033662"
+    },
+    {
+      "path": "../FFOneClient/target/performance/player-emotes/rig-tests.log",
+      "bytes": 2859,
+      "sha256": "ff11691c9467ccaef5ec3f65d50af141c4be77e4f56cce023354bcdabfb21f7d"
+    },
+    {
+      "path": "../FFOneClient/target/performance/player-emotes/native-validation.log",
+      "bytes": 291,
+      "sha256": "d14e748fe166dd00a9f71939a34f1bf28a94fe80a568b5aae99d214eef3d10ed"
+    },
+    {
+      "path": "../FFOneClient/target/performance/player-emotes/full-client.log",
+      "bytes": 147,
+      "sha256": "91d66b0e5cc31f358e8daee58a40b45ff3ff61fc0fa570ae98b9e8d35bcff36d"
+    },
+    {
+      "path": "../FFOneClient/target/performance/player-emotes/male-dance.png",
+      "bytes": 75939,
+      "sha256": "99aae369623ab2b1bf63a82c3bf8b3782cd9a7920f7030854b9c90a36553a727"
+    },
+    {
+      "path": "../FFOneClient/target/performance/player-emotes/male-dance.log",
+      "bytes": 681,
+      "sha256": "4098dab634606142f8ee455c7dd225ef90992a9d822b3b3fc995fd99a3a04876"
+    },
+    {
+      "path": "../FFOneClient/target/performance/player-emotes/male-beach.png",
+      "bytes": 47352,
+      "sha256": "d7ae8dd878649bd6ade607c1c992a6756941d5c7d132b1c668f23432d4787dae"
+    },
+    {
+      "path": "../FFOneClient/target/performance/player-emotes/male-beach.log",
+      "bytes": 681,
+      "sha256": "bcf62b5c3dc27797df1349e3967eb5acdaf1d9ae9c721cbbc3ec9810cc2d44fb"
+    },
+    {
+      "path": "../FFOneClient/target/performance/player-emotes/female-dance.png",
+      "bytes": 70041,
+      "sha256": "e9ed825f820d2bd4032d953da0f8e4d3802296a32cca0e8c36aee33bc71ce5c8"
+    },
+    {
+      "path": "../FFOneClient/target/performance/player-emotes/female-dance.log",
+      "bytes": 683,
+      "sha256": "61d43974b015c0f6b5a805945d28e6b19e9f602d65e6b881234b709bf4b0ed3a"
+    },
+    {
+      "path": "../FFOneClient/target/performance/player-emotes/female-beach.png",
+      "bytes": 50742,
+      "sha256": "4c029331694f6de17d05759b27b5e504515f8c8f472f53f2bce13faaf7e424b0"
+    },
+    {
+      "path": "../FFOneClient/target/performance/player-emotes/female-beach.log",
+      "bytes": 683,
+      "sha256": "ce77b2a11b9a1031028fd45b8deb0c78b8a7549aa96d942ac14856b02ab44985"
+    }
+  ],
+  "nativeOutputs": [
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/player_emote.rs",
+      "sha256": "a0c8438ad6ebbc2365e5882d2d2d308504684867da097325e807b5dde65ded64"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/player_emote/events.rs",
+      "sha256": "cd0b467d93b93c49d1343f1578f28295107d3d843518ce4e4b85407a24486b9a"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/tutorial_player_rig_runtime.rs",
+      "sha256": "ffe8738f366391b6e55908ead5f0a5eb26d336186e2e161f9b7145aab31abfb6"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/gameplay_audio.rs",
+      "sha256": "9e5c03041e1017c37898a0023980d8fee56c2f4408e32c8cdcd43b948cac9fae"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/app/social_ingress.rs",
+      "sha256": "33cb97b009dc7044ae67c44b5293ec82eafba55e1f07cc312dd5e44a4fa74e66"
+    }
+  ]
+}

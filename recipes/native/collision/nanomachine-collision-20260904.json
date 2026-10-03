@@ -1,0 +1,95 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "nanomachine-collision-20260904",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "World_shared_part5.resourceFile",
+    "containerBytes": 23289685,
+    "containerSha256": "29b0b4c238077a36dd8f328e54ef8d9cd6bd3720a74f0a9faaa3b66c15459fb1",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-bf22cf134e84044c18d80e6c70a99425",
+        "type": "GameObject",
+        "pathId": 14896,
+        "fileId": 0,
+        "containerRoute": "mob/nanomachine.kfm",
+        "trueName": "Editable Mesh"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-bf22cf134e84044c18d80e6c70a99425",
+        "type": "MeshCollider",
+        "pathId": 19431,
+        "fileId": 0,
+        "containerRoute": "mob/nanomachine.kfm",
+        "trueName": null
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-bf22cf134e84044c18d80e6c70a99425",
+        "type": "Mesh",
+        "pathId": 354,
+        "fileId": 0,
+        "containerRoute": "mob/nanomachine.kfm",
+        "trueName": "Editable Mesh"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "exact-character-mesh-collision",
+    "tool": "tools/legacy-sources/build-character-collision-glb.py",
+    "toolRevision": "sha256:51dc1e369278bd093aecd799e549a95211cc9a0fdb82d8675181559aadd07198",
+    "workingDirectory": ".",
+    "commands": [
+      "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 World_shared_part5.resourceFile 14896 --serialized-asset CustomAssetBundle-bf22cf134e84044c18d80e6c70a99425 --type GameObject --out work/legacy-sources/nanomachine-collision-20260904/editable-mesh-go.evidence.json",
+      "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 World_shared_part5.resourceFile 19431 --serialized-asset CustomAssetBundle-bf22cf134e84044c18d80e6c70a99425 --type MeshCollider --out work/legacy-sources/nanomachine-collision-20260904/mesh-collider.evidence.json",
+      "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 World_shared_part5.resourceFile 354 --serialized-asset CustomAssetBundle-bf22cf134e84044c18d80e6c70a99425 --type Mesh --out work/legacy-sources/nanomachine-collision-20260904/mesh-354.evidence.json",
+      "python tools/legacy-sources/build-character-collision-glb.py --mesh-evidence work/legacy-sources/nanomachine-collision-20260904/mesh-354.evidence.json --collider-evidence work/legacy-sources/nanomachine-collision-20260904/mesh-collider.evidence.json --out work/legacy-sources/nanomachine-collision-20260904/Nanomachine.collision.glb --report work/legacy-sources/nanomachine-collision-20260904/publication.json --name \"Nanomachine collision\""
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/legacy-sources/nanomachine-collision-20260904/mesh-354.evidence.json",
+      "bytes": 29535,
+      "sha256": "6417be13de144305e48a9e84bba93b769041b46380630bf17a36323fd34e7244"
+    },
+    {
+      "path": "work/legacy-sources/nanomachine-collision-20260904/mesh-collider.evidence.json",
+      "bytes": 3109,
+      "sha256": "96786f82bfacee80255613b93a223b92fe83aa4ab56e4255d3c53a6b0dfecd63"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "characters/npcs/nanomachine/Nanomachine.collision.glb",
+      "bytes": 7256,
+      "sha256": "3c98ab44473c0653fc658b8757c778dc9e91ca56292601bcf58b3d4b25378ef3"
+    },
+    {
+      "path": "characters/npcs/nanomachine/Nanomachine.collision.json",
+      "bytes": 637,
+      "sha256": "9530286077d6011845812a0e82aac013e146150a67f91226cd3e7ee9e2ea8a24"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "python tools/legacy-sources/build-character-collision-glb.py (replay into fresh staging and compare SHA-256)",
+      "result": "passed",
+      "evidence": "work/legacy-sources/nanomachine-collision-20260904/publication.json: 332 vertices, 1182 indices, geometry SHA-256 2e5b31632387608374cc844c749795089eb6f9c6385b0bd48d5d392ca81d68c1"
+    },
+    {
+      "command": "cargo test -p ffone-client production_nano_stations_bind_exact_native_collision --lib",
+      "result": "passed: 1 passed, 0 failed",
+      "evidence": "The production catalog resolved NPC types 639 and 640 to Nanomachine, validated both exact BLAKE3 bindings, found one empty visual collision node, and decoded the separate primitive as 332 vertices and 1182 indices."
+    },
+    {
+      "command": "cargo check -p ffone-client --bin ffone-client",
+      "result": "passed",
+      "evidence": "The development binary compiled successfully; one pre-existing unused CameraProjection import warning remains in app/mod.rs."
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "monkey-skyway-primary-20260905",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "CharacterSelection.resourceFile",
+    "containerBytes": 16737641,
+    "containerSha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "GameObject",
+        "pathId": 144196,
+        "fileId": 0,
+        "containerRoute": "wear/item_broom_01.nif",
+        "trueName": "item_broom_01"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34330,
+        "fileId": 0,
+        "containerRoute": "actor/m.kfm",
+        "trueName": "mount1"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34338,
+        "fileId": 0,
+        "containerRoute": "actor/m.kfm",
+        "trueName": "mount2"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34280,
+        "fileId": 0,
+        "containerRoute": "actor/w.kfm",
+        "trueName": "mount1"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "AnimationClip",
+        "pathId": 34294,
+        "fileId": 0,
+        "containerRoute": "actor/w.kfm",
+        "trueName": "mount2"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "native-player-skyway-rig-animation-and-attached-model-publication",
+    "tool": "FusionForge + ffone-asset-pipeline player_shared_rig_publish + logical-model publisher",
+    "toolRevision": "86324d05303a076b9814bddff800635cb2f73954",
+    "workingDirectory": ".",
+    "commands": [
+      "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/CharacterSelection.resourceFile wear/item_broom_01.nif work/legacy-sources/skyway-primary-20260905/item_broom_01.source.json work/projects/retrobution-ui-20260821.ffclient",
+      "target-build/debug/ffone-asset-pipeline.exe publish-logical-model-batch work/legacy-sources/skyway-primary-20260905/sources work/legacy-sources/skyway-primary-20260905/candidate",
+      "cargo run -p ffone-asset-pipeline --bin publish_player_rig_animations -- ../FFOneClient/assets/game work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/CharacterSelection.objects.json work/ffone/legacy-content/imported/ffr-cache-20260722/ffravatar/player-clips"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/CharacterSelection.objects.json",
+      "bytes": 489006479,
+      "sha256": "6c94897e764337c4c5e989e52abfb0329560fe7f9d872cbdec0df34b0ff468c9"
+    },
+    {
+      "path": "work/legacy-sources/skyway-primary-20260905/item_broom_01.source.json",
+      "bytes": 1634193,
+      "sha256": "7708bd40443aadc720e907307d3bedb05f8be79f38029496bb02a63d2e3620b5"
+    },
+    {
+      "path": "work/legacy-sources/skyway-primary-20260905/gpu-run.json",
+      "bytes": 3770,
+      "sha256": "71f8af20ac478c898803e9118bb93fe585c05a65309d2997ca6cc5ba0dd3058a"
+    },
+    {
+      "path": "work/legacy-sources/skyway-primary-20260905/gpu-audit.json",
+      "bytes": 975,
+      "sha256": "827bfc5b5af3d6a17855747a27d5474cc81f137b373c569cac13111acd29be0e"
+    },
+    {
+      "path": "work/legacy-sources/skyway-primary-20260905/gpu-evidence/models/traversal/item_broom_01/item_broom_01.gpu.json",
+      "bytes": 1322,
+      "sha256": "8c305a7a817483cc5dd921b046d3ca6fde36ba1d63327cacbe4df1d56eeb4c5b"
+    },
+    {
+      "path": "work/legacy-sources/skyway-primary-20260905/gpu-evidence/models/traversal/item_broom_01/item_broom_01.gpu.png",
+      "bytes": 111429,
+      "sha256": "735340243333a1cd237bb0cbdaca07ec987715af186f66dcce2a931a40ea0779"
+    },
+    {
+      "path": "work/legacy-sources/skyway-primary-20260905/installed-gpu/characters/player/traversal/item_broom_01/item_broom_01.gpu.json",
+      "bytes": 1344,
+      "sha256": "88464b457b9135cc211d1d93160e116213c58021aa6fdf71a021efe74294849a"
+    },
+    {
+      "path": "work/legacy-sources/skyway-primary-20260905/installed-gpu/characters/player/traversal/item_broom_01/item_broom_01.gpu.png",
+      "bytes": 143623,
+      "sha256": "ec945842792b855ef6318e580372fecd6a6a710563936116e648cfc54a64a2e6"
+    },
+    {
+      "path": "crates/ffone-asset-pipeline/src/player_shared_rig_publish.rs",
+      "bytes": 158285,
+      "sha256": "04ad53d61d950b35745940bde2af4e6d98090d931dc402e73593b88493e1e372"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/game/characters/player/male/base/male_skeleton.glb",
+      "bytes": 16310552,
+      "sha256": "544b2c110cfaa711c63a43a2403d9b1834267f918d04b1d016cfe3c6ed531114"
+    },
+    {
+      "path": "assets/game/characters/player/female/base/female_skeleton.glb",
+      "bytes": 19869060,
+      "sha256": "04a7039106e4fa8efc4e9dab4e366674568382926cc7e1ba172b23ddeca2b02e"
+    },
+    {
+      "path": "assets/game/characters/player/shared/player_rig_contract.json",
+      "bytes": 905088,
+      "sha256": "69f96801aa230efc19082a3d8fabe9e930b5e168f05440b43a701a5e0a522855"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/item_broom_01/item_broom_01.glb",
+      "bytes": 292236,
+      "sha256": "282f511c5f4e51c6cd4ad7fd7d9e2768d9da2d6d77c12c591a59718fa6675549"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/item_broom_01/item_broom_01.textures/bubble_tie_02.mips/mip-01.png",
+      "bytes": 11964,
+      "sha256": "13d9f752c45ee4103649d27991c83ad87559b2082bdcfab33a699a894779fdfc"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/item_broom_01/item_broom_01.textures/bubble_tie_02.mips/mip-02.png",
+      "bytes": 3419,
+      "sha256": "d19cb9ad6bc5a5fc373425b2e423448042bac256047df2f0ecc3ffc16b4b8be0"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/item_broom_01/item_broom_01.textures/bubble_tie_02.mips/mip-03.png",
+      "bytes": 1118,
+      "sha256": "3d909057cc8cfd9321531f09eae1ad976462db807beeba8e82333edbf912a174"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/item_broom_01/item_broom_01.textures/bubble_tie_02.mips/mip-04.png",
+      "bytes": 431,
+      "sha256": "11be42326b0cdf8ec5192f2e73c1cc94e8ded87e9fc041358b2cded6497c5d58"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/item_broom_01/item_broom_01.textures/bubble_tie_02.mips/mip-05.png",
+      "bytes": 205,
+      "sha256": "92b846421ba55159724918daba80f9d8270218919e6e823c31f47854544e6651"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/item_broom_01/item_broom_01.textures/bubble_tie_02.mips/mip-06.png",
+      "bytes": 136,
+      "sha256": "4fa80f358deb2fbe75d9f5b0f72ed1c724a073c7320c1b4a07eeb7f702cea3f1"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/item_broom_01/item_broom_01.textures/bubble_tie_02.mips/mip-07.png",
+      "bytes": 86,
+      "sha256": "4f48d6c5ec68acbc5b27ea88bc5ab6a7d953f844b1b2d7e02c8cac6d028bac2a"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/item_broom_01/item_broom_01.textures/bubble_tie_02.mips/mip-08.png",
+      "bytes": 73,
+      "sha256": "4833a8a7d503f52911b632911b7bf31446790f8267aec0b6bb090236a4b2b78a"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/item_broom_01/item_broom_01.textures/bubble_tie_02.png",
+      "bytes": 37258,
+      "sha256": "0ab4219968ccaca0df29f5596ba8aae646a0cc6d28eace71d1103411dbf2bcfa"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/item_broom_01/item_broom_01.textures/npc_boomerbango2.png",
+      "bytes": 61102,
+      "sha256": "0afc486dfe4b01655db70d56cab1243b61e016aeac3bbca858009567535177e4"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/item_broom_01/item_broom_01.textures/npc_boomerbango_01.png",
+      "bytes": 249,
+      "sha256": "5f313f50f4fddecf392f219b697fd3cafc76692384579a5ae8d8d90dfa41254d"
+    },
+    {
+      "path": "assets/game/characters/player/traversal/item_broom_01/item_broom_01.textures/ToonRamp9.png",
+      "bytes": 142,
+      "sha256": "5cea554b1c9f36f0fb0c680d6cdb2160f09f822774627df5985995295c67db89"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "node tools/legacy-sources/ffone-migration/run-logical-model-gpu-batch.mjs run --plan work/legacy-sources/skyway-primary-20260905/gpu-plan.json --candidate work/legacy-sources/skyway-primary-20260905/candidate --evidence work/legacy-sources/skyway-primary-20260905/gpu-evidence --preview ../FFOneClient/target/skyway-gpu-build/debug/examples/logical_model_gpu_preview.exe --output work/legacy-sources/skyway-primary-20260905/gpu-run.json --frames 240 --timeout 30",
+      "result": "passed: 1/1 model and exact nif-default clip",
+      "evidence": "work/legacy-sources/skyway-primary-20260905/gpu-run.json"
+    },
+    {
+      "command": "manual review of immutable GPU capture",
+      "result": "passed: geometry, skinning, textures, outline and additive engine glow are visible without rendering defects",
+      "evidence": "work/legacy-sources/skyway-primary-20260905/gpu-evidence/models/traversal/item_broom_01/item_broom_01.gpu.png"
+    },
+    {
+      "command": "cargo test -p ffone-client skyway_traversal_motion_tests --bin ffone-client",
+      "result": "passed: 2 tests",
+      "evidence": null
+    },
+    {
+      "command": "../FFOneClient/target/skyway-gpu-build/debug/examples/logical_model_gpu_preview.exe --asset-root ../FFOneClient/assets/game --model characters/player/traversal/item_broom_01/item_broom_01.glb --animation-name nif-default --evidence-root work/legacy-sources/skyway-primary-20260905/installed-gpu --outline source --frames 240 --timeout 30",
+      "result": "passed: installed runtime path loaded 5 meshes, 5 materials, 78/78 skin joints, 27 exact mip levels and 1 animation with zero material/shader errors",
+      "evidence": "work/legacy-sources/skyway-primary-20260905/installed-gpu/characters/player/traversal/item_broom_01/item_broom_01.gpu.json"
+    }
+  ]
+}

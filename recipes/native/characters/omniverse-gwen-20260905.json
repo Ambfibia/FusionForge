@@ -1,0 +1,167 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "omniverse-gwen-20260905",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone-native"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "DongResources_11_08.resourceFile",
+    "containerBytes": 2514601,
+    "containerSha256": "39fda01dcc4052628a52586848e4092f036f580ceee7a538efecbe1ab2db4313",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-cf428d9dda5d6438e855b01160280c85",
+        "type": "GameObject",
+        "pathId": 1271,
+        "fileId": 0,
+        "containerRoute": "mob/npc_gwen1.kfm",
+        "trueName": "npc_gwen1"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "additive-extension",
+    "tool": "tools/legacy-sources/publish-omniverse-npcs.py",
+    "toolRevision": "86324d05303a076b9814bddff800635cb2f73954 + source hashes in inputs",
+    "workingDirectory": ".",
+    "commands": [
+      "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/DongResources_11_08.resourceFile mob/npc_gwen1.kfm work/legacy-sources/omniverse-npcs-20260905/sources/npc_gwen1.source.json work/projects/retrobution-ui-20260821.ffclient",
+      "target-build/debug/ffone-asset-pipeline.exe publish-logical-model work/legacy-sources/omniverse-npcs-20260905/sources/npc_gwen1.source.json npc work/legacy-sources/omniverse-npcs-20260905/candidate",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/NpcTexture.resourceFile 247 work/legacy-sources/omniverse-npcs-20260905/textures/npc_gwen.exact.json",
+      "target-build/debug/publish_exact_texture.exe work/legacy-sources/omniverse-npcs-20260905/textures/npc_gwen.exact.json work/legacy-sources/omniverse-npcs-20260905/candidate/textures/npc_gwen.png",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/Icons.resourceFile 2592 work/legacy-sources/omniverse-npcs-20260905/icons/npcicon_69.exact.json",
+      "target-build/debug/publish_exact_texture.exe work/legacy-sources/omniverse-npcs-20260905/icons/npcicon_69.exact.json work/legacy-sources/omniverse-npcs-20260905/icons/npcicon_69.png",
+      "python tools/legacy-sources/publish-omniverse-npcs.py --work work/legacy-sources/omniverse-npcs-20260905 --native-root ../FFOneClient/assets/game --server-root ../OpenFusion --source-root ../builds/retrobution-20260821 --primary-evidence work/legacy-sources/mobs-retrobution-20260821.xdt.object-evidence.json --stage work/legacy-sources/omniverse-npcs-20260905/fresh-replay"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/sources/npc_gwen1.source.json",
+      "bytes": 22310465,
+      "sha256": "c15c4dcec3f4582e0176ae80b5cb8151b482a3501ff669754dc470cd794e0fe1"
+    },
+    {
+      "path": "crates/ffone-asset-pipeline/src/logical_model_publish.rs",
+      "bytes": 353513,
+      "sha256": "f65d7d2703e25b34fabf44d73a18e45eb1c4e3d114e951a1500c7b137b185887"
+    },
+    {
+      "path": "tools/legacy-sources/publish-omniverse-npcs.py",
+      "bytes": 11311,
+      "sha256": "fcbbc6c6c315588d2b1a6719ba2edc6a4166b1c343bd6bbc54a246b5a100d977"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "NpcTexture.resourceFile",
+      "bytes": 15239269,
+      "sha256": "95504fa80830d2c54540e576a44707096b746d761448d086e294a6f1cd0dc171"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "Tutorial.resourceFile",
+      "bytes": 33327638,
+      "sha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "CharacterCreation.resourceFile",
+      "bytes": 14379095,
+      "sha256": "18b40ba54e4840beb768a9aec03fff8d66dfac82ca4171c5d1b5701775126666"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "TableData.resourceFile",
+      "bytes": 802929,
+      "sha256": "bd8767c2d316f60a4b38de320794701b2391d7b40412020bdc1d17e88c7b7212"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/textures/npc_gwen.exact.json",
+      "bytes": 256516,
+      "sha256": "adbf0907d8b93970aa03cfd1c51cb6f9f769bf6299070c3a672be9fade58fe0c"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/textures/npc_gwen.object.json",
+      "bytes": 263725,
+      "sha256": "1fd19a1fcdebf1a4ce1928678fdc65a64aadcb2a77cdece9e74fe23550d19e78"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/icons/npcicon_69.exact.json",
+      "bytes": 23365,
+      "sha256": "f733d373ef6a047b30358421884260434505a8fdc61e98ad57630401dce4b6f2"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/icons/npcicon_69.object.json",
+      "bytes": 23228,
+      "sha256": "3a0ec22da8bc00822cb9d85a3aa451f38e8ca95ca04b5faa4bbb4c304b23e438"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "Icons.resourceFile",
+      "bytes": 6557371,
+      "sha256": "e4a4b531cafa44b2c046f8dc8dea97c694bc0c6e455b0329232c2b09596eb96d"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/gpu/models/npc/npc_gwen1.gpu.json",
+      "bytes": 1265,
+      "sha256": "d93948eac1167fed6be3ed0d37e38f3f47132b793acf5c39acbe69ae5eafc21a"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/dressed-sampled/npc_gwen1.json",
+      "bytes": 2168,
+      "sha256": "a78ec9484d527875cf5d456d1ad04cb58cc9593ed328ede442a8830766e3159c"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/replay-comparison.json",
+      "bytes": 2080,
+      "sha256": "f8862340950dfe66fa21f5d5eb10b0e6bf66935fc14fbb9a717acb50cf441743"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "characters/npcs/omniverse_gwen/body.png",
+      "bytes": 94980,
+      "sha256": "98619a605150e6a61eac160e6d0ba41e047fb6757a7e8a1727d5519e843da6f7"
+    },
+    {
+      "path": "characters/npcs/omniverse_gwen/npc_gwen1.glb",
+      "bytes": 2731064,
+      "sha256": "a4336b7f2eae171f615c5fce779c008279942d80089d29b9510bd5c8e331d2ff"
+    },
+    {
+      "path": "characters/npcs/omniverse_gwen/npc_gwen1.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "icons/entities/npc/npcicon_3465.png",
+      "bytes": 7550,
+      "sha256": "f94543f75c05b77a6f7c73741b9cb8d673c93a6696a6c621462733126bcce239"
+    }
+  ],
+  "divergenceFromPrimary": "Owner-requested separate NPC type; original NPC retained. No placements. Primary geometry, textures and clips, with current native character shader policy. Primary portrait copied under a new native icon number to retain original portraits.",
+  "verification": [
+    {
+      "command": "logical_model_gpu_preview --asset-root work/legacy-sources/omniverse-npcs-20260905/candidate --model models/npc/npc_gwen1.glb --animation-name stand1 --evidence-root work/legacy-sources/omniverse-npcs-20260905/gpu --outline source --frames 120 --timeout 30",
+      "result": "passed; GPU load/animation only, primary visual equality not asserted",
+      "evidence": "work/legacy-sources/omniverse-npcs-20260905/gpu/models/npc/npc_gwen1.gpu.json"
+    },
+    {
+      "command": "Native GPU preview with XDT main PNG and exact sampler (recorded in smoke report)",
+      "result": "passed; inspected body/face texture binding and stand1 rendering",
+      "evidence": "work/legacy-sources/omniverse-npcs-20260905/dressed-sampled/npc_gwen1.json"
+    },
+    {
+      "command": "publish-logical-model replay and complete binary payload byte comparison",
+      "result": "passed",
+      "evidence": "work/legacy-sources/omniverse-npcs-20260905/replay-comparison.json"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "fusionforge.ui-interaction-analysis-request.v1",
+  "schemaVersion": 1,
+  "managed": {
+    "evidenceReport": "primary-managed.json",
+    "payload": "managed/Assembly-CSharp.dll"
+  },
+  "roots": [
+    {
+      "declaringType": "cnQuit",
+      "name": "OnGUI",
+      "parameterTypes": [],
+      "returnType": "System.Void"
+    },
+    {
+      "declaringType": "CnGuiCharacter_info",
+      "name": "Update",
+      "parameterTypes": [],
+      "returnType": "System.Void"
+    },
+    {
+      "declaringType": "CnGuiMonster_info",
+      "name": "Update",
+      "parameterTypes": [],
+      "returnType": "System.Void"
+    },
+    {
+      "declaringType": "CnGuiNano_info",
+      "name": "Update",
+      "parameterTypes": [],
+      "returnType": "System.Void"
+    },
+    {
+      "declaringType": "CnGuiGroup_info",
+      "name": "Update",
+      "parameterTypes": [],
+      "returnType": "System.Void"
+    },
+    {
+      "declaringType": "cnAvatarAttack",
+      "name": "Update",
+      "parameterTypes": [],
+      "returnType": "System.Void"
+    }
+  ],
+  "traversal": {
+    "maxDirectCallDepth": 1,
+    "maxMethods": 512
+  }
+}

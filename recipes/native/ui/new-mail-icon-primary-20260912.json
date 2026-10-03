@@ -1,0 +1,82 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "new-mail-icon-primary-20260912",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "FFOneClient"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "main.unity3d",
+    "containerBytes": 8221718,
+    "containerSha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+    "objects": [
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour",
+        "pathId": 1562,
+        "fileId": 0,
+        "rawObjectSha256": "315de9c6279d2ad83fcc5236159b8b769df786cb62bf531433eb6e48b107c518"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 419,
+        "fileId": 0,
+        "rawObjectSha256": "3be5e4a237f0a7d270b2409e612b375571b98385752c3717f8acefb72ca21453"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "exact-texture-decode",
+    "tool": "tools/legacy-sources/publish-new-mail-icon.py",
+    "toolRevision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/legacy-sources/publish-new-mail-icon.py --source-root ../builds/retrobution-20260821 --work work/cases/email-notice-20260912/replay --target-root ../FFOneClient/assets/game --apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/cases/email-notice-20260912/replay/owner.json",
+      "bytes": 32710,
+      "sha256": "cc4353399c9e88a9c8c656fe5da8fe246007bd916d4b0ce3a8de964b9ea8b6bf"
+    },
+    {
+      "path": "work/cases/email-notice-20260912/replay/texture.json",
+      "bytes": 1743,
+      "sha256": "3297c1251c3a5c05b4011de6e5c2e8be1661e88f95e2efcb117dc4c29f6fc807"
+    },
+    {
+      "path": "work/cases/email-notice-20260912/replay/exact.json",
+      "bytes": 4171,
+      "sha256": "8bee4d75cc4ce17d8e9ea0d80dbd2b72b9fac5e6c88b9c7e6e95661eb15a24b6"
+    },
+    {
+      "path": "work/cases/email-notice-20260912/assembly-csharp.evidence.json",
+      "bytes": 1347,
+      "sha256": "9209a4c1b35a330d6a74615922358f49cf8d8c537961c4b96d34cd0a3af72118"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "ui/en/gameplay/minimap/new-mail.png",
+      "bytes": 393,
+      "sha256": "7f2ec8c023456f7d12d33b91cc46bbd5241a6f66746fd9cf72ef871410cc0fd5"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "Strict cnGUINanocom owner PPtr (mailTexture 419, mailRect 140,150,30,30), exact texture export and deterministic replay without --apply",
+      "result": "passed",
+      "evidence": "work/cases/email-notice-20260912/replay-verify"
+    },
+    {
+      "command": "imagewindow2 (MiddleCenter, ImageAbove, zero padding) read from FusionFallHUDSkin pathId 1372 with --allow-unresolved-pointers; only the built-in m_Script PPtr is unresolved",
+      "result": "triage",
+      "evidence": "work/cases/email-notice-20260912/pmenuskin.triage.json"
+    }
+  ]
+}

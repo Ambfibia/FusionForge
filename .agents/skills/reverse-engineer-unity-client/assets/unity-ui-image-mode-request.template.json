@@ -1,0 +1,61 @@
+{
+  "schema": "fusionforge.unity-ui-image-mode-request.v1",
+  "semanticRole": "replace.ui.control.state",
+  "textureSemanticId": "replace.ui.texture.state",
+  "controlState": {
+    "enabled": true,
+    "on": false,
+    "interaction": "normal"
+  },
+  "targetRect": {
+    "x": 100.0,
+    "y": 20.0,
+    "width": 120.0,
+    "height": 30.0
+  },
+  "drawSources": [
+    {
+      "kind": "guiStyleBackground",
+      "style": {
+        "owner": {
+          "sourceAlias": "primary",
+          "relativeContainer": "replace/container.resourceFile",
+          "rawContainerSha256": "1111111111111111111111111111111111111111111111111111111111111111",
+          "serializedAsset": "replace.assets",
+          "type": "GUISkin",
+          "pathId": 1,
+          "rawObjectSha256": "2222222222222222222222222222222222222222222222222222222222222222"
+        },
+        "styleName": "replace-style-name"
+      },
+      "selectedState": "normal",
+      "texture": {
+        "object": {
+          "sourceAlias": "primary",
+          "relativeContainer": "replace/container.resourceFile",
+          "rawContainerSha256": "1111111111111111111111111111111111111111111111111111111111111111",
+          "serializedAsset": "replace.assets",
+          "type": "Texture2D",
+          "pathId": 2,
+          "rawObjectSha256": "2222222222222222222222222222222222222222222222222222222222222222"
+        },
+        "width": 32,
+        "height": 20,
+        "sourcePayloadSha256": "3333333333333333333333333333333333333333333333333333333333333333",
+        "baseMipDecodedRgbaSha256": "4444444444444444444444444444444444444444444444444444444444444444"
+      },
+      "border": {
+        "left": 8,
+        "right": 6,
+        "top": 5,
+        "bottom": 4
+      },
+      "overflow": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "traversal-trolley",
+  "sources": [
+    {
+      "alias": "primary",
+      "path": "CharacterSelection.resourceFile",
+      "sha256": "96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93",
+      "bytes": 16737641
+    },
+    {
+      "alias": "primary",
+      "path": "CharacterCreation.resourceFile",
+      "sha256": "18b40ba54e4840beb768a9aec03fff8d66dfac82ca4171c5d1b5701775126666",
+      "bytes": 14379095
+    },
+    {
+      "alias": "primary",
+      "path": "NpcTexture.resourceFile",
+      "sha256": "95504fa80830d2c54540e576a44707096b746d761448d086e294a6f1cd0dc171",
+      "bytes": 15239269
+    }
+  ],
+  "steps": [
+    {
+      "operation": "model",
+      "source": 0,
+      "exactRoute": "wear/pistol_trolley.nif",
+      "family": "traversal",
+      "outputs": [
+        {
+          "candidate": "models/traversal/pistol_trolley.glb",
+          "output": "characters/player/traversal/pistol_trolley/pistol_trolley.glb",
+          "sha256": "507b5fdc72b985fa80fcaa5528d3fb39d16bc3cefdfeb2fa61d57e2ce79422c5",
+          "bytes": 35528
+        },
+        {
+          "candidate": "models/traversal/pistol_trolley.textures/pistol_trolley.mips/mip-01.png",
+          "output": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-01.png",
+          "sha256": "f65b1170fdf29dc7814ae04fe4e2b948edc7e97938bf1d8af882e8088e32c472",
+          "bytes": 18736
+        },
+        {
+          "candidate": "models/traversal/pistol_trolley.textures/pistol_trolley.mips/mip-02.png",
+          "output": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-02.png",
+          "sha256": "c77386e1e4ec136893b9f095ccaa5501281622b390436011840c0abc05e59e61",
+          "bytes": 6269
+        },
+        {
+          "candidate": "models/traversal/pistol_trolley.textures/pistol_trolley.mips/mip-03.png",
+          "output": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-03.png",
+          "sha256": "4838179b4597bc832f7b237c5978a306d367a90db90bb267dd6240ae935ac5fe",
+          "bytes": 2094
+        },
+        {
+          "candidate": "models/traversal/pistol_trolley.textures/pistol_trolley.mips/mip-04.png",
+          "output": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-04.png",
+          "sha256": "68c723701cd57a4b6f72da8a571ccdced73025897c654bbef411400a2f7ea9b5",
+          "bytes": 643
+        },
+        {
+          "candidate": "models/traversal/pistol_trolley.textures/pistol_trolley.mips/mip-05.png",
+          "output": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-05.png",
+          "sha256": "18386bd4514c650e44ed45cdf0207ca81eb08c15fe4e0723d48a459ba1c2acc0",
+          "bytes": 269
+        },
+        {
+          "candidate": "models/traversal/pistol_trolley.textures/pistol_trolley.mips/mip-06.png",
+          "output": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-06.png",
+          "sha256": "04a681e9fe3ba5679a1d53d4fb8d8c0e3589b1d5cc14821dfdc5cfba74303110",
+          "bytes": 136
+        },
+        {
+          "candidate": "models/traversal/pistol_trolley.textures/pistol_trolley.mips/mip-07.png",
+          "output": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-07.png",
+          "sha256": "455e49ead67b935a7f977551481a202d14bf3b375ebfd20b166d14ade5e5d59a",
+          "bytes": 86
+        },
+        {
+          "candidate": "models/traversal/pistol_trolley.textures/pistol_trolley.mips/mip-08.png",
+          "output": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-08.png",
+          "sha256": "3f1142e18a892e7ca9e3c1b602ec3d5ce1810ae7643542e79f0b4d2d4902b56b",
+          "bytes": 73
+        },
+        {
+          "candidate": "models/traversal/pistol_trolley.textures/pistol_trolley.png",
+          "output": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.png",
+          "sha256": "85c3d520b2f253372e7a6ef00ae7d8ea5ebbe07259233af9af6b2cdedadf2379",
+          "bytes": 47334
+        },
+        {
+          "candidate": "models/traversal/pistol_trolley.textures/ToonRamp9.png",
+          "output": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/ToonRamp9.png",
+          "sha256": "5cea554b1c9f36f0fb0c680d6cdb2160f09f822774627df5985995295c67db89",
+          "bytes": 142
+        }
+      ]
+    }
+  ]
+}

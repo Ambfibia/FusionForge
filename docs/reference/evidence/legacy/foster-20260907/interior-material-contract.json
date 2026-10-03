@@ -1,0 +1,186 @@
+{
+  "schema": "fusionforge.foster-material-evidence.v1",
+  "sourceRole": "primary",
+  "material": {
+    "source": {
+      "alias": "primary",
+      "bytes": 1316545,
+      "relativeContainer": "DongResources_10_07.resourceFile",
+      "sha256": "b3527b2661fef59a5cdaaab023e310929ee974d677e7f6b6bce25e1c1cd7cbdd"
+    },
+    "object": {
+      "classId": 21,
+      "name": "foster-none__forster_png",
+      "pathId": 169,
+      "rawBytes": 232,
+      "rawSha256": "001cdcdb1ce7d0ac940811fee2cb8735b6cbc9de6d5e362646896e400fe0b1e0",
+      "serializedAsset": "CustomAssetBundle-574ca8c2fed89492582a3fbd49965c12",
+      "type": "Material",
+      "typeId": 21,
+      "value": {
+        "m_Name": "foster-none__forster_png",
+        "m_SavedProperties": {
+          "m_Colors": [
+            [
+              {
+                "name": "_Color"
+              },
+              {
+                "a": 1.0,
+                "b": 0.3499999940395355,
+                "g": 0.3499999940395355,
+                "r": 0.3499999940395355
+              }
+            ],
+            [
+              {
+                "name": "_SpecColor"
+              },
+              {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+              }
+            ],
+            [
+              {
+                "name": "_Emission"
+              },
+              {
+                "a": 1.0,
+                "b": 0.30000001192092896,
+                "g": 0.30000001192092896,
+                "r": 0.30000001192092896
+              }
+            ]
+          ],
+          "m_Floats": [
+            [
+              {
+                "name": "_Shininess"
+              },
+              0.08471697568893433
+            ]
+          ],
+          "m_TexEnvs": [
+            [
+              {
+                "name": "_MainTex"
+              },
+              {
+                "m_Offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "m_Scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "m_Texture": {
+                  "fileId": 4,
+                  "pathId": 2193
+                }
+              }
+            ],
+            [
+              {
+                "name": "_BumpMap"
+              },
+              {
+                "m_Offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "m_Scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "m_Texture": {
+                  "fileId": 0,
+                  "pathId": 0
+                }
+              }
+            ]
+          ]
+        },
+        "m_Shader": {
+          "fileId": 0,
+          "pathId": 168
+        }
+      }
+    },
+    "localShaderPointer": {
+      "fileId": 0,
+      "pathId": 168
+    }
+  },
+  "shader": {
+    "evidence": "docs/reference/evidence/legacy/foster-20260907/retrolit-shader-evidence.json",
+    "sha256": "78c03bbaba41bd160809167fa248c3de3e2ed60135cb2c99700cc405d723f34b",
+    "rawObjectSha256": "7eb3090530dd7b6f75dcb046723ad0f18f38ae065fc9769752e85647945c7bb7"
+  },
+  "texturePointerResolution": {
+    "ownerSerializedAsset": "CustomAssetBundle-574ca8c2fed89492582a3fbd49965c12",
+    "pointer": {
+      "fileId": 4,
+      "pathId": 2193
+    },
+    "externalFile": {
+      "assetPath": "",
+      "fileId": 4,
+      "filePath": "CustomAssetBundle-d496634eb571e4a8c82489c2e7fddf70",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    "targetSource": {
+      "alias": "primary",
+      "bytes": 4231088,
+      "relativeContainer": "DongResources_09_08.resourceFile",
+      "sha256": "aeaec9e8170901227ef257bbf4a3762d455b3b59f04ab02b7bd722c91a4d98ea"
+    },
+    "targetObject": {
+      "type": "Texture2D",
+      "name": "foster.dds",
+      "serializedAsset": "CustomAssetBundle-d496634eb571e4a8c82489c2e7fddf70",
+      "pathId": 2193,
+      "rawBytes": 2097224,
+      "rawSha256": "1c9eb95d65a6cf6ffa17b956ce704d10b63cb8bbee6f81b804a58764bca67a03"
+    },
+    "proof": "external table entry exactly equals target serialized-asset identity; target is strict typed dump from raw primary DongResources_09_08.resourceFile; no global PathID lookup"
+  },
+  "contract": {
+    "color": [
+      0.35,
+      0.35,
+      0.35,
+      1.0
+    ],
+    "ambient": "_Color",
+    "emission": [
+      0.3,
+      0.3,
+      0.3,
+      1.0
+    ],
+    "specularRgb": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "blend": "replace",
+    "cull": "back",
+    "depthWrite": true,
+    "queue": 2000,
+    "rgb": "texture * primary DOUBLE",
+    "alpha": "texture * primary (material alpha is 1)",
+    "fog": "inherited",
+    "shadowPasses": "named ShadowCaster and ShadowCollector, not additional color-pass entities"
+  },
+  "commands": [
+    ".\\fusionforge.cmd dump-object-evidence primary ../builds/retrobution-20260821 DongResources_10_07.resourceFile 169 --serialized-asset CustomAssetBundle-574ca8c2fed89492582a3fbd49965c12 --type Material --out work/cases/foster-20260907/interior-material-triage.json --allow-unresolved-pointers",
+    ".\\fusionforge.cmd dump-object-evidence primary ../builds/retrobution-20260821 DongResources_10_07.resourceFile 168 --serialized-asset CustomAssetBundle-574ca8c2fed89492582a3fbd49965c12 --type Shader --out work/cases/foster-20260907/retrolit-shader-evidence.json",
+    ".\\fusionforge.cmd dump-object-evidence primary ../builds/retrobution-20260821 DongResources_09_08.resourceFile 2193 --serialized-asset CustomAssetBundle-d496634eb571e4a8c82489c2e7fddf70 --type Texture2D --out work/cases/foster-20260907/interior-texture-evidence.json"
+  ],
+  "limitation": "Standalone Material exporter does not load external bundles; its texture pointer was explicitly resolved above against the exact external-file identity and independent strict typed Texture2D evidence. Nonzero specular or non-unit material alpha are deliberately rejected by this runtime admission path."
+}

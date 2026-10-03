@@ -1,0 +1,884 @@
+{
+  "schema": "fusionforge.cli-migration.v1",
+  "date": "2026-09-17",
+  "complete": false,
+  "scripts": [
+    {
+      "path": "tools/legacy-sources/publish-trigger-use-icon.py",
+      "sha256": "97ea335f706f76707c5b1538ba9d4c50586a887d55aa657debe3f8c66f1860d0",
+      "bytes": 2229,
+      "replacement": "fusionforge publish-native --recipe recipes/native/cli/trigger-use-icon.json --source-root <raw-primary> --target-root <native-assets> --work work/cases/<fresh-case> --check",
+      "verification": "byte-identical accepted output; native target unchanged",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/legacy-sources/publish-new-mail-icon.py",
+      "sha256": "ef5762da3f3b4f21cdf8d8765b5b4f0a26e1fa2ef4cba70526a6942bcb3f898b",
+      "bytes": 2716,
+      "replacement": "fusionforge publish-native --recipe recipes/native/cli/new-mail-icon.json --source-root <raw-primary> --target-root <native-assets> --work work/cases/<fresh-case> --check",
+      "verification": "byte-identical accepted output; native target unchanged",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/legacy-sources/publish-minimap-zoom.py",
+      "sha256": "1fb0218b085c35feefb1480a945dbfed6f7ee56c8029eff8677853090fdce7f4",
+      "bytes": 2075,
+      "replacement": "fusionforge publish-native --recipe recipes/native/cli/minimap-zoom.json --source-root <raw-primary> --target-root <native-assets> --work work/cases/<fresh-case> --check",
+      "verification": "byte-identical accepted output; native target unchanged",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/legacy-sources/publish-mob-rewards.py",
+      "sha256": "488534458d71c7f9034258c41361b09ca2af27e2f9ae266eead9619527dc6a93",
+      "bytes": 2453,
+      "replacement": "fusionforge publish-native --recipe recipes/native/cli/mob-rewards.json --source-root <raw-primary> --target-root <native-assets> --work work/cases/<fresh-case> --check",
+      "verification": "byte-identical accepted output; native target unchanged",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/legacy-sources/publish-tryon-background.py",
+      "sha256": "d5828541f3216cde5c074c14ea6a40db2b512956c1a8e3bdd5a06fd3121d4489",
+      "bytes": 581,
+      "replacement": "fusionforge publish-native --recipe recipes/native/cli/tryon-background.json --source-root <raw-primary> --target-root <native-assets> --work work/cases/<fresh-case> --check",
+      "verification": "byte-identical accepted output; native target unchanged",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/publish-hnpc-palette.py",
+      "sha256": "79e3c8bb4f56d7ecf2f4eee2c78efbb57118d9fc6821a853c5420136f20151b7",
+      "bytes": 1573,
+      "replacement": "fusionforge publish-native --recipe recipes/native/cli/hnpc-palette.json --source-root <raw-primary> --target-root <native-assets> --work work/cases/<fresh-case> --check",
+      "verification": "byte-identical accepted output; native target unchanged",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/repair-fred-skin-quality.py",
+      "sha256": "fe398008e6acae93a732c9f4ee3b8733872256bdb2e64dff590ea56977009f30",
+      "bytes": 3174,
+      "replacement": "fusionforge repair-native fred-skin --input <before.glb> --expected-input-sha256 <accepted-sha256> --output characters/npcs/npc_fredfredburger2/npc_fredfredburger2.glb --target-root <native-assets> --work work/cases/<fresh-case>",
+      "verification": "byte-identical accepted output; native target unchanged",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/legacy-sources/build-character-collision-glb.py",
+      "sha256": "4a1ea5c698ddb36a7ef9de62813959dac1625b96a5d8536630f8426c8faaf66f",
+      "bytes": 9219,
+      "replacement": [
+        "fusionforge publish-native --recipe recipes/native/cli/nanomachine-collision.json --source-root <raw-primary> --target-root <native-assets> --work work/cases/<fresh-case> --check"
+      ],
+      "verification": "byte-identical accepted production payloads; check-only replay",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/publish-nanomachine-collision.py",
+      "sha256": "1e3767e2c324f049cb46fee256254f6a2949ab82b74c15157bf42bfaf5f32bc2",
+      "bytes": 6078,
+      "replacement": [
+        "fusionforge publish-native --recipe recipes/native/cli/nanomachine-collision.json --source-root <raw-primary> --target-root <native-assets> --work work/cases/<fresh-case> --check"
+      ],
+      "verification": "byte-identical accepted production payloads; check-only replay",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/legacy-sources/publish-game-guide-primary.ps1",
+      "sha256": "081e322054f18c17953e2afca4360d21327a5d8dbde1038eb074a68ae6792065",
+      "bytes": 4687,
+      "replacement": [
+        "fusionforge publish-native --recipe recipes/native/cli/game-guide-controls.json --source-root <raw-primary> --target-root <native-assets> --work work/cases/<fresh-case> --check",
+        "fusionforge publish-native --recipe recipes/native/cli/game-guide-screenshots.json --source-root <raw-primary> --target-root <native-assets> --work work/cases/<fresh-case> --check"
+      ],
+      "verification": "byte-identical accepted production payloads; check-only replay",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/legacy-sources/publish-audio-gaps.py",
+      "sha256": "5e4bde84481aaba0701c8162ab482b0d79a0b2122b9375e9985b1a5ba4a4f7da",
+      "bytes": 4623,
+      "replacement": [
+        "fusionforge publish-native --recipe recipes/native/cli/audio-gaps-20260908.json --source-root <raw-primary> --target-root <native-assets> --work work/cases/<fresh-case> --check"
+      ],
+      "verification": "byte-identical accepted production payloads; check-only replay",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/publish-traversal-trolley.ps1",
+      "sha256": "2060d532031cab22f2793fe34ff7dde45dc9b69c3eec4eb711b9eb2ae284f5a7",
+      "bytes": 2835,
+      "replacement": "fusionforge publish-native --recipe recipes/native/cli/traversal-trolley.json --source-root <primary> --navigation-root <index> --target-root <native-assets> --work work/cases/<fresh> --check",
+      "verification": "All accepted model/texture output hashes match",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/legacy-sources/publish-creation-expansion.py",
+      "sha256": "9737b66d62a327118302d76efadc61972d5847167339084338a5569a504c3036",
+      "bytes": 4639,
+      "replacement": "fusionforge publish-native --recipe recipes/native/cli/creation-expansion.json --source-root <primary> --target-root <native-assets> --work work/cases/<fresh>",
+      "verification": "50 source-pinned PNGs byte-identical; native customization JSON semantically identical. Immutable accepted palette values are now recipe data tied to the same main.unity3d hash; no decompiler dependency for replay.",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/repair-area51-ship-vortex.py",
+      "sha256": "07f076573d47a59376bfce1fe781cb7e75973c96fa55309f7f496dfc628d490d",
+      "bytes": 3760,
+      "replacement": "fusionforge repair-native area51-vortex --target-root <native-assets> --work work/cases/<fresh>",
+      "verification": "Differential test from three restored incomplete cycles; all JSON values match Python. Production replay byte-idempotent.",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/repair-candy-cove.py",
+      "sha256": "d958cf8b69a7452cc280477bab4a56107cb9f693c81b73bf103965d057595f9b",
+      "bytes": 6337,
+      "replacement": "fusionforge repair-native candy-cove --target-root <native-assets> --work work/cases/<fresh>",
+      "verification": "Original before fixture produces accepted behavior/scene/object values; dependent BLAKE3/length references validated; byte-idempotent replay.",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/publish-personal-vehicle-routes.py",
+      "sha256": "cc247857c21670aba6dcdb9ff424704107cedcdbb4060a587b574c8a4b1c70b8",
+      "bytes": 3763,
+      "replacement": "fusionforge repair-native vehicle-routes --target-root <native-assets> --work work/cases/<fresh>",
+      "verification": "Differential production route, reserved-row and unresolved-extension reports match Python.",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/restore-nano-identities.py",
+      "sha256": "7042270735a51b4c768d7fecaa89b03d5775430e6f43e023e768d2bbb77e6103",
+      "bytes": 10721,
+      "replacement": "fusionforge repair-native nano-identities (see docs/native-cli.md)",
+      "verification": "Isolated combined native/server installation matches accepted before/after fixtures; strict EN/RU keys/placeholders and native model/quest guards. Server-sync negative/idempotence cases ported to Rust.",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/restore-retro-unstable-powers.py",
+      "sha256": "4d5adb208e62c2ee0089b51313fd99492bcfabbe6831c06523a8be269eb7e445",
+      "bytes": 6355,
+      "replacement": "fusionforge repair-native unstable-powers (see docs/native-cli.md)",
+      "verification": "Isolated combined native/server installation matches accepted before/after fixtures; strict EN/RU keys/placeholders and native model/quest guards. Server-sync negative/idempotence cases ported to Rust.",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/repair-nano-tuning.py",
+      "sha256": "59a08c02db2acecf531367cde09bb7bfc8dcdc719e0c0c84fe4dc94d63b80197",
+      "bytes": 8103,
+      "replacement": "fusionforge repair-native nano-tuning / sync-nano-tuning (see docs/native-cli.md)",
+      "verification": "Isolated combined native/server installation matches accepted before/after fixtures; strict EN/RU keys/placeholders and native model/quest guards. Server-sync negative/idempotence cases ported to Rust.",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/retire-unstable-nano-alias.py",
+      "sha256": "62e2abb2eec91abef0fd94f957ce359f47a08da10de6ab4036c3efbbc8898144",
+      "bytes": 3019,
+      "replacement": "fusionforge repair-native retire-nano-alias (see docs/native-cli.md)",
+      "verification": "Isolated combined native/server installation matches accepted before/after fixtures; strict EN/RU keys/placeholders and native model/quest guards. Server-sync negative/idempotence cases ported to Rust.",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/restore-unstable-power-icon.py",
+      "sha256": "9d355db9f83bbe2d3553c50ccb540cba194b68e069426e299898c6013323df68",
+      "bytes": 2996,
+      "replacement": "fusionforge repair-native unstable-power-icon (see docs/native-cli.md)",
+      "verification": "Isolated combined native/server installation matches accepted before/after fixtures; strict EN/RU keys/placeholders and native model/quest guards. Server-sync negative/idempotence cases ported to Rust.",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/test_repair_nano_tuning.py",
+      "sha256": "73e67e1fb174f4134f252d4e8d37927b16a986b1f64092c43e92480b64d62db9",
+      "bytes": 2143,
+      "replacement": "Rust native_repairs::tests::server_sync_rejects_unrelated_changes_and_preserves_server_extensions",
+      "verification": "Isolated combined native/server installation matches accepted before/after fixtures; strict EN/RU keys/placeholders and native model/quest guards. Server-sync negative/idempotence cases ported to Rust.",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/repair-scamper-pilot-paths.ps1",
+      "sha256": "e3d2786f5f9a0aea07567d1297d7caebd9f989cdb499bbd7f74c7984c404d195",
+      "bytes": 1179,
+      "replacement": "fusionforge repair-native audio-paths --recipe recipes/native/audio/scamper-pilot-paths-20260908.json --target-root <native-assets> --work work/cases/<fresh> [--apply]",
+      "verification": "Ten real localized OGG files replayed twice from isolated legacy-name fixtures; all hashes preserved, no old paths remain. Rust rollback injection test covers failure after a preceding rename.",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/publish-vehicle-trails.py",
+      "sha256": "08566855f906d9b3f2c8aacad22a2c3ce8b06ae7cf6276137a662ea4045c46b2",
+      "bytes": 7962,
+      "replacement": "fusionforge publish-native --recipe recipes/native/cli/vehicle-trails.json --source-root <raw-primary> --target-root <native-assets> --work work/cases/<fresh-case> --check",
+      "verification": "Four accepted outputs reproduced byte-for-byte; native target unchanged",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/legacy-sources/repair-dexter-placeholder-routes.py",
+      "sha256": "7260775926d27bbe9595f198de596cdb9828bb70d7f5dd36e928a36d855a2bd5",
+      "bytes": 3606,
+      "replacement": "fusionforge publish-native --recipe recipes/native/cli/dexter-placeholder-routes.json --source-root <raw-primary> --target-root <native-assets> --work work/cases/<fresh-case> --check",
+      "verification": "Scoped primary evidence; isolated two-field repair matches current table semantically; repeat and production read-only checks byte-identical",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/legacy-sources/prepare-fusion-kimchi-fusion-eyes.py",
+      "sha256": "01aa7f89322251a82cc140fadd38e73520fab4c60241965463566ead49f917cb",
+      "bytes": 755,
+      "replacement": "Accepted Academy original-atlas workflow; see recipes/native/characters/fusion-kimchi-academy-original-atlas-20260906.receipt.json",
+      "verification": "Explicit owner rejection recorded in AGENTS.md and docs/legacy/ffone/fusion-kimchi-academy-20260906.md; accepted publisher dependency on stage-fusion-kimchi-eyes.py remains preserved",
+      "status": "retired-rejected-workflow"
+    },
+    {
+      "path": "tools/legacy-sources/repair-fusion-kimchi-fusion-eyes.py",
+      "sha256": "513d51cb8858e8f28a8caf6a05f7ab648642bd4ff0772eb56e6c56040c0409d2",
+      "bytes": 7091,
+      "replacement": "Accepted Academy original-atlas workflow; see recipes/native/characters/fusion-kimchi-academy-original-atlas-20260906.receipt.json",
+      "verification": "Explicit owner rejection recorded in AGENTS.md and docs/legacy/ffone/fusion-kimchi-academy-20260906.md; accepted publisher dependency on stage-fusion-kimchi-eyes.py remains preserved",
+      "status": "retired-rejected-workflow"
+    },
+    {
+      "path": "tools/legacy-sources/publish-fusion-kimchi-fusion-eyes.py",
+      "sha256": "414f66995f4b016dac6459d1c7791f88e05660d8c039b16ba350fe29e9ad1349",
+      "bytes": 2375,
+      "replacement": "Accepted Academy original-atlas workflow; see recipes/native/characters/fusion-kimchi-academy-original-atlas-20260906.receipt.json",
+      "verification": "Explicit owner rejection recorded in AGENTS.md and docs/legacy/ffone/fusion-kimchi-academy-20260906.md; accepted publisher dependency on stage-fusion-kimchi-eyes.py remains preserved",
+      "status": "retired-rejected-workflow"
+    },
+    {
+      "path": "tools/legacy-sources/audit-fusion-kimchi-fusion-eyes.py",
+      "sha256": "fa4b328627d61feb726498d61bce52e930637fc84afa51df01bab4567e03abbd",
+      "bytes": 4173,
+      "replacement": "Accepted Academy original-atlas workflow; see recipes/native/characters/fusion-kimchi-academy-original-atlas-20260906.receipt.json",
+      "verification": "Explicit owner rejection recorded in AGENTS.md and docs/legacy/ffone/fusion-kimchi-academy-20260906.md; accepted publisher dependency on stage-fusion-kimchi-eyes.py remains preserved",
+      "status": "retired-rejected-workflow"
+    },
+    {
+      "path": "tools/legacy-sources/record-fusion-kimchi-fusion-eyes.py",
+      "sha256": "e56cdd61e52e65d1335e397b391f72dd0c74a087e75211b4befe8a1823421ef5",
+      "bytes": 6326,
+      "replacement": "Accepted Academy original-atlas workflow; see recipes/native/characters/fusion-kimchi-academy-original-atlas-20260906.receipt.json",
+      "verification": "Explicit owner rejection recorded in AGENTS.md and docs/legacy/ffone/fusion-kimchi-academy-20260906.md; accepted publisher dependency on stage-fusion-kimchi-eyes.py remains preserved",
+      "status": "retired-rejected-workflow"
+    },
+    {
+      "path": "tools/native/publish-banker-appearance.py",
+      "sha256": "7146a6d5b1b9e83abdc956b1c7c79852981bac61582cb997e41446be31ec8e7e",
+      "bytes": 5519,
+      "replacement": "fusionforge repair-native banker; see docs/native-cli.md",
+      "verification": "Seven accepted files reproduced byte-identically; isolated fresh models match all JSON values and BIN bytes; PNG pixels equal; unrelated appearances preserved",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/repair-female-banker-routes.py",
+      "sha256": "b2091b7ce72020f2c315e9163dbec5fdfec64d2e2fb09461033db1a274005857",
+      "bytes": 5541,
+      "replacement": "fusionforge repair-native banker; see docs/native-cli.md",
+      "verification": "Five female appearances use scoped primary selection; all seven production files match byte-for-byte",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/repair-nano-voice-events.py",
+      "sha256": "64a4bafb3a1bf1cd2121d7a3c3cd702a7e2ddb58266daff74484d09d6e64ef43",
+      "bytes": 13342,
+      "replacement": "fusionforge repair-native nano-voice-events; see docs/native-cli.md",
+      "verification": "Five production files match byte-for-byte; missing Chowder clip and corrupted sounds restored on isolated fixture; all curves/events and render assets verified",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/legacy-sources/restore-item-icons.py",
+      "sha256": "e2d809863a3b530d073535a5a4a352c344a67f6bce42ad24d8be4a4c2d170833",
+      "bytes": 5296,
+      "replacement": "fusionforge publish-native --recipe recipes/native/cli/item-icons-{primary,alternate}.json --source-root <matching-raw-source> --target-root <assets> --work <fresh-case> --check",
+      "verification": "All 204 accepted PNGs reproduced byte-for-byte (198 primary, 6 explicit Academy donors); additive conflict unit test preserves existing artwork",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/publish-hnpc-idle-clips.py",
+      "sha256": "69848700f020446262a14e81ecd0f3466ffe3f044adccb09a276244af73416c2",
+      "bytes": 9291,
+      "replacement": "fusionforge repair-native hnpc-clips --source-root <raw-primary> --target-root <native-assets> --work <fresh-case> [--clips <comma-separated-names>] [--semantic-catalog <relative-json>] [--apply]",
+      "verification": "Default replay leaves both production rigs byte-identical; isolated missing male/female stand2 clips recovered; accepted curves/extras and all prior indices/BIN prefix preserved",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/deduplicate_textures.py",
+      "sha256": "0c47c3408d528f4e47bfce580e74ba01f15f40997abd885e40ed9aa312653876",
+      "bytes": 11393,
+      "replacement": "fusionforge repair-native deduplicate-textures --target-root <native-assets> --work work/cases/<fresh-case> [--apply]",
+      "verification": "Full native staging: 2 chain groups, 7 PNG redirects, 7 GLBs; unchanged BIN/material values and exact PNG bytes. Six Rust regression tests cover mip/sampler mismatch, code consumers, stale inputs, malformed GLB and rollback.",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/test_deduplicate_textures.py",
+      "sha256": "ce6c5fc8b70965d304ddb4bd6d9c66b2edde330d62f62cca83c98e5673fb57d5",
+      "bytes": 3166,
+      "replacement": "fusionforge repair-native deduplicate-textures --target-root <native-assets> --work work/cases/<fresh-case> [--apply]",
+      "verification": "Full native staging: 2 chain groups, 7 PNG redirects, 7 GLBs; unchanged BIN/material values and exact PNG bytes. Six Rust regression tests cover mip/sampler mismatch, code consumers, stale inputs, malformed GLB and rollback.",
+      "status": "ported-and-removed"
+    },
+    {
+      "path": "tools/native/export-player-emote-events.py",
+      "sha256": "d9270e648ee55556056c58f0dff1326b9bb355200fe8a9da9106d441f149129d",
+      "bytes": 3743,
+      "replacement": "fusionforge repair-native player-emote-events --source-root <primary> --target-root <native-repository> --work work/cases/<fresh-case> [--apply]",
+      "verification": "46 owner-validated scoped clips; generated Rust source exactly matches accepted source except generator comment. Native source unchanged during staging.",
+      "status": "ported-and-removed"
+    }
+  ],
+  "verificationReports": [
+    "work/native-cli-regression.json",
+    "work/native-cli-more-regression.json",
+    "work/native-cli-domain-regression.json",
+    "work/native-cli-joint-regression.json"
+  ],
+  "remainingInventory": [
+    {
+      "path": "tools/clean-work.ps1",
+      "role": "navigation-or-maintenance",
+      "sha256": "686b8092ff5cffd2816a32f6bd9b6019406654beef9dfdbf019ea5ac9ad5d975"
+    },
+    {
+      "path": "tools/legacy-sources/asset-census.py",
+      "role": "validation-or-analysis",
+      "sha256": "59b68949280c92fc94e2eb428842ba9f6139a0417d44ebf0d398ee13b9b3573e"
+    },
+    {
+      "path": "tools/legacy-sources/audio_key_validation.py",
+      "role": "requires-migration-review",
+      "sha256": "49c187d69ffe234d5a90e5c5dd3255eeeb9ffc026b295ef398cd2745d554d051"
+    },
+    {
+      "path": "tools/legacy-sources/audit-academy-kimchi.py",
+      "role": "validation-or-analysis",
+      "sha256": "2eef1cded376a53ac04b6ca6e2607f0cd463f0289b55a958d6193387645edfe0"
+    },
+    {
+      "path": "tools/legacy-sources/audit-effects.ps1",
+      "role": "validation-or-analysis",
+      "sha256": "49394502ec0dee6b8c6752de084ad17682388505bdfd3f657ea3f110be46623c"
+    },
+    {
+      "path": "tools/legacy-sources/audit-item-icons.py",
+      "role": "validation-or-analysis",
+      "sha256": "8898799dcf49650efeaa2bafc9df67d3e7ab5a0a2ef7b286431e8790e381897f"
+    },
+    {
+      "path": "tools/legacy-sources/audit-nano-table-materials.py",
+      "role": "validation-or-analysis",
+      "sha256": "ff495872cf58c5dd48cdf4e0ddf4e9f8179d9436d81e94a0d9ec43c3921e364a"
+    },
+    {
+      "path": "tools/legacy-sources/audit-npc-material-followup.py",
+      "role": "validation-or-analysis",
+      "sha256": "26d79dd07b28c6ded4fe01aee3b71a382b19dda579c88e980b12656413b2dc01"
+    },
+    {
+      "path": "tools/legacy-sources/audit-npc-repair.py",
+      "role": "validation-or-analysis",
+      "sha256": "419325ad7d9a1bdfe7d2fcf27d2efd9bcbeb27bb7bcf60110456fec249f4ec74"
+    },
+    {
+      "path": "tools/legacy-sources/audit-npc-upgrade.py",
+      "role": "validation-or-analysis",
+      "sha256": "8f4429b207ff5f1eb8cec3b3b5b99f115b9d83de0c926a3ae5aac99d43870d10"
+    },
+    {
+      "path": "tools/legacy-sources/audit-whole-client-contracts.py",
+      "role": "validation-or-analysis",
+      "sha256": "680841fdb4be737b662ef3a9b59d0b54be65e5547cc0b655b1b11b4af48438fc"
+    },
+    {
+      "path": "tools/legacy-sources/audit-whole-client-objects.py",
+      "role": "validation-or-analysis",
+      "sha256": "8ac92b6cfee480e79a0f1b9e7d69ff3aa4d2ef8447298c05eb3c2008bac74cfb"
+    },
+    {
+      "path": "tools/legacy-sources/audit-whole-client-render.py",
+      "role": "validation-or-analysis",
+      "sha256": "d900b9320ddd17c323c123cd8478e0bd5b59b865725a1c3e00b7a19987608aba"
+    },
+    {
+      "path": "tools/legacy-sources/audit-whole-client.py",
+      "role": "validation-or-analysis",
+      "sha256": "456967782522e8612fa196862d0256586e93172b1b933c8bdc4d8878478d6bb6"
+    },
+    {
+      "path": "tools/legacy-sources/build-authored-character-model.py",
+      "role": "requires-migration-review",
+      "sha256": "5b7b3c62431affe461090079be92f8b2298b3b0df7043056d62a85e5bcc61112"
+    },
+    {
+      "path": "tools/legacy-sources/close-npc-native-textures.py",
+      "role": "requires-migration-review",
+      "sha256": "96282d2fea3b3b859b04d6e2503a72858c7b9b97f8f7965143e5afb97d64161f"
+    },
+    {
+      "path": "tools/legacy-sources/collect-fan-texture-differences.py",
+      "role": "validation-or-analysis",
+      "sha256": "729ca1ad4340be8e7b70ffa9bb896af317f365869713a026260dad98dd0799fd"
+    },
+    {
+      "path": "tools/legacy-sources/fan-texture-review-gallery.py",
+      "role": "validation-or-analysis",
+      "sha256": "9e04487c318f2b8478bb679c1db543e7ea3dc105c26592cb0bb96587703b497d"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/build_native_character_ui_assets.mjs",
+      "role": "requires-migration-review",
+      "sha256": "f9cc21cf4f34f3910df73eac26d97de33d51705018dee7dc11c5ce050fbe003b"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/capture_process_window.ps1",
+      "role": "navigation-or-maintenance",
+      "sha256": "d75a9860f24a8e3136a73b6656d55e105ad51328afa9b69fe88a17c687489477"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/click_process_window.ps1",
+      "role": "navigation-or-maintenance",
+      "sha256": "8c19cfec1e7ad17a67f72c5492f4587cdae06b2ce249b1f9f1e2edcbc7504114"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/extract-table-set-table.mjs",
+      "role": "requires-migration-review",
+      "sha256": "81b28f6de2bcf4ca09b30e98af416024a06a7c4c100e511da05bffdef1040ac2"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/generate_logical_shader_coverage.mjs",
+      "role": "requires-migration-review",
+      "sha256": "62e45f09628feb714ebdf75507fc7b569d4da36c7dfce755b096915226c01442"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/install-semantic-character-overlay.mjs",
+      "role": "requires-migration-review",
+      "sha256": "c5314b812cf629387edcdc55f25242c2910b506fa7e665856d1df774ed9abfb9"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/prepare-retrobution-hostile-overlay.mjs",
+      "role": "requires-migration-review",
+      "sha256": "54635974a81cde1147733a3325e3b7a3df1b5026bdc86851b7d48db9e1d5cdc1"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/promote_native_world_glb.mjs",
+      "role": "requires-migration-review",
+      "sha256": "4c851f3bae68e2e0311ac5a56de7954db155234959e9965e76797c98b05c25c5"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/publish-retrobution-world-audio.ps1",
+      "role": "requires-migration-review",
+      "sha256": "92a622402fc87319b0f42e41dcd07d7e842f740412699c909fdcf1f8ca501f8a"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/publish-xdt-npc-texture-catalog.mjs",
+      "role": "requires-migration-review",
+      "sha256": "52848c76d41885b8657f43a7afc294f95893c0c3e1a1e5235dd7d62e49077803"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/render_xdt_nano_gallery.mjs",
+      "role": "requires-migration-review",
+      "sha256": "54623afbe0750bef1c8bf3dce3102dda7943434162cb08b2e37d5f4a58a836dc"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/report-logical-prop-candidates.mjs",
+      "role": "requires-migration-review",
+      "sha256": "205b3966a7781cd2f1b43e09c0d32e107035a0765e88c763da00a244ab98e1b2"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/run-logical-model-gpu-batch.mjs",
+      "role": "requires-migration-review",
+      "sha256": "6885ee08d8115ea53402b263431c4179130984c9038a1813acc9ae26cacec5ba"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/select-retrobution-hostile-sources.mjs",
+      "role": "requires-migration-review",
+      "sha256": "4af302cb153358c4e588a028e3f1e33fc7eccf37e181bb119377b163bb877567"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/summarize-logical-model-gpu-batch.mjs",
+      "role": "requires-migration-review",
+      "sha256": "a9d0eb5e9373119271788e03060b492d39cfe2d0de4ad7e4fc9434a2e848a077"
+    },
+    {
+      "path": "tools/legacy-sources/ffone-migration/unity_reference_input.ps1",
+      "role": "navigation-or-maintenance",
+      "sha256": "50a1f1a6524c31e144fe9b424aa00f3eb1e583a46fb5fd8820863a4244441514"
+    },
+    {
+      "path": "tools/legacy-sources/find-objects.ps1",
+      "role": "navigation-or-maintenance",
+      "sha256": "0a3011e31bfa1799f9633df204e092d4c48e9dedfa27957222bfbdeacd0844a6"
+    },
+    {
+      "path": "tools/legacy-sources/find.ps1",
+      "role": "navigation-or-maintenance",
+      "sha256": "541e305f478a5a3a2f0c7b63b97a69948846340e5d7d70ac3809d24757de4bfe"
+    },
+    {
+      "path": "tools/legacy-sources/generate-wire-0104.py",
+      "role": "requires-migration-review",
+      "sha256": "9388414fd697f07379448a7fe7fb3db4c9a1451a65d2ae707e91d86b43c3ea8a"
+    },
+    {
+      "path": "tools/legacy-sources/import-tabledata-localization.mjs",
+      "role": "requires-migration-review",
+      "sha256": "aed0bae82784939f5437b1d8ba7ab53334a7a589c3620a269d6fd9e16366d148"
+    },
+    {
+      "path": "tools/legacy-sources/install-modded-npc-icons.py",
+      "role": "requires-migration-review",
+      "sha256": "249b654b1f1a86bbe90fc7695f97330d64dc184251e7396b9cf4822ded70f598"
+    },
+    {
+      "path": "tools/legacy-sources/install-nano-repairs.py",
+      "role": "requires-migration-review",
+      "sha256": "c92fd8b3e61ff658e5643ffaeadf2bba5c426f4f07d74be98f1a5ca34942490f"
+    },
+    {
+      "path": "tools/legacy-sources/install-nano-voice.py",
+      "role": "requires-migration-review",
+      "sha256": "1160b38f5f51986593e0bd290c88f5517666d00ff5534ee20f6d16d5bf274e80"
+    },
+    {
+      "path": "tools/legacy-sources/move-voice-out-of-sfx.py",
+      "role": "requires-migration-review",
+      "sha256": "caad1974f7299be345b493b5a73571ad1a09fd0162074a22b5c20d217edb9462"
+    },
+    {
+      "path": "tools/legacy-sources/normalize-audio-filenames.py",
+      "role": "requires-migration-review",
+      "sha256": "cd9e4d053eec0780587ff7bc2d155c4f0fe4b93f73e49c6208883f5e838f973e"
+    },
+    {
+      "path": "tools/legacy-sources/normalize-audio-keys.py",
+      "role": "requires-migration-review",
+      "sha256": "189537afcdb4b2ba39b2733aca8c9a127a0a200844156587ef36e43c409e0e56"
+    },
+    {
+      "path": "tools/legacy-sources/normalize-nano-voice.py",
+      "role": "requires-migration-review",
+      "sha256": "42e4b4e57586000df1a73cdc1f85fc7a938332cfceafe1bfa1c3db28989eefeb"
+    },
+    {
+      "path": "tools/legacy-sources/plan-nano-voice.py",
+      "role": "requires-migration-review",
+      "sha256": "07d3158a1ca93888045061bbf7c62602d451b75e44592e3c3e4b1f4cf78e967a"
+    },
+    {
+      "path": "tools/legacy-sources/previous_build_retention.py",
+      "role": "requires-migration-review",
+      "sha256": "987089c54c9e7ea75be1591d1475efd53e1b9e69f381b6a7eabea41e11cdd1e0"
+    },
+    {
+      "path": "tools/legacy-sources/probe-npc-repair.py",
+      "role": "validation-or-analysis",
+      "sha256": "67fcdd05502ae924f9fbadf795e9eac383eb066418ae2c5b7f92ac81f10a634b"
+    },
+    {
+      "path": "tools/legacy-sources/publish-academy-kimchi.py",
+      "role": "requires-migration-review",
+      "sha256": "24247b0a686c0c74594444e015bc612505db1157f241a7b063a2d92f84cb3660"
+    },
+    {
+      "path": "tools/legacy-sources/publish-blackhole-animation.ps1",
+      "role": "requires-migration-review",
+      "sha256": "a019d751dbacde494991ca44e8afada9de6ee63568a9fec14dde7544658cd369"
+    },
+    {
+      "path": "tools/legacy-sources/publish-coco-effects.py",
+      "role": "requires-migration-review",
+      "sha256": "9cbd38cd37bd728a727fb0290fff0b871dd2db322a885ea72c4dd285b717c653"
+    },
+    {
+      "path": "tools/legacy-sources/publish-coco-eggs.py",
+      "role": "requires-migration-review",
+      "sha256": "9049e13138735f62f6f7cf27860b4276e3ada41c00cf75a78caa4e16a8e34dd7"
+    },
+    {
+      "path": "tools/legacy-sources/publish-larry-voice.py",
+      "role": "requires-migration-review",
+      "sha256": "f7027952cc2c1716fe84c8f46038dcc8615548744cc6469e08936b562a8d4581"
+    },
+    {
+      "path": "tools/legacy-sources/publish-nano-status-effects.py",
+      "role": "requires-migration-review",
+      "sha256": "bae1123339ad5be8baf9fb884da9be91e8ec4c0bf2ad96e7fcb7d85c4bdd33dd"
+    },
+    {
+      "path": "tools/legacy-sources/publish-npc-dialogue-gaps.py",
+      "role": "requires-migration-review",
+      "sha256": "2c729f23c3eb973acc7ca11a93aedb170f857b189b3bfdb93dee9e5ec305d641"
+    },
+    {
+      "path": "tools/legacy-sources/publish-npc-material-followup.py",
+      "role": "requires-migration-review",
+      "sha256": "1fdf87e4a1e5a90ca1fe4a6780f9addb22547e62199758469d19604349314b42"
+    },
+    {
+      "path": "tools/legacy-sources/publish-npc-repair.py",
+      "role": "requires-migration-review",
+      "sha256": "88f76b9a1849b272c0c76ebe265d82e1ebc14ffef7986cdb2acb9b299c43bd24"
+    },
+    {
+      "path": "tools/legacy-sources/publish-omniverse-npcs.py",
+      "role": "requires-migration-review",
+      "sha256": "cadfa4c953a0ba671e9b8cd69ae9fc831df130107caca5a41315cfc5acb5e1c8"
+    },
+    {
+      "path": "tools/legacy-sources/publish-retrobution-ui-20260821.py",
+      "role": "requires-migration-review",
+      "sha256": "4e50555624e4f8b8f3bdf887fda64152dbf0376383050fc70a9caaf1466cff2f"
+    },
+    {
+      "path": "tools/legacy-sources/record-npc-material-followup.py",
+      "role": "validation-or-analysis",
+      "sha256": "b2a5b2dd82d7e39b2c5f1bdd6eda4ac51bfac50f95df1f46f61954f23b2645dd"
+    },
+    {
+      "path": "tools/legacy-sources/recover-npc-assets.py",
+      "role": "requires-migration-review",
+      "sha256": "86e240c34a68391b84138806dea712e79b58aa84be962a1cdb08b27698d6d343"
+    },
+    {
+      "path": "tools/legacy-sources/repair-nano-materials.py",
+      "role": "requires-migration-review",
+      "sha256": "7e80a16a2781719d63748dd1fd7ec797fc70167844f9f74ac6f45b449e4dccf4"
+    },
+    {
+      "path": "tools/legacy-sources/resort-sfx-by-owner.py",
+      "role": "requires-migration-review",
+      "sha256": "cefbbe933c967bdf70452075817cab8ae7f39f342df7cd6ff0db710672d0b353"
+    },
+    {
+      "path": "tools/legacy-sources/retain-previous-build-assets.py",
+      "role": "requires-migration-review",
+      "sha256": "295935a4ab49b7f33787c4247f9b48dfb05366343675d5cbcc2667de3a3a1668"
+    },
+    {
+      "path": "tools/legacy-sources/stage-fusion-kimchi-eyes.py",
+      "role": "requires-migration-review",
+      "sha256": "37a971fd67ee50cb6a1eb2d11a5b8d848f30e9acb6f9ec019bc781c8b9598e22"
+    },
+    {
+      "path": "tools/legacy-sources/stage-npc-material-followup.py",
+      "role": "requires-migration-review",
+      "sha256": "3822feef479aef8f8b8d22a65534bef684a7fc411fee5143b39a38dd25f4d3c7"
+    },
+    {
+      "path": "tools/legacy-sources/stage-npc-repair.py",
+      "role": "requires-migration-review",
+      "sha256": "31963c18f4514aab90e1c315b1dc88711cb773f871f4248e6532f18319fa992e"
+    },
+    {
+      "path": "tools/legacy-sources/sync-openfusion-xdt.py",
+      "role": "requires-migration-review",
+      "sha256": "141878e38b8bd983d54f3ed84b2fb1a13951acd01ce38c69e399ecd030e6c879"
+    },
+    {
+      "path": "tools/legacy-sources/test_asset_census.py",
+      "role": "validation-or-analysis",
+      "sha256": "a051e3864a47e0f56d2c9f91dc6d126bf6f691b3516f03d1b015076d49b0b63b"
+    },
+    {
+      "path": "tools/legacy-sources/test_audio_key_validation.py",
+      "role": "validation-or-analysis",
+      "sha256": "64b4226e9e9146ac0dad43817052ea93ef35993949f6352c756fae322c24b942"
+    },
+    {
+      "path": "tools/legacy-sources/test_native_effect_material_bindings.py",
+      "role": "validation-or-analysis",
+      "sha256": "e3353e930601105ac6d99c4ac194cc5428b2097d76c95a2d69f50a188354fc76"
+    },
+    {
+      "path": "tools/legacy-sources/test_omniverse_npcs.py",
+      "role": "validation-or-analysis",
+      "sha256": "d25781df96aa248500d8382e66b836e88bddb81b89f4f1afb01c49eb42a78fd7"
+    },
+    {
+      "path": "tools/legacy-sources/verify-item-cards.ps1",
+      "role": "validation-or-analysis",
+      "sha256": "2dc25405ebe814d4f75d9fb81dbb2b0be61cdfb59e477f699d8a307be3c98854"
+    },
+    {
+      "path": "tools/legacy-sources/verify-service-controls.ps1",
+      "role": "validation-or-analysis",
+      "sha256": "2b49f3f6079485640643b6e569200a1315f15dbe4af375e361a236b1d2fd2afb"
+    },
+    {
+      "path": "tools/legacy-sources/weapon-effect-audit.py",
+      "role": "validation-or-analysis",
+      "sha256": "87fa524ba6779e6f667b7decf77fcedca5b99528fc0e1ba1f8f028d4d8098f4e"
+    },
+    {
+      "path": "tools/legacy-sources/wire-localized-voice.py",
+      "role": "requires-migration-review",
+      "sha256": "e9a55633bd45bc92035a7862fc52a0b0e861226fe7935c2c1f5780ebd6813141"
+    },
+    {
+      "path": "tools/native/audit-fred-skin-quality.py",
+      "role": "validation-or-analysis",
+      "sha256": "1f33b69d661df01fbdd3bd14a0f55ae57ca4d9ef4021efc92c297e46f4d8997a"
+    },
+    {
+      "path": "tools/native/audit-render-duplicates.mjs",
+      "role": "validation-or-analysis",
+      "sha256": "52f82af1c45b49fc538c5ee85a130771a132b9d0e27fc3b11e570931055a888b"
+    },
+    {
+      "path": "tools/native/check-client-architecture.mjs",
+      "role": "validation-or-analysis",
+      "sha256": "13de886f51663cebac5af6d20a72b9d7aa481c84f1679861f41b038d38a604b9"
+    },
+    {
+      "path": "tools/native/check-tutorial-voice-map.ps1",
+      "role": "validation-or-analysis",
+      "sha256": "b6ca2603b1289af801bff72ce146ace8185537298077e10032fc8d5a851b5d68"
+    },
+    {
+      "path": "tools/native/generate_character_runtime_gpu_audit.mjs",
+      "role": "requires-migration-review",
+      "sha256": "4b2df18b1033139bd1ac52c9ac62abf84df6aaf8948280ae2d7622848d75cca6"
+    },
+    {
+      "path": "tools/native/relocate-native-textures.py",
+      "role": "requires-migration-review",
+      "sha256": "f042b2c42646e44858568dcab689b00fb6834628e21d3465626b4f3e2a461e9e"
+    },
+    {
+      "path": "tools/native/repair-saved-nano-tunes.py",
+      "role": "requires-migration-review",
+      "sha256": "71e9ab99883ae646c4ba853964bb9ee4827ebeedfafa2f7d5598f01dea1e3d1c"
+    },
+    {
+      "path": "tools/native/restore-foster-key-animation.py",
+      "role": "requires-migration-review",
+      "sha256": "21a6b15f61e9c26a79085893694074fdb07c15741425c548f3b9d57d55bc19dd"
+    },
+    {
+      "path": "tools/native/retire-runtime-inventories.mjs",
+      "role": "requires-migration-review",
+      "sha256": "718fbdeaccc3e8c3dbf1d5a60120443c79062837b4cef21482c27f3988e6306e"
+    },
+    {
+      "path": "tools/native/test-character-creation.ps1",
+      "role": "validation-or-analysis",
+      "sha256": "4c835d497ba8589e949cd3ba933c32502b3004985977abee784f1c46604278ee"
+    },
+    {
+      "path": "tools/native/test-localization-terminology.mjs",
+      "role": "validation-or-analysis",
+      "sha256": "245409b1ad65f63cfa4616c1a821587dc360e8d1369cdc616f3fd749efc3bcc7"
+    }
+  ],
+  "removedScriptCount": 38,
+  "scopeNote": "Native-client tool relocation is complete. Full Rust migration of every Editor conversion/repair helper is not complete; remaining tools are not silently deleted.",
+  "preservedVerificationReports": [
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-trails-v2-20260917.json",
+      "sha256": "d288f6ba96f4f7dd234d81b6f32dce3765bcf95e32824172309a8e8f94d36247"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-creation-check-v2-20260917.json",
+      "sha256": "467270cf63adc95cd9de5930f42966de3c20d762eb95d7a37f76db8ed14e65a5"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-nanomachine-collision-20260917.json",
+      "sha256": "d40378adb37c9f71d8ce9731111c2aa98a8a1f07a54aa914e73f6bdb42d39edc"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-trolley-20260917.json",
+      "sha256": "c958f443a714652b912e83a3bb77ad0cfd763658201f0c693e2e7cc5e6a4b90c"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-game-guide-controls-20260917.json",
+      "sha256": "6d55ee42d6cf37334e32f63ee47aea2922180750087cda61e5c2f2257c534e65"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-game-guide-screenshots-20260917.json",
+      "sha256": "e5d61d749a0039bb46ab6145c31b1ea408b3381231e531ed65ae09a9be6cd61f"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-audio-gaps-20260908-20260917.json",
+      "sha256": "4ff45ee56053bf7a2a7f232920ffaa0e8347385133dbedd642c11651d7b80cf2"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/dexter-apply.json",
+      "sha256": "6a91b92100cdef46e893c9c85e68459824c29beb501cf75eafaf7fd7f2667e8c"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/dexter-repeat.json",
+      "sha256": "484b7b7e0fe676cf2bf7fb0960b29099932d6e3ec58689cc6409228bcdf5db7a"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/dexter-current.json",
+      "sha256": "757544ba534118f35bcf7649bc8d67e37b5c89b9f527c13e93bc49133470859a"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-banker-v4-20260918.json",
+      "sha256": "d7dc63c9b264ca5483555ee735b06492a7c3c9b411175c80b8e4931398e99d07"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-nano-voice-v4-20260918.json",
+      "sha256": "50dd6988fe3f9dc955f2269f19a15a76391d9103ba48550791161167889a9041"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-banker-fixture-apply-20260918.json",
+      "sha256": "19f08607e63b0c37619d2d842a28c797a1d3586036ebe4ce9a0fd18ea2360039"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-nano-voice-fixture-apply-20260918.json",
+      "sha256": "6655552955f672a390ef9c1d2fcdfb89860b9d1cd9c0a083a0ad12ccbad8049a"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/item-icons-primary-20260918.json",
+      "sha256": "142c6139f136c5def3018e1e6abca2ab74df37f4f818e4384623d8d4557a0856"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/item-icons-alternate-20260918.json",
+      "sha256": "13eaf03da1da04f758e608e95079bfd0e3d30a8bd3ecde07d46192c0afc19740"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-hnpc-clips-20260918.json",
+      "sha256": "46eb1990aba935db9a4bdb6bff0263db3b552e3e5a3e1bde0cb99bebccd1a737"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/native-cli-hnpc-clips-fixture-20260918.json",
+      "sha256": "78c67f2605e2b0c2f722e782e1eee9b488e1482c25aeebee4156ebeaf84d166b"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/emote-event-contracts.json",
+      "sha256": "35888e650b839d90304baaec2f43d2fb7d0ba04bfb798fa33b83610930294993"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/emote-events-apply-publication.json",
+      "sha256": "f150d5d34917b763f1a9c0cc3ffba2475713cf74d8e62c9bd8a6fbf3cc243ca4"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/emote-events-check.json",
+      "sha256": "b1ae96e4759974e6862527537d4923bbf3ae411d5ded112cd208f6dfd0b22026"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/emote-events-publication.json",
+      "sha256": "6e510a4c088d8891489b27f3fd17566e632a1de148746d870516ff0b8aa98918"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/fixture-checks-20260918.json",
+      "sha256": "25bdcb22d2bb4b538f5857c44b67a31b76f756d81361bff204cf8472aca4b368"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/hnpc-clips-check-20260918.json",
+      "sha256": "942846d274ab58416498508ddcd920803ed7cb034fa88c7c1e8cd5d014f3285e"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/player-damage-rust-publication.json",
+      "sha256": "5c17f3975740c36e4577558b238c2fe831c8d9318e45cbb68f97466398350cda"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/texture-sharing-check-20260918.json",
+      "sha256": "0cbf2aa34835f362eac177d99188b378c953a10679a3653fe3a5c5a6edf64aaa"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/texture-sharing-plan.json",
+      "sha256": "04f99a46e35c5a663300182ed009cf15b1e4abcbb5f981273efe0d8e3dab21e0"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/texture-sharing-publication.json",
+      "sha256": "053350a6d894b11a24a52e9b220eb97315b65d3ed7f7724d7b8653020b18557d"
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/native-cli-migration-20260917/verification-20260918.json",
+      "sha256": "36c235d92dfb34a600725313650635b59e28e668d1956063a64af71b70620a40"
+    }
+  ],
+  "triage": "docs/reference/evidence/cases/native-tool-triage-20260918.json"
+}

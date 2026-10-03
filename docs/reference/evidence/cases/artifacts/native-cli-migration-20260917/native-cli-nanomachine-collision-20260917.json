@@ -1,0 +1,19 @@
+{
+  "applied": false,
+  "outputs": [
+    {
+      "beforeSha256": "f95aae054bb922c00a316fcdeb00f42b5b94a13713a6032f4f6386a946731adc",
+      "bytes": 657,
+      "matchesTarget": true,
+      "path": "characters/npcs/nanomachine/Nanomachine.collision.json",
+      "sha256": "f95aae054bb922c00a316fcdeb00f42b5b94a13713a6032f4f6386a946731adc"
+    },
+    {
+      "beforeSha256": "32e0eed45175c3174be9133a22b6a1896689161ed14ff72d65aa498d909207b1",
+      "bytes": 7256,
+      "matchesTarget": true,
+      "path": "characters/npcs/nanomachine/Nanomachine.collision.glb",
+      "sha256": "32e0eed45175c3174be9133a22b6a1896689161ed14ff72d65aa498d909207b1"
+    }
+  ]
+}

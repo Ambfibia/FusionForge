@@ -1,0 +1,12 @@
+{
+  "applied": false,
+  "outputs": [
+    {
+      "beforeSha256": "f12a6f804e878dc1c93aa06b4a9b3eeae326cdc87c91f48f844bc9a84ef41f00",
+      "bytes": 47756098,
+      "matchesTarget": true,
+      "path": "data/tables/table-set.json",
+      "sha256": "f12a6f804e878dc1c93aa06b4a9b3eeae326cdc87c91f48f844bc9a84ef41f00"
+    }
+  ]
+}

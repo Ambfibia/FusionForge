@@ -1,0 +1,99 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 1,
+    "name": "Camera",
+    "pathId": 1325,
+    "rawBytes": 59,
+    "rawSha256": "a5063196757a5b287213d63fdd690901fffd5693a6ca20a87c39f37bfc961797",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "GameObject",
+    "typeId": 1,
+    "value": {
+      "m_Component": [
+        [
+          4,
+          {
+            "fileId": 0,
+            "pathId": 1227
+          }
+        ],
+        [
+          20,
+          {
+            "fileId": 0,
+            "pathId": 1413
+          }
+        ],
+        [
+          114,
+          {
+            "fileId": 0,
+            "pathId": 1414
+          }
+        ]
+      ],
+      "m_IsActive": 0,
+      "m_Layer": 0,
+      "m_Name": "Camera",
+      "m_Tag": 0
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/m_Component/0/1",
+      "fileId": 0,
+      "pathId": 1227,
+      "status": "resolved",
+      "target": {
+        "pathId": 1227,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Transform"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Component/1/1",
+      "fileId": 0,
+      "pathId": 1413,
+      "status": "resolved",
+      "target": {
+        "pathId": 1413,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Camera"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Component/2/1",
+      "fileId": 0,
+      "pathId": 1414,
+      "status": "resolved",
+      "target": {
+        "pathId": 1414,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

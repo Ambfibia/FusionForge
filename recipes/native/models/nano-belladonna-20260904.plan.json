@@ -1,0 +1,10 @@
+{
+  "models": [
+    {
+      "id": "nano/nano_belladonna",
+      "candidate": "repaired/characters/nanos/nano_belladonna/nano_belladonnaN.glb",
+      "evidence": "accepted-gpu/characters/nanos/nano_belladonna/nano_belladonnaN.gpu.json",
+      "target": "characters/nanos/nano_belladonna/nano_belladonnaN.glb"
+    }
+  ]
+}

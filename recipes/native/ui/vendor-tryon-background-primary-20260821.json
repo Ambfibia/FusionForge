@@ -1,0 +1,66 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "vendor-tryon-background-primary-20260821",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "native-target"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "main.unity3d",
+    "containerBytes": 8221718,
+    "containerSha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+    "objects": [
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 613,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "tryview"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "extraction",
+    "tool": "tools/legacy-sources/publish-tryon-background.py",
+    "toolRevision": "sha256:d5828541f3216cde5c074c14ea6a40db2b512956c1a8e3bdd5a06fd3121d4489",
+    "workingDirectory": ".",
+    "commands": [
+      "./fusionforge.cmd export-exact-texture ../builds/retrobution-20260821/main.unity3d 613 work/legacy-sources/whole-client-audit-20260905/tryon-texture.json",
+      "python tools/legacy-sources/publish-tryon-background.py work/legacy-sources/whole-client-audit-20260905/tryon-texture.json ../FFOneClient/assets/game/ui/user-equip/try-on-background.png"
+    ]
+  },
+  "inputs": [],
+  "outputs": [
+    {
+      "path": "ui/user-equip/try-on-background.png",
+      "bytes": 67326,
+      "sha256": "e990a8f268afad7781b360ddc3cb38f697f3271535dd9705fd7b347105f6312d"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "Replay publisher to Editor work/tryon-replay.png and compare bytes",
+      "result": "passed",
+      "evidence": "docs/reference/evidence/cases/shared-ui-owners-20260905.md"
+    },
+    {
+      "command": "Compare decoded PNG with source RGBA after exporter vertical flip",
+      "result": "passed",
+      "evidence": "Source RGBA sha256 920c59cf950a80748da83cb41513a80f9a1c688d9b7b96e79ca5c0f46ba0d94f; 215x375"
+    },
+    {
+      "command": "vendor_ui_gpu_preview try-on and try-on-close in en and ru",
+      "result": "passed",
+      "evidence": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-tryon-acceptance.json"
+    },
+    {
+      "command": "target/debug/xtask.exe assets --source assets/game --full",
+      "result": "failed",
+      "evidence": "Unrelated existing textures/hnpc/m_face_006_a.png has no declared runtime owner group. Focused payload acceptance does not waive full validation."
+    }
+  ]
+}

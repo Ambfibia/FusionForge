@@ -1,0 +1,86 @@
+{
+  "schema": "ffone.weapon-effect-audit-evidence.v1",
+  "id": "weapon-firing-effect-audit-20260902",
+  "status": "measured",
+  "question": "Do published weapons carry the clean client's firing effects, including the rocket and grenade warhead families?",
+  "producer": {
+    "tool": "tools/legacy-sources/weapon-effect-audit.py",
+    "command": "python tools\\legacy-sources\\weapon-effect-audit.py work\\legacy-sources\\equip-additive-20260902\\weapon-effect-audit.json",
+    "primaryBuild": "retrobution-20260821"
+  },
+  "contract": {
+    "targetMode": "cnAvatarAttack.AttackTarget branches on m_iTargetMode (eWeaponTargetMode: 0 Hand, 1 Melee, 2 Pistol, 3 Shotgun, 4 Sniper, 5 Rocket, 6 Grenade). ffone-client tutorial_player_presentation maps 5 to LegacyWeaponTargetMode::Rocket, 6 to Grenade and every other value to Normal, which is exact.",
+    "firingEffect": "MakeBullet uses m_iEffect1, or m_iEffect2 while cnOwnAvatarStatus.iBatteryWpn > 0 and that value is non-zero. Both index BulletTable.m_pBulletData.",
+    "warhead": "Rocket and grenade rows drive cnWarHead with m_iDurationTime * 0.1 seconds; grenades additionally use m_iDeliverTime * 0.5 as the initial vertical speed. Rocket mode deliberately ignores the vertical speed, which ffone-client already encodes.",
+    "outboundAbi": "Rocket and grenade fire emit P_CL2FE_REQ_PC_ROCKET_STYLE_FIRE / P_CL2FE_REQ_PC_GRENADE_STYLE_FIRE; every other mode emits the hitscan P_CL2FE_REQ_PC_ATTACK_NPCs."
+  },
+  "result": {
+    "obtainableWeaponRows": 806,
+    "targetModeDistribution": {
+      "Melee": 202,
+      "Pistol": 178,
+      "Shotgun": 226,
+      "Sniper": 73,
+      "Rocket": 74,
+      "Grenade": 53
+    },
+    "publishedBulletTableRows": 39,
+    "publishedProjectileParticles": 28,
+    "publishedWeaponEffectIds": 23,
+    "rocketOrGrenadeRowsWithInvalidWarheadTiming": 0,
+    "unresolvedBulletTypes": [170, 171, 172, 173, 174]
+  },
+  "findings": [
+    "Weapon firing effects are correct and complete for every obtainable weapon whose bullet type exists in the source. All six firing modes are represented, and all 127 rocket and grenade rows carry valid warhead duration and delivery timing.",
+    "The only unresolved firing effects are bullet types 170 to 174, referenced by 16 weapon slots. This is a defect in the clean client's own data, not an FFOne gap: the primary `bullettable` MonoBehaviour (PathID 14153) has exactly 170 entries in `m_pBulletData`, so valid indices end at 169. Verified independently from the published closure `map/shared/projectiles/bullettable.closure.json`, not only from the runtime-contracts comment.",
+    "The affected items are Style Rifle and its variants (170/171, Sniper), M.U.S.K.E.T. (172, Pistol) and Wilt's Basketball Blaster (173/174, Shotgun). The original client would index past the end of its own table for these, so rendering no projectile is the parity-correct behaviour and nothing should be fabricated.",
+    "Wilt's Basketball Blaster is one of the four weapon models staged for publication. Its model is publishable; its firing effect is not, for the reason above."
+  ],
+  "stagedWeaponModels": [
+    {
+      "item": 759,
+      "name": "Wilt's Basketball Blaster",
+      "model": "shattergun_wilt",
+      "targetMode": "Shotgun",
+      "effect1": 173,
+      "effect2": 174,
+      "effectsResolve": false,
+      "note": "both bullet types are past the end of the source BulletTable"
+    },
+    {
+      "item": 761,
+      "name": "Mojo Tank Cannon",
+      "model": "rocket_mojotankcannon",
+      "targetMode": "Rocket",
+      "effect1": 69,
+      "effect2": 161,
+      "effectsResolve": true,
+      "warheadDurationSeconds": 1.0
+    },
+    {
+      "item": 762,
+      "name": "Eduardo Horned Club",
+      "model": "melee_eduardoclub",
+      "targetMode": "Melee",
+      "effect1": 6,
+      "effect2": 146,
+      "effectsResolve": true
+    },
+    {
+      "item": 764,
+      "name": "Razor Mantis Scythe",
+      "model": "melee_razor",
+      "targetMode": "Melee",
+      "effect1": 6,
+      "effect2": 146,
+      "effectsResolve": true
+    }
+  ],
+  "publicationBlocker": {
+    "summary": "The four staged models cannot be installed by any existing tool, and their diffuse textures still need publishing.",
+    "installer": "install-player-equipment writes the retired characters/player/equipment/ layout and needs the removed global asset-manifest.json; verify_player_item_sets now rejects that directory outright. An incremental installer for the organized characters/player/items/ layout is required.",
+    "textures": "Each model's XDT primary texture lives in a DIFFERENT bundle from its NIF, so the single-bundle equipment publisher only embedded ToonRamp9. m_pstrMTextureString gives CharTexture.resourceFile texture/shattergun_wilt.dds, texture/rocket_mojotankcannon.dds and texture/melee_eduardoclub.dds, while Razor Mantis Scythe uses NpcTexture.resourceFile texture/mob_knifetoenail.dds. A published set carries that XDT-named texture, as characters/player/items/weapon/theown_discobomb/textures/thrown_spideregg.png shows.",
+    "identityDerivationVerified": "item id = 'player-item-' + blake3('characters/player/equipment/<category>/<trueName>/<trueName>.glb'); a single-member set id is 'player-item-set-' + the same hash. Recomputing it for the installed back_alien reproduces fc2d2f7c765af95c9d3cddbee4e45b8320ebbd7dd23031e57c4bbf634f09d86f exactly.",
+    "afterInstall": "regenerate data/character_creation/avatar_items.json with install-character-creation-data so the four modelStatus entries flip from missing."
+  }
+}

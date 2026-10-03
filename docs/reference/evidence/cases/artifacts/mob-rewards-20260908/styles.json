@@ -1,0 +1,303 @@
+{
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "object": {
+    "classId": 114,
+    "name": "FusionFallHUDSkin",
+    "pathId": 1372,
+    "rawBytes": 18864,
+    "rawSha256": "60e70aebd92302dfaca7cbed3d9de69abcbb0e41926b0fd53f759d3b9007b31a",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "MonoBehaviour",
+    "typeId": -2
+  },
+  "styles": [
+    {
+      "m_Active": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        }
+      },
+      "m_Alignment": 4,
+      "m_Border": {
+        "m_Bottom": 5,
+        "m_Left": 5,
+        "m_Right": 5,
+        "m_Top": 5
+      },
+      "m_ContentOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_FixedHeight": 0.0,
+      "m_FixedWidth": 0.0,
+      "m_Focused": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        }
+      },
+      "m_Font": {
+        "fileId": 0,
+        "pathId": 1012
+      },
+      "m_Hover": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        }
+      },
+      "m_ImagePosition": 3,
+      "m_Margin": {
+        "m_Bottom": 4,
+        "m_Left": 4,
+        "m_Right": 4,
+        "m_Top": 4
+      },
+      "m_Name": "BigFont16",
+      "m_Normal": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        }
+      },
+      "m_OnActive": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 0.0,
+          "g": 0.0,
+          "r": 0.0
+        }
+      },
+      "m_OnFocused": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 0.0,
+          "g": 0.0,
+          "r": 0.0
+        }
+      },
+      "m_OnHover": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        }
+      },
+      "m_OnNormal": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 0.0,
+          "g": 0.0,
+          "r": 0.0
+        }
+      },
+      "m_Overflow": {
+        "m_Bottom": 0,
+        "m_Left": 0,
+        "m_Right": 0,
+        "m_Top": 0
+      },
+      "m_Padding": {
+        "m_Bottom": 6,
+        "m_Left": 10,
+        "m_Right": 6,
+        "m_Top": 4
+      },
+      "m_StretchHeight": 0,
+      "m_StretchWidth": 1,
+      "m_TextClipping": 1,
+      "m_WordWrap": 1
+    },
+    {
+      "m_Active": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        }
+      },
+      "m_Alignment": 1,
+      "m_Border": {
+        "m_Bottom": 0,
+        "m_Left": 0,
+        "m_Right": 0,
+        "m_Top": 0
+      },
+      "m_ContentOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_FixedHeight": 0.0,
+      "m_FixedWidth": 0.0,
+      "m_Focused": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        }
+      },
+      "m_Font": {
+        "fileId": 0,
+        "pathId": 903
+      },
+      "m_Hover": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        }
+      },
+      "m_ImagePosition": 3,
+      "m_Margin": {
+        "m_Bottom": 0,
+        "m_Left": 0,
+        "m_Right": 0,
+        "m_Top": 0
+      },
+      "m_Name": "centerbox3",
+      "m_Normal": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 0.9959677457809448,
+          "r": 1.0
+        }
+      },
+      "m_OnActive": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 0.0,
+          "g": 0.0,
+          "r": 0.0
+        }
+      },
+      "m_OnFocused": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 0.0,
+          "g": 0.0,
+          "r": 0.0
+        }
+      },
+      "m_OnHover": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        }
+      },
+      "m_OnNormal": {
+        "m_Background": {
+          "fileId": 0,
+          "pathId": 0
+        },
+        "m_TextColor": {
+          "a": 1.0,
+          "b": 0.0,
+          "g": 0.0,
+          "r": 0.0
+        }
+      },
+      "m_Overflow": {
+        "m_Bottom": 0,
+        "m_Left": 0,
+        "m_Right": 0,
+        "m_Top": 0
+      },
+      "m_Padding": {
+        "m_Bottom": 0,
+        "m_Left": 0,
+        "m_Right": 0,
+        "m_Top": 0
+      },
+      "m_StretchHeight": 0,
+      "m_StretchWidth": 0,
+      "m_TextClipping": 0,
+      "m_WordWrap": 0
+    }
+  ],
+  "unresolvedEngineScript": {
+    "allowUnresolvedPointers": true,
+    "unresolvedPointerCount": 18
+  },
+  "note": "The GUISkin MonoScript external is the built-in Unity resource. Local font/texture pointers are scoped and resolved; no default-resource bytes are substituted."
+}

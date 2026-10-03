@@ -1,0 +1,319 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "world-visual-regressions-20260913",
+  "question": "Why do vendor particles disappear behind distant world surfaces, why are Nano status visuals missing, and why does the Area 51 liner vortex disappear or stop cycling?",
+  "status": "closed",
+  "nativeConsumer": "FFOneClient native material passes, world animation sampling and world skill effects",
+  "acceptance": [
+    "Exact raw shader state and scoped ownership",
+    "Native material and status lifecycle tests",
+    "Independent vortex channel cycles at 1, 3 and 17 periods",
+    "Full native binary build and GPU captures at multiple view angles",
+    "Fresh staged Nano publication matches all final hashes"
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        "DongResources_12_10.resourceFile",
+        "Effects.resourceFile",
+        "Tutorial.resourceFile",
+        "main.unity3d"
+      ]
+    },
+    {
+      "alias": "alternate",
+      "role": "comparison_only",
+      "anchors": [
+        "Map05_05.resourceFile"
+      ]
+    }
+  ],
+  "candidates": [],
+  "evidenceArtifacts": [
+    {
+      "id": "vortex-shader",
+      "kind": "strict_object_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/world-visual-regressions-20260913/vortex-shader.json",
+      "bytes": 4708,
+      "sha256": "f8c6086a698d45fd94317550440184ffe1b04c3d041b4d0b437272c4b6e33b62",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "./fusionforge.cmd dump-object-evidence primary ../builds/retrobution-20260821 DongResources_12_10.resourceFile 255 --serialized-asset CustomAssetBundle-b35a71b799a32429bbe08591cf8fa254 --type Shader --out docs/reference/evidence/cases/artifacts/world-visual-regressions-20260913/vortex-shader.json"
+      }
+    },
+    {
+      "id": "ship-vortex-animation",
+      "kind": "strict_object_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/world-visual-regressions-20260913/ship-vortex-animation.json",
+      "bytes": 3160,
+      "sha256": "85299b45e40fd5bce276b53dd8a2972d848328e98b0d3e4fdbc40027a932e8d1",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "./fusionforge.cmd dump-object-evidence primary ../builds/retrobution-20260821 DongResources_12_10.resourceFile 1637 --serialized-asset CustomAssetBundle-b35a71b799a32429bbe08591cf8fa254 --type Animation --out docs/reference/evidence/cases/artifacts/world-visual-regressions-20260913/ship-vortex-animation.json"
+      }
+    },
+    {
+      "id": "ship-vortex-clip",
+      "kind": "strict_object_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/world-visual-regressions-20260913/ship-vortex-clip.json",
+      "bytes": 12266,
+      "sha256": "2d9b18d557fd7c84b431b4434f85d8b9a374e1577e2bd788be85b9ff39fc955c",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "./fusionforge.cmd dump-object-evidence primary ../builds/retrobution-20260821 DongResources_12_10.resourceFile 183 --serialized-asset CustomAssetBundle-b35a71b799a32429bbe08591cf8fa254 --type AnimationClip --out docs/reference/evidence/cases/artifacts/world-visual-regressions-20260913/ship-vortex-clip.json"
+      }
+    },
+    {
+      "id": "nano-shader-2210",
+      "kind": "strict_object_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/world-visual-regressions-20260913/nano-shader-2210.json",
+      "bytes": 3975,
+      "sha256": "594fef3ed6b3d13b4d6bfa997aaac3e83d2e8b8f04d88b7b3d94df2dcd7cf074",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "./fusionforge.cmd dump-object-evidence primary ../builds/retrobution-20260821 Effects.resourceFile 2210 --serialized-asset CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918 --type Shader --out docs/reference/evidence/cases/artifacts/world-visual-regressions-20260913/nano-shader-2210.json"
+      }
+    },
+    {
+      "id": "nano-shader-2212",
+      "kind": "strict_object_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/world-visual-regressions-20260913/nano-shader-2212.json",
+      "bytes": 3917,
+      "sha256": "9e11fa9fd257d9731719630fe111e35b7ad92e552b0d321855351063494b56da",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "./fusionforge.cmd dump-object-evidence primary ../builds/retrobution-20260821 Effects.resourceFile 2212 --serialized-asset CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918 --type Shader --out docs/reference/evidence/cases/artifacts/world-visual-regressions-20260913/nano-shader-2212.json"
+      }
+    },
+    {
+      "id": "cul-nano-final-frame",
+      "kind": "native_gpu_capture",
+      "path": "../FFOneClient/target/performance/visual-regressions/cul-nano-final/frame.png",
+      "bytes": 3231249,
+      "sha256": "d1fdcb306999acbcf13c5d90d010f405c2f780a99c8cba95f20777d54c560ee9"
+    },
+    {
+      "id": "cul-nano-final-report",
+      "kind": "native_runtime_report",
+      "path": "../FFOneClient/target/performance/visual-regressions/cul-nano-final/report.json",
+      "bytes": 10538,
+      "sha256": "cf69979a2193b27a5979acfc6e63b28166754666962594b2c16e750313e1a4fc"
+    },
+    {
+      "id": "cul-nano-alpha-test-frame",
+      "kind": "native_gpu_capture",
+      "path": "../FFOneClient/target/performance/visual-regressions/cul-nano-alpha-test/frame.png",
+      "bytes": 3762301,
+      "sha256": "f067fa2c1aab707374de76b8330f0b8886acc3397c43e26bb636bd06cae24329"
+    },
+    {
+      "id": "cul-nano-alpha-test-report",
+      "kind": "native_runtime_report",
+      "path": "../FFOneClient/target/performance/visual-regressions/cul-nano-alpha-test/report.json",
+      "bytes": 10653,
+      "sha256": "ee9c848ed071b3e34fc2fcb8f3463c7b797d2ee377470a1ed4ba014035d1b25e"
+    },
+    {
+      "id": "vortex-west-verified-frame",
+      "kind": "native_gpu_capture",
+      "path": "../FFOneClient/target/performance/visual-regressions/vortex-west-verified/frame.png",
+      "bytes": 2120387,
+      "sha256": "2193bb7f1aef1e11818ffbdba8cf168a7ee349acc7b8dcc209e41d6458695315"
+    },
+    {
+      "id": "vortex-west-verified-report",
+      "kind": "native_runtime_report",
+      "path": "../FFOneClient/target/performance/visual-regressions/vortex-west-verified/report.json",
+      "bytes": 10782,
+      "sha256": "167c94254df87ad0364218ad11fd977ddbf7f75c57ea2d425d668843f6b68ace"
+    },
+    {
+      "id": "vortex-south-verified-frame",
+      "kind": "native_gpu_capture",
+      "path": "../FFOneClient/target/performance/visual-regressions/vortex-south-verified/frame.png",
+      "bytes": 2463927,
+      "sha256": "602a7e2db3332484ef89f8781500dbfa618377bc2f4b02b6f065e2dda6bf01c7"
+    },
+    {
+      "id": "vortex-south-verified-report",
+      "kind": "native_runtime_report",
+      "path": "../FFOneClient/target/performance/visual-regressions/vortex-south-verified/report.json",
+      "bytes": 10771,
+      "sha256": "3e22e10163974925a822b3d610315cf1c395ce9522a1e2228060fe3c3485a0e7"
+    },
+    {
+      "id": "nano-uniform-frozen-frame",
+      "kind": "native_gpu_capture",
+      "path": "../FFOneClient/target/performance/visual-regressions/nano-uniform-frozen/frame.png",
+      "bytes": 3356258,
+      "sha256": "e0dc867405f8ab2d644ab09664f5b225845738398251c610c9c93f1ee0b90dab"
+    },
+    {
+      "id": "nano-uniform-frozen-report",
+      "kind": "native_runtime_report",
+      "path": "../FFOneClient/target/performance/visual-regressions/nano-uniform-frozen/report.json",
+      "bytes": 10617,
+      "sha256": "2e64c885ab9b15bf41566c519b40188aab57428513e3fd9b4c7856a1d5cedecc"
+    },
+    {
+      "id": "nano-uniform-frozen-baseline-frame",
+      "kind": "native_gpu_capture",
+      "path": "../FFOneClient/target/performance/visual-regressions/nano-uniform-frozen-baseline/frame.png",
+      "bytes": 3246399,
+      "sha256": "2dae030cca762bfbbcab03655cab301fe3a5a9674f10f8f80a51a0242c10102e"
+    },
+    {
+      "id": "nano-uniform-frozen-baseline-report",
+      "kind": "native_runtime_report",
+      "path": "../FFOneClient/target/performance/visual-regressions/nano-uniform-frozen-baseline/report.json",
+      "bytes": 10743,
+      "sha256": "c86a07d05ebeafcba9022fee8bcc2b601889a49d46b1240b446aec2f137a3151"
+    },
+    {
+      "id": "cul-nano-uniform-baseline-frame",
+      "kind": "native_gpu_capture",
+      "path": "../FFOneClient/target/performance/visual-regressions/cul-nano-uniform-baseline/frame.png",
+      "bytes": 3232631,
+      "sha256": "ce57a161a99fd8d094987d33ff950f145860069b02d2e464bd31d13ab5631757"
+    },
+    {
+      "id": "cul-nano-uniform-baseline-report",
+      "kind": "native_runtime_report",
+      "path": "../FFOneClient/target/performance/visual-regressions/cul-nano-uniform-baseline/report.json",
+      "bytes": 10563,
+      "sha256": "3d6d5ad10db6e5d3c2ecfc76883c83cde17ad24d8ed7d76ff3095e330ac3a625"
+    },
+    {
+      "id": "cul-nano-bounded-frame",
+      "kind": "native_gpu_capture",
+      "path": "../FFOneClient/target/performance/visual-regressions/cul-nano-bounded/frame.png",
+      "bytes": 3234536,
+      "sha256": "4a260f136e6ec4e945529cb86f6512e9aebd74543c4242a536994f9ef246b61b",
+      "producer": {
+        "tool": "FFOneClient offline full-client fixture",
+        "command": "FFONE_PERF_OUTPUT=target/performance/visual-regressions/cul-nano-bounded FFONE_PERF_POSITION=\"-4345 -52.6 3810\" FFONE_PERF_YAW=0 FFONE_PERF_PITCH=0 FFONE_PERF_BUFF=11 FFONE_PERF_EFFECT=714 FFONE_PERF_NPCS=1 target/debug/ffone-client.exe"
+      }
+    },
+    {
+      "id": "cul-nano-bounded-report",
+      "kind": "native_runtime_report",
+      "path": "../FFOneClient/target/performance/visual-regressions/cul-nano-bounded/report.json",
+      "bytes": 10785,
+      "sha256": "384d54237c16fad67864d7129cdb2ac2853aa2fcf0e87f9547c151b8809943e8",
+      "producer": {
+        "tool": "FFOneClient offline full-client fixture",
+        "command": "FFONE_PERF_OUTPUT=target/performance/visual-regressions/cul-nano-bounded FFONE_PERF_POSITION=\"-4345 -52.6 3810\" FFONE_PERF_YAW=0 FFONE_PERF_PITCH=0 FFONE_PERF_BUFF=11 FFONE_PERF_EFFECT=714 FFONE_PERF_NPCS=1 target/debug/ffone-client.exe"
+      }
+    },
+    {
+      "id": "nano-final-build-frame",
+      "kind": "native_gpu_capture",
+      "path": "../FFOneClient/target/performance/visual-regressions/nano-final-build/frame.png",
+      "bytes": 3223275,
+      "sha256": "b34a7d57449d012e1cbecb336da804b321798518862eb6d42007b195eb00cf4f",
+      "producer": {
+        "tool": "FFOneClient offline full-client fixture",
+        "command": "FFONE_PERF_OUTPUT=target/performance/visual-regressions/nano-final-build FFONE_PERF_POSITION=\"-4345 -52.6 3810\" FFONE_PERF_YAW=0 FFONE_PERF_PITCH=0 FFONE_PERF_BUFF=11 FFONE_PERF_EFFECT=714 target/debug/ffone-client.exe"
+      }
+    },
+    {
+      "id": "nano-final-build-report",
+      "kind": "native_runtime_report",
+      "path": "../FFOneClient/target/performance/visual-regressions/nano-final-build/report.json",
+      "bytes": 11174,
+      "sha256": "0081523391df4fca84ebd5323eb85a10e3a5a4fcb101c89561ab436a6bd38076",
+      "producer": {
+        "tool": "FFOneClient offline full-client fixture",
+        "command": "FFONE_PERF_OUTPUT=target/performance/visual-regressions/nano-final-build FFONE_PERF_POSITION=\"-4345 -52.6 3810\" FFONE_PERF_YAW=0 FFONE_PERF_PITCH=0 FFONE_PERF_BUFF=11 FFONE_PERF_EFFECT=714 target/debug/ffone-client.exe"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "Eight of twelve ship vortex surfaces used an unsupported exact source-color blend shader.",
+      "state": "proven",
+      "evidence": [
+        "vortex-shader"
+      ],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "The primary compressed vortex clip is already a seamless common-duration loop.",
+      "state": "rejected",
+      "evidence": [
+        "ship-vortex-animation",
+        "ship-vortex-clip"
+      ],
+      "rejectedBecause": "Default wrapMode is 0; three channels do not close and channel durations differ."
+    },
+    {
+      "claim": "Galaxy Gardens needs an added purple global filter.",
+      "state": "rejected",
+      "evidence": [],
+      "rejectedBecause": "Owner explicitly retained the primary turquoise appearance after comparison."
+    }
+  ],
+  "differences": [
+    {
+      "classification": "owner-requested native repair",
+      "description": "Per-channel vortex repeat plus three closing samples; not claimed as authored primary behavior."
+    },
+    {
+      "classification": "comparison_only",
+      "description": "Academy environment was inspected, but no alternate Galaxy Gardens environment was adopted."
+    }
+  ],
+  "conclusion": "Accepted native visual repair within the reported scope: common queue ordering, missing vortex pass, independent vortex cycles, and Nano status resources/ownership. Galaxy Gardens retains turquoise. Source lifecycle tests and offline full-client GPU captures pass; no live-server combat or universal Nano cast parity claim.",
+  "nativeContract": {
+    "renderOrder": "Use common queue ordering for native world surfaces and particles, retaining depth test, culling, pass count and source blend factors.",
+    "nanoOwnership": "Persistent status visuals follow authoritative condition masks and exact actor attachment nodes; validated instant results produce one-shot effects. Clone shared material before instance-local numeric animation, enqueue uniform updates.",
+    "vortexTiming": "Repeat explicit native rotation channels at their own periods; retain authored interior keys.",
+    "environment": "Retain Galaxy Gardens turquoise."
+  },
+  "verification": [
+    {
+      "command": "python tools/legacy-sources/publish-nano-status-effects.py --source-root ../builds/retrobution-20260821 --navigation work/projects/retrobution-ui-20260821.ffclient --work work/cases/world-visual-regressions-20260913/nano-replay",
+      "result": "Fresh replay matches all 267 published outputs."
+    },
+    {
+      "command": "cargo test -p ffone-client --lib legacy_model_material::tests -- --nocapture",
+      "result": "66 passed; 0 failed"
+    },
+    {
+      "command": "cargo test -p ffone-client --bin ffone-client world_skill_effects -- --nocapture",
+      "result": "4 passed; 0 failed, including unnamed production player root"
+    },
+    {
+      "command": "cargo test -p ffone-asset-pipeline legacy_shader_state -- --nocapture",
+      "result": "23 passed; 1 ignored; 0 failed"
+    },
+    {
+      "command": "node tools/audit-render-duplicates.mjs",
+      "result": "read-only report completed; no geometry or placement merging performed; no FPS claim"
+    },
+    {
+      "command": "FFONE_PERF_BUFF=11 FFONE_PERF_FREEZE=1, with and without FFONE_PERF_UNIFORM_BASELINE=1",
+      "result": "Frozen effect region [620,680,1400,1020] has zero pixel difference. Full frame mean absolute channel difference is 0.2658/255; background temporal differences prevent full-frame equality."
+    },
+    {
+      "command": "cargo build -p ffone-client --bin ffone-client",
+      "result": "passed; final binary exercised in nano-final-build",
+      "binary": {
+        "path": "target/debug/ffone-client.exe",
+        "bytes": 218675200,
+        "sha256": "f5b2db7d9df288985156f45920c12d097c487b0b2d1f2cdefcd17983c62bdd6f"
+      }
+    },
+    {
+      "command": "cargo test -p ffone-client --lib -- vortex production_coco production_skill_mesh buff_timeout material_sharing_tests mesh_effect_queue gpu_uniforms::tests",
+      "result": "16 passed after descendant-only animation traversal; 0 failed"
+    }
+  ]
+}

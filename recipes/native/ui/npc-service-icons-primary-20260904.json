@@ -1,0 +1,54 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "npc-service-icons-primary-20260904",
+  "status": "accepted",
+  "supersedes": [],
+  "target": { "alias": "ffone" },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "main.unity3d",
+    "containerBytes": 8221718,
+    "containerSha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+    "objects": [
+      { "serializedAsset": "sharedassets0.assets", "type": "MonoBehaviour", "pathId": 1397, "fileId": 0, "containerRoute": "NpcIconMode.pButtonTex", "trueName": "NpcIconMode" },
+      { "serializedAsset": "sharedassets0.assets", "type": "Texture2D", "pathId": 107, "fileId": 0, "containerRoute": "NpcIconMode.pButtonTex[8]", "trueName": "npcicon_ep" },
+      { "serializedAsset": "sharedassets0.assets", "type": "Texture2D", "pathId": 585, "fileId": 0, "containerRoute": "NpcIconMode.pButtonTex[20]", "trueName": "CombiIcon" },
+      { "serializedAsset": "sharedassets0.assets", "type": "Texture2D", "pathId": 591, "fileId": 0, "containerRoute": "NpcIconMode.pButtonTex[22], NpcIconMode.pButtonTex[23]", "trueName": "CombiRulesIcon" }
+    ]
+  },
+  "transform": {
+    "kind": "exact-texture-decode",
+    "tool": "fusionforge export-exact-texture + ffone-asset-pipeline publish_exact_texture",
+    "toolRevision": "86324d05303a076b9814bddff800635cb2f73954",
+    "workingDirectory": ".",
+    "commands": [
+      "target-build\\debug\\ff-client-editor.exe fusionforge export-exact-texture ..\\builds\\retrobution-20260821\\main.unity3d 107 work\\projects\\retrobution-ui-20260821.ffclient\\reports\\npc-service-icons-20260904\\texture-107.exact.json",
+      "target-build\\debug\\ff-client-editor.exe fusionforge export-exact-texture ..\\builds\\retrobution-20260821\\main.unity3d 585 work\\projects\\retrobution-ui-20260821.ffclient\\reports\\npc-service-icons-20260904\\texture-585.exact.json",
+      "target-build\\debug\\ff-client-editor.exe fusionforge export-exact-texture ..\\builds\\retrobution-20260821\\main.unity3d 591 work\\projects\\retrobution-ui-20260821.ffclient\\reports\\npc-service-icons-20260904\\texture-591.exact.json",
+      "cargo run -p ffone-asset-pipeline --bin publish_exact_texture -- work\\projects\\retrobution-ui-20260821.ffclient\\reports\\npc-service-icons-20260904\\texture-107.exact.json work\\projects\\retrobution-ui-20260821.ffclient\\reports\\npc-service-icons-20260904\\staging\\texture-107.png",
+      "cargo run -p ffone-asset-pipeline --bin publish_exact_texture -- work\\projects\\retrobution-ui-20260821.ffclient\\reports\\npc-service-icons-20260904\\texture-585.exact.json work\\projects\\retrobution-ui-20260821.ffclient\\reports\\npc-service-icons-20260904\\staging\\texture-585.png",
+      "cargo run -p ffone-asset-pipeline --bin publish_exact_texture -- work\\projects\\retrobution-ui-20260821.ffclient\\reports\\npc-service-icons-20260904\\texture-591.exact.json work\\projects\\retrobution-ui-20260821.ffclient\\reports\\npc-service-icons-20260904\\staging\\texture-591.png"
+    ]
+  },
+  "inputs": [
+    { "path": "work/projects/retrobution-ui-20260821.ffclient/reports/npc-service-icons-20260904/npc-icon-mode.object-evidence.json", "bytes": 13068, "sha256": "1d4b91e84648043f4e27717bc8e6f32b11238c6a2ff1319f1ab4c7bfd6071146" },
+    { "path": "work/projects/retrobution-ui-20260821.ffclient/reports/npc-service-icons-20260904/texture-107.object-evidence.json", "bytes": 8009, "sha256": "b01f7b1a7d73466bf67c5924c5932ea85e46acfd332fb0bc3b431011e4db61a1" },
+    { "path": "work/projects/retrobution-ui-20260821.ffclient/reports/npc-service-icons-20260904/texture-107.exact.json", "bytes": 8683, "sha256": "2703feecd5cdda7b27a1ae8dc13b0c24f85627d93bdf813ab694693666c62c60" },
+    { "path": "work/projects/retrobution-ui-20260821.ffclient/reports/npc-service-icons-20260904/texture-585.object-evidence.json", "bytes": 8007, "sha256": "eb0437f5f3c306e1372b038ac936fd6dc587e80aa0a320082da80ee1668557af" },
+    { "path": "work/projects/retrobution-ui-20260821.ffclient/reports/npc-service-icons-20260904/texture-585.exact.json", "bytes": 9458, "sha256": "bb7ed38495800a381a3cafc589af26bb090cc62994b8fd5419108df2d68b0402" },
+    { "path": "work/projects/retrobution-ui-20260821.ffclient/reports/npc-service-icons-20260904/texture-591.object-evidence.json", "bytes": 8017, "sha256": "c9d3ce4137cabb6cd1ba09415a75a84508ed634c813bf62ee2d85318147b4d05" },
+    { "path": "work/projects/retrobution-ui-20260821.ffclient/reports/npc-service-icons-20260904/texture-591.exact.json", "bytes": 9879, "sha256": "445445f6a2cdb3753972427f1178bc8c237327a478757c0c4eb7a7ea6dd119b6" }
+  ],
+  "outputs": [
+    { "path": "assets/game/ui/gameplay/journal/npcicon_08.png", "bytes": 2082, "sha256": "951126e355a64c5cc038b96ff74c8109705a482c949e98667a55e7b671ab7d5a" },
+    { "path": "assets/game/ui/gameplay/journal/npcicon_20.png", "bytes": 2371, "sha256": "d301439cf1a871372ef2b79786e831f501e990a3fe9cc05d8d216f81be6d0af0" },
+    { "path": "assets/game/ui/gameplay/journal/npcicon_22.png", "bytes": 2528, "sha256": "fee52ce0dc01e379ca2bf426af69a85e5fd58966b79b64ae477cc336b7ec85b8" },
+    { "path": "assets/game/ui/gameplay/journal/npcicon_23.png", "bytes": 2528, "sha256": "fee52ce0dc01e379ca2bf426af69a85e5fd58966b79b64ae477cc336b7ec85b8" }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    { "command": "cargo test -p ffone-client --lib utility_service_icons_match_clean_primary_bytes", "result": "passed", "evidence": "runtime exact-asset hash and dimensions test" },
+    { "command": "cargo build -p ffone-client --bin ffone-client", "result": "passed", "evidence": "real development binary rebuilt" },
+    { "command": "target/debug/xtask.exe assets --source assets/game", "result": "blocked by existing non-canonical textures/shared/k_testing_fx.mips/mip-01.png map path", "evidence": "the focused runtime exact-asset test passed before the unrelated full-catalog blocker" }
+  ]
+}

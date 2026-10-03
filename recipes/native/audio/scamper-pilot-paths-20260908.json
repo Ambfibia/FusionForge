@@ -1,0 +1,52 @@
+[
+  {
+    "oldName": "MKNDTransport1_Greeting01.ogg",
+    "path": "audio/voice/ru/m_kndtransport1/kndtransport1_greeting01.ogg",
+    "sha256": "5baaafb7271faac94d4aa85b0f89370b595b6eeae8caab9116e1185642a67c50"
+  },
+  {
+    "oldName": "MKNDTransport1_Greeting02.ogg",
+    "path": "audio/voice/ru/m_kndtransport1/kndtransport1_greeting02.ogg",
+    "sha256": "e5881876bd300de91e044ef1e81dd56b2306558078e3b21e081dff82f4b29465"
+  },
+  {
+    "oldName": "MKNDTransport1_Farewell01.ogg",
+    "path": "audio/voice/ru/m_kndtransport1/kndtransport1_farewell01.ogg",
+    "sha256": "8fc82c2a819ed8fa877ee086dad4576a8e8e0beb19db7bb3ae903f8c464ae5fe"
+  },
+  {
+    "oldName": "MKNDTransport1_Farewell02.ogg",
+    "path": "audio/voice/ru/m_kndtransport1/kndtransport1_farewell02.ogg",
+    "sha256": "f9f082bc454362d636cca0cb35437d6a516b6d178f7ba3bcca243830662bd7e1"
+  },
+  {
+    "oldName": "MKNDTransport1_Farewell03.ogg",
+    "path": "audio/voice/ru/m_kndtransport1/kndtransport1_farewell03.ogg",
+    "sha256": "cb606cc2ec5cf0f4325c675dde0ea6a8913d80af2bd7f61c071ac54f9080deeb"
+  },
+  {
+    "oldName": "MKNDTransport2_Greeting01.ogg",
+    "path": "audio/voice/ru/m_kndtransport2/kndtransport2_greeting01.ogg",
+    "sha256": "5baaafb7271faac94d4aa85b0f89370b595b6eeae8caab9116e1185642a67c50"
+  },
+  {
+    "oldName": "MKNDTransport2_Greeting02.ogg",
+    "path": "audio/voice/ru/m_kndtransport2/kndtransport2_greeting02.ogg",
+    "sha256": "e5881876bd300de91e044ef1e81dd56b2306558078e3b21e081dff82f4b29465"
+  },
+  {
+    "oldName": "MKNDTransport2_Farewell01.ogg",
+    "path": "audio/voice/ru/m_kndtransport2/kndtransport2_farewell01.ogg",
+    "sha256": "8fc82c2a819ed8fa877ee086dad4576a8e8e0beb19db7bb3ae903f8c464ae5fe"
+  },
+  {
+    "oldName": "MKNDTransport2_Farewell02.ogg",
+    "path": "audio/voice/ru/m_kndtransport2/kndtransport2_farewell02.ogg",
+    "sha256": "f9f082bc454362d636cca0cb35437d6a516b6d178f7ba3bcca243830662bd7e1"
+  },
+  {
+    "oldName": "MKNDTransport2_Farewell03.ogg",
+    "path": "audio/voice/ru/m_kndtransport2/kndtransport2_farewell03.ogg",
+    "sha256": "cb606cc2ec5cf0f4325c675dde0ea6a8913d80af2bd7f61c071ac54f9080deeb"
+  }
+]

@@ -1,0 +1,148 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "omniverse-albedo-20260905",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone-native"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "DongResources_03_12.resourceFile",
+    "containerBytes": 2863553,
+    "containerSha256": "eaa54ffd5c8b3832b2571f89161b1f5264a734f40ebea17d12dcb75e1620b341",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-f21e40bcf21734459900551158e6843f",
+        "type": "GameObject",
+        "pathId": 811,
+        "fileId": 0,
+        "containerRoute": "mob/npc_albedo.kfm",
+        "trueName": "npc_albedo"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "additive-extension",
+    "tool": "tools/legacy-sources/publish-omniverse-npcs.py",
+    "toolRevision": "86324d05303a076b9814bddff800635cb2f73954 + source hashes in inputs",
+    "workingDirectory": ".",
+    "commands": [
+      "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/DongResources_03_12.resourceFile mob/npc_albedo.kfm work/legacy-sources/omniverse-npcs-20260905/sources/npc_albedo.source.json work/projects/retrobution-ui-20260821.ffclient",
+      "target-build/debug/ffone-asset-pipeline.exe publish-logical-model work/legacy-sources/omniverse-npcs-20260905/sources/npc_albedo.source.json npc work/legacy-sources/omniverse-npcs-20260905/candidate",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/NpcTexture.resourceFile 542 work/legacy-sources/omniverse-npcs-20260905/textures/npc_albedo2.exact.json",
+      "target-build/debug/publish_exact_texture.exe work/legacy-sources/omniverse-npcs-20260905/textures/npc_albedo2.exact.json work/legacy-sources/omniverse-npcs-20260905/candidate/textures/npc_albedo2.png",
+      "python tools/legacy-sources/publish-omniverse-npcs.py --work work/legacy-sources/omniverse-npcs-20260905 --native-root ../FFOneClient/assets/game --server-root ../OpenFusion --source-root ../builds/retrobution-20260821 --primary-evidence work/legacy-sources/mobs-retrobution-20260821.xdt.object-evidence.json --stage work/legacy-sources/omniverse-npcs-20260905/fresh-replay"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/sources/npc_albedo.source.json",
+      "bytes": 37794337,
+      "sha256": "66bb8e495ac6894e1c430d684f750a1ca9dd2df33c7216dda02d9a3549805df7"
+    },
+    {
+      "path": "crates/ffone-asset-pipeline/src/logical_model_publish.rs",
+      "bytes": 353513,
+      "sha256": "f65d7d2703e25b34fabf44d73a18e45eb1c4e3d114e951a1500c7b137b185887"
+    },
+    {
+      "path": "tools/legacy-sources/publish-omniverse-npcs.py",
+      "bytes": 11311,
+      "sha256": "fcbbc6c6c315588d2b1a6719ba2edc6a4166b1c343bd6bbc54a246b5a100d977"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "NpcTexture.resourceFile",
+      "bytes": 15239269,
+      "sha256": "95504fa80830d2c54540e576a44707096b746d761448d086e294a6f1cd0dc171"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "Tutorial.resourceFile",
+      "bytes": 33327638,
+      "sha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "CharacterCreation.resourceFile",
+      "bytes": 14379095,
+      "sha256": "18b40ba54e4840beb768a9aec03fff8d66dfac82ca4171c5d1b5701775126666"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "TableData.resourceFile",
+      "bytes": 802929,
+      "sha256": "bd8767c2d316f60a4b38de320794701b2391d7b40412020bdc1d17e88c7b7212"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/textures/npc_albedo2.exact.json",
+      "bytes": 475059,
+      "sha256": "04c7a294fa24662b37cf3e6feaee75920c05c2e91b9351ffeb732777ca8e23de"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/textures/npc_albedo2.object.json",
+      "bytes": 176352,
+      "sha256": "f5cb6d3d036c28c93f3b3d7720a022b25a7218b074539c9b43a6a9eef8db8f41"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/gpu/models/npc/npc_albedo.gpu.json",
+      "bytes": 1271,
+      "sha256": "5a610ecde959ee5318a20323ac695a9e2d6f7c8694008f7c5167a330055a2814"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/dressed-sampled/npc_albedo.json",
+      "bytes": 2150,
+      "sha256": "4da0dcb2f052d15d704cf06f2db6d865aa86427f6a796156832fc8ede4de4904"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/replay-comparison.json",
+      "bytes": 2080,
+      "sha256": "f8862340950dfe66fa21f5d5eb10b0e6bf66935fc14fbb9a717acb50cf441743"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "characters/npcs/omniverse_albedo/body.png",
+      "bytes": 176930,
+      "sha256": "41f62c0160a589c63e24fd43165437611585343a32dc2b50cd671c4ce3119c79"
+    },
+    {
+      "path": "characters/npcs/omniverse_albedo/npc_albedo.glb",
+      "bytes": 4733036,
+      "sha256": "4286b44136c62c1d79388561ae852beeae03c7abd924a85c46da472faea081d5"
+    },
+    {
+      "path": "characters/npcs/omniverse_albedo/npc_albedo.textures/npc_albedo_face.png",
+      "bytes": 3968,
+      "sha256": "f36c93e5df64e73d95ea11579fc4768f6de372f3e75cd6938c2a449736082a01"
+    },
+    {
+      "path": "characters/npcs/omniverse_albedo/npc_albedo.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    }
+  ],
+  "divergenceFromPrimary": "Owner-requested separate NPC type; original NPC retained. No placements. Primary geometry, textures and clips, with current native character shader policy. Albedo uses existing native portrait because the primary icon route 116 is absent.",
+  "verification": [
+    {
+      "command": "logical_model_gpu_preview --asset-root work/legacy-sources/omniverse-npcs-20260905/candidate --model models/npc/npc_albedo.glb --animation-name stand1 --evidence-root work/legacy-sources/omniverse-npcs-20260905/gpu --outline source --frames 120 --timeout 30",
+      "result": "passed; GPU load/animation only, primary visual equality not asserted",
+      "evidence": "work/legacy-sources/omniverse-npcs-20260905/gpu/models/npc/npc_albedo.gpu.json"
+    },
+    {
+      "command": "Native GPU preview with XDT main PNG and exact sampler (recorded in smoke report)",
+      "result": "passed; inspected body/face texture binding and stand1 rendering",
+      "evidence": "work/legacy-sources/omniverse-npcs-20260905/dressed-sampled/npc_albedo.json"
+    },
+    {
+      "command": "publish-logical-model replay and complete binary payload byte comparison",
+      "result": "passed",
+      "evidence": "work/legacy-sources/omniverse-npcs-20260905/replay-comparison.json"
+    }
+  ]
+}

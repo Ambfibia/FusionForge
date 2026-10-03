@@ -1,0 +1,54 @@
+{
+  "applied": false,
+  "outputs": [
+    {
+      "beforeSha256": "a6f14bd684f7a15210f0577d37b527e33674e3d21d253ec4e6b7a76e7aa2305a",
+      "bytes": 147,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/controls/title.png",
+      "sha256": "a6f14bd684f7a15210f0577d37b527e33674e3d21d253ec4e6b7a76e7aa2305a"
+    },
+    {
+      "beforeSha256": "92d288bb07904a5b69836a23b0aadc18b4d1a3c490e8a36df2eb72969cc576aa",
+      "bytes": 161,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/controls/help-button-hover.png",
+      "sha256": "92d288bb07904a5b69836a23b0aadc18b4d1a3c490e8a36df2eb72969cc576aa"
+    },
+    {
+      "beforeSha256": "bca914c6b6e9cefc1d9972939ddbd8b4241b6cf40b7ff435e6294ba461a80545",
+      "bytes": 157,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/controls/help-button-normal.png",
+      "sha256": "bca914c6b6e9cefc1d9972939ddbd8b4241b6cf40b7ff435e6294ba461a80545"
+    },
+    {
+      "beforeSha256": "504525e1476d8a753f39821411d9fbdb9bdf7fd299496a0fd251d1dfc9be7463",
+      "bytes": 496,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/controls/scroll-up.png",
+      "sha256": "504525e1476d8a753f39821411d9fbdb9bdf7fd299496a0fd251d1dfc9be7463"
+    },
+    {
+      "beforeSha256": "a7afff2d82ddc872cc99bc2695039530ce1e1a554dceb95f33e344804ef589ad",
+      "bytes": 318,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/controls/scroll-thumb.png",
+      "sha256": "a7afff2d82ddc872cc99bc2695039530ce1e1a554dceb95f33e344804ef589ad"
+    },
+    {
+      "beforeSha256": "94cc317466de205d6336038b99626a3596ea5592298ecdc409f4e93c7fb83355",
+      "bytes": 225,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/controls/scroll-track.png",
+      "sha256": "94cc317466de205d6336038b99626a3596ea5592298ecdc409f4e93c7fb83355"
+    },
+    {
+      "beforeSha256": "de13be5d83a1e28ebd312c1c38f293dc28126514f90e92124084e431b5a149fd",
+      "bytes": 481,
+      "matchesTarget": true,
+      "path": "ui/en/gameplay/game-guide/controls/scroll-down.png",
+      "sha256": "de13be5d83a1e28ebd312c1c38f293dc28126514f90e92124084e431b5a149fd"
+    }
+  ]
+}

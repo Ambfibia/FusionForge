@@ -1,0 +1,146 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "audio-gaps-dongresources-03-04-20260908",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "native-target"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "DongResources_03_04.resourceFile",
+    "containerBytes": 4123027,
+    "containerSha256": "86a27558769af826ea561e32c410a1ea34f4e891d92a92f03344b7b341606fb9",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-7d00e198fbc014c6291cdf141731d1ff",
+        "type": "AudioClip",
+        "pathId": 1347,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "fatima_farewell01"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-7d00e198fbc014c6291cdf141731d1ff",
+        "type": "AudioClip",
+        "pathId": 1348,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "fatima_farewell02"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-7d00e198fbc014c6291cdf141731d1ff",
+        "type": "AudioClip",
+        "pathId": 1349,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "fatima_farewell03"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-7d00e198fbc014c6291cdf141731d1ff",
+        "type": "AudioClip",
+        "pathId": 1350,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "fatima_greeting01"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-7d00e198fbc014c6291cdf141731d1ff",
+        "type": "AudioClip",
+        "pathId": 1351,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "fatima_greeting02"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "lossless-audio-publication",
+    "tool": "tools/legacy-sources/publish-audio-gaps.py",
+    "toolRevision": "857406bc95b5dd7a5983cefc3838c86b302600a8 (working tree; tool SHA-256 5e4bde84481aaba0701c8162ab482b0d79a0b2122b9375e9985b1a5ba4a4f7da)",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/legacy-sources/publish-audio-gaps.py --plan recipes/native/audio/audio-gaps-20260908.plan.json --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/cases/audio-gaps-20260908/pass1",
+      "python tools/legacy-sources/publish-audio-gaps.py --plan recipes/native/audio/audio-gaps-20260908.plan.json --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/cases/audio-gaps-20260908/pass2",
+      "python tools/legacy-sources/publish-audio-gaps.py --plan recipes/native/audio/audio-gaps-20260908.plan.json --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/cases/audio-gaps-20260908/pass2 --reuse-evidence --apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "recipes/native/audio/audio-gaps-20260908.plan.json",
+      "sha256": "90f4042d8cb348ccd05f8b96d0f7ba2ea483db5f668ea54db45b4d61cc6be763"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "audio/voice/en/fatima/farewell01.ogg",
+      "bytes": 33254,
+      "sha256": "970647096ec42b94258e46769f8041cb639e3d91da44f818d796535f5f22a096"
+    },
+    {
+      "path": "audio/voice/en/fatima/farewell02.ogg",
+      "bytes": 26457,
+      "sha256": "b9272520644d1599fa575da137ccf5de63130b8af397fbe406539fbf34d8c690"
+    },
+    {
+      "path": "audio/voice/en/fatima/farewell03.ogg",
+      "bytes": 32549,
+      "sha256": "465f00d033ae3487334d86518b1950c3b982b4099e55189fa16a3fe98e740d90"
+    },
+    {
+      "path": "audio/voice/en/fatima/greeting01.ogg",
+      "bytes": 32338,
+      "sha256": "1fc73df0bba188ef51013d11e574a76919aeebfa597572a7e52f193641ababe3"
+    },
+    {
+      "path": "audio/voice/en/fatima/greeting02.ogg",
+      "bytes": 37797,
+      "sha256": "4b4e434f977546b4a9bdcc44be46cac7e17304b2a358b8331522351b19661141"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "Compare pass1/outputs.json with pass2/outputs.json and native output SHA-256 values",
+      "result": "passed: 41 independently exported Ogg payloads match; native files match accepted hashes",
+      "evidence": "work/cases/audio-gaps-20260908/pass2/outputs.json"
+    }
+  ],
+  "nativeRouteRows": [
+    {
+      "logicalKey": "voice/fatima/farewell01",
+      "trueName": "fatima_farewell01",
+      "category": "voice",
+      "owner": "fatima",
+      "path": "fatima/farewell01.ogg"
+    },
+    {
+      "logicalKey": "voice/fatima/farewell02",
+      "trueName": "fatima_farewell02",
+      "category": "voice",
+      "owner": "fatima",
+      "path": "fatima/farewell02.ogg"
+    },
+    {
+      "logicalKey": "voice/fatima/farewell03",
+      "trueName": "fatima_farewell03",
+      "category": "voice",
+      "owner": "fatima",
+      "path": "fatima/farewell03.ogg"
+    },
+    {
+      "logicalKey": "voice/fatima/greeting01",
+      "trueName": "fatima_greeting01",
+      "category": "voice",
+      "owner": "fatima",
+      "path": "fatima/greeting01.ogg"
+    },
+    {
+      "logicalKey": "voice/fatima/greeting02",
+      "trueName": "fatima_greeting02",
+      "category": "voice",
+      "owner": "fatima",
+      "path": "fatima/greeting02.ogg"
+    }
+  ]
+}

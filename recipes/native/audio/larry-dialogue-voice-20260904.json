@@ -1,0 +1,321 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "larry-dialogue-voice-20260904",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "native-target"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "Retro_shared.resourceFile",
+    "containerBytes": 14258661,
+    "containerSha256": "2ca4147c3705fdd3a0fc0ec44e088da6e87279e978e73b19701b0d29babbfc33",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AudioClip",
+        "pathId": 30032,
+        "fileId": 0,
+        "containerRoute": "vo/larry_farewell01.wav",
+        "trueName": "Larry_Farewell01-2",
+        "rawSha256": "43cc848fe3c40541d434b6d0f1f587d0d8eb88cbab91956aca4f85077c6fd8a5"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AudioClip",
+        "pathId": 30032,
+        "fileId": 0,
+        "containerRoute": "vo/larry_farewell02.wav",
+        "trueName": "Larry_Farewell01-2",
+        "rawSha256": "43cc848fe3c40541d434b6d0f1f587d0d8eb88cbab91956aca4f85077c6fd8a5"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AudioClip",
+        "pathId": 30033,
+        "fileId": 0,
+        "containerRoute": "vo/larry_farewell03.wav",
+        "trueName": "Larry_Farewell03",
+        "rawSha256": "39d207b327e9483f6e431734111661e047a3a20c7822449f5a02a765501e32d7"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AudioClip",
+        "pathId": 30034,
+        "fileId": 0,
+        "containerRoute": "vo/larry_goodluck01.wav",
+        "trueName": "Larry_Goodluck01",
+        "rawSha256": "41b550a457dd1628c819c3c8dae38b9539af678b19b10069fecde518462c5df0"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AudioClip",
+        "pathId": 30035,
+        "fileId": 0,
+        "containerRoute": "vo/larry_goodluck02.wav",
+        "trueName": "Larry_Goodluck02-3",
+        "rawSha256": "9fb4db6c2a52d14bcb06325aa29e6209ee9d155d317684b156a03cb1ea3e0f69"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AudioClip",
+        "pathId": 30035,
+        "fileId": 0,
+        "containerRoute": "vo/larry_goodluck03.wav",
+        "trueName": "Larry_Goodluck02-3",
+        "rawSha256": "9fb4db6c2a52d14bcb06325aa29e6209ee9d155d317684b156a03cb1ea3e0f69"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AudioClip",
+        "pathId": 30031,
+        "fileId": 0,
+        "containerRoute": "vo/larry_greeting01.wav",
+        "trueName": "Larry_Greeting",
+        "rawSha256": "71f3f70a39683b85a857aef32fd6ef4378ceecc6ce8f4544b38a1282b9196197"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AudioClip",
+        "pathId": 30031,
+        "fileId": 0,
+        "containerRoute": "vo/larry_greeting02.wav",
+        "trueName": "Larry_Greeting",
+        "rawSha256": "71f3f70a39683b85a857aef32fd6ef4378ceecc6ce8f4544b38a1282b9196197"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AudioClip",
+        "pathId": 30036,
+        "fileId": 0,
+        "containerRoute": "vo/larry_nicejob01.wav",
+        "trueName": "Larry_Nicejob01",
+        "rawSha256": "091234d893a7f3ec3646e6fb9f0371e19f484662c95838db24988ad2461d26b1"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AudioClip",
+        "pathId": 30037,
+        "fileId": 0,
+        "containerRoute": "vo/larry_nicejob02.wav",
+        "trueName": "Larry_Nicejob02-3",
+        "rawSha256": "b407adf039d55f26fb4805529b184b36e52dcc35a7193e590940c67a22815548"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AudioClip",
+        "pathId": 30037,
+        "fileId": 0,
+        "containerRoute": "vo/larry_nicejob03.wav",
+        "trueName": "Larry_Nicejob02-3",
+        "rawSha256": "b407adf039d55f26fb4805529b184b36e52dcc35a7193e590940c67a22815548"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AudioClip",
+        "pathId": 30031,
+        "fileId": 0,
+        "containerRoute": "vo/larry_qgreeting.wav",
+        "trueName": "Larry_Greeting",
+        "rawSha256": "71f3f70a39683b85a857aef32fd6ef4378ceecc6ce8f4544b38a1282b9196197"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "extract",
+    "tool": "tools/legacy-sources/publish-larry-voice.py",
+    "toolRevision": "a2fe5b9b6198061f1fefc2328de8fcb40884b371d787e2ea52f8e1be302d0766",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/legacy-sources/publish-larry-voice.py --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/legacy-sources/larry-voice --apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "audio/voice/ru/larry/Larry_Farewell012.ogg",
+      "bytes": 50166,
+      "sha256": "3e2f564f170a2206b336c45aa8dcf4da48a6804600241c440729f8701ea13e99"
+    },
+    {
+      "path": "audio/voice/ru/larry/Larry_Farewell03.ogg",
+      "bytes": 73643,
+      "sha256": "a8988ba1545da1bd9225646757ae59b72c7ef40ba249661cc161a5bf2666a427"
+    },
+    {
+      "path": "audio/voice/ru/larry/Larry_Goodluck01.ogg",
+      "bytes": 107704,
+      "sha256": "25d4045d2d21aeaec7c9901d171de76789448f3f4c5d3404c8eed2c370aa8f98"
+    },
+    {
+      "path": "audio/voice/ru/larry/Larry_Goodluck023.ogg",
+      "bytes": 97270,
+      "sha256": "f20f1c80df684b379d06a8fc26d0254f2742974513cf3f553d739f9f0131c3f6"
+    },
+    {
+      "path": "audio/voice/ru/larry/Larry_Greeting.ogg",
+      "bytes": 37024,
+      "sha256": "5f7c97d0513f6459831a22a0d177465fc5341b002b349ded0d36a57cfffc0447"
+    },
+    {
+      "path": "audio/voice/ru/larry/Larry_Nicejob01.ogg",
+      "bytes": 44881,
+      "sha256": "010c0fe540cadab990b264982b34bf4ebd678022396ed44d003f54d946189a1f"
+    },
+    {
+      "path": "audio/voice/ru/larry/Larry_Nicejob023.ogg",
+      "bytes": 47868,
+      "sha256": "97ceb9bdcfb1cea78954e24a4947bffa3d7588b19cd37245835cb3b1b1d39e0c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "audio/voice/en/larry/farewell01.ogg",
+      "bytes": 15675,
+      "sha256": "efce61fcd11c97a3bec9c5c5c6974f1cbbe13ba8f0cd7974e9fcd442107bf88d"
+    },
+    {
+      "path": "audio/voice/ru/larry/farewell01.ogg",
+      "bytes": 50166,
+      "sha256": "3e2f564f170a2206b336c45aa8dcf4da48a6804600241c440729f8701ea13e99"
+    },
+    {
+      "path": "audio/voice/en/larry/farewell02.ogg",
+      "bytes": 15675,
+      "sha256": "efce61fcd11c97a3bec9c5c5c6974f1cbbe13ba8f0cd7974e9fcd442107bf88d"
+    },
+    {
+      "path": "audio/voice/ru/larry/farewell02.ogg",
+      "bytes": 50166,
+      "sha256": "3e2f564f170a2206b336c45aa8dcf4da48a6804600241c440729f8701ea13e99"
+    },
+    {
+      "path": "audio/voice/en/larry/farewell03.ogg",
+      "bytes": 19484,
+      "sha256": "c6c414fe695fe46f9dbe7790355a7311939fc9e4123af7c8f010b1c1255a470d"
+    },
+    {
+      "path": "audio/voice/ru/larry/farewell03.ogg",
+      "bytes": 73643,
+      "sha256": "a8988ba1545da1bd9225646757ae59b72c7ef40ba249661cc161a5bf2666a427"
+    },
+    {
+      "path": "audio/voice/en/larry/goodluck01.ogg",
+      "bytes": 11291,
+      "sha256": "a0e2ca80b67bf20f31e2675e11d4adab610846d1e4c2070581647593aa0a0d50"
+    },
+    {
+      "path": "audio/voice/ru/larry/goodluck01.ogg",
+      "bytes": 107704,
+      "sha256": "25d4045d2d21aeaec7c9901d171de76789448f3f4c5d3404c8eed2c370aa8f98"
+    },
+    {
+      "path": "audio/voice/en/larry/goodluck02.ogg",
+      "bytes": 11524,
+      "sha256": "47c0f2fca16e25e528270a60905332b277d439fec831de88c3643da763dea146"
+    },
+    {
+      "path": "audio/voice/ru/larry/goodluck02.ogg",
+      "bytes": 97270,
+      "sha256": "f20f1c80df684b379d06a8fc26d0254f2742974513cf3f553d739f9f0131c3f6"
+    },
+    {
+      "path": "audio/voice/en/larry/goodluck03.ogg",
+      "bytes": 11524,
+      "sha256": "47c0f2fca16e25e528270a60905332b277d439fec831de88c3643da763dea146"
+    },
+    {
+      "path": "audio/voice/ru/larry/goodluck03.ogg",
+      "bytes": 97270,
+      "sha256": "f20f1c80df684b379d06a8fc26d0254f2742974513cf3f553d739f9f0131c3f6"
+    },
+    {
+      "path": "audio/voice/en/larry/greeting01.ogg",
+      "bytes": 14253,
+      "sha256": "a5c5435c3cd238d592ebde2c5c68245d277145284249bce09e283039d6f2a6af"
+    },
+    {
+      "path": "audio/voice/ru/larry/greeting01.ogg",
+      "bytes": 37024,
+      "sha256": "5f7c97d0513f6459831a22a0d177465fc5341b002b349ded0d36a57cfffc0447"
+    },
+    {
+      "path": "audio/voice/en/larry/greeting02.ogg",
+      "bytes": 14253,
+      "sha256": "a5c5435c3cd238d592ebde2c5c68245d277145284249bce09e283039d6f2a6af"
+    },
+    {
+      "path": "audio/voice/ru/larry/greeting02.ogg",
+      "bytes": 37024,
+      "sha256": "5f7c97d0513f6459831a22a0d177465fc5341b002b349ded0d36a57cfffc0447"
+    },
+    {
+      "path": "audio/voice/en/larry/nicejob01.ogg",
+      "bytes": 13146,
+      "sha256": "0153d0690d512447ba89dcb4ecad84cd53ecac7c7cf0691cefd869aa03bdf513"
+    },
+    {
+      "path": "audio/voice/ru/larry/nicejob01.ogg",
+      "bytes": 44881,
+      "sha256": "010c0fe540cadab990b264982b34bf4ebd678022396ed44d003f54d946189a1f"
+    },
+    {
+      "path": "audio/voice/en/larry/nicejob02.ogg",
+      "bytes": 14043,
+      "sha256": "8ab1918727436375821aa79c6845e128583ac991e00aa4f06e2b33d4dcaddc83"
+    },
+    {
+      "path": "audio/voice/ru/larry/nicejob02.ogg",
+      "bytes": 47868,
+      "sha256": "97ceb9bdcfb1cea78954e24a4947bffa3d7588b19cd37245835cb3b1b1d39e0c"
+    },
+    {
+      "path": "audio/voice/en/larry/nicejob03.ogg",
+      "bytes": 14043,
+      "sha256": "8ab1918727436375821aa79c6845e128583ac991e00aa4f06e2b33d4dcaddc83"
+    },
+    {
+      "path": "audio/voice/ru/larry/nicejob03.ogg",
+      "bytes": 47868,
+      "sha256": "97ceb9bdcfb1cea78954e24a4947bffa3d7588b19cd37245835cb3b1b1d39e0c"
+    },
+    {
+      "path": "audio/voice/en/larry/qgreeting.ogg",
+      "bytes": 14253,
+      "sha256": "a5c5435c3cd238d592ebde2c5c68245d277145284249bce09e283039d6f2a6af"
+    },
+    {
+      "path": "audio/voice/ru/larry/qgreeting.ogg",
+      "bytes": 37024,
+      "sha256": "5f7c97d0513f6459831a22a0d177465fc5341b002b349ded0d36a57cfffc0447"
+    },
+    {
+      "path": "_runtime/audio.json",
+      "bytes": 3725677,
+      "sha256": "18206273d0163baa58822b4d33145a235306a0051b84e93a3ee8d487369450d7"
+    }
+  ],
+  "divergenceFromPrimary": "Russian locale uses existing native recordings matched to the exact AudioClip names; English bytes and shared route ownership are unchanged.",
+  "verification": [
+    {
+      "command": "python tools/legacy-sources/publish-larry-voice.py --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/legacy-sources/larry-voice --apply",
+      "result": "passed: strict scoped extraction; exact route set; Ogg signatures; staged/published SHA-256 equality",
+      "evidence": null
+    },
+    {
+      "command": "Replay publisher without --apply to work/legacy-sources/larry-voice-replay and compare SHA-256 of every staged Ogg against installed files",
+      "result": "passed: 24 of 24 byte-identical",
+      "evidence": null
+    },
+    {
+      "command": "cargo test -p ffone-client-foundation --test larry_dialogue_voice (from FFOneClient)",
+      "result": "passed: all 12 routes in EN/RU resolve uniquely, decode to nonzero samples, and preserve shared-recording groups",
+      "evidence": null
+    },
+    {
+      "command": "cargo build -p ffone-client --bin ffone-client (from FFOneClient)",
+      "result": "passed",
+      "evidence": null
+    }
+  ]
+}

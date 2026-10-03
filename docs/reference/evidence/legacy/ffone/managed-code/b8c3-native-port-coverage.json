@@ -1,0 +1,59 @@
+{
+  "schema": "ffone.coverage-map.v1",
+  "entries": [
+    {
+      "source": "assembly-csharp/AvatarUtil.cs",
+      "status": "partial",
+      "nativeModules": ["ffone-client::movement"],
+      "evidence": "direction matrix and movement packet field conversion are reference matched"
+    },
+    {
+      "source": "assembly-firstpass/ConfigurableInput.cs",
+      "status": "partial",
+      "nativeModules": ["ffone-client::movement"],
+      "evidence": "normal keyboard/mouse movement, exact opposing-key precedence, arrows, jump, autorun, free camera, zoom, turn inputs and serialized mouse-axis scaling are covered; joystick/pad input remains"
+    },
+    {
+      "source": "assembly-csharp/CoordUtil.cs",
+      "status": "reference-matched",
+      "nativeModules": ["ffone-client::movement"],
+      "evidence": "server and client axis swap and scale have exact round-trip tests"
+    },
+    {
+      "source": "assembly-csharp/UserMoveController.cs",
+      "status": "partial",
+      "nativeModules": ["ffone-client::remote"],
+      "evidence": "normal remote MOVE STOP JUMP interpolation and lag stop are covered"
+    },
+    {
+      "source": "assembly-csharp/cnAvatarThirdPersonMove.cs",
+      "status": "partial",
+      "nativeModules": ["ffone-client::movement"],
+      "evidence": "normal input movement, full grounded launch frame, edge-jump gating, automatic fall/rise Jump transitions, landing packet timing, and post-Move camera yaw ordering are covered; water, side-jump, slope sliding, moving surfaces, vehicles, and special movement remain"
+    },
+    {
+      "source": "assembly-csharp/cnNetworkManager.cs",
+      "status": "partial",
+      "nativeModules": ["ffone-net", "ffone-client::network"],
+      "evidence": "login, shard entry, heartbeat, bootstrap and normal movement transport are covered"
+    },
+    {
+      "source": "assembly-csharp/cnPlayerCamera.cs",
+      "status": "partial",
+      "nativeModules": ["ffone-client::movement", "ffone-client::native_terrain", "ffone-client::world"],
+      "evidence": "normal orbit constants, keyboard/mouse input, sensitivity-derived rotation Slerp and authored MeshCollider/TerrainCollider occlusion are covered; remaining modal and cinematic behavior stays partial"
+    },
+    {
+      "source": "assembly-csharp/csSocket.cs",
+      "status": "partial",
+      "nativeModules": ["ffone-protocol", "ffone-net"],
+      "evidence": "framing, sequence flags and cipher have golden tests"
+    },
+    {
+      "source": "assembly-csharp/csSocketManager.cs",
+      "status": "partial",
+      "nativeModules": ["ffone-net"],
+      "evidence": "split login and gameplay sessions are implemented; reconnect and failures remain"
+    }
+  ]
+}

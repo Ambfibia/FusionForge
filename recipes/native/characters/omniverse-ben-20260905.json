@@ -1,0 +1,172 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "omniverse-ben-20260905",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone-native"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "Tutorial.resourceFile",
+    "containerBytes": 33327638,
+    "containerSha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "GameObject",
+        "pathId": 8341,
+        "fileId": 0,
+        "containerRoute": "mob/npc_bentennyson.kfm",
+        "trueName": "npc_bentennyson"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "additive-extension",
+    "tool": "tools/legacy-sources/publish-omniverse-npcs.py",
+    "toolRevision": "86324d05303a076b9814bddff800635cb2f73954 + source hashes in inputs",
+    "workingDirectory": ".",
+    "commands": [
+      "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/Tutorial.resourceFile mob/npc_bentennyson.kfm work/legacy-sources/omniverse-npcs-20260905/sources/npc_bentennyson.source.json work/projects/retrobution-ui-20260821.ffclient",
+      "target-build/debug/ffone-asset-pipeline.exe publish-logical-model work/legacy-sources/omniverse-npcs-20260905/sources/npc_bentennyson.source.json npc work/legacy-sources/omniverse-npcs-20260905/candidate-f32",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/Tutorial.resourceFile 339 work/legacy-sources/omniverse-npcs-20260905/textures/npc_ben.exact.json",
+      "target-build/debug/publish_exact_texture.exe work/legacy-sources/omniverse-npcs-20260905/textures/npc_ben.exact.json work/legacy-sources/omniverse-npcs-20260905/candidate/textures/npc_ben.png",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/Icons.resourceFile 912 work/legacy-sources/omniverse-npcs-20260905/icons/npcicon_68.exact.json",
+      "target-build/debug/publish_exact_texture.exe work/legacy-sources/omniverse-npcs-20260905/icons/npcicon_68.exact.json work/legacy-sources/omniverse-npcs-20260905/icons/npcicon_68.png",
+      "python tools/legacy-sources/publish-omniverse-npcs.py --work work/legacy-sources/omniverse-npcs-20260905 --native-root ../FFOneClient/assets/game --server-root ../OpenFusion --source-root ../builds/retrobution-20260821 --primary-evidence work/legacy-sources/mobs-retrobution-20260821.xdt.object-evidence.json --stage work/legacy-sources/omniverse-npcs-20260905/fresh-replay"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/sources/npc_bentennyson.source.json",
+      "bytes": 58567270,
+      "sha256": "e0bff911e223c74c5900020e32a00a10814e9481b2b646867337b59f6f497fa7"
+    },
+    {
+      "path": "crates/ffone-asset-pipeline/src/logical_model_publish.rs",
+      "bytes": 353513,
+      "sha256": "f65d7d2703e25b34fabf44d73a18e45eb1c4e3d114e951a1500c7b137b185887"
+    },
+    {
+      "path": "tools/legacy-sources/publish-omniverse-npcs.py",
+      "bytes": 11311,
+      "sha256": "fcbbc6c6c315588d2b1a6719ba2edc6a4166b1c343bd6bbc54a246b5a100d977"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "NpcTexture.resourceFile",
+      "bytes": 15239269,
+      "sha256": "95504fa80830d2c54540e576a44707096b746d761448d086e294a6f1cd0dc171"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "Tutorial.resourceFile",
+      "bytes": 33327638,
+      "sha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "CharacterCreation.resourceFile",
+      "bytes": 14379095,
+      "sha256": "18b40ba54e4840beb768a9aec03fff8d66dfac82ca4171c5d1b5701775126666"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "TableData.resourceFile",
+      "bytes": 802929,
+      "sha256": "bd8767c2d316f60a4b38de320794701b2391d7b40412020bdc1d17e88c7b7212"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/textures/npc_ben.exact.json",
+      "bytes": 446143,
+      "sha256": "b45190e2f0d8b9f849a3a05cbb06db443d901e1c0f8914cbd1bbc9a2496ec9c8"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/textures/npc_ben.object.json",
+      "bytes": 176323,
+      "sha256": "707e6e70f7ad40c748d0a01d9961b81a2bb1955c2716b693d385d8428a7b1a22"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/icons/npcicon_68.exact.json",
+      "bytes": 21170,
+      "sha256": "55f5f50fb45967d8cf4d3e633747936b2e284cf996161fea44d52c8b86f39c63"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/icons/npcicon_68.object.json",
+      "bytes": 23227,
+      "sha256": "e5af6b694e2f09f463e29554e72732286decceafeee563979020f068329ed989"
+    },
+    {
+      "kind": "raw-dependency",
+      "sourceAlias": "primary",
+      "relativeContainer": "Icons.resourceFile",
+      "bytes": 6557371,
+      "sha256": "e4a4b531cafa44b2c046f8dc8dea97c694bc0c6e455b0329232c2b09596eb96d"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/gpu-f32/models/npc/npc_bentennyson.gpu.json",
+      "bytes": 1286,
+      "sha256": "d35c1aba9ba9aeb41b38c46f19d1f1ccbf6b91fe76261b05a13e5f2b4a4d96b7"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/dressed-sampled/npc_bentennyson.json",
+      "bytes": 2253,
+      "sha256": "5804506ac4162f6afa5583be6311ef3a357f3d1950ccb2155518fd4489b3f754"
+    },
+    {
+      "path": "work/legacy-sources/omniverse-npcs-20260905/replay-comparison.json",
+      "bytes": 2080,
+      "sha256": "f8862340950dfe66fa21f5d5eb10b0e6bf66935fc14fbb9a717acb50cf441743"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "characters/npcs/omniverse_ben/body.png",
+      "bytes": 166088,
+      "sha256": "f5fb66f3ff10b13dc1222aba91e75debb96d504d760e0f32432c973611db8a0e"
+    },
+    {
+      "path": "characters/npcs/omniverse_ben/npc_bentennyson.glb",
+      "bytes": 6979652,
+      "sha256": "d269c31da1bf659a28b51822492571b3eb525088ab32665813e7d99713584597"
+    },
+    {
+      "path": "characters/npcs/omniverse_ben/npc_bentennyson.textures/npc_ben_happy.png",
+      "bytes": 4613,
+      "sha256": "8d730261c83c3824319cf6001362bad249093b3df716cab58ca05f15f171a679"
+    },
+    {
+      "path": "characters/npcs/omniverse_ben/npc_bentennyson.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "icons/entities/npc/npcicon_3464.png",
+      "bytes": 6729,
+      "sha256": "12be84f806e272684f96d13d32d49d20bec38821d8e8f6da38ea3d56ccba66a4"
+    }
+  ],
+  "divergenceFromPrimary": "Owner-requested separate NPC type; original NPC retained. No placements. Primary geometry, textures and clips, with current native character shader policy. Primary portrait copied under a new native icon number to retain original portraits.",
+  "verification": [
+    {
+      "command": "logical_model_gpu_preview --asset-root work/legacy-sources/omniverse-npcs-20260905/candidate-f32 --model models/npc/npc_bentennyson.glb --animation-name stand1 --evidence-root work/legacy-sources/omniverse-npcs-20260905/gpu-f32 --outline source --frames 120 --timeout 30",
+      "result": "passed; GPU load/animation only, primary visual equality not asserted",
+      "evidence": "work/legacy-sources/omniverse-npcs-20260905/gpu-f32/models/npc/npc_bentennyson.gpu.json"
+    },
+    {
+      "command": "Native GPU preview with XDT main PNG and exact sampler (recorded in smoke report)",
+      "result": "passed; inspected body/face texture binding and stand1 rendering",
+      "evidence": "work/legacy-sources/omniverse-npcs-20260905/dressed-sampled/npc_bentennyson.json"
+    },
+    {
+      "command": "publish-logical-model replay and complete binary payload byte comparison",
+      "result": "passed",
+      "evidence": "work/legacy-sources/omniverse-npcs-20260905/replay-comparison.json"
+    }
+  ]
+}

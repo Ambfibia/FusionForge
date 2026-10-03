@@ -1,0 +1,142 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "weapon-models-additive-20260902",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "CharacterSelection.resourceFile",
+    "containerBytes": 16737641,
+    "containerSha256": "see work/legacy-sources/equip-additive-20260902/candidates/equipment-logical-model-batch-report.json sourceBundles",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "GameObject",
+        "pathId": 249140,
+        "fileId": 0,
+        "containerRoute": "wear/melee_eduardoclub.nif",
+        "trueName": "melee_eduardoclub"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "GameObject",
+        "pathId": 0,
+        "fileId": 0,
+        "containerRoute": "wear/melee_razor.nif",
+        "trueName": "melee_razor"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "GameObject",
+        "pathId": 0,
+        "fileId": 0,
+        "containerRoute": "wear/rocket_mojotankcannon.nif",
+        "trueName": "rocket_mojotankcannon"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99",
+        "type": "GameObject",
+        "pathId": 0,
+        "fileId": 0,
+        "containerRoute": "wear/shattergun_wilt.nif",
+        "trueName": "shattergun_wilt"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "additive-equipment-model-publication",
+    "tool": "crates/ffone-asset-pipeline/src/player_item_model_install.rs",
+    "toolRevision": "ffone-asset-pipeline install-player-item-models v1",
+    "workingDirectory": ".",
+    "commands": [
+      "cargo run -- fusionforge export-equipment-model-sources 'work\\projects\\retrobution-ui-20260821.ffclient' 'work\\legacy-sources\\equip-additive-20260902\\semantic-plan.json' 'work\\legacy-sources\\equip-additive-20260902\\batch-source'",
+      "cargo run -p ffone-asset-pipeline --bin ffone-asset-pipeline -- publish-equipment-logical-model-batch 'work\\legacy-sources\\equip-additive-20260902\\batch-source' 'work\\legacy-sources\\equip-additive-20260902\\candidates'",
+      "cargo build --manifest-path ..\\FFOneClient\\Cargo.toml --profile release-fast --example logical_model_gpu_preview -p ffone-client",
+      "cargo run -p ffone-asset-pipeline --bin ffone-asset-pipeline -- accept-equipment-gpu-batch 'work\\legacy-sources\\equip-additive-20260902\\candidates' 'work\\legacy-sources\\equip-additive-20260902\\gpu-evidence-full' '..\\FFOneClient\\target\\release-fast\\examples\\logical_model_gpu_preview.exe' full 'work\\legacy-sources\\equip-additive-20260902\\gpu-batch-full.json'",
+      "cargo run -p ffone-asset-pipeline --bin ffone-asset-pipeline -- install-player-item-models 'work\\legacy-sources\\equip-additive-20260902\\candidates' 'work\\legacy-sources\\equip-additive-20260902\\gpu-batch-full.json' '..\\FFOneClient\\assets\\game' retrobution-20260821 'work\\legacy-sources\\equip-additive-20260902\\install-applied.json' --apply",
+      "cargo run -p ffone-asset-pipeline --bin ffone-asset-pipeline -- refresh-avatar-item-models '..\\FFOneClient\\assets\\game' 'work\\legacy-sources\\equip-additive-20260902\\avatar-refresh-applied.json' --apply"
+    ]
+  },
+  "problem": "These four weapon models were the entire remaining player-equipment gap: avatar_items.json named them through m_pstrMMeshModelString but resolved no model. No existing tool could install them. install-player-equipment targets the retired characters/player/equipment/ layout and the global asset-manifest.json that the asset migration removed, and verify_player_item_sets now rejects that directory outright; install-character-creation-data indexes the tree through the same removed manifest. Two narrow, tracked tools were added instead of resurrecting either.",
+  "newTools": [
+    {
+      "command": "ffone-asset-pipeline install-player-item-models",
+      "source": "crates/ffone-asset-pipeline/src/player_item_model_install.rs",
+      "purpose": "Append GPU-accepted equipment models to the organized characters/player/items layout, reproducing the organizer's own identity derivation.",
+      "identityProof": "item id = 'player-item-' + blake3('characters/player/equipment/<category>/<trueName>/<trueName>.glb'); a single-member set id is 'player-item-set-' + the same hash. The unit test pins this against the installed back_alien id fc2d2f7c765af95c9d3cddbee4e45b8320ebbd7dd23031e57c4bbf634f09d86f."
+    },
+    {
+      "command": "ffone-asset-pipeline refresh-avatar-item-models",
+      "source": "crates/ffone-asset-pipeline/src/avatar_item_model_refresh.rs",
+      "purpose": "Fill in avatar_items.json model entries whose modelStatus is missing while the installed player-item catalog publishes their sourceModelTrueName. It never edits a resolved entry and never touches a slot whose XDT row names no model."
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/game/characters/player/items/weapon/melee_eduardoclub/",
+      "files": 3
+    },
+    {
+      "path": "assets/game/characters/player/items/weapon/melee_razor/",
+      "files": 3
+    },
+    {
+      "path": "assets/game/characters/player/items/weapon/rocket_mojotankcannon/",
+      "files": 3
+    },
+    {
+      "path": "assets/game/characters/player/items/weapon/shattergun_wilt/",
+      "files": 3
+    },
+    {
+      "path": "assets/game/characters/player/items/catalog.json",
+      "change": "sets 869 -> 873, models 1469 -> 1473"
+    },
+    {
+      "path": "assets/game/data/character_creation/avatar_items.json",
+      "change": "resolvedModels 6659 -> 6667; the four items' male and female modelStatus flipped from missing to verified_unique"
+    }
+  ],
+  "textures": "None of the four sets owns a texture. Their serialized materials leave _MainTex unassigned (fileId 0, pathId 0) and bind only _ShaderMap to ToonRamp9, which is byte-identical to the already-published shared rendering texture characters/player/rendering/textures/toonramp9.png and is therefore reused rather than duplicated. The XDT primary texture resolves separately through characters/player/table-textures, exactly as the already-published melee_bananaguard and melee_grimscythe weapons do.",
+  "divergenceFromPrimary": null,
+  "knownSourceDefect": "Wilt's Basketball Blaster (item 759) selects bullet types 173 and 174 for m_iEffect1/m_iEffect2. The primary bullettable MonoBehaviour (PathID 14153) holds exactly 170 entries, so those indices are past the end of the clean client's own table and no projectile can resolve. This is a defect in Retrobution's data, not in this publication; nothing was fabricated. See docs/reference/evidence/legacy/ffone/models/weapon-firing-effect-audit-20260902.json.",
+  "verification": [
+    {
+      "command": "cargo test -p ffone-asset-pipeline --lib player_item_model avatar_item_model",
+      "result": "passed: 9 tests",
+      "evidence": "covers plan-only immutability, apply, duplicate refusal, shared-texture reuse, own-texture publication, GPU-gate rejection, tampered-GLB rejection and the back_alien identity proof"
+    },
+    {
+      "command": "accept-equipment-gpu-batch ... full",
+      "result": "passed: 4/4 selected standalone gates, 0 execution blockers",
+      "evidence": "work/legacy-sources/equip-additive-20260902/gpu-batch-full.json"
+    },
+    {
+      "command": "python tools\\legacy-sources\\asset-census.py",
+      "result": "passed: equipment publishable-from-primary 4 -> 0",
+      "evidence": "unresolved total 5 -> 1; the remainder is pistol_musket, absent from every build"
+    },
+    {
+      "command": "cargo run --manifest-path ..\\FFOneClient\\Cargo.toml -p xtask -- assets",
+      "result": "passed: domains=5 references=40924",
+      "evidence": "references rose by 8 for the newly referenced files"
+    },
+    {
+      "command": "cargo test -p ffone-packaging",
+      "result": "passed: 11 tests",
+      "evidence": null
+    },
+    {
+      "command": "cargo test -p ffone-client --lib player_shared_rig",
+      "result": "passed: 8 tests",
+      "evidence": null
+    }
+  ],
+  "notes": [
+    "The GPU batch reports publishable=false because nine slot-coverage blockers say the batch carries no candidate for the other nine equipment categories. That is inherent to an additive single-category batch; the installer therefore gates on each model's own standalone disposition plus executionBlockers == 0, and documents that choice in source.",
+    "pistol_musket (item 758, M.U.S.K.E.T.) remains unresolved. wear/pistol_musket.nif exists in neither the clean build nor the Academy donor."
+  ]
+}

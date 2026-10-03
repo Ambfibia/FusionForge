@@ -1,0 +1,169 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "customassetbundle-b4f543c102ded400fbc6f1da25d9679a",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 2,
+      "filePath": "customassetbundle-755e8d758154e4b5cb1ee36c6cdedc63",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 3,
+      "filePath": "customassetbundle-bd5f53480423447d7bcaed95cb2a96c8",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 4,
+      "filePath": "customassetbundle-fa9dbcf4604f64024b06ff1d5e375918",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 5,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 6,
+      "filePath": "customassetbundle-d304c52c4bae348e38c743762c1bd818",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 48,
+    "name": "",
+    "pathId": 255,
+    "rawBytes": 976,
+    "rawSha256": "85c07ca15ed9facb5cd4c88312b26ffd18cfcfa3b7597067caad75c0b051a863",
+    "serializedAsset": "CustomAssetBundle-b35a71b799a32429bbe08591cf8fa254",
+    "type": "Shader",
+    "typeId": 48,
+    "value": {
+      "m_DefaultProperties": {
+        "m_Colors": [
+          [
+            {
+              "name": "_Color"
+            },
+            {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            }
+          ],
+          [
+            {
+              "name": "_SpecColor"
+            },
+            {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            }
+          ],
+          [
+            {
+              "name": "_Emission"
+            },
+            {
+              "a": 0.0,
+              "b": 0.0,
+              "g": 0.0,
+              "r": 0.0
+            }
+          ],
+          [
+            {
+              "name": "_AmbColor"
+            },
+            {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            }
+          ]
+        ],
+        "m_Floats": [
+          [
+            {
+              "name": "_Shininess"
+            },
+            0.699999988079071
+          ]
+        ],
+        "m_TexEnvs": [
+          [
+            {
+              "name": "_MainTex"
+            },
+            {
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Rotation": 0.0,
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Texture": {
+                "fileId": 0,
+                "pathId": 0
+              }
+            }
+          ]
+        ]
+      },
+      "m_Name": "",
+      "m_PathName": "",
+      "m_Script": "Shader \"normal_blendSrccolorInvsrcalpha_zwriteOff_cullOff\" {\nProperties {\n\t_Color (\"Main Color\", Color) = (1,1,1,1)\n\t_SpecColor (\"Spec Color\", Color) = (1,1,1,1)\n\t_AmbColor (\"Ambient Color\", Color) = (1,1,1,1)\n\t_Emission (\"Emmisive Color\", Color) = (0,0,0,0)\n\t_Shininess (\"Shininess\", Range (0.01, 1)) = 0.7\n\t_MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n}\n\nCategory {\n\tTags {\"Queue\"=\"Transparent+10\"}\n\n\tBlend SrcColor OneMinusSrcAlpha \n\tColorMask RGB\n\tZWrite Off\n\tCull Off\n\t\n\n\tSubShader {\n\t\tPass {\n\t\t\tMaterial {\n\t\t\t\tDiffuse [_Color]\n\t\t\t\tAmbient [_AmbColor]\n\t\t\t\tShininess [_Shininess]\n\t\t\t\t//\tSpecular [_SpecColor]\n\t\t\t\tEmission [_Emission]\n\t\t\t} \n\t\t\tLighting On\n\t\t\tSetTexture [_MainTex] {\n\t\t\t\tCombine texture * primary DOUBLE , texture\n\t\t\t} \n\t\t}\n\t}\n}\n}",
+      "m_StaticProperties": {
+        "m_Colors": [],
+        "m_Floats": [],
+        "m_TexEnvs": []
+      }
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/m_DefaultProperties/m_TexEnvs/0/1/m_Texture",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 4417951,
+    "relativeContainer": "DongResources_12_10.resourceFile",
+    "sha256": "8a3606b22a4f044789caaa111c111eafb1f5566a2632352c545886a5d3d3368e"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

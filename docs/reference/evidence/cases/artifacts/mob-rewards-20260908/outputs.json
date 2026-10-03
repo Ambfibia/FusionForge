@@ -1,0 +1,44 @@
+[
+  {
+    "path": "ui/gameplay/rewards/crate.png",
+    "bytes": 39937,
+    "sha256": "3272717257362843fa19dca30cc2cef83c756ce5528358369cc9cc80723de2ba",
+    "object": {
+      "name": "crate",
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 34
+    },
+    "width": 178,
+    "height": 142,
+    "decodedRgbaSha256": "2f93114057c08e1920f4abd3ed1e3b8a913f61a6eea23821d3cb0b30712d0394",
+    "pixelTransform": "vertical-flip-only-for-png-top-left-origin"
+  },
+  {
+    "path": "ui/gameplay/rewards/potion.png",
+    "bytes": 40183,
+    "sha256": "60ec405991ba8209f5e1e5cf16fbe3a78725c1ed64af114eccf7656a7b99ed85",
+    "object": {
+      "name": "potion",
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 548
+    },
+    "width": 178,
+    "height": 142,
+    "decodedRgbaSha256": "e840a1c62f3f5ee83b8f08d4f5c4b1bd6ab3bb4967353d1fbd00267cebb3296d",
+    "pixelTransform": "vertical-flip-only-for-png-top-left-origin"
+  },
+  {
+    "path": "ui/gameplay/rewards/boost.png",
+    "bytes": 39367,
+    "sha256": "9de3d9effa33ddb456170b136b97d30417b019f8ab62b7bc4bb529360724c94e",
+    "object": {
+      "name": "boost",
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 29
+    },
+    "width": 178,
+    "height": 142,
+    "decodedRgbaSha256": "8b40384812c4c7bc0b146c869e413ace9e35e08485990e624b0d1ec77704bbed",
+    "pixelTransform": "vertical-flip-only-for-png-top-left-origin"
+  }
+]

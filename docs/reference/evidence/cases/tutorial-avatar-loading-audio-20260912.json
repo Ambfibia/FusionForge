@@ -1,0 +1,140 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "tutorial-avatar-loading-audio-20260912",
+  "question": "Why do localized tutorial dialogue, avatar defeat, rejected vehicle mounting and loading-music exit lose their native timing/audio?",
+  "status": "open",
+  "nativeConsumer": "FFOneClient tutorial_runtime, tutorial_voice_subtitles, gameplay_audio, world_audio",
+  "acceptance": [
+    "Localized voice replacement waits for playback and Unicode text reading; skip cancels waits.",
+    "Both gender defeat families resolve EN/RU and fire once at the die pose edge plus 0.25 seconds.",
+    "Rejected local mount plays Action_Failure01 without sending an instance mount request.",
+    "Respawn into a cooling-down zone replaces loading music."
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        "main.unity3d SHA256 01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+        "CharacterSelection.resourceFile SHA256 96a3362fdfff0da0107bd1aea5666431b417380c9855c6f09fceebc8d372ae93"
+      ]
+    }
+  ],
+  "candidates": [],
+  "evidenceArtifacts": [
+    {
+      "sha256": "2bcd2d98df440c58ab8c116a35bfd814a6f0e5cc6811871100b3d21493fd970a",
+      "kind": "strict_object_evidence",
+      "id": "die-34444",
+      "bytes": 177448,
+      "path": "work/cases/audio-bugs-20260912/die-34444.evidence.json",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "./work/build/debug/fusionforge.exe dump-object-evidence primary ../builds/retrobution-20260821 CharacterSelection.resourceFile 34444 --serialized-asset CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99 --type AnimationClip --out work/cases/audio-bugs-20260912/die-34444.evidence.json"
+      }
+    },
+    {
+      "sha256": "5383e06605746c398759f3decc2af52d34ae15f95b7f633b944253b3ca31c1ee",
+      "kind": "strict_object_evidence",
+      "id": "die-34531",
+      "bytes": 186599,
+      "path": "work/cases/audio-bugs-20260912/die-34531.evidence.json",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "./work/build/debug/fusionforge.exe dump-object-evidence primary ../builds/retrobution-20260821 CharacterSelection.resourceFile 34531 --serialized-asset CustomAssetBundle-ce09c4c9be8a046ca92e0044f22d1b99 --type AnimationClip --out work/cases/audio-bugs-20260912/die-34531.evidence.json"
+      }
+    },
+    {
+      "sha256": "cb44da805913623ec466a97ec658c06b2a06f5eac8d08f6c2428aa712f5f72d8",
+      "kind": "managed_decompilation",
+      "id": "cnAvatarAttack",
+      "bytes": 90687,
+      "path": "work/cases/audio-bugs-20260912/cnAvatarAttack.decompiled.cs",
+      "producer": {
+        "tool": "FFSpy",
+        "revision": "045e563f5c6c503ae21899e69bc6e36ee39ecd9a",
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/mob-animation-priority-20260912/managed/Assembly-CSharp.dll -t cnAvatarAttack -o work/cases/audio-bugs-20260912 --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "sha256": "9a55ea01bfee3f7a88bdf18636a9f14a7ea6837d25a781955734b1c230994a40",
+      "kind": "managed_decompilation",
+      "id": "cnAvatarAnimation",
+      "bytes": 60562,
+      "path": "work/cases/audio-bugs-20260912/cnAvatarAnimation.decompiled.cs",
+      "producer": {
+        "tool": "FFSpy",
+        "revision": "045e563f5c6c503ae21899e69bc6e36ee39ecd9a",
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/mob-animation-priority-20260912/managed/Assembly-CSharp.dll -t cnAvatarAnimation -o work/cases/audio-bugs-20260912 --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "sha256": "915fc4bdcb781772021bafd20d6a9055df40e9885698e1f5d5fcf77fd4392360",
+      "kind": "managed_decompilation",
+      "id": "cntutorialscript",
+      "bytes": 383474,
+      "path": "work/cases/audio-bugs-20260912/cntutorialscript.decompiled.cs",
+      "producer": {
+        "tool": "FFSpy",
+        "revision": "045e563f5c6c503ae21899e69bc6e36ee39ecd9a",
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/mob-animation-priority-20260912/managed/Assembly-CSharp.dll -t cntutorialscript -o work/cases/audio-bugs-20260912 --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "sha256": "7f80dffac4019779924820693089f03f220a6b54fe3844f4a58c5e5932673723",
+      "kind": "managed_assembly_evidence",
+      "id": "primary-managed-assembly",
+      "path": "work/cases/mob-animation-priority-20260912/assembly.evidence.json",
+      "bytes": 1357,
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a",
+        "command": "./fusionforge.cmd export-managed-assembly-evidence primary ../builds/retrobution-20260821 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out work/cases/mob-animation-priority-20260912/assembly.evidence.json --payload-out work/cases/mob-animation-priority-20260912/managed/Assembly-CSharp.dll"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "rejectedBecause": "Both die clips separately call sound at 0.25 seconds with gender DefeatLng01-03.",
+      "evidence": [
+        "die-34444",
+        "die-34531"
+      ],
+      "claim": "Ordinary Hurt/Critical is sufficient for death",
+      "state": "rejected"
+    },
+    {
+      "rejectedBecause": "VehicleToggle plays Action_Failure01 for instance, special-animation and tutorial gates.",
+      "evidence": [
+        "cnAvatarAttack"
+      ],
+      "claim": "Vehicle rejection is silent",
+      "state": "rejected"
+    }
+  ],
+  "differences": [
+    "Localized tutorial completion/readability is an owner-requested native extension; English/English retains source timing."
+  ],
+  "conclusion": "Native implementation, compilation, all 61 focused regressions, asset validation and actual client World startup passed, including the ordinary optimized Dev executable. Manual audible tutorial/death/vehicle walkthrough is not claimed.",
+  "nativeContract": "Keep all existing payloads, semantic catalog routes, locale fallback and fonts. Hold only voice/scene replacement boundaries; preserve skip. Observe die pose edges independently of damage packets. Reset zone music cooldown on loading exit.",
+  "verification": [
+    "15 pure tutorial core tests passed.",
+    "Death/EN-RU catalog and all 6 world-audio tests passed using production modules.",
+    "Native lib.rs and main.rs metadata compilation passed using current workspace dependencies and isolated target/audio-bugs outputs.",
+    "All 87 native voice mappings match the freshly decompiled primary cntutorialscript.",
+    "Production EN/RU key and placeholder equality passed: 66862 keys.",
+    "Existing player damage/emote/movement and swimming audio regressions passed.",
+    "All 15 production subtitle tests pass, including all 87 dialogue keys in EN/RU.",
+    "The old FFOne decompiled-source test was moved to Editor tools/native/check-tutorial-voice-map.ps1; native tests now open only production native bundles.",
+    "./tools/native/check-tutorial-voice-map.ps1 -NativeSource ../FFOneClient/crates/ffone-client/src/tutorial_voice_subtitles.rs -ManagedSource work/cases/audio-bugs-20260912/cntutorialscript.decompiled.cs: 87/87 mappings passed.",
+    "61 focused tests passed: 25 gameplay audio, 15 subtitle, 6 world audio, 15 tutorial core.",
+    "Built actual main.rs and lib.rs from a coherent current-source snapshot with opt-level=0 into FFOneClient target/audio-bugs/ffone-client.exe; validation only, not a replacement for the optimized Dev output.",
+    "Validation EXE --validate-assets exited 0.",
+    "Validation EXE ran FFONE_PERF_OUTPUT offline World fixture with --language ru; produced frame.png/report.json and exited; stderr contained only the expected settings-persistence-disabled note.",
+    "The five modified client source files (including app/mod.rs) matched their compiled snapshot SHA256 after the smoke run.",
+    "Ordinary target/debug/ffone-client.exe produced by the shared workspace build at 2026-09-12 21:31 local; matching PDB contains allow_localized_reading, observe_player_death_pose and retain_localized_tutorial_subtitle.",
+    "Ordinary Dev executable ran FFONE_PERF_OUTPUT offline World fixture with --language ru and exited 0; target/performance/audio-bugs-dev-smoke contains frame.png/report.json; stderr contains only the expected settings-persistence-disabled note."
+  ]
+}

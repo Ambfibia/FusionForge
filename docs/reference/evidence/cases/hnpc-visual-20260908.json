@@ -1,0 +1,106 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "hnpc-visual-20260908",
+  "question": "Why do female banker clothing and dark HNPC skin differ from primary, and does the reported Fred face texture differ?",
+  "status": "open",
+  "nativeConsumer": "FFOne HnpcRuntimeCatalog and native NPC material rendering",
+  "acceptance": [
+    "Primary table-selected banker meshes and UVs, complete zero-based skin/hair palettes",
+    "Production HNPC GPU captures and focused runtime tests",
+    "Identify the reported Fred face discrepancy before replacing any pixels"
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        "TableData.resourceFile/all_hnpc.asset",
+        "main.unity3d/sharedassets0.assets/male.bsd",
+        "DongResources_05_06.resourceFile/mob/npc_fredfredburger2.kfm"
+      ]
+    }
+  ],
+  "candidates": [],
+  "evidenceArtifacts": [
+    {
+      "id": "palette",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/npc-visual-20260908/palette-owner.json",
+      "bytes": 6828,
+      "sha256": "11465a741e87d6f925775f644f784085829311d2d77f2071dfcd2fa78aa05a17",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "fusionforge dump-object-evidence primary ../builds/retrobution-20260821 main.unity3d 1378 --serialized-asset sharedassets0.assets --type MonoBehaviour --out work/cases/npc-visual-20260908/palette-owner.json"
+      }
+    },
+    {
+      "id": "hnpc",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/npc-visual-20260908/hnpc-source.json",
+      "bytes": 254545,
+      "sha256": "a78da05aaae676963247a0b111e7ba7f47c26034d337513a66dcf0587124b694",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "fusionforge dump-object-evidence primary ../builds/retrobution-20260821 TableData.resourceFile 6 --serialized-asset CustomAssetBundle-1dca92eecee4742d985b799d8226666d --type MonoBehaviour --out work/cases/npc-visual-20260908/hnpc-source.json"
+      }
+    },
+    {
+      "id": "fred",
+      "kind": "logical_model_source",
+      "path": "work/cases/npc-visual-20260908/fred.source.json",
+      "bytes": 8192708,
+      "sha256": "4c7f13838ed91f29e2dd75af502bc02c7e45a46805518bdcbc256d4bd1499167",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "fusionforge export-logical-model-source ../builds/retrobution-20260821/DongResources_05_06.resourceFile mob/npc_fredfredburger2.kfm work/cases/npc-visual-20260908/fred.source.json work/projects/retrobution-ui-20260821.ffclient"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "Female banker appearances 176/177 use different outfit geometry than primary; bank textures consequently hit different UV islands.",
+      "state": "proven",
+      "evidence": [
+        "hnpc"
+      ],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "The player creation palette is an adequate HNPC palette.",
+      "state": "rejected",
+      "evidence": [
+        "palette"
+      ],
+      "rejectedBecause": "Primary has 20 zero-based skin and hair entries; creator exposes only 12 skin and 18 hair entries with one-based codes."
+    },
+    {
+      "claim": "Fred has the wrong published face PNG or UVs.",
+      "state": "unresolved",
+      "evidence": [
+        "fred"
+      ],
+      "rejectedBecause": null
+    }
+  ],
+  "differences": [
+    {
+      "classification": "conversion_artifact",
+      "description": "Banker catalog preserved obsolete outfit substitutions; native palette reused incomplete creator UI colors."
+    }
+  ],
+  "conclusion": "Banker and HNPC palette repairs implemented; Fred face discrepancy needs an in-game screenshot to distinguish it from verified source appearance.",
+  "nativeContract": "Keep placements, animation timing and shared skeleton ownership. Use exact primary outfit geometry and complete zero-based color arrays. Preserve fallback for invalid skin selector 20 on appearance 147.",
+  "verification": [
+    {
+      "result": "passed",
+      "check": "2 HNPC tests, native asset graph, three production HNPC GPU captures, six byte-identical replay outputs, development executable --validate-assets"
+    },
+    {
+      "result": "unresolved",
+      "check": "Owner Fred face report needs in-game screenshot; no Fred assets changed."
+    }
+  ]
+}

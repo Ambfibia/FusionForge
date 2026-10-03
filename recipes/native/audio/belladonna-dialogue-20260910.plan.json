@@ -1,0 +1,193 @@
+{
+  "schema": "ffone.audio-publication-plan.v1",
+  "sources": [
+    {
+      "alias": "primary",
+      "bytes": 3878315,
+      "relativeContainer": "DongResources_04_03.resourceFile",
+      "sha256": "f3af7c1f115bab3af11c710bd1314e68dbd0acd26d8f50df4d4423abe8f255bf",
+      "clips": [
+        {
+          "pathId": 375,
+          "serializedAsset": "CustomAssetBundle-71c4e29715f9c43c7890d672636790f4",
+          "trueName": "Buttercup_Farewell01",
+          "containerRoute": "vo/belladonna_farewell01.wav",
+          "route": {
+            "logicalKey": "voice/belladonna/farewell01",
+            "trueName": "Belladonna_Farewell01",
+            "category": "voice",
+            "owner": "belladonna",
+            "aliases": [],
+            "path": "belladonna/farewell01.ogg"
+          },
+          "outputSha256": "c9036c44df8cc8ef741237adefb9c6a428492c1701553f8e455119115f0dd905"
+        },
+        {
+          "pathId": 373,
+          "serializedAsset": "CustomAssetBundle-71c4e29715f9c43c7890d672636790f4",
+          "trueName": "Buttercup_Farewell02",
+          "containerRoute": "vo/belladonna_farewell02.wav",
+          "route": {
+            "logicalKey": "voice/belladonna/farewell02",
+            "trueName": "Belladonna_Farewell02",
+            "category": "voice",
+            "owner": "belladonna",
+            "aliases": [],
+            "path": "belladonna/farewell02.ogg"
+          },
+          "outputSha256": "12d5129bb80cb48d79ef6f6542a9dba95b448939702ece6798fcbe6782cff3b3"
+        },
+        {
+          "pathId": 389,
+          "serializedAsset": "CustomAssetBundle-71c4e29715f9c43c7890d672636790f4",
+          "trueName": "Buttercup_Farewell03",
+          "containerRoute": "vo/belladonna_farewell03.wav",
+          "route": {
+            "logicalKey": "voice/belladonna/farewell03",
+            "trueName": "Belladonna_Farewell03",
+            "category": "voice",
+            "owner": "belladonna",
+            "aliases": [],
+            "path": "belladonna/farewell03.ogg"
+          },
+          "outputSha256": "21ef56f8a2a3b517554a08a0ddec1788ca69c77673b1402370d7592d95c5c576"
+        },
+        {
+          "pathId": 374,
+          "serializedAsset": "CustomAssetBundle-71c4e29715f9c43c7890d672636790f4",
+          "trueName": "Buttercup_Goodluck01",
+          "containerRoute": "vo/belladonna_goodluck01.wav",
+          "route": {
+            "logicalKey": "voice/belladonna/goodluck01",
+            "trueName": "Belladonna_Goodluck01",
+            "category": "voice",
+            "owner": "belladonna",
+            "aliases": [],
+            "path": "belladonna/goodluck01.ogg"
+          },
+          "outputSha256": "0b84dd835af0b631ea6c9ef3657801fbc4d353305e9aaf81a744fe9aecec0470"
+        },
+        {
+          "pathId": 341,
+          "serializedAsset": "CustomAssetBundle-71c4e29715f9c43c7890d672636790f4",
+          "trueName": "Buttercup_Goodluck02",
+          "containerRoute": "vo/belladonna_goodluck02.wav",
+          "route": {
+            "logicalKey": "voice/belladonna/goodluck02",
+            "trueName": "Belladonna_Goodluck02",
+            "category": "voice",
+            "owner": "belladonna",
+            "aliases": [],
+            "path": "belladonna/goodluck02.ogg"
+          },
+          "outputSha256": "be25df2ed821fd8f1573866a63896dd85a1edf72fd3be1df4bb4a39651d8efbd"
+        },
+        {
+          "pathId": 366,
+          "serializedAsset": "CustomAssetBundle-71c4e29715f9c43c7890d672636790f4",
+          "trueName": "Buttercup_Goodluck03",
+          "containerRoute": "vo/belladonna_goodluck03.wav",
+          "route": {
+            "logicalKey": "voice/belladonna/goodluck03",
+            "trueName": "Belladonna_Goodluck03",
+            "category": "voice",
+            "owner": "belladonna",
+            "aliases": [],
+            "path": "belladonna/goodluck03.ogg"
+          },
+          "outputSha256": "58868f15d46fa3c2f662446e377c29a40e10fd09590038fcace62496ca0a9745"
+        },
+        {
+          "pathId": 337,
+          "serializedAsset": "CustomAssetBundle-71c4e29715f9c43c7890d672636790f4",
+          "trueName": "Buttercup_Greeting01",
+          "containerRoute": "vo/belladonna_greeting01.wav",
+          "route": {
+            "logicalKey": "voice/belladonna/greeting01",
+            "trueName": "Belladonna_Greeting01",
+            "category": "voice",
+            "owner": "belladonna",
+            "aliases": [],
+            "path": "belladonna/greeting01.ogg"
+          },
+          "outputSha256": "d49b2f3d4ee631ce0576122d8b5a3741cbaa748b151190b432add234a8aa53bd"
+        },
+        {
+          "pathId": 372,
+          "serializedAsset": "CustomAssetBundle-71c4e29715f9c43c7890d672636790f4",
+          "trueName": "Buttercup_Greeting02",
+          "containerRoute": "vo/belladonna_greeting02.wav",
+          "route": {
+            "logicalKey": "voice/belladonna/greeting02",
+            "trueName": "Belladonna_Greeting02",
+            "category": "voice",
+            "owner": "belladonna",
+            "aliases": [],
+            "path": "belladonna/greeting02.ogg"
+          },
+          "outputSha256": "1fc49fada1000a11153af17bec4154b75093ea9da9de0d48fa324c5dbec2cba0"
+        },
+        {
+          "pathId": 342,
+          "serializedAsset": "CustomAssetBundle-71c4e29715f9c43c7890d672636790f4",
+          "trueName": "Buttercup_NiceJob01",
+          "containerRoute": "vo/belladonna_nicejob01.wav",
+          "route": {
+            "logicalKey": "voice/belladonna/nicejob01",
+            "trueName": "Belladonna_NiceJob01",
+            "category": "voice",
+            "owner": "belladonna",
+            "aliases": [],
+            "path": "belladonna/nicejob01.ogg"
+          },
+          "outputSha256": "d3ea27576ceb847b4665ed81fde9d6d58e540dbecda033985a850dae21671448"
+        },
+        {
+          "pathId": 348,
+          "serializedAsset": "CustomAssetBundle-71c4e29715f9c43c7890d672636790f4",
+          "trueName": "Buttercup_NiceJob02",
+          "containerRoute": "vo/belladonna_nicejob02.wav",
+          "route": {
+            "logicalKey": "voice/belladonna/nicejob02",
+            "trueName": "Belladonna_NiceJob02",
+            "category": "voice",
+            "owner": "belladonna",
+            "aliases": [],
+            "path": "belladonna/nicejob02.ogg"
+          },
+          "outputSha256": "a98cc64402cb193d3017da4fc8c2a8e94a14872bab5b8b7fff4d368f45da5ab2"
+        },
+        {
+          "pathId": 384,
+          "serializedAsset": "CustomAssetBundle-71c4e29715f9c43c7890d672636790f4",
+          "trueName": "Buttercup_NiceJob03",
+          "containerRoute": "vo/belladonna_nicejob03.wav",
+          "route": {
+            "logicalKey": "voice/belladonna/nicejob03",
+            "trueName": "Belladonna_NiceJob03",
+            "category": "voice",
+            "owner": "belladonna",
+            "aliases": [],
+            "path": "belladonna/nicejob03.ogg"
+          },
+          "outputSha256": "053ce1ae282a5c8d3819dad1a944ed7ddbc2146ccba5ff309393c7a7eed25a45"
+        },
+        {
+          "pathId": 350,
+          "serializedAsset": "CustomAssetBundle-71c4e29715f9c43c7890d672636790f4",
+          "trueName": "Buttercup_QGreeting",
+          "containerRoute": "vo/belladonna_qgreeting.wav",
+          "route": {
+            "logicalKey": "voice/belladonna/qgreeting",
+            "trueName": "Belladonna_QGreeting",
+            "category": "voice",
+            "owner": "belladonna",
+            "aliases": [],
+            "path": "belladonna/qgreeting.ogg"
+          },
+          "outputSha256": "ec2c29ef8206922faee4db66a14b81dbe2453db4265cc8a931ede0eb5d7b7f1a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "FusionForge Unity Research"
+  short_description: "Scoped Unity evidence and direct conversion"
+  default_prompt: "Use $reverse-engineer-unity-client only for the requested legacy question. Query narrowly, read only the matching contract, and report unsupported behavior."

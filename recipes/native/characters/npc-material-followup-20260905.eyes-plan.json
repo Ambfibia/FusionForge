@@ -1,0 +1,24 @@
+{
+  "sources": {
+    "primary": {
+      "root": "../builds/retrobution-20260821",
+      "role": "primary",
+      "project": "work/projects/retrobution-ui-20260821.ffclient"
+    },
+    "patched": {
+      "root": "../builds/retrobution-20260613.ffclient",
+      "role": "patched",
+      "project": "../builds/retrobution-20260613.ffclient"
+    }
+  },
+  "models": [],
+  "textures": [
+    {
+      "name": "vehicle_kimchi",
+      "source": "primary",
+      "container": "NpcTexture.resourceFile",
+      "route": "texture/vehicle_kimchi.dds"
+    }
+  ],
+  "icons": []
+}

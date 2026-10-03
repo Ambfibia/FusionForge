@@ -1,0 +1,18 @@
+{
+ "autoCentered": false,
+ "autoScaled": false,
+ "inverseBindMatrix": "H*unity*H where H=diag(-1,1,1,1)",
+ "normal": "[-unity.x,unity.y,unity.z]",
+ "originPolicy": "source-root-trs-unchanged-no-auto-centering",
+ "position": "[-unity.x,unity.y,unity.z]",
+ "publishedSpace": "gltf-right-handed-y-up",
+ "publishedTriangleWinding": "gltf-counter-clockwise-per-triangle-normal-aligned",
+ "rotation": "[unity.x,-unity.y,-unity.z,unity.w]",
+ "scale": "unchanged",
+ "schema": "ffone.native-coordinate-contract.v1",
+ "sourceTriangleWinding": "unity-source-indices-in-h-reflected-native-space",
+ "translation": "[-unity.x,unity.y,unity.z]",
+ "unitScale": "1-unity-unit-equals-1-bevy-unit",
+ "uv": "[unity.u,1-unity.v]",
+ "windingConversionOwner": "ffone-asset-pipeline-triangle-normal-audit"
+}

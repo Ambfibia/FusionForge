@@ -1,0 +1,31 @@
+{
+  "schema": "ffone.offline.chartexture-metadata.v1",
+  "sourcePath": "retrobution-20260613/work/ffclienteditor/fusionforge-cli/NpcTexture_18c28fe0436740ec/CustomAssetBundle-d304c52c4bae348e38c743762c1bd818",
+  "sourceFileSha256": "883659790a9cbc8562f4ad8122066df3e94e55d7a48b36b2b5222e5e05760b94",
+  "sourceAsset": "CustomAssetBundle-d304c52c4bae348e38c743762c1bd818",
+  "textureCount": 1,
+  "unreadableTextureCount": 0,
+  "textures": [
+    {
+      "trueName": "f_naked",
+      "pathId": 48,
+      "containerRoutes": [
+        "texture/f_naked.dds"
+      ],
+      "width": 256,
+      "height": 256,
+      "textureFormat": 10,
+      "completeImageSize": 32768,
+      "sourceChainSha256": "04fcce5c70735e988fd987e94df0e7ba62dc357f08cd7d01b3500c981d577b78",
+      "mipMap": false,
+      "sourceMipCount": 1,
+      "imageCount": 1,
+      "textureDimension": 2,
+      "filterMode": 1,
+      "wrapMode": 0,
+      "anisotropyLevel": 1,
+      "mipMapBias": 0.0
+    }
+  ],
+  "unreadableTextures": []
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "path": "interaction.json",
+    "bytes": 546525,
+    "sha256": "b18c997f1c4039d7225febf3c86a362d148d1fd6b0e8ed3ffa79a52e1ec5c72c"
+  },
+  {
+    "path": "interaction.request.json",
+    "bytes": 1015,
+    "sha256": "2cc9eaad1c4dd8411a3664b3c67fffda49391f1a0a9deabfb5c7df35a89fc8f8"
+  },
+  {
+    "path": "label-font.json",
+    "bytes": 138610,
+    "sha256": "f21fa60e9a49560e11266f69f95931eae2aae1edc702f40d24998cd257de21b3"
+  },
+  {
+    "path": "managed-evidence.json",
+    "bytes": 1386,
+    "sha256": "7ca7adb09268d97f00ca3c494e36a822683aa3865a4ded5e56dbe25c4ab3c8c8"
+  },
+  {
+    "path": "outputs.json",
+    "bytes": 1451,
+    "sha256": "da89ed5b862ac07df38e1ce4507bb12b37907c54123dbe6cc75629bb347cf6d9"
+  },
+  {
+    "path": "quest-font.json",
+    "bytes": 163080,
+    "sha256": "f1b07979aa4f27315e0409bd074f460814cf58c315405348e70bf0fb423c89aa"
+  },
+  {
+    "path": "script.json",
+    "bytes": 1025,
+    "sha256": "2ca5f1d14f8024c1deadf947a29a081e9adbb55f6c1491120c479095c81137d8"
+  },
+  {
+    "path": "styles.json",
+    "bytes": 6422,
+    "sha256": "da5a2233ce53a182bc3a7c16e5d8ada7f5ebe8b34b7ce6b0306ea4ef6d5ddb15"
+  },
+  {
+    "path": "visual-acceptance.json",
+    "bytes": 3614,
+    "sha256": "a144b6858783b2079da568a7c65e20224eab1910f2e6cb78eafd846bcd80d8ab"
+  }
+]

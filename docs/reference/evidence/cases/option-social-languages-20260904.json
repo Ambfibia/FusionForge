@@ -1,0 +1,134 @@
+{
+  "schema": "ffone.legacy-ui-case.v1",
+  "id": "option-social-languages-20260904",
+  "question": "Recover the 20260821 primary Social language panel and request geometry, adapting its one selector into independent native text/voice fields.",
+  "source": {
+    "alias": "primary",
+    "navigationAlias": "retrobution",
+    "build": "retrobution-20260821",
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+    "serializedAsset": "sharedassets0.assets",
+    "owner": 1329,
+    "component": 1485,
+    "script": 1143,
+    "skin": 1365
+  },
+  "baseline": "retrobution-20260613; prior native Option implementation",
+  "nativeConsumer": "FFOneClient/crates/ffone-client/src/option_ui.rs",
+  "artifacts": [
+    {
+      "path": "work/legacy-sources/option-menu-20260904/owner.json",
+      "sha256": "d7e00b966d0e2759abae0f004863d6f86fa91e0aa7ee16e788465c7a5b8fb8c6"
+    },
+    {
+      "path": "work/legacy-sources/option-menu-20260904/option.json",
+      "sha256": "888483660cc47f6a3e89d8d6ad4e285965de1cb3e55488d3f2301c8b330a9eca"
+    },
+    {
+      "path": "work/legacy-sources/option-menu-20260904/script.json",
+      "sha256": "2c57cce863e953181c5e042850942309d94a79ef4f8c95e81884c66d8cd52048"
+    },
+    {
+      "path": "work/legacy-sources/option-menu-20260904/skin-triage.json",
+      "sha256": "45b9333de3c626d59a60c392e23300722ac91347e03fe69b7ee580528145c9f7"
+    },
+    {
+      "path": "work/legacy-sources/option-menu-20260904/managed-assembly.evidence.json",
+      "sha256": "7ca7adb09268d97f00ca3c494e36a822683aa3865a4ded5e56dbe25c4ab3c8c8"
+    },
+    {
+      "path": "work/legacy-sources/option-menu-20260904/managed-compact.diff",
+      "sha256": "5cd6aff6bfec4d16f5d4149d1905015c236a139c7833930f92d840b149d575b4"
+    }
+  ],
+  "contract": {
+    "coordinates": "1020x638 window; page origin (20,60); top-left pixels; root scaling once",
+    "languageHeader": [
+      10,
+      20,
+      450,
+      45
+    ],
+    "languageBody": [
+      10,
+      50,
+      450,
+      150
+    ],
+    "requestsHeader": [
+      10,
+      220,
+      450,
+      45
+    ],
+    "requestsRows": {
+      "x": 80,
+      "firstY": 280,
+      "stepY": 77,
+      "width": 300,
+      "height": 60
+    },
+    "blocked": "unchanged right column",
+    "paint": "Frame direct texture stretch, darkbox2 stretch; darkbox and downbox 10px nine slice; native validated JEFFE/Comic/Chalet fonts retained",
+    "extension": "Two 175x25 selectors at (238,79) and (238,127), labels in (58,rowY,170,43) anchored MiddleRight; both share row centers 91.5/139.5. Values centered in the text well excluding the arrow (4px left / 24px right inset). Independent native immediate text/voice selection retained.",
+    "payloads": "Existing semantic PNG/font payloads reused; no binary publication.",
+    "textureContracts": "16 existing semantic texture byte/hash constants synchronized against published-verified docs/reference/evidence/legacy/ffone/retrobution-ui-20260821-publication.json. Every current native byte/hash was checked before update; no PNGs changed.",
+    "localizedRequests": "RU labels shortened to В ГРУППУ / В ДРУЗЬЯ / НА ОБМЕН and ПО УМОЛЧАНИЮ to avoid overlap in recovered request rectangles; EN remains exact.",
+    "dropdownLayer": "Language dropdown panel above both selector buttons (local z=70; buttons z=60), preventing the voice button from occluding text choices.",
+    "alignmentFollowup": "Owner requested visual centering: replace UpperRight labels with MiddleRight within full row height; remove selector 5px downward offset. No font payload or localization key changes."
+  },
+  "limitations": [
+    "Skin triage has an unresolved Unity built-in GUISkin MonoScript external (fileId=1, pathId=12001); local style field values are inspected but whole-graph strict parity remains unproven.",
+    "Static OnSocial interaction exporter fails on unsupported/reserved IL opcode 0xAB at IL_0146. Exact assembly hash/decompiled method retained; no static exporter success is claimed.",
+    "The broader 20260821 menu also changes UI scale, variable jump, NanoCom clock/chat timestamp. This case covers Social language layout only; those behaviors are separate remaining parity work."
+  ],
+  "verification": {
+    "optionTestsInitial": "26 passed; stale texture-contract test failed; all 16 current texture hashes then verified against existing publication and repaired.",
+    "localization": "16/18 pass; production EN/RU key/placeholder parity and both-locale voice catalog resolution pass. Existing unrelated production_voice_players_are_semantic_and_never_build_locale_paths and production_ui_updates_text_only_through_the_localization_apply_system fail outside Option.",
+    "assetGraph": "xtask assets --source assets/game --full passed (68,914 files)",
+    "nativeBinary": "Final cargo build -p ffone-client --example option_ui_gpu_preview --bin ffone-client passed; final ffone-client --validate-assets passed.",
+    "finalOptionTests": "27/27 passed via cargo test -p ffone-client --lib option_ui",
+    "finalDropdownCapture": "Reviewed both RU text/voice open states. Panels cover the sibling selector; choices are readable. No UI geometry overlap in closed EN/RU states.",
+    "reviewedFrames": [
+      {
+        "nativePath": "target/ui-parity/option-social-languages-en.png",
+        "sha256": "8478a2cec069a8f878947fcf5f355c57561c898622275c94b482953999766211"
+      },
+      {
+        "nativePath": "target/ui-parity/option-social-languages-ru.png",
+        "sha256": "03edfbf184cef9e0d5e3f987505c76962644135d36e851172aa238a40721e5dd"
+      },
+      {
+        "nativePath": "target/ui-parity/option-controls-languages-moved-en.png",
+        "sha256": "e2872736c04d98cc58288f15022ebe29f8a3bb4e02f1f914f7f990bb3958d423"
+      },
+      {
+        "nativePath": "target/ui-parity/option-graphics-regression-en.png",
+        "sha256": "dcdabe1fc7ac6a1a4870844688b28ab4673e85b86702c909dde27a4fe7c4968f"
+      },
+      {
+        "nativePath": "target/ui-parity/option-game-ui-regression-en.png",
+        "sha256": "3fb3ca6f3eba2f785ddf064b16a197169d1c986898ddb0ca78355cf5f3d202f2"
+      },
+      {
+        "nativePath": "target/ui-parity/option-social-text-open-ru.png",
+        "sha256": "aef8c3602b575c9a8ef3076f589937270d7cb079bb63cac5c1411fe09c6125e3"
+      },
+      {
+        "nativePath": "target/ui-parity/option-social-voice-open-ru.png",
+        "sha256": "185c352c7b3043c65319a3950acb2871ac20ca312012b55ba6622f16dfdc7c2e"
+      }
+    ],
+    "alignmentFollowup": "Dev binary and GPU example rebuilt successfully; EN/RU frames captured and reviewed after centering. No font/key changes."
+  },
+  "reproduction": [
+    "target-build/debug/ff-client-editor.exe fusionforge list-contents ../builds/retrobution-20260821/main.unity3d",
+    "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 main.unity3d 1329 --serialized-asset sharedassets0.assets --type GameObject --out work/legacy-sources/option-menu-20260904/owner.json",
+    "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 main.unity3d 1485 --serialized-asset sharedassets0.assets --type MonoBehaviour --out work/legacy-sources/option-menu-20260904/option.json",
+    "target-build/debug/ff-client-editor.exe fusionforge dump-object-evidence primary ../builds/retrobution-20260821 main.unity3d 1365 --serialized-asset sharedassets0.assets --type MonoBehaviour --allow-unresolved-pointers --out work/legacy-sources/option-menu-20260904/skin-triage.json",
+    "target-build/debug/ff-client-editor.exe fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260821 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out work/legacy-sources/option-menu-20260904/managed-assembly.evidence.json --payload-out work/legacy-sources/option-menu-20260904/Assembly-CSharp.dll",
+    "dotnet run --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- work/legacy-sources/option-menu-20260904/Assembly-CSharp.dll -o work/legacy-sources/option-menu-20260904/decompiled -p --preserve-iterator-state-machines",
+    "target-build/debug/ff-client-editor.exe fusionforge export-ui-interaction-evidence work/legacy-sources/option-menu-20260904/interaction.request.json --out work/legacy-sources/option-menu-20260904/interaction.json"
+  ]
+}

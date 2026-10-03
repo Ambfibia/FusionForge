@@ -1,0 +1,122 @@
+{
+  "schema": "ffone.semantic-asset-organization-plan.v1",
+  "entities": [
+    {
+      "id": "hnpc-part-f_pants_barberset",
+      "category": "equipment_pants",
+      "semanticDirectory": "characters/player/equipment/pants",
+      "tableOwner": {
+        "table": "all_hnpc",
+        "sourceModelTrueName": "f_pants_barberset",
+        "evidence": "scoped primary all_hnpc TableElement indices 185-204"
+      },
+      "modelRoutes": [
+        "wear/f_pants_barberset.nif"
+      ]
+    },
+    {
+      "id": "hnpc-part-f_shirt_barberset",
+      "category": "equipment_shirt",
+      "semanticDirectory": "characters/player/equipment/shirt",
+      "tableOwner": {
+        "table": "all_hnpc",
+        "sourceModelTrueName": "f_shirt_barberset",
+        "evidence": "scoped primary all_hnpc TableElement indices 185-204"
+      },
+      "modelRoutes": [
+        "wear/f_shirt_barberset.nif"
+      ]
+    },
+    {
+      "id": "hnpc-part-f_shoes_barberset",
+      "category": "equipment_shoes",
+      "semanticDirectory": "characters/player/equipment/shoes",
+      "tableOwner": {
+        "table": "all_hnpc",
+        "sourceModelTrueName": "f_shoes_barberset",
+        "evidence": "scoped primary all_hnpc TableElement indices 185-204"
+      },
+      "modelRoutes": [
+        "wear/f_shoes_barberset.nif"
+      ]
+    },
+    {
+      "id": "hnpc-part-glass_numbuhtwo",
+      "category": "equipment_glasses",
+      "semanticDirectory": "characters/player/equipment/glasses",
+      "tableOwner": {
+        "table": "all_hnpc",
+        "sourceModelTrueName": "glass_numbuhtwo",
+        "evidence": "scoped primary all_hnpc TableElement indices 185-204"
+      },
+      "modelRoutes": [
+        "wear/glass_numbuhtwo.nif"
+      ]
+    },
+    {
+      "id": "hnpc-part-hat_barberset",
+      "category": "equipment_hat",
+      "semanticDirectory": "characters/player/equipment/hat",
+      "tableOwner": {
+        "table": "all_hnpc",
+        "sourceModelTrueName": "hat_barberset",
+        "evidence": "scoped primary all_hnpc TableElement indices 185-204"
+      },
+      "modelRoutes": [
+        "wear/hat_barberset.nif"
+      ]
+    },
+    {
+      "id": "hnpc-part-m_pants_barberset",
+      "category": "equipment_pants",
+      "semanticDirectory": "characters/player/equipment/pants",
+      "tableOwner": {
+        "table": "all_hnpc",
+        "sourceModelTrueName": "m_pants_barberset",
+        "evidence": "scoped primary all_hnpc TableElement indices 185-204"
+      },
+      "modelRoutes": [
+        "wear/m_pants_barberset.nif"
+      ]
+    },
+    {
+      "id": "hnpc-part-m_shirt_barberset",
+      "category": "equipment_shirt",
+      "semanticDirectory": "characters/player/equipment/shirt",
+      "tableOwner": {
+        "table": "all_hnpc",
+        "sourceModelTrueName": "m_shirt_barberset",
+        "evidence": "scoped primary all_hnpc TableElement indices 185-204"
+      },
+      "modelRoutes": [
+        "wear/m_shirt_barberset.nif"
+      ]
+    },
+    {
+      "id": "hnpc-part-m_shirt_dustin",
+      "category": "equipment_shirt",
+      "semanticDirectory": "characters/player/equipment/shirt",
+      "tableOwner": {
+        "table": "all_hnpc",
+        "sourceModelTrueName": "m_shirt_dustin",
+        "evidence": "scoped primary all_hnpc TableElement indices 185-204"
+      },
+      "modelRoutes": [
+        "wear/m_shirt_dustin.nif"
+      ]
+    },
+    {
+      "id": "hnpc-part-m_shoes_barberset",
+      "category": "equipment_shoes",
+      "semanticDirectory": "characters/player/equipment/shoes",
+      "tableOwner": {
+        "table": "all_hnpc",
+        "sourceModelTrueName": "m_shoes_barberset",
+        "evidence": "scoped primary all_hnpc TableElement indices 185-204"
+      },
+      "modelRoutes": [
+        "wear/m_shoes_barberset.nif"
+      ]
+    }
+  ]
+}

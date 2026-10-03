@@ -1,0 +1,73 @@
+{
+  "sources": {
+    "primary": {
+      "root": "../builds/retrobution-20260821",
+      "role": "primary",
+      "project": "work/projects/retrobution-ui-20260821.ffclient"
+    },
+    "patched": {
+      "root": "../builds/retrobution-20260613.ffclient",
+      "role": "patched",
+      "project": "../builds/retrobution-20260613.ffclient"
+    }
+  },
+  "models": [
+    {
+      "name": "fusion_iceking",
+      "source": "primary",
+      "container": "DongResources_07_06.resourceFile",
+      "route": "mob/fusion_iceking.kfm"
+    },
+    {
+      "name": "fusion_spidermonkey",
+      "source": "primary",
+      "container": "DongResources_11_12.resourceFile",
+      "route": "mob/fusion_spidermonkey.kfm"
+    },
+    {
+      "name": "npc_hippiehop",
+      "source": "primary",
+      "container": "DongResources_10_10.resourceFile",
+      "route": "mob/npc_hippiehop.kfm"
+    },
+    {
+      "name": "npc_kimchi",
+      "source": "primary",
+      "container": "Retro_shared.resourceFile",
+      "route": "mob/npc_kimchi.kfm"
+    },
+    {
+      "name": "objectnpc1",
+      "source": "primary",
+      "container": "Tutorial.resourceFile",
+      "route": "mob/objectnpc1.kfm"
+    },
+    {
+      "name": "npc_mandroid_disguise",
+      "source": "primary",
+      "container": "Retro_shared_part2.resourceFile",
+      "route": "mob/npc_mandroid_disguise.kfm"
+    }
+  ],
+  "textures": [
+    {
+      "name": "npc_deedee",
+      "source": "primary",
+      "container": "CharacterCreation.resourceFile",
+      "route": "texture/npc_deedee.dds"
+    },
+    {
+      "name": "npc_dexter",
+      "source": "primary",
+      "container": "CharacterCreation.resourceFile",
+      "route": "texture/npc_dexter.dds"
+    },
+    {
+      "name": "fusion_iceking",
+      "source": "primary",
+      "container": "Retro_shared.resourceFile",
+      "route": "texture/fusion_iceking.dds"
+    }
+  ],
+  "icons": []
+}

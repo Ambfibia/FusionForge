@@ -1,0 +1,92 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "coco-eggs-primary-20260910",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone-client"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "Tutorial.resourceFile",
+    "containerBytes": 33327638,
+    "containerSha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "GameObject",
+        "pathId": 4154,
+        "fileId": 0,
+        "containerRoute": "mob/shineni_item.kfm",
+        "trueName": "shineni_Item"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "GameObject",
+        "pathId": 4578,
+        "fileId": 0,
+        "containerRoute": "mob/shineni_buff.kfm",
+        "trueName": "shineni_buff"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "conversion",
+    "tool": "tools/legacy-sources/publish-coco-eggs.py",
+    "toolRevision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+    "scriptSha256": "9049e13138735f62f6f7cf27860b4276e3ada41c00cf75a78caa4e16a8e34dd7",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/legacy-sources/publish-coco-eggs.py --source-root ../builds/retrobution-20260821 --navigation work/projects/retrobution-ui-20260821.ffclient --work work/cases/coco-eggs-20260910/replay --receipt recipes/native/characters/coco-eggs-primary-20260910.receipt.json --target-root ../FFOneClient/assets/game"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/cases/coco-eggs-20260910/item.source.json",
+      "bytes": 125026,
+      "sha256": "8f9ec928a404d66a44b29fb8d51eb2185d7320fdb8a5dc92da57ce7496a181d8"
+    },
+    {
+      "path": "work/cases/coco-eggs-20260910/buff.source.json",
+      "bytes": 125256,
+      "sha256": "0a0879b60fb6a31e62f2c9f31f816b1af3b93220a805131f58f6ab06b1727d88"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "characters/shinies/shineni_Item/shineni_Item.glb",
+      "bytes": 22692,
+      "sha256": "3bf0109d8c2bd09a5b4117938dbc772f8008b6df4332cd47d534b321ee7a7e56"
+    },
+    {
+      "path": "characters/shinies/shineni_Item/shineni_Item.textures/shineni_a.png",
+      "bytes": 14635,
+      "sha256": "00f6b56b02ac504054d984d68b93cb123a217925d71c15916bf7d8c5912aa512"
+    },
+    {
+      "path": "characters/shinies/shineni_buff/shineni_buff.glb",
+      "bytes": 22692,
+      "sha256": "bddd001733e99bac1f5a0a47c5b79b0187957efd60aeee96044856c50a19bcbb"
+    },
+    {
+      "path": "characters/shinies/shineni_buff/shineni_buff.textures/shineni_b.png",
+      "bytes": 14724,
+      "sha256": "f746beb48e21f8c06dfa6eeaaea32a799657e2feb4f99ab421b4b28baa0443f0"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "logical_model_gpu_preview --asset-root work/cases/coco-eggs-20260910/candidate --model models/npc/shineni_Item.glb --animation-name stand1 --sample-midpoint true --evidence-root work/cases/coco-eggs-20260910/item-gpu",
+      "result": "passed; native GPU smoke only, visual parity not asserted",
+      "evidence": "work/cases/coco-eggs-20260910/item-gpu/models/npc/shineni_Item.gpu.json",
+      "sha256": "5cb1a70b45827b4f3adbe08f4d12ab6b3cd4e4da599c4ae9fbf49d161b5275f2"
+    },
+    {
+      "command": "logical_model_gpu_preview --asset-root work/cases/coco-eggs-20260910/buff-candidate --model models/npc/shineni_buff.glb --animation-name stand1 --sample-midpoint true --evidence-root work/cases/coco-eggs-20260910/buff-gpu",
+      "result": "passed; native GPU smoke only, visual parity not asserted",
+      "evidence": "work/cases/coco-eggs-20260910/buff-gpu/models/npc/shineni_buff.gpu.json",
+      "sha256": "04b843d43907c4ddb85acbb19a08983531a4aff498d49ae89382caba863aeeec"
+    }
+  ]
+}

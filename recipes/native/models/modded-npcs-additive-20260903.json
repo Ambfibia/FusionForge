@@ -1,0 +1,77 @@
+{
+ "schema": "fusionforge.native-publication.v1",
+ "id": "modded-npcs-additive-20260903",
+ "status": "accepted",
+ "supersedes": [],
+ "target": {
+  "alias": "ffone"
+ },
+ "source": {
+  "alias": "patched",
+  "relativeContainer": "npcs/",
+  "note": "43 per-NPC snapshots the modding tool wrote beside the patched build. Nine characters resolve out of the academy donor or the clean primary build instead, because their snapshot keeps only support bundles; those are named individually below.",
+  "objects": [
+   {
+    "serializedAsset": "Character_<Name>",
+    "type": "GameObject",
+    "containerRoute": "mob/<name>.kfm",
+    "note": "26 characters exported straight from their own snapshot bundle, including Character_Apex, whose mob/npc_galvan.kfm is the shared model NPCs 3443-3447 all select."
+   },
+   {
+    "serializedAsset": "CustomAssetBundle-DongResources_10_10 / _12_15 / _04_04 / _13_14 / TrainingGrounds",
+    "type": "GameObject",
+    "containerRoute": "mob/npc_zaksaturday.kfm, mob/npc_fiskerton.kfm, mob/npc_docsaturday.kfm, mob/npc_drewsaturday.kfm, mob/npc_tom.kfm, mob/npc_clyde.kfm, mob/fusion_johnnytest.kfm, mob/mob_fusionfinn.kfm",
+    "sourceAlias": "alternate",
+    "note": "The snapshot ships a stripped copy of the Dong bundle without shaders, so the donor's own full bundle is the source. Their material shader PPtrs are hashed rather than external indices, so TrainingGrounds is named through FFONE_EXTRA_DEPENDENCY_BUNDLES; all four shader path ids are objects in it."
+   },
+   {
+    "serializedAsset": "CustomAssetBundle-Retro_shared",
+    "type": "GameObject",
+    "containerRoute": "mob/npc_kimchi.kfm",
+    "sourceAlias": "primary",
+    "note": "npc_kimchi ships in the clean primary build, which outranks the donor."
+   }
+  ]
+ },
+ "transform": {
+  "kind": "additive-npc-model-publication",
+  "tool": "crates/ffone-asset-pipeline/src/runtime_character_model_replace.rs, crates/ffone-asset-pipeline/src/character_registry_alias_repair.rs",
+  "toolRevision": "ffone-asset-pipeline install-runtime-character-model + apply-character-registry-alias-plan v1",
+  "workingDirectory": ".",
+  "commands": [
+   "bash work/legacy-sources/modded-npcs-20260902/export-sources.sh",
+   "bash work/legacy-sources/modded-npcs-20260902/export-round3.sh",
+   "bash work/legacy-sources/modded-npcs-20260902/export-round4.sh",
+   "bash work/legacy-sources/modded-npcs-20260902/publish-candidates.sh",
+   "bash work/legacy-sources/modded-npcs-20260902/publish-retry.sh",
+   "bash work/legacy-sources/modded-npcs-20260902/publish-round2.sh",
+   "cargo build --manifest-path ..\\FFOneClient\\Cargo.toml --profile release-fast --example logical_model_gpu_preview -p ffone-client",
+   "bash work/legacy-sources/modded-npcs-20260902/gpu-accept.sh",
+   "bash work/legacy-sources/modded-npcs-20260902/install.sh",
+   "cargo run -p ffone-asset-pipeline --bin ffone-asset-pipeline -- apply-character-registry-alias-plan ..\\FFOneClient\\assets\\game work\\legacy-sources\\modded-npcs-20260902\\alias-plan.json work\\legacy-sources\\modded-npcs-20260902\\alias-plan-report.json --apply"
+  ]
+ },
+ "acceptance": {
+  "gpu": "33/33 candidates accepted by logical_model_gpu_preview in full mode (--frames 240 --timeout 60); evidence under work/legacy-sources/modded-npcs-20260902/gpu-evidence.",
+  "runtime": "cargo test -p ffone-client --lib network_world_runtime: 31 passed, including every_installed_character_is_reachable_by_its_package_route and legacy_registry_alias_resolves_to_the_true_glb_root.",
+  "coverage": "40 of the 43 modded NPC ids now resolve their m_pstrMMeshModelString against the runtime registry; the registry holds 436 models.",
+  "evidence": "docs/reference/evidence/legacy/ffone/models/modded-npc-publication-20260903.json"
+ },
+ "notPublished": [
+  {
+   "xdtMeshString": "npc_3147_arghost",
+   "npcIds": [3147, 3406],
+   "reason": "npcs/3147__VV_Argost carries only Argost's voice-over WAVs, and npcs/3406__VV_Argost is a decomposed fftools.npc-build-assets.v1 dump: loose .mesh/.gameobject/.anim objects with no AssetBundle container table, so export-logical-model-source resolves zero routes. No serialized bundle holding this model exists in any available build, and neither the clean primary nor the academy donor ships mob/npc_3147_arghost.kfm."
+  },
+  {
+   "xdtMeshString": "npc_otto",
+   "npcIds": [3463],
+   "reason": "npcs/3463__Otto is the same decomposed dump. Its models/npc_otto.nif is a 47-byte container stub, not a NetImmerse file; the geometry lives only in the loose meshes/npc_otto__7.mesh object. Publishing it needs an importer for that authoring format."
+  }
+ ],
+ "server": {
+  "target": "OpenFusion/tdata",
+  "change": "none required",
+  "finding": "All 43 NPC rows are already in tdata/xdt.json (3464 rows, matching the client), and every field the OpenFusion source reads from m_pNpcData is identical for all of them. Only m_iMesh and m_iIcon1 differ, and no file under OpenFusion/src reads either. What is absent server-side is spawn data, but that absence is faithful: all 43 npc-import records carry null spawnMap/spawnPosition/spawnAngle/spawnJsonId, so the modded client never placed these NPCs either."
+ }
+}

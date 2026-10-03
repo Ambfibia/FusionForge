@@ -1,0 +1,17 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.ogg binary
+*.glb binary
+*.ttf binary
+*.otf binary
+*.dat binary
+*.resourceFile binary
+*.unity3d binary
+# Preserve exact bytes for accepted records, inventories and conformance fixtures.
+evidence/** -text -whitespace
+recipes/** -text -whitespace
+crates/**/fixtures/** -text -whitespace
+tools/legacy-sources/inventories/** -text -whitespace

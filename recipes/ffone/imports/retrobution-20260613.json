@@ -1,0 +1,29 @@
+{
+  "schema": "fusionforge.ffone-import-source.v1",
+  "id": "retrobution-20260613",
+  "sources": {
+    "legacyBuild": {
+      "alias": "primary",
+      "role": "parity_authority"
+    },
+    "editorProject": {
+      "alias": "primary",
+      "projectId": "retrobution-20260613"
+    }
+  },
+  "originalLocale": "en",
+  "target": {
+    "alias": "ffone-native",
+    "relativeRoot": "assets/game"
+  },
+  "logicalModelPlan": {
+    "projectAlias": "primary",
+    "projectRelativePath": "output/retrobution.logical-model-plan.duplicate-aware.json"
+  },
+  "policy": {
+    "preserveLegacyRecoveryModelsUntilAtomicReplacement": true,
+    "requireCompleteLogicalClosure": true,
+    "requireBevyGpuLoad": true,
+    "requireAnimationRoundTrip": true
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "audio-gaps-20260908",
+  "question": "Which native routing or publication gaps silence added NPC dialogue, changed Guide messages, loading music, instance music and passive Nano ability speech?",
+  "status": "closed_with_unresolved_sources",
+  "nativeConsumer": "FFOneClient gameplay_audio, world_audio, network_ingress, NanocomMessageUiModel and TutorialNanoGameplayState",
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        {
+          "relativeContainer": "main.unity3d",
+          "bytes": 8221718,
+          "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+        }
+      ]
+    }
+  ],
+  "evidenceArtifacts": [
+    {
+      "id": "world-music",
+      "kind": "managed-code",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/WorldDataContainer.cs",
+      "bytes": 13661,
+      "sha256": "a5186991053daaf9aa790c87d526b932dfdd5df8ad70da4a9ab9dd55f8bb60d7",
+      "producer": {
+        "tool": "FFSpy ilspycmd",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/nano-dismiss-20260908/Assembly-CSharp.dll -t WorldDataContainer -o work/cases/audio-gaps-20260908 --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "id": "guide-refresh",
+      "kind": "managed-code",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/cnMissionManager.cs",
+      "bytes": 76749,
+      "sha256": "bd40e292dd98de45881c530aaf25e10fe9bfc08c9ae805aed1f744b94a9277c0",
+      "producer": {
+        "tool": "FFSpy ilspycmd",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/nano-dismiss-20260908/Assembly-CSharp.dll -t cnMissionManager -o work/cases/audio-gaps-20260908 --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "id": "guide-success",
+      "kind": "managed-code",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/cnGuideMode.cs",
+      "bytes": 25300,
+      "sha256": "68c0bd665d0f0b3a9094a72424697eb5db880456d60d11cc1fb678b14abc5290",
+      "producer": {
+        "tool": "FFSpy ilspycmd",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/nano-dismiss-20260908/Assembly-CSharp.dll -t cnGuideMode -o work/cases/audio-gaps-20260908 --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "id": "music-server",
+      "kind": "managed-code",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/cnSystemMessageManager.cs",
+      "bytes": 30331,
+      "sha256": "f3badfe92bd8e2f78c96256426d5759886cfe56cc8dc915eb45e75249e7ebda7",
+      "producer": {
+        "tool": "FFSpy ilspycmd",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/nano-dismiss-20260908/Assembly-CSharp.dll -t cnSystemMessageManager -o work/cases/audio-gaps-20260908 --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "id": "music-chat",
+      "kind": "managed-code",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/CnGuiChat.cs",
+      "bytes": 132293,
+      "sha256": "23e17b181947608a01769703f017a60436a1c0023c526fe76b8149eb29f47a39",
+      "producer": {
+        "tool": "FFSpy ilspycmd",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/nano-dismiss-20260908/Assembly-CSharp.dll -t CnGuiChat -o work/cases/audio-gaps-20260908 --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "id": "nano-activation",
+      "kind": "managed-code",
+      "path": "work/cases/nano-dismiss-20260908/decompiled/cnOwnAvatarStatus.decompiled.cs",
+      "bytes": 42179,
+      "sha256": "0c913bd4181f683faee94149a39cf1cf924ad2e8ce43908de0bae6e0412237a2",
+      "producer": {
+        "tool": "FFSpy ilspycmd",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/nano-dismiss-20260908/Assembly-CSharp.dll -t cnOwnAvatarStatus -o work/cases/audio-gaps-20260908 --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "id": "nano-passive",
+      "kind": "managed-code",
+      "path": "work/cases/nano-dismiss-20260908/decompiled/NanoContainer.decompiled.cs",
+      "bytes": 17890,
+      "sha256": "881c680382044f6e1d303365981e06e08f5ca21bd5eadfe0b726f1efa242ad4f",
+      "producer": {
+        "tool": "FFSpy ilspycmd",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/nano-dismiss-20260908/Assembly-CSharp.dll -t NanoContainer -o work/cases/audio-gaps-20260908 --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "id": "music-controller",
+      "kind": "managed-code",
+      "path": "work/cases/audio-gaps-20260908/MusicController.decompiled.cs",
+      "bytes": 16036,
+      "sha256": "c502c98df84e6c4a77bb62010682ce820997c2e60049b2167f75a8663b434ed4",
+      "producer": {
+        "tool": "FFSpy ilspycmd",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/nano-dismiss-20260908/Assembly-CSharp-firstpass.dll -t MusicController -o work/cases/audio-gaps-20260908 --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "id": "weeper-route",
+      "kind": "strict_object_evidence",
+      "path": "work/cases/audio-gaps-20260908/retro-music-routes.evidence.json",
+      "bytes": 19040,
+      "sha256": "afa1fc29404b8fd13ea6b084c5a5de15ca32b7bb362a84f30cdae42fdc27c3b9",
+      "producer": {
+        "tool": "fusionforge",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "fusionforge dump-object-evidence primary ../builds/retrobution-20260821 RetroMusic.resourceFile 1 --serialized-asset CustomAssetBundle-RetroMusic --type AssetBundle --out work/cases/audio-gaps-20260908/retro-music-routes.evidence.json"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "Native activation ignored condition_status_add; SetPassiveSkill must queue the selected skill after Call only for a nonzero server add flag.",
+      "state": "proven",
+      "evidence": [
+        "nano-activation",
+        "nano-passive"
+      ]
+    },
+    {
+      "claim": "Changing an established Guide calls ReceiveStartGames(null), selecting the current guide mail/no-mail type-9 message. Native success omitted this producer.",
+      "state": "proven",
+      "evidence": [
+        "guide-refresh",
+        "guide-success"
+      ]
+    },
+    {
+      "claim": "While the world is not ready, WorldDataContainer requests lobby coordinate (1,1), including during loading. Native loading omitted that request.",
+      "state": "proven",
+      "evidence": [
+        "world-music",
+        "music-controller"
+      ]
+    },
+    {
+      "claim": "Server MOTD types 11/12 and FreeChat emote 666 control music and must not become ordinary chat. Native ingress omitted these branches.",
+      "state": "proven",
+      "evidence": [
+        "music-server",
+        "music-chat",
+        "music-controller"
+      ]
+    }
+  ],
+  "differences": [
+    {
+      "role": "historical reference",
+      "description": "Existing 136-zone native catalog predates primary 20260821: current source has 137 entries, the last repeats index 135; seven outdoor zone filenames changed to highlands/darklands beginnings. This task does not republish the legacy-provenance-bearing zone document."
+    }
+  ],
+  "nativeContract": [
+    "Server confirms passive presentation; preserve Call then selected skill and select voice through existing GLB animation events. Queue summon before passive presentation when replacing a model.",
+    "Guide success reuses localized type-9 production with current authoritative mentor. Failures do not greet.",
+    "Loading routes to the published main theme; menu-owned sources pause while loading owns music.",
+    "Server music resolves only declared semantic catalog entries or existing authored music-zone aliases, never filesystem paths. The exact vsweeper.ogg route maps to music/vs_weeper. Ambient selection continues, one-shot override is consumed on track acknowledgment, and the next scan resumes normal zone/delay selection.",
+    "Publish 38 exact primary NPC Ogg payloads and three music payloads without transcoding. Native TableData rows carry locale-relative voice paths, with EN/RU resolution delegated to the existing catalog."
+  ],
+  "unresolved": [
+    "TOM, Kiva, YoungKevin, Clyde, Kimchi, VV Argost and bbasher have no matching greeting family in the indexed primary AudioClip names. This is unresolved ownership/publication evidence, not permission to substitute voices.",
+    "Four existing music zones remain unresolved: Monster Island, Stormalong, Monster Island Cove, Absolution. No guessed replacement track was installed.",
+    "No user-specified silent instance or in-game acoustic capture was available. ECS selection checks are not an audible Unity/native parity capture."
+  ],
+  "verification": [
+    {
+      "command": "powershell -NoProfile -ExecutionPolicy Bypass -File target/performance/audio-gaps/verify-gaps.ps1",
+      "workingDirectory": "../FFOneClient",
+      "result": "Real main executable and app test executable built with existing Cargo development dependencies; six production music/catalog tests passed."
+    },
+    {
+      "command": "target/performance/audio-gaps/app-tests.exe <filter> --test-threads=1",
+      "workingDirectory": "../FFOneClient",
+      "result": "Six selected app tests passed: passive activation, server music, login Guide, two mentor-reply cases, instance packet layout. Exact logs are hashed above."
+    },
+    {
+      "command": "target/performance/audio-gaps/ffone-client.exe --validate-assets",
+      "workingDirectory": "../FFOneClient",
+      "result": "status: ok; table-data-v1 routing"
+    },
+    {
+      "command": "Compare all 41 pass1/pass2/native payload SHA-256 values",
+      "result": "passed"
+    },
+    {
+      "command": "Compare production EN/RU entries and template placeholder sets",
+      "result": "passed: 66823 keys, zero placeholder mismatches"
+    },
+    {
+      "command": "git diff --check -- <changed runtime files>",
+      "workingDirectory": "../FFOneClient",
+      "result": "passed"
+    },
+    {
+      "command": "target/performance/audio-gaps/tests.exe --test-threads=1",
+      "workingDirectory": "../FFOneClient",
+      "result": "54 existing Nano/gameplay audio tests passed against the final installed catalog; zero failures"
+    }
+  ],
+  "conclusion": "Confirmed native event-routing gaps repaired; 41 exact primary audio payloads installed. Remaining unproven NPC owners and four missing music routes are listed explicitly; full acoustic parity is not claimed.",
+  "nativeVerificationArtifacts": [
+    {
+      "path": "../FFOneClient/target/performance/audio-gaps/ffone-client.exe",
+      "bytes": 263293952,
+      "sha256": "2241767a1cc7017eaee7008dde2c8d280a04be559adc58c0c454451044cf8eb4"
+    },
+    {
+      "path": "../FFOneClient/target/performance/audio-gaps/gaps-tests.log",
+      "bytes": 1314,
+      "sha256": "e772e506ee263056ba7615f05c6a02060a824b130619f77adb2b0e8fc7c3df78"
+    },
+    {
+      "path": "../FFOneClient/target/performance/audio-gaps/app-normal_world_nano_activation_commits_only_a_correlated_validated_reply.log",
+      "bytes": 446,
+      "sha256": "5c921f0c735ee61d9e6a634087793f0e0e4cf01b4679f5ac5113f4b4ead1b6d7"
+    },
+    {
+      "path": "../FFOneClient/target/performance/audio-gaps/app-server_music_commands_are_consumed_before_chat.log",
+      "bytes": 458,
+      "sha256": "76a2d8547abe63447b80d448d7dfaba5d647abe4d5a2405316f0cf98bac859dd"
+    },
+    {
+      "path": "../FFOneClient/target/performance/audio-gaps/app-world_login.log",
+      "bytes": 208,
+      "sha256": "62c518e7d263440479598ca926a230a7ed6a7f0347debcc2219e941cd43f7453"
+    },
+    {
+      "path": "../FFOneClient/target/performance/audio-gaps/app-mentor_reply.log",
+      "bytes": 338,
+      "sha256": "8d4d41fa823d3d133f7cc1d78091d7ea412e0d8971996071bc2237da261d7c45"
+    },
+    {
+      "path": "../FFOneClient/target/performance/audio-gaps/app-race_instance_map_decoder.log",
+      "bytes": 209,
+      "sha256": "4a2043e2790ea896306c7c696259047591758c3c39a7dd397ce254fdf989bc91"
+    },
+    {
+      "path": "../FFOneClient/target/performance/audio-gaps/validate.log",
+      "bytes": 590,
+      "sha256": "998700ee4c07260739f92973efa75ccb3d4d0200c4edd4855c57dfefb3cf2e24"
+    },
+    {
+      "path": "../FFOneClient/target/performance/audio-gaps/verify-gaps.ps1",
+      "bytes": 2254,
+      "sha256": "e4f7a8c317186225a394600ac2c65765581f76ca8e2efa82b6819037e8a469d6"
+    },
+    {
+      "path": "../FFOneClient/target/performance/audio-gaps/tests-final.log",
+      "bytes": 5847,
+      "sha256": "8ef5856fcfd32b37512e103b174b5cf41720d577315cd5c59cf84061ff2a6b09"
+    }
+  ]
+}

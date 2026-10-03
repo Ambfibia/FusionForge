@@ -1,0 +1,82 @@
+{
+  "applied": false,
+  "outputs": [
+    {
+      "beforeSha256": "507b5fdc72b985fa80fcaa5528d3fb39d16bc3cefdfeb2fa61d57e2ce79422c5",
+      "bytes": 35528,
+      "matchesTarget": true,
+      "path": "characters/player/traversal/pistol_trolley/pistol_trolley.glb",
+      "sha256": "507b5fdc72b985fa80fcaa5528d3fb39d16bc3cefdfeb2fa61d57e2ce79422c5"
+    },
+    {
+      "beforeSha256": "f65b1170fdf29dc7814ae04fe4e2b948edc7e97938bf1d8af882e8088e32c472",
+      "bytes": 18736,
+      "matchesTarget": true,
+      "path": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-01.png",
+      "sha256": "f65b1170fdf29dc7814ae04fe4e2b948edc7e97938bf1d8af882e8088e32c472"
+    },
+    {
+      "beforeSha256": "c77386e1e4ec136893b9f095ccaa5501281622b390436011840c0abc05e59e61",
+      "bytes": 6269,
+      "matchesTarget": true,
+      "path": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-02.png",
+      "sha256": "c77386e1e4ec136893b9f095ccaa5501281622b390436011840c0abc05e59e61"
+    },
+    {
+      "beforeSha256": "4838179b4597bc832f7b237c5978a306d367a90db90bb267dd6240ae935ac5fe",
+      "bytes": 2094,
+      "matchesTarget": true,
+      "path": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-03.png",
+      "sha256": "4838179b4597bc832f7b237c5978a306d367a90db90bb267dd6240ae935ac5fe"
+    },
+    {
+      "beforeSha256": "68c723701cd57a4b6f72da8a571ccdced73025897c654bbef411400a2f7ea9b5",
+      "bytes": 643,
+      "matchesTarget": true,
+      "path": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-04.png",
+      "sha256": "68c723701cd57a4b6f72da8a571ccdced73025897c654bbef411400a2f7ea9b5"
+    },
+    {
+      "beforeSha256": "18386bd4514c650e44ed45cdf0207ca81eb08c15fe4e0723d48a459ba1c2acc0",
+      "bytes": 269,
+      "matchesTarget": true,
+      "path": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-05.png",
+      "sha256": "18386bd4514c650e44ed45cdf0207ca81eb08c15fe4e0723d48a459ba1c2acc0"
+    },
+    {
+      "beforeSha256": "04a681e9fe3ba5679a1d53d4fb8d8c0e3589b1d5cc14821dfdc5cfba74303110",
+      "bytes": 136,
+      "matchesTarget": true,
+      "path": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-06.png",
+      "sha256": "04a681e9fe3ba5679a1d53d4fb8d8c0e3589b1d5cc14821dfdc5cfba74303110"
+    },
+    {
+      "beforeSha256": "455e49ead67b935a7f977551481a202d14bf3b375ebfd20b166d14ade5e5d59a",
+      "bytes": 86,
+      "matchesTarget": true,
+      "path": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-07.png",
+      "sha256": "455e49ead67b935a7f977551481a202d14bf3b375ebfd20b166d14ade5e5d59a"
+    },
+    {
+      "beforeSha256": "3f1142e18a892e7ca9e3c1b602ec3d5ce1810ae7643542e79f0b4d2d4902b56b",
+      "bytes": 73,
+      "matchesTarget": true,
+      "path": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.mips/mip-08.png",
+      "sha256": "3f1142e18a892e7ca9e3c1b602ec3d5ce1810ae7643542e79f0b4d2d4902b56b"
+    },
+    {
+      "beforeSha256": "85c3d520b2f253372e7a6ef00ae7d8ea5ebbe07259233af9af6b2cdedadf2379",
+      "bytes": 47334,
+      "matchesTarget": true,
+      "path": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/pistol_trolley.png",
+      "sha256": "85c3d520b2f253372e7a6ef00ae7d8ea5ebbe07259233af9af6b2cdedadf2379"
+    },
+    {
+      "beforeSha256": "5cea554b1c9f36f0fb0c680d6cdb2160f09f822774627df5985995295c67db89",
+      "bytes": 142,
+      "matchesTarget": true,
+      "path": "characters/player/traversal/pistol_trolley/pistol_trolley.textures/ToonRamp9.png",
+      "sha256": "5cea554b1c9f36f0fb0c680d6cdb2160f09f822774627df5985995295c67db89"
+    }
+  ]
+}

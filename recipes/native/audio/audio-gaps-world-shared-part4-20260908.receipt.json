@@ -1,0 +1,466 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "audio-gaps-world-shared-part4-20260908",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "native-target"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "World_shared_part4.resourceFile",
+    "containerBytes": 16297569,
+    "containerSha256": "bbb17d4834bd95ead33b6c8863db0be93457854105b8528f053bcb152423c354",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12413,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "dustin_farewell01"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12414,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "dustin_farewell02"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12415,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "dustin_farewell03"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12416,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "dustin_goodluck01"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12417,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "dustin_goodluck02"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12418,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "dustin_goodluck03"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12419,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "dustin_greeting01"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12420,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "dustin_greeting02"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12421,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "dustin_nicejob01"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12422,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "dustin_nicejob02"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12423,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "dustin_nicejob03"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12424,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "dustin_qgreeting"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12407,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "warpfrog_clickwarp01"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12408,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "warpfrog_clickwarp02"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12409,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "warpfrog_clickwarp03"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12410,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "warpfrog_farewell01"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12411,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "warpfrog_farewell02"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12412,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "warpfrog_farewell03"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12404,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "warpfrog_greeting01"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12405,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "warpfrog_greeting02"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-755e8d758154e4b5cb1ee36c6cdedc63",
+        "type": "AudioClip",
+        "pathId": 12406,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "warpfrog_greeting03"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "lossless-audio-publication",
+    "tool": "tools/legacy-sources/publish-audio-gaps.py",
+    "toolRevision": "857406bc95b5dd7a5983cefc3838c86b302600a8 (working tree; tool SHA-256 5e4bde84481aaba0701c8162ab482b0d79a0b2122b9375e9985b1a5ba4a4f7da)",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/legacy-sources/publish-audio-gaps.py --plan recipes/native/audio/audio-gaps-20260908.plan.json --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/cases/audio-gaps-20260908/pass1",
+      "python tools/legacy-sources/publish-audio-gaps.py --plan recipes/native/audio/audio-gaps-20260908.plan.json --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/cases/audio-gaps-20260908/pass2",
+      "python tools/legacy-sources/publish-audio-gaps.py --plan recipes/native/audio/audio-gaps-20260908.plan.json --source-root ../builds/retrobution-20260821 --native-target ../FFOneClient/assets/game --work work/cases/audio-gaps-20260908/pass2 --reuse-evidence --apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "recipes/native/audio/audio-gaps-20260908.plan.json",
+      "sha256": "90f4042d8cb348ccd05f8b96d0f7ba2ea483db5f668ea54db45b4d61cc6be763"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "audio/voice/en/dustin/farewell01.ogg",
+      "bytes": 25351,
+      "sha256": "a26f615163b9630c69463df3e15a4af06b3e610c96bd61090534d657d2ea1b81"
+    },
+    {
+      "path": "audio/voice/en/dustin/farewell02.ogg",
+      "bytes": 35520,
+      "sha256": "77a8a8a5d69091485528986dabaca5cd7db0f3869f2e726053f4a87e5c6e59c9"
+    },
+    {
+      "path": "audio/voice/en/dustin/farewell03.ogg",
+      "bytes": 56537,
+      "sha256": "46d0c0d8e8b490d92d61bb49f519de6af3dde789352b9aad7301c3b64c2798e3"
+    },
+    {
+      "path": "audio/voice/en/dustin/goodluck01.ogg",
+      "bytes": 28574,
+      "sha256": "800c7a01973dd9979631ca8692ac0318a127ab36da19d70e2e4465b72830d854"
+    },
+    {
+      "path": "audio/voice/en/dustin/goodluck02.ogg",
+      "bytes": 44719,
+      "sha256": "35335cb2e285bf6ad17d0213ed9b32830159c74a3d0caba24e622ff7dc8b9ccc"
+    },
+    {
+      "path": "audio/voice/en/dustin/goodluck03.ogg",
+      "bytes": 41535,
+      "sha256": "39ef50cc77fc0c7d022cfce43725b748d02667e249361d8e36fe606b81b1d8ef"
+    },
+    {
+      "path": "audio/voice/en/dustin/greeting01.ogg",
+      "bytes": 57199,
+      "sha256": "98d54bae35b692feef8afeceb2198a6485c5d986080c7e56a5384becb64981e4"
+    },
+    {
+      "path": "audio/voice/en/dustin/greeting02.ogg",
+      "bytes": 59978,
+      "sha256": "681af3d53233027a871c63d4f113f9e093f0e1e618e5a8ea6f1dda67032dcec8"
+    },
+    {
+      "path": "audio/voice/en/dustin/nicejob01.ogg",
+      "bytes": 54030,
+      "sha256": "2aa800e208b0364ad24c6ec4aa3f607336f9a448496943d17dfe636ab700b723"
+    },
+    {
+      "path": "audio/voice/en/dustin/nicejob02.ogg",
+      "bytes": 38796,
+      "sha256": "82c76fc662923d5be7f2372ed954a87b13c820808e841b88ebdb4f1a895f6225"
+    },
+    {
+      "path": "audio/voice/en/dustin/nicejob03.ogg",
+      "bytes": 37417,
+      "sha256": "5cc7e148f02f3005e4074ae3faf7a603c210f0803c448d0f1f10de156a4b0b60"
+    },
+    {
+      "path": "audio/voice/en/dustin/qgreeting.ogg",
+      "bytes": 31323,
+      "sha256": "9471c242f5e1ee949a38b81621a0a32965779f40a9c7b6a27095e0a487990f94"
+    },
+    {
+      "path": "audio/voice/en/warpfrog/clickwarp01.ogg",
+      "bytes": 16551,
+      "sha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e"
+    },
+    {
+      "path": "audio/voice/en/warpfrog/clickwarp02.ogg",
+      "bytes": 16551,
+      "sha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e"
+    },
+    {
+      "path": "audio/voice/en/warpfrog/clickwarp03.ogg",
+      "bytes": 16551,
+      "sha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e"
+    },
+    {
+      "path": "audio/voice/en/warpfrog/farewell01.ogg",
+      "bytes": 16551,
+      "sha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e"
+    },
+    {
+      "path": "audio/voice/en/warpfrog/farewell02.ogg",
+      "bytes": 16551,
+      "sha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e"
+    },
+    {
+      "path": "audio/voice/en/warpfrog/farewell03.ogg",
+      "bytes": 16551,
+      "sha256": "23b08cc6dfddf891de3e88f728775d5e4adca9066b17ffebe58380eea91cae8e"
+    },
+    {
+      "path": "audio/voice/en/warpfrog/greeting01.ogg",
+      "bytes": 20298,
+      "sha256": "6f5be2cff642590008f7ec7bd2d5505542f69eb1f95158713304e72d78169922"
+    },
+    {
+      "path": "audio/voice/en/warpfrog/greeting02.ogg",
+      "bytes": 20298,
+      "sha256": "6f5be2cff642590008f7ec7bd2d5505542f69eb1f95158713304e72d78169922"
+    },
+    {
+      "path": "audio/voice/en/warpfrog/greeting03.ogg",
+      "bytes": 20298,
+      "sha256": "6f5be2cff642590008f7ec7bd2d5505542f69eb1f95158713304e72d78169922"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "Compare pass1/outputs.json with pass2/outputs.json and native output SHA-256 values",
+      "result": "passed: 41 independently exported Ogg payloads match; native files match accepted hashes",
+      "evidence": "work/cases/audio-gaps-20260908/pass2/outputs.json"
+    }
+  ],
+  "nativeRouteRows": [
+    {
+      "logicalKey": "voice/dustin/farewell01",
+      "trueName": "dustin_farewell01",
+      "category": "voice",
+      "owner": "dustin",
+      "path": "dustin/farewell01.ogg"
+    },
+    {
+      "logicalKey": "voice/dustin/farewell02",
+      "trueName": "dustin_farewell02",
+      "category": "voice",
+      "owner": "dustin",
+      "path": "dustin/farewell02.ogg"
+    },
+    {
+      "logicalKey": "voice/dustin/farewell03",
+      "trueName": "dustin_farewell03",
+      "category": "voice",
+      "owner": "dustin",
+      "path": "dustin/farewell03.ogg"
+    },
+    {
+      "logicalKey": "voice/dustin/goodluck01",
+      "trueName": "dustin_goodluck01",
+      "category": "voice",
+      "owner": "dustin",
+      "path": "dustin/goodluck01.ogg"
+    },
+    {
+      "logicalKey": "voice/dustin/goodluck02",
+      "trueName": "dustin_goodluck02",
+      "category": "voice",
+      "owner": "dustin",
+      "path": "dustin/goodluck02.ogg"
+    },
+    {
+      "logicalKey": "voice/dustin/goodluck03",
+      "trueName": "dustin_goodluck03",
+      "category": "voice",
+      "owner": "dustin",
+      "path": "dustin/goodluck03.ogg"
+    },
+    {
+      "logicalKey": "voice/dustin/greeting01",
+      "trueName": "dustin_greeting01",
+      "category": "voice",
+      "owner": "dustin",
+      "path": "dustin/greeting01.ogg"
+    },
+    {
+      "logicalKey": "voice/dustin/greeting02",
+      "trueName": "dustin_greeting02",
+      "category": "voice",
+      "owner": "dustin",
+      "path": "dustin/greeting02.ogg"
+    },
+    {
+      "logicalKey": "voice/dustin/nicejob01",
+      "trueName": "dustin_nicejob01",
+      "category": "voice",
+      "owner": "dustin",
+      "path": "dustin/nicejob01.ogg"
+    },
+    {
+      "logicalKey": "voice/dustin/nicejob02",
+      "trueName": "dustin_nicejob02",
+      "category": "voice",
+      "owner": "dustin",
+      "path": "dustin/nicejob02.ogg"
+    },
+    {
+      "logicalKey": "voice/dustin/nicejob03",
+      "trueName": "dustin_nicejob03",
+      "category": "voice",
+      "owner": "dustin",
+      "path": "dustin/nicejob03.ogg"
+    },
+    {
+      "logicalKey": "voice/dustin/qgreeting",
+      "trueName": "dustin_qgreeting",
+      "category": "voice",
+      "owner": "dustin",
+      "path": "dustin/qgreeting.ogg"
+    },
+    {
+      "logicalKey": "voice/warpfrog/clickwarp01",
+      "trueName": "warpfrog_clickwarp01",
+      "category": "voice",
+      "owner": "warpfrog",
+      "path": "warpfrog/clickwarp01.ogg"
+    },
+    {
+      "logicalKey": "voice/warpfrog/clickwarp02",
+      "trueName": "warpfrog_clickwarp02",
+      "category": "voice",
+      "owner": "warpfrog",
+      "path": "warpfrog/clickwarp02.ogg"
+    },
+    {
+      "logicalKey": "voice/warpfrog/clickwarp03",
+      "trueName": "warpfrog_clickwarp03",
+      "category": "voice",
+      "owner": "warpfrog",
+      "path": "warpfrog/clickwarp03.ogg"
+    },
+    {
+      "logicalKey": "voice/warpfrog/farewell01",
+      "trueName": "warpfrog_farewell01",
+      "category": "voice",
+      "owner": "warpfrog",
+      "path": "warpfrog/farewell01.ogg"
+    },
+    {
+      "logicalKey": "voice/warpfrog/farewell02",
+      "trueName": "warpfrog_farewell02",
+      "category": "voice",
+      "owner": "warpfrog",
+      "path": "warpfrog/farewell02.ogg"
+    },
+    {
+      "logicalKey": "voice/warpfrog/farewell03",
+      "trueName": "warpfrog_farewell03",
+      "category": "voice",
+      "owner": "warpfrog",
+      "path": "warpfrog/farewell03.ogg"
+    },
+    {
+      "logicalKey": "voice/warpfrog/greeting01",
+      "trueName": "warpfrog_greeting01",
+      "category": "voice",
+      "owner": "warpfrog",
+      "path": "warpfrog/greeting01.ogg"
+    },
+    {
+      "logicalKey": "voice/warpfrog/greeting02",
+      "trueName": "warpfrog_greeting02",
+      "category": "voice",
+      "owner": "warpfrog",
+      "path": "warpfrog/greeting02.ogg"
+    },
+    {
+      "logicalKey": "voice/warpfrog/greeting03",
+      "trueName": "warpfrog_greeting03",
+      "category": "voice",
+      "owner": "warpfrog",
+      "path": "warpfrog/greeting03.ogg"
+    }
+  ]
+}

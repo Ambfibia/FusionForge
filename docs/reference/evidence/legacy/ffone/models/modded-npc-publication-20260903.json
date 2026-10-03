@@ -1,0 +1,567 @@
+{
+ "schema": "ffone.modded-npc-publication.v1",
+ "date": "2026-09-03",
+ "source": {
+  "alias": "patched",
+  "relativeContainer": "npcs/",
+  "note": "43 per-NPC snapshots produced by the modding tool. Three layouts occur: a per-character bundle (assets/Character_<Name>), a stripped support-bundle set whose character actually ships in a clean build, and a decomposed loose-object dump with no AssetBundle container table."
+ },
+ "counts": {
+  "npcIds": 43,
+  "distinctMeshStrings": 38,
+  "installed": 28,
+  "aliasedToExistingModel": 10,
+  "notPublishable": 0,
+  "npcIdsResolvedAfter": 43,
+  "npcIdsStillUnresolved": 0,
+  "registryModelsAfter": 439
+ },
+ "meshes": [
+  {
+   "xdtMeshString": "fusion_zaksaturday",
+   "npcIds": [
+    3146
+   ],
+   "npcNames": [
+    "Fusion Zak"
+   ],
+   "disposition": "aliased-to-existing-model",
+   "registryId": "fusion/fusion_zaksaturday",
+   "logicalName": "fusion_zaksaturday",
+   "detail": "the model this NPC was built from is the already installed fusion/fusion_zaksaturday; re-publication reproduced the same Unity root and the same animation clip count"
+  },
+  {
+   "xdtMeshString": "npc_3147_arghost",
+   "npcIds": [
+    3147,
+    3406
+   ],
+   "npcNames": [
+    "VV Argost"
+   ],
+   "disposition": "aliased-to-existing-model",
+   "registryId": "npc/npc_arghost",
+   "logicalName": "npc_arghost",
+   "detail": "the model this NPC was built from is the already installed npc/npc_arghost; re-publication reproduced the same Unity root and the same animation clip count"
+  },
+  {
+   "xdtMeshString": "npc_3152_zaksaturday",
+   "npcIds": [
+    3152
+   ],
+   "npcNames": [
+    "Zak Saturday"
+   ],
+   "disposition": "aliased-to-existing-model",
+   "registryId": "npc/npc_zaksaturday",
+   "logicalName": "npc_zaksaturday",
+   "detail": "the model this NPC was built from is the already installed npc/npc_zaksaturday; re-publication reproduced the same Unity root and the same animation clip count"
+  },
+  {
+   "xdtMeshString": "npc_3190_fiskerton",
+   "npcIds": [
+    3190
+   ],
+   "npcNames": [
+    "Fiskerton"
+   ],
+   "disposition": "aliased-to-existing-model",
+   "registryId": "npc/npc_fiskerton",
+   "logicalName": "npc_fiskerton",
+   "detail": "the model this NPC was built from is the already installed npc/npc_fiskerton; re-publication reproduced the same Unity root and the same animation clip count"
+  },
+  {
+   "xdtMeshString": "npc_3191_docsaturday",
+   "npcIds": [
+    3191
+   ],
+   "npcNames": [
+    "Doc Saturday"
+   ],
+   "disposition": "aliased-to-existing-model",
+   "registryId": "npc/npc_docsaturday",
+   "logicalName": "npc_docsaturday",
+   "detail": "the model this NPC was built from is the already installed npc/npc_docsaturday; re-publication reproduced the same Unity root and the same animation clip count"
+  },
+  {
+   "xdtMeshString": "npc_3192_drewsaturday",
+   "npcIds": [
+    3192
+   ],
+   "npcNames": [
+    "Drew Saturday"
+   ],
+   "disposition": "aliased-to-existing-model",
+   "registryId": "npc/npc_drewsaturday",
+   "logicalName": "npc_drewsaturday",
+   "detail": "the model this NPC was built from is the already installed npc/npc_drewsaturday; re-publication reproduced the same Unity root and the same animation clip count"
+  },
+  {
+   "xdtMeshString": "npc_3399_tom",
+   "npcIds": [
+    3399
+   ],
+   "npcNames": [
+    "TOM"
+   ],
+   "disposition": "aliased-to-existing-model",
+   "registryId": "npc/npc_tom",
+   "logicalName": "npc_tom",
+   "detail": "the model this NPC was built from is the already installed npc/npc_tom; re-publication reproduced the same Unity root and the same animation clip count"
+  },
+  {
+   "xdtMeshString": "npc_3400_clyde",
+   "npcIds": [
+    3400
+   ],
+   "npcNames": [
+    "Clyde"
+   ],
+   "disposition": "aliased-to-existing-model",
+   "registryId": "npc/npc_clyde",
+   "logicalName": "npc_clyde",
+   "detail": "the model this NPC was built from is the already installed npc/npc_clyde; re-publication reproduced the same Unity root and the same animation clip count"
+  },
+  {
+   "xdtMeshString": "npc_3430_rex",
+   "npcIds": [
+    3430
+   ],
+   "npcNames": [
+    "Rex"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3430_rex",
+   "logicalName": "npc_rex",
+   "detail": "published from the modded snapshot and installed as npc/npc_3430_rex"
+  },
+  {
+   "xdtMeshString": "npc_3431_agentsix",
+   "npcIds": [
+    3431
+   ],
+   "npcNames": [
+    "Agent Six"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3431_agentsix",
+   "logicalName": "npc_agentsix",
+   "detail": "published from the modded snapshot and installed as npc/npc_3431_agentsix"
+  },
+  {
+   "xdtMeshString": "npc_3432_bobo",
+   "npcIds": [
+    3432
+   ],
+   "npcNames": [
+    "Bobo Haha"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3432_bobo",
+   "logicalName": "npc_bobo",
+   "detail": "published from the modded snapshot and installed as npc/npc_3432_bobo"
+  },
+  {
+   "xdtMeshString": "npc_3433_fusionrex",
+   "npcIds": [
+    3433
+   ],
+   "npcNames": [
+    "Fusion Rex"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3433_fusionrex",
+   "logicalName": "Mob_Fusionrex",
+   "detail": "published from the modded snapshot and installed as npc/npc_3433_fusionrex"
+  },
+  {
+   "xdtMeshString": "npc_3434_octus",
+   "npcIds": [
+    3434
+   ],
+   "npcNames": [
+    "Octus"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3434_octus",
+   "logicalName": "npc_octus",
+   "detail": "published from the modded snapshot and installed as npc/npc_3434_octus"
+  },
+  {
+   "xdtMeshString": "npc_3435_lance",
+   "npcIds": [
+    3435
+   ],
+   "npcNames": [
+    "Lance"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3435_lance",
+   "logicalName": "npc_lance",
+   "detail": "published from the modded snapshot and installed as npc/npc_3435_lance"
+  },
+  {
+   "xdtMeshString": "npc_3436_ilana",
+   "npcIds": [
+    3436
+   ],
+   "npcNames": [
+    "Ilana"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3436_ilana",
+   "logicalName": "npc_ilana",
+   "detail": "published from the modded snapshot and installed as npc/npc_3436_ilana"
+  },
+  {
+   "xdtMeshString": "npc_3437_hibagore",
+   "npcIds": [
+    3437
+   ],
+   "npcNames": [
+    "Fusion Hominid"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3437_hibagore",
+   "logicalName": "mob_hibagore",
+   "detail": "published from the modded snapshot and installed as npc/npc_3437_hibagore"
+  },
+  {
+   "xdtMeshString": "npc_3438_johnnytest",
+   "npcIds": [
+    3438
+   ],
+   "npcNames": [
+    "Johnny Test"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3438_johnnytest",
+   "logicalName": "Npc_johnnytest",
+   "detail": "published from the modded snapshot and installed as npc/npc_3438_johnnytest"
+  },
+  {
+   "xdtMeshString": "npc_3439_dukey",
+   "npcIds": [
+    3439
+   ],
+   "npcNames": [
+    "Dukey"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3439_dukey",
+   "logicalName": "Npc_dukey",
+   "detail": "published from the modded snapshot and installed as npc/npc_3439_dukey"
+  },
+  {
+   "xdtMeshString": "npc_3440_fusion_johnnytest",
+   "npcIds": [
+    3440
+   ],
+   "npcNames": [
+    "Fusion Johnny Test"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3440_fusion_johnnytest",
+   "logicalName": "fusion_johnnytest",
+   "detail": "published from the modded snapshot and installed as npc/npc_3440_fusion_johnnytest"
+  },
+  {
+   "xdtMeshString": "npc_3441_paradox",
+   "npcIds": [
+    3441
+   ],
+   "npcNames": [
+    "Paradox"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3441_paradox",
+   "logicalName": "npc_paradox",
+   "detail": "published from the modded snapshot and installed as npc/npc_3441_paradox"
+  },
+  {
+   "xdtMeshString": "npc_3442_azmuth",
+   "npcIds": [
+    3442
+   ],
+   "npcNames": [
+    "Azmuth"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3442_azmuth",
+   "logicalName": "npc_azmuth",
+   "detail": "published from the modded snapshot and installed as npc/npc_3442_azmuth"
+  },
+  {
+   "xdtMeshString": "npc_3443_galvan",
+   "npcIds": [
+    3443,
+    3444,
+    3445,
+    3446,
+    3447
+   ],
+   "npcNames": [
+    "Apex",
+    "Apogee",
+    "Etalon",
+    "Parallax",
+    "Zenith"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3443_galvan",
+   "logicalName": "npc_galvan",
+   "detail": "published from the modded snapshot and installed as npc/npc_3443_galvan"
+  },
+  {
+   "xdtMeshString": "npc_3448_ship",
+   "npcIds": [
+    3448
+   ],
+   "npcNames": [
+    "Ship"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3448_ship",
+   "logicalName": "npc_ship",
+   "detail": "published from the modded snapshot and installed as npc/npc_3448_ship"
+  },
+  {
+   "xdtMeshString": "npc_3449_vilgax",
+   "npcIds": [
+    3449
+   ],
+   "npcNames": [
+    "Vilgax"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3449_vilgax",
+   "logicalName": "npc_vilgax",
+   "detail": "published from the modded snapshot and installed as npc/npc_3449_vilgax"
+  },
+  {
+   "xdtMeshString": "npc_3450_wisdomtooth",
+   "npcIds": [
+    3450
+   ],
+   "npcNames": [
+    "Wisdom Tooth"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3450_wisdomtooth",
+   "logicalName": "npc_wisdomtooth",
+   "detail": "published from the modded snapshot and installed as npc/npc_3450_wisdomtooth"
+  },
+  {
+   "xdtMeshString": "npc_3451_candywife",
+   "npcIds": [
+    3451
+   ],
+   "npcNames": [
+    "Candy Wife"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3451_candywife",
+   "logicalName": "npc_candywife",
+   "detail": "published from the modded snapshot and installed as npc/npc_3451_candywife"
+  },
+  {
+   "xdtMeshString": "npc_3452_zon",
+   "npcIds": [
+    3452
+   ],
+   "npcNames": [
+    "Zon"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3452_zon",
+   "logicalName": "npc_zon",
+   "detail": "published from the modded snapshot and installed as npc/npc_3452_zon"
+  },
+  {
+   "xdtMeshString": "npc_3453_princessbubblegum",
+   "npcIds": [
+    3453
+   ],
+   "npcNames": [
+    "Princess Bubblegum"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3453_princessbubblegum",
+   "logicalName": "npc_princessbubblegum",
+   "detail": "published from the modded snapshot and installed as npc/npc_3453_princessbubblegum"
+  },
+  {
+   "xdtMeshString": "npc_3454_reaper",
+   "npcIds": [
+    3454
+   ],
+   "npcNames": [
+    "Mystery Dungeon"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3454_reaper",
+   "logicalName": "npc_reaper",
+   "detail": "published from the modded snapshot and installed as npc/npc_3454_reaper"
+  },
+  {
+   "xdtMeshString": "npc_3455_stanley",
+   "npcIds": [
+    3455
+   ],
+   "npcNames": [
+    "Stanley"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3455_stanley",
+   "logicalName": "npc_stanley",
+   "detail": "published from the modded snapshot and installed as npc/npc_3455_stanley"
+  },
+  {
+   "xdtMeshString": "npc_3456_alienx",
+   "npcIds": [
+    3456
+   ],
+   "npcNames": [
+    "Alien X"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3456_alienx",
+   "logicalName": "npc_alienx",
+   "detail": "published from the modded snapshot and installed as npc/npc_3456_alienx"
+  },
+  {
+   "xdtMeshString": "npc_3457_heatblast2",
+   "npcIds": [
+    3457
+   ],
+   "npcNames": [
+    "Alan"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3457_heatblast2",
+   "logicalName": "npc_heatblast2",
+   "detail": "published from the modded snapshot and installed as npc/npc_3457_heatblast2"
+  },
+  {
+   "xdtMeshString": "npc_3458_kevin",
+   "npcIds": [
+    3458
+   ],
+   "npcNames": [
+    "Kevin"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3458_kevin",
+   "logicalName": "npc_kevin",
+   "detail": "published from the modded snapshot and installed as npc/npc_3458_kevin"
+  },
+  {
+   "xdtMeshString": "npc_3459_agentk9",
+   "npcIds": [
+    3459
+   ],
+   "npcNames": [
+    "Agent K9"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3459_agentk9",
+   "logicalName": "npc_agentk9",
+   "detail": "published from the modded snapshot and installed as npc/npc_3459_agentk9"
+  },
+  {
+   "xdtMeshString": "npc_3460_kimchi",
+   "npcIds": [
+    3460
+   ],
+   "npcNames": [
+    "Fusion Kimchi"
+   ],
+   "disposition": "aliased-to-existing-model",
+   "registryId": "npc/npc_kimchi",
+   "logicalName": "npc_kimchi",
+   "detail": "the model this NPC was built from is the already installed npc/npc_kimchi; re-publication reproduced the same Unity root and the same animation clip count"
+  },
+  {
+   "xdtMeshString": "npc_3461_killerclyde",
+   "npcIds": [
+    3461
+   ],
+   "npcNames": [
+    "Killer Clyde"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_3461_killerclyde",
+   "logicalName": "mob_killerclyde",
+   "detail": "published from the modded snapshot and installed as npc/npc_3461_killerclyde"
+  },
+  {
+   "xdtMeshString": "npc_3462_fusionfinn",
+   "npcIds": [
+    3462
+   ],
+   "npcNames": [
+    "Fusion Finn"
+   ],
+   "disposition": "aliased-to-existing-model",
+   "registryId": "npc/npc_fusionfinn",
+   "logicalName": "Mob_Fusionfinn",
+   "detail": "the model this NPC was built from is the already installed npc/npc_fusionfinn; re-publication reproduced the same Unity root and the same animation clip count"
+  },
+  {
+   "xdtMeshString": "npc_otto",
+   "npcIds": [
+    3463
+   ],
+   "npcNames": [
+    "Otto"
+   ],
+   "disposition": "installed",
+   "registryId": "npc/npc_otto",
+   "logicalName": "npc_otto",
+   "detail": "published from the modded snapshot and installed as npc/npc_otto"
+  }
+ ],
+ "pipelineDefectsFixed": [
+  {
+   "where": "ffone-asset-pipeline logical_model_publish, ffone-skinned-model validate, ffone-client legacy_model_material",
+   "defect": "all three treated `unassignedSlot` as necessarily nameless with a null pointer, but the exporter also marks a *named* slot unassigned when its PPtr names no object. Twelve modded NPCs carry `_ShaderMap` with uninitialised bytes in the pointer (file ids near 163774465 while the sibling `_MainTex` of the same material uses file id 0) and were refused.",
+   "fix": "both unassigned shapes are accepted; neither may carry a texture payload, and only the nameless shape may carry a null pointer"
+  },
+  {
+   "where": "ffone-asset-pipeline runtime_character_model_replace",
+   "defect": "the installer demanded a `<name>.textures` directory even for a model that publishes no texture at all",
+   "fix": "a missing closure is accepted when the GLB has no assigned texture binding; npc_paradox and npc_azmuth bind an explicitly null `_MainTex` because the runtime dresses them from the NPC table's Texture1/Texture2"
+  }
+ ],
+ "server": {
+  "target": "OpenFusion/tdata",
+  "xdtNpcRows": {
+   "server": 3464,
+   "client": 3464
+  },
+  "allFortyThreeRowsPresent": true,
+  "fieldsOpenFusionReadsFromNpcData": [
+   "m_iNpcType",
+   "m_iHP",
+   "m_iNpcLevel",
+   "m_iTeam",
+   "m_iAiType",
+   "m_iHNpc",
+   "m_iBarkerType",
+   "m_iServiceNumber",
+   "m_iMapIcon",
+   "m_iSightRange",
+   "m_iCombatRange",
+   "m_iRadius",
+   "m_iHeight"
+  ],
+  "fieldDifferencesAmongTheseRows": {},
+  "conclusion": "the server XDT needs no change: every field the OpenFusion source reads from m_pNpcData is identical for all 43 rows. Only m_iMesh and m_iIcon1 differ, and no source file in OpenFusion/src reads either -- the complete set of m_i*/m_f* field names the server reads was enumerated to confirm it.",
+  "spawnData": {
+   "npcsJsonAndMobsJsonTypes": 2514,
+   "highestSpawnedNpcType": 3360,
+   "moddedIdsWithASpawnEntry": [],
+   "finding": "none of the 43 ids is spawned. This is faithful to the modded build rather than a gap: all 43 of the modding tool's own npc-import records carry spawnMap, spawnPosition, spawnAngle and spawnJsonId as null, so the modded client never placed them either. Placing them is level design and is not invented here."
+  }
+ }
+}

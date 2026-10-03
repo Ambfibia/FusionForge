@@ -1,0 +1,7 @@
+[submodule "ffbuildtool"]
+	path = vendor/ffbuildtool
+	url = https://github.com/Ambfibia/ffbuildtool
+	branch = main
+[submodule "vendor/FFSpy"]
+	path = vendor/FFSpy
+	url = https://github.com/Ambfibia/FFSpy

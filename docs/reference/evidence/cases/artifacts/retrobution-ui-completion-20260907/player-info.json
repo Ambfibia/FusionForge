@@ -1,0 +1,309 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 114,
+    "name": "",
+    "pathId": 1559,
+    "rawBytes": 252,
+    "rawSha256": "d0517e40084a368b5752400026ddaf4b873dbc098e4e84ff5ac461666a40bd2d",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "MonoBehaviour",
+    "typeId": -77,
+    "value": {
+      "DiskFrontTexture": {
+        "fileId": 0,
+        "pathId": 43
+      },
+      "ExpBar": {
+        "fileId": 0,
+        "pathId": 568
+      },
+      "ExpBonusBack": {
+        "fileId": 0,
+        "pathId": 402
+      },
+      "ExpBonusBar": {
+        "fileId": 0,
+        "pathId": 458
+      },
+      "ExpCursor": {
+        "fileId": 0,
+        "pathId": 365
+      },
+      "FreeChatRect": {
+        "height": 14.0,
+        "width": 19.0,
+        "x": 3.0,
+        "y": 10.0
+      },
+      "FreeChatTexture": {
+        "fileId": 0,
+        "pathId": 76
+      },
+      "PlayerCamera": {
+        "fileId": 0,
+        "pathId": 1349
+      },
+      "WindowRect": {
+        "height": 66.0,
+        "width": 255.0,
+        "x": 0.0,
+        "y": 6.0
+      },
+      "backTexture": {
+        "fileId": 0,
+        "pathId": 302
+      },
+      "barTexture": {
+        "fileId": 0,
+        "pathId": 114
+      },
+      "character_hpRect": {
+        "height": 4.0,
+        "width": 186.0,
+        "x": 58.0,
+        "y": 23.0
+      },
+      "character_hpValue": 0.5,
+      "character_level_textRect": {
+        "height": 20.0,
+        "width": 60.0,
+        "x": 90.0,
+        "y": 24.0
+      },
+      "character_level_textString": "01",
+      "character_nameRect": {
+        "height": 20.0,
+        "width": 190.0,
+        "x": 60.0,
+        "y": 1.0
+      },
+      "character_nameString": "firstname",
+      "combatbackTexture": {
+        "fileId": 0,
+        "pathId": 302
+      },
+      "mInventoryManager": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "m_Enabled": true,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 1352
+      },
+      "m_Name": "",
+      "m_Script": {
+        "fileId": 0,
+        "pathId": 941
+      },
+      "myuser": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "pMenuSkin": {
+        "fileId": 0,
+        "pathId": 1372
+      },
+      "user_characterRect": {
+        "height": 60.0,
+        "width": 60.0,
+        "x": 7.0,
+        "y": 0.0
+      }
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/DiskFrontTexture",
+      "fileId": 0,
+      "pathId": 43,
+      "status": "resolved",
+      "target": {
+        "pathId": 43,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ExpBar",
+      "fileId": 0,
+      "pathId": 568,
+      "status": "resolved",
+      "target": {
+        "pathId": 568,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ExpBonusBack",
+      "fileId": 0,
+      "pathId": 402,
+      "status": "resolved",
+      "target": {
+        "pathId": 402,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ExpBonusBar",
+      "fileId": 0,
+      "pathId": 458,
+      "status": "resolved",
+      "target": {
+        "pathId": 458,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/ExpCursor",
+      "fileId": 0,
+      "pathId": 365,
+      "status": "resolved",
+      "target": {
+        "pathId": 365,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/FreeChatTexture",
+      "fileId": 0,
+      "pathId": 76,
+      "status": "resolved",
+      "target": {
+        "pathId": 76,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/PlayerCamera",
+      "fileId": 0,
+      "pathId": 1349,
+      "status": "resolved",
+      "target": {
+        "pathId": 1349,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/backTexture",
+      "fileId": 0,
+      "pathId": 302,
+      "status": "resolved",
+      "target": {
+        "pathId": 302,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/barTexture",
+      "fileId": 0,
+      "pathId": 114,
+      "status": "resolved",
+      "target": {
+        "pathId": 114,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/combatbackTexture",
+      "fileId": 0,
+      "pathId": 302,
+      "status": "resolved",
+      "target": {
+        "pathId": 302,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/mInventoryManager",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 1352,
+      "status": "resolved",
+      "target": {
+        "pathId": 1352,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Script",
+      "fileId": 0,
+      "pathId": 941,
+      "status": "resolved",
+      "target": {
+        "pathId": 941,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoScript"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/myuser",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/pMenuSkin",
+      "fileId": 0,
+      "pathId": 1372,
+      "status": "resolved",
+      "target": {
+        "pathId": 1372,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

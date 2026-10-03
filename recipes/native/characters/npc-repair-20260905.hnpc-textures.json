@@ -1,0 +1,115 @@
+{
+  "sources": {
+    "primary": {
+      "root": "../builds/retrobution-20260821",
+      "role": "primary",
+      "project": "work/projects/retrobution-ui-20260821.ffclient"
+    },
+    "patched": {
+      "root": "../builds/retrobution-20260613.ffclient",
+      "role": "patched",
+      "project": "../builds/retrobution-20260613.ffclient"
+    }
+  },
+  "models": [
+    {
+      "name": "npc_dexter2",
+      "source": "primary",
+      "container": "CharacterCreation.resourceFile",
+      "route": "mob/npc_dexter2.kfm"
+    },
+    {
+      "name": "npc_deedee2",
+      "source": "primary",
+      "container": "CharacterCreation.resourceFile",
+      "route": "mob/npc_deedee2.kfm"
+    },
+    {
+      "name": "npc_courage2",
+      "source": "primary",
+      "container": "DongResources_12_09.resourceFile",
+      "route": "mob/npc_courage2.kfm"
+    },
+    {
+      "name": "npc_numbuhtwo1",
+      "source": "primary",
+      "container": "DongResources_07_08.resourceFile",
+      "route": "mob/npc_numbuhtwo1.kfm"
+    },
+    {
+      "name": "npc_dexter2_pistol",
+      "source": "primary",
+      "container": "Tutorial.resourceFile",
+      "route": "mob/npc_dexter2_pistol.kfm"
+    },
+    {
+      "name": "npc_dexter2_sword",
+      "source": "primary",
+      "container": "Tutorial.resourceFile",
+      "route": "mob/npc_dexter2_sword.kfm"
+    }
+  ],
+  "textures": [
+    {
+      "name": "m_face_006_a",
+      "source": "primary",
+      "container": "CharTexture.resourceFile",
+      "route": "texture/m_face_006_a.dds"
+    },
+    {
+      "name": "m_face_006_c",
+      "source": "primary",
+      "container": "CharTexture.resourceFile",
+      "route": "texture/m_face_006_c.dds"
+    },
+    {
+      "name": "m_shirt_greenstripe",
+      "source": "primary",
+      "container": "CharTexture.resourceFile",
+      "route": "texture/m_shirt_greenstripe.dds"
+    },
+    {
+      "name": "pants_barberset",
+      "source": "primary",
+      "container": "CharTexture.resourceFile",
+      "route": "texture/pants_barberset.dds"
+    },
+    {
+      "name": "pants_barberset_drbarber",
+      "source": "primary",
+      "container": "CharTexture.resourceFile",
+      "route": "texture/pants_barberset_drbarber.dds"
+    },
+    {
+      "name": "rifle_cheezookashotgun_glass_chartexture",
+      "source": "primary",
+      "container": "CharTexture.resourceFile",
+      "route": "texture/rifle_cheezookashotgun_glass_chartexture.dds"
+    },
+    {
+      "name": "shirt_barberset",
+      "source": "primary",
+      "container": "CharTexture.resourceFile",
+      "route": "texture/shirt_barberset.dds"
+    },
+    {
+      "name": "shirt_barberset_drbarber",
+      "source": "primary",
+      "container": "CharTexture.resourceFile",
+      "route": "texture/shirt_barberset_drbarber.dds"
+    },
+    {
+      "name": "shoeshat_barberset",
+      "source": "primary",
+      "container": "CharTexture.resourceFile",
+      "route": "texture/shoeshat_barberset.dds"
+    },
+    {
+      "name": "shoeshat_barberset_drbarber",
+      "source": "primary",
+      "container": "CharTexture.resourceFile",
+      "route": "texture/shoeshat_barberset_drbarber.dds"
+    }
+  ],
+  "icons": []
+}

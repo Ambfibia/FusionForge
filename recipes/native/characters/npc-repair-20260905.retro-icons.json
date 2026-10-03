@@ -1,0 +1,212 @@
+[
+  {
+    "name": "npcicon_110",
+    "pathId": 308,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "mobicon_260",
+    "pathId": 599,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_111",
+    "pathId": 1773,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_112",
+    "pathId": 1774,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "mobicon_265",
+    "pathId": 1775,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "hnpcicon_138",
+    "pathId": 4710,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "hnpcicon_139",
+    "pathId": 4711,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "hnpcicon_140",
+    "pathId": 4712,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_113",
+    "pathId": 4713,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "hnpcicon_141",
+    "pathId": 5271,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_114",
+    "pathId": 5276,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "hnpcicon_142",
+    "pathId": 7210,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "hnpcicon_143",
+    "pathId": 7398,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "hnpcicon_144",
+    "pathId": 7399,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "hnpcicon_145",
+    "pathId": 7400,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "hnpcicon_146",
+    "pathId": 26964,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_115",
+    "pathId": 27150,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_117",
+    "pathId": 27734,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_118",
+    "pathId": 27735,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_119",
+    "pathId": 27736,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_120",
+    "pathId": 27737,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_121",
+    "pathId": 27738,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_122",
+    "pathId": 29696,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_123",
+    "pathId": 29866,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_124",
+    "pathId": 29880,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_125",
+    "pathId": 29881,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_126",
+    "pathId": 29923,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_127",
+    "pathId": 29924,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_128",
+    "pathId": 29984,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_129",
+    "pathId": 29987,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_130",
+    "pathId": 29990,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_131",
+    "pathId": 29991,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_132",
+    "pathId": 29992,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_133",
+    "pathId": 30038,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_134",
+    "pathId": 30039,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_135",
+    "pathId": 30040,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_136",
+    "pathId": 30041,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_137",
+    "pathId": 30042,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_138",
+    "pathId": 30047,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_139",
+    "pathId": 30048,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_140",
+    "pathId": 30049,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  },
+  {
+    "name": "npcicon_141",
+    "pathId": 30050,
+    "serializedAsset": "CustomAssetBundle-Retro_shared"
+  }
+]

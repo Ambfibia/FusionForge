@@ -1,0 +1,172 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "instance-music-20260910",
+  "question": "Why does the loading theme continue inside infected zones and portal destinations after a native warp?",
+  "status": "closed_with_validation_limits",
+  "nativeConsumer": "FFOneClient app::warp_presentation, authoritative world teleport, world_audio",
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        {
+          "relativeContainer": "main.unity3d",
+          "bytes": 8221718,
+          "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+        }
+      ]
+    }
+  ],
+  "evidenceArtifacts": [
+    {
+      "id": "assembly.evidence",
+      "kind": "managed-assembly-evidence",
+      "path": "work/cases/nano-dismiss-20260908/assembly.evidence.json",
+      "bytes": 1339,
+      "sha256": "b51cc3d224c641dee7d2e7b408cd4cdef4bb6a1f6fe3e0cd4535a6b217cbf011",
+      "producer": {
+        "command": "fusionforge export-managed-assembly-evidence primary ../builds/retrobution-20260821 main.unity3d \"Assembly - CSharp.dll\" --level 0 --out work/cases/nano-dismiss-20260908/assembly.evidence.json --payload-out work/cases/nano-dismiss-20260908/Assembly-CSharp.dll"
+      }
+    },
+    {
+      "id": "GameFrame.decompiled",
+      "kind": "managed-code",
+      "path": "work/cases/instance-music-20260910/GameFrame.decompiled.cs",
+      "bytes": 203220,
+      "sha256": "ab958e5eac4679bc726d1273878203adae3bf9251eda55d7ccf750d44564b667",
+      "producer": {
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/nano-dismiss-20260908/Assembly-CSharp.dll -t GameFrame -o work/cases/instance-music-20260910 --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "id": "WorldDataContainer",
+      "kind": "managed-code",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/WorldDataContainer.cs",
+      "bytes": 13661,
+      "sha256": "a5186991053daaf9aa790c87d526b932dfdd5df8ad70da4a9ab9dd55f8bb60d7",
+      "producer": {
+        "command": "dotnet vendor/FFSpy/ICSharpCode.Decompiler.Console/bin/Debug/net6.0/ilspycmd.dll work/cases/nano-dismiss-20260908/Assembly-CSharp.dll -t WorldDataContainer -o work/cases/instance-music-20260910 --preserve-iterator-state-machines"
+      }
+    },
+    {
+      "id": "PlayerManager",
+      "kind": "consumer-contract",
+      "path": "../OpenFusion/src/PlayerManager.cpp",
+      "bytes": 26141,
+      "sha256": "69873d55ae2f5fdf93ac3d13634b4b9e56f726bdfa7d20350f6e9ada0801065c",
+      "producer": {
+        "command": "Read-only SHA-256 of the existing server/native consumer input; no publication performed."
+      }
+    },
+    {
+      "id": "retrobution-world",
+      "kind": "consumer-contract",
+      "path": "../FFOneClient/assets/game/data/audio/retrobution-world.json",
+      "bytes": 1536993,
+      "sha256": "aeb3260da7f857294237b0d934c20b8483d20b2af77f190d3851635791a0a0d3",
+      "producer": {
+        "command": "Read-only SHA-256 of the existing server/native consumer input; no publication performed."
+      }
+    },
+    {
+      "id": "ambient_fusion_lairs",
+      "kind": "consumer-contract",
+      "path": "../FFOneClient/assets/game/audio/ambient/ambient_fusion_lairs.ogg",
+      "bytes": 247159,
+      "sha256": "b554af5f177f10052078eb9a3db28b50df9bfff35543d704692ee1a5bf77b9b5",
+      "producer": {
+        "command": "Read-only SHA-256 of the existing server/native consumer input; no publication performed."
+      }
+    },
+    {
+      "id": "02_pokey_oaks_junior_high",
+      "kind": "consumer-contract",
+      "path": "../FFOneClient/assets/game/audio/music/02_pokey_oaks_junior_high.ogg",
+      "bytes": 389783,
+      "sha256": "5e261a69e95983474ce503d06625ce5b2fb48ad0fc3e7d501c3586393edae18e",
+      "producer": {
+        "command": "Read-only SHA-256 of the existing server/native consumer input; no publication performed."
+      }
+    }
+  ],
+  "nativeContract": {
+    "readiness": "Send one registered P_CL2FE_REQ_PC_LOADING_COMPLETE with iPC_ID=0 after a teleported local player passes collider and presentation admission and loading is hidden. Initial login already performs its handshake in the network worker.",
+    "ownership": "Player-scoped pending marker survives duplicate warp echoes and enqueue failure; server INSTANCE_MAP_INFO remains the authority for the instance flag, including iEP_ID=0.",
+    "audio": "Preserve native audio routes, music/ambient distinction, polygon order, Unity-X reflection, and existing delay/fade rules."
+  },
+  "verification": [
+    {
+      "command": "cargo test -p ffone-client --test audio_gaps_standalone --bin ffone-client warp -- --nocapture",
+      "result": "Compiled test targets, but Cargo could not replace the default executable (Windows access denied); ran the freshly compiled test executables directly."
+    },
+    {
+      "command": "target/debug/deps/ffone_client-babfe6f32aa09bf6.exe warp --test-threads=1",
+      "result": "19 passed, including readiness-gated single acknowledgment and non-race instance notification.",
+      "artifact": {
+        "path": "../FFOneClient/target/performance/instance-music-20260910/warp-tests.log",
+        "bytes": 2047,
+        "sha256": "120fc73d8baf020db80ceb80b932a7b1007975a9b90848900a949acd39f7aed5"
+      }
+    },
+    {
+      "command": "target/debug/deps/ffone_client-babfe6f32aa09bf6.exe authoritative_world_teleport --test-threads=1",
+      "result": "1 passed: authoritative teleport rearms readiness and deduplicates the GOTO echo.",
+      "artifact": {
+        "path": "../FFOneClient/target/performance/instance-music-20260910/teleport-tests.log",
+        "bytes": 224,
+        "sha256": "bf45ffe174419d08629a4a55003180510b7f1f00afa3860f9c711b2ae686236e"
+      }
+    },
+    {
+      "command": "target/debug/deps/audio_gaps_standalone-2896265a13d52e0a.exe --test-threads=1",
+      "result": "7 passed, including loading -> infected music -> lair ambient selection using production assets.",
+      "artifact": {
+        "path": "../FFOneClient/target/performance/instance-music-20260910/audio-tests.log",
+        "bytes": 761,
+        "sha256": "98322e09e94d7eaa88c2fa608d9e39c655f7da19c3e2231887007c6fb8996d86"
+      }
+    },
+    {
+      "command": "cargo rustc -p ffone-client --bin ffone-client -- -o <FFOneClient>/target/performance/instance-music-20260910/ffone-client.exe",
+      "result": "Succeeded in dev profile; full native executable.",
+      "artifact": {
+        "path": "../FFOneClient/target/performance/instance-music-20260910/ffone-client.exe",
+        "bytes": 215462400,
+        "sha256": "9756d91baf138d5ca9dbaca35b505926177b9babcf932c7602fb94ad19038af4"
+      }
+    },
+    {
+      "command": "target/performance/instance-music-20260910/ffone-client.exe --validate-assets",
+      "result": "Exit 0, production routing status ok.",
+      "artifact": {
+        "path": "../FFOneClient/target/performance/instance-music-20260910/validate-assets.log",
+        "bytes": 294,
+        "sha256": "97c6d97fa2372c3369d8b85e2a88ae5fcb78230a7254ef23c0fa03429cb6c34d"
+      }
+    },
+    {
+      "command": "FFONE_PERF_OUTPUT=target/performance/instance-music-20260910/smoke target/performance/instance-music-20260910/ffone-client.exe",
+      "result": "Exit 0; complete 600-frame production-world smoke run. Only expected offline settings-persistence warning. This validates schedule integration, not a live server warp or acoustic parity.",
+      "artifact": {
+        "path": "../FFOneClient/target/performance/instance-music-20260910/smoke/report.json",
+        "bytes": 10678,
+        "sha256": "e4d3a88026735e154022d069892535afce24b0a5833b09cdd9b505202f3ef16e"
+      }
+    },
+    {
+      "command": "Copy-Item target/performance/instance-music-20260910/ffone-client.exe target/debug/ffone-client.exe",
+      "result": "Updated default executable after verifying it was not running and was older; SHA-256 equals verified build.",
+      "artifact": {
+        "path": "../FFOneClient/target/debug/ffone-client.exe",
+        "bytes": 215462400,
+        "sha256": "9756d91baf138d5ca9dbaca35b505926177b9babcf932c7602fb94ad19038af4"
+      }
+    }
+  ],
+  "limitations": [
+    "No live Unity/native acoustic capture.",
+    "The existing four unresolved music-zone routes were not replaced.",
+    "No binary audio payload or zone polygon was changed."
+  ],
+  "conclusion": "FFOne rearmed destination readiness after authoritative warps but sent LOADING_COMPLETE only during initial entry. OpenFusion loadPlayer sends INSTANCE_MAP_INFO in response, so the missing notification prevented selection of the installed instance music and lair ambient polygons."
+}

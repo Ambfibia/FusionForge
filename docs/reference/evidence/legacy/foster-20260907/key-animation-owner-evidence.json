@@ -1,0 +1,128 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "customassetbundle-b4f543c102ded400fbc6f1da25d9679a",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 2,
+      "filePath": "customassetbundle-bd5f53480423447d7bcaed95cb2a96c8",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 3,
+      "filePath": "customassetbundle-d304c52c4bae348e38c743762c1bd818",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 4,
+      "filePath": "customassetbundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 111,
+    "name": "",
+    "pathId": 27141,
+    "rawBytes": 47,
+    "rawSha256": "778c31c820fd54d8ee1b0c35a6c957407af901d52800dd7cf3706134ccb2b330",
+    "serializedAsset": "CustomAssetBundle-Retro_shared",
+    "type": "Animation",
+    "typeId": 111,
+    "value": {
+      "m_AnimateIfVisible": true,
+      "m_AnimatePhysics": false,
+      "m_Animation": {
+        "fileId": 0,
+        "pathId": 27142
+      },
+      "m_Animations": [
+        {
+          "fileId": 0,
+          "pathId": 27142
+        },
+        {
+          "fileId": 0,
+          "pathId": 27143
+        }
+      ],
+      "m_Enabled": true,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 27118
+      },
+      "m_PlayAutomatically": true,
+      "m_WrapMode": 0
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/m_Animation",
+      "fileId": 0,
+      "pathId": 27142,
+      "status": "resolved",
+      "target": {
+        "pathId": 27142,
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AnimationClip"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Animations/0",
+      "fileId": 0,
+      "pathId": 27142,
+      "status": "resolved",
+      "target": {
+        "pathId": 27142,
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AnimationClip"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Animations/1",
+      "fileId": 0,
+      "pathId": 27143,
+      "status": "resolved",
+      "target": {
+        "pathId": 27143,
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "AnimationClip"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 27118,
+      "status": "resolved",
+      "target": {
+        "pathId": 27118,
+        "serializedAsset": "CustomAssetBundle-Retro_shared",
+        "type": "GameObject"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 14258661,
+    "relativeContainer": "Retro_shared.resourceFile",
+    "sha256": "2ca4147c3705fdd3a0fc0ec44e088da6e87279e978e73b19701b0d29babbfc33"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

@@ -1,0 +1,1834 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "nano-identities-client",
+  "sources": [
+    {
+      "alias": "primary",
+      "path": "TableData.resourceFile",
+      "sha256": "bd8767c2d316f60a4b38de320794701b2391d7b40412020bdc1d17e88c7b7212",
+      "bytes": 802929
+    }
+  ],
+  "steps": [
+    {
+      "operation": "json-patch",
+      "output": "data/tables/table-set.json",
+      "edits": [
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/201",
+          "before": {
+            "m_iBatteryDrainType": 1,
+            "m_iBatteryDrainUse": [
+              30,
+              27,
+              24,
+              21
+            ],
+            "m_iBuffEffect": 0,
+            "m_iCoolTime": 80,
+            "m_iCoolType": 21,
+            "m_iDBType": 0,
+            "m_iDelayTime": 10,
+            "m_iDeleverTime": 100,
+            "m_iDurationTime": [
+              30,
+              33,
+              36,
+              39
+            ],
+            "m_iEffect": 19,
+            "m_iEffectAngle": 360,
+            "m_iEffectArea": 300,
+            "m_iEffectRange": 1000,
+            "m_iEffectTarget": 6,
+            "m_iEffectType": 1,
+            "m_iIcon": 12,
+            "m_iInitialTime": 50,
+            "m_iSkillNumber": 13,
+            "m_iSkillType": 8,
+            "m_iSound": 2,
+            "m_iTargetEffect": 0,
+            "m_iTargetNumber": 3,
+            "m_iTargetType": 1,
+            "m_iValueA": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "m_iValueA_Type": 0,
+            "m_iValueB": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueB_Type": 0,
+            "m_iValueC": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueC_Type": 0
+          },
+          "after": {
+            "m_iBatteryDrainType": 1,
+            "m_iBatteryDrainUse": [
+              30,
+              27,
+              24,
+              21
+            ],
+            "m_iBuffEffect": 0,
+            "m_iCoolTime": 80,
+            "m_iCoolType": 21,
+            "m_iDBType": 0,
+            "m_iDelayTime": 10,
+            "m_iDeleverTime": 100,
+            "m_iDurationTime": [
+              30,
+              33,
+              36,
+              39
+            ],
+            "m_iEffect": 19,
+            "m_iEffectAngle": 360,
+            "m_iEffectArea": 300,
+            "m_iEffectRange": 1000,
+            "m_iEffectTarget": 6,
+            "m_iEffectType": 1,
+            "m_iIcon": 12,
+            "m_iInitialTime": 50,
+            "m_iSkillNumber": 13,
+            "m_iSkillType": 8,
+            "m_iSound": 2,
+            "m_iTargetEffect": 0,
+            "m_iTargetNumber": 3,
+            "m_iTargetType": 1,
+            "m_iValueA": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "m_iValueA_Type": 0,
+            "m_iValueB": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueB_Type": 0,
+            "m_iValueC": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueC_Type": 0
+          }
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/202",
+          "before": {
+            "m_iBatteryDrainType": 2,
+            "m_iBatteryDrainUse": [
+              8,
+              7,
+              6,
+              6
+            ],
+            "m_iBuffEffect": 0,
+            "m_iCoolTime": 50,
+            "m_iCoolType": 0,
+            "m_iDBType": 2,
+            "m_iDelayTime": 10,
+            "m_iDeleverTime": 0,
+            "m_iDurationTime": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iEffect": 19,
+            "m_iEffectAngle": 0,
+            "m_iEffectArea": 0,
+            "m_iEffectRange": 0,
+            "m_iEffectTarget": 2,
+            "m_iEffectType": 1,
+            "m_iIcon": 15,
+            "m_iInitialTime": 50,
+            "m_iSkillNumber": 4,
+            "m_iSkillType": 11,
+            "m_iSound": 2,
+            "m_iTargetEffect": 0,
+            "m_iTargetNumber": 1,
+            "m_iTargetType": 2,
+            "m_iValueA": [
+              200,
+              230,
+              240,
+              260
+            ],
+            "m_iValueA_Type": 2,
+            "m_iValueB": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueB_Type": 0,
+            "m_iValueC": [
+              1200,
+              1800,
+              1440,
+              1560
+            ],
+            "m_iValueC_Type": 0
+          },
+          "after": {
+            "m_iBatteryDrainType": 2,
+            "m_iBatteryDrainUse": [
+              8,
+              7,
+              6,
+              6
+            ],
+            "m_iBuffEffect": 0,
+            "m_iCoolTime": 50,
+            "m_iCoolType": 0,
+            "m_iDBType": 2,
+            "m_iDelayTime": 10,
+            "m_iDeleverTime": 0,
+            "m_iDurationTime": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iEffect": 19,
+            "m_iEffectAngle": 0,
+            "m_iEffectArea": 0,
+            "m_iEffectRange": 0,
+            "m_iEffectTarget": 2,
+            "m_iEffectType": 1,
+            "m_iIcon": 15,
+            "m_iInitialTime": 50,
+            "m_iSkillNumber": 4,
+            "m_iSkillType": 11,
+            "m_iSound": 2,
+            "m_iTargetEffect": 0,
+            "m_iTargetNumber": 1,
+            "m_iTargetType": 2,
+            "m_iValueA": [
+              200,
+              230,
+              240,
+              260
+            ],
+            "m_iValueA_Type": 2,
+            "m_iValueB": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueB_Type": 0,
+            "m_iValueC": [
+              1200,
+              1800,
+              1440,
+              1560
+            ],
+            "m_iValueC_Type": 0
+          }
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/203",
+          "before": {
+            "m_iBatteryDrainType": 2,
+            "m_iBatteryDrainUse": [
+              5,
+              5,
+              4,
+              4
+            ],
+            "m_iBuffEffect": 0,
+            "m_iCoolTime": 600,
+            "m_iCoolType": 0,
+            "m_iDBType": 0,
+            "m_iDelayTime": 10,
+            "m_iDeleverTime": 0,
+            "m_iDurationTime": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iEffect": 19,
+            "m_iEffectAngle": 0,
+            "m_iEffectArea": 0,
+            "m_iEffectRange": 0,
+            "m_iEffectTarget": 2,
+            "m_iEffectType": 1,
+            "m_iIcon": 23,
+            "m_iInitialTime": 50,
+            "m_iSkillNumber": 22,
+            "m_iSkillType": 16,
+            "m_iSound": 17,
+            "m_iTargetEffect": 0,
+            "m_iTargetNumber": 1,
+            "m_iTargetType": 2,
+            "m_iValueA": [
+              800,
+              920,
+              960,
+              1040
+            ],
+            "m_iValueA_Type": 2,
+            "m_iValueB": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueB_Type": 0,
+            "m_iValueC": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueC_Type": 0
+          },
+          "after": {
+            "m_iBatteryDrainType": 2,
+            "m_iBatteryDrainUse": [
+              5,
+              5,
+              4,
+              4
+            ],
+            "m_iBuffEffect": 0,
+            "m_iCoolTime": 600,
+            "m_iCoolType": 0,
+            "m_iDBType": 0,
+            "m_iDelayTime": 10,
+            "m_iDeleverTime": 0,
+            "m_iDurationTime": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iEffect": 19,
+            "m_iEffectAngle": 0,
+            "m_iEffectArea": 0,
+            "m_iEffectRange": 0,
+            "m_iEffectTarget": 2,
+            "m_iEffectType": 1,
+            "m_iIcon": 23,
+            "m_iInitialTime": 50,
+            "m_iSkillNumber": 22,
+            "m_iSkillType": 16,
+            "m_iSound": 17,
+            "m_iTargetEffect": 0,
+            "m_iTargetNumber": 1,
+            "m_iTargetType": 2,
+            "m_iValueA": [
+              800,
+              920,
+              960,
+              1040
+            ],
+            "m_iValueA_Type": 2,
+            "m_iValueB": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueB_Type": 0,
+            "m_iValueC": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueC_Type": 0
+          }
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/13",
+          "before": {
+            "m_iBatteryDrainType": 1,
+            "m_iBatteryDrainUse": [
+              30,
+              27,
+              24,
+              21
+            ],
+            "m_iBuffEffect": 0,
+            "m_iCoolTime": 80,
+            "m_iCoolType": 21,
+            "m_iDBType": 0,
+            "m_iDelayTime": 10,
+            "m_iDeleverTime": 100,
+            "m_iDurationTime": [
+              30,
+              33,
+              36,
+              39
+            ],
+            "m_iEffect": 19,
+            "m_iEffectAngle": 360,
+            "m_iEffectArea": 300,
+            "m_iEffectRange": 1000,
+            "m_iEffectTarget": 6,
+            "m_iEffectType": 1,
+            "m_iIcon": 12,
+            "m_iInitialTime": 50,
+            "m_iSkillNumber": 13,
+            "m_iSkillType": 8,
+            "m_iSound": 2,
+            "m_iTargetEffect": 0,
+            "m_iTargetNumber": 3,
+            "m_iTargetType": 1,
+            "m_iValueA": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "m_iValueA_Type": 0,
+            "m_iValueB": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueB_Type": 0,
+            "m_iValueC": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueC_Type": 0
+          },
+          "after": {
+            "m_iBatteryDrainType": 1,
+            "m_iBatteryDrainUse": [
+              30,
+              27,
+              24,
+              21
+            ],
+            "m_iBuffEffect": 0,
+            "m_iCoolTime": 80,
+            "m_iCoolType": 21,
+            "m_iDBType": 0,
+            "m_iDelayTime": 10,
+            "m_iDeleverTime": 100,
+            "m_iDurationTime": [
+              30,
+              33,
+              36,
+              39
+            ],
+            "m_iEffect": 19,
+            "m_iEffectAngle": 360,
+            "m_iEffectArea": 300,
+            "m_iEffectRange": 1000,
+            "m_iEffectTarget": 6,
+            "m_iEffectType": 1,
+            "m_iIcon": 12,
+            "m_iInitialTime": 50,
+            "m_iSkillNumber": 13,
+            "m_iSkillType": 8,
+            "m_iSound": 2,
+            "m_iTargetEffect": 0,
+            "m_iTargetNumber": 3,
+            "m_iTargetType": 1,
+            "m_iValueA": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "m_iValueA_Type": 0,
+            "m_iValueB": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueB_Type": 0,
+            "m_iValueC": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueC_Type": 0
+          }
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/4",
+          "before": {
+            "m_iBatteryDrainType": 2,
+            "m_iBatteryDrainUse": [
+              8,
+              7,
+              6,
+              6
+            ],
+            "m_iBuffEffect": 0,
+            "m_iCoolTime": 50,
+            "m_iCoolType": 0,
+            "m_iDBType": 2,
+            "m_iDelayTime": 10,
+            "m_iDeleverTime": 0,
+            "m_iDurationTime": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iEffect": 19,
+            "m_iEffectAngle": 0,
+            "m_iEffectArea": 0,
+            "m_iEffectRange": 0,
+            "m_iEffectTarget": 2,
+            "m_iEffectType": 1,
+            "m_iIcon": 15,
+            "m_iInitialTime": 50,
+            "m_iSkillNumber": 4,
+            "m_iSkillType": 11,
+            "m_iSound": 2,
+            "m_iTargetEffect": 0,
+            "m_iTargetNumber": 1,
+            "m_iTargetType": 2,
+            "m_iValueA": [
+              200,
+              230,
+              240,
+              260
+            ],
+            "m_iValueA_Type": 2,
+            "m_iValueB": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueB_Type": 0,
+            "m_iValueC": [
+              1200,
+              1800,
+              1440,
+              1560
+            ],
+            "m_iValueC_Type": 0
+          },
+          "after": {
+            "m_iBatteryDrainType": 2,
+            "m_iBatteryDrainUse": [
+              8,
+              7,
+              6,
+              6
+            ],
+            "m_iBuffEffect": 0,
+            "m_iCoolTime": 50,
+            "m_iCoolType": 0,
+            "m_iDBType": 2,
+            "m_iDelayTime": 10,
+            "m_iDeleverTime": 0,
+            "m_iDurationTime": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iEffect": 19,
+            "m_iEffectAngle": 0,
+            "m_iEffectArea": 0,
+            "m_iEffectRange": 0,
+            "m_iEffectTarget": 2,
+            "m_iEffectType": 1,
+            "m_iIcon": 15,
+            "m_iInitialTime": 50,
+            "m_iSkillNumber": 4,
+            "m_iSkillType": 11,
+            "m_iSound": 2,
+            "m_iTargetEffect": 0,
+            "m_iTargetNumber": 1,
+            "m_iTargetType": 2,
+            "m_iValueA": [
+              200,
+              230,
+              240,
+              260
+            ],
+            "m_iValueA_Type": 2,
+            "m_iValueB": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueB_Type": 0,
+            "m_iValueC": [
+              1200,
+              1800,
+              1440,
+              1560
+            ],
+            "m_iValueC_Type": 0
+          }
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/22",
+          "before": {
+            "m_iBatteryDrainType": 2,
+            "m_iBatteryDrainUse": [
+              5,
+              5,
+              4,
+              4
+            ],
+            "m_iBuffEffect": 0,
+            "m_iCoolTime": 600,
+            "m_iCoolType": 0,
+            "m_iDBType": 0,
+            "m_iDelayTime": 10,
+            "m_iDeleverTime": 0,
+            "m_iDurationTime": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iEffect": 19,
+            "m_iEffectAngle": 0,
+            "m_iEffectArea": 0,
+            "m_iEffectRange": 0,
+            "m_iEffectTarget": 2,
+            "m_iEffectType": 1,
+            "m_iIcon": 23,
+            "m_iInitialTime": 50,
+            "m_iSkillNumber": 22,
+            "m_iSkillType": 16,
+            "m_iSound": 17,
+            "m_iTargetEffect": 0,
+            "m_iTargetNumber": 1,
+            "m_iTargetType": 2,
+            "m_iValueA": [
+              800,
+              920,
+              960,
+              1040
+            ],
+            "m_iValueA_Type": 2,
+            "m_iValueB": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueB_Type": 0,
+            "m_iValueC": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueC_Type": 0
+          },
+          "after": {
+            "m_iBatteryDrainType": 2,
+            "m_iBatteryDrainUse": [
+              5,
+              5,
+              4,
+              4
+            ],
+            "m_iBuffEffect": 0,
+            "m_iCoolTime": 600,
+            "m_iCoolType": 0,
+            "m_iDBType": 0,
+            "m_iDelayTime": 10,
+            "m_iDeleverTime": 0,
+            "m_iDurationTime": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iEffect": 19,
+            "m_iEffectAngle": 0,
+            "m_iEffectArea": 0,
+            "m_iEffectRange": 0,
+            "m_iEffectTarget": 2,
+            "m_iEffectType": 1,
+            "m_iIcon": 23,
+            "m_iInitialTime": 50,
+            "m_iSkillNumber": 22,
+            "m_iSkillType": 16,
+            "m_iSound": 17,
+            "m_iTargetEffect": 0,
+            "m_iTargetNumber": 1,
+            "m_iTargetType": 2,
+            "m_iValueA": [
+              800,
+              920,
+              960,
+              1040
+            ],
+            "m_iValueA_Type": 2,
+            "m_iValueB": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueB_Type": 0,
+            "m_iValueC": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueC_Type": 0
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/37/m_iComment",
+          "before": 0,
+          "after": 37
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/37/m_iNanoName",
+          "before": 0,
+          "after": 37
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/37/m_iNanoNumber",
+          "before": 0,
+          "after": 37
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/37/m_iNanoSet",
+          "before": 0,
+          "after": 37
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/37/m_iNeedQItemID",
+          "before": 21,
+          "after": 0
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/38/m_iComment",
+          "before": 0,
+          "after": 38
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/38/m_iNanoName",
+          "before": 0,
+          "after": 38
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/38/m_iNanoNumber",
+          "before": 0,
+          "after": 38
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/38/m_iNanoSet",
+          "before": 0,
+          "after": 38
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/38/m_iNeedQItemID",
+          "before": 21,
+          "after": 0
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/41/m_iIcon1",
+          "before": 42,
+          "after": 40
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/41/m_iMesh",
+          "before": 42,
+          "after": 40
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/41/m_iTune/0",
+          "before": 210,
+          "after": 285
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/41/m_iTune/1",
+          "before": 211,
+          "after": 286
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/41/m_iTune/2",
+          "before": 212,
+          "after": 287
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/67",
+          "after": {
+            "m_iAccuracy": 0,
+            "m_iBatteryRecharge": 3,
+            "m_iComment": 66,
+            "m_iDodge": 0,
+            "m_iEffect1": 1,
+            "m_iIcon1": 42,
+            "m_iMesh": 42,
+            "m_iNanoBattery1": 150,
+            "m_iNanoBattery2": 150,
+            "m_iNanoBattery3": 150,
+            "m_iNanoDrain": 2,
+            "m_iNanoName": 66,
+            "m_iNanoNumber": 67,
+            "m_iNanoSet": 67,
+            "m_iNeedFusionMatterCnt": 100,
+            "m_iNeedQItemID": 0,
+            "m_iPower": 0,
+            "m_iProtection": 0,
+            "m_iSound": 1,
+            "m_iStyle": 0,
+            "m_iTune": [
+              210,
+              211,
+              212
+            ]
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/68",
+          "after": {
+            "m_iAccuracy": 0,
+            "m_iBatteryRecharge": 3,
+            "m_iComment": 67,
+            "m_iDodge": 0,
+            "m_iEffect1": 1,
+            "m_iIcon1": 66,
+            "m_iMesh": 66,
+            "m_iNanoBattery1": 150,
+            "m_iNanoBattery2": 150,
+            "m_iNanoBattery3": 150,
+            "m_iNanoDrain": 2,
+            "m_iNanoName": 67,
+            "m_iNanoNumber": 68,
+            "m_iNanoSet": 68,
+            "m_iNeedFusionMatterCnt": 100,
+            "m_iNeedQItemID": 0,
+            "m_iPower": 0,
+            "m_iProtection": 0,
+            "m_iSound": 1,
+            "m_iStyle": 2,
+            "m_iTune": [
+              285,
+              286,
+              287
+            ]
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/69",
+          "after": {
+            "m_iAccuracy": 0,
+            "m_iBatteryRecharge": 3,
+            "m_iComment": 68,
+            "m_iDodge": 0,
+            "m_iEffect1": 1,
+            "m_iIcon1": 67,
+            "m_iMesh": 67,
+            "m_iNanoBattery1": 150,
+            "m_iNanoBattery2": 150,
+            "m_iNanoBattery3": 150,
+            "m_iNanoDrain": 2,
+            "m_iNanoName": 68,
+            "m_iNanoNumber": 69,
+            "m_iNanoSet": 69,
+            "m_iNeedFusionMatterCnt": 100,
+            "m_iNeedQItemID": 0,
+            "m_iPower": 0,
+            "m_iProtection": 0,
+            "m_iSound": 1,
+            "m_iStyle": 0,
+            "m_iTune": [
+              285,
+              286,
+              287
+            ]
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/70",
+          "after": {
+            "m_iAccuracy": 0,
+            "m_iBatteryRecharge": 3,
+            "m_iComment": 69,
+            "m_iDodge": 0,
+            "m_iEffect1": 1,
+            "m_iIcon1": 68,
+            "m_iMesh": 68,
+            "m_iNanoBattery1": 150,
+            "m_iNanoBattery2": 150,
+            "m_iNanoBattery3": 150,
+            "m_iNanoDrain": 2,
+            "m_iNanoName": 69,
+            "m_iNanoNumber": 70,
+            "m_iNanoSet": 70,
+            "m_iNeedFusionMatterCnt": 100,
+            "m_iNeedQItemID": 0,
+            "m_iPower": 0,
+            "m_iProtection": 0,
+            "m_iSound": 1,
+            "m_iStyle": 0,
+            "m_iTune": [
+              285,
+              286,
+              287
+            ]
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoIconData/66",
+          "after": {
+            "m_iIconNumber": 37,
+            "m_iIconType": 1
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoIconData/67",
+          "after": {
+            "m_iIconNumber": 0,
+            "m_iIconType": 1
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoIconData/68",
+          "after": {
+            "m_iIconNumber": 0,
+            "m_iIconType": 1
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoMeshData/66",
+          "after": {
+            "m_pstrFMeshModelString": "null",
+            "m_pstrFTextureString": "null",
+            "m_pstrFTextureString2": "null",
+            "m_pstrMMeshModelString": "nano_ben",
+            "m_pstrMTextureString": "nano_ben",
+            "m_pstrMTextureString2": "null"
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoMeshData/67",
+          "after": {
+            "m_pstrFMeshModelString": "null",
+            "m_pstrFTextureString": "null",
+            "m_pstrFTextureString2": "null",
+            "m_pstrMMeshModelString": "nano_ghostfreak",
+            "m_pstrMTextureString": "nano_ghostfreak",
+            "m_pstrMTextureString2": "null"
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoMeshData/68",
+          "after": {
+            "m_pstrFMeshModelString": "null",
+            "m_pstrFTextureString": "null",
+            "m_pstrFTextureString2": "null",
+            "m_pstrMMeshModelString": "nano_upgrade",
+            "m_pstrMTextureString": "nano_upgrade",
+            "m_pstrMTextureString2": "null"
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoStringData/37/m_strComment",
+          "before": "NANO COMING SOON!",
+          "after": "Flapjack Nano."
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoStringData/38/m_strComment",
+          "before": "NANO COMING SOON!",
+          "after": "Johnny Bravo Nano."
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoStringData/41/m_strName",
+          "before": "Coop",
+          "after": "Unstable Nano"
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoStringData/41/m_strComment",
+          "before": "Changes appearance for special events!",
+          "after": "An unstable Nano created by DexLabs."
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoStringData/66",
+          "after": {
+            "m_iExtraNumber": 0,
+            "m_strName": "Coop",
+            "m_strComment": "Coop Nano.",
+            "m_strComment1": "Adaptium",
+            "m_strComment2": ""
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoStringData/67",
+          "after": {
+            "m_iExtraNumber": 0,
+            "m_strName": "Ben Tennyson",
+            "m_strComment": "Ben Tennyson Nano.",
+            "m_strComment1": "Cosmix",
+            "m_strComment2": ""
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoStringData/68",
+          "after": {
+            "m_iExtraNumber": 0,
+            "m_strName": "Ghostfreak",
+            "m_strComment": "Ghostfreak Nano.",
+            "m_strComment1": "Adaptium",
+            "m_strComment2": ""
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoStringData/69",
+          "after": {
+            "m_iExtraNumber": 0,
+            "m_strName": "Upgrade",
+            "m_strComment": "Upgrade Nano.",
+            "m_strComment1": "Adaptium",
+            "m_strComment2": ""
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/285",
+          "after": {
+            "m_iComment": 285,
+            "m_iReqFusionMatter": 100,
+            "m_iReqItemCount": 5,
+            "m_iReqItemID": 22,
+            "m_iSkillID": 210,
+            "m_iTuneName": 285,
+            "m_iTuneNumber": 285
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/286",
+          "after": {
+            "m_iComment": 286,
+            "m_iReqFusionMatter": 100,
+            "m_iReqItemCount": 5,
+            "m_iReqItemID": 21,
+            "m_iSkillID": 211,
+            "m_iTuneName": 286,
+            "m_iTuneNumber": 286
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/287",
+          "after": {
+            "m_iComment": 287,
+            "m_iReqFusionMatter": 100,
+            "m_iReqItemCount": 5,
+            "m_iReqItemID": 12,
+            "m_iSkillID": 212,
+            "m_iTuneName": 287,
+            "m_iTuneNumber": 287
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneStringData/285",
+          "after": {
+            "m_iExtraNumber": 0,
+            "m_strName": "BONUS",
+            "m_strComment1": "BONUS",
+            "m_strComment": "Earn extra Taros from Fusion Monsters.",
+            "m_strComment2": ""
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneStringData/286",
+          "after": {
+            "m_iExtraNumber": 0,
+            "m_strName": "SCAVENGE",
+            "m_strComment1": "SCAVENGE",
+            "m_strComment": "Collect extra Fusion Matter from Fusion Monsters.",
+            "m_strComment2": ""
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneStringData/287",
+          "after": {
+            "m_iExtraNumber": 0,
+            "m_strName": "STUN",
+            "m_strComment1": "STUN - CONE",
+            "m_strComment": "Stun enemies in a cone in front of you.",
+            "m_strComment2": ""
+          }
+        }
+      ]
+    },
+    {
+      "operation": "json-patch",
+      "output": "localization/en.json",
+      "edits": [
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.37.str_comment",
+          "before": "NANO COMING SOON!",
+          "after": "Flapjack Nano."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.38.str_comment",
+          "before": "NANO COMING SOON!",
+          "after": "Johnny Bravo Nano."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.41.str_comment",
+          "before": "Changes appearance for special events!",
+          "after": "An unstable Nano created by DexLabs."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.41.str_name",
+          "before": "Coop",
+          "after": "Unstable Nano"
+        },
+        {
+          "path": "/entries/content.nano.41.name",
+          "before": "Coop",
+          "after": "Unstable Nano"
+        },
+        {
+          "path": "/entries/content.nano.41.description",
+          "before": "Changes appearance for special events!",
+          "after": "An unstable Nano created by DexLabs."
+        },
+        {
+          "path": "/entries/content.nano_tune.199.name",
+          "before": "HEROIC LEAP",
+          "after": "ADVENTURER'S LULLABY"
+        },
+        {
+          "path": "/entries/content.nano_tune.199.type_label",
+          "before": "JUMP - SELF",
+          "after": "SLEEP - SELF AREA"
+        },
+        {
+          "path": "/entries/content.nano_tune.199.description",
+          "before": "Finn helps you leap into action!",
+          "after": "After a long adventure, a nap is just what you need. Or... what the monsters need."
+        },
+        {
+          "path": "/entries/content.nano_tune.200.name",
+          "before": "RIGHTEOUS RECOVERY",
+          "after": "THE FOOT BURN"
+        },
+        {
+          "path": "/entries/content.nano_tune.200.type_label",
+          "before": "REVIVE - SELF",
+          "after": "JUMP - GROUP"
+        },
+        {
+          "path": "/entries/content.nano_tune.200.description",
+          "before": "Finn will help you to recover if you fall in combat.",
+          "after": "Is the dock on fire? Nope! It's just the foot burn. Keep your feet off the ground!"
+        },
+        {
+          "path": "/entries/content.nano_tune.201.name",
+          "before": "SMITE EVIL",
+          "after": "STUNNIN' GOOD LOOKS"
+        },
+        {
+          "path": "/entries/content.nano_tune.201.type_label",
+          "before": "DAMAGE - POINT",
+          "after": "STUN - AREA"
+        },
+        {
+          "path": "/entries/content.nano_tune.201.description",
+          "before": "Finn will slay anything that's evil.",
+          "after": "Ain't Johnny pretty? One good look at him stuns all monsters in front of you."
+        },
+        {
+          "path": "/entries/content.nano_tune.202.name",
+          "before": "SMACKHANDS",
+          "after": "MOMMA'S CALLING"
+        },
+        {
+          "path": "/entries/content.nano_tune.202.type_label",
+          "before": "STUN - CONE",
+          "after": "RUN - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.202.description",
+          "before": "Rex will pound your foes senseless.",
+          "after": "Johnny hears momma callin' in the distance. Use that speed boost to get back home."
+        },
+        {
+          "path": "/entries/content.nano_tune.203.name",
+          "before": "BIG FREAKIN SWORD",
+          "after": "TOO PRETTY TO DIE"
+        },
+        {
+          "path": "/entries/content.nano_tune.203.type_label",
+          "before": "DAMAGE - CONE",
+          "after": "REVIVE - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.203.description",
+          "before": "Rex has a Big Freakin' Sword!",
+          "after": "Johnny is way too good looking to go out like that. You'll be revived if things go bad."
+        },
+        {
+          "path": "/entries/content.nano.67.name",
+          "before": "Johnny Bravo",
+          "after": "Coop"
+        },
+        {
+          "path": "/entries/content.nano.67.description",
+          "before": "LEVEL 16 NANO",
+          "after": "Coop Nano."
+        },
+        {
+          "path": "/entries/content.nano.68.name",
+          "before": "Flapjack",
+          "after": "Ben Tennyson"
+        },
+        {
+          "path": "/entries/content.nano.68.attribute",
+          "before": "Adaptium",
+          "after": "Cosmix"
+        },
+        {
+          "path": "/entries/content.nano.68.description",
+          "before": "LEVEL 12 NANO",
+          "after": "Ben Tennyson Nano."
+        },
+        {
+          "path": "/entries/content.nano.69.name",
+          "before": "Ben Tennyson",
+          "after": "Ghostfreak"
+        },
+        {
+          "path": "/entries/content.nano.69.attribute",
+          "before": "Cosmix",
+          "after": "Adaptium"
+        },
+        {
+          "path": "/entries/content.nano.69.description",
+          "before": "Coming soon from DexLabs, Inc.",
+          "after": "Ghostfreak Nano."
+        },
+        {
+          "path": "/entries/content.nano.41.acquired_name",
+          "before": " Coop ",
+          "after": " Unstable Nano "
+        },
+        {
+          "path": "/entries/content.nano.67.acquired_name",
+          "before": " Johnny Bravo ",
+          "after": " Coop "
+        },
+        {
+          "path": "/entries/content.nano.68.acquired_name",
+          "before": " Flapjack ",
+          "after": " Ben Tennyson "
+        },
+        {
+          "path": "/entries/content.nano.69.acquired_name",
+          "before": " Ben Tennyson ",
+          "after": " Ghostfreak "
+        },
+        {
+          "path": "/entries/content.nano.37.name",
+          "after": "Flapjack"
+        },
+        {
+          "path": "/entries/content.nano.37.attribute",
+          "after": "Adaptium"
+        },
+        {
+          "path": "/entries/content.nano.37.description",
+          "after": "Flapjack Nano."
+        },
+        {
+          "path": "/entries/content.nano.37.acquired_name",
+          "after": " Flapjack "
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.37.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.nano.38.name",
+          "after": "Johnny Bravo"
+        },
+        {
+          "path": "/entries/content.nano.38.attribute",
+          "after": "Cosmix"
+        },
+        {
+          "path": "/entries/content.nano.38.description",
+          "after": "Johnny Bravo Nano."
+        },
+        {
+          "path": "/entries/content.nano.38.acquired_name",
+          "after": " Johnny Bravo "
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.38.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.41.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.66.str_name",
+          "after": "Coop"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.66.str_comment1",
+          "after": "Adaptium"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.66.str_comment",
+          "after": "Coop Nano."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.66.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.67.str_name",
+          "after": "Ben Tennyson"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.67.str_comment1",
+          "after": "Cosmix"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.67.str_comment",
+          "after": "Ben Tennyson Nano."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.67.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.68.str_name",
+          "after": "Ghostfreak"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.68.str_comment1",
+          "after": "Adaptium"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.68.str_comment",
+          "after": "Ghostfreak Nano."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.68.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.nano.70.name",
+          "after": "Upgrade"
+        },
+        {
+          "path": "/entries/content.nano.70.attribute",
+          "after": "Adaptium"
+        },
+        {
+          "path": "/entries/content.nano.70.description",
+          "after": "Upgrade Nano."
+        },
+        {
+          "path": "/entries/content.nano.70.acquired_name",
+          "after": " Upgrade "
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.69.str_name",
+          "after": "Upgrade"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.69.str_comment1",
+          "after": "Adaptium"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.69.str_comment",
+          "after": "Upgrade Nano."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.69.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.285.str_name",
+          "after": "BONUS"
+        },
+        {
+          "path": "/entries/content.nano_tune.285.name",
+          "after": "BONUS"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.285.str_comment1",
+          "after": "BONUS"
+        },
+        {
+          "path": "/entries/content.nano_tune.285.type_label",
+          "after": "BONUS"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.285.str_comment",
+          "after": "Earn extra Taros from Fusion Monsters."
+        },
+        {
+          "path": "/entries/content.nano_tune.285.description",
+          "after": "Earn extra Taros from Fusion Monsters."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.286.str_name",
+          "after": "SCAVENGE"
+        },
+        {
+          "path": "/entries/content.nano_tune.286.name",
+          "after": "SCAVENGE"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.286.str_comment1",
+          "after": "SCAVENGE"
+        },
+        {
+          "path": "/entries/content.nano_tune.286.type_label",
+          "after": "SCAVENGE"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.286.str_comment",
+          "after": "Collect extra Fusion Matter from Fusion Monsters."
+        },
+        {
+          "path": "/entries/content.nano_tune.286.description",
+          "after": "Collect extra Fusion Matter from Fusion Monsters."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.287.str_name",
+          "after": "STUN"
+        },
+        {
+          "path": "/entries/content.nano_tune.287.name",
+          "after": "STUN"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.287.str_comment1",
+          "after": "STUN - CONE"
+        },
+        {
+          "path": "/entries/content.nano_tune.287.type_label",
+          "after": "STUN - CONE"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.287.str_comment",
+          "after": "Stun enemies in a cone in front of you."
+        },
+        {
+          "path": "/entries/content.nano_tune.287.description",
+          "after": "Stun enemies in a cone in front of you."
+        }
+      ]
+    },
+    {
+      "operation": "json-patch",
+      "output": "localization/ru.json",
+      "edits": [
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.37.str_comment",
+          "before": "НАНО СКОРО!",
+          "after": "Нано Флэпджек."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.38.str_comment",
+          "before": "НАНО СКОРО!",
+          "after": "Нано Джонни Браво."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.41.str_comment",
+          "before": "Меняет внешний вид для особых событий!",
+          "after": "Нестабильный Нано, созданный в лаборатории Декстера."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.41.str_name",
+          "before": "Куп",
+          "after": "Нестабильный Нано"
+        },
+        {
+          "path": "/entries/content.nano.41.name",
+          "before": "Куп",
+          "after": "Нестабильный Нано"
+        },
+        {
+          "path": "/entries/content.nano.41.description",
+          "before": "Changes appearance for special events!",
+          "after": "Нестабильный Нано, созданный в лаборатории Декстера."
+        },
+        {
+          "path": "/entries/content.nano_tune.198.name",
+          "before": "BLOOD GNAT ATTACK",
+          "after": "НАПАДЕНИЕ КРОВАВЫХ КОМАРОВ"
+        },
+        {
+          "path": "/entries/content.nano_tune.198.type_label",
+          "before": "DRAIN - POINT",
+          "after": "ДРЕНАЖНАЯ ТОЧКА"
+        },
+        {
+          "path": "/entries/content.nano_tune.198.description",
+          "before": "A swarm of blood gnats infest all enemies ahead of you, doing damage over time.",
+          "after": "Рой кровавых комаров заражает всех врагов впереди вас, нанося постепенный урон."
+        },
+        {
+          "path": "/entries/content.nano_tune.199.name",
+          "before": "HEROIC LEAP",
+          "after": "КОЛЫБЕЛЬНАЯ ПРИКЛЮЧЕНЦЫ"
+        },
+        {
+          "path": "/entries/content.nano_tune.199.type_label",
+          "before": "ПРУЖИНКА - НА СЕБЯ",
+          "after": "СОН – ЗОНА СЕБЯ"
+        },
+        {
+          "path": "/entries/content.nano_tune.199.description",
+          "before": "Finn helps you leap into action!",
+          "after": "После долгого приключения сон – это именно то, что вам нужно. Или... то, что нужно монстрам."
+        },
+        {
+          "path": "/entries/content.nano_tune.200.name",
+          "before": "RIGHTEOUS RECOVERY",
+          "after": "НОГА ОЖОГ"
+        },
+        {
+          "path": "/entries/content.nano_tune.200.type_label",
+          "before": "ВОЗРОЖДЕНИЕ - НА СЕБЯ",
+          "after": "ПРЫГ – ГРУППА"
+        },
+        {
+          "path": "/entries/content.nano_tune.200.description",
+          "before": "Finn will help you to recover if you fall in combat.",
+          "after": "Док горит? Неа! Это просто ожог стопы. Держите ноги над землей!"
+        },
+        {
+          "path": "/entries/content.nano_tune.201.name",
+          "before": "SMITE EVIL",
+          "after": "ПОТРЯСАЮЩИЙ ВНЕШНИЙ ВИД"
+        },
+        {
+          "path": "/entries/content.nano_tune.201.type_label",
+          "before": "DAMAGE - POINT",
+          "after": "ОГЛУШЕНИЕ – ОБЛАСТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.201.description",
+          "before": "Finn will slay anything that's evil.",
+          "after": "Разве Джонни не красавчик? Один хороший взгляд на него оглушит всех монстров перед вами."
+        },
+        {
+          "path": "/entries/content.nano_tune.202.name",
+          "before": "SMACKHANDS",
+          "after": "МАМОЧКА ЗВОНИТ"
+        },
+        {
+          "path": "/entries/content.nano_tune.202.type_label",
+          "before": "STUN - CONE",
+          "after": "БЕГ - САМОСТОЯТЕЛЬНО"
+        },
+        {
+          "path": "/entries/content.nano_tune.202.description",
+          "before": "Rex will pound your foes senseless.",
+          "after": "Джонни слышит, как мама зовет издалека. Используйте это ускорение, чтобы вернуться домой."
+        },
+        {
+          "path": "/entries/content.nano_tune.203.name",
+          "before": "BIG FREAKIN SWORD",
+          "after": "СЛИШКОМ КРАСОТА, ЧТОБЫ УМЕРЕТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.203.type_label",
+          "before": "DAMAGE - CONE",
+          "after": "ВОЗРОЖДЕНИЕ - САМО"
+        },
+        {
+          "path": "/entries/content.nano_tune.203.description",
+          "before": "Rex has a Big Freakin' Sword!",
+          "after": "Джонни слишком хорошо выглядит, чтобы выходить в свет в таком виде. Вас возродят, если дела пойдут плохо."
+        },
+        {
+          "path": "/entries/content.nano.67.name",
+          "before": "Джонни Браво",
+          "after": "Куп"
+        },
+        {
+          "path": "/entries/content.nano.67.description",
+          "before": "НАНО 16-ГО УРОВНЯ",
+          "after": "Нано Куп."
+        },
+        {
+          "path": "/entries/content.nano.68.name",
+          "before": "Флэпджек",
+          "after": "Бен Теннисон"
+        },
+        {
+          "path": "/entries/content.nano.68.attribute",
+          "before": "Адаптиум",
+          "after": "Космикс"
+        },
+        {
+          "path": "/entries/content.nano.68.description",
+          "before": "НАНО 12-ГО УРОВНЯ",
+          "after": "Нано Бен Теннисон."
+        },
+        {
+          "path": "/entries/content.nano.69.name",
+          "before": "Бен Теннисон",
+          "after": "Призрак"
+        },
+        {
+          "path": "/entries/content.nano.69.attribute",
+          "before": "Космикс",
+          "after": "Адаптиум"
+        },
+        {
+          "path": "/entries/content.nano.69.description",
+          "before": "Coming soon from DexLabs, Inc.",
+          "after": "Нано Призрак."
+        },
+        {
+          "path": "/entries/content.nano.41.acquired_name",
+          "before": "Куп",
+          "after": " Нестабильный Нано "
+        },
+        {
+          "path": "/entries/content.nano.67.acquired_name",
+          "before": "Джонни Браво",
+          "after": " Куп "
+        },
+        {
+          "path": "/entries/content.nano.68.acquired_name",
+          "before": "Флэпджек",
+          "after": " Бен Теннисон "
+        },
+        {
+          "path": "/entries/content.nano.69.acquired_name",
+          "before": "Бен Теннисон",
+          "after": " Призрак "
+        },
+        {
+          "path": "/entries/content.nano.37.name",
+          "after": "Флэпджек"
+        },
+        {
+          "path": "/entries/content.nano.37.attribute",
+          "after": "Адаптиум"
+        },
+        {
+          "path": "/entries/content.nano.37.description",
+          "after": "Нано Флэпджек."
+        },
+        {
+          "path": "/entries/content.nano.37.acquired_name",
+          "after": " Флэпджек "
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.37.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.nano.38.name",
+          "after": "Джонни Браво"
+        },
+        {
+          "path": "/entries/content.nano.38.attribute",
+          "after": "Космикс"
+        },
+        {
+          "path": "/entries/content.nano.38.description",
+          "after": "Нано Джонни Браво."
+        },
+        {
+          "path": "/entries/content.nano.38.acquired_name",
+          "after": " Джонни Браво "
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.38.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.41.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.66.str_name",
+          "after": "Куп"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.66.str_comment1",
+          "after": "Адаптиум"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.66.str_comment",
+          "after": "Нано Куп."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.66.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.67.str_name",
+          "after": "Бен Теннисон"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.67.str_comment1",
+          "after": "Космикс"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.67.str_comment",
+          "after": "Нано Бен Теннисон."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.67.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.68.str_name",
+          "after": "Призрак"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.68.str_comment1",
+          "after": "Адаптиум"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.68.str_comment",
+          "after": "Нано Призрак."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.68.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.nano.70.name",
+          "after": "Апгрейд"
+        },
+        {
+          "path": "/entries/content.nano.70.attribute",
+          "after": "Адаптиум"
+        },
+        {
+          "path": "/entries/content.nano.70.description",
+          "after": "Нано Апгрейд."
+        },
+        {
+          "path": "/entries/content.nano.70.acquired_name",
+          "after": " Апгрейд "
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.69.str_name",
+          "after": "Апгрейд"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.69.str_comment1",
+          "after": "Адаптиум"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.69.str_comment",
+          "after": "Нано Апгрейд."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.69.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.285.str_name",
+          "after": "БОНУС"
+        },
+        {
+          "path": "/entries/content.nano_tune.285.name",
+          "after": "БОНУС"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.285.str_comment1",
+          "after": "БОНУС"
+        },
+        {
+          "path": "/entries/content.nano_tune.285.type_label",
+          "after": "БОНУС"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.285.str_comment",
+          "after": "Получайте больше таросов за победу над монстрами Фьюза."
+        },
+        {
+          "path": "/entries/content.nano_tune.285.description",
+          "after": "Получайте больше таросов за победу над монстрами Фьюза."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.286.str_name",
+          "after": "СБОР"
+        },
+        {
+          "path": "/entries/content.nano_tune.286.name",
+          "after": "СБОР"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.286.str_comment1",
+          "after": "СБОР"
+        },
+        {
+          "path": "/entries/content.nano_tune.286.type_label",
+          "after": "СБОР"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.286.str_comment",
+          "after": "Получайте больше материи слияния за победу над монстрами Фьюза."
+        },
+        {
+          "path": "/entries/content.nano_tune.286.description",
+          "after": "Получайте больше материи слияния за победу над монстрами Фьюза."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.287.str_name",
+          "after": "ОГЛУШЕНИЕ"
+        },
+        {
+          "path": "/entries/content.nano_tune.287.name",
+          "after": "ОГЛУШЕНИЕ"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.287.str_comment1",
+          "after": "ОГЛУШЕНИЕ — КОНУС"
+        },
+        {
+          "path": "/entries/content.nano_tune.287.type_label",
+          "after": "ОГЛУШЕНИЕ — КОНУС"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_tune_string.287.str_comment",
+          "after": "Оглушайте врагов в конусе перед собой."
+        },
+        {
+          "path": "/entries/content.nano_tune.287.description",
+          "after": "Оглушайте врагов в конусе перед собой."
+        }
+      ]
+    }
+  ]
+}

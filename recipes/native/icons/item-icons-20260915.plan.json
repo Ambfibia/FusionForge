@@ -1,0 +1,4239 @@
+{
+  "schema": "fusionforge.item-icon-restoration-plan.v1",
+  "sources": [
+    {
+      "alias": "primary",
+      "root": "../builds/retrobution-20260821",
+      "container": "Icons.resourceFile",
+      "serializedAsset": "CustomAssetBundle-784fa24bcf2da4f5eabe9547958616eb",
+      "bytes": 6557371,
+      "sha256": "e4a4b531cafa44b2c046f8dc8dea97c694bc0c6e455b0329232c2b09596eb96d"
+    },
+    {
+      "alias": "primary",
+      "root": "../builds/retrobution-20260821",
+      "container": "Retro_shared.resourceFile",
+      "serializedAsset": "CustomAssetBundle-Retro_shared",
+      "bytes": 14258661,
+      "sha256": "2ca4147c3705fdd3a0fc0ec44e088da6e87279e978e73b19701b0d29babbfc33"
+    },
+    {
+      "alias": "alternate",
+      "root": "../builds/OG-academy",
+      "container": "Icons.resourceFile",
+      "serializedAsset": "CustomAssetBundle-Icons",
+      "bytes": 6054910,
+      "sha256": "b3995181bc9e917d0bf2b35e38361e0e18eed6f14c95aab52eb5cfd81f056cea"
+    }
+  ],
+  "tables": {
+    "m_pWeaponItemTable": 806,
+    "m_pShirtsItemTable": 841,
+    "m_pPantsItemTable": 662,
+    "m_pShoesItemTable": 662,
+    "m_pHatItemTable": 459,
+    "m_pGlassItemTable": 137,
+    "m_pBackItemTable": 200,
+    "m_pGeneralItemTable": 179,
+    "m_pChestItemTable": 2320,
+    "m_pVehicleItemTable": 161
+  },
+  "entries": [
+    {
+      "path": "icons/items/weapons/wpnicon_960.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/wpnicon_960.png",
+      "pathId": 3923,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pWeaponItemTable",
+          "itemRow": 639,
+          "itemName": "Ultra Rare Prototype Grenade",
+          "iconType": 0,
+          "iconNumber": 960
+        },
+        {
+          "table": "m_pWeaponItemTable",
+          "itemRow": 640,
+          "itemName": "Ultra Rare Prototype Grenade",
+          "iconType": 0,
+          "iconNumber": 960
+        },
+        {
+          "table": "m_pWeaponItemTable",
+          "itemRow": 641,
+          "itemName": "Ultra Rare Prototype Grenade",
+          "iconType": 0,
+          "iconNumber": 960
+        },
+        {
+          "table": "m_pWeaponItemTable",
+          "itemRow": 642,
+          "itemName": "Ultra Rare Prototype Grenade",
+          "iconType": 0,
+          "iconNumber": 960
+        },
+        {
+          "table": "m_pWeaponItemTable",
+          "itemRow": 643,
+          "itemName": "Ultra Rare Prototype Grenade",
+          "iconType": 0,
+          "iconNumber": 960
+        },
+        {
+          "table": "m_pWeaponItemTable",
+          "itemRow": 644,
+          "itemName": "Ultra Rare Prototype Grenade",
+          "iconType": 0,
+          "iconNumber": 960
+        },
+        {
+          "table": "m_pWeaponItemTable",
+          "itemRow": 645,
+          "itemName": "Ultra Rare Prototype Grenade",
+          "iconType": 0,
+          "iconNumber": 960
+        },
+        {
+          "table": "m_pWeaponItemTable",
+          "itemRow": 646,
+          "itemName": "Ultra Rare Prototype Grenade",
+          "iconType": 0,
+          "iconNumber": 960
+        },
+        {
+          "table": "m_pWeaponItemTable",
+          "itemRow": 679,
+          "itemName": "Sword Of Billy",
+          "iconType": 0,
+          "iconNumber": 960
+        }
+      ]
+    },
+    {
+      "path": "icons/items/weapons/wpnicon_891.png",
+      "sourceIndex": 2,
+      "containerRoute": "icons/wpnicon_891.png",
+      "pathId": 1992309300,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pWeaponItemTable",
+          "itemRow": 774,
+          "itemName": "Ship Arm Cannon",
+          "iconType": 0,
+          "iconNumber": 891
+        }
+      ]
+    },
+    {
+      "path": "icons/items/weapons/wpnicon_959.png",
+      "sourceIndex": 2,
+      "containerRoute": "icons/wpnicon_959.png",
+      "pathId": 1577259868,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pWeaponItemTable",
+          "itemRow": 775,
+          "itemName": "Bobo Haha's Big Gun",
+          "iconType": 0,
+          "iconNumber": 959
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1690.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1690.png",
+      "pathId": 3926,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 411,
+          "itemName": "Candy Pirate First Mate Shirt",
+          "iconType": 3,
+          "iconNumber": 1690
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1693.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1693.png",
+      "pathId": 3929,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 412,
+          "itemName": "KNDefender Armor",
+          "iconType": 3,
+          "iconNumber": 1693
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1695.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1695.png",
+      "pathId": 3931,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 413,
+          "itemName": "Plumber Officer Armor",
+          "iconType": 3,
+          "iconNumber": 1695
+        },
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 394,
+          "itemName": "Ultimate Humungousaur Helmet",
+          "iconType": 3,
+          "iconNumber": 1695
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1698.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1698.png",
+      "pathId": 3934,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 414,
+          "itemName": "Urban Ranger Commando Shirt",
+          "iconType": 3,
+          "iconNumber": 1698
+        },
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 615,
+          "itemName": "Ultimate Swampfire Pants",
+          "iconType": 3,
+          "iconNumber": 1698
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1696.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1696.png",
+      "pathId": 3932,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 415,
+          "itemName": "Casual SACT Shirt",
+          "iconType": 3,
+          "iconNumber": 1696
+        },
+        {
+          "table": "m_pGlassItemTable",
+          "itemRow": 123,
+          "itemName": "Upchuck Mouth",
+          "iconType": 3,
+          "iconNumber": 1696
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1691.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1691.png",
+      "pathId": 3927,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 489,
+          "itemName": "Clockwork Rewound Coat",
+          "iconType": 3,
+          "iconNumber": 1691
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 179,
+          "itemName": "Humungousaur Tail",
+          "iconType": 3,
+          "iconNumber": 1691
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1700.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1700.png",
+      "pathId": 3936,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 490,
+          "itemName": "Way Bad Torso",
+          "iconType": 3,
+          "iconNumber": 1700
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1694.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1694.png",
+      "pathId": 3930,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 491,
+          "itemName": "Nergal Suit",
+          "iconType": 3,
+          "iconNumber": 1694
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 180,
+          "itemName": "Terraspin Shell",
+          "iconType": 3,
+          "iconNumber": 1694
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1699.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1699.png",
+      "pathId": 3935,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 492,
+          "itemName": "FusionFall Victory Tee",
+          "iconType": 3,
+          "iconNumber": 1699
+        },
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 619,
+          "itemName": "Ultimate Swampfire Boots",
+          "iconType": 3,
+          "iconNumber": 1699
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1688.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1688.png",
+      "pathId": 3924,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 493,
+          "itemName": "Albedo Jacket",
+          "iconType": 3,
+          "iconNumber": 1688
+        },
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 392,
+          "itemName": "Armordrillo Helmet",
+          "iconType": 3,
+          "iconNumber": 1688
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1689.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1689.png",
+      "pathId": 3925,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 494,
+          "itemName": "Birthday Suit",
+          "iconType": 3,
+          "iconNumber": 1689
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1697.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1697.png",
+      "pathId": 3933,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 495,
+          "itemName": "Signed Ace Jacket",
+          "iconType": 3,
+          "iconNumber": 1697
+        },
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 725,
+          "itemName": "Ultimate Swampfire Torso",
+          "iconType": 3,
+          "iconNumber": 1697
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1692.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1692.png",
+      "pathId": 3928,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 499,
+          "itemName": "Diva Dynamite Torso",
+          "iconType": 3,
+          "iconNumber": 1692
+        },
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 500,
+          "itemName": "Fusion TOM Chest",
+          "iconType": 3,
+          "iconNumber": 1692
+        },
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 393,
+          "itemName": "Lodestar Helmet",
+          "iconType": 3,
+          "iconNumber": 1692
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1645.png",
+      "sourceIndex": 0,
+      "containerRoute": "icons/cosicon_1645.png",
+      "pathId": 100,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 711,
+          "itemName": "Ultra Rare Prototype Shirt",
+          "iconType": 3,
+          "iconNumber": 1645
+        },
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 712,
+          "itemName": "Ultra Rare Prototype Shirt",
+          "iconType": 3,
+          "iconNumber": 1645
+        },
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 713,
+          "itemName": "Ultra Rare Prototype Shirt",
+          "iconType": 3,
+          "iconNumber": 1645
+        },
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 714,
+          "itemName": "Ultra Rare Prototype Shirt",
+          "iconType": 3,
+          "iconNumber": 1645
+        },
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 715,
+          "itemName": "Ultra Rare Prototype Shirt",
+          "iconType": 3,
+          "iconNumber": 1645
+        },
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 716,
+          "itemName": "Ultra Rare Prototype Shirt",
+          "iconType": 3,
+          "iconNumber": 1645
+        },
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 717,
+          "itemName": "Ultra Rare Prototype Shirt",
+          "iconType": 3,
+          "iconNumber": 1645
+        },
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 718,
+          "itemName": "Ultra Rare Prototype Shirt",
+          "iconType": 3,
+          "iconNumber": 1645
+        },
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 818,
+          "itemName": "Naked",
+          "iconType": 3,
+          "iconNumber": 1645
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1650.png",
+      "sourceIndex": 2,
+      "containerRoute": "icons/cosicon_1650.png",
+      "pathId": 875570012,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 719,
+          "itemName": "Gangreen Gang Autographed Jacket",
+          "iconType": 3,
+          "iconNumber": 1650
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1658.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1658.png",
+      "pathId": 3650,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 720,
+          "itemName": "Secret Agent Coat",
+          "iconType": 3,
+          "iconNumber": 1658
+        },
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 131,
+          "itemName": "Puckerberry Hood",
+          "iconType": 3,
+          "iconNumber": 1658
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1666.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1666.png",
+      "pathId": 3901,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 722,
+          "itemName": "Ship Mecomorph Armor",
+          "iconType": 3,
+          "iconNumber": 1666
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 68,
+          "itemName": "Fusion Stinkfly Wings",
+          "iconType": 3,
+          "iconNumber": 1666
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1676.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1676.png",
+      "pathId": 3911,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 723,
+          "itemName": "Jester Shirt",
+          "iconType": 3,
+          "iconNumber": 1676
+        },
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 195,
+          "itemName": "Grabble",
+          "iconType": 3,
+          "iconNumber": 1676
+        },
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 196,
+          "itemName": "Fusion TOM Helmet",
+          "iconType": 3,
+          "iconNumber": 1676
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1685.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1685.png",
+      "pathId": 3920,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 724,
+          "itemName": "Providence Armor",
+          "iconType": 3,
+          "iconNumber": 1685
+        },
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 106,
+          "itemName": "Urban Ranger Commando Beret",
+          "iconType": 3,
+          "iconNumber": 1685
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1715.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1715.png",
+      "pathId": 3951,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 726,
+          "itemName": "Ice Chestplate",
+          "iconType": 3,
+          "iconNumber": 1715
+        },
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 480,
+          "itemName": "Way Bad Feet",
+          "iconType": 3,
+          "iconNumber": 1715
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1712.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1712.png",
+      "pathId": 3948,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 727,
+          "itemName": "Finn Shirt",
+          "iconType": 3,
+          "iconNumber": 1712
+        },
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 483,
+          "itemName": "Diva Dynamite Boots",
+          "iconType": 3,
+          "iconNumber": 1712
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1728.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1728.png",
+      "pathId": 4916,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 732,
+          "itemName": "Golden Marauder Tunic",
+          "iconType": 3,
+          "iconNumber": 1728
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1726.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1726.png",
+      "pathId": 4914,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShirtsItemTable",
+          "itemRow": 739,
+          "itemName": "Treetrunks Tee",
+          "iconType": 3,
+          "iconNumber": 1726
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1702.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1702.png",
+      "pathId": 3938,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 395,
+          "itemName": "Candy Pirate First Mate Pants",
+          "iconType": 3,
+          "iconNumber": 1702
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1705.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1705.png",
+      "pathId": 3941,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 396,
+          "itemName": "KNDefender Pants",
+          "iconType": 3,
+          "iconNumber": 1705
+        },
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 397,
+          "itemName": "Swampfire Helmet",
+          "iconType": 3,
+          "iconNumber": 1705
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1707.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1707.png",
+      "pathId": 3943,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 397,
+          "itemName": "Plumber Officer Pants",
+          "iconType": 3,
+          "iconNumber": 1707
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 186,
+          "itemName": "AmpFibian Tendrils",
+          "iconType": 3,
+          "iconNumber": 1707
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1708.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1708.png",
+      "pathId": 3944,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 398,
+          "itemName": "Urban Ranger Commando Pants",
+          "iconType": 3,
+          "iconNumber": 1708
+        },
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 399,
+          "itemName": "Blowfish Disguise",
+          "iconType": 3,
+          "iconNumber": 1708
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1703.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1703.png",
+      "pathId": 3939,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 472,
+          "itemName": "Clockwork Rewound Pants",
+          "iconType": 3,
+          "iconNumber": 1703
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 184,
+          "itemName": "Ultimate Big Chill Wings",
+          "iconType": 3,
+          "iconNumber": 1703
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1709.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1709.png",
+      "pathId": 3945,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 473,
+          "itemName": "Way Bad Legs",
+          "iconType": 3,
+          "iconNumber": 1709
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 187,
+          "itemName": "Blowfish Spines",
+          "iconType": 3,
+          "iconNumber": 1709
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1706.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1706.png",
+      "pathId": 3942,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 474,
+          "itemName": "Nergal Pants",
+          "iconType": 3,
+          "iconNumber": 1706
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 185,
+          "itemName": "Brainstorm Back Pack ",
+          "iconType": 3,
+          "iconNumber": 1706
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1701.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1701.png",
+      "pathId": 3937,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 475,
+          "itemName": "Birthday Pants",
+          "iconType": 3,
+          "iconNumber": 1701
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1704.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1704.png",
+      "pathId": 3940,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 476,
+          "itemName": "Diva Dynamite Pants",
+          "iconType": 3,
+          "iconNumber": 1704
+        },
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 396,
+          "itemName": "Water Hazard Helmet",
+          "iconType": 3,
+          "iconNumber": 1704
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1456.png",
+      "sourceIndex": 0,
+      "containerRoute": "icons/cosicon_1456.png",
+      "pathId": 2136,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 599,
+          "itemName": "Academy Graduate Legs",
+          "iconType": 3,
+          "iconNumber": 1456
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1646.png",
+      "sourceIndex": 0,
+      "containerRoute": "icons/cosicon_1646.png",
+      "pathId": 2728,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 601,
+          "itemName": "Ultra Rare Prototype Pants",
+          "iconType": 3,
+          "iconNumber": 1646
+        },
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 602,
+          "itemName": "Ultra Rare Prototype Pants",
+          "iconType": 3,
+          "iconNumber": 1646
+        },
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 603,
+          "itemName": "Ultra Rare Prototype Pants",
+          "iconType": 3,
+          "iconNumber": 1646
+        },
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 604,
+          "itemName": "Ultra Rare Prototype Pants",
+          "iconType": 3,
+          "iconNumber": 1646
+        },
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 605,
+          "itemName": "Ultra Rare Prototype Pants",
+          "iconType": 3,
+          "iconNumber": 1646
+        },
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 606,
+          "itemName": "Ultra Rare Prototype Pants",
+          "iconType": 3,
+          "iconNumber": 1646
+        },
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 607,
+          "itemName": "Ultra Rare Prototype Pants",
+          "iconType": 3,
+          "iconNumber": 1646
+        },
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 608,
+          "itemName": "Ultra Rare Prototype Pants",
+          "iconType": 3,
+          "iconNumber": 1646
+        },
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 640,
+          "itemName": "Naked Pants",
+          "iconType": 3,
+          "iconNumber": 1646
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1673.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1673.png",
+      "pathId": 3908,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 610,
+          "itemName": "Academy Training Legs",
+          "iconType": 3,
+          "iconNumber": 1673
+        },
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 105,
+          "itemName": "Candy Pirate First Mate Bandana",
+          "iconType": 3,
+          "iconNumber": 1673
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1667.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1667.png",
+      "pathId": 3902,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 612,
+          "itemName": "Ship Mecomorph Pants",
+          "iconType": 3,
+          "iconNumber": 1667
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 70,
+          "itemName": "Fusion Octi Backpack",
+          "iconType": 3,
+          "iconNumber": 1667
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1677.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1677.png",
+      "pathId": 3912,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 613,
+          "itemName": "Jester Pants",
+          "iconType": 3,
+          "iconNumber": 1677
+        },
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 187,
+          "itemName": "Moxy Bubblehead",
+          "iconType": 3,
+          "iconNumber": 1677
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1686.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1686.png",
+      "pathId": 3921,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 614,
+          "itemName": "Providence Pants",
+          "iconType": 3,
+          "iconNumber": 1686
+        },
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 140,
+          "itemName": "Way Bad Helmet",
+          "iconType": 3,
+          "iconNumber": 1686
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1716.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1716.png",
+      "pathId": 3952,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 616,
+          "itemName": "Ice Pants",
+          "iconType": 3,
+          "iconNumber": 1716
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1713.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1713.png",
+      "pathId": 3949,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 617,
+          "itemName": "Finn Shorts",
+          "iconType": 3,
+          "iconNumber": 1713
+        },
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 481,
+          "itemName": "Nergal Shoes",
+          "iconType": 3,
+          "iconNumber": 1713
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1729.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1729.png",
+      "pathId": 4917,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 622,
+          "itemName": "Golden Marauder Pants",
+          "iconType": 3,
+          "iconNumber": 1729
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1938.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1938.png",
+      "pathId": 29950,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pPantsItemTable",
+          "itemRow": 643,
+          "itemName": "Forever Ninja Zebra Pants",
+          "iconType": 3,
+          "iconNumber": 1938
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1714.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1714.png",
+      "pathId": 3950,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 403,
+          "itemName": "Plumber Officer Boots",
+          "iconType": 3,
+          "iconNumber": 1714
+        },
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 620,
+          "itemName": "Finn Shoes",
+          "iconType": 3,
+          "iconNumber": 1714
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1711.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1711.png",
+      "pathId": 3947,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 479,
+          "itemName": "Clockwork Rewound Boots",
+          "iconType": 3,
+          "iconNumber": 1711
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 188,
+          "itemName": "Finn Backpack",
+          "iconType": 3,
+          "iconNumber": 1711
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1710.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1710.png",
+      "pathId": 3946,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 482,
+          "itemName": "Birthday Shoes",
+          "iconType": 3,
+          "iconNumber": 1710
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1653.png",
+      "sourceIndex": 0,
+      "containerRoute": "icons/cosicon_1653.png",
+      "pathId": 92,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 607,
+          "itemName": "Ultra Rare Prototype Shoes",
+          "iconType": 3,
+          "iconNumber": 1653
+        },
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 608,
+          "itemName": "Ultra Rare Prototype Shoes",
+          "iconType": 3,
+          "iconNumber": 1653
+        },
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 609,
+          "itemName": "Ultra Rare Prototype Shoes",
+          "iconType": 3,
+          "iconNumber": 1653
+        },
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 610,
+          "itemName": "Ultra Rare Prototype Shoes",
+          "iconType": 3,
+          "iconNumber": 1653
+        },
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 611,
+          "itemName": "Ultra Rare Prototype Shoes",
+          "iconType": 3,
+          "iconNumber": 1653
+        },
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 612,
+          "itemName": "Ultra Rare Prototype Shoes",
+          "iconType": 3,
+          "iconNumber": 1653
+        },
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 613,
+          "itemName": "Ultra Rare Prototype Shoes",
+          "iconType": 3,
+          "iconNumber": 1653
+        },
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 614,
+          "itemName": "Ultra Rare Prototype Shoes",
+          "iconType": 3,
+          "iconNumber": 1653
+        },
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 642,
+          "itemName": "NAKED",
+          "iconType": 3,
+          "iconNumber": 1653
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1668.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1668.png",
+      "pathId": 3903,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 617,
+          "itemName": "Ship Mecomorph Boots",
+          "iconType": 3,
+          "iconNumber": 1668
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 69,
+          "itemName": "Jersey Devil Wings",
+          "iconType": 3,
+          "iconNumber": 1668
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1687.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1687.png",
+      "pathId": 3922,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 618,
+          "itemName": "Providence Boots",
+          "iconType": 3,
+          "iconNumber": 1687
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 57,
+          "itemName": "Urban Ranger Commando Backpack",
+          "iconType": 3,
+          "iconNumber": 1687
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1939.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1939.png",
+      "pathId": 29951,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pShoesItemTable",
+          "itemRow": 644,
+          "itemName": "Forever Ninja Zebra Shoes",
+          "iconType": 3,
+          "iconNumber": 1939
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1681.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1681.png",
+      "pathId": 3916,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 122,
+          "itemName": "Plumber Officer Helmet",
+          "iconType": 3,
+          "iconNumber": 1681
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 182,
+          "itemName": "Munya Spider Arms",
+          "iconType": 3,
+          "iconNumber": 1681
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1657.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1657.png",
+      "pathId": 3649,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 130,
+          "itemName": "Fusion Chowder Hat",
+          "iconType": 3,
+          "iconNumber": 1657
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1682.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1682.png",
+      "pathId": 3917,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 185,
+          "itemName": "Ripe Grabble",
+          "iconType": 3,
+          "iconNumber": 1682
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 181,
+          "itemName": "Ultimate Spider Monkey Arms",
+          "iconType": 3,
+          "iconNumber": 1682
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1684.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1684.png",
+      "pathId": 3919,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 186,
+          "itemName": "Fusion Spawn Bubblehead",
+          "iconType": 3,
+          "iconNumber": 1684
+        },
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 391,
+          "itemName": "Providence Helmet",
+          "iconType": 3,
+          "iconNumber": 1684
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1683.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1683.png",
+      "pathId": 3918,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 188,
+          "itemName": "Robot Jones Bubblehead",
+          "iconType": 3,
+          "iconNumber": 1683
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 183,
+          "itemName": "Mechanical Spider Arms",
+          "iconType": 3,
+          "iconNumber": 1683
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1680.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1680.png",
+      "pathId": 3915,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 189,
+          "itemName": "Plank Bubblehead",
+          "iconType": 3,
+          "iconNumber": 1680
+        },
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 395,
+          "itemName": "Finn Hat",
+          "iconType": 3,
+          "iconNumber": 1680
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1675.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1675.png",
+      "pathId": 3910,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 190,
+          "itemName": "Golly Gopher Bubblehead",
+          "iconType": 3,
+          "iconNumber": 1675
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1672.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1672.png",
+      "pathId": 3907,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 191,
+          "itemName": "Blank Bubblehead",
+          "iconType": 3,
+          "iconNumber": 1672
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1674.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1674.png",
+      "pathId": 3909,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 192,
+          "itemName": "Fusion Numbuh Two Flight Helmet",
+          "iconType": 3,
+          "iconNumber": 1674
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1679.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1679.png",
+      "pathId": 3914,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 193,
+          "itemName": "Party Hat",
+          "iconType": 3,
+          "iconNumber": 1679
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1678.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1678.png",
+      "pathId": 3913,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 194,
+          "itemName": "Nanomech Helmet",
+          "iconType": 3,
+          "iconNumber": 1678
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1642.png",
+      "sourceIndex": 2,
+      "containerRoute": "icons/cosicon_1642.png",
+      "pathId": 4047397160,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 385,
+          "itemName": "Birthday Candle Hat",
+          "iconType": 3,
+          "iconNumber": 1642
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1644.png",
+      "sourceIndex": 2,
+      "containerRoute": "icons/cosicon_1644.png",
+      "pathId": 2377929530,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 386,
+          "itemName": "Nanomech Head",
+          "iconType": 3,
+          "iconNumber": 1644
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1648.png",
+      "sourceIndex": 2,
+      "containerRoute": "icons/cosicon_1648.png",
+      "pathId": 2806338181,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 387,
+          "itemName": "Birthday Party Hat",
+          "iconType": 3,
+          "iconNumber": 1648
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1664.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1664.png",
+      "pathId": 3899,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 388,
+          "itemName": "Vilgax Minion Helmet",
+          "iconType": 3,
+          "iconNumber": 1664
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 66,
+          "itemName": "Fallen Angel's Prayer",
+          "iconType": 3,
+          "iconNumber": 1664
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1669.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1669.png",
+      "pathId": 3904,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 389,
+          "itemName": "Ship Mechomorph Helmet",
+          "iconType": 3,
+          "iconNumber": 1669
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 71,
+          "itemName": "Diva Dynamite Cape",
+          "iconType": 3,
+          "iconNumber": 1669
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1670.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1670.png",
+      "pathId": 3905,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 390,
+          "itemName": "Ultimate Swampfire Helmet",
+          "iconType": 3,
+          "iconNumber": 1670
+        },
+        {
+          "table": "m_pGlassItemTable",
+          "itemRow": 61,
+          "itemName": "Focus Blindfold",
+          "iconType": 3,
+          "iconNumber": 1670
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1727.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1727.png",
+      "pathId": 4915,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pHatItemTable",
+          "itemRow": 404,
+          "itemName": "Golden Marauder Hat",
+          "iconType": 3,
+          "iconNumber": 1727
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1671.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1671.png",
+      "pathId": 3906,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGlassItemTable",
+          "itemRow": 62,
+          "itemName": "Fusion Numbuh One Shades",
+          "iconType": 3,
+          "iconNumber": 1671
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 178,
+          "itemName": "Ultimate Swampfire Tanks",
+          "iconType": 3,
+          "iconNumber": 1671
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1665.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/cosicon_1665.png",
+      "pathId": 3900,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 67,
+          "itemName": "Fusion Tentacles",
+          "iconType": 3,
+          "iconNumber": 1665
+        },
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 177,
+          "itemName": "Vilgax Minion Backpack",
+          "iconType": 3,
+          "iconNumber": 1665
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1610.png",
+      "sourceIndex": 0,
+      "containerRoute": "icons/cosicon_1610.png",
+      "pathId": 2379,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 175,
+          "itemName": "Turkey Tail",
+          "iconType": 3,
+          "iconNumber": 1610
+        }
+      ]
+    },
+    {
+      "path": "icons/items/cosmetics/cosicon_1641.png",
+      "sourceIndex": 0,
+      "containerRoute": "icons/cosicon_1641.png",
+      "pathId": 854,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pBackItemTable",
+          "itemRow": 176,
+          "itemName": "Stellar Cape",
+          "iconType": 3,
+          "iconNumber": 1641
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_84.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_84.png",
+      "pathId": 27732,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 1,
+          "itemName": "Null Void Coordinate Data",
+          "iconType": 7,
+          "iconNumber": 84
+        },
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 170,
+          "itemName": "Quester Booster",
+          "iconType": 7,
+          "iconNumber": 84
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_90.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_90.png",
+      "pathId": 30006,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 5,
+          "itemName": "Gold Membership Card",
+          "iconType": 7,
+          "iconNumber": 90
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2263,
+          "itemName": "Saturday's P.R.E.S.E.N.T.",
+          "iconType": 7,
+          "iconNumber": 90
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_81.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_81.png",
+      "pathId": 8842,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 6,
+          "itemName": "Rotten Eggs",
+          "iconType": 7,
+          "iconNumber": 81
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_94.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_94.png",
+      "pathId": 30051,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 28,
+          "itemName": "Lump of Coal",
+          "iconType": 7,
+          "iconNumber": 94
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2282,
+          "itemName": "Booster CRATE",
+          "iconType": 7,
+          "iconNumber": 94
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2303,
+          "itemName": "Booster CRATE",
+          "iconType": 7,
+          "iconNumber": 94
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_92.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_92.png",
+      "pathId": 30008,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 29,
+          "itemName": "Emerald Membership Card",
+          "iconType": 7,
+          "iconNumber": 92
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2268,
+          "itemName": "Mung Daal Catering Box",
+          "iconType": 7,
+          "iconNumber": 92
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2269,
+          "itemName": "Mung Daal Catering Box",
+          "iconType": 7,
+          "iconNumber": 92
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2270,
+          "itemName": "Mung Daal Catering Box",
+          "iconType": 7,
+          "iconNumber": 92
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2271,
+          "itemName": "Mung Daal Catering Box",
+          "iconType": 7,
+          "iconNumber": 92
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_93.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_93.png",
+      "pathId": 30009,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 30,
+          "itemName": "Ruby Membership Card",
+          "iconType": 7,
+          "iconNumber": 93
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2272,
+          "itemName": "Secret Treasure",
+          "iconType": 7,
+          "iconNumber": 93
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2273,
+          "itemName": "Secret Treasure",
+          "iconType": 7,
+          "iconNumber": 93
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2274,
+          "itemName": "Secret Treasure",
+          "iconType": 7,
+          "iconNumber": 93
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2275,
+          "itemName": "Secret Treasure",
+          "iconType": 7,
+          "iconNumber": 93
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2276,
+          "itemName": "Secret Treasure",
+          "iconType": 7,
+          "iconNumber": 93
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2277,
+          "itemName": "Secret Treasure",
+          "iconType": 7,
+          "iconNumber": 93
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2278,
+          "itemName": "Secret Treasure",
+          "iconType": 7,
+          "iconNumber": 93
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2279,
+          "itemName": "Secret Treasure",
+          "iconType": 7,
+          "iconNumber": 93
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2280,
+          "itemName": "Secret Treasure",
+          "iconType": 7,
+          "iconNumber": 93
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2281,
+          "itemName": "Secret Treasure",
+          "iconType": 7,
+          "iconNumber": 93
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_89.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_89.png",
+      "pathId": 29994,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 31,
+          "itemName": "Blossom Talks-A-Lot Figurine",
+          "iconType": 7,
+          "iconNumber": 89
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2265,
+          "itemName": "Flapjack's P.R.E.S.E.N.T.",
+          "iconType": 7,
+          "iconNumber": 89
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2288,
+          "itemName": "Adventure Time P.R.E.S.E.N.T.",
+          "iconType": 7,
+          "iconNumber": 89
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_91.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_91.png",
+      "pathId": 30007,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 32,
+          "itemName": "Sapphire Membership Card",
+          "iconType": 7,
+          "iconNumber": 91
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2267,
+          "itemName": "Toonami's P.R.E.S.E.N.T.",
+          "iconType": 7,
+          "iconNumber": 91
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_95.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_95.png",
+      "pathId": 30052,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 33,
+          "itemName": "A Dickey!?",
+          "iconType": 7,
+          "iconNumber": 95
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2283,
+          "itemName": "Mechomorph E.G.G.",
+          "iconType": 7,
+          "iconNumber": 95
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_96.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_96.png",
+      "pathId": 30053,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 34,
+          "itemName": "Santa's Sign",
+          "iconType": 7,
+          "iconNumber": 96
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2284,
+          "itemName": "Mechomorph E.G.G.",
+          "iconType": 7,
+          "iconNumber": 96
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_97.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_97.png",
+      "pathId": 30054,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 35,
+          "itemName": "Ice King's Fanfiction",
+          "iconType": 7,
+          "iconNumber": 97
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2294,
+          "itemName": "Nano Finn Capsule",
+          "iconType": 7,
+          "iconNumber": 97
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_98.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_98.png",
+      "pathId": 30055,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 36,
+          "itemName": "Ice Key",
+          "iconType": 7,
+          "iconNumber": 98
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2295,
+          "itemName": "Nano Rex Capsule",
+          "iconType": 7,
+          "iconNumber": 98
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_83.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_83.png",
+      "pathId": 27117,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 168,
+          "itemName": "Fusion Hunter Booster",
+          "iconType": 7,
+          "iconNumber": 83
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 1195,
+          "itemName": "Dark Horntail CRATE",
+          "iconType": 7,
+          "iconNumber": 83
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_85.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_85.png",
+      "pathId": 29698,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 169,
+          "itemName": "Infected Zone Racer Booster",
+          "iconType": 7,
+          "iconNumber": 85
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 1196,
+          "itemName": "Encrypted Null Void Coordinates",
+          "iconType": 7,
+          "iconNumber": 85
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_82.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_82.png",
+      "pathId": 8843,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pGeneralItemTable",
+          "itemRow": 171,
+          "itemName": "Super Booster DX",
+          "iconType": 7,
+          "iconNumber": 82
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 1193,
+          "itemName": "Easter E.G.G.",
+          "iconType": 7,
+          "iconNumber": 82
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_80.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_80.png",
+      "pathId": 5277,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 1188,
+          "itemName": "Rage Roadkiller CRATE",
+          "iconType": 7,
+          "iconNumber": 80
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_101.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_101.png",
+      "pathId": 30113,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 1189,
+          "itemName": "Ice Titan CRATE",
+          "iconType": 7,
+          "iconNumber": 101
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 1207,
+          "itemName": "Frigid Raptor CRATE",
+          "iconType": 7,
+          "iconNumber": 101
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2306,
+          "itemName": "Nano Gumball Capsule",
+          "iconType": 7,
+          "iconNumber": 101
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_78.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_78.png",
+      "pathId": 3964,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 1191,
+          "itemName": "10th Anniversary Present",
+          "iconType": 7,
+          "iconNumber": 78
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_79.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_79.png",
+      "pathId": 5275,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 1192,
+          "itemName": "Shipwrecker's Treasure",
+          "iconType": 7,
+          "iconNumber": 79
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_87.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_87.png",
+      "pathId": 29703,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 1197,
+          "itemName": "Mega Fusion Echo Echo CRATE",
+          "iconType": 7,
+          "iconNumber": 87
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 1203,
+          "itemName": "Fusion Echo Echo CRATE",
+          "iconType": 7,
+          "iconNumber": 87
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 1204,
+          "itemName": "Mini Fusion Echo Echo CRATE",
+          "iconType": 7,
+          "iconNumber": 87
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2266,
+          "itemName": "Ben 10's P.R.E.S.E.N.T.",
+          "iconType": 7,
+          "iconNumber": 87
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2286,
+          "itemName": "Firebreather P.R.E.S.E.N.T.",
+          "iconType": 7,
+          "iconNumber": 87
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_88.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_88.png",
+      "pathId": 29993,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 1199,
+          "itemName": "New In Box Blossom Talks-A-Lot Figurine",
+          "iconType": 7,
+          "iconNumber": 88
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2264,
+          "itemName": "Chowder's P.R.E.S.E.N.T.",
+          "iconType": 7,
+          "iconNumber": 88
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2287,
+          "itemName": "Generator Rex P.R.E.S.E.N.T.",
+          "iconType": 7,
+          "iconNumber": 88
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_99.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_99.png",
+      "pathId": 30111,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 1200,
+          "itemName": "Stuffed Stocking",
+          "iconType": 7,
+          "iconNumber": 99
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2296,
+          "itemName": "Nano AlienX Capsule",
+          "iconType": 7,
+          "iconNumber": 99
+        }
+      ]
+    },
+    {
+      "path": "icons/items/general/generalitemicon_100.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/generalitemicon_100.png",
+      "pathId": 30112,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 1201,
+          "itemName": "Well-Stuffed Stocking",
+          "iconType": 7,
+          "iconNumber": 100
+        },
+        {
+          "table": "m_pChestItemTable",
+          "itemRow": 2305,
+          "itemName": "Nano Rigby Capsule",
+          "iconType": 7,
+          "iconNumber": 100
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_25.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_25.png",
+      "pathId": 3960,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 10,
+          "itemName": "Six's Hoverboard",
+          "iconType": 12,
+          "iconNumber": 25
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_19.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_19.png",
+      "pathId": 3954,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 11,
+          "itemName": "Royal Swan",
+          "iconType": 12,
+          "iconNumber": 19
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_20.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_20.png",
+      "pathId": 3955,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 12,
+          "itemName": "Ice King Bolt",
+          "iconType": 12,
+          "iconNumber": 20
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_35.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_35.png",
+      "pathId": 29733,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 15,
+          "itemName": "Racer D Hovercar",
+          "iconType": 12,
+          "iconNumber": 35
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 146,
+          "itemName": "Generator Rex Glider ",
+          "iconType": 12,
+          "iconNumber": 35
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_36.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_36.png",
+      "pathId": 29734,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 19,
+          "itemName": "Mock 5 Hovercar",
+          "iconType": 12,
+          "iconNumber": 36
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_37.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_37.png",
+      "pathId": 29735,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 21,
+          "itemName": "DX KND Hoverboard",
+          "iconType": 12,
+          "iconNumber": 37
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 147,
+          "itemName": "Underworld Glider ",
+          "iconType": 12,
+          "iconNumber": 37
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_38.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_38.png",
+      "pathId": 29736,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 22,
+          "itemName": "DX Tempest Jetbike",
+          "iconType": 12,
+          "iconNumber": 38
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_39.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_39.png",
+      "pathId": 29737,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 23,
+          "itemName": "DX Cloud Nine",
+          "iconType": 12,
+          "iconNumber": 39
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 148,
+          "itemName": "Magic Cloud",
+          "iconType": 12,
+          "iconNumber": 39
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_125.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_125.png",
+      "pathId": 29827,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 24,
+          "itemName": "Plank Hoverboard",
+          "iconType": 12,
+          "iconNumber": 125
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_27.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_27.png",
+      "pathId": 3962,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 25,
+          "itemName": "Big Chill Glider",
+          "iconType": 12,
+          "iconNumber": 27
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 143,
+          "itemName": "Mecomorph Hoverboard",
+          "iconType": 12,
+          "iconNumber": 27
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_28.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_28.png",
+      "pathId": 3963,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 26,
+          "itemName": "Aku Glider",
+          "iconType": 12,
+          "iconNumber": 28
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 144,
+          "itemName": "Generator Rex Hoverboard",
+          "iconType": 12,
+          "iconNumber": 28
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_26.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_26.png",
+      "pathId": 3961,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 27,
+          "itemName": "Clockwork Rewound Hoverboard",
+          "iconType": 12,
+          "iconNumber": 26
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_23.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_23.png",
+      "pathId": 3958,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 28,
+          "itemName": "Kevin Levin Hovercar",
+          "iconType": 12,
+          "iconNumber": 23
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 139,
+          "itemName": "Megas XLR Hoverbike",
+          "iconType": 12,
+          "iconNumber": 23
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_24.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_24.png",
+      "pathId": 3959,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 29,
+          "itemName": "Megas XLR Hovercar",
+          "iconType": 12,
+          "iconNumber": 24
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 142,
+          "itemName": "Mecomorph Jetbike",
+          "iconType": 12,
+          "iconNumber": 24
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_22.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_22.png",
+      "pathId": 3957,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 30,
+          "itemName": "Mechamorph Hovercar",
+          "iconType": 12,
+          "iconNumber": 22
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_30.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_30.png",
+      "pathId": 4051,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 31,
+          "itemName": "Invisible Hovercar",
+          "iconType": 12,
+          "iconNumber": 30
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_29.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_29.png",
+      "pathId": 4050,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 32,
+          "itemName": "Invisible Hoverboard",
+          "iconType": 12,
+          "iconNumber": 29
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 145,
+          "itemName": "Generator Rex Jetbike",
+          "iconType": 12,
+          "iconNumber": 29
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_31.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_31.png",
+      "pathId": 4912,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 33,
+          "itemName": "Love Bug",
+          "iconType": 12,
+          "iconNumber": 31
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_32.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_32.png",
+      "pathId": 8813,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 34,
+          "itemName": "Police Car",
+          "iconType": 12,
+          "iconNumber": 32
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_33.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_33.png",
+      "pathId": 8814,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 35,
+          "itemName": "Carrot Cruiser",
+          "iconType": 12,
+          "iconNumber": 33
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_34.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_34.png",
+      "pathId": 8815,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 36,
+          "itemName": "Carrot Cruiser DX",
+          "iconType": 12,
+          "iconNumber": 34
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_126.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_126.png",
+      "pathId": 29828,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 37,
+          "itemName": "Cardboard Hovercar",
+          "iconType": 12,
+          "iconNumber": 126
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_132.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_132.png",
+      "pathId": 29834,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 39,
+          "itemName": "DX Plank Hoverboard",
+          "iconType": 12,
+          "iconNumber": 132
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_133.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_133.png",
+      "pathId": 29835,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 40,
+          "itemName": "DX Cardboard Hovercar",
+          "iconType": 12,
+          "iconNumber": 133
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_44.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_44.png",
+      "pathId": 29742,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 42,
+          "itemName": "DX Mock 5 Hovercar",
+          "iconType": 12,
+          "iconNumber": 44
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_45.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_45.png",
+      "pathId": 29743,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 43,
+          "itemName": "DX Genius Hoverboard",
+          "iconType": 12,
+          "iconNumber": 45
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_46.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_46.png",
+      "pathId": 29744,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 44,
+          "itemName": "DX Racer D Hovercar",
+          "iconType": 12,
+          "iconNumber": 46
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_47.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_47.png",
+      "pathId": 29745,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 45,
+          "itemName": "Megas XLR Jetbike",
+          "iconType": 12,
+          "iconNumber": 47
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_48.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_48.png",
+      "pathId": 29746,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 46,
+          "itemName": "Clockwork Hoverboard",
+          "iconType": 12,
+          "iconNumber": 48
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_49.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_49.png",
+      "pathId": 29747,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 47,
+          "itemName": "Steampunk Hovercar",
+          "iconType": 12,
+          "iconNumber": 49
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_127.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_127.png",
+      "pathId": 29829,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 48,
+          "itemName": "Time Cop Cruiser",
+          "iconType": 12,
+          "iconNumber": 127
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_51.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_51.png",
+      "pathId": 29749,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 49,
+          "itemName": "DX Megas XLR Hovercar",
+          "iconType": 12,
+          "iconNumber": 51
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 150,
+          "itemName": "Dynamo Blue Hovercar ",
+          "iconType": 12,
+          "iconNumber": 51
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_52.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_52.png",
+      "pathId": 29750,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 50,
+          "itemName": "DX Megas XLR Jetbike",
+          "iconType": 12,
+          "iconNumber": 52
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 151,
+          "itemName": "Dynamo Green Hovercar ",
+          "iconType": 12,
+          "iconNumber": 52
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_53.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_53.png",
+      "pathId": 29751,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 51,
+          "itemName": "DX Clockwork Hoverboard",
+          "iconType": 12,
+          "iconNumber": 53
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 152,
+          "itemName": "Dynamo Red Hovercar ",
+          "iconType": 12,
+          "iconNumber": 53
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_54.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_54.png",
+      "pathId": 29752,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 52,
+          "itemName": "DX Steampunk Hovercar",
+          "iconType": 12,
+          "iconNumber": 54
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_134.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_134.png",
+      "pathId": 29836,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 53,
+          "itemName": "DX Time Cop Cruiser",
+          "iconType": 12,
+          "iconNumber": 134
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_56.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_56.png",
+      "pathId": 29754,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 54,
+          "itemName": "DX Clockwork Rewound Hoverboard",
+          "iconType": 12,
+          "iconNumber": 56
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_57.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_57.png",
+      "pathId": 29755,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 55,
+          "itemName": "Sunburst Hoverboard",
+          "iconType": 12,
+          "iconNumber": 57
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_58.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_58.png",
+      "pathId": 29756,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 56,
+          "itemName": "Scribble Swarm",
+          "iconType": 12,
+          "iconNumber": 58
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 153,
+          "itemName": "Morbucks Golden Hovercar ",
+          "iconType": 12,
+          "iconNumber": 58
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_59.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_59.png",
+      "pathId": 29757,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 57,
+          "itemName": "Foster's Hovercar",
+          "iconType": 12,
+          "iconNumber": 59
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_60.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_60.png",
+      "pathId": 29758,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 58,
+          "itemName": "DX Sunburst Hoverboard",
+          "iconType": 12,
+          "iconNumber": 60
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 154,
+          "itemName": "Underworld Hovercar ",
+          "iconType": 12,
+          "iconNumber": 60
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_61.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_61.png",
+      "pathId": 29759,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 59,
+          "itemName": "DX Scribble Swarm",
+          "iconType": 12,
+          "iconNumber": 61
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_62.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_62.png",
+      "pathId": 29760,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 60,
+          "itemName": "DX Foster's Hovercar",
+          "iconType": 12,
+          "iconNumber": 62
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_63.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_63.png",
+      "pathId": 29761,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 61,
+          "itemName": "DX Kimchi Cloud",
+          "iconType": 12,
+          "iconNumber": 63
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_64.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_64.png",
+      "pathId": 29762,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 62,
+          "itemName": "Grim Hoverboard",
+          "iconType": 12,
+          "iconNumber": 64
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_65.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_65.png",
+      "pathId": 29763,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 63,
+          "itemName": "Skeleton Jetbike",
+          "iconType": 12,
+          "iconNumber": 65
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 155,
+          "itemName": "Marceline's Hovercar",
+          "iconType": 12,
+          "iconNumber": 65
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_66.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_66.png",
+      "pathId": 29764,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 64,
+          "itemName": "Medieval Hovercar",
+          "iconType": 12,
+          "iconNumber": 66
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 156,
+          "itemName": "Corus Glider",
+          "iconType": 12,
+          "iconNumber": 66
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_67.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_67.png",
+      "pathId": 29765,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 65,
+          "itemName": "Blacklight Jetbike",
+          "iconType": 12,
+          "iconNumber": 67
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 157,
+          "itemName": "Manus Jetbike",
+          "iconType": 12,
+          "iconNumber": 67
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_68.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_68.png",
+      "pathId": 29766,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 66,
+          "itemName": "DX Grim Hoverboard",
+          "iconType": 12,
+          "iconNumber": 68
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 158,
+          "itemName": "Octus Hoverboard",
+          "iconType": 12,
+          "iconNumber": 68
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_69.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_69.png",
+      "pathId": 29767,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 67,
+          "itemName": "DX Skeleton Jetbike",
+          "iconType": 12,
+          "iconNumber": 69
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 159,
+          "itemName": "Sym-Bionic Hovercar",
+          "iconType": 12,
+          "iconNumber": 69
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_70.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_70.png",
+      "pathId": 29768,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 68,
+          "itemName": "DX Medieval Hovercar",
+          "iconType": 12,
+          "iconNumber": 70
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 160,
+          "itemName": "Viridian Hoverboard",
+          "iconType": 12,
+          "iconNumber": 70
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_71.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_71.png",
+      "pathId": 29769,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 69,
+          "itemName": "DX Blacklight Jetbike",
+          "iconType": 12,
+          "iconNumber": 71
+        },
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 161,
+          "itemName": "Johnny Test Jetbike",
+          "iconType": 12,
+          "iconNumber": 71
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_128.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_128.png",
+      "pathId": 29830,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 70,
+          "itemName": "Dynomutt Dasher",
+          "iconType": 12,
+          "iconNumber": 128
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_129.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_129.png",
+      "pathId": 29831,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 73,
+          "itemName": "Wacky Taxi",
+          "iconType": 12,
+          "iconNumber": 129
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_135.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_135.png",
+      "pathId": 29837,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 74,
+          "itemName": "DX Dynomutt Dasher",
+          "iconType": 12,
+          "iconNumber": 135
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_136.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_136.png",
+      "pathId": 29838,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 77,
+          "itemName": "DX Wacky Taxi",
+          "iconType": 12,
+          "iconNumber": 136
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_137.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_137.png",
+      "pathId": 29839,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 78,
+          "itemName": "DX Police Car",
+          "iconType": 12,
+          "iconNumber": 137
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_77.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_77.png",
+      "pathId": 29775,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 79,
+          "itemName": "Blue Dynamo Hovercar",
+          "iconType": 12,
+          "iconNumber": 77
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_78.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_78.png",
+      "pathId": 29776,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 80,
+          "itemName": "Red Dynamo Hovercar",
+          "iconType": 12,
+          "iconNumber": 78
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_79.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_79.png",
+      "pathId": 29777,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 81,
+          "itemName": "Green Dynamo Hovercar",
+          "iconType": 12,
+          "iconNumber": 79
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_80.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_80.png",
+      "pathId": 29778,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 82,
+          "itemName": "Morbucks Dynamo Hovercar",
+          "iconType": 12,
+          "iconNumber": 80
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_81.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_81.png",
+      "pathId": 29779,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 83,
+          "itemName": "DX Blue Dynamo Hovercar",
+          "iconType": 12,
+          "iconNumber": 81
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_82.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_82.png",
+      "pathId": 29780,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 84,
+          "itemName": "DX Red Dynamo Hovercar",
+          "iconType": 12,
+          "iconNumber": 82
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_83.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_83.png",
+      "pathId": 29781,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 85,
+          "itemName": "DX Green Dynamo Hovercar",
+          "iconType": 12,
+          "iconNumber": 83
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_84.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_84.png",
+      "pathId": 29782,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 86,
+          "itemName": "DX Morbucks Dynamo Hovercar",
+          "iconType": 12,
+          "iconNumber": 84
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_138.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_138.png",
+      "pathId": 29840,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 87,
+          "itemName": "DX Love Bug",
+          "iconType": 12,
+          "iconNumber": 138
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_86.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_86.png",
+      "pathId": 29785,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 88,
+          "itemName": "Mercenary Glider",
+          "iconType": 12,
+          "iconNumber": 86
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_87.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_87.png",
+      "pathId": 29786,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 89,
+          "itemName": "Charmed Hoverboard",
+          "iconType": 12,
+          "iconNumber": 87
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_130.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_130.png",
+      "pathId": 29832,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 90,
+          "itemName": "Identified Flying Object",
+          "iconType": 12,
+          "iconNumber": 130
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_89.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_89.png",
+      "pathId": 29788,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 91,
+          "itemName": "DX Mercenary Glider",
+          "iconType": 12,
+          "iconNumber": 89
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_90.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_90.png",
+      "pathId": 29789,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 92,
+          "itemName": "DX Charmed Hoverboard",
+          "iconType": 12,
+          "iconNumber": 90
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_139.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_139.png",
+      "pathId": 29841,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 93,
+          "itemName": "DX Identified Flying Object",
+          "iconType": 12,
+          "iconNumber": 139
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_92.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_92.png",
+      "pathId": 29791,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 94,
+          "itemName": "DX Saturdays Hoverboard",
+          "iconType": 12,
+          "iconNumber": 92
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_93.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_93.png",
+      "pathId": 29792,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 95,
+          "itemName": "Monkey Minion Jetbike",
+          "iconType": 12,
+          "iconNumber": 93
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_94.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_94.png",
+      "pathId": 29793,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 96,
+          "itemName": "Monkey Minion Glider",
+          "iconType": 12,
+          "iconNumber": 94
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_95.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_95.png",
+      "pathId": 29794,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 97,
+          "itemName": "DX Monkey Minion Jetbike",
+          "iconType": 12,
+          "iconNumber": 95
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_96.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_96.png",
+      "pathId": 29795,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 98,
+          "itemName": "DX Monkey Minion Glider",
+          "iconType": 12,
+          "iconNumber": 96
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_131.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_131.png",
+      "pathId": 29833,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 99,
+          "itemName": "Eggplant-Mobile",
+          "iconType": 12,
+          "iconNumber": 131
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_98.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_98.png",
+      "pathId": 29797,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 100,
+          "itemName": "Circuit Board",
+          "iconType": 12,
+          "iconNumber": 98
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_140.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_140.png",
+      "pathId": 29842,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 101,
+          "itemName": "DX Eggplant-Mobile",
+          "iconType": 12,
+          "iconNumber": 140
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_100.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_100.png",
+      "pathId": 29799,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 102,
+          "itemName": "DX Circuit Board",
+          "iconType": 12,
+          "iconNumber": 100
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_101.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_101.png",
+      "pathId": 29800,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 103,
+          "itemName": "DX Kevin Levin Hovercar",
+          "iconType": 12,
+          "iconNumber": 101
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_102.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_102.png",
+      "pathId": 29801,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 104,
+          "itemName": "Dexlabs Hovercar",
+          "iconType": 12,
+          "iconNumber": 102
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_103.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_103.png",
+      "pathId": 29802,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 105,
+          "itemName": "DX Dexlabs Hovercar",
+          "iconType": 12,
+          "iconNumber": 103
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_104.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_104.png",
+      "pathId": 29803,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 106,
+          "itemName": "DX Dexlabs Jetbike",
+          "iconType": 12,
+          "iconNumber": 104
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_105.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_105.png",
+      "pathId": 29804,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 107,
+          "itemName": "Mandark Hovercar",
+          "iconType": 12,
+          "iconNumber": 105
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_106.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_106.png",
+      "pathId": 29805,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 108,
+          "itemName": "DX Mandark Hovercar",
+          "iconType": 12,
+          "iconNumber": 106
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_107.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_107.png",
+      "pathId": 29806,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 109,
+          "itemName": "DX Mandark Jetbike",
+          "iconType": 12,
+          "iconNumber": 107
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_108.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_108.png",
+      "pathId": 29807,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 110,
+          "itemName": "Azul Flying Motorcycle",
+          "iconType": 12,
+          "iconNumber": 108
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_109.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_109.png",
+      "pathId": 29808,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 111,
+          "itemName": "Amarillo Flying Motorcycle",
+          "iconType": 12,
+          "iconNumber": 109
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_110.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_110.png",
+      "pathId": 29809,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 112,
+          "itemName": "Rojo Flying Motorcycle",
+          "iconType": 12,
+          "iconNumber": 110
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_111.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_111.png",
+      "pathId": 29810,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 113,
+          "itemName": "DX Azul Flying Motorcycle",
+          "iconType": 12,
+          "iconNumber": 111
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_112.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_112.png",
+      "pathId": 29811,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 114,
+          "itemName": "DX Amarillo Flying Motorcycle",
+          "iconType": 12,
+          "iconNumber": 112
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_113.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_113.png",
+      "pathId": 29812,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 115,
+          "itemName": "DX Rojo Flying Motorcycle",
+          "iconType": 12,
+          "iconNumber": 113
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_114.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_114.png",
+      "pathId": 29813,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 116,
+          "itemName": "DX Ben 10 Hoverboard",
+          "iconType": 12,
+          "iconNumber": 114
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_115.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_115.png",
+      "pathId": 29814,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 117,
+          "itemName": "Aku Jetbike",
+          "iconType": 12,
+          "iconNumber": 115
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_116.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_116.png",
+      "pathId": 29815,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 118,
+          "itemName": "DX Aku Glider",
+          "iconType": 12,
+          "iconNumber": 116
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_117.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_117.png",
+      "pathId": 29816,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 119,
+          "itemName": "DX Flying Brain",
+          "iconType": 12,
+          "iconNumber": 117
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_118.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_118.png",
+      "pathId": 29817,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 120,
+          "itemName": "DX Zoomulus Cloud",
+          "iconType": 12,
+          "iconNumber": 118
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_119.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_119.png",
+      "pathId": 29818,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 121,
+          "itemName": "DX Aku Jetbike",
+          "iconType": 12,
+          "iconNumber": 119
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_120.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_120.png",
+      "pathId": 29819,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 122,
+          "itemName": "Ultimate Big Chill Glider",
+          "iconType": 12,
+          "iconNumber": 120
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_121.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_121.png",
+      "pathId": 29820,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 123,
+          "itemName": "Pyronite Comet",
+          "iconType": 12,
+          "iconNumber": 121
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_122.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_122.png",
+      "pathId": 29821,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 124,
+          "itemName": "DX Big Chill Glider",
+          "iconType": 12,
+          "iconNumber": 122
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_123.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_123.png",
+      "pathId": 29822,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 125,
+          "itemName": "DX Ultimate Big Chill Glider",
+          "iconType": 12,
+          "iconNumber": 123
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_124.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_124.png",
+      "pathId": 29823,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 126,
+          "itemName": "DX Pyronite Comet",
+          "iconType": 12,
+          "iconNumber": 124
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_21.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_21.png",
+      "pathId": 3956,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 131,
+          "itemName": "Glumburger Cloud",
+          "iconType": 12,
+          "iconNumber": 21
+        }
+      ]
+    },
+    {
+      "path": "icons/items/vehicles/vehicle_42.png",
+      "sourceIndex": 1,
+      "containerRoute": "icons/vehicle_42.png",
+      "pathId": 29740,
+      "type": "Texture2D",
+      "references": [
+        {
+          "table": "m_pVehicleItemTable",
+          "itemRow": 149,
+          "itemName": "Major Glory Hoverboard ",
+          "iconType": 12,
+          "iconNumber": 42
+        }
+      ]
+    }
+  ],
+  "excluded": "Row zero is an empty sentinel. Face/head style tables and legacy-null quest icons are not inventory item icons."
+}

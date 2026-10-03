@@ -1,0 +1,201 @@
+{
+  "schema": "ffone.native-mechanics-evidence.v1",
+  "id": "npc-nano-abilities-20260914",
+  "sourceRole": "primary",
+  "question": "Restore local Dash, authoritative stun/sleep, minimap enemy/egg senses and NPC corruption/eruption presentation.",
+  "assemblyEvidence": "docs/reference/evidence/cases/artifacts/nano-travel-20260905-assembly.json",
+  "assemblySha256": "0f2513c2303cffc88c541a90b1b8fad1b73f60d5218830be72d0502533bf5792",
+  "decompiledArtifacts": [
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/cnAvatarThirdPersonMove.cs",
+      "sha256": "8133957fbd1c5b386465fc0132a8d2d470a4c0b61557fb201bf427118d5fc9ec"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/cnAvatarAttack.cs",
+      "sha256": "6e799c6d799429bc81acb86af0a9625b34ccc4d3409e7765d1c8e6cb20d9767c"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/Status.cs",
+      "sha256": "b8746db3130fe198b9d215c3b044b4a3cc3589fbb8083bb6a6474b4732b9ae1b"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/cnGUINanocom.cs",
+      "sha256": "e207da3dbc5d6ae29e095478ac34c9521ffd4c0eddf48471c2eef630760278b1"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/NpcMoveController.cs",
+      "sha256": "6b3a249bf2cfd52ba17d099361033ff408a6a04afd39ee2547dca36e00a7f4a8"
+    },
+    {
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/MegaAttackMark.cs",
+      "sha256": "ba7b02a7fd1afd56d75a8757766dd3f88e85608468ddf8b99b78dd85f68ef293"
+    }
+  ],
+  "contracts": {
+    "dash": "NanoSkillUse type 40 invokes RocketDash(35). Camera horizontal forward, 0.5555555 seconds, speed -= 60*delta, no gravity during dash. Teleport cancels local displacement.",
+    "control": "Status buffs 10/11 set time condition 5/6. Move and attack input reject both. Native action gate previously overwrote condition with zero.",
+    "senses": "Server flags 0x1000 enemy, 0x2000 shiny. cnGUINanocom RenderMinimap uses bViewMob and bViewShiny, shiny icon 26. Native previously hardcoded view_mobs false.",
+    "npc": "Corruption READY uses 530+style at center, optional 592 for sound category 2. Mega READY ground marker uses exact mega_area_e01_1 texture and area*0.02*1.414*1.3, 3-second expiry. Mega HIT uses 766 scale 0.6 at packet coordinates. OpenFusion windup is 1800 ms and owns damage/stamina. Ground mark expiry is independent of HIT and caster lifetime."
+  },
+  "limits": [
+    "Ground warning samples exact native terrain and non-trigger collider geometry on a bounded grid. Pixel parity of silhouette clipping at surface discontinuities remains unverified.",
+    "Live-server fight still needs verification; tests do not prove server random special attack frequency."
+  ],
+  "verification": [
+    "38 movement simulation tests passed",
+    "4 authoritative NPC skill projection tests passed",
+    "3 minimap projection tests passed",
+    "New native mesh/material contract audit passed",
+    "126/126 fresh replay output hashes match",
+    "7 app movement-buff/production Nano activation tests passed",
+    "29 entity lifecycle tests passed before the additional coordinate regression",
+    "Development client and native effect preview built successfully",
+    "Full production client typed replay rendered styles A/B/C, ground warning and eruption without schedule or effect loading errors",
+    "Validated NPC skill packet coordinate/style regression passed, including malformed packet rejection and session clearing",
+    "Final development build passed; full client radar and egg fixtures exited successfully",
+    "Final HUD: radar=true enemyMarkers=1; eggSearch=true eggMarkers=2",
+    "Coco production lifecycle: proximity pickup, other egg retained, reward projection, authoritative respawn passed"
+  ],
+  "serverAudit": {
+    "config": "OpenFusion/bin/config.ini: simulatemobs=true",
+    "positiveCorruptionRows": 581,
+    "positiveEruptionRows": 600,
+    "implementation": "MobAI::useAbilities dispatches READY, then HIT after 1800 ms; Abilities::useNPCSkill writes hitX/hitY/hitZ into prefix offsets 8/12/16. Server frequency unchanged.",
+    "sources": [
+      {
+        "path": "src/MobAI.cpp",
+        "sha256": "ebb4456adbef6534dd41523af9ddac5a5e9910aab9fec37e3c17daf1950a1194"
+      },
+      {
+        "path": "src/Abilities.cpp",
+        "sha256": "ac448749521c89041fa89f6149ab1432fe8e0c6f32f21b645a90750e163f89d7"
+      }
+    ]
+  },
+  "gpuArtifacts": [
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/corruption-a-late.png",
+      "sha256": "fbf9061ffc86db848541e1f906e58e0f0aae131b0db9c3c9c5bd2a0ceebb3a3b"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/corruption-a.png",
+      "sha256": "837ee9c5289c06adecd50f7dd07d1720afaf595a7696a4bc17f73f91f6904aa3"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/corruption-b-late.png",
+      "sha256": "f6ec88105db696cd918d9c4adcfcf5eca21b81f131e94cb66c8a490a4cabb590"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/corruption-b.png",
+      "sha256": "c8c112151a86fc3c7d216f3ed6d60cfd8c1a4288c0d0be7736548436f496769c"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/corruption-c-late.png",
+      "sha256": "bf8e7aec8330766a1813c4c98a8aae3863d656b81ea91815bf9259968d255405"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/corruption-c.png",
+      "sha256": "b1ea9ad480e2db708e556bd6fdb9aecddf0b63bc56bb1cfab1e1cd7dc0b01ec3"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/eggs-final/coco-100.png",
+      "sha256": "b85e02d3b4b36f8d5c1edb9a2b2d1cc5746a5fe42aec266b038705a9a479d3eb"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/eggs-final/coco-135.png",
+      "sha256": "e70235c1bf16e579e110d0730d91daaada224b82222a6c7250cea7694736f084"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/eggs-final/coco-180.png",
+      "sha256": "6e374541302180b765347f36cb02500bbac1f2ccacdfcca7612b316b93a11f7d"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/eggs-final/coco-260.png",
+      "sha256": "6ca56b5654dd2f8527c11552170552d7da12cfb1fe2864af6c2321b6602c0391"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/eggs-final/frame.png",
+      "sha256": "5413462da6dc56b122087e6310fadba268c7a8bb6bf8f978adcd0cbbf67eca32"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/eruption-late.png",
+      "sha256": "8e6e9f25ecba757455f49d99b8c3d7dc69971426de9b163608303064cdbcaf90"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/eruption.png",
+      "sha256": "867a1051ae3af5f2e423299b686357a0b36be51ebf51c2750d95d5df9f76d633"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/full-client/frame.png",
+      "sha256": "69d73ee277acd6338a47ef4d8699c9fdd27389181c98b2d640ab5d7d41127472"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/full-client/special-165.png",
+      "sha256": "4a1027c250f7f55c96a08e54e7949f6d8a76d216ad80583460d25113d2b7c2a8"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/full-client/special-285.png",
+      "sha256": "4c615a92ce1502d09106b7d72161cbf1f3001d19b9d80c3b6040071ac396ab87"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/full-client/special-410.png",
+      "sha256": "4f4961f55d2c65d9e3dd5e6cb141fd48ac80f5030ce3e57ffa31eb0386a64766"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/full-client/special-45.png",
+      "sha256": "6adcca8261de3fc92fd287dfce314d7bb1383cc9fc60b45b4bfb2540e2e76b37"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/full-client/special-475.png",
+      "sha256": "8a63d9398e67891d6d90dad9f3d000716fe94916cef7673ee658167464148df7"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/fusion-corruption-late.png",
+      "sha256": "44138a3288e6f400b6ab81f10a4c299df5cbd057fe1e1f388496a54ec2675c4c"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/fusion-corruption.png",
+      "sha256": "1ceba72b65f5d58b784ed825027d0e4cbf662be934a2f215722bfce581ab840d"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/radar-final/frame.png",
+      "sha256": "6cb193c45273e2a355354744f75d5932e3d9ab44d247ad4c673674f935ac836e"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/radar-final/special-165.png",
+      "sha256": "3076e953509052a5aec2b103be990cac2f35728b20983eb898a1f3de3bb10a6a"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/radar-final/special-285.png",
+      "sha256": "e42bdd6119aab2552d91fcbbc6f10c9cebd634957e6ab8db6262dcf7cbac4bde"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/radar-final/special-410.png",
+      "sha256": "70286263837ad8bc8ca19c7a86cbed452d67b677d07cb07b7fe7861264b96f26"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/radar-final/special-45.png",
+      "sha256": "045aa4f5f1b35ab7a2429eff37dc57ce9b6064de81981784e6f7be935c92db6d"
+    },
+    {
+      "path": "../FFOneClient/target/performance/npc-abilities/radar-final/special-475.png",
+      "sha256": "c127c00fada17c9d157baf14f025d13f5ff029a6ad2fc0ce8f442276f13bf4e9"
+    }
+  ],
+  "senseSnapshots": {
+    "radar-final": {
+      "eggMarkers": 0,
+      "eggSearch": false,
+      "enemyMarkers": 1,
+      "markers": "[MinimapMarkerSample { icon: TableData(MinimapTableMarkerIcon(20)), left: 66.0, top: 61.375, width: 16.0, height: 16.0 }]",
+      "radar": true
+    },
+    "eggs-final": {
+      "eggMarkers": 2,
+      "eggSearch": true,
+      "enemyMarkers": 0,
+      "markers": "[MinimapMarkerSample { icon: Shiny, left: 67.15625, top: 64.84375, width: 16.0, height: 16.0 }, MinimapMarkerSample { icon: Shiny, left: 64.84375, top: 64.84375, width: 16.0, height: 16.0 }]",
+      "radar": false
+    }
+  }
+}

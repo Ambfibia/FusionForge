@@ -1,0 +1,75 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "nano-tuning-identities-20260908-client",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "alternate",
+    "relativeContainer": "TableData.resourceFile",
+    "containerBytes": 751481,
+    "containerSha256": "d724c9417de5ff35e9bdb7bdfcf9bb93b4c8f715f42623fa2e1834d835be60a5",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-TableData",
+        "type": "MonoBehaviour",
+        "pathId": 2139558964,
+        "fileId": 0,
+        "containerRoute": "xdtdatas.asset",
+        "trueName": "xdtdatas",
+        "pointerContext": "Unique xdtdatas object in raw TableData.resourceFile, verified by list-contents and dump-xdt"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "repair",
+    "tool": "tools/native/repair-nano-tuning.py",
+    "toolRevision": "sha256:59acee5c9d0fe92bfbcef2cb15614454cbf6827ae45d6e0f658fa8547f49fd9a",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/native/repair-nano-tuning.py --target-root ../FFOneClient --server-xdt ../OpenFusion/bin/tdata/xdt.json --academy-root ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a --stage work/cases/nano-acquisition-20260908/table-replay",
+      "python tools/native/repair-nano-tuning.py --target-root ../FFOneClient --server-xdt ../OpenFusion/bin/tdata/xdt.json --academy-root ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a --stage work/cases/nano-acquisition-20260908/table-repair --apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "work/cases/nano-acquisition-20260908/table-repair/0-before.json",
+      "sha256": "3e6cd4c02bee4fb67e7cc972c8fec01ffc3ccb774c056d60e914d3c4491705ce"
+    },
+    {
+      "path": "work/cases/nano-acquisition-20260908/table-repair/2-before.json",
+      "sha256": "1526fbe8a9afc96a954c1d36063d734540bfcca23a809ea92ad669a7e1102dfd"
+    },
+    {
+      "path": "work/cases/nano-acquisition-20260908/table-repair/3-before.json",
+      "sha256": "03153ea70585bf5e67f0b31c3d3d3df5b2b2cd865114513581c5bb88afdc8b48"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/game/data/tables/table-set.json",
+      "bytes": 45983916,
+      "sha256": "4a1ac04f6bc9dc7b79e781bdf8e7925fa1766e6e8fa10d58c25dd9fd0539316d"
+    },
+    {
+      "path": "assets/game/localization/en.json",
+      "bytes": 8087170,
+      "sha256": "a0c6ec49207a1a42bf420b4f4411b599ac4716ddbb40b7c273d3123c378514a9"
+    },
+    {
+      "path": "assets/game/localization/ru.json",
+      "bytes": 11772408,
+      "sha256": "048cd5eca9a8a1368a4fe1a8ffbb4e0b6d603eb2600c91ea701f99c7f1d784b2"
+    }
+  ],
+  "divergenceFromPrimary": "Native tuning wire IDs normalized to unique array-row IDs. Restores the already accepted Academy Cheese extension: exact donor skill 211 receives unused native skill ID 286; all values including sound and icon are preserved. Existing costs and other skill payloads remain unchanged. Localized tuning aliases resolve through each native row’s existing localized string reference. This is a table repair layered on the current editable native baseline, not a new full primary import.",
+  "verification": [
+    {
+      "command": "python tools/native/repair-nano-tuning.py --target-root ../FFOneClient --server-xdt ../OpenFusion/bin/tdata/xdt.json --academy-root ../builds/6543a2bb-d154-4087-b9ee-3c8aa778580a --stage work/cases/nano-acquisition-20260908/table-replay",
+      "result": "passed; staged replay is byte-identical for all four declared outputs",
+      "evidence": "docs/legacy/ffone/nano-acquisition-20260908.md"
+    }
+  ]
+}

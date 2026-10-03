@@ -1,0 +1,108 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "library/unity default resources",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 114,
+    "name": "",
+    "pathId": 1418,
+    "rawBytes": 56,
+    "rawSha256": "97cb318a2a32f2bd5ceed15705f20bdc5b41b7579f4b4d26edb96a54e5114d66",
+    "serializedAsset": "sharedassets0.assets",
+    "type": "MonoBehaviour",
+    "typeId": -23,
+    "value": {
+      "backText": {
+        "fileId": 0,
+        "pathId": 270
+      },
+      "m_Enabled": true,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 1346
+      },
+      "m_Name": "",
+      "m_Script": {
+        "fileId": 0,
+        "pathId": 1179
+      },
+      "pSkin": {
+        "fileId": 0,
+        "pathId": 1394
+      },
+      "rectButton": {
+        "height": 45.0,
+        "width": 175.0,
+        "x": 13.0,
+        "y": 16.0
+      }
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/backText",
+      "fileId": 0,
+      "pathId": 270,
+      "status": "resolved",
+      "target": {
+        "pathId": 270,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 1346,
+      "status": "resolved",
+      "target": {
+        "pathId": 1346,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_Script",
+      "fileId": 0,
+      "pathId": 1179,
+      "status": "resolved",
+      "target": {
+        "pathId": 1179,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoScript"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/pSkin",
+      "fileId": 0,
+      "pathId": 1394,
+      "status": "resolved",
+      "target": {
+        "pathId": 1394,
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8221718,
+    "relativeContainer": "main.unity3d",
+    "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

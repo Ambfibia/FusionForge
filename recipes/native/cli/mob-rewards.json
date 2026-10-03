@@ -1,0 +1,56 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "mob-rewards",
+  "sources": [
+    {
+      "alias": "primary",
+      "path": "main.unity3d",
+      "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+      "bytes": 8221718
+    }
+  ],
+  "steps": [
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 34,
+      "output": "ui/en/gameplay/rewards/crate.png"
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 548,
+      "output": "ui/en/gameplay/rewards/potion.png"
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 29,
+      "output": "ui/en/gameplay/rewards/boost.png"
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 376,
+      "output": "ui/en/gameplay/rewards/fusion-matter.png"
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 579,
+      "output": "ui/en/gameplay/rewards/taros.png"
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 526,
+      "output": "ui/en/gameplay/rewards/inventory-full.png"
+    }
+  ]
+}

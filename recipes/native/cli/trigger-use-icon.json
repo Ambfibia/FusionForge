@@ -1,0 +1,76 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "trigger-use-icon",
+  "sources": [
+    {
+      "alias": "primary",
+      "path": "main.unity3d",
+      "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+      "bytes": 8221718
+    }
+  ],
+  "steps": [
+    {
+      "operation": "evidence",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 1442,
+      "type": "MonoBehaviour",
+      "name": "owner.json",
+      "assertions": [
+        {
+          "pointer": "/object/value/CombatIcon/4",
+          "equals": {
+            "fileId": 0,
+            "pathId": 143
+          }
+        }
+      ]
+    },
+    {
+      "operation": "evidence",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 143,
+      "type": "Texture2D",
+      "name": "texture.json",
+      "assertions": [
+        {
+          "pointer": "/object/value/m_Width",
+          "equals": 37
+        },
+        {
+          "pointer": "/object/value/m_Height",
+          "equals": 52
+        }
+      ]
+    },
+    {
+      "operation": "evidence",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 1330,
+      "type": "GameObject",
+      "name": "gameobject.json",
+      "assertions": []
+    },
+    {
+      "operation": "evidence",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 1044,
+      "type": "MonoScript",
+      "name": "script.json",
+      "assertions": []
+    },
+    {
+      "operation": "texture",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 143,
+      "output": "ui/en/gameplay/interaction/icons/use-trigger.png",
+      "sha256": "03e0e32a492161f0f59137c7d755b56440eaafcec1abf50d02a2326ea21fb60b",
+      "bytes": 1979
+    }
+  ]
+}

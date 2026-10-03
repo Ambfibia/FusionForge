@@ -1,0 +1,102 @@
+{
+  "source": "retrobution",
+  "role": "primary",
+  "date": "2026-09-07",
+  "status": "implemented; production offline GPU accepted",
+  "testsPassed": 4,
+  "build": "Dev binary pass; Vendor example cargo check pass",
+  "gpuLocales": [
+    "en",
+    "ru"
+  ],
+  "scope": "Portrait only; fixture catalog empty; no live transaction or running-Unity pixel comparison",
+  "artifacts": [
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-portrait-final/en-frame.png",
+      "sha256": "f3aa668ac3394eff6969b5f75d4f4b908c5cc4bd86d2efc32361eb335fb47019",
+      "bytes": 993667
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-portrait-final/en-vendor-portrait.json",
+      "sha256": "f00a34f062724a71b42438a41abd271938fe233dcc28659415448fa04a550168",
+      "bytes": 7542
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-portrait-final/ru-frame.png",
+      "sha256": "b110f3ca7fb5874445b2651cd1cc0a9e2d73fe3af5613e0d4388dd1b8b53d85a",
+      "bytes": 992865
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-portrait-final/ru-vendor-portrait.json",
+      "sha256": "dc28cb52038e01e29a659fcdd6070a423fa32e7b0e4d0c3bd85de11877b3bccf",
+      "bytes": 7540
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-portrait-tests.log",
+      "sha256": "3c72474af23d9dbe48ee388d5d3c06f78d88a07e01315b04aff6550d3e89d041",
+      "bytes": 508
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-portrait-world-en.log",
+      "sha256": "d0b9b3f93f56b44901614ef1692167773fa3704b5196f90bdc33e30e01a8ca0a",
+      "bytes": 4847
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/vendor-portrait-world-ru.log",
+      "sha256": "b6778715bf08db49ab84cac74a9960350c181b06b76ca832f9bf51105a9fb21d",
+      "bytes": 4846
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-portrait/vendor-1411.evidence.json",
+      "sha256": "653add975f02ace4481f70a67a4a25eb1895e97061dbd135b8831f839e3b8f77",
+      "bytes": 8401
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-portrait/vendor-bound-camera.evidence.json",
+      "sha256": "563cb1f70c74e039e50c0a5ea64f58ccbfeb10bdc4214a715b919de36be1579d",
+      "bytes": 2002
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-portrait/vendor-bound-owner.evidence.json",
+      "sha256": "f78c94bbeda806913eeed317519e786ab8bdf4dca851e3a391456c8915860429",
+      "bytes": 2104
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-portrait/vendor-bound-pose.evidence.json",
+      "sha256": "7edf4d5e5c0420605efae42c9aaab4c83ebad983d94c1de39f2b6d884e562ec8",
+      "bytes": 1819
+    },
+    {
+      "path": "docs/reference/evidence/cases/artifacts/shared-ui-owners/vendor-portrait/vendor-owner.evidence.json",
+      "sha256": "17443900b80409c946ff982a8062dd422421c8d5aba96f5257eb602b339439be",
+      "bytes": 2886
+    }
+  ],
+  "native": [
+    {
+      "path": "crates/ffone-client/src/app/service_portrait.rs",
+      "sha256": "1e3700d52fc7863837a747ffbe5930ca8784814b9dab014e783601d60f5efa01",
+      "bytes": 22229
+    },
+    {
+      "path": "crates/ffone-client/src/service_portrait.rs",
+      "sha256": "430957595a3d31503063620897cba1496cbac37784b328e09e814e97e327c4fa",
+      "bytes": 1500
+    },
+    {
+      "path": "crates/ffone-client/src/vendor_ui.rs",
+      "sha256": "cccf899f314744519dbc515e6b8e34fdf12094b0370964cbe6f90748467f90db",
+      "bytes": 211675
+    },
+    {
+      "path": "crates/ffone-client/src/app/performance_probe.rs",
+      "sha256": "553fd01bb470339e86d40ca91eee4cc325ba2df4eac9e72ee1e8d46b4c7b9ed2",
+      "bytes": 22495
+    },
+    {
+      "path": "target/debug/ffone-client.exe",
+      "sha256": "2ae616761f9d28356bc01bd51d21412872a71ae4d5d5989dc85c116762455f7a",
+      "bytes": 207929344
+    }
+  ]
+}

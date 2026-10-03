@@ -1,0 +1,142 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "quest-symbols-primary-20260821-animation-v3",
+  "status": "accepted",
+  "supersedes": [
+    "quest-symbols-primary-20260821-exact-material-v2"
+  ],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "Effects.resourceFile",
+    "containerBytes": 8130528,
+    "containerSha256": "2aa08e85b7aefa8f7e22705ee2f1581befa83cc5708b32116ce8a46a273595e9",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 19415,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[865].prefab",
+        "trueName": "marker_progress"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 19432,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[866].prefab",
+        "trueName": "marker_acquire"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "legacy-self-skinned-quest-symbol-renderer-adaptation",
+    "tool": "crates/ffone-asset-pipeline/src/logical_model_publish.rs",
+    "toolRevision": "workspace-file-sha256:73041d41aec99fc074de5010b6eb1017999e18bd7b064f5b57bc9743034110bf",
+    "workingDirectory": ".",
+    "commands": [
+      "ffone-asset-pipeline publish-logical-model 'work\\legacy-sources\\quest-symbols-retrobution-20260821\\es865.source.json' effect 'work\\legacy-sources\\quest-symbols-retrobution-20260821\\published-animation-v3-es865'",
+      "ffone-asset-pipeline publish-logical-model 'work\\legacy-sources\\quest-symbols-retrobution-20260821\\es866.source.json' effect 'work\\legacy-sources\\quest-symbols-retrobution-20260821\\published-animation-v3-es866'"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "logical-model-source-progress",
+      "path": "work/legacy-sources/quest-symbols-retrobution-20260821/es865.source.json",
+      "bytes": 258126,
+      "sha256": "044b835e464c5a2ee9c96a5c75d71f375993fe823facb3fa23770db0c94d81e5"
+    },
+    {
+      "role": "logical-model-source-acquire",
+      "path": "work/legacy-sources/quest-symbols-retrobution-20260821/es866.source.json",
+      "bytes": 231354,
+      "sha256": "73f9b27c396d0ff35dc3ef3e14dc2f8644b139014bb5e8e6cbe00d7f4985bc55"
+    },
+    {
+      "role": "publisher-source",
+      "path": "crates/ffone-asset-pipeline/src/logical_model_publish.rs",
+      "bytes": 351964,
+      "sha256": "73041d41aec99fc074de5010b6eb1017999e18bd7b064f5b57bc9743034110bf"
+    },
+    {
+      "role": "staged-publish-report-progress",
+      "path": "work/legacy-sources/quest-symbols-retrobution-20260821/published-animation-v3-es865/models/effect/marker_progress.publish.json",
+      "bytes": 10814,
+      "sha256": "dad6ae809be3dc2aea29872d43e8061c6494541b2261e51c7acce9b586016096"
+    },
+    {
+      "role": "staged-publish-report-acquire",
+      "path": "work/legacy-sources/quest-symbols-retrobution-20260821/published-animation-v3-es866/models/effect/marker_acquire.publish.json",
+      "bytes": 10806,
+      "sha256": "7d4b8df1fcb5e9070d64599850bc9a922b26879766979fb320394ddc0938b725"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/game/map/shared/effects/es865.closure.json",
+      "bytes": 427662,
+      "sha256": "7e9ca9ccde71fa58c8a686899b719423c87b89d3e324addf7adad6da51025f50"
+    },
+    {
+      "path": "assets/game/map/shared/effects/es866.closure.json",
+      "bytes": 329371,
+      "sha256": "1be3b26662c5e739fbd5d88faca0c5b8f91f3f37cefe5ea7dc2ef65ab7001ac1"
+    },
+    {
+      "path": "assets/game/map/shared/effects/models/es865/marker_progress.glb",
+      "bytes": 41176,
+      "sha256": "8d06cdabadf6512f5d02145086fdb47dc9507c346d16f6a7d28955f5ddcd3266"
+    },
+    {
+      "path": "assets/game/map/shared/effects/models/es865/marker_progress.textures/marker_mask.png",
+      "bytes": 1682,
+      "sha256": "ec8bdddf37a1099b2d8ae45dc40e1c3fbb945b2b3fffcd6dda4b5feb4b0a3e72"
+    },
+    {
+      "path": "assets/game/map/shared/effects/models/es866/marker_acquire.glb",
+      "bytes": 31924,
+      "sha256": "6b2fe8ef7ad7659539a4348b6856160defcaa126d6b59104b5cd551dab146858"
+    },
+    {
+      "path": "assets/game/map/shared/effects/models/es866/marker_acquire.textures/marker_mask.png",
+      "bytes": 1682,
+      "sha256": "ec8bdddf37a1099b2d8ae45dc40e1c3fbb945b2b3fffcd6dda4b5feb4b0a3e72"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "cargo test -p ffone-asset-pipeline self_skinned_legacy_renderer_uses_the_unique_mesh_named_output_node",
+      "result": "passed",
+      "evidence": null
+    },
+    {
+      "command": "cargo run -p ffone-client --example tutorial_mission_indicator_gpu_preview -- assets/game target/quest-symbol-es866-animation-v3-phase-a.png quest full 45",
+      "result": "passed: ES866 animation player active at first non-symmetric phase",
+      "evidence": "../FFOneClient/target/quest-symbol-es866-animation-v3-phase-a.png"
+    },
+    {
+      "command": "cargo run -p ffone-client --example tutorial_mission_indicator_gpu_preview -- assets/game target/quest-symbol-es866-animation-v3-phase-b.png quest full 105",
+      "result": "passed: ES866 position and pulse differ at the second phase",
+      "evidence": "../FFOneClient/target/quest-symbol-es866-animation-v3-phase-b.png"
+    },
+    {
+      "command": "cargo test -p ffone-client --lib production_quest_symbol_keeps_exact_packed_mask_and_two_pass_shader",
+      "result": "passed after the unrelated concurrent compilation errors were resolved",
+      "evidence": null
+    },
+    {
+      "command": "cargo test -p ffone-client --lib mesh_effects_preserve_the_exact_looping_legacy_animation_modes",
+      "result": "passed",
+      "evidence": null
+    },
+    {
+      "command": "cargo check -p ffone-client --bin ffone-client",
+      "result": "passed",
+      "evidence": null
+    }
+  ]
+}

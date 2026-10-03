@@ -1,0 +1,2762 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "nano-tuning-client",
+  "sources": [
+    {
+      "alias": "alternate",
+      "path": "TableData.resourceFile",
+      "sha256": "d724c9417de5ff35e9bdb7bdfcf9bb93b4c8f715f42623fa2e1834d835be60a5",
+      "bytes": 751481
+    }
+  ],
+  "steps": [
+    {
+      "operation": "json-patch",
+      "output": "data/tables/table-set.json",
+      "edits": [
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoData/51/m_iTune",
+          "before": [
+            237,
+            238,
+            239
+          ],
+          "after": [
+            237,
+            238,
+            239
+          ]
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillIconData/5",
+          "before": {
+            "m_iIconNumber": 4,
+            "m_iIconType": 2
+          },
+          "after": {
+            "m_iIconNumber": 4,
+            "m_iIconType": 2
+          }
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/111/m_iTuneNumber",
+          "before": 1,
+          "after": 111
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/112/m_iTuneNumber",
+          "before": 1,
+          "after": 112
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/113/m_iTuneNumber",
+          "before": 1,
+          "after": 113
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/114/m_iTuneNumber",
+          "before": 1,
+          "after": 114
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/115/m_iTuneNumber",
+          "before": 1,
+          "after": 115
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/116/m_iTuneNumber",
+          "before": 1,
+          "after": 116
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/117/m_iTuneNumber",
+          "before": 1,
+          "after": 117
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/118/m_iTuneNumber",
+          "before": 1,
+          "after": 118
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/119/m_iTuneNumber",
+          "before": 1,
+          "after": 119
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/120/m_iTuneNumber",
+          "before": 1,
+          "after": 120
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/121/m_iTuneNumber",
+          "before": 1,
+          "after": 121
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/122/m_iTuneNumber",
+          "before": 1,
+          "after": 122
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/123/m_iTuneNumber",
+          "before": 1,
+          "after": 123
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/124/m_iTuneNumber",
+          "before": 1,
+          "after": 124
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/125/m_iTuneNumber",
+          "before": 1,
+          "after": 125
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/126/m_iTuneNumber",
+          "before": 1,
+          "after": 126
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/127/m_iTuneNumber",
+          "before": 1,
+          "after": 127
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/128/m_iTuneNumber",
+          "before": 1,
+          "after": 128
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/129/m_iTuneNumber",
+          "before": 1,
+          "after": 129
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/130/m_iTuneNumber",
+          "before": 1,
+          "after": 130
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/131/m_iTuneNumber",
+          "before": 1,
+          "after": 131
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/132/m_iTuneNumber",
+          "before": 1,
+          "after": 132
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/133/m_iTuneNumber",
+          "before": 1,
+          "after": 133
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/134/m_iTuneNumber",
+          "before": 1,
+          "after": 134
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/135/m_iTuneNumber",
+          "before": 1,
+          "after": 135
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/136/m_iTuneNumber",
+          "before": 1,
+          "after": 136
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/137/m_iTuneNumber",
+          "before": 1,
+          "after": 137
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/138/m_iTuneNumber",
+          "before": 1,
+          "after": 138
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/139/m_iTuneNumber",
+          "before": 1,
+          "after": 139
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/140/m_iTuneNumber",
+          "before": 1,
+          "after": 140
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/141/m_iTuneNumber",
+          "before": 1,
+          "after": 141
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/142/m_iTuneNumber",
+          "before": 1,
+          "after": 142
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/143/m_iTuneNumber",
+          "before": 1,
+          "after": 143
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/144/m_iTuneNumber",
+          "before": 1,
+          "after": 144
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/145/m_iTuneNumber",
+          "before": 1,
+          "after": 145
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/146/m_iTuneNumber",
+          "before": 1,
+          "after": 146
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/147/m_iTuneNumber",
+          "before": 1,
+          "after": 147
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/148/m_iTuneNumber",
+          "before": 1,
+          "after": 148
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/149/m_iTuneNumber",
+          "before": 1,
+          "after": 149
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/150/m_iTuneNumber",
+          "before": 1,
+          "after": 150
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/151/m_iTuneNumber",
+          "before": 1,
+          "after": 151
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/152/m_iTuneNumber",
+          "before": 1,
+          "after": 152
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/153/m_iTuneNumber",
+          "before": 1,
+          "after": 153
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/154/m_iTuneNumber",
+          "before": 1,
+          "after": 154
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/155/m_iTuneNumber",
+          "before": 1,
+          "after": 155
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/156/m_iTuneNumber",
+          "before": 1,
+          "after": 156
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/157/m_iTuneNumber",
+          "before": 1,
+          "after": 157
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/158/m_iTuneNumber",
+          "before": 1,
+          "after": 158
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/159/m_iTuneNumber",
+          "before": 1,
+          "after": 159
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/160/m_iTuneNumber",
+          "before": 1,
+          "after": 160
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/161/m_iTuneNumber",
+          "before": 1,
+          "after": 161
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/162/m_iTuneNumber",
+          "before": 1,
+          "after": 162
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/163/m_iTuneNumber",
+          "before": 1,
+          "after": 163
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/164/m_iTuneNumber",
+          "before": 1,
+          "after": 164
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/165/m_iTuneNumber",
+          "before": 1,
+          "after": 165
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/166/m_iTuneNumber",
+          "before": 1,
+          "after": 166
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/167/m_iTuneNumber",
+          "before": 1,
+          "after": 167
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/168/m_iTuneNumber",
+          "before": 1,
+          "after": 168
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/169/m_iTuneNumber",
+          "before": 1,
+          "after": 169
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/170/m_iTuneNumber",
+          "before": 1,
+          "after": 170
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/171/m_iTuneNumber",
+          "before": 1,
+          "after": 171
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/172/m_iTuneNumber",
+          "before": 1,
+          "after": 172
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/173/m_iTuneNumber",
+          "before": 1,
+          "after": 173
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/174/m_iTuneNumber",
+          "before": 1,
+          "after": 174
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/175/m_iTuneNumber",
+          "before": 1,
+          "after": 175
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/176/m_iTuneNumber",
+          "before": 1,
+          "after": 176
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/177/m_iTuneNumber",
+          "before": 1,
+          "after": 177
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/178/m_iTuneNumber",
+          "before": 1,
+          "after": 178
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/179/m_iTuneNumber",
+          "before": 1,
+          "after": 179
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/180/m_iTuneNumber",
+          "before": 1,
+          "after": 180
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/181/m_iTuneNumber",
+          "before": 1,
+          "after": 181
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/182/m_iTuneNumber",
+          "before": 1,
+          "after": 182
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/183/m_iTuneNumber",
+          "before": 1,
+          "after": 183
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/184/m_iTuneNumber",
+          "before": 1,
+          "after": 184
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/185/m_iTuneNumber",
+          "before": 1,
+          "after": 185
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/186/m_iTuneNumber",
+          "before": 1,
+          "after": 186
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/187/m_iTuneNumber",
+          "before": 1,
+          "after": 187
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/188/m_iTuneNumber",
+          "before": 1,
+          "after": 188
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/189/m_iTuneNumber",
+          "before": 1,
+          "after": 189
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/190/m_iTuneNumber",
+          "before": 1,
+          "after": 190
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/191/m_iTuneNumber",
+          "before": 1,
+          "after": 191
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/192/m_iTuneNumber",
+          "before": 1,
+          "after": 192
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/193/m_iTuneNumber",
+          "before": 1,
+          "after": 193
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/194/m_iTuneNumber",
+          "before": 1,
+          "after": 194
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/195/m_iTuneNumber",
+          "before": 1,
+          "after": 195
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/196/m_iTuneNumber",
+          "before": 1,
+          "after": 196
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/197/m_iTuneNumber",
+          "before": 1,
+          "after": 197
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/204/m_iTuneNumber",
+          "before": 3,
+          "after": 204
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/205/m_iTuneNumber",
+          "before": 3,
+          "after": 205
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/206/m_iTuneNumber",
+          "before": 3,
+          "after": 206
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/207/m_iTuneNumber",
+          "before": 3,
+          "after": 207
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/208/m_iTuneNumber",
+          "before": 3,
+          "after": 208
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/209/m_iTuneNumber",
+          "before": 3,
+          "after": 209
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/228/m_iTuneNumber",
+          "before": 199,
+          "after": 228
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/229/m_iTuneNumber",
+          "before": 200,
+          "after": 229
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/230/m_iTuneNumber",
+          "before": 201,
+          "after": 230
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/231/m_iTuneNumber",
+          "before": 202,
+          "after": 231
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/232/m_iTuneNumber",
+          "before": 203,
+          "after": 232
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/233/m_iTuneNumber",
+          "before": 204,
+          "after": 233
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/234/m_iTuneNumber",
+          "before": 205,
+          "after": 234
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/235/m_iTuneNumber",
+          "before": 206,
+          "after": 235
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/236/m_iTuneNumber",
+          "before": 207,
+          "after": 236
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/237/m_iSkillID",
+          "before": 0,
+          "after": 286
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/237/m_iTuneNumber",
+          "before": 211,
+          "after": 237
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/238/m_iTuneNumber",
+          "before": 212,
+          "after": 238
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/239/m_iTuneNumber",
+          "before": 213,
+          "after": 239
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/240/m_iTuneNumber",
+          "before": 217,
+          "after": 240
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/241/m_iTuneNumber",
+          "before": 218,
+          "after": 241
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/242/m_iTuneNumber",
+          "before": 219,
+          "after": 242
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/243/m_iTuneNumber",
+          "before": 229,
+          "after": 243
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/244/m_iTuneNumber",
+          "before": 230,
+          "after": 244
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/245/m_iTuneNumber",
+          "before": 231,
+          "after": 245
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/246/m_iTuneNumber",
+          "before": 226,
+          "after": 246
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/247/m_iTuneNumber",
+          "before": 227,
+          "after": 247
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/248/m_iTuneNumber",
+          "before": 228,
+          "after": 248
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/249/m_iTuneNumber",
+          "before": 235,
+          "after": 249
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/250/m_iTuneNumber",
+          "before": 236,
+          "after": 250
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/251/m_iTuneNumber",
+          "before": 237,
+          "after": 251
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/252/m_iTuneNumber",
+          "before": 232,
+          "after": 252
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/253/m_iTuneNumber",
+          "before": 233,
+          "after": 253
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/254/m_iTuneNumber",
+          "before": 234,
+          "after": 254
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/255/m_iTuneNumber",
+          "before": 238,
+          "after": 255
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/256/m_iTuneNumber",
+          "before": 239,
+          "after": 256
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/257/m_iTuneNumber",
+          "before": 240,
+          "after": 257
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/258/m_iTuneNumber",
+          "before": 241,
+          "after": 258
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/259/m_iTuneNumber",
+          "before": 242,
+          "after": 259
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/260/m_iTuneNumber",
+          "before": 243,
+          "after": 260
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/261/m_iTuneNumber",
+          "before": 220,
+          "after": 261
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/262/m_iTuneNumber",
+          "before": 221,
+          "after": 262
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/263/m_iTuneNumber",
+          "before": 222,
+          "after": 263
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/264/m_iTuneNumber",
+          "before": 244,
+          "after": 264
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/265/m_iTuneNumber",
+          "before": 245,
+          "after": 265
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/266/m_iTuneNumber",
+          "before": 246,
+          "after": 266
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/267/m_iTuneNumber",
+          "before": 247,
+          "after": 267
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/268/m_iTuneNumber",
+          "before": 248,
+          "after": 268
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/269/m_iTuneNumber",
+          "before": 249,
+          "after": 269
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/270/m_iTuneNumber",
+          "before": 250,
+          "after": 270
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/271/m_iTuneNumber",
+          "before": 251,
+          "after": 271
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/272/m_iTuneNumber",
+          "before": 252,
+          "after": 272
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/273/m_iTuneNumber",
+          "before": 253,
+          "after": 273
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/274/m_iTuneNumber",
+          "before": 254,
+          "after": 274
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/275/m_iTuneNumber",
+          "before": 255,
+          "after": 275
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/276/m_iTuneNumber",
+          "before": 256,
+          "after": 276
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/277/m_iTuneNumber",
+          "before": 257,
+          "after": 277
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/278/m_iTuneNumber",
+          "before": 258,
+          "after": 278
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/279/m_iTuneNumber",
+          "before": 259,
+          "after": 279
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/280/m_iTuneNumber",
+          "before": 260,
+          "after": 280
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/281/m_iTuneNumber",
+          "before": 261,
+          "after": 281
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/282/m_iTuneNumber",
+          "before": 217,
+          "after": 282
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/283/m_iTuneNumber",
+          "before": 218,
+          "after": 283
+        },
+        {
+          "path": "/@tables/m_pNanoTable/m_pNanoTuneData/284/m_iTuneNumber",
+          "before": 219,
+          "after": 284
+        },
+        {
+          "path": "/@tables/m_pSkillTable/m_pSkillData/286",
+          "after": {
+            "m_iBatteryDrainType": 1,
+            "m_iBatteryDrainUse": [
+              30,
+              27,
+              24,
+              21
+            ],
+            "m_iBuffEffect": 0,
+            "m_iCoolTime": 30,
+            "m_iCoolType": 7,
+            "m_iDBType": 0,
+            "m_iDelayTime": 10,
+            "m_iDeleverTime": 160,
+            "m_iDurationTime": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iEffect": 19,
+            "m_iEffectAngle": 0,
+            "m_iEffectArea": 0,
+            "m_iEffectRange": 1600,
+            "m_iEffectTarget": 5,
+            "m_iEffectType": 1,
+            "m_iIcon": 5,
+            "m_iInitialTime": 50,
+            "m_iSkillNumber": 286,
+            "m_iSkillType": 2,
+            "m_iSound": 7,
+            "m_iTargetEffect": 88,
+            "m_iTargetNumber": 4,
+            "m_iTargetType": 3,
+            "m_iValueA": [
+              210,
+              242,
+              252,
+              273
+            ],
+            "m_iValueA_Type": 2,
+            "m_iValueB": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueB_Type": 0,
+            "m_iValueC": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_iValueC_Type": 0
+          }
+        }
+      ]
+    },
+    {
+      "operation": "json-patch",
+      "output": "localization/en.json",
+      "edits": [
+        {
+          "path": "/entries/content.nano_tune.211.name",
+          "before": "HEAL!",
+          "after": "BOTTOMLESS PIT"
+        },
+        {
+          "path": "/entries/content.nano_tune.211.type_label",
+          "before": "HEAL - GROUP",
+          "after": "SCAVENGE"
+        },
+        {
+          "path": "/entries/content.nano_tune.211.description",
+          "before": "Heal!  Everybody gets some candy!",
+          "after": "Coop tastes the Fusion creeps and gets some Fusion Matter for you! (It tastes like jelly)."
+        },
+        {
+          "path": "/entries/content.nano_tune.212.name",
+          "before": "I LIKE CANDY!",
+          "after": "THE JAMMER"
+        },
+        {
+          "path": "/entries/content.nano_tune.212.type_label",
+          "before": "SCAVENGE",
+          "after": "STUN - CONE"
+        },
+        {
+          "path": "/entries/content.nano_tune.212.description",
+          "before": "More Fusion Matter for Cheese (and you).",
+          "after": "Coop reroutes all power to The Jammer and releases his \"stunning\" voice."
+        },
+        {
+          "path": "/entries/content.nano_tune.213.name",
+          "before": "GOOD HORSIE!",
+          "after": "PUNK ROCKET"
+        },
+        {
+          "path": "/entries/content.nano_tune.213.type_label",
+          "before": "RUN - SELF",
+          "after": "ROCKET"
+        },
+        {
+          "path": "/entries/content.nano_tune.213.description",
+          "before": "Run horsie, RUN!",
+          "after": "Ride those sonic waves! Belladonna helps you rebel against gravity with the power of punk!"
+        },
+        {
+          "path": "/entries/content.nano_tune.217.name",
+          "before": "ESSENCE LEECH",
+          "after": "SECURITY PROTOCOL"
+        },
+        {
+          "path": "/entries/content.nano_tune.217.type_label",
+          "before": "UNSTABLE POWER",
+          "after": "GUARD"
+        },
+        {
+          "path": "/entries/content.nano_tune.217.description",
+          "before": "Van Kleiss will drain your foes' very life essence.",
+          "after": "Computress encrypts your health data on a secure network, away from monsters!"
+        },
+        {
+          "path": "/entries/content.nano_tune.218.name",
+          "before": "NANITE REGENERATION",
+          "after": "DEXLABS FIREWALL"
+        },
+        {
+          "path": "/entries/content.nano_tune.218.type_label",
+          "before": "UNSTABLE POWER",
+          "after": "FREEDOM"
+        },
+        {
+          "path": "/entries/content.nano_tune.218.description",
+          "before": "Take advantage of Van Kleiss' regenrative nanites.",
+          "after": "Computress, ever alert, protects you from special attacks with her firewall."
+        },
+        {
+          "path": "/entries/content.nano_tune.219.name",
+          "before": "VINES OF ABYSUS",
+          "after": "FUSION FALTER"
+        },
+        {
+          "path": "/entries/content.nano_tune.219.type_label",
+          "before": "UNSTABLE POWER",
+          "after": "SNARE - TARGET AREA"
+        },
+        {
+          "path": "/entries/content.nano_tune.219.description",
+          "before": "Nanite infused plants will ensnare your foes at Van Kleiss' command.",
+          "after": "Runty taps into the fusion hivemind and tricks all enemies nearby into taking it slow!"
+        },
+        {
+          "path": "/entries/content.nano_tune.220.name",
+          "before": "ICE BOLTS",
+          "after": "HEROIC SACRIFICE"
+        },
+        {
+          "path": "/entries/content.nano_tune.220.type_label",
+          "before": "STUN - AREA",
+          "after": "DRAIN - POINT"
+        },
+        {
+          "path": "/entries/content.nano_tune.220.description",
+          "before": "Freeze your foes with the Ice King's shockingly cool bolts.",
+          "after": "Runty sacrifices his energy to take out a huge chunk of the enemy’s health."
+        },
+        {
+          "path": "/entries/content.nano_tune.221.name",
+          "before": "BEARD PILOT",
+          "after": "SNEAKY SPAWN"
+        },
+        {
+          "path": "/entries/content.nano_tune.221.type_label",
+          "before": "ROCKET - SELF",
+          "after": "SNEAK"
+        },
+        {
+          "path": "/entries/content.nano_tune.221.description",
+          "before": "With a beard this cool, there is no holding you down!",
+          "after": "Runty looks just like a Fusion Spawn! He blends in, letting you sneak past monsters!"
+        },
+        {
+          "path": "/entries/content.nano_tune.222.name",
+          "before": "PENGUIN SENSE",
+          "after": "COPTER MODE"
+        },
+        {
+          "path": "/entries/content.nano_tune.222.type_label",
+          "before": "TREASURE FINDER",
+          "after": "ROCKET"
+        },
+        {
+          "path": "/entries/content.nano_tune.222.description",
+          "before": "When building an army of Penguins, it helps to start with the eggs.",
+          "after": "Panini spins her ears fast enough to become airborne and help you get extra height!"
+        },
+        {
+          "path": "/entries/content.nano_tune.226.name",
+          "before": "EAR GLIDE RIDE",
+          "after": "LAST LAUGH"
+        },
+        {
+          "path": "/entries/content.nano_tune.226.type_label",
+          "before": "ROCKET - SELF",
+          "after": "SNARE - CONE"
+        },
+        {
+          "path": "/entries/content.nano_tune.226.description",
+          "before": "Glide into action on Jake's magical ears.",
+          "after": "Jack gets the last laugh by unleashing a barrage of pranks, slowing the enemy."
+        },
+        {
+          "path": "/entries/content.nano_tune.227.name",
+          "before": "LEG STRETCH",
+          "after": "DON'T LOSE YOUR HEAD"
+        },
+        {
+          "path": "/entries/content.nano_tune.227.type_label",
+          "before": "JUMP - GROUP",
+          "after": "REVIVE - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.227.description",
+          "before": "Jake will help his friends step right out of harm's way.",
+          "after": "Cheat death just like Jack! Don't worry, you'll come back with your head intact."
+        },
+        {
+          "path": "/entries/content.nano_tune.229.name",
+          "before": "DEATH PUNCH",
+          "after": "RIGHTEOUS RECOVERY"
+        },
+        {
+          "path": "/entries/content.nano_tune.229.type_label",
+          "before": "DAMAGE - AREA",
+          "after": "REVIVE - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.229.description",
+          "before": "Rigby will pound your foes using his mastery of Death Kwon Do!",
+          "after": "Finn will help you to recover if you fall in combat."
+        },
+        {
+          "path": "/entries/content.nano_tune.230.name",
+          "before": "JAVA JOLT",
+          "after": "SMITE EVIL"
+        },
+        {
+          "path": "/entries/content.nano_tune.230.type_label",
+          "before": "HEAL - SELF",
+          "after": "DAMAGE - POINT"
+        },
+        {
+          "path": "/entries/content.nano_tune.230.description",
+          "before": "Rigby's Java Jolt will keep you working for the weekend.",
+          "after": "Finn will slay anything that's evil."
+        },
+        {
+          "path": "/entries/content.nano_tune.231.name",
+          "before": "MAGICAL KEYBOARD",
+          "after": "SMACKHANDS"
+        },
+        {
+          "path": "/entries/content.nano_tune.231.type_label",
+          "before": "RECALL - GROUP",
+          "after": "STUN - CONE"
+        },
+        {
+          "path": "/entries/content.nano_tune.231.description",
+          "before": "Rigby's Magical Keyboard will take everyone home, sorta.",
+          "after": "Rex will pound your foes senseless."
+        },
+        {
+          "path": "/entries/content.nano_tune.228.name",
+          "before": "VIOLLA LULLABYE",
+          "after": "HEROIC LEAP"
+        },
+        {
+          "path": "/entries/content.nano_tune.228.type_label",
+          "before": "SLEEP - SELF AREA",
+          "after": "JUMP - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.228.description",
+          "before": "Jake's soothing melody can put those nearby into a gentle slumber.",
+          "after": "Finn helps you leap into action!"
+        },
+        {
+          "path": "/entries/content.nano_tune.235.name",
+          "before": "SPIT TAKE",
+          "after": "BLACK HOLE"
+        },
+        {
+          "path": "/entries/content.nano_tune.235.type_label",
+          "before": "SCAVENGE",
+          "after": "SNARE - TARGET AREA"
+        },
+        {
+          "path": "/entries/content.nano_tune.235.description",
+          "before": "Make Chowder's greed work for you, too!",
+          "after": "AlienX creates a small black hole to slow foes near the target."
+        },
+        {
+          "path": "/entries/content.nano_tune.236.name",
+          "before": "I'M NOT YOUR BOYFRIEND",
+          "after": "REALITY FADE"
+        },
+        {
+          "path": "/entries/content.nano_tune.236.type_label",
+          "before": "FREEDOM - SELF",
+          "after": "RECALL - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.236.description",
+          "before": "These words mean FREEDOM!",
+          "after": "Alter reality to warp to a recall point in an infected zone."
+        },
+        {
+          "path": "/entries/content.nano_tune.237.name",
+          "before": "BLORMED MILK",
+          "after": "HEAL!"
+        },
+        {
+          "path": "/entries/content.nano_tune.237.type_label",
+          "before": "SLEEP - SELF AREA",
+          "after": "HEAL - GROUP"
+        },
+        {
+          "path": "/entries/content.nano_tune.237.description",
+          "before": "Having trouble sleeping?  Try some blormed milk.",
+          "after": "Heal!  Everybody gets some candy!"
+        },
+        {
+          "path": "/entries/content.nano_tune.232.name",
+          "before": "HURRICANE HANDS",
+          "after": "BIG FREAKIN SWORD"
+        },
+        {
+          "path": "/entries/content.nano_tune.232.type_label",
+          "before": "STUN - CONE",
+          "after": "DAMAGE - CONE"
+        },
+        {
+          "path": "/entries/content.nano_tune.232.description",
+          "before": "Stop your foes in their tracks with Johnny's Hurricane Hands.",
+          "after": "Rex has a Big Freakin' Sword!"
+        },
+        {
+          "path": "/entries/content.nano_tune.233.name",
+          "before": "POWER POOTS",
+          "after": "BOOGIE PACK"
+        },
+        {
+          "path": "/entries/content.nano_tune.233.type_label",
+          "before": "DAMAGE - CONE",
+          "after": "RUN - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.233.description",
+          "before": "Blast the bad guys with Johnny's Power Poots!",
+          "after": "Speed along using Rex's Boogie Pack."
+        },
+        {
+          "path": "/entries/content.nano_tune.234.name",
+          "before": "TURBO ACTION BACKPACK",
+          "after": "CELESTIAL LIGHT"
+        },
+        {
+          "path": "/entries/content.nano_tune.234.type_label",
+          "before": "JUMP - SELF",
+          "after": "HEAL - SELF AREA"
+        },
+        {
+          "path": "/entries/content.nano_tune.234.description",
+          "before": "Leap into action using Johnny's Turbo Action Backpack.",
+          "after": "Healing light bathes all nearby allies."
+        },
+        {
+          "path": "/entries/content.nano_tune.238.name",
+          "before": "SYMBIONIC SWORD",
+          "after": "I LIKE CANDY!"
+        },
+        {
+          "path": "/entries/content.nano_tune.238.type_label",
+          "before": "DAMAGE - CONE",
+          "after": "SCAVENGE"
+        },
+        {
+          "path": "/entries/content.nano_tune.238.description",
+          "before": "The symbionic sword can cleave a mutraddi mega-beast in two!",
+          "after": "More Fusion Matter for Cheese (and you)."
+        },
+        {
+          "path": "/entries/content.nano_tune.239.name",
+          "before": "SENSOR ARRAY",
+          "after": "GOOD HORSIE!"
+        },
+        {
+          "path": "/entries/content.nano_tune.239.type_label",
+          "before": "RADAR",
+          "after": "RUN - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.239.description",
+          "before": "Know where your foes are before they even know you're coming.",
+          "after": "Run horsie, RUN!"
+        },
+        {
+          "path": "/entries/content.nano_tune.240.name",
+          "before": "BOOSTER ROCKETS",
+          "after": "ESSENCE LEECH"
+        },
+        {
+          "path": "/entries/content.nano_tune.240.type_label",
+          "before": "ROCKET - SELF",
+          "after": "UNSTABLE POWER"
+        },
+        {
+          "path": "/entries/content.nano_tune.240.description",
+          "before": "It takes a lot of thrust to get a giant robot into the air!",
+          "after": "Van Kleiss will drain your foes' very life essence."
+        },
+        {
+          "path": "/entries/content.nano_tune.241.name",
+          "before": "CRYPTID ASSAULT",
+          "after": "NANITE REGENERATION"
+        },
+        {
+          "path": "/entries/content.nano_tune.241.type_label",
+          "before": "DAMAGE - POINT",
+          "after": "UNSTABLE POWER"
+        },
+        {
+          "path": "/entries/content.nano_tune.241.description",
+          "before": "Zak can teach you a thing or two about pounding on creeps!",
+          "after": "Take advantage of Van Kleiss' regenrative nanites."
+        },
+        {
+          "path": "/entries/content.nano_tune.242.name",
+          "before": "CLAW GRAPPLE",
+          "after": "VINES OF ABYSUS"
+        },
+        {
+          "path": "/entries/content.nano_tune.242.type_label",
+          "before": "SNARE - CONE",
+          "after": "UNSTABLE POWER"
+        },
+        {
+          "path": "/entries/content.nano_tune.242.description",
+          "before": "Zak's magical claw can keep your enemies from reaching you.",
+          "after": "Nanite infused plants will ensnare your foes at Van Kleiss' command."
+        },
+        {
+          "path": "/entries/content.nano_tune.243.name",
+          "before": "MONSTER HUNTER",
+          "after": "DEATH PUNCH"
+        },
+        {
+          "path": "/entries/content.nano_tune.243.type_label",
+          "before": "RADAR",
+          "after": "DAMAGE - AREA"
+        },
+        {
+          "path": "/entries/content.nano_tune.243.description",
+          "before": "No one can track monsters like the Secret Saturdays!",
+          "after": "Rigby will pound your foes using his mastery of Death Kwon Do!"
+        },
+        {
+          "path": "/entries/content.nano_tune.244.name",
+          "before": "SWAN DIVE OF ETERNAL BEAUTY",
+          "after": "JAVA JOLT"
+        },
+        {
+          "path": "/entries/content.nano_tune.244.type_label",
+          "before": "ROCKET - SELF",
+          "after": "HEAL - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.244.description",
+          "before": "Cannonbaaaaaaaaall!",
+          "after": "Rigby's Java Jolt will keep you working for the weekend."
+        },
+        {
+          "path": "/entries/content.nano_tune.245.name",
+          "before": "THE BUNNY HOP",
+          "after": "MAGICAL KEYBOARD"
+        },
+        {
+          "path": "/entries/content.nano_tune.245.type_label",
+          "before": "JUMP - GROUP",
+          "after": "RECALL - GROUP"
+        },
+        {
+          "path": "/entries/content.nano_tune.245.description",
+          "before": "Mr. Watterson taught Gumball this special fighting technique.",
+          "after": "Rigby's Magical Keyboard will take everyone home, sorta."
+        },
+        {
+          "path": "/entries/content.nano_tune.246.name",
+          "before": "TAE KWON DORK",
+          "after": "EAR GLIDE RIDE"
+        },
+        {
+          "path": "/entries/content.nano_tune.246.type_label",
+          "before": "DAMAGE - POINT",
+          "after": "ROCKET - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.246.description",
+          "before": "Half bear, half shark, half alligator!",
+          "after": "Glide into action on Jake's magical ears."
+        },
+        {
+          "path": "/entries/content.nano_tune.247.name",
+          "before": "BLACKOUT",
+          "after": "LEG STRETCH"
+        },
+        {
+          "path": "/entries/content.nano_tune.247.type_label",
+          "before": "SLEEP - CONE",
+          "after": "JUMP - GROUP"
+        },
+        {
+          "path": "/entries/content.nano_tune.247.description",
+          "before": "Ampfibian will put out your enemies' lights.",
+          "after": "Jake will help his friends step right out of harm's way."
+        },
+        {
+          "path": "/entries/content.nano_tune.248.name",
+          "before": "CIRCUIT BREAKER",
+          "after": "VIOLLA LULLABYE"
+        },
+        {
+          "path": "/entries/content.nano_tune.248.type_label",
+          "before": "DRAIN - AREA",
+          "after": "SLEEP - SELF AREA"
+        },
+        {
+          "path": "/entries/content.nano_tune.248.description",
+          "before": "Fry your foes' synapses with Ampfibian's electric attack!",
+          "after": "Jake's soothing melody can put those nearby into a gentle slumber."
+        },
+        {
+          "path": "/entries/content.nano_tune.249.name",
+          "before": "SURGE PROTECTOR",
+          "after": "SPIT TAKE"
+        },
+        {
+          "path": "/entries/content.nano_tune.249.type_label",
+          "before": "GUARD",
+          "after": "SCAVENGE"
+        },
+        {
+          "path": "/entries/content.nano_tune.249.description",
+          "before": "Protect your batteries (and your potions) with the Surge Protector!",
+          "after": "Make Chowder's greed work for you, too!"
+        },
+        {
+          "path": "/entries/content.nano_tune.250.name",
+          "before": "CAN'T STOP ME",
+          "after": "I'M NOT YOUR BOYFRIEND"
+        },
+        {
+          "path": "/entries/content.nano_tune.250.description",
+          "before": "Nothing can restrain an enraged Apoplexan.",
+          "after": "These words mean FREEDOM!"
+        },
+        {
+          "path": "/entries/content.nano_tune.251.name",
+          "before": "RATH'S WRATH",
+          "after": "BLORMED MILK"
+        },
+        {
+          "path": "/entries/content.nano_tune.251.type_label",
+          "before": "DAMAGE - AREA",
+          "after": "SLEEP - SELF AREA"
+        },
+        {
+          "path": "/entries/content.nano_tune.251.description",
+          "before": "Unleash Rath's wrath and crush your foes like grapes.",
+          "after": "Having trouble sleeping?  Try some blormed milk."
+        },
+        {
+          "path": "/entries/content.nano_tune.252.name",
+          "before": "LET ME TELL YOU SOMETHIN'",
+          "after": "HURRICANE HANDS"
+        },
+        {
+          "path": "/entries/content.nano_tune.252.type_label",
+          "before": "SLEEP - CONE",
+          "after": "STUN - CONE"
+        },
+        {
+          "path": "/entries/content.nano_tune.252.description",
+          "before": "Rath's speeches are good for one thing - napping.",
+          "after": "Stop your foes in their tracks with Johnny's Hurricane Hands."
+        },
+        {
+          "path": "/entries/content.nano_tune.253.name",
+          "before": "DODGE OR DARE",
+          "after": "POWER POOTS"
+        },
+        {
+          "path": "/entries/content.nano_tune.253.type_label",
+          "before": "RUN - GROUP",
+          "after": "DAMAGE - CONE"
+        },
+        {
+          "path": "/entries/content.nano_tune.253.description",
+          "before": "Let Darwin show you his approach to survival.  Run away!",
+          "after": "Blast the bad guys with Johnny's Power Poots!"
+        },
+        {
+          "path": "/entries/content.nano_tune.254.name",
+          "before": "HIDE",
+          "after": "TURBO ACTION BACKPACK"
+        },
+        {
+          "path": "/entries/content.nano_tune.254.type_label",
+          "before": "SNEAK - GROUP",
+          "after": "JUMP - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.254.description",
+          "before": "If you can't run, Darwin can always help you hide.",
+          "after": "Leap into action using Johnny's Turbo Action Backpack."
+        },
+        {
+          "path": "/entries/content.nano_tune.255.name",
+          "before": "TRAUMA THERAPY",
+          "after": "SYMBIONIC SWORD"
+        },
+        {
+          "path": "/entries/content.nano_tune.255.type_label",
+          "before": "HEAL - GROUP",
+          "after": "DAMAGE - CONE"
+        },
+        {
+          "path": "/entries/content.nano_tune.255.description",
+          "before": "If running and hiding didn't work, it might be time for Trauma Therapy.",
+          "after": "The symbionic sword can cleave a mutraddi mega-beast in two!"
+        },
+        {
+          "path": "/entries/content.nano_tune.256.name",
+          "before": "DEATH BLOCK",
+          "after": "SENSOR ARRAY"
+        },
+        {
+          "path": "/entries/content.nano_tune.256.type_label",
+          "before": "REVIVE - SELF",
+          "after": "RADAR"
+        },
+        {
+          "path": "/entries/content.nano_tune.256.description",
+          "before": "A true master of Death-kwon-do can even block Death!",
+          "after": "Know where your foes are before they even know you're coming."
+        },
+        {
+          "path": "/entries/content.nano_tune.257.name",
+          "before": "PUNCHIES",
+          "after": "BOOSTER ROCKETS"
+        },
+        {
+          "path": "/entries/content.nano_tune.257.type_label",
+          "before": "DAMAGE - POINT",
+          "after": "ROCKET - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.257.description",
+          "before": "Mordecai will show your foes why no one beats him at Punchies.",
+          "after": "It takes a lot of thrust to get a giant robot into the air!"
+        },
+        {
+          "path": "/entries/content.nano_tune.258.name",
+          "before": "WORKIN FOR THE WEEKEND",
+          "after": "CRYPTID ASSAULT"
+        },
+        {
+          "path": "/entries/content.nano_tune.258.type_label",
+          "before": "BONUS",
+          "after": "DAMAGE - POINT"
+        },
+        {
+          "path": "/entries/content.nano_tune.258.description",
+          "before": "Need a little extra cash?  Mordecai knows all about how to get some.",
+          "after": "Zak can teach you a thing or two about pounding on creeps!"
+        },
+        {
+          "path": "/entries/content.nano_tune.259.name",
+          "before": "SWEET DREAMS",
+          "after": "CLAW GRAPPLE"
+        },
+        {
+          "path": "/entries/content.nano_tune.259.type_label",
+          "before": "SLEEP - AREA",
+          "after": "SNARE - CONE"
+        },
+        {
+          "path": "/entries/content.nano_tune.259.description",
+          "before": "Normally too much candy will keep you awake, but not with this power.",
+          "after": "Zak's magical claw can keep your enemies from reaching you."
+        },
+        {
+          "path": "/entries/content.nano_tune.260.name",
+          "before": "DE-CORPSEINATOR SERUM",
+          "after": "MONSTER HUNTER"
+        },
+        {
+          "path": "/entries/content.nano_tune.260.type_label",
+          "before": "REVIVE - GROUP",
+          "after": "RADAR"
+        },
+        {
+          "path": "/entries/content.nano_tune.260.description",
+          "before": "Hopefully you won't turn into a zombie.",
+          "after": "No one can track monsters like the Secret Saturdays!"
+        },
+        {
+          "path": "/entries/content.nano_tune.261.name",
+          "before": "PENNY CANDY",
+          "after": "ICE BOLTS"
+        },
+        {
+          "path": "/entries/content.nano_tune.261.type_label",
+          "before": "BONUS",
+          "after": "STUN - AREA"
+        },
+        {
+          "path": "/entries/content.nano_tune.261.description",
+          "before": "Free money translates directly into cheap candy.  Right?",
+          "after": "Freeze your foes with the Ice King's shockingly cool bolts."
+        },
+        {
+          "path": "/entries/content.nano_tune.262.name",
+          "after": "BEARD PILOT"
+        },
+        {
+          "path": "/entries/content.nano_tune.262.type_label",
+          "after": "ROCKET - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.262.description",
+          "after": "With a beard this cool, there is no holding you down!"
+        },
+        {
+          "path": "/entries/content.nano_tune.263.name",
+          "after": "PENGUIN SENSE"
+        },
+        {
+          "path": "/entries/content.nano_tune.263.type_label",
+          "after": "TREASURE FINDER"
+        },
+        {
+          "path": "/entries/content.nano_tune.263.description",
+          "after": "When building an army of Penguins, it helps to start with the eggs."
+        },
+        {
+          "path": "/entries/content.nano_tune.264.name",
+          "after": "SWAN DIVE OF ETERNAL BEAUTY"
+        },
+        {
+          "path": "/entries/content.nano_tune.264.type_label",
+          "after": "ROCKET - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.264.description",
+          "after": "Cannonbaaaaaaaaall!"
+        },
+        {
+          "path": "/entries/content.nano_tune.265.name",
+          "after": "THE BUNNY HOP"
+        },
+        {
+          "path": "/entries/content.nano_tune.265.type_label",
+          "after": "JUMP - GROUP"
+        },
+        {
+          "path": "/entries/content.nano_tune.265.description",
+          "after": "Mr. Watterson taught Gumball this special fighting technique."
+        },
+        {
+          "path": "/entries/content.nano_tune.266.name",
+          "after": "TAE KWON DORK"
+        },
+        {
+          "path": "/entries/content.nano_tune.266.type_label",
+          "after": "DAMAGE - POINT"
+        },
+        {
+          "path": "/entries/content.nano_tune.266.description",
+          "after": "Half bear, half shark, half alligator!"
+        },
+        {
+          "path": "/entries/content.nano_tune.267.name",
+          "after": "BLACKOUT"
+        },
+        {
+          "path": "/entries/content.nano_tune.267.type_label",
+          "after": "SLEEP - CONE"
+        },
+        {
+          "path": "/entries/content.nano_tune.267.description",
+          "after": "Ampfibian will put out your enemies' lights."
+        },
+        {
+          "path": "/entries/content.nano_tune.268.name",
+          "after": "CIRCUIT BREAKER"
+        },
+        {
+          "path": "/entries/content.nano_tune.268.type_label",
+          "after": "DRAIN - AREA"
+        },
+        {
+          "path": "/entries/content.nano_tune.268.description",
+          "after": "Fry your foes' synapses with Ampfibian's electric attack!"
+        },
+        {
+          "path": "/entries/content.nano_tune.269.name",
+          "after": "SURGE PROTECTOR"
+        },
+        {
+          "path": "/entries/content.nano_tune.269.type_label",
+          "after": "GUARD"
+        },
+        {
+          "path": "/entries/content.nano_tune.269.description",
+          "after": "Protect your batteries (and your potions) with the Surge Protector!"
+        },
+        {
+          "path": "/entries/content.nano_tune.270.name",
+          "after": "CAN'T STOP ME"
+        },
+        {
+          "path": "/entries/content.nano_tune.270.type_label",
+          "after": "FREEDOM - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.270.description",
+          "after": "Nothing can restrain an enraged Apoplexan."
+        },
+        {
+          "path": "/entries/content.nano_tune.271.name",
+          "after": "RATH'S WRATH"
+        },
+        {
+          "path": "/entries/content.nano_tune.271.type_label",
+          "after": "DAMAGE - AREA"
+        },
+        {
+          "path": "/entries/content.nano_tune.271.description",
+          "after": "Unleash Rath's wrath and crush your foes like grapes."
+        },
+        {
+          "path": "/entries/content.nano_tune.272.name",
+          "after": "LET ME TELL YOU SOMETHIN'"
+        },
+        {
+          "path": "/entries/content.nano_tune.272.type_label",
+          "after": "SLEEP - CONE"
+        },
+        {
+          "path": "/entries/content.nano_tune.272.description",
+          "after": "Rath's speeches are good for one thing - napping."
+        },
+        {
+          "path": "/entries/content.nano_tune.273.name",
+          "after": "DODGE OR DARE"
+        },
+        {
+          "path": "/entries/content.nano_tune.273.type_label",
+          "after": "RUN - GROUP"
+        },
+        {
+          "path": "/entries/content.nano_tune.273.description",
+          "after": "Let Darwin show you his approach to survival.  Run away!"
+        },
+        {
+          "path": "/entries/content.nano_tune.274.name",
+          "after": "HIDE"
+        },
+        {
+          "path": "/entries/content.nano_tune.274.type_label",
+          "after": "SNEAK - GROUP"
+        },
+        {
+          "path": "/entries/content.nano_tune.274.description",
+          "after": "If you can't run, Darwin can always help you hide."
+        },
+        {
+          "path": "/entries/content.nano_tune.275.name",
+          "after": "TRAUMA THERAPY"
+        },
+        {
+          "path": "/entries/content.nano_tune.275.type_label",
+          "after": "HEAL - GROUP"
+        },
+        {
+          "path": "/entries/content.nano_tune.275.description",
+          "after": "If running and hiding didn't work, it might be time for Trauma Therapy."
+        },
+        {
+          "path": "/entries/content.nano_tune.276.name",
+          "after": "DEATH BLOCK"
+        },
+        {
+          "path": "/entries/content.nano_tune.276.type_label",
+          "after": "REVIVE - SELF"
+        },
+        {
+          "path": "/entries/content.nano_tune.276.description",
+          "after": "A true master of Death-kwon-do can even block Death!"
+        },
+        {
+          "path": "/entries/content.nano_tune.277.name",
+          "after": "PUNCHIES"
+        },
+        {
+          "path": "/entries/content.nano_tune.277.type_label",
+          "after": "DAMAGE - POINT"
+        },
+        {
+          "path": "/entries/content.nano_tune.277.description",
+          "after": "Mordecai will show your foes why no one beats him at Punchies."
+        },
+        {
+          "path": "/entries/content.nano_tune.278.name",
+          "after": "WORKIN FOR THE WEEKEND"
+        },
+        {
+          "path": "/entries/content.nano_tune.278.type_label",
+          "after": "BONUS"
+        },
+        {
+          "path": "/entries/content.nano_tune.278.description",
+          "after": "Need a little extra cash?  Mordecai knows all about how to get some."
+        },
+        {
+          "path": "/entries/content.nano_tune.279.name",
+          "after": "SWEET DREAMS"
+        },
+        {
+          "path": "/entries/content.nano_tune.279.type_label",
+          "after": "SLEEP - AREA"
+        },
+        {
+          "path": "/entries/content.nano_tune.279.description",
+          "after": "Normally too much candy will keep you awake, but not with this power."
+        },
+        {
+          "path": "/entries/content.nano_tune.280.name",
+          "after": "DE-CORPSEINATOR SERUM"
+        },
+        {
+          "path": "/entries/content.nano_tune.280.type_label",
+          "after": "REVIVE - GROUP"
+        },
+        {
+          "path": "/entries/content.nano_tune.280.description",
+          "after": "Hopefully you won't turn into a zombie."
+        },
+        {
+          "path": "/entries/content.nano_tune.281.name",
+          "after": "PENNY CANDY"
+        },
+        {
+          "path": "/entries/content.nano_tune.281.type_label",
+          "after": "BONUS"
+        },
+        {
+          "path": "/entries/content.nano_tune.281.description",
+          "after": "Free money translates directly into cheap candy.  Right?"
+        },
+        {
+          "path": "/entries/content.nano_tune.282.name",
+          "after": "ESSENCE LEECH"
+        },
+        {
+          "path": "/entries/content.nano_tune.282.type_label",
+          "after": "UNSTABLE POWER"
+        },
+        {
+          "path": "/entries/content.nano_tune.282.description",
+          "after": "Van Kleiss will drain your foes' very life essence."
+        },
+        {
+          "path": "/entries/content.nano_tune.283.name",
+          "after": "NANITE REGENERATION"
+        },
+        {
+          "path": "/entries/content.nano_tune.283.type_label",
+          "after": "UNSTABLE POWER"
+        },
+        {
+          "path": "/entries/content.nano_tune.283.description",
+          "after": "Take advantage of Van Kleiss' regenrative nanites."
+        },
+        {
+          "path": "/entries/content.nano_tune.284.name",
+          "after": "VINES OF ABYSUS"
+        },
+        {
+          "path": "/entries/content.nano_tune.284.type_label",
+          "after": "UNSTABLE POWER"
+        },
+        {
+          "path": "/entries/content.nano_tune.284.description",
+          "after": "Nanite infused plants will ensnare your foes at Van Kleiss' command."
+        }
+      ]
+    },
+    {
+      "operation": "json-patch",
+      "output": "localization/ru.json",
+      "edits": [
+        {
+          "path": "/entries/content.nano_tune.211.name",
+          "before": "ВЫЛЕЧАЙТЕСЬ!",
+          "after": "БЕЗДОННАЯ ЯМА"
+        },
+        {
+          "path": "/entries/content.nano_tune.211.type_label",
+          "before": "ИСЦЕЛЕНИЕ – ГРУППА",
+          "after": "СБОР"
+        },
+        {
+          "path": "/entries/content.nano_tune.211.description",
+          "before": "Выздоравливайте!  Каждый получит конфету!",
+          "after": "Куп пробует крипов Псевдо и получает для вас немного Псевдо-Материя! (По вкусу как желе)."
+        },
+        {
+          "path": "/entries/content.nano_tune.212.name",
+          "before": "Я ОБОЖАЮ КОНФЕТЫ!",
+          "after": "ГЛУШИЛЬНИК"
+        },
+        {
+          "path": "/entries/content.nano_tune.212.type_label",
+          "before": "СБОР",
+          "after": "ОГЛУШЕНИЕ — КОНУС"
+        },
+        {
+          "path": "/entries/content.nano_tune.212.description",
+          "before": "Больше Псевдо-Материи для Чиза (и вас).",
+          "after": "Куп перенаправляет всю энергию на Глушитель и выпускает свой «потрясающий» голос."
+        },
+        {
+          "path": "/entries/content.nano_tune.213.name",
+          "before": "ХОРОШАЯ ЛОШАДКА!",
+          "after": "ПАНК-РАКЕТА"
+        },
+        {
+          "path": "/entries/content.nano_tune.213.type_label",
+          "before": "БЕГ - САМОСТОЯТЕЛЬНО",
+          "after": "РАКЕТА"
+        },
+        {
+          "path": "/entries/content.nano_tune.213.description",
+          "before": "Беги, лошадка, беги!",
+          "after": "Оседлайте эти звуковые волны! Беладонна поможет вам восстать против гравитации с помощью силы панка!"
+        },
+        {
+          "path": "/entries/content.nano_tune.217.name",
+          "before": "СУЩЕСТВЕННАЯ ПИЯВКА",
+          "after": "ПРОТОКОЛ БЕЗОПАСНОСТИ"
+        },
+        {
+          "path": "/entries/content.nano_tune.217.type_label",
+          "before": "НЕСТАБИЛЬНАЯ МОЩНОСТЬ",
+          "after": "ОХРАННИК"
+        },
+        {
+          "path": "/entries/content.nano_tune.217.description",
+          "before": "Ван Кляйс истощит всю жизненную сущность ваших врагов.",
+          "after": "Компьютер шифрует данные о вашем здоровье в защищенной сети, вдали от монстров!"
+        },
+        {
+          "path": "/entries/content.nano_tune.218.name",
+          "before": "РЕГЕНЕРАЦИЯ НАНИТА",
+          "after": "Брандмауэр ЛАБОРАТОРИИ ДЕКСТЕРА"
+        },
+        {
+          "path": "/entries/content.nano_tune.218.type_label",
+          "before": "НЕСТАБИЛЬНАЯ МОЩНОСТЬ",
+          "after": "СВОБОДА"
+        },
+        {
+          "path": "/entries/content.nano_tune.218.description",
+          "before": "Воспользуйтесь преимуществами регенеративных нанитов Ван Клейса.",
+          "after": "Постоянно бдительный компьютер Compress защитит вас от специальных атак с помощью своего брандмауэра."
+        },
+        {
+          "path": "/entries/content.nano_tune.219.name",
+          "before": "ЛОЗЫ АБИСУСА",
+          "after": "Псевдо Фальтер"
+        },
+        {
+          "path": "/entries/content.nano_tune.219.type_label",
+          "before": "НЕСТАБИЛЬНАЯ МОЩНОСТЬ",
+          "after": "ЛОВУШКА – ЦЕЛЕВАЯ ОБЛАСТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.219.description",
+          "before": "Растения, наполненные нанитом, поймают ваших врагов в ловушку по команде Ван Кляйса.",
+          "after": "Ранти подключается к коллективному разуму синтеза и обманом заставляет всех врагов поблизости действовать медленно!"
+        },
+        {
+          "path": "/entries/content.nano_tune.220.name",
+          "before": "ЛЕДЯНЫЕ БОЛТЫ",
+          "after": "ГЕРОИЧЕСКАЯ ЖЕРТВЕННОСТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.220.type_label",
+          "before": "ОГЛУШЕНИЕ – ОБЛАСТЬ",
+          "after": "ДРЕНАЖНАЯ ТОЧКА"
+        },
+        {
+          "path": "/entries/content.nano_tune.220.description",
+          "before": "Заморозьте своих врагов потрясающе крутыми стрелами Ледяного Короля.",
+          "after": "Ранти жертвует своей энергией, чтобы лишить врага огромной части здоровья."
+        },
+        {
+          "path": "/entries/content.nano_tune.221.name",
+          "before": "БОРОДА ПИЛОТ",
+          "after": "КРЫТОЕ ПОРОЖДЕНИЕ"
+        },
+        {
+          "path": "/entries/content.nano_tune.221.type_label",
+          "before": "РАКЕТА - САМОСТОЯТЕЛЬНО",
+          "after": "КРАСАТЬСЯ"
+        },
+        {
+          "path": "/entries/content.nano_tune.221.description",
+          "before": "С такой крутой бородой тебя ничто не удержит!",
+          "after": "Ранти выглядит как Псевдо Отродье! Он сливается с толпой, позволяя вам проскользнуть мимо монстров!"
+        },
+        {
+          "path": "/entries/content.nano_tune.222.name",
+          "before": "ЧУВСТВО ПИНГВИНА",
+          "after": "РЕЖИМ КОТЕРА"
+        },
+        {
+          "path": "/entries/content.nano_tune.222.type_label",
+          "before": "ИСКАТЕЛЬ СОКРОВИЩ",
+          "after": "РАКЕТА"
+        },
+        {
+          "path": "/entries/content.nano_tune.222.description",
+          "before": "При создании армии пингвинов полезно начать с яиц.",
+          "after": "Панини вращает ушами достаточно быстро, чтобы подняться в воздух и помочь вам набрать дополнительную высоту!"
+        },
+        {
+          "path": "/entries/content.nano_tune.226.name",
+          "before": "УШНАЯ ПЛАВНАЯ ПОЕЗДКА",
+          "after": "ПОСЛЕДНИЙ СМЕХ"
+        },
+        {
+          "path": "/entries/content.nano_tune.226.type_label",
+          "before": "РАКЕТА - САМОСТОЯТЕЛЬНО",
+          "after": "ЛОВУШКА - КОНУС"
+        },
+        {
+          "path": "/entries/content.nano_tune.226.description",
+          "before": "Приступайте к действию на волшебных ушах Джейка.",
+          "after": "Джек смеется последним, развязывая шквал шуток, замедляя врага."
+        },
+        {
+          "path": "/entries/content.nano_tune.227.name",
+          "before": "РАСТЯЖКА НОГ",
+          "after": "НЕ ПОТЕРЯЙ ГОЛОВУ"
+        },
+        {
+          "path": "/entries/content.nano_tune.227.type_label",
+          "before": "ПРЫГ – ГРУППА",
+          "after": "ВОЗРОЖДЕНИЕ - САМО"
+        },
+        {
+          "path": "/entries/content.nano_tune.227.description",
+          "before": "Джейк поможет своим друзьям уйти от опасности.",
+          "after": "Обмани смерть, как Джек! Не волнуйтесь, вы вернетесь с неповрежденной головой."
+        },
+        {
+          "path": "/entries/content.nano_tune.229.name",
+          "before": "СМЕРТЕЛЬНЫЙ УДАР",
+          "after": "ПРАВЕДНОЕ ВОССТАНОВЛЕНИЕ"
+        },
+        {
+          "path": "/entries/content.nano_tune.229.type_label",
+          "before": "ПОВРЕЖДЕНИЕ - ОБЛАСТЬ",
+          "after": "ВОЗРОЖДЕНИЕ - САМО"
+        },
+        {
+          "path": "/entries/content.nano_tune.229.description",
+          "before": "Ригби сокрушит ваших врагов, используя свое мастерство Смертельного Квон До!",
+          "after": "Финн поможет вам восстановиться, если вы погибнете в бою."
+        },
+        {
+          "path": "/entries/content.nano_tune.230.name",
+          "before": "ЯВА-ДЖОЛТ",
+          "after": "ПОРАЖАЙТЕ ЗЛО"
+        },
+        {
+          "path": "/entries/content.nano_tune.230.type_label",
+          "before": "ИСЦЕЛЕНИЕ - САМО",
+          "after": "ПОВРЕЖДЕНИЕ - ТОЧКА"
+        },
+        {
+          "path": "/entries/content.nano_tune.230.description",
+          "before": "Java Jolt от Rigby позволит вам работать на выходных.",
+          "after": "Финн убьет все злое."
+        },
+        {
+          "path": "/entries/content.nano_tune.231.name",
+          "before": "ВОЛШЕБНАЯ КЛАВИАТУРА",
+          "after": "СМАКХАНДС"
+        },
+        {
+          "path": "/entries/content.nano_tune.231.type_label",
+          "before": "ОТЗЫВ – ГРУППА",
+          "after": "ОГЛУШЕНИЕ — КОНУС"
+        },
+        {
+          "path": "/entries/content.nano_tune.231.description",
+          "before": "Волшебная клавиатура Ригби доставит всех домой.",
+          "after": "Рекс лишит ваших врагов сознания."
+        },
+        {
+          "path": "/entries/content.nano_tune.228.name",
+          "before": "ВИОЛЛА КОЛЫБЕЛЬНАЯ",
+          "after": "ГЕРОИЧЕСКИЙ Прыжок"
+        },
+        {
+          "path": "/entries/content.nano_tune.228.type_label",
+          "before": "СОН – ЗОНА СЕБЯ",
+          "after": "ПРЫГАТЬ - САМОСТОЯТЕЛЬНО"
+        },
+        {
+          "path": "/entries/content.nano_tune.228.description",
+          "before": "Успокаивающая мелодия Джейка может погрузить тех, кто находится рядом, в нежный сон.",
+          "after": "Финн поможет вам начать действовать!"
+        },
+        {
+          "path": "/entries/content.nano_tune.235.name",
+          "before": "плюнуть",
+          "after": "ЧЕРНАЯ ДЫРА"
+        },
+        {
+          "path": "/entries/content.nano_tune.235.type_label",
+          "before": "СБОР",
+          "after": "ЛОВУШКА – ЦЕЛЕВАЯ ОБЛАСТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.235.description",
+          "before": "Заставьте жадность Чаудера работать и на вас!",
+          "after": "AlienX создает небольшую черную дыру, замедляющую противников рядом с целью."
+        },
+        {
+          "path": "/entries/content.nano_tune.236.name",
+          "before": "Я НЕ ТВОЙ ПАРЕНЬ",
+          "after": "РЕАЛЬНОСТЬ ИСКУШАЕТСЯ"
+        },
+        {
+          "path": "/entries/content.nano_tune.236.type_label",
+          "before": "СВОБОДА - СЕБЯ",
+          "after": "ОТЗЫВ – САМОСТОЯТЕЛЬНО"
+        },
+        {
+          "path": "/entries/content.nano_tune.236.description",
+          "before": "Эти слова означают СВОБОДУ!",
+          "after": "Измените реальность, чтобы переместиться в точку возврата в заражённой зоне."
+        },
+        {
+          "path": "/entries/content.nano_tune.237.name",
+          "before": "ЗАПРЕЩЕННОЕ МОЛОКО",
+          "after": "ВЫЛЕЧАЙТЕСЬ!"
+        },
+        {
+          "path": "/entries/content.nano_tune.237.type_label",
+          "before": "СОН – ЗОНА СЕБЯ",
+          "after": "ИСЦЕЛЕНИЕ – ГРУППА"
+        },
+        {
+          "path": "/entries/content.nano_tune.237.description",
+          "before": "Возникли проблемы со сном?  Попробуйте немного топленого молока.",
+          "after": "Выздоравливайте!  Каждый получит конфету!"
+        },
+        {
+          "path": "/entries/content.nano_tune.232.name",
+          "before": "УРАГАН РУКИ",
+          "after": "БОЛЬШОЙ ЧЕРТОВЫЙ МЕЧ"
+        },
+        {
+          "path": "/entries/content.nano_tune.232.type_label",
+          "before": "ОГЛУШЕНИЕ — КОНУС",
+          "after": "ПОВРЕЖДЕНИЯ – КОНУС"
+        },
+        {
+          "path": "/entries/content.nano_tune.232.description",
+          "before": "Остановите своих врагов с помощью «Ураганных рук Джонни».",
+          "after": "У Рекса есть чертов большой меч!"
+        },
+        {
+          "path": "/entries/content.nano_tune.233.name",
+          "before": "СИЛОВЫЕ ПИТАНИЯ",
+          "after": "НАБОР «БУГИ»"
+        },
+        {
+          "path": "/entries/content.nano_tune.233.type_label",
+          "before": "ПОВРЕЖДЕНИЯ – КОНУС",
+          "after": "БЕГ - САМОСТОЯТЕЛЬНО"
+        },
+        {
+          "path": "/entries/content.nano_tune.233.description",
+          "before": "Взорвите плохих парней с помощью Power Poots Джонни!",
+          "after": "Мчитесь вперед, используя набор Рекс's Boogie Pack."
+        },
+        {
+          "path": "/entries/content.nano_tune.234.name",
+          "before": "РЮКЗАК ТУРБО ДЕЙСТВИЯ",
+          "after": "НЕБЕСНЫЙ СВЕТ"
+        },
+        {
+          "path": "/entries/content.nano_tune.234.type_label",
+          "before": "ПРЫГАТЬ - САМОСТОЯТЕЛЬНО",
+          "after": "ИСЦЕЛЕНИЕ – ОБЛАСТЬ СЕБЯ"
+        },
+        {
+          "path": "/entries/content.nano_tune.234.description",
+          "before": "Начинайте действовать с рюкзаком Johnny's Turbo Action.",
+          "after": "Целебный свет омывает всех ближайших союзников."
+        },
+        {
+          "path": "/entries/content.nano_tune.238.name",
+          "before": "СИМБИОНИЧЕСКИЙ МЕЧ",
+          "after": "Я ОБОЖАЮ КОНФЕТЫ!"
+        },
+        {
+          "path": "/entries/content.nano_tune.238.type_label",
+          "before": "ПОВРЕЖДЕНИЯ – КОНУС",
+          "after": "СБОР"
+        },
+        {
+          "path": "/entries/content.nano_tune.238.description",
+          "before": "Симбионный меч может разрубить мега-зверя мутрадди надвое!",
+          "after": "Больше Псевдо-Материи для Чиза (и вас)."
+        },
+        {
+          "path": "/entries/content.nano_tune.239.name",
+          "before": "МАССИВ ДАТЧИКОВ",
+          "after": "ХОРОШАЯ ЛОШАДКА!"
+        },
+        {
+          "path": "/entries/content.nano_tune.239.type_label",
+          "before": "РАДАР",
+          "after": "БЕГ - САМОСТОЯТЕЛЬНО"
+        },
+        {
+          "path": "/entries/content.nano_tune.239.description",
+          "before": "Узнайте, где находятся ваши враги, еще до того, как они заметят ваше приближение.",
+          "after": "Беги, лошадка, беги!"
+        },
+        {
+          "path": "/entries/content.nano_tune.240.name",
+          "before": "РАКЕТЫ-РАКЕТЫ",
+          "after": "СУЩЕСТВЕННАЯ ПИЯВКА"
+        },
+        {
+          "path": "/entries/content.nano_tune.240.type_label",
+          "before": "РАКЕТА - САМОСТОЯТЕЛЬНО",
+          "after": "НЕСТАБИЛЬНАЯ МОЩНОСТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.240.description",
+          "before": "Чтобы поднять гигантского робота в воздух, требуется немалая тяга!",
+          "after": "Ван Кляйс истощит всю жизненную сущность ваших врагов."
+        },
+        {
+          "path": "/entries/content.nano_tune.241.name",
+          "before": "КРИПТИДНОЕ НАПАДЕНИЕ",
+          "after": "РЕГЕНЕРАЦИЯ НАНИТА"
+        },
+        {
+          "path": "/entries/content.nano_tune.241.type_label",
+          "before": "ПОВРЕЖДЕНИЕ - ТОЧКА",
+          "after": "НЕСТАБИЛЬНАЯ МОЩНОСТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.241.description",
+          "before": "Зак может научить тебя кое-чему, как бить крипов!",
+          "after": "Воспользуйтесь преимуществами регенеративных нанитов Ван Клейса."
+        },
+        {
+          "path": "/entries/content.nano_tune.242.name",
+          "before": "ГРЕЙФЕР КОГОТЬЯ",
+          "after": "ЛОЗЫ АБИСУСА"
+        },
+        {
+          "path": "/entries/content.nano_tune.242.type_label",
+          "before": "ЛОВУШКА - КОНУС",
+          "after": "НЕСТАБИЛЬНАЯ МОЩНОСТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.242.description",
+          "before": "Волшебный коготь Зака не позволит вашим врагам добраться до вас.",
+          "after": "Растения, наполненные нанитом, поймают ваших врагов в ловушку по команде Ван Кляйса."
+        },
+        {
+          "path": "/entries/content.nano_tune.243.name",
+          "before": "ОХОТНИК НА МОНСТРОВ",
+          "after": "СМЕРТЕЛЬНЫЙ УДАР"
+        },
+        {
+          "path": "/entries/content.nano_tune.243.type_label",
+          "before": "РАДАР",
+          "after": "ПОВРЕЖДЕНИЕ - ОБЛАСТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.243.description",
+          "before": "Никто не сможет выследить таких монстров, как Тайные Субботы!",
+          "after": "Ригби сокрушит ваших врагов, используя свое мастерство Смертельного Квон До!"
+        },
+        {
+          "path": "/entries/content.nano_tune.244.name",
+          "before": "ЛЕБЕДИНОЕ ПОГРУЖЕНИЕ ВЕЧНОЙ КРАСОТЫ",
+          "after": "ЯВА-ДЖОЛТ"
+        },
+        {
+          "path": "/entries/content.nano_tune.244.type_label",
+          "before": "РАКЕТА - САМОСТОЯТЕЛЬНО",
+          "after": "ИСЦЕЛЕНИЕ - САМО"
+        },
+        {
+          "path": "/entries/content.nano_tune.244.description",
+          "before": "Кэннонбаааааааа!",
+          "after": "Java Jolt от Rigby позволит вам работать на выходных."
+        },
+        {
+          "path": "/entries/content.nano_tune.245.name",
+          "before": "КРОЛИК ХОП",
+          "after": "ВОЛШЕБНАЯ КЛАВИАТУРА"
+        },
+        {
+          "path": "/entries/content.nano_tune.245.type_label",
+          "before": "ПРЫГ – ГРУППА",
+          "after": "ОТЗЫВ – ГРУППА"
+        },
+        {
+          "path": "/entries/content.nano_tune.245.description",
+          "before": "Мистер Уоттерсон научил Жвачки этой специальной технике боя.",
+          "after": "Волшебная клавиатура Ригби доставит всех домой."
+        },
+        {
+          "path": "/entries/content.nano_tune.246.name",
+          "before": "ТЭ КВОН ДОРК",
+          "after": "УШНАЯ ПЛАВНАЯ ПОЕЗДКА"
+        },
+        {
+          "path": "/entries/content.nano_tune.246.type_label",
+          "before": "ПОВРЕЖДЕНИЕ - ТОЧКА",
+          "after": "РАКЕТА - САМОСТОЯТЕЛЬНО"
+        },
+        {
+          "path": "/entries/content.nano_tune.246.description",
+          "before": "Наполовину медведь, наполовину акула, наполовину аллигатор!",
+          "after": "Приступайте к действию на волшебных ушах Джейка."
+        },
+        {
+          "path": "/entries/content.nano_tune.247.name",
+          "before": "ЗАТЕМНЕНИЕ",
+          "after": "РАСТЯЖКА НОГ"
+        },
+        {
+          "path": "/entries/content.nano_tune.247.type_label",
+          "before": "СОН – КОНУС",
+          "after": "ПРЫГ – ГРУППА"
+        },
+        {
+          "path": "/entries/content.nano_tune.247.description",
+          "before": "Амфибия погасит свет ваших врагов.",
+          "after": "Джейк поможет своим друзьям уйти от опасности."
+        },
+        {
+          "path": "/entries/content.nano_tune.248.name",
+          "before": "АВТОМАТИЧЕСКИЙ ВЫКЛЮЧАТЕЛЬ",
+          "after": "ВИОЛЛА КОЛЫБЕЛЬНАЯ"
+        },
+        {
+          "path": "/entries/content.nano_tune.248.type_label",
+          "before": "ДРЕНАЖ - ОБЛАСТЬ",
+          "after": "СОН – ЗОНА СЕБЯ"
+        },
+        {
+          "path": "/entries/content.nano_tune.248.description",
+          "before": "Подожгите синапсы своих врагов электрической атакой Амфибиана!",
+          "after": "Успокаивающая мелодия Джейка может погрузить тех, кто находится рядом, в нежный сон."
+        },
+        {
+          "path": "/entries/content.nano_tune.249.name",
+          "before": "НАПРЯЖИТЕЛЬ ПИТАНИЯ",
+          "after": "плюнуть"
+        },
+        {
+          "path": "/entries/content.nano_tune.249.type_label",
+          "before": "ОХРАННИК",
+          "after": "СБОР"
+        },
+        {
+          "path": "/entries/content.nano_tune.249.description",
+          "before": "Защитите свои батареи (и зелья) с помощью сетевого фильтра!",
+          "after": "Заставьте жадность Чаудера работать и на вас!"
+        },
+        {
+          "path": "/entries/content.nano_tune.250.name",
+          "before": "НЕ МОГУ МЕНЯ ОСТАНОВИТЬ",
+          "after": "Я НЕ ТВОЙ ПАРЕНЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.250.description",
+          "before": "Ничто не может удержать разъяренного апоплексийца.",
+          "after": "Эти слова означают СВОБОДУ!"
+        },
+        {
+          "path": "/entries/content.nano_tune.251.name",
+          "before": "ГНЕВ РАТЫ",
+          "after": "ЗАПРЕЩЕННОЕ МОЛОКО"
+        },
+        {
+          "path": "/entries/content.nano_tune.251.type_label",
+          "before": "ПОВРЕЖДЕНИЕ - ОБЛАСТЬ",
+          "after": "СОН – ЗОНА СЕБЯ"
+        },
+        {
+          "path": "/entries/content.nano_tune.251.description",
+          "before": "Дайте волю гневу Рата и сокрушите своих врагов, как виноград.",
+          "after": "Возникли проблемы со сном?  Попробуйте немного топленого молока."
+        },
+        {
+          "path": "/entries/content.nano_tune.252.name",
+          "before": "ПОЗВОЛЬТЕ МНЕ СКАЖУ ВАМ кое-что",
+          "after": "УРАГАН РУКИ"
+        },
+        {
+          "path": "/entries/content.nano_tune.252.type_label",
+          "before": "СОН – КОНУС",
+          "after": "ОГЛУШЕНИЕ — КОНУС"
+        },
+        {
+          "path": "/entries/content.nano_tune.252.description",
+          "before": "Речи Рата хороши лишь для того, чтобы вздремнуть.",
+          "after": "Остановите своих врагов с помощью «Ураганных рук Джонни»."
+        },
+        {
+          "path": "/entries/content.nano_tune.253.name",
+          "before": "Уклоняйся или дерзай",
+          "after": "СИЛОВЫЕ ПИТАНИЯ"
+        },
+        {
+          "path": "/entries/content.nano_tune.253.type_label",
+          "before": "БЕГ – ГРУППА",
+          "after": "ПОВРЕЖДЕНИЯ – КОНУС"
+        },
+        {
+          "path": "/entries/content.nano_tune.253.description",
+          "before": "Позвольте Дарвину показать вам свой подход к выживанию.  Убегать!",
+          "after": "Взорвите плохих парней с помощью Power Poots Джонни!"
+        },
+        {
+          "path": "/entries/content.nano_tune.254.name",
+          "before": "СКРЫТЬ",
+          "after": "РЮКЗАК ТУРБО ДЕЙСТВИЯ"
+        },
+        {
+          "path": "/entries/content.nano_tune.254.type_label",
+          "before": "СНИК – ГРУППА",
+          "after": "ПРЫГАТЬ - САМОСТОЯТЕЛЬНО"
+        },
+        {
+          "path": "/entries/content.nano_tune.254.description",
+          "before": "Если ты не можешь бежать, Дарвин всегда поможет тебе спрятаться.",
+          "after": "Начинайте действовать с рюкзаком Johnny's Turbo Action."
+        },
+        {
+          "path": "/entries/content.nano_tune.255.name",
+          "before": "ТРАВМАТЕРАПИЯ",
+          "after": "СИМБИОНИЧЕСКИЙ МЕЧ"
+        },
+        {
+          "path": "/entries/content.nano_tune.255.type_label",
+          "before": "ИСЦЕЛЕНИЕ – ГРУППА",
+          "after": "ПОВРЕЖДЕНИЯ – КОНУС"
+        },
+        {
+          "path": "/entries/content.nano_tune.255.description",
+          "before": "Если бегство и прятание не помогли, возможно, пришло время травматологической терапии.",
+          "after": "Симбионный меч может разрубить мега-зверя мутрадди надвое!"
+        },
+        {
+          "path": "/entries/content.nano_tune.256.name",
+          "before": "БЛОК СМЕРТИ",
+          "after": "МАССИВ ДАТЧИКОВ"
+        },
+        {
+          "path": "/entries/content.nano_tune.256.type_label",
+          "before": "ВОЗРОЖДЕНИЕ - САМО",
+          "after": "РАДАР"
+        },
+        {
+          "path": "/entries/content.nano_tune.256.description",
+          "before": "Настоящий мастер Смерто-квон-до может даже блокировать Смерть!",
+          "after": "Узнайте, где находятся ваши враги, еще до того, как они заметят ваше приближение."
+        },
+        {
+          "path": "/entries/content.nano_tune.257.name",
+          "before": "ПУАНСОНЫ",
+          "after": "РАКЕТЫ-РАКЕТЫ"
+        },
+        {
+          "path": "/entries/content.nano_tune.257.type_label",
+          "before": "ПОВРЕЖДЕНИЕ - ТОЧКА",
+          "after": "РАКЕТА - САМОСТОЯТЕЛЬНО"
+        },
+        {
+          "path": "/entries/content.nano_tune.257.description",
+          "before": "Мордехай покажет вашим врагам, почему никто не победит его в Punchies.",
+          "after": "Чтобы поднять гигантского робота в воздух, требуется немалая тяга!"
+        },
+        {
+          "path": "/entries/content.nano_tune.258.name",
+          "before": "РАБОТАЕМ НА ВЫХОДНЫЕ",
+          "after": "КРИПТИДНОЕ НАПАДЕНИЕ"
+        },
+        {
+          "path": "/entries/content.nano_tune.258.type_label",
+          "before": "БОНУС",
+          "after": "ПОВРЕЖДЕНИЕ - ТОЧКА"
+        },
+        {
+          "path": "/entries/content.nano_tune.258.description",
+          "before": "Вам нужно немного дополнительных денег?  Мордехай знает все о том, как их получить.",
+          "after": "Зак может научить тебя кое-чему, как бить крипов!"
+        },
+        {
+          "path": "/entries/content.nano_tune.259.name",
+          "before": "СЛАДКИЕ СНОВИДЕНИЯ",
+          "after": "ГРЕЙФЕР КОГОТЬЯ"
+        },
+        {
+          "path": "/entries/content.nano_tune.259.type_label",
+          "before": "СПАТЬ - ОБЛАСТЬ",
+          "after": "ЛОВУШКА - КОНУС"
+        },
+        {
+          "path": "/entries/content.nano_tune.259.description",
+          "before": "Обычно слишком много конфет не дает вам заснуть, но не с такой силой.",
+          "after": "Волшебный коготь Зака не позволит вашим врагам добраться до вас."
+        },
+        {
+          "path": "/entries/content.nano_tune.260.name",
+          "before": "СЫВОРОТКА ДЕ-ТОРПСЕИНАТОР",
+          "after": "ОХОТНИК НА МОНСТРОВ"
+        },
+        {
+          "path": "/entries/content.nano_tune.260.type_label",
+          "before": "ВОЗРОЖДЕНИЕ - ГРУППА",
+          "after": "РАДАР"
+        },
+        {
+          "path": "/entries/content.nano_tune.260.description",
+          "before": "Надеюсь, ты не превратишься в зомби.",
+          "after": "Никто не сможет выследить таких монстров, как Тайные Субботы!"
+        },
+        {
+          "path": "/entries/content.nano_tune.261.name",
+          "before": "ПЕННИ КОНФЕТЫ",
+          "after": "ЛЕДЯНЫЕ БОЛТЫ"
+        },
+        {
+          "path": "/entries/content.nano_tune.261.type_label",
+          "before": "БОНУС",
+          "after": "ОГЛУШЕНИЕ – ОБЛАСТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.261.description",
+          "before": "Бесплатные деньги напрямую превращаются в дешевые конфеты.  Верно?",
+          "after": "Заморозьте своих врагов потрясающе крутыми стрелами Ледяного Короля."
+        },
+        {
+          "path": "/entries/content.nano_tune.262.name",
+          "after": "БОРОДА ПИЛОТ"
+        },
+        {
+          "path": "/entries/content.nano_tune.262.type_label",
+          "after": "РАКЕТА - САМОСТОЯТЕЛЬНО"
+        },
+        {
+          "path": "/entries/content.nano_tune.262.description",
+          "after": "С такой крутой бородой тебя ничто не удержит!"
+        },
+        {
+          "path": "/entries/content.nano_tune.263.name",
+          "after": "ЧУВСТВО ПИНГВИНА"
+        },
+        {
+          "path": "/entries/content.nano_tune.263.type_label",
+          "after": "ИСКАТЕЛЬ СОКРОВИЩ"
+        },
+        {
+          "path": "/entries/content.nano_tune.263.description",
+          "after": "При создании армии пингвинов полезно начать с яиц."
+        },
+        {
+          "path": "/entries/content.nano_tune.264.name",
+          "after": "ЛЕБЕДИНОЕ ПОГРУЖЕНИЕ ВЕЧНОЙ КРАСОТЫ"
+        },
+        {
+          "path": "/entries/content.nano_tune.264.type_label",
+          "after": "РАКЕТА - САМОСТОЯТЕЛЬНО"
+        },
+        {
+          "path": "/entries/content.nano_tune.264.description",
+          "after": "Кэннонбаааааааа!"
+        },
+        {
+          "path": "/entries/content.nano_tune.265.name",
+          "after": "КРОЛИК ХОП"
+        },
+        {
+          "path": "/entries/content.nano_tune.265.type_label",
+          "after": "ПРЫГ – ГРУППА"
+        },
+        {
+          "path": "/entries/content.nano_tune.265.description",
+          "after": "Мистер Уоттерсон научил Жвачки этой специальной технике боя."
+        },
+        {
+          "path": "/entries/content.nano_tune.266.name",
+          "after": "ТЭ КВОН ДОРК"
+        },
+        {
+          "path": "/entries/content.nano_tune.266.type_label",
+          "after": "ПОВРЕЖДЕНИЕ - ТОЧКА"
+        },
+        {
+          "path": "/entries/content.nano_tune.266.description",
+          "after": "Наполовину медведь, наполовину акула, наполовину аллигатор!"
+        },
+        {
+          "path": "/entries/content.nano_tune.267.name",
+          "after": "ЗАТЕМНЕНИЕ"
+        },
+        {
+          "path": "/entries/content.nano_tune.267.type_label",
+          "after": "СОН – КОНУС"
+        },
+        {
+          "path": "/entries/content.nano_tune.267.description",
+          "after": "Амфибия погасит свет ваших врагов."
+        },
+        {
+          "path": "/entries/content.nano_tune.268.name",
+          "after": "АВТОМАТИЧЕСКИЙ ВЫКЛЮЧАТЕЛЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.268.type_label",
+          "after": "ДРЕНАЖ - ОБЛАСТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.268.description",
+          "after": "Подожгите синапсы своих врагов электрической атакой Амфибиана!"
+        },
+        {
+          "path": "/entries/content.nano_tune.269.name",
+          "after": "НАПРЯЖИТЕЛЬ ПИТАНИЯ"
+        },
+        {
+          "path": "/entries/content.nano_tune.269.type_label",
+          "after": "ОХРАННИК"
+        },
+        {
+          "path": "/entries/content.nano_tune.269.description",
+          "after": "Защитите свои батареи (и зелья) с помощью сетевого фильтра!"
+        },
+        {
+          "path": "/entries/content.nano_tune.270.name",
+          "after": "НЕ МОГУ МЕНЯ ОСТАНОВИТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.270.type_label",
+          "after": "СВОБОДА - СЕБЯ"
+        },
+        {
+          "path": "/entries/content.nano_tune.270.description",
+          "after": "Ничто не может удержать разъяренного апоплексийца."
+        },
+        {
+          "path": "/entries/content.nano_tune.271.name",
+          "after": "ГНЕВ РАТЫ"
+        },
+        {
+          "path": "/entries/content.nano_tune.271.type_label",
+          "after": "ПОВРЕЖДЕНИЕ - ОБЛАСТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.271.description",
+          "after": "Дайте волю гневу Рата и сокрушите своих врагов, как виноград."
+        },
+        {
+          "path": "/entries/content.nano_tune.272.name",
+          "after": "ПОЗВОЛЬТЕ МНЕ СКАЖУ ВАМ кое-что"
+        },
+        {
+          "path": "/entries/content.nano_tune.272.type_label",
+          "after": "СОН – КОНУС"
+        },
+        {
+          "path": "/entries/content.nano_tune.272.description",
+          "after": "Речи Рата хороши лишь для того, чтобы вздремнуть."
+        },
+        {
+          "path": "/entries/content.nano_tune.273.name",
+          "after": "Уклоняйся или дерзай"
+        },
+        {
+          "path": "/entries/content.nano_tune.273.type_label",
+          "after": "БЕГ – ГРУППА"
+        },
+        {
+          "path": "/entries/content.nano_tune.273.description",
+          "after": "Позвольте Дарвину показать вам свой подход к выживанию.  Убегать!"
+        },
+        {
+          "path": "/entries/content.nano_tune.274.name",
+          "after": "СКРЫТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.274.type_label",
+          "after": "СНИК – ГРУППА"
+        },
+        {
+          "path": "/entries/content.nano_tune.274.description",
+          "after": "Если ты не можешь бежать, Дарвин всегда поможет тебе спрятаться."
+        },
+        {
+          "path": "/entries/content.nano_tune.275.name",
+          "after": "ТРАВМАТЕРАПИЯ"
+        },
+        {
+          "path": "/entries/content.nano_tune.275.type_label",
+          "after": "ИСЦЕЛЕНИЕ – ГРУППА"
+        },
+        {
+          "path": "/entries/content.nano_tune.275.description",
+          "after": "Если бегство и прятание не помогли, возможно, пришло время травматологической терапии."
+        },
+        {
+          "path": "/entries/content.nano_tune.276.name",
+          "after": "БЛОК СМЕРТИ"
+        },
+        {
+          "path": "/entries/content.nano_tune.276.type_label",
+          "after": "ВОЗРОЖДЕНИЕ - САМО"
+        },
+        {
+          "path": "/entries/content.nano_tune.276.description",
+          "after": "Настоящий мастер Смерто-квон-до может даже блокировать Смерть!"
+        },
+        {
+          "path": "/entries/content.nano_tune.277.name",
+          "after": "ПУАНСОНЫ"
+        },
+        {
+          "path": "/entries/content.nano_tune.277.type_label",
+          "after": "ПОВРЕЖДЕНИЕ - ТОЧКА"
+        },
+        {
+          "path": "/entries/content.nano_tune.277.description",
+          "after": "Мордехай покажет вашим врагам, почему никто не победит его в Punchies."
+        },
+        {
+          "path": "/entries/content.nano_tune.278.name",
+          "after": "РАБОТАЕМ НА ВЫХОДНЫЕ"
+        },
+        {
+          "path": "/entries/content.nano_tune.278.type_label",
+          "after": "БОНУС"
+        },
+        {
+          "path": "/entries/content.nano_tune.278.description",
+          "after": "Вам нужно немного дополнительных денег?  Мордехай знает все о том, как их получить."
+        },
+        {
+          "path": "/entries/content.nano_tune.279.name",
+          "after": "СЛАДКИЕ СНОВИДЕНИЯ"
+        },
+        {
+          "path": "/entries/content.nano_tune.279.type_label",
+          "after": "СПАТЬ - ОБЛАСТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.279.description",
+          "after": "Обычно слишком много конфет не дает вам заснуть, но не с такой силой."
+        },
+        {
+          "path": "/entries/content.nano_tune.280.name",
+          "after": "СЫВОРОТКА ДЕ-ТОРПСЕИНАТОР"
+        },
+        {
+          "path": "/entries/content.nano_tune.280.type_label",
+          "after": "ВОЗРОЖДЕНИЕ - ГРУППА"
+        },
+        {
+          "path": "/entries/content.nano_tune.280.description",
+          "after": "Надеюсь, ты не превратишься в зомби."
+        },
+        {
+          "path": "/entries/content.nano_tune.281.name",
+          "after": "ПЕННИ КОНФЕТЫ"
+        },
+        {
+          "path": "/entries/content.nano_tune.281.type_label",
+          "after": "БОНУС"
+        },
+        {
+          "path": "/entries/content.nano_tune.281.description",
+          "after": "Бесплатные деньги напрямую превращаются в дешевые конфеты.  Верно?"
+        },
+        {
+          "path": "/entries/content.nano_tune.282.name",
+          "after": "СУЩЕСТВЕННАЯ ПИЯВКА"
+        },
+        {
+          "path": "/entries/content.nano_tune.282.type_label",
+          "after": "НЕСТАБИЛЬНАЯ МОЩНОСТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.282.description",
+          "after": "Ван Кляйс истощит всю жизненную сущность ваших врагов."
+        },
+        {
+          "path": "/entries/content.nano_tune.283.name",
+          "after": "РЕГЕНЕРАЦИЯ НАНИТА"
+        },
+        {
+          "path": "/entries/content.nano_tune.283.type_label",
+          "after": "НЕСТАБИЛЬНАЯ МОЩНОСТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.283.description",
+          "after": "Воспользуйтесь преимуществами регенеративных нанитов Ван Клейса."
+        },
+        {
+          "path": "/entries/content.nano_tune.284.name",
+          "after": "ЛОЗЫ АБИСУСА"
+        },
+        {
+          "path": "/entries/content.nano_tune.284.type_label",
+          "after": "НЕСТАБИЛЬНАЯ МОЩНОСТЬ"
+        },
+        {
+          "path": "/entries/content.nano_tune.284.description",
+          "after": "Растения, наполненные нанитом, поймают ваших врагов в ловушку по команде Ван Кляйса."
+        }
+      ]
+    }
+  ]
+}

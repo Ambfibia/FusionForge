@@ -1,0 +1,116 @@
+{
+  "schema": "ffone.retrobution-hostile-mob-publication.v1",
+  "generatedAtUtc": "2026-08-24T12:25:57.4692111Z",
+  "status": "published-verified",
+  "source": {
+    "alias": "retrobution",
+    "role": "primary",
+    "build": "retrobution-20260821"
+  },
+  "scope": {
+    "included": [
+      "hostile mob and Fusion table visuals",
+      "hostile-only semantic character packages",
+      "Retrobution toon rimlight",
+      "Retrobution Fusion Matter",
+      "Retrobution Fusion Eyes"
+    ],
+    "excluded": [
+      "friendly standing NPC model replacement",
+      "quest-giver NPC model replacement",
+      "ambiguous physical source ownership"
+    ],
+    "rowSelection": "m_iTeam == 2 && m_iHNpc == 0",
+    "changedFriendlyOrHnpcRows": 0
+  },
+  "tableOverlay": {
+    "changedHostileRows": 243,
+    "appendedMeshRows": 68,
+    "selectedHostileModelStems": 216,
+    "excludedSharedModelStems": 7,
+    "runtimeSha256": "2387c1d70142406359bdc32fd8eb2c9d1f66b8628788a44f55c8362508bf748c",
+    "runtimeBlake3": "b299262dd78ac071dd4aad900690ddfbd3877bc5063b87a89438ca7d094c0eba"
+  },
+  "characterPublication": {
+    "provenExactSources": 113,
+    "ambiguousSourcesLeftUnpublished": 103,
+    "publishedMobs": 66,
+    "publishedFusions": 47,
+    "newPackages": 6,
+    "replacedPackages": 107,
+    "installedGlbs": 113,
+    "installedPngs": 1692,
+    "installedBytes": 173818560,
+    "runtimeRegistrySha256": "57efbf470180372a9789ae624affc1be6cff1dadd61225f67cc38bcba9825c82"
+  },
+  "texturePublication": {
+    "changedHostileTextureNames": 75,
+    "changedHostileTextureNamesResolved": 75,
+    "externalNpcTexturePngsPublished": 51,
+    "runtimeResolvedTextures": 410,
+    "preservedExistingBlockedTextures": 10,
+    "runtimeCatalogSha256": "86d25c84f6391920575bf2800fd9d593543b46091b95c1063f1d927b7a58fe0f",
+    "sourceAsset": "CustomAssetBundle-d304c52c4bae348e38c743762c1bd818"
+  },
+  "materials": {
+    "toonSkyRim": {
+      "shader": "SkinnedToonShading_blendSrcalphaInvsrcalpha",
+      "sha256": "7be0aa97a32e4c012f0fa2da8b1e392de8ec63d97c66e66678570e4492257fbb",
+      "runtimeColorAuthority": "NativeWorldCatalog sampled sky color"
+    },
+    "fusionMatter": {
+      "shader": "SkinnedFusionMatterLightDir_blendSrcalphaInvsrcalpha",
+      "sha256": "a151f6c8746046984ec3fcac358b852e83e0535b7c169d10f16019ebfd02cc8d",
+      "yellowRim": true,
+      "toonOutline": true,
+      "outlineFollowsToonShadingOption": true
+    },
+    "fixedSpecialRim": {
+      "shader": "Custom/SkinnedToonShading_blendSrcalphaInvsrcalpha_Rim_transparent",
+      "sha256": "3f675c982916ba498cfc462b75a877b2b2e8692351e23a46592ff693602ed7cb",
+      "usesAreaSkyColor": false
+    },
+    "fusionEyes": {
+      "trueName": "spwaneye",
+      "oldResolution": [
+        64,
+        256
+      ],
+      "newResolution": [
+        128,
+        512
+      ]
+    }
+  },
+  "inputs": [
+    {
+      "role": "primary-xdt",
+      "relativeWorkPath": "work/legacy-sources/mobs-retrobution-20260821.xdt.json",
+      "bytes": 32612215,
+      "sha256": "60770dd0b851461616b9ceedcb3309714fc5c5d5e0ddc79d415c9fadab913de7"
+    },
+    {
+      "role": "pre-overlay-table-set",
+      "bytes": 43132658,
+      "sha256": "0041ee74a52ffa76a6d34b533218399d136f178d04c9ffa00aad04e69a403a7c"
+    }
+  ],
+  "validation": {
+    "automatedGpuModelsPassed": 113,
+    "automatedGpuModelsFailed": 0,
+    "runtimeMaterialTestsPassed": 55,
+    "shaderPipelineTestsPassed": 23,
+    "shaderPipelineTestsIgnoredExternalBatch": 1,
+    "semanticInstallerTestsPassed": 17,
+    "galleryTestsPassed": 16,
+    "hostileTexturePublisherTestsPassed": 1,
+    "ffoneCargoCheckPassed": true
+  },
+  "workReceipts": [
+    "work/legacy-sources/mobs-retrobution-20260821-hostile-v4.overlay-report.json",
+    "work/legacy-sources/mobs-retrobution-20260821-hostile-v4.install.json",
+    "work/legacy-sources/mobs-retrobution-20260821-hostile-gpu-v4.audit.json",
+    "work/legacy-sources/mobs-retrobution-20260821-hostile-v4.texture-publication.json",
+    "work/legacy-sources/mobs-retrobution-20260821-hostile-v4.texture-catalog-publication.json"
+  ]
+}

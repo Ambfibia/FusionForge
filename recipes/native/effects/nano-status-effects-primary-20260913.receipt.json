@@ -1,0 +1,1496 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "nano-status-effects-primary-20260913",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "FFOneClient"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "Effects.resourceFile",
+    "containerBytes": 8130528,
+    "containerSha256": "2aa08e85b7aefa8f7e22705ee2f1581befa83cc5708b32116ce8a46a273595e9",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 11471,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[368].prefab"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 9659,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[429].prefab"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 11076,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[447].prefab"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 10445,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[431].prefab"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 9127,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[411].prefab"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 8998,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[434].prefab"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 11510,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[370].prefab"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 8908,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[714].prefab"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 8757,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[436].prefab"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 8901,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[412].prefab"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 10069,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[805].prefab"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 9489,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[435].prefab"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 11468,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[441].prefab"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "conversion",
+    "tool": "tools/legacy-sources/publish-nano-status-effects.py",
+    "toolRevision": "5d592c4e0c08d4673b5c4ed378cd87a066437a7a+working-tree-sha256:7fa7a76081c8994f498048f48c175fe947d49e9d89e10c8b8ec71449c20b2f17",
+    "workingDirectory": ".",
+    "commands": [
+      "python tools/legacy-sources/publish-nano-status-effects.py --source-root ../builds/retrobution-20260821 --navigation work/projects/retrobution-ui-20260821.ffclient --work work/cases/world-visual-regressions-20260913/nano-replay"
+    ]
+  },
+  "inputs": [
+    {
+      "alias": "primary",
+      "container": "Tutorial.resourceFile",
+      "bytes": 33327638,
+      "sha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916"
+    },
+    {
+      "path": "main.unity3d",
+      "alias": "primary",
+      "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+      "bytes": 8221718
+    }
+  ],
+  "outputs": [
+    {
+      "path": "effects/skills/catalog.json",
+      "bytes": 267427,
+      "sha256": "23374739aeaea00fc057f36f4348fd459d1ddef4286eaa53ab8898d5179df2c6"
+    },
+    {
+      "path": "effects/skills/freedom_self/freedom_self.glb",
+      "bytes": 32024,
+      "sha256": "cc110de1a1fcab313e6706554e96ceec96f02d4148fce5b9b005f0faf77c6382"
+    },
+    {
+      "path": "effects/skills/jump_target_e02/jump_target_e02.glb",
+      "bytes": 44708,
+      "sha256": "29014c1f5b4cfee9cf0701c0c7ddce6c4cd18d16bfe3324ee06ecb8a52f3402e"
+    },
+    {
+      "path": "effects/skills/k_rewardcash_self1/k_rewardcash_self1.glb",
+      "bytes": 37336,
+      "sha256": "97e7cafe1a3dd237f82f0f866f4b5695a6abd234c9539d166ccf7267fdf37d46"
+    },
+    {
+      "path": "effects/skills/nano_rd_e01/nano_rd_e01.glb",
+      "bytes": 148716,
+      "sha256": "9c691393691044a39b1cb8a9df24e193e97fed0275277b74e38731c3f1e2d752"
+    },
+    {
+      "path": "effects/skills/protection_target_e01/protection_target_e01.glb",
+      "bytes": 66256,
+      "sha256": "c81539c6ceffcf26aaa24b101202150ca032a17e39d62bbfac0c9b70fc975ce6"
+    },
+    {
+      "path": "effects/skills/protection_target_e02/protection_target_e02.glb",
+      "bytes": 50104,
+      "sha256": "52ca38c78b45bb8bd6463298077afc23ddcdb79dd00006748dc0fca55c2827ee"
+    },
+    {
+      "path": "effects/skills/sleep_target_e01/sleep_target_e01.glb",
+      "bytes": 18564,
+      "sha256": "78becb6fd30afb02bd7ee3380bf8de1f09e8e26d5805c60a081b6d4c29d60be7"
+    },
+    {
+      "path": "effects/skills/textures/a00.mip1.png",
+      "bytes": 19966,
+      "sha256": "e2e27e3e209e2a1f79235eab3c25b820916be6eed31d49f4a14840ec4abce66b"
+    },
+    {
+      "path": "effects/skills/textures/a00.mip2.png",
+      "bytes": 6628,
+      "sha256": "b084b1726dfca216a2bcabada7e59e6b2727c91e0a8edc1baefd49175a1a74b0"
+    },
+    {
+      "path": "effects/skills/textures/a00.mip3.png",
+      "bytes": 2246,
+      "sha256": "3f8a477fec2d3ee2cee08347540b4bb905a89a94eb6a331a37759c25010e2e29"
+    },
+    {
+      "path": "effects/skills/textures/a00.mip4.png",
+      "bytes": 816,
+      "sha256": "61095802f3c864658e2d137a815bf5e1076585c7eabfeb5bb60b9392249a7194"
+    },
+    {
+      "path": "effects/skills/textures/a00.mip5.png",
+      "bytes": 301,
+      "sha256": "cc9f3504aa15bbefa51ea6f83d383663675b2a31d1b24da48d9e6c6dc2a59f03"
+    },
+    {
+      "path": "effects/skills/textures/a00.mip6.png",
+      "bytes": 178,
+      "sha256": "d1928dc4fb699838b1a3c41527f67172f18333bd1d0d8da1c6a2081d87984cdf"
+    },
+    {
+      "path": "effects/skills/textures/a00.mip7.png",
+      "bytes": 102,
+      "sha256": "1791dc823537d529c967239b3dd4b4dae98e60bef759d8299f6e50cd87f8499b"
+    },
+    {
+      "path": "effects/skills/textures/a00.mip8.png",
+      "bytes": 77,
+      "sha256": "c6fd7307c5437a4dcde43bac7e80a864a57265923708cb3697f6bb01e5e04e26"
+    },
+    {
+      "path": "effects/skills/textures/a00.mip9.png",
+      "bytes": 73,
+      "sha256": "5d0cb0e2c17f145ea78c563f9b6f8fb7e427056f89c14d5bc025a43cae557f36"
+    },
+    {
+      "path": "effects/skills/textures/a00.png",
+      "bytes": 62913,
+      "sha256": "de736fdcf35a2668f3694d2e2b786b06b3a8447d3ba23a6776a3a9e8c94b9cc6"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_buf_e01.mip1.png",
+      "bytes": 98260,
+      "sha256": "ef3613868dc9f9357ca68d30fb7cb002b66eb21258807c7e3c62fc0be97be465"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_buf_e01.mip2.png",
+      "bytes": 29679,
+      "sha256": "47890b22d8db19eb6291a952d80d87d0cc666f3ff82fb0884768ea17e8462d4f"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_buf_e01.mip3.png",
+      "bytes": 8433,
+      "sha256": "04b2e1e401e82dbdaffb69cb3a5376880deb8bd9009db6c26ee3a78ed8a7b9b9"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_buf_e01.mip4.png",
+      "bytes": 2519,
+      "sha256": "bdadecb1cfdfe2ea3184ea6c40b06dd11179eea9a600bb092b59fe7f403abb7a"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_buf_e01.mip5.png",
+      "bytes": 763,
+      "sha256": "18b3d7504cf36cbf184057c83d16a3a47f28a856dcd01f02e00f1ce857a3e46a"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_buf_e01.mip6.png",
+      "bytes": 242,
+      "sha256": "c2612f79f27a90c4ae3ccaac6af60965f61360ee97fc027ef0c3eda37493f321"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_buf_e01.mip7.png",
+      "bytes": 136,
+      "sha256": "110ff1e20751ea5190ed5848f48ee63d67c84990074f506b970c98ac7971eb58"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_buf_e01.mip8.png",
+      "bytes": 86,
+      "sha256": "c67eefe0250bc20a9a64e0ea22db7732d24c8a23ed2ffb76190d1f30e72cdaa5"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_buf_e01.mip9.png",
+      "bytes": 73,
+      "sha256": "63d72fd0467536df555eb2c04381ad889ac14aaa3d927522fcae2ffea25a9176"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_buf_e01.png",
+      "bytes": 273831,
+      "sha256": "848e10dd0beaebb037951b71db2d28ed14f93bb671a72b7ca75e117c668e876e"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_target_e03.mip1.png",
+      "bytes": 705,
+      "sha256": "a2014fd57156419aed828da8a545128928f75406abadabd6c213bd7f41d4a2ab"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_target_e03.mip2.png",
+      "bytes": 313,
+      "sha256": "e63aa3bd81aeef0ae8e38252f515030fff92727352511398ed78203825d2ecc5"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_target_e03.mip3.png",
+      "bytes": 136,
+      "sha256": "83c8afc8ef1a49877d56c05b9f438de570c74cfa29dd24e1eeb8783056c9d493"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_target_e03.mip4.png",
+      "bytes": 86,
+      "sha256": "8c8ff93b12992a62fff38eab5db5fe344d6403ca23fa29150c9504ed302b0170"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_target_e03.mip5.png",
+      "bytes": 73,
+      "sha256": "8aef953564f9c16e7d9e50247edb6ebedab10f0045ea34f00e2256f5ab369fa4"
+    },
+    {
+      "path": "effects/skills/textures/dotdmg_target_e03.png",
+      "bytes": 1911,
+      "sha256": "578170617d21243930cf18cd0137c928920c309f56c7a7063a96579a5f370531"
+    },
+    {
+      "path": "effects/skills/textures/fluid_03-668f38218c35.mips/mip-01.png",
+      "bytes": 8639,
+      "sha256": "663158585c0cbd56d3e7571fbee34e7f8232d4cc3184893483b270e64eb7a086"
+    },
+    {
+      "path": "effects/skills/textures/fluid_03-668f38218c35.mips/mip-02.png",
+      "bytes": 2602,
+      "sha256": "4dcb884a5aa865af0db2173b06561ad36cb93736353323efd5dcc445268309f4"
+    },
+    {
+      "path": "effects/skills/textures/fluid_03-668f38218c35.mips/mip-03.png",
+      "bytes": 915,
+      "sha256": "84e29387cd0db0f1182ace6eab1ba0bb7aa54af3833c602fe52854b194fb2958"
+    },
+    {
+      "path": "effects/skills/textures/fluid_03-668f38218c35.mips/mip-04.png",
+      "bytes": 332,
+      "sha256": "edb054a60ac7c57c1ebefaee8ae77e664446a6db1ac06348d4f07bdef013950d"
+    },
+    {
+      "path": "effects/skills/textures/fluid_03-668f38218c35.mips/mip-05.png",
+      "bytes": 136,
+      "sha256": "859cde2e3674f93135f4599745861637aa92c65633524b5de973c6dbe02f4209"
+    },
+    {
+      "path": "effects/skills/textures/fluid_03-668f38218c35.mips/mip-06.png",
+      "bytes": 86,
+      "sha256": "0563c70854aea82d373664201b1d40a107e645c0bf79dd6c87869e9be75481a1"
+    },
+    {
+      "path": "effects/skills/textures/fluid_03-668f38218c35.mips/mip-07.png",
+      "bytes": 73,
+      "sha256": "93ee66a5f3ef9cc6b33704c151bf0ac0b7dd338b5bad5211d26f07ed4c4e49b0"
+    },
+    {
+      "path": "effects/skills/textures/fluid_03-668f38218c35.png",
+      "bytes": 28186,
+      "sha256": "99e2c468f23f29dd62d3f9f3ad7bf82fc1592b7449cdc8c9b4b14e598f07c09b"
+    },
+    {
+      "path": "effects/skills/textures/green_ball_01.mip1.png",
+      "bytes": 2155,
+      "sha256": "51641344bb5d8f87ee9dcaa04f628f4ebdd315a587d20e19e4fb9d075115aa64"
+    },
+    {
+      "path": "effects/skills/textures/green_ball_01.mip2.png",
+      "bytes": 677,
+      "sha256": "6f39cb7469b6eb83b48e27a29451866beb9a736b283d11236f8af364bb7f6f9e"
+    },
+    {
+      "path": "effects/skills/textures/green_ball_01.mip3.png",
+      "bytes": 251,
+      "sha256": "f7f2fbb034ae11fd6df90c509597cbdeee9a9d6f06bb82afc9009b1c69362f1c"
+    },
+    {
+      "path": "effects/skills/textures/green_ball_01.mip4.png",
+      "bytes": 136,
+      "sha256": "3878f70682e7d7c01e955eaddaddb363dd910ce617a1e20332ca371d592c7682"
+    },
+    {
+      "path": "effects/skills/textures/green_ball_01.mip5.png",
+      "bytes": 86,
+      "sha256": "04d4699630b8093c812f8169f231c42b9249115516acd8ea4eca5f95c8207565"
+    },
+    {
+      "path": "effects/skills/textures/green_ball_01.mip6.png",
+      "bytes": 73,
+      "sha256": "2179bee385d215f726dac0119e48391ebf0950e3c1362895c1a7d70f86280470"
+    },
+    {
+      "path": "effects/skills/textures/green_ball_01.png",
+      "bytes": 7137,
+      "sha256": "59d89dcb695e18edf1015f6523836e8dd5fd05a68af3694d53922b6d4cb95268"
+    },
+    {
+      "path": "effects/skills/textures/heal_02.mip1.png",
+      "bytes": 763,
+      "sha256": "d2baffe4b6ffe4fc5cdfb3838782113c0d934a1c58b4425f5f21a9729910c222"
+    },
+    {
+      "path": "effects/skills/textures/heal_02.mip2.png",
+      "bytes": 379,
+      "sha256": "c714b00c370da4e3e2edd858ec7977cda0df6097fd7122082ad64375a6f88245"
+    },
+    {
+      "path": "effects/skills/textures/heal_02.mip3.png",
+      "bytes": 215,
+      "sha256": "c1d028426ce0b3af0522d1171a267e6af727f19410ad7caaf3a5db72fe57b181"
+    },
+    {
+      "path": "effects/skills/textures/heal_02.mip4.png",
+      "bytes": 136,
+      "sha256": "32df0276638a7e909deae42ea7191bdad59d57b8188beee646a0cd8db94bebaf"
+    },
+    {
+      "path": "effects/skills/textures/heal_02.mip5.png",
+      "bytes": 86,
+      "sha256": "380af0091466e8b46cb6473bd5cb1ac62b1308bd811cfa8a9f9732ee3e6bad8f"
+    },
+    {
+      "path": "effects/skills/textures/heal_02.mip6.png",
+      "bytes": 73,
+      "sha256": "1562a446f39726d81b3a5c9ea038a67bda2b0d199372689a2fa6cfc41f584faa"
+    },
+    {
+      "path": "effects/skills/textures/heal_02.png",
+      "bytes": 1744,
+      "sha256": "dd25382fdfd9d7f25908dba8ce4c2a14ac50175c069bdea54ef418d3c00beb48"
+    },
+    {
+      "path": "effects/skills/textures/ice_star_08.mip1.png",
+      "bytes": 2796,
+      "sha256": "3d37b6399119e7dcd3c24830d95be001e043be223f4364564dc2ebb476d95359"
+    },
+    {
+      "path": "effects/skills/textures/ice_star_08.mip2.png",
+      "bytes": 1054,
+      "sha256": "08f5f2d3ff7c77b317bc9cec3bd2fafb113b082cb2571cd99b451b553db65643"
+    },
+    {
+      "path": "effects/skills/textures/ice_star_08.mip3.png",
+      "bytes": 400,
+      "sha256": "d1fa7054524848e7e5b2f4cc1de85f126be67986c2177b6a5a58c4563a92deb3"
+    },
+    {
+      "path": "effects/skills/textures/ice_star_08.mip4.png",
+      "bytes": 213,
+      "sha256": "e847f7422acce36f07a4ffd11d6fe9fd63efddd71349b9fc5b9883b373b92a43"
+    },
+    {
+      "path": "effects/skills/textures/ice_star_08.mip5.png",
+      "bytes": 136,
+      "sha256": "dcc40b39289d46d3980b6b1ae89016d5866b992833c1671e6d1d31345187f176"
+    },
+    {
+      "path": "effects/skills/textures/ice_star_08.mip6.png",
+      "bytes": 86,
+      "sha256": "f68444e258081639d3803b3f04bae360cf8f3364539a26f285bfde9ef8571c30"
+    },
+    {
+      "path": "effects/skills/textures/ice_star_08.mip7.png",
+      "bytes": 73,
+      "sha256": "1e442e162fc5af63ae0bc4504a0e8caf286ba61d9d6b8daba6bc8e32fe15daa4"
+    },
+    {
+      "path": "effects/skills/textures/ice_star_08.png",
+      "bytes": 8265,
+      "sha256": "dd85728b273a789c2f46f5418caafd8312d52b5dbcee27b922e869e3544cf98f"
+    },
+    {
+      "path": "effects/skills/textures/k_freedom_group_01.mip1.png",
+      "bytes": 1666,
+      "sha256": "bfe0a1511029b46f85d4ed910c1484d5262bec1b9e897d12578d3a8a306f5b56"
+    },
+    {
+      "path": "effects/skills/textures/k_freedom_group_01.mip2.png",
+      "bytes": 650,
+      "sha256": "2fb738f536ebcbc42782b1c544df0443dd5b3afedb7e2f70537e573742dcdd2c"
+    },
+    {
+      "path": "effects/skills/textures/k_freedom_group_01.mip3.png",
+      "bytes": 289,
+      "sha256": "7cac1ed61024a87c05446bbb6d1def6f9e9623d9e2e46c6f9a8cdecdd7e64f08"
+    },
+    {
+      "path": "effects/skills/textures/k_freedom_group_01.mip4.png",
+      "bytes": 136,
+      "sha256": "43fc5b96e4ec3ed4a670e0d5744dd267546b19336a0015aa6b10537bd558b7fb"
+    },
+    {
+      "path": "effects/skills/textures/k_freedom_group_01.mip5.png",
+      "bytes": 86,
+      "sha256": "72aab9a7209a302f2d7856268723ff77c9d8c698f18d593f24536881a5f01a6e"
+    },
+    {
+      "path": "effects/skills/textures/k_freedom_group_01.mip6.png",
+      "bytes": 73,
+      "sha256": "73ddcd715880d82c45ae915c4c41cf897c381915c14fc455a581c36e6995988d"
+    },
+    {
+      "path": "effects/skills/textures/k_freedom_group_01.png",
+      "bytes": 4878,
+      "sha256": "5f8c1cee430c29b53a12c390db8e2213bf2e38e30fcc2f09db8559571f9b36f3"
+    },
+    {
+      "path": "effects/skills/textures/k_resurrection.mip1.png",
+      "bytes": 932,
+      "sha256": "7168121fdf2eaae87d6c9007c4ec5efbcf960715114ccbb2772df9552e66cf13"
+    },
+    {
+      "path": "effects/skills/textures/k_resurrection.mip2.png",
+      "bytes": 467,
+      "sha256": "e53cb210b7872515a599e218bf25451e4b7cb7dd0b9527e5d5cfc1d01820b56f"
+    },
+    {
+      "path": "effects/skills/textures/k_resurrection.mip3.png",
+      "bytes": 273,
+      "sha256": "5637029f2e0fdcb83c04d3bbbb3b3da036db99e7617818e3029475c7b787ac54"
+    },
+    {
+      "path": "effects/skills/textures/k_resurrection.mip4.png",
+      "bytes": 191,
+      "sha256": "4bb4c1a826ad4d2392b2e56e2eab4e6d1fe6fce83bd05d718e68c1aff52a8419"
+    },
+    {
+      "path": "effects/skills/textures/k_resurrection.mip5.png",
+      "bytes": 104,
+      "sha256": "022fa102961cf55aaf827acbd6c7b6150ef021262862e4b632350e7301d7dd0b"
+    },
+    {
+      "path": "effects/skills/textures/k_resurrection.mip6.png",
+      "bytes": 78,
+      "sha256": "39dd65a17e477c96ca7d4d1ff5520de3bcef3638b964103ba1eef55d7f964f81"
+    },
+    {
+      "path": "effects/skills/textures/k_resurrection.mip7.png",
+      "bytes": 73,
+      "sha256": "f7ce0ed68e9298a4cbf1dea9a192d9bafea5881c8e507c5003ff91a09922ebdd"
+    },
+    {
+      "path": "effects/skills/textures/k_resurrection.png",
+      "bytes": 2368,
+      "sha256": "0dcb6ab378ec58acd82532284084aa5575a9bd1a61090bee4f7f64ec877a6db9"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_09-150be67a86f8.mips/mip-01.png",
+      "bytes": 1551,
+      "sha256": "79ca9fcbabf68f1c792bedb4b3ac1c6d8210ab53527b47cb0d9d86ad86b87e1b"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_09-150be67a86f8.mips/mip-02.png",
+      "bytes": 638,
+      "sha256": "861669e0b1bab9c56d4b968acae3f6ae8bbe037880cd13ce139bf27f258d67df"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_09-150be67a86f8.mips/mip-03.png",
+      "bytes": 279,
+      "sha256": "0703325bcb08c9a63b5ade225ca538205b1d5403eff1e9ef685f3ab54a1c810a"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_09-150be67a86f8.mips/mip-04.png",
+      "bytes": 140,
+      "sha256": "38d719cb02ff1e5f9bbe1ffbbbb1849d40b33366919db4a8c4e1218fa87b6c3f"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_09-150be67a86f8.mips/mip-05.png",
+      "bytes": 88,
+      "sha256": "5756f076133c50dc2e47020a5ddcae5bc7781a600de870d2d738a7e76b16836b"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_09-150be67a86f8.mips/mip-06.png",
+      "bytes": 78,
+      "sha256": "13e27d24f8b0e32176d189477b086202cbc882b10502cb2d921f9e9dfb38c59f"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_09-150be67a86f8.mips/mip-07.png",
+      "bytes": 73,
+      "sha256": "ea38ee23ae81ae37a10b112fee8fb9b325423c9fb3ba78c05c466f472ff7dafc"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_09-150be67a86f8.png",
+      "bytes": 4054,
+      "sha256": "19c58a583b7441cce67bf248361b12e847d87c69c68f4f91105d1371dbd3e718"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_10-3f00ae71b133.mips/mip-01.png",
+      "bytes": 1420,
+      "sha256": "d4f1c8850afef6531095855318282b62abc843855a98845cce8b26360a0848ec"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_10-3f00ae71b133.mips/mip-02.png",
+      "bytes": 610,
+      "sha256": "107ac18a7a5ab3c508c407a45409bf84b2065c2c4d162aaff0496474d81a3781"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_10-3f00ae71b133.mips/mip-03.png",
+      "bytes": 285,
+      "sha256": "4c0fb5b3d9f892270fab176d86b6da5f186c2e9408f39d1231037191e08a9420"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_10-3f00ae71b133.mips/mip-04.png",
+      "bytes": 140,
+      "sha256": "007921470930c7fbe6f281f8dc37bb48b1ec7b569297fd85713f3e81a594f559"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_10-3f00ae71b133.mips/mip-05.png",
+      "bytes": 88,
+      "sha256": "33be805b45dc5d0032c11fba7b60f7a68f71aaec8434312b922f9508d05f21f2"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_10-3f00ae71b133.mips/mip-06.png",
+      "bytes": 78,
+      "sha256": "2842060b11d925eb5f46e62582aa5f362b75ac7bc3cbd4bd15231085301c2f26"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_10-3f00ae71b133.mips/mip-07.png",
+      "bytes": 73,
+      "sha256": "06dea3edf8a1823ef9d913ddc21985c94ba6b3f7fec8e5d909223c577f5c569a"
+    },
+    {
+      "path": "effects/skills/textures/k_Reward_cash_10-3f00ae71b133.png",
+      "bytes": 3493,
+      "sha256": "23972425a37e68e8dcc651e04056b56718478a6bbeeb8947a7f7bfc94fd988cc"
+    },
+    {
+      "path": "effects/skills/textures/k_trans_wing01_e-6df2d8f37481.mips/mip-01.png",
+      "bytes": 8874,
+      "sha256": "aad348b215384ca256d382b40b9b71d42535a3da850cd7a96eeb0a2a0d85ddc5"
+    },
+    {
+      "path": "effects/skills/textures/k_trans_wing01_e-6df2d8f37481.mips/mip-02.png",
+      "bytes": 3292,
+      "sha256": "eb8ccdca4bc677ecc2e7f6a8e945f358f93282d92c81acbdf815d51c6059974e"
+    },
+    {
+      "path": "effects/skills/textures/k_trans_wing01_e-6df2d8f37481.mips/mip-03.png",
+      "bytes": 1266,
+      "sha256": "8e362f56b6814041f9260818e603123a56de5d9e178093c4263d869c56a10d85"
+    },
+    {
+      "path": "effects/skills/textures/k_trans_wing01_e-6df2d8f37481.mips/mip-04.png",
+      "bytes": 509,
+      "sha256": "252642c9454b7638e034e13be54db19d4f3d2b9033aacdcc631ff7871204bd8c"
+    },
+    {
+      "path": "effects/skills/textures/k_trans_wing01_e-6df2d8f37481.mips/mip-05.png",
+      "bytes": 268,
+      "sha256": "a4aaafa2b539142e445088082ccf2fe0e9f6910a2dc5c81ec14ffdd19c493b69"
+    },
+    {
+      "path": "effects/skills/textures/k_trans_wing01_e-6df2d8f37481.mips/mip-06.png",
+      "bytes": 136,
+      "sha256": "390aa248d5e09cd69aa589e1e43d7282f775263f4928ffc72b36d2e3dc35a759"
+    },
+    {
+      "path": "effects/skills/textures/k_trans_wing01_e-6df2d8f37481.mips/mip-07.png",
+      "bytes": 86,
+      "sha256": "36317c139183869601efc718375d1e21fbd225ad263477963e6a80f0e4e3e59c"
+    },
+    {
+      "path": "effects/skills/textures/k_trans_wing01_e-6df2d8f37481.mips/mip-08.png",
+      "bytes": 73,
+      "sha256": "ea1eda1fcda9c4b127ac4d69eb4a82fbc48ef11943a90acd69ba224aa649e14a"
+    },
+    {
+      "path": "effects/skills/textures/k_trans_wing01_e-6df2d8f37481.png",
+      "bytes": 23958,
+      "sha256": "9e5e3113d50a63de199bad511bd591edea97252737103e743ae8ae83bc62f8d6"
+    },
+    {
+      "path": "effects/skills/textures/mojo_r_02.mip1.png",
+      "bytes": 5652,
+      "sha256": "f537b7d8520e6ad638493fc31a1fc603fe4fba76554df71181877288f9fdf9d4"
+    },
+    {
+      "path": "effects/skills/textures/mojo_r_02.mip2.png",
+      "bytes": 1738,
+      "sha256": "ebac497b7704b4aa894aebb6ce8b0654e9baa437e6bed6e1d0b4bfb3a72e2794"
+    },
+    {
+      "path": "effects/skills/textures/mojo_r_02.mip3.png",
+      "bytes": 577,
+      "sha256": "6fe4c7fc65c5bdd91ed47bf580042256190db18a5d90877faccf0f79c2bf84ca"
+    },
+    {
+      "path": "effects/skills/textures/mojo_r_02.mip4.png",
+      "bytes": 247,
+      "sha256": "903c336c6c6081f277dc7b894bd05fa71a2fc71a62235ee6d8c3142ad777eba7"
+    },
+    {
+      "path": "effects/skills/textures/mojo_r_02.mip5.png",
+      "bytes": 136,
+      "sha256": "c5774aaf8945db056ed5cd2240bd6eaf63ff05aa9b72b985038733eb39d51ceb"
+    },
+    {
+      "path": "effects/skills/textures/mojo_r_02.mip6.png",
+      "bytes": 86,
+      "sha256": "3f8b845f317e7438aaa5e6e6754ff0a8d081d83bd8e564a02483a27d0119ae9b"
+    },
+    {
+      "path": "effects/skills/textures/mojo_r_02.mip7.png",
+      "bytes": 73,
+      "sha256": "3d768226651ad7eaf0abe85f8b0848d94aba205e9e4b54f527760b260c28c054"
+    },
+    {
+      "path": "effects/skills/textures/mojo_r_02.png",
+      "bytes": 21262,
+      "sha256": "a0e42fb03175b53eef78ab4d7bd91f3f79ef7e2753823cf4385e5f9e14afe4be"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_1_a-995444f85b57.mips/mip-01.png",
+      "bytes": 3748,
+      "sha256": "94d6f5b35bfd758c5bf224fb11b4d97ea049cad097444155e4b6d00f7cb1a4c4"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_1_a-995444f85b57.mips/mip-02.png",
+      "bytes": 1297,
+      "sha256": "9f08e8c36f3fb0bc34aae45de7b47b7613727ab3b95d8aa4ba1d2b777538a583"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_1_a-995444f85b57.mips/mip-03.png",
+      "bytes": 538,
+      "sha256": "1da715146d7f2c301c3887f6fa1918cfc0dbe0f3eeb0d313aea03be575d32aea"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_1_a-995444f85b57.mips/mip-04.png",
+      "bytes": 279,
+      "sha256": "1751d0c8634a662beea544fa141083d99d07fa0eca0dad16753bbe96332ed68b"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_1_a-995444f85b57.mips/mip-05.png",
+      "bytes": 167,
+      "sha256": "47c5fb4735390b0ab004d4c1b3ec58c3f58f73163cff5f136baa67acdab2b69b"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_1_a-995444f85b57.mips/mip-06.png",
+      "bytes": 136,
+      "sha256": "36642daa00eeeee94cee7fd8a44b2cb959daad11a1897151c79e7446e33e3e51"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_1_a-995444f85b57.mips/mip-07.png",
+      "bytes": 86,
+      "sha256": "076721fc97c032fe7c0dfd18d7ddbc7effc13b6fabddec3cb2056516b4ab0c00"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_1_a-995444f85b57.mips/mip-08.png",
+      "bytes": 73,
+      "sha256": "d22eb8bda21425776691aa05b8e07b9b41cb85d9e5e444b3589888a14f3ed854"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_1_a-995444f85b57.png",
+      "bytes": 12635,
+      "sha256": "b9c90ff4f0281aa40df9295dfe5591d8d4b6b44e6216cb5c6c5b33583d62525f"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_2_a-7ec726084ba9.mips/mip-01.png",
+      "bytes": 10862,
+      "sha256": "24d06d431755718b4d7e1315a9bb720ce5cbecf4cee03aa3226bf32a6b2a6b44"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_2_a-7ec726084ba9.mips/mip-02.png",
+      "bytes": 3621,
+      "sha256": "b20e047da213e27187d502d3a8f64b5f7def83a34a3d65caf27c637b1a1f5c7f"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_2_a-7ec726084ba9.mips/mip-03.png",
+      "bytes": 1264,
+      "sha256": "46a3335692e1a38205fe07eb7685792920d9eefef4446e555b5d45537960a61b"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_2_a-7ec726084ba9.mips/mip-04.png",
+      "bytes": 472,
+      "sha256": "7e6080acd71c14a2c4f9086b9ee29e71b82e74c011c1d0dc765a6592ad396fbf"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_2_a-7ec726084ba9.mips/mip-05.png",
+      "bytes": 219,
+      "sha256": "9f6a8866c77cacd302192a5a4379e7befcb3366ccdd19393c3a360c3b8c317af"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_2_a-7ec726084ba9.mips/mip-06.png",
+      "bytes": 136,
+      "sha256": "ef135518d0b9a8c38aedc393de9d66c91fdc6e4f4b71ddcbe1aa0ddee18a130d"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_2_a-7ec726084ba9.mips/mip-07.png",
+      "bytes": 86,
+      "sha256": "4caba444a031cfb4e50a4647ebf910764aa079df372bf87a79ba9d8ca5ac1dd1"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_2_a-7ec726084ba9.mips/mip-08.png",
+      "bytes": 73,
+      "sha256": "baf20115e7d8b6ce7b026e957934b403b2b56207b7679cf8260c96c36fa6526c"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_2_a-7ec726084ba9.png",
+      "bytes": 32859,
+      "sha256": "daf5eba3b09204648e93bb38feb10f6c51004eac2bc180fe5586dda1842d3d02"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_3_a-924820533480.mips/mip-01.png",
+      "bytes": 3805,
+      "sha256": "4a1c88fc4e5c2bb26b10e5d50f0643ae625215dc1d107f547d06cc4ec2786b59"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_3_a-924820533480.mips/mip-02.png",
+      "bytes": 1311,
+      "sha256": "97f0d9d96b45c285841a55463d592599842837faa97123abf1e600dc1314de01"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_3_a-924820533480.mips/mip-03.png",
+      "bytes": 541,
+      "sha256": "d5915e84b0c3309e83a289bff0315e529a1b9deea31766534e0d0de7635b471b"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_3_a-924820533480.mips/mip-04.png",
+      "bytes": 300,
+      "sha256": "e1eff88f0ba1ce48b9042cbca29b9a76775fd684c41428d1f94e3c54c119fcba"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_3_a-924820533480.mips/mip-05.png",
+      "bytes": 186,
+      "sha256": "948cd93e8b69e4513d1bf4e83c0276fad9ad4bb7da581cec6f2729d177ca73bd"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_3_a-924820533480.mips/mip-06.png",
+      "bytes": 136,
+      "sha256": "a4bc25de7dde6080bf82792e152f03595260f3130014fbf2f9f33eff6e55c84c"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_3_a-924820533480.mips/mip-07.png",
+      "bytes": 86,
+      "sha256": "6c435c9858ec402570b955b5b1de050078299bcfe26421a5eb06bcea5b00f188"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_3_a-924820533480.mips/mip-08.png",
+      "bytes": 73,
+      "sha256": "606696278d2543bbf5b4c9e6f6065a40bc765f64e8a0e7e2723b1ca07919a911"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_3_a-924820533480.png",
+      "bytes": 12489,
+      "sha256": "a77473792a6618d34f70b4d124050f3dbbb4090c630ba502054b942a0a92ad4c"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_4_a-f6040346968c.mips/mip-01.png",
+      "bytes": 15702,
+      "sha256": "722eed3763506a5fe940438d425c3eceaf3b190ab526682aef2cc5bda07419eb"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_4_a-f6040346968c.mips/mip-02.png",
+      "bytes": 4899,
+      "sha256": "9edb38be1a9bc5285b531818359bcbec641c9139fe38e61d19fbb9d7efe244e3"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_4_a-f6040346968c.mips/mip-03.png",
+      "bytes": 1555,
+      "sha256": "238613374a718c0e79a9c3d520a39756b11edacb509142be75ba734507f8c472"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_4_a-f6040346968c.mips/mip-04.png",
+      "bytes": 562,
+      "sha256": "e2f42cfeb4279a0a2ef9a4ba83c18401b091b173fab0013d04b611b617fdcb79"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_4_a-f6040346968c.mips/mip-05.png",
+      "bytes": 239,
+      "sha256": "574e4a6fe526d08697ae0523da9847457f26e94778bd6a958e3af506918100cf"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_4_a-f6040346968c.mips/mip-06.png",
+      "bytes": 136,
+      "sha256": "f3e80922c333cd7aed22defc33a1952c61b835652d2b144dab069649e43a64ad"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_4_a-f6040346968c.mips/mip-07.png",
+      "bytes": 86,
+      "sha256": "e4422660bcbe00d87362681455865b672d7f6bf8cdde4174201f7afad9c1cf77"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_4_a-f6040346968c.mips/mip-08.png",
+      "bytes": 73,
+      "sha256": "e9aa8fe0c6397a136ec0a19243a8fe6ae52c92085c3c028c79be3b3b137be8bc"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_4_a-f6040346968c.png",
+      "bytes": 50551,
+      "sha256": "4c952ca36fa80ef7463ed0673b738ded98ae5e4b65783368e105acdd7fef14d7"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_8_a-b02e8c3da430.mips/mip-01.png",
+      "bytes": 7496,
+      "sha256": "b0c6d4aefe4a007ff9e5143deab0bb002f7d4481cfb75e8ca1f02475d2f26c09"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_8_a-b02e8c3da430.mips/mip-02.png",
+      "bytes": 2972,
+      "sha256": "b0728e68e6244c241cc933b68d3edf2afebd24f7b7e2abdb59c8de31725a0c24"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_8_a-b02e8c3da430.mips/mip-03.png",
+      "bytes": 1102,
+      "sha256": "85b214e3c4d07a8e9dd212b0daea7665ea6b229cc7279f6cba565b6ae5b15b89"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_8_a-b02e8c3da430.mips/mip-04.png",
+      "bytes": 412,
+      "sha256": "48481d1e1fca5e39cf7c1f7f4328ebcbf176fb42158f66326a38f72fde504d17"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_8_a-b02e8c3da430.mips/mip-05.png",
+      "bytes": 248,
+      "sha256": "4215e917a236c5553937e7897bc1b73d5e80ec45b27182ef8530508dc1aa0ae8"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_8_a-b02e8c3da430.mips/mip-06.png",
+      "bytes": 136,
+      "sha256": "2b612b47f9d76ef90b26c02259540527704e6e79a1a79098827f332e03d4a28a"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_8_a-b02e8c3da430.mips/mip-07.png",
+      "bytes": 86,
+      "sha256": "3941584d0bfb0ad931a6d66252aeceb904b55431e6bc5ba69f44a0c7086c6767"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_8_a-b02e8c3da430.mips/mip-08.png",
+      "bytes": 73,
+      "sha256": "366a6af40efd47641541f85df02bd7f3e46ed89b74de1a0c9f5fb7e2ff0791ce"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e08_8_a-b02e8c3da430.png",
+      "bytes": 18110,
+      "sha256": "d1fbdcdfc67dbbf4b75669a43500049aa6465a0660ed26cd2ecf100a34891db5"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e09_a-e258a5384218.mips/mip-01.png",
+      "bytes": 1251,
+      "sha256": "a436b74ebc108d60ecf9ad884f852d7a03cfc442fc85cec7122dde84004b50c0"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e09_a-e258a5384218.mips/mip-02.png",
+      "bytes": 476,
+      "sha256": "7f3ed60c36dd3fa8e3a9671ed8c7c0642d6d8c95531cb860681aa07334c1af31"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e09_a-e258a5384218.mips/mip-03.png",
+      "bytes": 246,
+      "sha256": "6b6a56a1123dc8fbf65c76a23bd312f6f10d6fdfcd31c81fc65d7a52c359e898"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e09_a-e258a5384218.mips/mip-04.png",
+      "bytes": 159,
+      "sha256": "2f52cdc75dfa5bb897ef6a6bd8b5fecbbc98d372af2abb14ce8b1c759cba86d4"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e09_a-e258a5384218.mips/mip-05.png",
+      "bytes": 102,
+      "sha256": "3d3b3d340643f266494d5fc72032558534abef947b98169fc2b777af60840a83"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e09_a-e258a5384218.mips/mip-06.png",
+      "bytes": 77,
+      "sha256": "b316e6e031612e99d675c49a36d9b6d63351fb6675cf4a67eb5cfaa6055eecf4"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e09_a-e258a5384218.mips/mip-07.png",
+      "bytes": 73,
+      "sha256": "c19b2251f613dd70e7467480fd05a7ddd7c183c9385cd90674c8132fcfcf4555"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e09_a-e258a5384218.png",
+      "bytes": 4068,
+      "sha256": "0eeca89318e68fa24a4aab1eb4b1787b9b4f55ffce0dadb14f98a6582780fbec"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e10_a-555db644ec33.mips/mip-01.png",
+      "bytes": 686,
+      "sha256": "0a2ae3ecfc52c883594a85eb1421961f05190f12781e4f8b363728cdf73fb716"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e10_a-555db644ec33.mips/mip-02.png",
+      "bytes": 297,
+      "sha256": "fb9f58804c9a29ae75fa64ab31106a64c43df7ecfc08b6303f38e9cd049bc0fb"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e10_a-555db644ec33.mips/mip-03.png",
+      "bytes": 175,
+      "sha256": "be81b2b263a241a027b5eed9e030d19873abec10ae82837ea2705c35702c9a98"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e10_a-555db644ec33.mips/mip-04.png",
+      "bytes": 136,
+      "sha256": "9b9b156ba7d4de53fa30eded9b3e6b711025a7d5f9598eb4c42bb68cac3fdb4a"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e10_a-555db644ec33.mips/mip-05.png",
+      "bytes": 86,
+      "sha256": "b7be6ac01750c5c744310b472428438d400cf2df4773dea0676895fc5088d850"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e10_a-555db644ec33.mips/mip-06.png",
+      "bytes": 73,
+      "sha256": "a206b7460b8b94774ce19c9590e62c41a783e660e1b153de4486597c4a066aed"
+    },
+    {
+      "path": "effects/skills/textures/nano_rd_e10_a-555db644ec33.png",
+      "bytes": 3447,
+      "sha256": "c9f571493f2f7e226ca65335b64d39662014f0b9aed6eda0eac585cd7b7b5786"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt-304979d04b00.mips/mip-01.png",
+      "bytes": 56290,
+      "sha256": "df78a461bab1437ebc01dcb20d8057f22a5ae970a18116de204a73d783320c3f"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt-304979d04b00.mips/mip-02.png",
+      "bytes": 20843,
+      "sha256": "f65af19289336d379603493d96dc7baaa9344b9227d4b7030a8b24e94d3b6c42"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt-304979d04b00.mips/mip-03.png",
+      "bytes": 7585,
+      "sha256": "ba3134a2f8b6398887d473b76de4ec57550c1cb14e7e8930317d53fc5a5cde2e"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt-304979d04b00.mips/mip-04.png",
+      "bytes": 2482,
+      "sha256": "9dd3600f21cae250704f62ed655a604f058c3b96685530c668012f7f1c090f9e"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt-304979d04b00.mips/mip-05.png",
+      "bytes": 912,
+      "sha256": "649a306b5aadac61fbefc3f401b205f45c4924e9f6d61ac714dd39bf3314839e"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt-304979d04b00.mips/mip-06.png",
+      "bytes": 332,
+      "sha256": "e6a14db26df0fbbe7a5c20c9153ec337b2ccc04e350b1136bb6abb21f6a0b7b0"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt-304979d04b00.mips/mip-07.png",
+      "bytes": 136,
+      "sha256": "468a65be38b6b4c2d7472b40002a696794bcd3e4212abdf5d904e6f8ed174286"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt-304979d04b00.mips/mip-08.png",
+      "bytes": 86,
+      "sha256": "5d37cce5376870392b8a4884f3189f0fb5faf455a183590a1480aab8b66ccf3b"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt-304979d04b00.mips/mip-09.png",
+      "bytes": 73,
+      "sha256": "b9885f30ac790602b59340b3453fc62f2ac6052b4555049d106064924dddcd31"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt-304979d04b00.png",
+      "bytes": 153830,
+      "sha256": "8ac41a0eb6fb5076f4273019642682f3f770fac66df8410ab385c6e2bc399969"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_e011-b3f67863782f.mips/mip-01.png",
+      "bytes": 21053,
+      "sha256": "e7c21c26c4d1afe909a92e007e8d74cf878b66c6b2d2b815562208d90b46245d"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_e011-b3f67863782f.mips/mip-02.png",
+      "bytes": 6357,
+      "sha256": "e8d69c0ccdf646d5bb98f8da4911e8ab891831c9b597d7a54bf1a4699faf75e4"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_e011-b3f67863782f.mips/mip-03.png",
+      "bytes": 1993,
+      "sha256": "7456b896815bcb72b5b65074574abb1533d40e30d04041ca8d6f3ff9649b62ae"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_e011-b3f67863782f.mips/mip-04.png",
+      "bytes": 625,
+      "sha256": "55eb28150f4337eeb34513f1f461c9a843735b8cd9732f0385da4bc68ab34f7c"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_e011-b3f67863782f.mips/mip-05.png",
+      "bytes": 274,
+      "sha256": "378f32aa2ae8078589f8663268ba3c17a88bfa90c1ea9f77bab1d69f971a0258"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_e011-b3f67863782f.mips/mip-06.png",
+      "bytes": 136,
+      "sha256": "c464c6ddaf000134206685728ee4039386958d71cfeb158b923e4092c8a69148"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_e011-b3f67863782f.mips/mip-07.png",
+      "bytes": 86,
+      "sha256": "d22c7cf93386e6b1a294d91d689b090b8bc2b28950cb7e80fcd5eda036fe0d2b"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_e011-b3f67863782f.mips/mip-08.png",
+      "bytes": 73,
+      "sha256": "81289a78c67ec1c0864450db481eced5974531504b3a71a7b9c143f20757ba11"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_e011-b3f67863782f.png",
+      "bytes": 69599,
+      "sha256": "ff1afb7abe8b8392970ea136bc8a04b9fdaf50928b9f7965dd16e90965035ce0"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l1-e9125628b986.mips/mip-01.png",
+      "bytes": 6867,
+      "sha256": "1eea4aa2f4464b7ee5bce742e0bca2c69a968ce670c60126494766582d0fa64c"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l1-e9125628b986.mips/mip-02.png",
+      "bytes": 3102,
+      "sha256": "c67d9123664fb0492a0260a220e6850cbf9004ec84ffb3ab762675dbc008a1a6"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l1-e9125628b986.mips/mip-03.png",
+      "bytes": 1232,
+      "sha256": "190c10cc7468a6b11b601c24469232ff548d70c9652bfa49bbfba2accdf326bf"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l1-e9125628b986.mips/mip-04.png",
+      "bytes": 416,
+      "sha256": "029456fb10cd2a2df4e27853514ef81708dff88507ae22e16a04774b2c913e82"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l1-e9125628b986.mips/mip-05.png",
+      "bytes": 191,
+      "sha256": "75fb1306cf6f80fc73285e354c3426ecf9865c470f9cb0c4fbc7c9054acea23a"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l1-e9125628b986.mips/mip-06.png",
+      "bytes": 102,
+      "sha256": "f5099a32b48061348ceba1b8eca7f0121f6f9684b250499e0dd62a9fc70e5428"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l1-e9125628b986.mips/mip-07.png",
+      "bytes": 77,
+      "sha256": "996c574fb9ae226f91051d9e3d375f21c9fd28428729b76204870da33c4c4380"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l1-e9125628b986.mips/mip-08.png",
+      "bytes": 73,
+      "sha256": "b6ffa41d3cdd3d11de4e3aa8f02c241b156e9795e1a79d21f0fbcf47de8ca70b"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l1-e9125628b986.png",
+      "bytes": 20512,
+      "sha256": "9fcf403b7e6dcabc24bc25a32c5062a9aebcfaff2880b2b7fa8a9423d8fa2e96"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2-c58b63aa26a1.mips/mip-01.png",
+      "bytes": 2793,
+      "sha256": "d039c5d64368584007d97937f2e1b85c85bc0e3d60a6500bd904aa70873fe6c9"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2-c58b63aa26a1.mips/mip-02.png",
+      "bytes": 1081,
+      "sha256": "655d34a29677c5a5b13a404f36ac756ed054d1ec5e16c20c35c9209a0597009f"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2-c58b63aa26a1.mips/mip-03.png",
+      "bytes": 579,
+      "sha256": "755bee9c955d898e8010766456af077448eb58582720157c8c2ada5c69758586"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2-c58b63aa26a1.mips/mip-04.png",
+      "bytes": 348,
+      "sha256": "94b9b1f90f6dd250b5dccf8f90e9bfb5d5060ecee111c993b86226c86edc468a"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2-c58b63aa26a1.mips/mip-05.png",
+      "bytes": 214,
+      "sha256": "c557770667abd6a498f2c754bee68d2fae73afdc8b03a3fd9b616437b5dd6496"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2-c58b63aa26a1.mips/mip-06.png",
+      "bytes": 136,
+      "sha256": "7f6a23eb9f53398c5a85d9b4e52b05126c9e16971cd42707b24640961fccd5bc"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2-c58b63aa26a1.mips/mip-07.png",
+      "bytes": 86,
+      "sha256": "b83b230679cd4972c32531704d30bbe9e42162610d361bd2618f96892346fb13"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2-c58b63aa26a1.mips/mip-08.png",
+      "bytes": 73,
+      "sha256": "9834c01bc7071279217ce8acdf3020050e342c7e213e83ffc381468e1c7c03d2"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2-c58b63aa26a1.png",
+      "bytes": 7409,
+      "sha256": "b7e8b3ac202880cc4f94df1da7aa88f86b11c482bb053b780199e858fb7b4994"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2_e02-13a68aeab094.mips/mip-01.png",
+      "bytes": 17005,
+      "sha256": "e6c980451917bb5c8608a6bf4f5e4e990d9f72d863e85ce2fa38bee85230b705"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2_e02-13a68aeab094.mips/mip-02.png",
+      "bytes": 5786,
+      "sha256": "e0abbdf26659987151295d2c646c030b04027a9f0b5cd28ff88c838ede6e62a0"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2_e02-13a68aeab094.mips/mip-03.png",
+      "bytes": 2094,
+      "sha256": "7e732b99cd1fe95fa5f4ca205dae592eab391a842ba59bc5ed55d80587febc5a"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2_e02-13a68aeab094.mips/mip-04.png",
+      "bytes": 772,
+      "sha256": "c6e4f0c04f7adfd6e25abe8f4311d87c511670669bc4df8a1a4f6204c593e42a"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2_e02-13a68aeab094.mips/mip-05.png",
+      "bytes": 286,
+      "sha256": "0d45977d8415f6c4efb8a4a3f3b9a1947c46044a49d131430efc9757c99d9ec9"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2_e02-13a68aeab094.mips/mip-06.png",
+      "bytes": 136,
+      "sha256": "97f09f2fa4717fb182d086b872a7a02749e558ce9d4550122575516c8a96dfb1"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2_e02-13a68aeab094.mips/mip-07.png",
+      "bytes": 86,
+      "sha256": "57d42a898cface96424f1a2831f76f64461b3ba79ed9734caca941d64335b3ae"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2_e02-13a68aeab094.mips/mip-08.png",
+      "bytes": 73,
+      "sha256": "e6a63aee159537f4592f583c841fb4fd5a959ea2d63d0f636911a2ad13f92603"
+    },
+    {
+      "path": "effects/skills/textures/pro_btt_l2_e02-13a68aeab094.png",
+      "bytes": 54419,
+      "sha256": "d746d00bf6bdd49fd36ee865cdc752df726a4973924242f4f2150bfdaa3a41df"
+    },
+    {
+      "path": "effects/skills/textures/ready_03.mip1.png",
+      "bytes": 2217,
+      "sha256": "b8cbe77f35e731b445827226da673823632e515fc56a7c963bbbf56d4cc2da96"
+    },
+    {
+      "path": "effects/skills/textures/ready_03.mip2.png",
+      "bytes": 732,
+      "sha256": "8fc771e6548acde939bf55c527f1b5c0666eba7fbc2008d35d3b7c26521dab6c"
+    },
+    {
+      "path": "effects/skills/textures/ready_03.mip3.png",
+      "bytes": 285,
+      "sha256": "98a3b483a8886c06b56ed468042abb95c3f84857d3a7f5080f30a89f675e6981"
+    },
+    {
+      "path": "effects/skills/textures/ready_03.mip4.png",
+      "bytes": 136,
+      "sha256": "552ca78e8f387239867c39fb815b8825e22b600e894ebb32d562cc2ff379a5df"
+    },
+    {
+      "path": "effects/skills/textures/ready_03.mip5.png",
+      "bytes": 86,
+      "sha256": "4a18016a8b9d00ce1acafd8f7ac189351701a57577c202f97b29662e253292c9"
+    },
+    {
+      "path": "effects/skills/textures/ready_03.mip6.png",
+      "bytes": 73,
+      "sha256": "a8640f55547f211955408a8b002609e3f49576e3d99d836993106235f535c768"
+    },
+    {
+      "path": "effects/skills/textures/ready_03.png",
+      "bytes": 6555,
+      "sha256": "21f6233fd4f6d41c137fb94c2254213181e9a932332cdf32d71a9ce654f3f707"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e01-d088e894478b.mips/mip-01.png",
+      "bytes": 9000,
+      "sha256": "9aa9d02b33e56125d9de87b24d376ef4aaf493bcf54113b9cdc0507ee77cb65a"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e01-d088e894478b.mips/mip-02.png",
+      "bytes": 3184,
+      "sha256": "50cdd07bccc1fabd14c10e8d7eda697473e8b4a1fa6096977fd6be913730c57a"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e01-d088e894478b.mips/mip-03.png",
+      "bytes": 1059,
+      "sha256": "0e7e34b86e331f5d05dfbba2377de06746a568f7566af2f44e8b957b38060afa"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e01-d088e894478b.mips/mip-04.png",
+      "bytes": 475,
+      "sha256": "1ca64997cb1da6db4cb0bca16892940df0d021e66989612947be74049cd32269"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e01-d088e894478b.mips/mip-05.png",
+      "bytes": 228,
+      "sha256": "9f9cdca0142a38cc376a7c1b45707c6ab6a382a8d5ff73c9ee57380f37a24002"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e01-d088e894478b.mips/mip-06.png",
+      "bytes": 136,
+      "sha256": "563dd3ee732ce390eebbcbe92c111d14e53003bcee5936c541eaaedfb34cab41"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e01-d088e894478b.mips/mip-07.png",
+      "bytes": 86,
+      "sha256": "fcbf464a8c2b60bf0ab12109918e556607a224c953d3a961a74ec020c45549ac"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e01-d088e894478b.mips/mip-08.png",
+      "bytes": 73,
+      "sha256": "60a5fc7ea064faf617015749fd1b7d571c17f323556337287bef6731959ea190"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e01-d088e894478b.png",
+      "bytes": 25384,
+      "sha256": "f0211adcac4945f314d745690716052f32eb77879a2290599d4ed23523592978"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e02.mip1.png",
+      "bytes": 12835,
+      "sha256": "bf8dd061e0129f4d4be7feca020c1620ca0e4004f4f63444e50e9cabf9142ec4"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e02.mip2.png",
+      "bytes": 5009,
+      "sha256": "b14f019d4929478d2307c92e2b49a6172b4e39f2acc24dff007f5a663ec7a8af"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e02.mip3.png",
+      "bytes": 1577,
+      "sha256": "8546e702d6b89ce0be7b50ab9a214ff10feebae4f3920f97aa707c73ef10d510"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e02.mip4.png",
+      "bytes": 433,
+      "sha256": "bce61637825b57c8922aaa933e64b5766b9ccac5e161614c21a94b0a3680fb4b"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e02.mip5.png",
+      "bytes": 179,
+      "sha256": "85e880fb74bf7c1704aa77bb88b469e7aae367d98819f269f7959f9e0506b9a5"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e02.mip6.png",
+      "bytes": 136,
+      "sha256": "3078625893690b17642a2fe530b1e685f0cef9332e79fc85d40b7b8f176df879"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e02.mip7.png",
+      "bytes": 86,
+      "sha256": "045a842f9a2ba5edd7925e5ff8b4cfa0429cabaa5a568eef0332bd60dd08c47c"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e02.mip8.png",
+      "bytes": 73,
+      "sha256": "8aeb21ca2a401a135a7e0448d36dbffe7551eb46f183ab303b74fb1650ec9052"
+    },
+    {
+      "path": "effects/skills/textures/sleep_target_e02.png",
+      "bytes": 27201,
+      "sha256": "0b8ee0262712d51134bcc52465e83590f1d4f25f79ff5afecbf1b1f55c740e07"
+    },
+    {
+      "path": "effects/skills/textures/snare_01.mip1.png",
+      "bytes": 8117,
+      "sha256": "a5ce2e88955f3fdb294ba977e61c47e8608a3eb2e15dada324c51a597e11c0d0"
+    },
+    {
+      "path": "effects/skills/textures/snare_01.mip2.png",
+      "bytes": 2439,
+      "sha256": "06aae14d1194b14ba93345904bb3092408655bf42064048e843c4cee139b1c03"
+    },
+    {
+      "path": "effects/skills/textures/snare_01.mip3.png",
+      "bytes": 732,
+      "sha256": "b19c3f2c0cea13b80bf369daca37f2ef9ec59fd66645c63b170eb3f89f5314af"
+    },
+    {
+      "path": "effects/skills/textures/snare_01.mip4.png",
+      "bytes": 303,
+      "sha256": "606272096e2200a6fe153829b022d2dd5921979ec389ac736dd9ed5315e91132"
+    },
+    {
+      "path": "effects/skills/textures/snare_01.mip5.png",
+      "bytes": 136,
+      "sha256": "0d2b77f3f798fc99c117864a1a386fc1bf8ad2eb8f29781617fa1c67e43cd647"
+    },
+    {
+      "path": "effects/skills/textures/snare_01.mip6.png",
+      "bytes": 86,
+      "sha256": "b3062a4471d05797fce93b1347de2fce639ef0afb17b076e171b3aaad9068a5b"
+    },
+    {
+      "path": "effects/skills/textures/snare_01.mip7.png",
+      "bytes": 73,
+      "sha256": "c30c1cd25bdfa621a1345a5b8408408cc34a255ea098a328d56ea41cbed584bc"
+    },
+    {
+      "path": "effects/skills/textures/snare_01.png",
+      "bytes": 28020,
+      "sha256": "ffdb59427ec9d7c947f35e47af2712e86f9b4dc2f3eea8e5ab59b0dd9c23f44e"
+    },
+    {
+      "path": "effects/skills/textures/snare_02.mip1.png",
+      "bytes": 2867,
+      "sha256": "2dd117dc2ec277cdc3a497d61c7d438fcbf1682e32567b36b90d1c34bc1f6082"
+    },
+    {
+      "path": "effects/skills/textures/snare_02.mip2.png",
+      "bytes": 1026,
+      "sha256": "baaf1969acfa0103e60bed385a56f4853e13d09bcd4b16845f8a03c5c05b4e12"
+    },
+    {
+      "path": "effects/skills/textures/snare_02.mip3.png",
+      "bytes": 449,
+      "sha256": "9c8070c568d59ea27cbf6e3a5753a279420552880e42a1bfee9d32cf3dbe895b"
+    },
+    {
+      "path": "effects/skills/textures/snare_02.mip4.png",
+      "bytes": 216,
+      "sha256": "33319485d8b639c559e7349b27f2a1bfa441557e6cffb6dacaf1fa7044a95c18"
+    },
+    {
+      "path": "effects/skills/textures/snare_02.mip5.png",
+      "bytes": 136,
+      "sha256": "2ef8fd23d0d124deeca2791b226d61a4e90194505e8dcefa7422a10dc6defb43"
+    },
+    {
+      "path": "effects/skills/textures/snare_02.mip6.png",
+      "bytes": 86,
+      "sha256": "0016c844e7622c7fd37231c6ea24a4e5e18d69b25e4f8dfa588da7d5f3561215"
+    },
+    {
+      "path": "effects/skills/textures/snare_02.mip7.png",
+      "bytes": 73,
+      "sha256": "17ccf4bc209e9a1e05406da9c35baf6cfd2706fc41bad9c72ba8f1b3fe872eec"
+    },
+    {
+      "path": "effects/skills/textures/snare_02.png",
+      "bytes": 8329,
+      "sha256": "abfd3022e5da02338da873e9a4bb7e68b8837898690258f4a2bde2b1f0c1063e"
+    },
+    {
+      "path": "effects/skills/textures/snare_03.mip1.png",
+      "bytes": 12353,
+      "sha256": "0861ff1bd3754ac849140041ff4bc86251f10a551af93fec4af9257ec1d8c1e8"
+    },
+    {
+      "path": "effects/skills/textures/snare_03.mip2.png",
+      "bytes": 3775,
+      "sha256": "edf5989f1977c3e2995182ba467ba9741d64712b9a0d13aa41f4f9b22071e791"
+    },
+    {
+      "path": "effects/skills/textures/snare_03.mip3.png",
+      "bytes": 995,
+      "sha256": "a882e248326d2bb4ccebc170443d4d40b368b4053e8f9bf9591772d7acc0a2be"
+    },
+    {
+      "path": "effects/skills/textures/snare_03.mip4.png",
+      "bytes": 332,
+      "sha256": "2109ba5bc7810c692d8a2e5c0032d30398f33b8600e11b823a8eff11634529b8"
+    },
+    {
+      "path": "effects/skills/textures/snare_03.mip5.png",
+      "bytes": 136,
+      "sha256": "51223d737e4ad3e6dcf80fd6a81c0b16c5f84f6d79363003df41c97fea0927dc"
+    },
+    {
+      "path": "effects/skills/textures/snare_03.mip6.png",
+      "bytes": 86,
+      "sha256": "333d9c1b8576890bcd7fd0a9496c9ba69e400c9db8164607386d6dbeb4af6c40"
+    },
+    {
+      "path": "effects/skills/textures/snare_03.mip7.png",
+      "bytes": 73,
+      "sha256": "cabea3e7a12627ed62cd3317fac3e5fc4028441b7ce6479d8911131edd6f680e"
+    },
+    {
+      "path": "effects/skills/textures/snare_03.png",
+      "bytes": 34705,
+      "sha256": "b339abe51d578e84bd403e8b3f3bac2e256ea336a8a83765cd0b8a0963a6af16"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "python tools/legacy-sources/publish-nano-status-effects.py --source-root ../builds/retrobution-20260821 --navigation work/projects/retrobution-ui-20260821.ffclient --work work/cases/world-visual-regressions-20260913/nano-replay",
+      "result": "passed; fresh replay matches all 267 output hashes and installed files",
+      "evidence": "work/cases/world-visual-regressions-20260913/nano-replay/outputs.json"
+    },
+    {
+      "command": "Offline full-client captures plus native material/lifecycle tests; see docs/reference/evidence/cases/world-visual-regressions-20260913.json",
+      "result": "passed within stated scope; no live-server combat run",
+      "evidence": "docs/reference/evidence/cases/world-visual-regressions-20260913.json"
+    }
+  ],
+  "limitations": "Source status resources and representative native shader paths validated; complete per-Nano cast and protected-hit choreography is outside this slice. Live-server combat was not exercised.",
+  "toolInputs": [
+    {
+      "path": "crates/ffone-asset-pipeline/src/legacy_shader_state.rs",
+      "sha256": "f17287594be623e536efa3aa5f83c80df6a908a758d6bb291fa629dc41e81880"
+    },
+    {
+      "path": "tools/legacy-sources/publish-nano-status-effects.py",
+      "sha256": "7fa7a76081c8994f498048f48c175fe947d49e9d89e10c8b8ec71449c20b2f17"
+    },
+    {
+      "path": "tools/native/repair-area51-ship-vortex.py",
+      "sha256": "07f076573d47a59376bfce1fe781cb7e75973c96fa55309f7f496dfc628d490d"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "cyberus-additive-delta-primary-20260901",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "Tutorial.resourceFile",
+    "containerBytes": 33327638,
+    "containerSha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "GameObject",
+        "pathId": 5153,
+        "fileId": 0,
+        "containerRoute": "mob/mob_cerberus.kfm",
+        "trueName": "mob_cerberus"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "AnimationClip",
+        "pathId": 1165,
+        "fileId": 0,
+        "containerRoute": "mob/mob_cerberus.kfm",
+        "trueName": "melee1"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "AnimationClip",
+        "pathId": 1162,
+        "fileId": 0,
+        "containerRoute": "mob/mob_cerberus.kfm",
+        "trueName": "melee2"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "AnimationClip",
+        "pathId": 983,
+        "fileId": 0,
+        "containerRoute": "mob/mob_cerberus.kfm",
+        "trueName": "wound"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "legacy-npc-additive-delta-rebase",
+    "tool": "crates/ffone-asset-pipeline/src/logical_model_publish.rs",
+    "toolRevision": "workspace-file-sha256:ce8901a28aea3c739cec65f5bcf7f3e00e3f030c32ff79089ccfd4e8cd9544b0",
+    "workingDirectory": ".",
+    "commands": [
+      "cargo run -- fusionforge export-logical-model-source '..\\builds\\retrobution-20260821\\DongResources_06_05.resourceFile' 'mob/mob_cerberus.kfm' 'work\\legacy-sources\\cyberus-additive-primary-20260901-v1\\replay\\mob_cerberus.source.json' 'work\\projects\\retrobution-ui-20260821.ffclient'",
+      "cargo run -- fusionforge dump-object-evidence retrobution '..\\builds\\retrobution-20260821' 'Tutorial.resourceFile' 5153 --serialized-asset 'CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a' --type GameObject --out 'work\\legacy-sources\\cyberus-additive-primary-20260901-v1\\evidence\\mob-cyberus-root-5153.evidence.json'",
+      "cargo run -- fusionforge dump-object-evidence retrobution '..\\builds\\retrobution-20260821' 'Tutorial.resourceFile' 1165 --serialized-asset 'CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a' --type AnimationClip --out 'work\\legacy-sources\\cyberus-additive-primary-20260901-v1\\evidence\\mob-cyberus-melee1-1165.evidence.json'",
+      "cargo run -- fusionforge dump-object-evidence retrobution '..\\builds\\retrobution-20260821' 'Tutorial.resourceFile' 1162 --serialized-asset 'CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a' --type AnimationClip --out 'work\\legacy-sources\\cyberus-additive-primary-20260901-v1\\evidence\\mob-cyberus-melee2-1162.evidence.json'",
+      "cargo run -- fusionforge dump-object-evidence retrobution '..\\builds\\retrobution-20260821' 'Tutorial.resourceFile' 983 --serialized-asset 'CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a' --type AnimationClip --out 'work\\legacy-sources\\cyberus-additive-primary-20260901-v1\\evidence\\mob-cyberus-wound-983.evidence.json'",
+      "cargo run -p ffone-asset-pipeline --bin ffone-asset-pipeline -- publish-logical-model 'work\\legacy-sources\\cyberus-additive-primary-20260901-v1\\replay\\mob_cerberus.source.json' mob 'work\\legacy-sources\\cyberus-additive-primary-20260901-v1\\replay-staging'",
+      "cargo run -p ffone-asset-pipeline --bin ffone-asset-pipeline -- replace-runtime-character-model '..\\FFOneClient\\assets\\game' 'characters/mobs/mob_cerberus/mob_cerberus.glb' 'work\\legacy-sources\\cyberus-additive-primary-20260901-v1\\replay-staging\\models\\mob\\mob_cerberus.glb'"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "logical-model-source",
+      "path": "work/legacy-sources/mobs-retrobution-20260821-hostile-proven-v4/mob/mob_cerberus/mob_cerberus.source.json",
+      "bytes": 5547482,
+      "sha256": "f1fd4eb296efe0529c7f12aeb53c464c83725ca98125b8758a7981bf21799b13"
+    },
+    {
+      "role": "replayed-logical-model-source",
+      "path": "work/legacy-sources/cyberus-additive-primary-20260901-v1/replay/mob_cerberus.source.json",
+      "bytes": 5547448,
+      "sha256": "4015a3db43cdce547f73c6639adcda168c9d0951dcf4e51fcc46a20b12bcc660"
+    },
+    {
+      "role": "source-replay-diff-evidence",
+      "path": "work/legacy-sources/cyberus-additive-primary-20260901-v1/evidence/source-replay-diff.json",
+      "bytes": 948,
+      "sha256": "25d15c9bbfc4273df229186fadc3346e835e59e075577eaca76c6daf12f96b53"
+    },
+    {
+      "role": "publisher-source",
+      "path": "crates/ffone-asset-pipeline/src/logical_model_publish.rs",
+      "bytes": 344818,
+      "sha256": "ce8901a28aea3c739cec65f5bcf7f3e00e3f030c32ff79089ccfd4e8cd9544b0"
+    },
+    {
+      "role": "managed-assembly-evidence",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/assembly-csharp.evidence.json",
+      "bytes": 1386,
+      "sha256": "7ca7adb09268d97f00ca3c494e36a822683aa3865a4ded5e56dbe25c4ab3c8c8"
+    },
+    {
+      "role": "decompiled-additive-layer-contract",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/NpcAnimation.cs",
+      "bytes": 19860,
+      "sha256": "627fbb5eb9b87d5973c7927a02b26dd25531e6cb48600dd3698608822cc2e408"
+    },
+    {
+      "role": "strict-object-evidence-root",
+      "path": "work/legacy-sources/cyberus-additive-primary-20260901-v1/evidence/mob-cyberus-root-5153.evidence.json",
+      "bytes": 2446,
+      "sha256": "29b97f2d7c8d6df7aab4633d24f226a43a443349a70a0923dae3fbc8071a2f98"
+    },
+    {
+      "role": "strict-object-evidence-melee1",
+      "path": "work/legacy-sources/cyberus-additive-primary-20260901-v1/evidence/mob-cyberus-melee1-1165.evidence.json",
+      "bytes": 138624,
+      "sha256": "c5abfd5dd44f7cd04fc987bd1265ccf900a4b52abc7e4d81f6eca193c77e8a6a"
+    },
+    {
+      "role": "strict-object-evidence-melee2",
+      "path": "work/legacy-sources/cyberus-additive-primary-20260901-v1/evidence/mob-cyberus-melee2-1162.evidence.json",
+      "bytes": 133980,
+      "sha256": "c61e7598ce3bc4a8012a9613cbb9124af27795b951c4b9b066b92fef00baafaa"
+    },
+    {
+      "role": "strict-object-evidence-wound",
+      "path": "work/legacy-sources/cyberus-additive-primary-20260901-v1/evidence/mob-cyberus-wound-983.evidence.json",
+      "bytes": 142886,
+      "sha256": "abc3818d1e8723bb6e6865d2f5457eea657a7a6e4961605c78a1fe3d5d521199"
+    },
+    {
+      "role": "staged-publish-report",
+      "path": "work/legacy-sources/cyberus-additive-primary-20260901-v1/staging/models/mob/mob_cerberus.publish.json",
+      "bytes": 23610,
+      "sha256": "7ed2629ded2d5062a6e70ebe84baf18263ed52cfd7ec5d3766e978d9c156f42c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/game/characters/mobs/mob_cerberus/mob_cerberus.glb",
+      "bytes": 1250928,
+      "sha256": "e85fd73f796e9678143dd8d76c525348ec89796f9701fb91c57f53c0ba69c7db"
+    },
+    {
+      "path": "assets/game/_runtime/characters.json",
+      "bytes": 229691,
+      "sha256": "9849a2c08e33595a8c94f7238395e8db20ac9a6a9c8e2f06470613312bdeca3b"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "cargo test -p ffone-asset-pipeline legacy_npc_ --lib",
+      "result": "passed: 2 tests",
+      "evidence": null
+    },
+    {
+      "command": "Get-FileHash -Algorithm SHA256 'work\\legacy-sources\\cyberus-additive-primary-20260901-v1\\staging\\models\\mob\\mob_cerberus.glb','work\\legacy-sources\\cyberus-additive-primary-20260901-v1\\replay-staging\\models\\mob\\mob_cerberus.glb'",
+      "result": "passed: both deterministic publications are e85fd73f796e9678143dd8d76c525348ec89796f9701fb91c57f53c0ba69c7db",
+      "evidence": "work/legacy-sources/cyberus-additive-primary-20260901-v1/evidence/source-replay-diff.json"
+    },
+    {
+      "command": "cargo test -p ffone-client installed_delta_ready_mob_high_layer_clips_start_at_additive_identity --lib",
+      "result": "passed: Cyberus, Oil Ogre and Sneaky Spawn melee1/melee2/wound clips start at additive identity",
+      "evidence": null
+    },
+    {
+      "command": "cargo test -p ffone-client upgraded_mobs_use_delta_additive_nodes_without_stopping_their_base_pose --lib",
+      "result": "passed: tutorial and ordinary world use the shared additive animation policy",
+      "evidence": null
+    },
+    {
+      "command": "cargo test -p ffone-client tutorial_mob_textures_follow_the_shared_xdt_viewer_catalog --lib",
+      "result": "passed: Cyberus and Oil Ogre use the shared XDT texture catalog",
+      "evidence": null
+    },
+    {
+      "command": "cargo test -p ffone-client proven_tutorial_visuals_resolve_through_the_shared_catalog --lib",
+      "result": "passed: tutorial NPC types 2675 and 2676 use the ordinary-world Cyberus and Oil Ogre GLBs",
+      "evidence": null
+    },
+    {
+      "command": "cargo test -p ffone-client appear_effect --lib",
+      "result": "passed: 2 tests",
+      "evidence": null
+    },
+    {
+      "command": "cargo check -p ffone-client",
+      "result": "passed",
+      "evidence": null
+    },
+    {
+      "command": "cargo xtask assets --full",
+      "result": "passed: domains=5 references=100645 groups=10 files=66878 bytes=3294610565 root=b0845f018c8fd35727f2e9ed002d8fdcecfafbe0e4101b39e107ad1cc9a934b3",
+      "evidence": null
+    }
+  ]
+}

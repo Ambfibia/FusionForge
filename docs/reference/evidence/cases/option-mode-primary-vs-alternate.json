@@ -1,0 +1,273 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "option-mode-primary-vs-alternate",
+  "question": "How does the serialized OptionMode contract differ between primary and alternate, and does that difference change visual or interactive behavior?",
+  "status": "open",
+  "nativeConsumer": "ui/options",
+  "acceptance": [
+    "Diff the managed cnOptionMode implementation and every use of InputBox2.",
+    "Capture deterministic primary and alternate GPU crops at the same resolution and state."
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        {
+          "relativeContainer": "main.unity3d",
+          "bytes": 7000415,
+          "sha256": "59788201962b6a1737b114486c361fe74eef69f507d1d125ca3171377eec602f"
+        }
+      ]
+    },
+    {
+      "alias": "alternate",
+      "role": "explicit_donor",
+      "anchors": [
+        {
+          "relativeContainer": "main.unity3d",
+          "bytes": 9977143,
+          "sha256": "ab157072bf5059043615686493269f58a0b2b9cd8cc804ab3196f44f104a6379"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "sourceAlias": "primary",
+      "relativeContainer": "main.unity3d",
+      "serializedAsset": "sharedassets0.assets",
+      "ownershipChain": [
+        {
+          "type": "GameObject",
+          "pathId": 1329
+        },
+        {
+          "type": "MonoBehaviour",
+          "pathId": 1485
+        },
+        {
+          "type": "MonoScript",
+          "pathId": 1143,
+          "scriptIdentity": "CSharp/cnOptionMode"
+        }
+      ],
+      "pointers": [
+        {
+          "field": "skin",
+          "pathId": 1365,
+          "resolvedType": null
+        }
+      ],
+      "serializedFieldCount": 63
+    },
+    {
+      "sourceAlias": "alternate",
+      "relativeContainer": "main.unity3d",
+      "serializedAsset": "sharedassets0.assets",
+      "ownershipChain": [
+        {
+          "type": "GameObject",
+          "pathId": 1477
+        },
+        {
+          "type": "MonoBehaviour",
+          "pathId": 1598
+        },
+        {
+          "type": "MonoScript",
+          "pathId": 1013,
+          "scriptIdentity": "CSharp/cnOptionMode"
+        }
+      ],
+      "pointers": [
+        {
+          "field": "skin",
+          "pathId": 1499,
+          "resolvedType": null
+        }
+      ],
+      "serializedFieldCount": 64
+    }
+  ],
+  "evidenceProducer": {
+    "tool": "fusionforge dump-object-evidence / compare-unity-json",
+    "baseRevision": "86324d05303a076b9814bddff800635cb2f73954",
+    "worktreeModified": true,
+    "executableBytes": 63980544,
+    "executableSha256": "380af5421c54562754c2dc98e10b887d74cc3ea6c699adf15310d1a5be996850"
+  },
+  "evidenceArtifacts": [
+    {
+      "id": "primary-cnoptionmode-object-evidence",
+      "kind": "strict_object_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/option-mode-primary-vs-alternate/primary.cnOptionMode.1485.object-evidence.json",
+      "bytes": 30230,
+      "sha256": "e60b7806d265a3894d67128e590b014e17521413c084ca80e013fbd094e3ad3e",
+      "sourceContainerSha256": "59788201962b6a1737b114486c361fe74eef69f507d1d125ca3171377eec602f",
+      "rawObjectSha256": "1cffdebb3afe8eff676cd86612dd9f1cc85e5113ef5603f8654951df271e87c9",
+      "pointerCount": 13,
+      "unresolvedPointerCount": 0,
+      "replayCommand": "cargo run --locked -- fusionforge dump-object-evidence primary <primary-root> main.unity3d 1485 --serialized-asset sharedassets0.assets --type MonoBehaviour --out <output.json>"
+    },
+    {
+      "id": "alternate-cnoptionmode-object-evidence",
+      "kind": "strict_object_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/option-mode-primary-vs-alternate/alternate.cnOptionMode.1598.object-evidence.json",
+      "bytes": 30585,
+      "sha256": "01dbe24cf44e2a5119d6371989338675db02e6f5583e540a9ad6b997e7d2a674",
+      "sourceContainerSha256": "ab157072bf5059043615686493269f58a0b2b9cd8cc804ab3196f44f104a6379",
+      "rawObjectSha256": "46947e59ff1f28b7703519b3c238fbcc19d7605ab5ea0534c72ac442c364ac53",
+      "pointerCount": 13,
+      "unresolvedPointerCount": 0,
+      "replayCommand": "cargo run --locked -- fusionforge dump-object-evidence alternate <alternate-root> main.unity3d 1598 --serialized-asset sharedassets0.assets --type MonoBehaviour --out <output.json>"
+    },
+    {
+      "id": "primary-vs-alternate-cnoptionmode-diff",
+      "kind": "structural_json_diff",
+      "path": "docs/reference/evidence/cases/artifacts/option-mode-primary-vs-alternate/primary-vs-alternate.cnOptionMode.diff.json",
+      "bytes": 6327,
+      "sha256": "b5ffeec14ed91cd3b5c3c3945335129daa6d699c115e918dad4791038d8d275a",
+      "inputs": [
+        "artifact:primary-cnoptionmode-object-evidence",
+        "artifact:alternate-cnoptionmode-object-evidence"
+      ],
+      "replayCommand": "cargo run --locked -- fusionforge compare-unity-json <primary-object-evidence.json> <alternate-object-evidence.json> --max 100000 --out <diff.json>"
+    },
+    {
+      "id": "primary-assembly-csharp-managed-evidence",
+      "kind": "strict_managed_assembly_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/option-mode-primary-vs-alternate/primary.assembly-csharp.managed-evidence.json",
+      "bytes": 1375,
+      "sha256": "43bb97513752a4c87afe3d87b70125735c13b412e7a4b64d367c835069049400",
+      "sourceContainerSha256": "59788201962b6a1737b114486c361fe74eef69f507d1d125ca3171377eec602f",
+      "exactEntry": "Assembly - CSharp.dll",
+      "payloadBytes": 1517568,
+      "payloadSha256": "33d6f70216b1c7ba05bcc0f270fba97e767b129159755af4c8835922e60acadb",
+      "clrMetadataBytes": 541268,
+      "clrMetadataSha256": "2d7ffe79054c9d5e09cd881600a6687b74f3e9f2e6698902410550b84b6201a0",
+      "producer": {
+        "baseRevision": "86324d05303a076b9814bddff800635cb2f73954",
+        "worktreeModified": true,
+        "executableBytes": 64107520,
+        "executableSha256": "75439f6dc049af9cf2cf2302a53c83b2175c3cd9e3b4f6a1fa79e7712372efb8"
+      },
+      "replayCommand": "cargo run --locked -- fusionforge export-managed-assembly-evidence primary <primary-root> main.unity3d \"Assembly - CSharp.dll\" --level 0 --out <report.json> --payload-out <portable-payload-path>"
+    },
+    {
+      "id": "alternate-assembly-csharp-managed-evidence",
+      "kind": "strict_managed_assembly_evidence",
+      "path": "docs/reference/evidence/cases/artifacts/option-mode-primary-vs-alternate/alternate.assembly-csharp.managed-evidence.json",
+      "bytes": 1379,
+      "sha256": "f5f50a17c0894cd6c6a997971abab3298681adb14a743bf665bd3a7e52c73a19",
+      "sourceContainerSha256": "ab157072bf5059043615686493269f58a0b2b9cd8cc804ab3196f44f104a6379",
+      "exactEntry": "Assembly - CSharp.dll",
+      "payloadBytes": 1884160,
+      "payloadSha256": "8db676ec4f12bda807d133cd5994c1b41b294fc803da61ea6cf594935cc1e834",
+      "clrMetadataBytes": 683820,
+      "clrMetadataSha256": "bd9099c880d56237b1f3cd4ce257ebd5d84c277c1bb690d5d317a978e0a33c1c",
+      "producer": {
+        "baseRevision": "86324d05303a076b9814bddff800635cb2f73954",
+        "worktreeModified": true,
+        "executableBytes": 64107520,
+        "executableSha256": "75439f6dc049af9cf2cf2302a53c83b2175c3cd9e3b4f6a1fa79e7712372efb8"
+      },
+      "replayCommand": "cargo run --locked -- fusionforge export-managed-assembly-evidence alternate <alternate-root> main.unity3d \"Assembly - CSharp.dll\" --level 0 --out <report.json> --payload-out <portable-payload-path>"
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "The alternate serialized cnOptionMode contract adds an InputBox2 field containing three rectangle entries; the primary contract has no InputBox2 field.",
+      "state": "proven",
+      "evidence": [
+        "artifact:primary-cnoptionmode-object-evidence",
+        "artifact:alternate-cnoptionmode-object-evidence",
+        "artifact:primary-vs-alternate-cnoptionmode-diff"
+      ],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "The added InputBox2 entry changes visible layout or interactive behavior.",
+      "state": "unresolved",
+      "evidence": [],
+      "rejectedBecause": null
+    }
+  ],
+  "differences": [
+    {
+      "id": "option-mode-serialized-fields",
+      "kind": "serialized_contract",
+      "state": "proven",
+      "evidence": [
+        "artifact:primary-cnoptionmode-object-evidence",
+        "artifact:alternate-cnoptionmode-object-evidence",
+        "artifact:primary-vs-alternate-cnoptionmode-diff"
+      ],
+      "identityScope": {
+        "relativeContainer": "main.unity3d",
+        "serializedAsset": "sharedassets0.assets",
+        "type": "MonoBehaviour"
+      },
+      "primary": {
+        "pathId": 1485,
+        "fieldCount": 63
+      },
+      "alternate": {
+        "pathId": 1598,
+        "fieldCount": 64,
+        "addedFields": [
+          {
+            "name": "InputBox2",
+            "arrayLength": 3
+          }
+        ]
+      },
+      "limit": "Serialized field presence proves a versioned contract difference, not visual or behavioral parity."
+    }
+  ],
+  "conclusion": {
+    "state": "partial",
+    "proven": [
+      "The primary and alternate OptionMode MonoBehaviours have different serialized contracts.",
+      "The alternate contract contains 64 serialized fields versus 63 in primary and adds an InputBox2 field with three rectangle entries."
+    ],
+    "unresolved": [
+      "Managed-code behavior associated with InputBox2.",
+      "Visual layout and interaction parity."
+    ]
+  },
+  "nativeContract": null,
+  "verification": [
+    {
+      "kind": "raw_container_identity",
+      "status": "passed",
+      "sources": [
+        "primary",
+        "alternate"
+      ]
+    },
+    {
+      "kind": "serialized_contract_diff",
+      "status": "passed",
+      "evidence": "artifact:primary-vs-alternate-cnoptionmode-diff"
+    },
+    {
+      "kind": "managed_assembly_identity",
+      "status": "passed",
+      "evidence": [
+        "artifact:primary-assembly-csharp-managed-evidence",
+        "artifact:alternate-assembly-csharp-managed-evidence"
+      ]
+    },
+    {
+      "kind": "managed_code_diff",
+      "status": "required",
+      "result": null
+    },
+    {
+      "kind": "deterministic_gpu_crop",
+      "status": "required",
+      "result": null
+    }
+  ]
+}

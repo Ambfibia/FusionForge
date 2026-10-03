@@ -1,0 +1,154 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "quest-symbols-primary-20260821-exact-material-v2",
+  "status": "accepted",
+  "supersedes": [
+    "quest-symbols-primary-20260821"
+  ],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "Effects.resourceFile",
+    "containerBytes": 8130528,
+    "containerSha256": "2aa08e85b7aefa8f7e22705ee2f1581befa83cc5708b32116ce8a46a273595e9",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 19415,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[865].prefab",
+        "trueName": "marker_progress"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject",
+        "pathId": 19432,
+        "fileId": 0,
+        "containerRoute": "prefabs/particle/effectscripts/es[866].prefab",
+        "trueName": "marker_acquire"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "legacy-quest-symbol-logical-model-publication",
+    "tool": "crates/ffone-asset-pipeline/src/logical_model_publish.rs",
+    "toolRevision": "workspace-file-sha256:4fb609c2cb15f6dd59541e8606fc8421a69d31f1b08268aa52f46d5eda9f4d99",
+    "workingDirectory": ".",
+    "commands": [
+      "ffone-asset-pipeline publish-logical-model 'work\\legacy-sources\\quest-symbols-retrobution-20260821\\es865.source.json' effect 'work\\legacy-sources\\quest-symbols-retrobution-20260821\\published-linear-es865'",
+      "ffone-asset-pipeline publish-logical-model 'work\\legacy-sources\\quest-symbols-retrobution-20260821\\es866.source.json' effect 'work\\legacy-sources\\quest-symbols-retrobution-20260821\\published-linear-es866'",
+      "ffone-asset-pipeline install-tutorial-effects --source retrobution --build 20260821 --target ..\\FFOneClient\\assets\\game"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "logical-model-source-progress",
+      "path": "work/legacy-sources/quest-symbols-retrobution-20260821/es865.source.json",
+      "bytes": 258126,
+      "sha256": "044b835e464c5a2ee9c96a5c75d71f375993fe823facb3fa23770db0c94d81e5"
+    },
+    {
+      "role": "logical-model-source-acquire",
+      "path": "work/legacy-sources/quest-symbols-retrobution-20260821/es866.source.json",
+      "bytes": 231354,
+      "sha256": "73f9b27c396d0ff35dc3ef3e14dc2f8644b139014bb5e8e6cbe00d7f4985bc55"
+    },
+    {
+      "role": "publisher-source",
+      "path": "crates/ffone-asset-pipeline/src/logical_model_publish.rs",
+      "bytes": 345085,
+      "sha256": "4fb609c2cb15f6dd59541e8606fc8421a69d31f1b08268aa52f46d5eda9f4d99"
+    },
+    {
+      "role": "strict-shader-contract",
+      "path": "crates/ffone-asset-pipeline/src/legacy_shader_state.rs",
+      "bytes": 131287,
+      "sha256": "8293b54a3949f5407d26812564bc11c889e2269b4ecf33291aa41700f52dbfd1"
+    },
+    {
+      "role": "staged-publish-report-progress",
+      "path": "work/legacy-sources/quest-symbols-retrobution-20260821/published-linear-es865/models/effect/marker_progress.publish.json",
+      "bytes": 10804,
+      "sha256": "722f8dbeae50e66f4c8d9c0716304d5f5598d9d9530acceec0b177cd684154e4"
+    },
+    {
+      "role": "staged-publish-report-acquire",
+      "path": "work/legacy-sources/quest-symbols-retrobution-20260821/published-linear-es866/models/effect/marker_acquire.publish.json",
+      "bytes": 10797,
+      "sha256": "afa80b2d5f160b96c0bcc10da13dacf77ce2c94c8c75ab0be86b62bdf69bea25"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/game/map/shared/effects/es865.closure.json",
+      "bytes": 427662,
+      "sha256": "7e9ca9ccde71fa58c8a686899b719423c87b89d3e324addf7adad6da51025f50"
+    },
+    {
+      "path": "assets/game/map/shared/effects/es866.closure.json",
+      "bytes": 329371,
+      "sha256": "1be3b26662c5e739fbd5d88faca0c5b8f91f3f37cefe5ea7dc2ef65ab7001ac1"
+    },
+    {
+      "path": "assets/game/map/shared/effects/models/es865/marker_progress.glb",
+      "bytes": 41176,
+      "sha256": "b6b9b494f3d26a9cdd3406479b5324f9fab75282ea4ca73528e3a4d64229ed66"
+    },
+    {
+      "path": "assets/game/map/shared/effects/models/es865/marker_progress.textures/marker_mask.png",
+      "bytes": 1682,
+      "sha256": "ec8bdddf37a1099b2d8ae45dc40e1c3fbb945b2b3fffcd6dda4b5feb4b0a3e72"
+    },
+    {
+      "path": "assets/game/map/shared/effects/models/es866/marker_acquire.glb",
+      "bytes": 31924,
+      "sha256": "ebdd36eedf7b10a38d798ffa852f15ec4c570a6497630af8a9eb410b8ca1700d"
+    },
+    {
+      "path": "assets/game/map/shared/effects/models/es866/marker_acquire.textures/marker_mask.png",
+      "bytes": 1682,
+      "sha256": "ec8bdddf37a1099b2d8ae45dc40e1c3fbb945b2b3fffcd6dda4b5feb4b0a3e72"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "cargo test -p ffone-asset-pipeline packed_shader_masks_publish_as_linear_data",
+      "result": "passed",
+      "evidence": null
+    },
+    {
+      "command": "cargo test -p ffone-client --lib production_quest_symbol_keeps_exact_packed_mask_and_two_pass_shader",
+      "result": "passed",
+      "evidence": null
+    },
+    {
+      "command": "cargo test -p ffone-client --lib installed_effect_and_projectile_closures_compile_to_native_plans",
+      "result": "passed",
+      "evidence": null
+    },
+    {
+      "command": "cargo run -p ffone-client --example tutorial_mission_indicator_gpu_preview -- assets/game target/quest-symbol-es866-exact-60.png quest full 60",
+      "result": "passed: ES866 attachmentMatches=1, activeInstances=1, effectAnimationPlaying=true",
+      "evidence": "../FFOneClient/target/quest-symbol-es866-exact-60.png"
+    },
+    {
+      "command": "cargo run -p ffone-client --example tutorial_mission_indicator_gpu_preview -- assets/game target/quest-symbol-es866-exact-180.png quest full 180",
+      "result": "passed: second distinct frame from the looping eight-second source clip",
+      "evidence": "../FFOneClient/target/quest-symbol-es866-exact-180.png"
+    },
+    {
+      "command": "cargo run -p ffone-client --example tutorial_mission_indicator_gpu_preview -- assets/game target/quest-symbol-es865-exact-60.png progress full 60",
+      "result": "passed: ES865 attachmentMatches=1, activeInstances=1, effectAnimationPlaying=true",
+      "evidence": "../FFOneClient/target/quest-symbol-es865-exact-60.png"
+    },
+    {
+      "command": "cargo run -p ffone-client --example tutorial_mission_indicator_gpu_preview -- assets/game target/quest-symbol-es865-exact-180.png progress full 180",
+      "result": "passed: second distinct frame from the looping eight-second source clip",
+      "evidence": "../FFOneClient/target/quest-symbol-es865-exact-180.png"
+    }
+  ]
+}

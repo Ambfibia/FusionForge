@@ -1,0 +1,44 @@
+{
+  "schema": "fusionforge.ui-interaction-analysis-request.v1",
+  "schemaVersion": 1,
+  "managed": {
+    "evidenceReport": "managed-evidence.json",
+    "payload": "managed/Assembly-CSharp.dll"
+  },
+  "roots": [
+    {
+      "declaringType": "cnDisplayMapName",
+      "name": "OnOwnGUI",
+      "parameterTypes": [],
+      "returnType": "System.Void"
+    },
+    {
+      "declaringType": "cnDisplayMapName",
+      "name": "QuestItem",
+      "parameterTypes": [
+        "System.Int32",
+        "System.Int32",
+        "System.Int32"
+      ],
+      "returnType": "System.Void"
+    },
+    {
+      "declaringType": "cnDisplayMapName",
+      "name": "RewardItem",
+      "parameterTypes": [
+        "sItemReward"
+      ],
+      "returnType": "System.Void"
+    },
+    {
+      "declaringType": "cnDisplayMapName",
+      "name": "Update",
+      "parameterTypes": [],
+      "returnType": "System.Void"
+    }
+  ],
+  "traversal": {
+    "maxDirectCallDepth": 1,
+    "maxMethods": 512
+  }
+}

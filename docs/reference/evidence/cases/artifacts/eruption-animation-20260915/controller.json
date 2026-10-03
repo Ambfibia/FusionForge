@@ -1,0 +1,260 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "customassetbundle-b4f543c102ded400fbc6f1da25d9679a",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 2,
+      "filePath": "customassetbundle-bd5f53480423447d7bcaed95cb2a96c8",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 114,
+    "name": "",
+    "pathId": 15173,
+    "rawBytes": 256,
+    "rawSha256": "5e13fb9c0181db8a77de9064d1dcca5e86e785814159914bb141aedf59bc5d6d",
+    "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+    "type": "MonoBehaviour",
+    "typeId": -3,
+    "value": {
+      "TrailTimes": 0.25,
+      "conformToScale": 0,
+      "disableUpdate": 0,
+      "effectName": "mega",
+      "go": {
+        "fileId": 0,
+        "pathId": 0
+      },
+      "longestLifeTime": 1.0,
+      "m_Enabled": true,
+      "m_GameObject": {
+        "fileId": 0,
+        "pathId": 9840
+      },
+      "m_Name": "",
+      "m_Script": {
+        "fileId": 1,
+        "pathId": 1914
+      },
+      "maxTimer": 1.0,
+      "nifObject": {
+        "fileId": 0,
+        "pathId": 11118
+      },
+      "particles": [
+        {
+          "particle": {
+            "fileId": 0,
+            "pathId": 0
+          },
+          "particlePrefab": {
+            "fileId": 0,
+            "pathId": 9083
+          },
+          "scriptKeys": [
+            {
+              "genType": 1,
+              "time": 0.0,
+              "translate": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "genType": 1,
+              "time": 1.0,
+              "translate": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "particle": {
+            "fileId": 0,
+            "pathId": 0
+          },
+          "particlePrefab": {
+            "fileId": 0,
+            "pathId": 10421
+          },
+          "scriptKeys": [
+            {
+              "genType": 1,
+              "time": 0.0,
+              "translate": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "genType": 1,
+              "time": 1.0,
+              "translate": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "particle": {
+            "fileId": 0,
+            "pathId": 0
+          },
+          "particlePrefab": {
+            "fileId": 0,
+            "pathId": 8758
+          },
+          "scriptKeys": [
+            {
+              "genType": 1,
+              "time": 0.0,
+              "translate": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "genType": 1,
+              "time": 1.0,
+              "translate": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        }
+      ],
+      "priority": 0
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/go",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/m_GameObject",
+      "fileId": 0,
+      "pathId": 9840,
+      "status": "resolved",
+      "target": {
+        "pathId": 9840,
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918 external fileID 1 ('customassetbundle-b4f543c102ded400fbc6f1da25d9679a'/'') is not loaded",
+      "fieldPath": "/m_Script",
+      "fileId": 1,
+      "pathId": 1914,
+      "status": "unresolved",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/nifObject",
+      "fileId": 0,
+      "pathId": 11118,
+      "status": "resolved",
+      "target": {
+        "pathId": 11118,
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/particles/0/particle",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/particles/0/particlePrefab",
+      "fileId": 0,
+      "pathId": 9083,
+      "status": "resolved",
+      "target": {
+        "pathId": 9083,
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/particles/1/particle",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/particles/1/particlePrefab",
+      "fileId": 0,
+      "pathId": 10421,
+      "status": "resolved",
+      "target": {
+        "pathId": 10421,
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject"
+      }
+    },
+    {
+      "error": null,
+      "fieldPath": "/particles/2/particle",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    },
+    {
+      "error": null,
+      "fieldPath": "/particles/2/particlePrefab",
+      "fileId": 0,
+      "pathId": 8758,
+      "status": "resolved",
+      "target": {
+        "pathId": 8758,
+        "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+        "type": "GameObject"
+      }
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8130528,
+    "relativeContainer": "Effects.resourceFile",
+    "sha256": "2aa08e85b7aefa8f7e22705ee2f1581befa83cc5708b32116ce8a46a273595e9"
+  },
+  "triage": {
+    "allowUnresolvedPointers": true,
+    "unresolvedPointerCount": 1
+  }
+}

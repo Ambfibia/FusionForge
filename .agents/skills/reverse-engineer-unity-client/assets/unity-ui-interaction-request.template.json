@@ -1,0 +1,20 @@
+{
+  "schema": "fusionforge.ui-interaction-analysis-request.v1",
+  "schemaVersion": 1,
+  "managed": {
+    "evidenceReport": "reports/managed-assembly.evidence.json",
+    "payload": "managed/Assembly-CSharp.dll"
+  },
+  "roots": [
+    {
+      "declaringType": "replace.ExactManagedType",
+      "name": "OnGUI",
+      "parameterTypes": [],
+      "returnType": "System.Void"
+    }
+  ],
+  "traversal": {
+    "maxDirectCallDepth": 1,
+    "maxMethods": 512
+  }
+}

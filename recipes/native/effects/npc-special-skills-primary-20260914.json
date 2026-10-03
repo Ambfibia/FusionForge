@@ -1,0 +1,697 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "npc-special-skills-primary-20260914",
+  "status": "accepted",
+  "supersedes": [],
+  "source": [
+    {
+      "alias": "primary",
+      "container": "Effects.resourceFile",
+      "bytes": 8130528,
+      "sha256": "2aa08e85b7aefa8f7e22705ee2f1581befa83cc5708b32116ce8a46a273595e9"
+    },
+    {
+      "alias": "primary",
+      "container": "Tutorial.resourceFile",
+      "bytes": 33327638,
+      "sha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916"
+    }
+  ],
+  "objects": [
+    {
+      "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+      "type": "GameObject",
+      "pathId": 11088,
+      "effectId": 530
+    },
+    {
+      "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+      "type": "GameObject",
+      "pathId": 11278,
+      "effectId": 531
+    },
+    {
+      "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+      "type": "GameObject",
+      "pathId": 9147,
+      "effectId": 532
+    },
+    {
+      "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+      "type": "GameObject",
+      "pathId": 10068,
+      "effectId": 592
+    },
+    {
+      "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+      "type": "GameObject",
+      "pathId": 9840,
+      "effectId": 766
+    }
+  ],
+  "transform": {
+    "tool": "tools/legacy-sources/publish-nano-status-effects.py",
+    "toolSha256": "3f67b4021a38ea6a0f1031237f9eac0ff0c3c83b730e6038579f09025d3583fb",
+    "workingDirectory": "FFClientEditor",
+    "command": "python tools/legacy-sources/publish-nano-status-effects.py --preset npc-special --source-root ../builds/retrobution-20260821 --navigation work/projects/retrobution-ui-20260821.ffclient --work work/cases/npc-abilities-20260914 --target-root ../FFOneClient/assets/game"
+  },
+  "outputs": [
+    {
+      "path": "effects/npc-skills/catalog.json",
+      "bytes": 214552,
+      "sha256": "4667be496e9da28d9b9ff26b97f0c502d8334e539fdcb5f6d5e79cbd6b20b2ee"
+    },
+    {
+      "path": "effects/npc-skills/eruption-mark.png",
+      "bytes": 505686,
+      "sha256": "3660bd4a34d9bbdc77bf6833b118ba438d7f2d6912d7b878c5fceb5ab949ceb1"
+    },
+    {
+      "path": "effects/npc-skills/mega/mega.glb",
+      "bytes": 175112,
+      "sha256": "4b29b78b28242232b2a4cd1ab4e11e447803aa837bc45893753a86cdcf6ab6e6"
+    },
+    {
+      "path": "effects/npc-skills/textures/a_f_corruptak1.png",
+      "bytes": 49637,
+      "sha256": "29c9f7c1924f537f03a8be0adf5612402019720705264649d91e80df68fcda32"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_06.mip1.png",
+      "bytes": 4324,
+      "sha256": "12851e316eff6cad41b1570887e992adf42eaf73ba9298be848f42963d184c44"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_06.mip2.png",
+      "bytes": 1661,
+      "sha256": "005dc0e5f443580fa5ee0db8a52afb72d8ac0108d37ec300d7e134d015248467"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_06.mip3.png",
+      "bytes": 648,
+      "sha256": "3b1914e5c7912486e844a0a00c125a1052505ddb64ceec2a344ed0c5d797084f"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_06.mip4.png",
+      "bytes": 266,
+      "sha256": "d13f63d25089d5a08b63b487e9b5dab7170a24d0bac53650f61d7a0fd9771dc8"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_06.mip5.png",
+      "bytes": 136,
+      "sha256": "0444921f68f2e06118486b4481e53095ea5b9abb0bf0693b6df36a915c6fa931"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_06.mip6.png",
+      "bytes": 86,
+      "sha256": "9bf4f4cbae05788a13d3845ff9c4ef6152cdb3521e53b3891c921e95eb395e51"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_06.mip7.png",
+      "bytes": 73,
+      "sha256": "b355d02ab32c39053adb8c13a9d5364f2481c921849466e098374a3f56002689"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_06.png",
+      "bytes": 11728,
+      "sha256": "546dbf21d74f7ba6985baef6b923696335490db960159b64fc6042d2542213bc"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_07.mip1.png",
+      "bytes": 2166,
+      "sha256": "6827415a12ef4ff4031863e2725fb187fda7974bb03f31e197072af78b74f8b0"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_07.mip2.png",
+      "bytes": 756,
+      "sha256": "645dda59bb78a7f9f3f5dca8c427173093889a7b4b1c5878c874f45d5afab2d6"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_07.mip3.png",
+      "bytes": 271,
+      "sha256": "dd32ca2161fb6efb9aebfb74d13bc434e5b3393ef51f2b6095be3a9b7508c2f4"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_07.mip4.png",
+      "bytes": 136,
+      "sha256": "5770469284fa99f579777007da366bd380e8c7e54ac85ca8ee9b489f7c7f5c9f"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_07.mip5.png",
+      "bytes": 86,
+      "sha256": "be6393009157fdbdb9937480964ac110714d374b749c8038b12a41ed160cd6f4"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_07.mip6.png",
+      "bytes": 73,
+      "sha256": "ea4a26c140e827831d92e259984f32e3169b5af5f427f5f6508d9ca9af5455b1"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_07.png",
+      "bytes": 6933,
+      "sha256": "c12aec4e347b8ed13befe06b7771280f350dcc64667f1508879cd0be7ea434bd"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_13.mip1.png",
+      "bytes": 9039,
+      "sha256": "8161c47b78434c89a5def8dc1c119e534506ab9e5c5058c1df40651a9fe9ca61"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_13.mip2.png",
+      "bytes": 2726,
+      "sha256": "3527fb2eb819a97f0a54dc939bb600e1c12ac9e66509270b92348051ba8f2b4a"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_13.mip3.png",
+      "bytes": 792,
+      "sha256": "893fa6bed133bb00e6b81876018fa677c06b155e5599b2dcfae59cdec4e8f56e"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_13.mip4.png",
+      "bytes": 284,
+      "sha256": "8a03ccc7c842a81aad6b8c587557267270114cc15d2febdc1ad6390d0b0c878c"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_13.mip5.png",
+      "bytes": 136,
+      "sha256": "74fad1c97ef2bd5b496d21a1750bcbdda9ca0682bb046ffa37fdac06cc0ca152"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_13.mip6.png",
+      "bytes": 86,
+      "sha256": "2c533419cec4b1f75916d591203199c9c757339c460f81d7cdfaa95c4936d4dc"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_13.mip7.png",
+      "bytes": 73,
+      "sha256": "0fea6397ac73baddc98663c84ab6ffa57d85499ada75fbc1c9c3bc2041ce8e7c"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_13.png",
+      "bytes": 31481,
+      "sha256": "1a1cffe934e6da0344c92b3d15edf6661c49b900f4870bcdf667fd47b58c50c2"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_15.mip1.png",
+      "bytes": 3537,
+      "sha256": "3212938a238ac4e477c73ef9a45119cd2e31c6470190811ad9e4d199d16e8bc3"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_15.mip2.png",
+      "bytes": 1101,
+      "sha256": "7777243ef958d7c65cb7344d823d25bb14bf6b911b6f0071d9d270d5ae2069cb"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_15.mip3.png",
+      "bytes": 458,
+      "sha256": "629ebb3d149cd7ac0a3e952624fc04d7540f1782eb8b9d861eb74591e75b0410"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_15.mip4.png",
+      "bytes": 223,
+      "sha256": "bc9eda3df296e069375dd730a837b083e4120d4c3e0b2fe2e411e41ab577d2c3"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_15.mip5.png",
+      "bytes": 136,
+      "sha256": "fbd920eab284203b1d44797dca20a4da35131d7239c52d3b7756ce01ec450f6a"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_15.mip6.png",
+      "bytes": 86,
+      "sha256": "31a24140bccc9ee581eeba08a85dd719a931db8525c085ed5903f9b6de895f9c"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_15.mip7.png",
+      "bytes": 73,
+      "sha256": "514ccfec54f080b375c34b1ec7594d248d74555b71e28f6805957a82d8436308"
+    },
+    {
+      "path": "effects/npc-skills/textures/attack_hit_15.png",
+      "bytes": 12070,
+      "sha256": "412443d64b333bdd34f98c721dc890bee5336f5c63ecd1276b9d16ef6a13b25e"
+    },
+    {
+      "path": "effects/npc-skills/textures/blackhole.png",
+      "bytes": 246618,
+      "sha256": "7ef560b7c635b569bdc284724917ab143f6af314885f9cad3e7de7990cd99121"
+    },
+    {
+      "path": "effects/npc-skills/textures/bubble_tie_02.mip1.png",
+      "bytes": 25894,
+      "sha256": "697db4c98ab715c98b903f0f0ae1936e128cb731f814af7b70d7d1dfcf7eea0c"
+    },
+    {
+      "path": "effects/npc-skills/textures/bubble_tie_02.mip2.png",
+      "bytes": 7707,
+      "sha256": "301f61581acc6aceea41c0b370839a8884f463c4de635d5354da4c72890aff5a"
+    },
+    {
+      "path": "effects/npc-skills/textures/bubble_tie_02.mip3.png",
+      "bytes": 2279,
+      "sha256": "396c057c15c28c3b7fcc1775043d53bc446482701819fad7f5d4b6a6849e6c34"
+    },
+    {
+      "path": "effects/npc-skills/textures/bubble_tie_02.mip4.png",
+      "bytes": 725,
+      "sha256": "4df09f47a8e19494bfe136073046aeae5d3568f65a8f37dece11202129a75d34"
+    },
+    {
+      "path": "effects/npc-skills/textures/bubble_tie_02.mip5.png",
+      "bytes": 307,
+      "sha256": "0472af4673b0ca14a8774719730331a520c861b34ee7abacf9f825fb711b600d"
+    },
+    {
+      "path": "effects/npc-skills/textures/bubble_tie_02.mip6.png",
+      "bytes": 136,
+      "sha256": "c82e56261a80a96fee4b74354847be5b0289b2138528fa0201556f69dffc4ea9"
+    },
+    {
+      "path": "effects/npc-skills/textures/bubble_tie_02.mip7.png",
+      "bytes": 86,
+      "sha256": "da9c28839059d0ad44256400b19fdbb53fbd19ebc777478d51cdd171209bf099"
+    },
+    {
+      "path": "effects/npc-skills/textures/bubble_tie_02.mip8.png",
+      "bytes": 73,
+      "sha256": "c009e215bd551c2549679c2a446b447c2a32bbc8dda49b252c527bd95619104d"
+    },
+    {
+      "path": "effects/npc-skills/textures/bubble_tie_02.png",
+      "bytes": 92357,
+      "sha256": "5432c71861c69e370f3b3d2d82a2946040364ee7a77565fafac6de46791f47d1"
+    },
+    {
+      "path": "effects/npc-skills/textures/dakcho.png",
+      "bytes": 6856,
+      "sha256": "3d6c90fbf7529c4f0a286965415a0c2c4b22f58206691446d4afdb3e6c635c62"
+    },
+    {
+      "path": "effects/npc-skills/textures/gd_sword02-85bf17fb7ea4.mips/mip-01.png",
+      "bytes": 1392,
+      "sha256": "8c8213de6667e518920b32bfd101cc250a8c6f25193272879cb165b7e1823e68"
+    },
+    {
+      "path": "effects/npc-skills/textures/gd_sword02-85bf17fb7ea4.mips/mip-02.png",
+      "bytes": 502,
+      "sha256": "556bad067df456ad09ed338da831b9306620fadeb06a0d58085e269236cc8351"
+    },
+    {
+      "path": "effects/npc-skills/textures/gd_sword02-85bf17fb7ea4.mips/mip-03.png",
+      "bytes": 236,
+      "sha256": "8fc90d78867984ae80cd441a3712dae9ed726662eef40f486bb486ecb4b0b82d"
+    },
+    {
+      "path": "effects/npc-skills/textures/gd_sword02-85bf17fb7ea4.mips/mip-04.png",
+      "bytes": 140,
+      "sha256": "de56ac70963672a59b4836f0a98cc0fbbe02fb7f7792340585f27c49bb6d8c53"
+    },
+    {
+      "path": "effects/npc-skills/textures/gd_sword02-85bf17fb7ea4.mips/mip-05.png",
+      "bytes": 88,
+      "sha256": "3524212bf36c93b483cc2788523c295fb70acb20c5bddcdadbb6d8f53b43ae85"
+    },
+    {
+      "path": "effects/npc-skills/textures/gd_sword02-85bf17fb7ea4.mips/mip-06.png",
+      "bytes": 78,
+      "sha256": "8c501a974a9f77eaa0f1775fccd3ba353d1cfa93c848f24f3581ffc3df911cb1"
+    },
+    {
+      "path": "effects/npc-skills/textures/gd_sword02-85bf17fb7ea4.mips/mip-07.png",
+      "bytes": 73,
+      "sha256": "e6205d1e24eef39d306c7a003497834d754d170a73894052c60cb8ba0d6afb4b"
+    },
+    {
+      "path": "effects/npc-skills/textures/gd_sword02-85bf17fb7ea4.png",
+      "bytes": 3922,
+      "sha256": "c60f96ef7ba9bfba40782bb4a84808dca060adbe3451204560ca73d55deb82fe"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_ball_01-2c23fd3bf37f.mips/mip-01.png",
+      "bytes": 2155,
+      "sha256": "51641344bb5d8f87ee9dcaa04f628f4ebdd315a587d20e19e4fb9d075115aa64"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_ball_01-2c23fd3bf37f.mips/mip-02.png",
+      "bytes": 677,
+      "sha256": "6f39cb7469b6eb83b48e27a29451866beb9a736b283d11236f8af364bb7f6f9e"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_ball_01-2c23fd3bf37f.mips/mip-03.png",
+      "bytes": 251,
+      "sha256": "f7f2fbb034ae11fd6df90c509597cbdeee9a9d6f06bb82afc9009b1c69362f1c"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_ball_01-2c23fd3bf37f.mips/mip-04.png",
+      "bytes": 136,
+      "sha256": "3878f70682e7d7c01e955eaddaddb363dd910ce617a1e20332ca371d592c7682"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_ball_01-2c23fd3bf37f.mips/mip-05.png",
+      "bytes": 86,
+      "sha256": "04d4699630b8093c812f8169f231c42b9249115516acd8ea4eca5f95c8207565"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_ball_01-2c23fd3bf37f.mips/mip-06.png",
+      "bytes": 73,
+      "sha256": "2179bee385d215f726dac0119e48391ebf0950e3c1362895c1a7d70f86280470"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_ball_01-2c23fd3bf37f.png",
+      "bytes": 7137,
+      "sha256": "59d89dcb695e18edf1015f6523836e8dd5fd05a68af3694d53922b6d4cb95268"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_dust_01.mip1.png",
+      "bytes": 1413,
+      "sha256": "18ec4c87fe8c49f3f8332d4ed42ccd0c441de997479ca6ea7b6987daf0106213"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_dust_01.mip2.png",
+      "bytes": 525,
+      "sha256": "202a22ec96c891e61b66016f608d39e27e6dad9b656f2c226d65e8a5a10afc0a"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_dust_01.mip3.png",
+      "bytes": 249,
+      "sha256": "3cf0a9beeb6865e28fda2783a034a6b10e01883e027a9b942d2f09db6c2c4ece"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_dust_01.mip4.png",
+      "bytes": 136,
+      "sha256": "170369c95f1c134cace687cd1d4f03d5134c085efb555d01309e85b8155c8a00"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_dust_01.mip5.png",
+      "bytes": 86,
+      "sha256": "90793485ecc04fb52a452b02682575d5094a08d132d5659f16a4994ea5c9d7e7"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_dust_01.mip6.png",
+      "bytes": 73,
+      "sha256": "48474b0b59f98244d5415ee2f4b5ef3ca37883de1b13811b2912315650b7c4ff"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_dust_01.png",
+      "bytes": 4288,
+      "sha256": "4490648b64db8c6b9c0c89a6d282b0c93ad3b4525ccd0b00ec0fd68ec46b8de0"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_light_01-d6538a5476f6.mips/mip-01.png",
+      "bytes": 1887,
+      "sha256": "06c61d573f292599528ac478a7b1c3b8796fc603397c8019349a621b33f21b48"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_light_01-d6538a5476f6.mips/mip-02.png",
+      "bytes": 635,
+      "sha256": "2981d55be2625d8ad438d9f898be703e5f42a4051243568e9e18cadc647d286a"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_light_01-d6538a5476f6.mips/mip-03.png",
+      "bytes": 281,
+      "sha256": "0ea71a2ba2bc3b575e9695f65739bda86c214d888462967d5e4ee870ffe1a17f"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_light_01-d6538a5476f6.mips/mip-04.png",
+      "bytes": 136,
+      "sha256": "4bd0edbfc8ccdf97bc066d8ab0d7677ef63d3734f9bfb5221a705a57a738a22c"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_light_01-d6538a5476f6.mips/mip-05.png",
+      "bytes": 86,
+      "sha256": "3cd8cafd409143eb20defd18c54fa8a15912272975c092affd91752cc803aba1"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_light_01-d6538a5476f6.mips/mip-06.png",
+      "bytes": 73,
+      "sha256": "6192c379eacbaea8390f3affe3076c4adea5f347da45b61ed173be0cf6c4fa0f"
+    },
+    {
+      "path": "effects/npc-skills/textures/green_light_01-d6538a5476f6.png",
+      "bytes": 6152,
+      "sha256": "9df2580a02da7e3bd93aad81233bfef9ef398eff17e8e6d53287efe6c6be7edd"
+    },
+    {
+      "path": "effects/npc-skills/textures/Haunted_stone02-efa048c743ca.mips/mip-01.png",
+      "bytes": 27027,
+      "sha256": "9596e89251fee756a09a96ce3294a0d683d1f4f3becf0d5aa5d9c42a94ab6702"
+    },
+    {
+      "path": "effects/npc-skills/textures/Haunted_stone02-efa048c743ca.mips/mip-02.png",
+      "bytes": 7298,
+      "sha256": "47f691278409f69175f0e89b29d08a4ac851b06ad50381a35e1e5679d34af99f"
+    },
+    {
+      "path": "effects/npc-skills/textures/Haunted_stone02-efa048c743ca.mips/mip-03.png",
+      "bytes": 2028,
+      "sha256": "76aad7639f3043c2e0fa1e99045e5a6219b82d477e1087cf5b782fc9e803c85c"
+    },
+    {
+      "path": "effects/npc-skills/textures/Haunted_stone02-efa048c743ca.mips/mip-04.png",
+      "bytes": 606,
+      "sha256": "457af392c868a8135f74c5e49d1ad67af42be9374d9a5eb048bb09b54b2fe78e"
+    },
+    {
+      "path": "effects/npc-skills/textures/Haunted_stone02-efa048c743ca.mips/mip-05.png",
+      "bytes": 240,
+      "sha256": "e06c541ed17da024a07595b8b1917f055d3b35522b68fa1f9164a764402b3268"
+    },
+    {
+      "path": "effects/npc-skills/textures/Haunted_stone02-efa048c743ca.mips/mip-06.png",
+      "bytes": 136,
+      "sha256": "8986b03a00ee2e77085aefda0092564e4ba46812ffb7214bc802254218f1d3f4"
+    },
+    {
+      "path": "effects/npc-skills/textures/Haunted_stone02-efa048c743ca.mips/mip-07.png",
+      "bytes": 86,
+      "sha256": "d567d6af8d5703508889793c1789a2ba2acd0288566a8a527aa919e792d1204c"
+    },
+    {
+      "path": "effects/npc-skills/textures/Haunted_stone02-efa048c743ca.mips/mip-08.png",
+      "bytes": 73,
+      "sha256": "109763894813ccad6b405a85b10e2fde8e24cbb200f6e23cdfb330afe364d008"
+    },
+    {
+      "path": "effects/npc-skills/textures/Haunted_stone02-efa048c743ca.png",
+      "bytes": 142359,
+      "sha256": "b03153b038741986333da3a893f50001aad26a102679defd7ef35bb183a1b02d"
+    },
+    {
+      "path": "effects/npc-skills/textures/k_health_area_10.mip1.png",
+      "bytes": 1766,
+      "sha256": "d85d404454c753a09477fb6b65c9a445798752bea3020c6ef30fe8c28036d1a1"
+    },
+    {
+      "path": "effects/npc-skills/textures/k_health_area_10.mip2.png",
+      "bytes": 735,
+      "sha256": "9dab36c3a61d44dc2d94b20c7ca36ce176912d03168f1f910a20380054c048fb"
+    },
+    {
+      "path": "effects/npc-skills/textures/k_health_area_10.mip3.png",
+      "bytes": 332,
+      "sha256": "c1544982955d10a424d7cb1a0ed785ad645efcd2a170ace0b679235fca064381"
+    },
+    {
+      "path": "effects/npc-skills/textures/k_health_area_10.mip4.png",
+      "bytes": 136,
+      "sha256": "22222326e2df8b9e5bfd19ec7280899c80570265e6885f4db5338bcd2a06e9ef"
+    },
+    {
+      "path": "effects/npc-skills/textures/k_health_area_10.mip5.png",
+      "bytes": 86,
+      "sha256": "4d02e8a5482ec2f185a67a6ac6adc477615fd0e81036a287eb1e52f201ce4d6f"
+    },
+    {
+      "path": "effects/npc-skills/textures/k_health_area_10.mip6.png",
+      "bytes": 73,
+      "sha256": "6197effe76cdadf14bb31cd269040de50b0c941e2be8731edc108d554087ed55"
+    },
+    {
+      "path": "effects/npc-skills/textures/k_health_area_10.png",
+      "bytes": 5092,
+      "sha256": "0bbd2f48f74efa6878565d8655a17fd8e26de72fde24055bb683b35b64460682"
+    },
+    {
+      "path": "effects/npc-skills/textures/k_protectionbattery_02.mip1.png",
+      "bytes": 1190,
+      "sha256": "ee78fe8dda896f5b59dc09056439c9faca434d59f848bda00dd0fb5ef275055f"
+    },
+    {
+      "path": "effects/npc-skills/textures/k_protectionbattery_02.mip2.png",
+      "bytes": 487,
+      "sha256": "292e549beebc6942bcc14ee05f69acc88da4f81d6e930eaaefd34827b7085d6a"
+    },
+    {
+      "path": "effects/npc-skills/textures/k_protectionbattery_02.mip3.png",
+      "bytes": 251,
+      "sha256": "2eb91dc65fe784cfbbcd6436ffb145c844f9a7ad72e40bd88f568286c07524fb"
+    },
+    {
+      "path": "effects/npc-skills/textures/k_protectionbattery_02.mip4.png",
+      "bytes": 136,
+      "sha256": "ac23a15e9300e249982c7a97001861dfbf80d332176a90b24a53709cd3e754dd"
+    },
+    {
+      "path": "effects/npc-skills/textures/k_protectionbattery_02.mip5.png",
+      "bytes": 86,
+      "sha256": "841c9a5ae6940a7a77110f8062c7d736a437146d7283797a1c2757f2a7bdab19"
+    },
+    {
+      "path": "effects/npc-skills/textures/k_protectionbattery_02.mip6.png",
+      "bytes": 73,
+      "sha256": "48d8e4864c23c329af6ac7e63771c7ec36875a2383635b1f3c34f75588a1db48"
+    },
+    {
+      "path": "effects/npc-skills/textures/k_protectionbattery_02.png",
+      "bytes": 2947,
+      "sha256": "c9834c5da797167b990e3ad319ef14d7419b2228d174409b99480d899d2a1b07"
+    },
+    {
+      "path": "effects/npc-skills/textures/mgaattack_projectile.mip1.png",
+      "bytes": 5275,
+      "sha256": "7d4655684b6830429d515fe6115b12a464d5cc9db932ed0c633553e89855ae3d"
+    },
+    {
+      "path": "effects/npc-skills/textures/mgaattack_projectile.mip2.png",
+      "bytes": 1667,
+      "sha256": "3f00dc823a53caeffac1a9616437e52a4884e528f9f5774a73dc2d4ea3fea862"
+    },
+    {
+      "path": "effects/npc-skills/textures/mgaattack_projectile.mip3.png",
+      "bytes": 613,
+      "sha256": "89c1fb1c735b2fc99a6bc07534a282a888fd4b4413c01b39ae08db1a04be5758"
+    },
+    {
+      "path": "effects/npc-skills/textures/mgaattack_projectile.mip4.png",
+      "bytes": 222,
+      "sha256": "91e3fe28bb41dc77f9836323e4379a81ce2b9acd72ff3fb1ef83d6f758867498"
+    },
+    {
+      "path": "effects/npc-skills/textures/mgaattack_projectile.mip5.png",
+      "bytes": 136,
+      "sha256": "fc57ec628dfe550fe7107a98924a44804c9174fb789b41e9ed0f7e31d736b147"
+    },
+    {
+      "path": "effects/npc-skills/textures/mgaattack_projectile.mip6.png",
+      "bytes": 86,
+      "sha256": "2a5d27b77e5efa5267c3a661974940a65ca03ebca1f29746b3badeb82a95ab1c"
+    },
+    {
+      "path": "effects/npc-skills/textures/mgaattack_projectile.mip7.png",
+      "bytes": 73,
+      "sha256": "d0f1c8ca1f142232430dcc959ef361754c08a4699904f4926cc902e89175a19b"
+    },
+    {
+      "path": "effects/npc-skills/textures/mgaattack_projectile.png",
+      "bytes": 17131,
+      "sha256": "f577f87fb6ce618c35e4ab4166662280f490282270595bb985c587b87d30044e"
+    },
+    {
+      "path": "effects/npc-skills/textures/mon_at_glow_e01.png",
+      "bytes": 48865,
+      "sha256": "3771e883657b84968961323c3da6fed56c4282b3190f10d191c803cb7373173d"
+    },
+    {
+      "path": "effects/npc-skills/textures/skill_heal_02.mip1.png",
+      "bytes": 26687,
+      "sha256": "7102542186a10c2fed437077102d3ea29f50e881b1b7b1c0cffaf60cf97d2103"
+    },
+    {
+      "path": "effects/npc-skills/textures/skill_heal_02.mip2.png",
+      "bytes": 7977,
+      "sha256": "9f98fe7d3fe6a91d3f7ebcbb3a79f089f91cae7785865c28c6ca1aae72e6e223"
+    },
+    {
+      "path": "effects/npc-skills/textures/skill_heal_02.mip3.png",
+      "bytes": 2415,
+      "sha256": "6b9abd894d70483f264d5a6ad6ca87e1916edb67e9cf4ea5226455491c02f2a1"
+    },
+    {
+      "path": "effects/npc-skills/textures/skill_heal_02.mip4.png",
+      "bytes": 792,
+      "sha256": "2a966531ac9409e877681c6101dbaddc07b9cb74b4faef5390810d2cb9e2dcce"
+    },
+    {
+      "path": "effects/npc-skills/textures/skill_heal_02.mip5.png",
+      "bytes": 280,
+      "sha256": "036006bd0a2005774a858a5390ca1ebc468d7252129811acfe6a42be222a5f7c"
+    },
+    {
+      "path": "effects/npc-skills/textures/skill_heal_02.mip6.png",
+      "bytes": 136,
+      "sha256": "5f184bcc933357d7a0c3fd86132e8ea77651126e6038a0154866996ad9bf3288"
+    },
+    {
+      "path": "effects/npc-skills/textures/skill_heal_02.mip7.png",
+      "bytes": 86,
+      "sha256": "a72ff14c183f7eee30b8649ee1223d7fb8f3ccb9e622e00880822b9962ce9730"
+    },
+    {
+      "path": "effects/npc-skills/textures/skill_heal_02.mip8.png",
+      "bytes": 73,
+      "sha256": "c5e3bcfd92cb02714be2fca9d3e06a127ec9da5267ca382d50d611a36c83ec96"
+    },
+    {
+      "path": "effects/npc-skills/textures/skill_heal_02.png",
+      "bytes": 95507,
+      "sha256": "4a16ac94db5301a83463144fba7380d757f13ed68236689b62bd3e59a4c5948d"
+    },
+    {
+      "path": "effects/npc-skills/textures/spark-ad557f61d00b.mips/mip-01.png",
+      "bytes": 4135,
+      "sha256": "cb7b322d71b2529ee709989afeffafa4e5669d5e0cd9b2b773e2274a0303d356"
+    },
+    {
+      "path": "effects/npc-skills/textures/spark-ad557f61d00b.mips/mip-02.png",
+      "bytes": 1381,
+      "sha256": "79aae82c3a899652bbeb9ad7256fe06c1003fc368c62a78a1a4afe6bcbb2f1a6"
+    },
+    {
+      "path": "effects/npc-skills/textures/spark-ad557f61d00b.mips/mip-03.png",
+      "bytes": 496,
+      "sha256": "628dbf0a283262c82715085cb30ee8a977b21e5d37de55c6fb34d32371a5e28c"
+    },
+    {
+      "path": "effects/npc-skills/textures/spark-ad557f61d00b.mips/mip-04.png",
+      "bytes": 254,
+      "sha256": "cd7000522a491c1668c1d1ea0f531be3438dff0cf9245b6cbf50a53383b22ab4"
+    },
+    {
+      "path": "effects/npc-skills/textures/spark-ad557f61d00b.mips/mip-05.png",
+      "bytes": 130,
+      "sha256": "2f11412968e198d193a6dbd40e0330372ab7c3eb3ecf75ebc25e70b22e6a82f2"
+    },
+    {
+      "path": "effects/npc-skills/textures/spark-ad557f61d00b.mips/mip-06.png",
+      "bytes": 101,
+      "sha256": "7ba79e08da593751b8fe3611d32244f8346054c0d04bfca8edcb937029d6166f"
+    },
+    {
+      "path": "effects/npc-skills/textures/spark-ad557f61d00b.mips/mip-07.png",
+      "bytes": 85,
+      "sha256": "d6180bc0a699e2248b15c32c6bd5455e689ee9b9a13f507d7d6dd7df3e6186bc"
+    },
+    {
+      "path": "effects/npc-skills/textures/spark-ad557f61d00b.mips/mip-08.png",
+      "bytes": 77,
+      "sha256": "4e02352c39f9126d5db90a564e07d209a4b933bf0674edb8ca781693af9df27a"
+    },
+    {
+      "path": "effects/npc-skills/textures/spark-ad557f61d00b.mips/mip-09.png",
+      "bytes": 73,
+      "sha256": "eb52dccdcd43a07c59b48944e7dfba6061dc8cdbf9b1d201f10da76cb2a858a3"
+    },
+    {
+      "path": "effects/npc-skills/textures/spark-ad557f61d00b.png",
+      "bytes": 12772,
+      "sha256": "a12bcff3cfaa9d22b072476a41b4b78e503b751450aac9130ab799f96e9375fa"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": {
+    "runtime": "passed: direct GPU render of 530/531/532/766 and full production client typed READY/HIT replay; see docs/reference/evidence/cases/npc-nano-abilities-20260914.json",
+    "structural": "passed: production native emitter, mesh and material contracts; 21 catalog IDs",
+    "sourceContainerHashes": "checked by publisher",
+    "freshReplay": "126/126 byte-identical outputs"
+  }
+}

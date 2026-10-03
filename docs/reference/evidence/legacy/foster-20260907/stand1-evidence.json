@@ -1,0 +1,435 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "customassetbundle-b4f543c102ded400fbc6f1da25d9679a",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 2,
+      "filePath": "customassetbundle-bd5f53480423447d7bcaed95cb2a96c8",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 3,
+      "filePath": "customassetbundle-d304c52c4bae348e38c743762c1bd818",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 4,
+      "filePath": "customassetbundle-ce09c4c9be8a046ca92e0044f22d1b99",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 74,
+    "name": "stand1",
+    "pathId": 27143,
+    "rawBytes": 1172,
+    "rawSha256": "0931ecc5a480c2cfe1f7d2f8f8c5676b7935a9bc4979b16c35c8b5c19c379589",
+    "serializedAsset": "CustomAssetBundle-Retro_shared",
+    "type": "AnimationClip",
+    "typeId": 74,
+    "value": {
+      "m_CompressedRotationCurves": [
+        {
+          "m_Path": "icekey_ring",
+          "m_PostInfinity": 2,
+          "m_PreInfinity": 2,
+          "m_Slopes": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "AAAAAAAA",
+              "bytes": 6
+            },
+            "m_NumItems": 8,
+            "m_Range": 0.0,
+            "m_Start": 0.0
+          },
+          "m_Times": {
+            "m_BitSize": 8,
+            "m_Data": {
+              "base64": "AIU=",
+              "bytes": 2
+            },
+            "m_NumItems": 2
+          },
+          "m_Values": {
+            "m_Data": {
+              "base64": "n+3ff5/t338=",
+              "bytes": 8
+            },
+            "m_NumItems": 2
+          }
+        },
+        {
+          "m_Path": "icekey_ring/icekey_ring NonAccum",
+          "m_PostInfinity": 2,
+          "m_PreInfinity": 2,
+          "m_Slopes": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "fpL4u2HsIgCIiqIogCgCxr4bye8n",
+              "bytes": 21
+            },
+            "m_NumItems": 28,
+            "m_Range": 2.7932729721069336,
+            "m_Start": -1.6609327793121338
+          },
+          "m_Times": {
+            "m_BitSize": 5,
+            "m_Data": {
+              "base64": "wHjv/QE=",
+              "bytes": 5
+            },
+            "m_NumItems": 7
+          },
+          "m_Values": {
+            "m_Data": {
+              "base64": "+Puvv0hLrciIN97Z/hegv97wkoZWiZtKDegPQA==",
+              "bytes": 28
+            },
+            "m_NumItems": 7
+          }
+        },
+        {
+          "m_Path": "icekey_ring/icekey_ring NonAccum/icekey_shaft",
+          "m_PostInfinity": 2,
+          "m_PreInfinity": 2,
+          "m_Slopes": {
+            "m_BitSize": 6,
+            "m_Data": {
+              "base64": "AAAAAAAA",
+              "bytes": 6
+            },
+            "m_NumItems": 8,
+            "m_Range": 0.0,
+            "m_Start": 0.0
+          },
+          "m_Times": {
+            "m_BitSize": 8,
+            "m_Data": {
+              "base64": "AIU=",
+              "bytes": 2
+            },
+            "m_NumItems": 2
+          },
+          "m_Values": {
+            "m_Data": {
+              "base64": "/PtPQPz7T0A=",
+              "bytes": 8
+            },
+            "m_NumItems": 2
+          }
+        }
+      ],
+      "m_Events": [
+        {
+          "data": "",
+          "functionName": "end",
+          "messageOptions": 1,
+          "time": 1.0833333730697632
+        }
+      ],
+      "m_FloatCurves": [],
+      "m_Name": "stand1",
+      "m_PositionCurves": [
+        {
+          "curve": {
+            "m_Curve": [
+              {
+                "inSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "outSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "time": 0.0,
+                "value": {
+                  "x": -0.0,
+                  "y": -0.5,
+                  "z": -0.0
+                }
+              },
+              {
+                "inSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "outSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "time": 1.3333333730697632,
+                "value": {
+                  "x": -0.0,
+                  "y": -0.5,
+                  "z": 0.0
+                }
+              }
+            ],
+            "m_PostInfinity": 2,
+            "m_PreInfinity": 2
+          },
+          "path": "icekey_ring"
+        },
+        {
+          "curve": {
+            "m_Curve": [
+              {
+                "inSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "outSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "time": 0.0,
+                "value": {
+                  "x": -0.0,
+                  "y": -0.0004379451274871826,
+                  "z": 0.0
+                }
+              },
+              {
+                "inSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "outSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "time": 1.3333333730697632,
+                "value": {
+                  "x": -0.0,
+                  "y": -0.0004379451274871826,
+                  "z": 0.0
+                }
+              }
+            ],
+            "m_PostInfinity": 2,
+            "m_PreInfinity": 2
+          },
+          "path": "icekey_ring/icekey_ring NonAccum"
+        },
+        {
+          "curve": {
+            "m_Curve": [
+              {
+                "inSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "outSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "time": 0.0,
+                "value": {
+                  "x": -4.914518125787026e-9,
+                  "y": 0.00004835518484469503,
+                  "z": 0.02456996962428093
+                }
+              },
+              {
+                "inSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "outSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "time": 1.3333333730697632,
+                "value": {
+                  "x": -4.914518125787026e-9,
+                  "y": 0.00004835518484469503,
+                  "z": 0.02456996962428093
+                }
+              }
+            ],
+            "m_PostInfinity": 2,
+            "m_PreInfinity": 2
+          },
+          "path": "icekey_ring/icekey_ring NonAccum/icekey_shaft"
+        }
+      ],
+      "m_RotationCurves": [],
+      "m_SampleRate": 30.0,
+      "m_ScaleCurves": [
+        {
+          "curve": {
+            "m_Curve": [
+              {
+                "inSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "outSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "time": 0.0,
+                "value": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              {
+                "inSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "outSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "time": 1.3333333730697632,
+                "value": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              }
+            ],
+            "m_PostInfinity": 2,
+            "m_PreInfinity": 2
+          },
+          "path": "icekey_ring"
+        },
+        {
+          "curve": {
+            "m_Curve": [
+              {
+                "inSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "outSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "time": 0.0,
+                "value": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              {
+                "inSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "outSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "time": 1.3333333730697632,
+                "value": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              }
+            ],
+            "m_PostInfinity": 2,
+            "m_PreInfinity": 2
+          },
+          "path": "icekey_ring/icekey_ring NonAccum"
+        },
+        {
+          "curve": {
+            "m_Curve": [
+              {
+                "inSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "outSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "time": 0.0,
+                "value": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              {
+                "inSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "outSlope": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "time": 1.3333333730697632,
+                "value": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              }
+            ],
+            "m_PostInfinity": 2,
+            "m_PreInfinity": 2
+          },
+          "path": "icekey_ring/icekey_ring NonAccum/icekey_shaft"
+        }
+      ],
+      "m_UseCompression": true
+    }
+  },
+  "pointers": [],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 14258661,
+    "relativeContainer": "Retro_shared.resourceFile",
+    "sha256": "2ca4147c3705fdd3a0fc0ec44e088da6e87279e978e73b19701b0d29babbfc33"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

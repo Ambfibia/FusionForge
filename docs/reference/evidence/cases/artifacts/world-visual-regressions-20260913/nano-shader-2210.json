@@ -1,0 +1,141 @@
+{
+  "externalFiles": [
+    {
+      "assetPath": "",
+      "fileId": 1,
+      "filePath": "customassetbundle-b4f543c102ded400fbc6f1da25d9679a",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    },
+    {
+      "assetPath": "",
+      "fileId": 2,
+      "filePath": "customassetbundle-bd5f53480423447d7bcaed95cb2a96c8",
+      "guid": "00000000000000000000000000000000",
+      "typeId": 0
+    }
+  ],
+  "object": {
+    "classId": 48,
+    "name": "",
+    "pathId": 2210,
+    "rawBytes": 1012,
+    "rawSha256": "983969e5d5b2f6a38f1a560d7848dcb4d10eb20f3f37fc6166dcb7262db944ff",
+    "serializedAsset": "CustomAssetBundle-fa9dbcf4604f64024b06ff1d5e375918",
+    "type": "Shader",
+    "typeId": 48,
+    "value": {
+      "m_DefaultProperties": {
+        "m_Colors": [
+          [
+            {
+              "name": "_Color"
+            },
+            {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            }
+          ],
+          [
+            {
+              "name": "_SpecColor"
+            },
+            {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            }
+          ],
+          [
+            {
+              "name": "_Emission"
+            },
+            {
+              "a": 0.0,
+              "b": 0.0,
+              "g": 0.0,
+              "r": 0.0
+            }
+          ],
+          [
+            {
+              "name": "_AmbColor"
+            },
+            {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            }
+          ]
+        ],
+        "m_Floats": [
+          [
+            {
+              "name": "_Shininess"
+            },
+            0.699999988079071
+          ]
+        ],
+        "m_TexEnvs": [
+          [
+            {
+              "name": "_MainTex"
+            },
+            {
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Rotation": 0.0,
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Texture": {
+                "fileId": 0,
+                "pathId": 0
+              }
+            }
+          ]
+        ]
+      },
+      "m_Name": "",
+      "m_PathName": "",
+      "m_Script": "Shader \"normal_blendSrcalphaOne_zwriteOff_cullOff_vertexColorAD\" {\nProperties {\n\t_Color (\"Main Color\", Color) = (1,1,1,1)\n\t_SpecColor (\"Spec Color\", Color) = (1,1,1,1)\n\t_AmbColor (\"Ambient Color\", Color) = (1,1,1,1)\n\t_Emission (\"Emmisive Color\", Color) = (0,0,0,0)\n\t_Shininess (\"Shininess\", Range (0.01, 1)) = 0.7\n\t_MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n}\n\nCategory {\n\tTags {\"Queue\"=\"Transparent+10\"}\n\n\tBlend SrcAlpha One \n\tColorMask RGB\n\tZWrite Off\n\tCull Off\n\tColorMaterial AmbientAndDiffuse\t\t\n\n\tSubShader {\n\t\tPass {\n\t\t\tMaterial {\n\t\t\t\tDiffuse [_Color]\n\t\t\t\tAmbient [_AmbColor]\n\t\t\t\tShininess [_Shininess]\n\t\t\t\t//\tSpecular [_SpecColor]\n\t\t\t\tEmission [_Emission]\n\t\t\t} \n\t\t\tLighting On\n\t\t\tSetTexture [_MainTex] {\n\t\t\t\tCombine texture * primary DOUBLE , texture * primary\n\t\t\t} \n\t\t}\n\t}\n}\n}",
+      "m_StaticProperties": {
+        "m_Colors": [],
+        "m_Floats": [],
+        "m_TexEnvs": []
+      }
+    }
+  },
+  "pointers": [
+    {
+      "error": null,
+      "fieldPath": "/m_DefaultProperties/m_TexEnvs/0/1/m_Texture",
+      "fileId": 0,
+      "pathId": 0,
+      "status": "null",
+      "target": null
+    }
+  ],
+  "schema": "fusionforge.object-evidence.v1",
+  "source": {
+    "alias": "primary",
+    "bytes": 8130528,
+    "relativeContainer": "Effects.resourceFile",
+    "sha256": "2aa08e85b7aefa8f7e22705ee2f1581befa83cc5708b32116ce8a46a273595e9"
+  },
+  "triage": {
+    "allowUnresolvedPointers": false,
+    "unresolvedPointerCount": 0
+  }
+}

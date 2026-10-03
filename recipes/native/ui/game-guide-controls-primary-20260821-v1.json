@@ -1,0 +1,149 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "game-guide-controls-primary-20260821-v1",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "main.unity3d",
+    "containerBytes": 8221718,
+    "containerSha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+    "objects": [
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 73,
+        "fileId": 0,
+        "containerRoute": "HelpTitle",
+        "trueName": "HelpTitle"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 148,
+        "fileId": 0,
+        "containerRoute": "HelpButtonUp",
+        "trueName": "HelpButtonUp"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 264,
+        "fileId": 0,
+        "containerRoute": "HelpButtonNormal",
+        "trueName": "HelpButtonNormal"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 63,
+        "fileId": 0,
+        "containerRoute": "scroll_up",
+        "trueName": "scroll_up"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 324,
+        "fileId": 0,
+        "containerRoute": "scroll_Thumb",
+        "trueName": "scroll_Thumb"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 374,
+        "fileId": 0,
+        "containerRoute": "scroll_bar",
+        "trueName": "scroll_bar"
+      },
+      {
+        "serializedAsset": "sharedassets0.assets",
+        "type": "Texture2D",
+        "pathId": 415,
+        "fileId": 0,
+        "containerRoute": "scroll_dn",
+        "trueName": "scroll_dn"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "exact-texture-decode",
+    "tool": "tools/legacy-sources/publish-game-guide-primary.ps1",
+    "toolRevision": "workspace-file-sha256:8f1774fb1570f53a31c32e578c6a9e8a79fbefa9bb64fb240696e3815d2d3918",
+    "workingDirectory": ".",
+    "commands": [
+      "powershell -NoProfile -File tools\\legacy-sources\\publish-game-guide-primary.ps1 -NativeRoot ..\\FFOneClient\\assets\\game -Apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "tools/legacy-sources/publish-game-guide-primary.ps1",
+      "bytes": 4589,
+      "sha256": "8f1774fb1570f53a31c32e578c6a9e8a79fbefa9bb64fb240696e3815d2d3918"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/game/ui/gameplay/game-guide/controls/title.png",
+      "bytes": 147,
+      "sha256": "a6f14bd684f7a15210f0577d37b527e33674e3d21d253ec4e6b7a76e7aa2305a"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/controls/help-button-hover.png",
+      "bytes": 161,
+      "sha256": "92d288bb07904a5b69836a23b0aadc18b4d1a3c490e8a36df2eb72969cc576aa"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/controls/help-button-normal.png",
+      "bytes": 157,
+      "sha256": "bca914c6b6e9cefc1d9972939ddbd8b4241b6cf40b7ff435e6294ba461a80545"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/controls/scroll-up.png",
+      "bytes": 496,
+      "sha256": "504525e1476d8a753f39821411d9fbdb9bdf7fd299496a0fd251d1dfc9be7463"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/controls/scroll-thumb.png",
+      "bytes": 318,
+      "sha256": "a7afff2d82ddc872cc99bc2695039530ce1e1a554dceb95f33e344804ef589ad"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/controls/scroll-track.png",
+      "bytes": 225,
+      "sha256": "94cc317466de205d6336038b99626a3596ea5592298ecdc409f4e93c7fb83355"
+    },
+    {
+      "path": "assets/game/ui/gameplay/game-guide/controls/scroll-down.png",
+      "bytes": 481,
+      "sha256": "de13be5d83a1e28ebd312c1c38f293dc28126514f90e92124084e431b5a149fd"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "cargo test --manifest-path Cargo.toml -p ffone-client --lib game_guide_ui -- --nocapture",
+      "result": "passed: 5 tests",
+      "evidence": null
+    },
+    {
+      "command": "cargo run --manifest-path Cargo.toml -p xtask -- assets --source assets/game --full",
+      "result": "passed: 67321 files, 3321725342 bytes, root 65c337d5adc5ee0b56f53d85add9440acd0828e5683007d0f6a1fa464b23786b",
+      "evidence": null
+    },
+    {
+      "command": "GPU preview: game_guide_ui_gpu_preview en and ru at 1264x681",
+      "result": "passed",
+      "evidence": "target/ui-parity/game-guide-initial-en-1264x681.png; target/ui-parity/game-guide-initial-ru-1264x681.png"
+    },
+    {
+      "command": "powershell -NoProfile -File tools\\legacy-sources\\publish-game-guide-primary.ps1 -NativeRoot ..\\FFOneClient\\assets\\game",
+      "result": "passed: 81 staged outputs; all staged SHA-256 hashes match the published native files",
+      "evidence": null
+    }
+  ]
+}

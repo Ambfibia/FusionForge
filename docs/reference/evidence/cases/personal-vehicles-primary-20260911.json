@@ -1,0 +1,216 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "personal-vehicles-primary-20260911",
+  "question": "How does primary retain personal vehicles in water, block Nano use, and render model-owned exhaust trails?",
+  "status": "closed",
+  "nativeConsumer": "FFOneClient avatar_action, app vehicle/nano authority, tutorial_player_rig_runtime and tutorial_native_effects",
+  "acceptance": [
+    "Mounted Nano cannot activate or use a skill; dismount restores skill input.",
+    "Water does not automatically request VehicleOff and does not select swim clips while riding.",
+    "Three exact trail variants attach to tag01..tag04 and disappear with their vehicle.",
+    "Real development binary builds and runs the vehicle fixture."
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "role": "parity_authority",
+      "anchors": [
+        "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/assembly-csharp.evidence.json",
+        "work/cases/personal-vehicles-20260910/managed/firstpass.evidence.json",
+        "work/cases/personal-vehicles-20260910/trails-replay/controller.evidence.json"
+      ]
+    }
+  ],
+  "candidates": [],
+  "evidenceArtifacts": [
+    {
+      "id": "game-frame",
+      "kind": "managed_contract",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/GameFrame.cs",
+      "bytes": 206004,
+      "sha256": "154d0ee67fe8ebd9b5a495339b462a26c808a50c34f88727a7f63e0cc5f6445c",
+      "producer": {
+        "tool": "FusionForge / pinned FFSpy / FFOneClient",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "dotnet run --no-build --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/Assembly-CSharp.dll -t GameFrame --preserve-iterator-state-machines -o work/cases/personal-vehicles-20260910/managed"
+      }
+    },
+    {
+      "id": "movement",
+      "kind": "managed_contract",
+      "path": "work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/decompiled/cnAvatarThirdPersonMove.cs",
+      "bytes": 125870,
+      "sha256": "8133957fbd1c5b386465fc0132a8d2d470a4c0b61557fb201bf427118d5fc9ec",
+      "producer": {
+        "tool": "FusionForge / pinned FFSpy / FFOneClient",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "dotnet run --no-build --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/Assembly-CSharp.dll -t cnAvatarThirdPersonMove --preserve-iterator-state-machines -o work/cases/personal-vehicles-20260910/managed"
+      }
+    },
+    {
+      "id": "EffectEmitterController",
+      "kind": "managed_contract",
+      "path": "work/cases/personal-vehicles-20260910/managed/EffectEmitterController.decompiled.cs",
+      "bytes": 12098,
+      "sha256": "20c5599515bed98370df24af0a544f09b4ec99f79fb91c7cc205a1b178fe8df6",
+      "producer": {
+        "tool": "FusionForge / pinned FFSpy / FFOneClient",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "dotnet run --no-build --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- work/cases/personal-vehicles-20260910/managed/Assembly-CSharp-firstpass.dll -t EffectEmitterController --preserve-iterator-state-machines -o work/cases/personal-vehicles-20260910/managed"
+      }
+    },
+    {
+      "id": "ParticleTrailController",
+      "kind": "managed_contract",
+      "path": "work/cases/personal-vehicles-20260910/managed/ParticleTrailController.decompiled.cs",
+      "bytes": 11407,
+      "sha256": "31d84bd78a11b31790bd74a0cd8580f7bda050e1184172adbad00cffc65f64a7",
+      "producer": {
+        "tool": "FusionForge / pinned FFSpy / FFOneClient",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "dotnet run --no-build --project vendor/FFSpy/ICSharpCode.Decompiler.Console/ICSharpCode.Decompiler.Console.csproj --framework net6.0 -- work/cases/personal-vehicles-20260910/managed/Assembly-CSharp-firstpass.dll -t ParticleTrailController --preserve-iterator-state-machines -o work/cases/personal-vehicles-20260910/managed"
+      }
+    },
+    {
+      "id": "board-trail",
+      "kind": "runtime_evidence",
+      "path": "work/cases/personal-vehicles-20260910/board-trail-male.png",
+      "bytes": 77766,
+      "sha256": "5f52952822f4dcd63903b30a4444335cea9e6f788bd2ab6f51f35e2d9ebc9714",
+      "producer": {
+        "tool": "FusionForge / pinned FFSpy / FFOneClient",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "FFONE_VEHICLE_PREVIEW_ITEM=1 ../FFOneClient/target/personal-vehicles/build/vehicle_preview-vehicle-preview.exe ../FFOneClient/assets/game OUTPUT.png 2 1 1 vehicle-board male"
+      }
+    },
+    {
+      "id": "scooter-trail",
+      "kind": "runtime_evidence",
+      "path": "work/cases/personal-vehicles-20260910/scooter-trail-female.png",
+      "bytes": 100913,
+      "sha256": "e22c0f649f58c7c1d8e736c123d8762eff83b6e97103b10b3b9fadde0add5a5b",
+      "producer": {
+        "tool": "FusionForge / pinned FFSpy / FFOneClient",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "FFONE_VEHICLE_PREVIEW_ITEM=4 ../FFOneClient/target/personal-vehicles/build/vehicle_preview-vehicle-preview.exe ../FFOneClient/assets/game OUTPUT.png 2 1 1 vehicle-scooter female"
+      }
+    },
+    {
+      "id": "cloud-trail",
+      "kind": "runtime_evidence",
+      "path": "work/cases/personal-vehicles-20260910/cloud-trail-female.png",
+      "bytes": 86195,
+      "sha256": "bc0b4b7a575869be7b002b139ae6f40c69857bc2d58315a44396230caf659e0a",
+      "producer": {
+        "tool": "FusionForge / pinned FFSpy / FFOneClient",
+        "revision": "857406bc95b5dd7a5983cefc3838c86b302600a8",
+        "command": "FFONE_VEHICLE_PREVIEW_ITEM=7 ../FFOneClient/target/personal-vehicles/build/vehicle_preview-vehicle-preview.exe ../FFOneClient/assets/game OUTPUT.png 2 1 1 vehicle-board female"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "LoadVehicle selects effect 835 for vehicle_hoverboard, 836 for vehicle_cloud/vehicle_hoverboard2, otherwise 15; each existing tag01..tag04 gets its own instance.",
+      "state": "proven",
+      "evidence": [
+        "game-frame",
+        "board-trail",
+        "scooter-trail",
+        "cloud-trail"
+      ],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "Vehicle trails override fTimes to 1.5, length to 16 samples, and width to the emitter initialSize (0.3 standard; 0.15 board/cloud). Geometry updates after transforms; material and exact texture remain shared, ribbons and owners independent.",
+      "state": "proven",
+      "evidence": [
+        "game-frame",
+        "EffectEmitterController",
+        "ParticleTrailController"
+      ],
+      "rejectedBecause": null
+    },
+    {
+      "claim": "Water should force a personal vehicle dismount.",
+      "state": "rejected",
+      "evidence": [
+        "movement"
+      ],
+      "rejectedBecause": "Primary calls AvatarWater(bWater & (iVehicle == 0)); mounted movement remains the vehicle branch."
+    },
+    {
+      "claim": "Native input and queued Nano skill dispatch both require an unmounted avatar.",
+      "state": "implemented",
+      "evidence": [],
+      "rejectedBecause": null
+    }
+  ],
+  "differences": [],
+  "conclusion": "All three reported regressions repaired and verified with focused tests, three moving GPU previews, and the actual development binary in the offline world fixture. Live shard integration remains untested.",
+  "nativeContract": {
+    "coordinates": "Native model socket world position; unit world scale for effect tips; ribbon vertices in world coordinates.",
+    "ownership": "Every local/remote vehicle placement retains separate model, socket and ribbon entities. Ribbon meshes are removed with their owner, cached GPU handles released when no vehicles remain.",
+    "schedule": "Sample exhaust sockets in PostUpdate after TransformSystems::Propagate.",
+    "timing": "16 frame samples, interpolation step 1.5; same rotating camera-facing mesh implementation as exact projectile trails.",
+    "network": "Vehicle mount state remains server-confirmed; water no longer issues an unsolicited off request. Nano entry and dispatch reject mounted state."
+  },
+  "verification": [
+    {
+      "command": "cargo test -p ffone-client --lib vehicle --locked",
+      "result": "passed:14",
+      "evidence": "../FFOneClient/target/personal-vehicles/fixes-tests.log"
+    },
+    {
+      "command": "Three GPU previews with production data and socket/dismount assertions",
+      "result": "passed",
+      "evidence": [
+        "board-trail",
+        "scooter-trail",
+        "cloud-trail"
+      ]
+    },
+    {
+      "command": "cargo build -p ffone-client --bin ffone-client --example tutorial_player_rig_gpu_preview --locked (FFOneClient)",
+      "result": "passed",
+      "evidence": {
+        "path": "../FFOneClient/target/personal-vehicles/fixes-build.log",
+        "bytes": 230,
+        "sha256": "76db41f89dce4024b659bf48cc4f5d7a0ce5cd0b5d75b01e6794c90b5c57f1a4"
+      }
+    },
+    {
+      "command": "target/debug/ffone-client.exe --asset-root assets/game --character-asset-root assets/game --validate-assets",
+      "result": "passed:status ok",
+      "evidence": {
+        "path": "../FFOneClient/target/personal-vehicles/fixes-validation.log",
+        "bytes": 294,
+        "sha256": "97c6d97fa2372c3369d8b85e2a88ae5fcb78230a7254ef23c0fa03429cb6c34d"
+      }
+    },
+    {
+      "command": "FFONE_PERF_OUTPUT=target/performance/personal-vehicle-trails-107 FFONE_PERF_VEHICLE=107 target/debug/ffone-client.exe --asset-root assets/game --character-asset-root assets/game (FFOneClient)",
+      "result": "passed: one model, scooter_stand1, two exhaust trails; offline fixture only",
+      "evidence": [
+        {
+          "path": "../FFOneClient/target/performance/personal-vehicle-trails-107/vehicle.json",
+          "bytes": 158,
+          "sha256": "86d44680d17aed240498307051db38800d0f035c5a27b1c4d96c719827701f48"
+        },
+        {
+          "path": "../FFOneClient/target/performance/personal-vehicle-trails-107/frame.png",
+          "bytes": 3074055,
+          "sha256": "673c78aa455c022fb5b43b6e2d4993cc72fa72b045c22f548395354a2845ba17"
+        },
+        {
+          "path": "../FFOneClient/target/performance/personal-vehicle-trails-107/report.json",
+          "bytes": 10790,
+          "sha256": "ecf4cae6bfc181850d2dee7100de832b346fb514b6776dde7bb66e704e630a74"
+        }
+      ]
+    }
+  ],
+  "relatedPublications": [
+    "personal-vehicles-primary-20260910",
+    "vehicle-trails-primary-20260911"
+  ]
+}

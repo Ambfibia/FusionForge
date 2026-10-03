@@ -1,0 +1,44 @@
+{
+  "schema": "fusionforge.runtime-acceptance.v1",
+  "checks": {
+    "servicePortraitTests": 3,
+    "sharedInputTests": 2,
+    "redeemBridgeTests": 1,
+    "fullLocaleKeyCount": 65840,
+    "placeholderMismatches": 0,
+    "gpuLocales": [
+      "en",
+      "ru"
+    ],
+    "gpuInputInkPixelsPerLocale": 204,
+    "originalUnityGpuComparison": false,
+    "liveServerRedemption": false
+  },
+  "artifacts": [
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/shared-input-en.png",
+      "bytes": 38489,
+      "sha256": "d0ad8fcaa692cbdf52a87eaa776919aa648c9ea24012eb55464e59bc952c3d62"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/shared-input-ru.png",
+      "bytes": 40598,
+      "sha256": "2a3f539d9cd75b237023de86be75f9f457c75c633bc675fce4c505a444f57ba1"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/shared-input-en.json",
+      "bytes": 407,
+      "sha256": "de67c14b31b8555166bc4816a9000bfa5c033d1a61101e827b04cff504cb805a"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/shared-input-ru.json",
+      "bytes": 496,
+      "sha256": "2f34f50a45c2d7b68c782327e16dc7d1782ca5e380ed23c6f212f406e6d45d70"
+    },
+    {
+      "path": "../FFOneClient/target/debug/ffone-client.exe",
+      "bytes": 206910976,
+      "sha256": "4d6d627306b9888a074d8d360e49755dfffa9031f8a25945fd51bb00752995b7"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "replace-me",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "native-target"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "REPLACE.resourceFile",
+    "containerBytes": 1,
+    "containerSha256": "REPLACE_WITH_64_LOWERCASE_HEX",
+    "objects": [
+      {
+        "serializedAsset": "REPLACE_SERIALIZED_ASSET",
+        "type": "GameObject",
+        "pathId": 0,
+        "fileId": 0,
+        "containerRoute": null,
+        "trueName": "REPLACE_TRUE_NAME"
+      }
+    ]
+  },
+  "transform": {
+    "kind": "repair",
+    "tool": "REPLACE_TRACKED_TOOL",
+    "toolRevision": "REPLACE_GIT_REVISION_OR_VERSION",
+    "workingDirectory": ".",
+    "commands": [
+      "REPLACE_WITH_EXACT_REPLAY_COMMAND"
+    ]
+  },
+  "inputs": [],
+  "outputs": [
+    {
+      "path": "packs/base/REPLACE",
+      "bytes": 0,
+      "sha256": "REPLACE_WITH_64_LOWERCASE_HEX"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "REPLACE_WITH_EXACT_VERIFICATION_COMMAND",
+      "result": "passed",
+      "evidence": null
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "npc-chat-20260905",
+  "status": "accepted-scoped-runtime-repair",
+  "question": "Why do NPC greetings and barkers appear in speech balloons but never in retained chat?",
+  "nativeConsumer": "FFOne gameplay_ui NPC speech messages and app/social_ingress retained history",
+  "source": {
+    "container": "main.unity3d",
+    "build": "20260821",
+    "alias": "primary",
+    "navigationAlias": "retrobution",
+    "rawSha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+    "assemblySha256": "0f2513c2303cffc88c541a90b1b8fad1b73f60d5218830be72d0502533bf5792"
+  },
+  "evidenceArtifacts": [
+    {
+      "assemblyReceipt": "docs/reference/evidence/cases/artifacts/nano-travel-20260905-assembly.json",
+      "sha256": "27c3e976a79cdd05dc5fdd2593a48f93752d2e257b0e2ab614b3529be3a2a5dd",
+      "producer": "fusionforge export-ui-interaction-evidence work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/npc-chat.request.json --out work/projects/retrobution-ui-20260821.ffclient/reports/avatar-animation-primary/npc-chat.interaction.json",
+      "producerRevision": "86324d05303a076b9814bddff800635cb2f73954",
+      "path": "docs/reference/evidence/cases/artifacts/npc-chat-20260905-interaction.json",
+      "bytes": 44389,
+      "replayRequest": "docs/reference/evidence/cases/artifacts/npc-chat-20260905-request.json"
+    }
+  ],
+  "findings": [
+    "PrintName.SetChatBubble rejects null, empty and single-space text, then calls CnGuiChat.AddEventString(4, NPC name + colon + speech) BEFORE bBaloonChat is checked.",
+    "CnGuiChat.AddEventString gates type 4 through bEventMessage1; AddChatString routes it only to AllChatStrings.",
+    "Native greeting, mission/skill packet and autonomous barker producers previously only enqueued balloon state. ChatLineUi::npc had no production ingress from those edges."
+  ],
+  "contract": [
+    "Publish one semantic speech event for each accepted live-owner greeting, network barker or autonomous barker, regardless of balloon visibility.",
+    "Drain events after the producer, honor npc_messages_in_chat, discard messages outside gameplay or without a local player, and retain only in the All history of the world/tutorial owner.",
+    "Resolve NPC name and body from independent semantic content keys in the current text locale, then use the existing ui.hud.chat.message.direct template. Historical resolved arguments retain the locale at receipt.",
+    "Preserve existing random chance, distance, timing, history capacity, bubble geometry, fonts, voice behavior and assets."
+  ],
+  "limitations": [
+    "No new claims about missing audio takes, tutorial timeline dialogue or full PrintName visual parity.",
+    "No legacy binary payload was changed or published; FFClientEditor data-reversal defect was not found in this scoped case."
+  ],
+  "verification": {
+    "build": "cargo build -p ffone-client --bin ffone-client: passed; target/parity-npc-chat-build.log",
+    "producer": "cargo test -p ffone-client --lib computress_2555_autonomous_barker: 1 passed, final source includes balloon-off greeting, event identity and next-frame no-duplicate assertions; target/parity-npc-chat-producer-final-tests.log",
+    "social": "app::tests::social: 32 passed, includes EN/RU NPC history, option gates, world/tutorial routing and retention limit; target/parity-npc-chat-social-tests.log",
+    "localization": "17 passed, 1 failed in production_ui_updates_text_only_through_the_localization_apply_system at concurrently edited bin/editor/equipment.rs; target/parity-npc-chat-localization-tests.log",
+    "existingBubbleChecks": "2 passed, 1 failed in npc_barker_textures_match_the_primary_path_id_contracts: texture size 538 versus expected 528; texture was not edited; target/parity-npc-chat-bubble-tests.log",
+    "captures": [
+      {
+        "locale": "ru",
+        "path": "../FFOneClient/target/performance/npc-chat-ru-20260905",
+        "frames": 600,
+        "frameSha256": "ef05345b54aff67c4189e8acaebe0c6a7fa62ce2d0aaa98aedeabe486698545e",
+        "historySha256": "c371db43214f2a43d542cfd89511e211efb85913b0694a8c2db83bd47ffbd002",
+        "retainedNpcLines": "Мондо Максо: Однажды Лютик потеряла память и исчезла. Вы знали, что она присоединилась к рок-группе?",
+        "visuallyInspected": true,
+        "producer": "FFONE_PERF_OUTPUT=target/performance/npc-chat-ru-20260905 FFONE_PERF_NPC_CHAT=1 WGPU_BACKEND=dx12 target/debug/ffone-client.exe --asset-root assets/game --language ru"
+      },
+      {
+        "locale": "en",
+        "path": "../FFOneClient/target/performance/npc-chat-en-20260905",
+        "frames": 600,
+        "frameSha256": "1ce2951e1c319ef8be73bd9662c94d07788cdd49a7264e8da55bf0197c5805e9",
+        "historySha256": "be1f9fe1ccb9d20a206b738eef0fc7015c2f159fa535935fb2badf030a58835a",
+        "retainedNpcLines": "Mondo Maxo: One time, Buttercup lost her memory and disappeared. Did you know she joined a rock band?",
+        "visuallyInspected": true,
+        "producer": "FFONE_PERF_OUTPUT=target/performance/npc-chat-en-20260905 FFONE_PERF_NPC_CHAT=1 WGPU_BACKEND=dx12 target/debug/ffone-client.exe --asset-root assets/game --language en"
+      }
+    ],
+    "warnings": "Full-client startup reports existing unresolved NPC catalog rows (missing textures/registry entries); not claimed fixed. No panic in either captured run.",
+    "formatting": "Scoped rustfmt --check and git diff --check passed."
+  },
+  "incidentalBuildRepair": "Current hnpc_runtime.rs native adapter calculated RGBA size as u32 for a u64 field. Widened operands and checked multiplication, preserving concurrent native schema work. Initial full-client build failed at this line, then passed after the repair."
+}

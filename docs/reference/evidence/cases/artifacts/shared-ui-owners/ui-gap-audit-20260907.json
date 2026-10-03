@@ -1,0 +1,127 @@
+{
+  "date": "2026-09-07",
+  "source": "retrobution",
+  "role": "primary",
+  "scope": "Focused static UI gap re-audit; not complete runtime parity",
+  "raw": [
+    {
+      "path": "main.unity3d",
+      "bytes": 8221718,
+      "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef"
+    },
+    {
+      "path": "TableData.resourceFile",
+      "bytes": 802929,
+      "sha256": "bd8767c2d316f60a4b38de320794701b2391d7b40412020bdc1d17e88c7b7212"
+    }
+  ],
+  "native": [
+    {
+      "path": "crates/ffone-client/src/bank_ui.rs",
+      "bytes": 155089,
+      "sha256": "6a300383d9a7acf2c82a921262905aa314835c9499e1b08893613e58528ea7cc"
+    },
+    {
+      "path": "crates/ffone-client/src/vendor_ui.rs",
+      "bytes": 211894,
+      "sha256": "410e5c70a071bb855a7d498273116f6044f2ab46919191334a9d85ccf0fd2f1f"
+    },
+    {
+      "path": "crates/ffone-client/src/pc2pc_ui.rs",
+      "bytes": 213322,
+      "sha256": "5f48baa232aca87808814fa83d6dd921ef466ed5477fdbfe652c12ad22e422c5"
+    },
+    {
+      "path": "crates/ffone-client/src/gameplay_ui.rs",
+      "bytes": 390696,
+      "sha256": "fb79e57d9741f8ae0bb66c5f63eb2e7b26d6ca2a7d61024e63aede549eafa168"
+    },
+    {
+      "path": "crates/ffone-client/src/app/mod.rs",
+      "bytes": 1070814,
+      "sha256": "1c98035731c6d399f4de277430270a98d5175096939156696f9621b5cbcda6bb"
+    },
+    {
+      "path": "crates/ffone-client/src/app/service_portrait.rs",
+      "bytes": 14040,
+      "sha256": "6c3706118a52d2bc4a6986d3260deeafe93f575909ca086c14f11d76be3f62d1"
+    },
+    {
+      "path": "crates/ffone-client/src/app/gameplay_ui_actions/npc.rs",
+      "bytes": 29995,
+      "sha256": "a44829889e34f9fff386de3e41405dcd698ad381cf986d503036a7384dcc14be"
+    },
+    {
+      "path": "crates/ffone-client/src/app/gameplay_ui_actions/modes.rs",
+      "bytes": 14016,
+      "sha256": "cf1d76b13891554b7b388b3ec7a571388b5d517d3b1a2149e9ca03bd256ad097"
+    },
+    {
+      "path": "assets/game/data/tables/table-set.json",
+      "bytes": 41902911,
+      "sha256": "f7e3d588fe729db48158e9f36c0973bfe04eb0d0020397ecec14175b52a5df32"
+    }
+  ],
+  "managed": [
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/Panel_BankScript.cs",
+      "bytes": 16265,
+      "sha256": "26bc86186d2552f92b70d469d143d0881e9f110ce9a477e646cd5177ec113f2f"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/Panel_Vendor.cs",
+      "bytes": 29996,
+      "sha256": "69dfdb9938d4e2296ea193e7bf516d55f925607c83839e6413f054595420a936"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/InventoryManagerScript.cs",
+      "bytes": 149764,
+      "sha256": "2a13d91d9fe948f000c4f5b2a197f041a64e14c62d539537b722dc8a5d549ce7"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/Panel_Trade.cs",
+      "bytes": 38832,
+      "sha256": "a40f5f4a09e5e9c270ab98d1b84235ed6ae430417d93146a93d7ad7a3ecd6659"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/cnCombiMode.cs",
+      "bytes": 32652,
+      "sha256": "4d58528346f4a5c5cfbb14c069e3737b4d4e386195b6eb2fa746995d0bcea9a7"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/NpcIconMode.cs",
+      "bytes": 67003,
+      "sha256": "60489bfd4e2f97cbc32c4fbf62b1a914a79251f390b0f7a6c82d0151a394fee5"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/GameFrame.cs",
+      "bytes": 206004,
+      "sha256": "154d0ee67fe8ebd9b5a495339b462a26c808a50c34f88727a7f63e0cc5f6445c"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/BarberMode.cs",
+      "bytes": 21679,
+      "sha256": "63146ff3b5cae5b8ba38c19c39f2a8aef0ac3e8acb39d4bb07530d354d88031d"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/BarberGui.cs",
+      "bytes": 30768,
+      "sha256": "56795dfdcf9a0675a2056dbef43c7f2cb1389c27efdb27e22d7a5addad8635dc"
+    },
+    {
+      "path": "work/legacy-sources/whole-client-audit-20260905/main-decompiled/cnRaceRankMode.cs",
+      "bytes": 60177,
+      "sha256": "e8026472fc235aac1b4df0306ac1549af9e781f7877df1f3f82808a995a827c3"
+    }
+  ],
+  "report": {
+    "path": "docs/reference/evidence/cases/ui-gap-audit-20260907.md",
+    "bytes": 11173,
+    "sha256": "5ed13cb8c287dfdec88464002f4b28eb7d09cd5768fcb2365cc882ba57f43230"
+  },
+  "excluded": [
+    "Enchant",
+    "intentional shaders and language extensions"
+  ],
+  "runtimeTestsRun": false
+}

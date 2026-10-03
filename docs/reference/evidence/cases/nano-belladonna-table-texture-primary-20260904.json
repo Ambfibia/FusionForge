@@ -1,0 +1,72 @@
+{
+  "schema": "fusionforge.reverse-engineering-case.v1",
+  "id": "nano-belladonna-table-texture-primary-20260904",
+  "question": "Why does Belladonna Nano show broken textures despite the earlier Nano audit?",
+  "status": "resolved",
+  "nativeConsumer": "FFOneClient native Nano GLB consumers and ffone-editor",
+  "acceptance": [
+    "Correct table-selected nano_belladonna texture.",
+    "Native mesh/skin/material/animation contract and GPU validation pass.",
+    "Semantic registry resolution covers the differing nano_belladonnaN root."
+  ],
+  "versions": [
+    {
+      "alias": "primary",
+      "navigationAlias": "retrobution",
+      "role": "parity_authority",
+      "anchors": [
+        {
+          "relativeContainer": "Nano.resourceFile",
+          "containerBytes": 41656047,
+          "containerSha256": "4bdec03c5aa92e5f922ab61fa794188815b20438fcc4fa646498eac9397ce8e7"
+        },
+        {
+          "relativeContainer": "NpcTexture.resourceFile",
+          "containerBytes": 15239269,
+          "containerSha256": "95504fa80830d2c54540e576a44707096b746d761448d086e294a6f1cd0dc171"
+        }
+      ]
+    }
+  ],
+  "evidenceArtifacts": [
+    {
+      "id": "publication",
+      "kind": "native_publication_receipt",
+      "path": "recipes/native/models/nano-belladonna-table-texture-primary-20260904.json",
+      "bytes": 23791,
+      "sha256": "473b4eb6ad621683000c1a674bf992049baea2d33231fb59777e1784476ff212",
+      "producer": {
+        "tool": "FusionForge + ffone-asset-pipeline + repair-nano-materials.py + install-nano-repairs.py",
+        "revision": "86324d05303a076b9814bddff800635cb2f73954",
+        "command": "python tools/legacy-sources/install-nano-repairs.py --plan recipes/native/models/nano-belladonna-20260904.plan.json --stage work/legacy-sources/nano-belladonna-20260904 --target-root ../FFOneClient/assets/game --report work/legacy-sources/nano-belladonna-20260904/install.json --apply"
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim": "The native root name equals the table model route.",
+      "state": "rejected",
+      "evidence": [
+        "publication"
+      ],
+      "rejectedBecause": "Belladonna has table route nano_belladonna, native root nano_belladonnaN; use the semantic registry ID."
+    },
+    {
+      "claim": "Prefab material texture is the final Belladonna appearance.",
+      "state": "rejected",
+      "evidence": [
+        "publication"
+      ],
+      "rejectedBecause": "The game applies the table texture nano_belladonna over the prefab Numbuh Four material."
+    }
+  ],
+  "conclusion": "Fresh native Belladonna model and exact table texture installed. GPU check passes, all 7 editor tests pass, corrected table audit verifies 57 bindings. Earlier exhaustive-audit claim omitted Belladonna and is superseded by this case.",
+  "nativeContract": "Resolve GLBs by semantic registry ID; use native material texture bindings selected from proven game behavior.",
+  "verification": [
+    "passed: native render contract, scene ready, all 32 animation clips loaded, stand1 sampled, 52/52 joints resolved, zero material/shader errors; screenshot inspected",
+    "passed: 57 applicable bindings, zero mismatches, zero unresolved table model routes",
+    "passed: 7 tests, including 12 published model contracts and Belladonna main texture through semantic registry resolution",
+    "passed: 5 native files installed atomically; 46 receipt output hashes verified"
+  ],
+  "divergenceFromPrimary": null
+}

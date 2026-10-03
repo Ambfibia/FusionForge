@@ -1,0 +1,28 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "hnpc-palette",
+  "sources": [
+    {
+      "alias": "primary",
+      "path": "main.unity3d",
+      "sha256": "01b544976b2d54355507cf30fe6dfada2b476b92b209a3d47c1499669ed9b4ef",
+      "bytes": 8221718
+    }
+  ],
+  "steps": [
+    {
+      "operation": "evidence",
+      "source": 0,
+      "serializedAsset": "sharedassets0.assets",
+      "pathId": 1378,
+      "type": "MonoBehaviour",
+      "name": "palette.json",
+      "assertions": []
+    },
+    {
+      "operation": "hnpc-palette",
+      "evidence": "palette.json",
+      "output": "data/hnpc/palette.json"
+    }
+  ]
+}

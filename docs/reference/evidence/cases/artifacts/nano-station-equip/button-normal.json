@@ -1,0 +1,110 @@
+{
+  "height": 25,
+  "id": "sharedassets0.assets:640",
+  "importSettings": {
+    "m_CompleteImageSize": 2000,
+    "m_ImageCount": 1,
+    "m_Limit": -1,
+    "m_MipMap": false,
+    "m_TextureDimension": 2,
+    "m_TextureSettings": {
+      "m_Aniso": 1,
+      "m_FilterMode": 1,
+      "m_MipBias": 0.0,
+      "m_WrapMode": 1
+    },
+    "m_Touchable": false
+  },
+  "mipCount": 1,
+  "mipCountEvidence": {
+    "height": 25,
+    "intentionalDivergence": null,
+    "mMipMap": false,
+    "serializedMipMapContradiction": false,
+    "source": "derived-from-dimensions-format-source-byte-length-and-m_MipMap",
+    "sourceByteLength": 2000,
+    "textureFormat": 4,
+    "width": 20
+  },
+  "mipLevels": [
+    {
+      "decodedRgbaByteLength": 2000,
+      "decodedRgbaSha256": "01f0dc77ede174c14572c7efcc65da28d0a2cbf3fb023e9eb510b3e5cf8bdc2e",
+      "height": 25,
+      "level": 0,
+      "payload": {
+        "alphaMaskApplied": false,
+        "byteLength": 576,
+        "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAACB0lEQVR4Ae3AA6AkWZbG8f937o3IzKdyS2Oubdu2bdu2bdu2bWmMnpZKr54yMyLu+Xa3anqmhztr1S/IhEywhf1e2D+FfbvGyRona5yscbLGyRona5yMfSv2j2O/A7bIhEzIRGSCdA3wPfVJd75x/3N/Tnn6vWjviBfExzdpD7mW9du+Cu1BZ34c+ADsXWyELeAXZ7/wF288++Hf418lxPrdXpv1G77UD7Ie342+EsB71Sfe+cazH/xdSEMa0pCGNKQhDWlIQxrSkIYpmf3A71DuPP+uzLq3BAjgA2bf/3u4GTfjZtyMm3EzbsbNuBk342bcjJtxM15PzH7g9wA+AKACLxFPuxeSf7N46n0ALwFQNbVtVhP/HjpYAewAVACn+XdJ80xUAJr5d2nmmagAJP8+yf2oAKT5d0nzTFQA2/y72DwTFYDk3ye5HxUDaf5d0jwTFcDJv09yPyoAaf5d0jwTFQCb/yBUA07+fZL7UQFI8++S5pkIurJPX/l32ZwB7AEE8Hd+5HX8e+QjrwX4O4AAvm380Nfl36wrjB/yegDfBhDA97SXvPmXpw99Pf7VIhg/7PXJh5z+QZbDzwKITJCuAb6n/O3tb1y/7w+JJ9wNFw95QXx6Gz/6esb3e03yEdf+OPAB2LvYiEwukwS8J/DWwMsztpt4QbpyK/DnwI8AP4FtruAfAQhvEXUroAmeAAAAAElFTkSuQmCC",
+        "decodedRgbaSha256": "01f0dc77ede174c14572c7efcc65da28d0a2cbf3fb023e9eb510b3e5cf8bdc2e",
+        "kind": "decoded-rgba8-png",
+        "mimeType": "image/png",
+        "pixelTransform": "vertical-flip-only-for-png-top-left-origin",
+        "resized": false,
+        "rgbRepair": false,
+        "sha256": "506ea52cf108eeb14a035fa52a4c650ba1a5255b6e4fb62a10adc3aedfc72c8e",
+        "tintApplied": false
+      },
+      "sourceByteLength": 2000,
+      "sourceByteOffset": 0,
+      "sourceByteSha256": "01f0dc77ede174c14572c7efcc65da28d0a2cbf3fb023e9eb510b3e5cf8bdc2e",
+      "width": 20
+    }
+  ],
+  "name": "blue_button_normal",
+  "payload": {
+    "alphaMaskApplied": false,
+    "byteLength": 576,
+    "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAACB0lEQVR4Ae3AA6AkWZbG8f937o3IzKdyS2Oubdu2bdu2bdu2bWmMnpZKr54yMyLu+Xa3anqmhztr1S/IhEywhf1e2D+FfbvGyRona5yscbLGyRona5yMfSv2j2O/A7bIhEzIRGSCdA3wPfVJd75x/3N/Tnn6vWjviBfExzdpD7mW9du+Cu1BZ34c+ADsXWyELeAXZ7/wF288++Hf418lxPrdXpv1G77UD7Ie342+EsB71Sfe+cazH/xdSEMa0pCGNKQhDWlIQxrSkIYpmf3A71DuPP+uzLq3BAjgA2bf/3u4GTfjZtyMm3EzbsbNuBk342bcjJtxM15PzH7g9wA+AKACLxFPuxeSf7N46n0ALwFQNbVtVhP/HjpYAewAVACn+XdJ80xUAJr5d2nmmagAJP8+yf2oAKT5d0nzTFQA2/y72DwTFYDk3ye5HxUDaf5d0jwTFcDJv09yPyoAaf5d0jwTFQCb/yBUA07+fZL7UQFI8++S5pkIurJPX/l32ZwB7AEE8Hd+5HX8e+QjrwX4O4AAvm380Nfl36wrjB/yegDfBhDA97SXvPmXpw99Pf7VIhg/7PXJh5z+QZbDzwKITJCuAb6n/O3tb1y/7w+JJ9wNFw95QXx6Gz/6esb3e03yEdf+OPAB2LvYiEwukwS8J/DWwMsztpt4QbpyK/DnwI8AP4FtruAfAQhvEXUroAmeAAAAAElFTkSuQmCC",
+    "decodedRgbaSha256": "01f0dc77ede174c14572c7efcc65da28d0a2cbf3fb023e9eb510b3e5cf8bdc2e",
+    "kind": "decoded-rgba8-png",
+    "mimeType": "image/png",
+    "pixelTransform": "vertical-flip-only-for-png-top-left-origin",
+    "resized": false,
+    "rgbRepair": false,
+    "sha256": "506ea52cf108eeb14a035fa52a4c650ba1a5255b6e4fb62a10adc3aedfc72c8e",
+    "tintApplied": false
+  },
+  "sampler": {
+    "aniso": {
+      "serialized": true,
+      "source": "m_TextureSettings.m_Aniso",
+      "value": 1
+    },
+    "filterMode": {
+      "serialized": true,
+      "source": "m_TextureSettings.m_FilterMode",
+      "value": 1
+    },
+    "mipBias": {
+      "serialized": true,
+      "source": "m_TextureSettings.m_MipBias",
+      "value": 0.0
+    },
+    "wrapMode": {
+      "serialized": true,
+      "source": "m_TextureSettings.m_WrapMode",
+      "value": 1
+    }
+  },
+  "source": {
+    "asset": "sharedassets0.assets",
+    "assetIndex": 4,
+    "classId": 28,
+    "id": "sharedassets0.assets:640",
+    "pathId": 640,
+    "serializedTypeName": "Texture2D",
+    "type": "Texture2D",
+    "typeId": 28
+  },
+  "sourcePayload": {
+    "byteLength": 2000,
+    "embeddedInExactSource": false,
+    "layout": "largest-to-smallest-contiguous",
+    "levelCount": 1,
+    "sha256": "01f0dc77ede174c14572c7efcc65da28d0a2cbf3fb023e9eb510b3e5cf8bdc2e"
+  },
+  "textureFormat": 4,
+  "textureFormatName": "RGBA32",
+  "width": 20
+}

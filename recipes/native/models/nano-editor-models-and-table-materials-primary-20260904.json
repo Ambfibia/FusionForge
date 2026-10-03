@@ -1,0 +1,614 @@
+{
+  "schema": "fusionforge.native-publication.v1",
+  "id": "nano-editor-models-and-table-materials-primary-20260904",
+  "status": "accepted",
+  "supersedes": [],
+  "target": {
+    "alias": "ffone"
+  },
+  "source": {
+    "alias": "primary",
+    "relativeContainer": "Nano.resourceFile",
+    "containerBytes": 41656047,
+    "containerSha256": "4bdec03c5aa92e5f922ab61fa794188815b20438fcc4fa646498eac9397ce8e7",
+    "objects": [
+      {
+        "serializedAsset": "CustomAssetBundle-d44c8d83281084c7c860065e437b031e",
+        "type": "GameObject",
+        "pathId": 6497,
+        "containerRoute": "nano/nano_bubbles.kfm"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-d44c8d83281084c7c860065e437b031e",
+        "type": "GameObject",
+        "pathId": 6551,
+        "containerRoute": "nano/nano_dexter.kfm"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+        "type": "GameObject",
+        "pathId": 5876,
+        "containerRoute": "nano/nano_buttercup.kfm"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-d44c8d83281084c7c860065e437b031e",
+        "type": "GameObject",
+        "pathId": 6481,
+        "containerRoute": "nano/nano_ben.kfm"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-50513e574023b4e259c6fd245ae5bc06",
+        "type": "GameObject",
+        "pathId": 503,
+        "containerRoute": "nano/nano_eduardo.kfm"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-d44c8d83281084c7c860065e437b031e",
+        "type": "GameObject",
+        "pathId": 6493,
+        "containerRoute": "nano/nano_utonium.kfm"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-d44c8d83281084c7c860065e437b031e",
+        "type": "GameObject",
+        "pathId": 11134,
+        "containerRoute": "nano/nano_jackolantern.kfm"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-d44c8d83281084c7c860065e437b031e",
+        "type": "GameObject",
+        "pathId": 6554,
+        "containerRoute": "nano/nano_ghostfreak.kfm"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-d44c8d83281084c7c860065e437b031e",
+        "type": "GameObject",
+        "pathId": 9729,
+        "containerRoute": "nano/nano_computress.kfm"
+      },
+      {
+        "serializedAsset": "CustomAssetBundle-d44c8d83281084c7c860065e437b031e",
+        "type": "GameObject",
+        "pathId": 6509,
+        "containerRoute": "nano/nano_swampfire.kfm"
+      }
+    ]
+  },
+  "additionalSources": [
+    {
+      "alias": "primary",
+      "relativeContainer": "NpcTexture.resourceFile",
+      "containerBytes": 15239269,
+      "containerSha256": "95504fa80830d2c54540e576a44707096b746d761448d086e294a6f1cd0dc171",
+      "objects": [
+        {
+          "serializedAsset": "CustomAssetBundle-d304c52c4bae348e38c743762c1bd818",
+          "type": "Texture2D",
+          "pathId": 480,
+          "trueName": "nano_ben_face"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-d304c52c4bae348e38c743762c1bd818",
+          "type": "Texture2D",
+          "pathId": 332,
+          "trueName": "nano_bubbles"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-d304c52c4bae348e38c743762c1bd818",
+          "type": "Texture2D",
+          "pathId": 36,
+          "trueName": "nano_bubbles_face"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-d304c52c4bae348e38c743762c1bd818",
+          "type": "Texture2D",
+          "pathId": 345,
+          "trueName": "nano_dexter_face"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-d304c52c4bae348e38c743762c1bd818",
+          "type": "Texture2D",
+          "pathId": 457,
+          "trueName": "nano_eduardo_face"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-d304c52c4bae348e38c743762c1bd818",
+          "type": "Texture2D",
+          "pathId": 527,
+          "trueName": "nano_jackolantern"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-d304c52c4bae348e38c743762c1bd818",
+          "type": "Texture2D",
+          "pathId": 416,
+          "trueName": "nano_utonium_face"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-d304c52c4bae348e38c743762c1bd818",
+          "type": "Texture2D",
+          "pathId": 487,
+          "trueName": "nano_computress"
+        },
+        {
+          "serializedAsset": "CustomAssetBundle-d304c52c4bae348e38c743762c1bd818",
+          "type": "Texture2D",
+          "pathId": 488,
+          "trueName": "nano_runty"
+        }
+      ]
+    },
+    {
+      "alias": "primary",
+      "relativeContainer": "Tutorial.resourceFile",
+      "containerBytes": 33327638,
+      "containerSha256": "729e9aad557709d4a75937b7478b6784b82f202c000d13127d1074213991f916",
+      "objects": [
+        {
+          "serializedAsset": "CustomAssetBundle-b4f543c102ded400fbc6f1da25d9679a",
+          "type": "Texture2D",
+          "pathId": 157,
+          "trueName": "nano_buttercup_face"
+        }
+      ]
+    }
+  ],
+  "transform": {
+    "kind": "native-model-recovery-and-table-material-binding",
+    "tool": "FusionForge + ffone-asset-pipeline + tools/legacy-sources/repair-nano-materials.py + tools/legacy-sources/install-nano-repairs.py",
+    "toolRevision": "86324d05303a076b9814bddff800635cb2f73954",
+    "workingDirectory": ".",
+    "commands": [
+      "cargo build -p ff-client-editor -p ffone-asset-pipeline --bins",
+      "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/Nano.resourceFile nano/nano_bubbles.kfm work/legacy-sources/nano-editor-20260904/sources/bubbles.json work/projects/retrobution-ui-20260821.ffclient",
+      "target-build/debug/ffone-asset-pipeline.exe publish-logical-model work/legacy-sources/nano-editor-20260904/sources/bubbles.json nanos work/legacy-sources/nano-editor-20260904/bubbles-fresh",
+      "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/Nano.resourceFile nano/nano_dexter.kfm work/legacy-sources/nano-editor-20260904/sources/dexter.json work/projects/retrobution-ui-20260821.ffclient",
+      "target-build/debug/ffone-asset-pipeline.exe publish-logical-model work/legacy-sources/nano-editor-20260904/sources/dexter.json nanos work/legacy-sources/nano-editor-20260904/dexter-fresh",
+      "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/Nano.resourceFile nano/nano_buttercup.kfm work/legacy-sources/nano-editor-20260904/sources/buttercup.json work/projects/retrobution-ui-20260821.ffclient",
+      "target-build/debug/ffone-asset-pipeline.exe publish-logical-model work/legacy-sources/nano-editor-20260904/sources/buttercup.json nanos work/legacy-sources/nano-editor-20260904/buttercup-fresh",
+      "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/Nano.resourceFile nano/nano_ben.kfm work/legacy-sources/nano-editor-20260904/sources/ben.json work/projects/retrobution-ui-20260821.ffclient",
+      "target-build/debug/ffone-asset-pipeline.exe publish-logical-model work/legacy-sources/nano-editor-20260904/sources/ben.json nanos work/legacy-sources/nano-editor-20260904/ben-fresh",
+      "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/Nano.resourceFile nano/nano_eduardo.kfm work/legacy-sources/nano-editor-20260904/sources/eduardo.json work/projects/retrobution-ui-20260821.ffclient",
+      "target-build/debug/ffone-asset-pipeline.exe publish-logical-model work/legacy-sources/nano-editor-20260904/sources/eduardo.json nanos work/legacy-sources/nano-editor-20260904/eduardo-fresh",
+      "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/Nano.resourceFile nano/nano_utonium.kfm work/legacy-sources/nano-editor-20260904/sources/utonium.json work/projects/retrobution-ui-20260821.ffclient",
+      "target-build/debug/ffone-asset-pipeline.exe publish-logical-model work/legacy-sources/nano-editor-20260904/sources/utonium.json nanos work/legacy-sources/nano-editor-20260904/utonium-fresh",
+      "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/Nano.resourceFile nano/nano_jackolantern.kfm work/legacy-sources/nano-editor-20260904/sources/jackolantern.json work/projects/retrobution-ui-20260821.ffclient",
+      "target-build/debug/ffone-asset-pipeline.exe publish-logical-model work/legacy-sources/nano-editor-20260904/sources/jackolantern.json nanos work/legacy-sources/nano-editor-20260904/jackolantern-fresh",
+      "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/Nano.resourceFile nano/nano_ghostfreak.kfm work/legacy-sources/nano-editor-20260904/sources/ghostfreak.json work/projects/retrobution-ui-20260821.ffclient",
+      "target-build/debug/ffone-asset-pipeline.exe publish-logical-model work/legacy-sources/nano-editor-20260904/sources/ghostfreak.json nanos work/legacy-sources/nano-editor-20260904/ghostfreak-native",
+      "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/Nano.resourceFile nano/nano_computress.kfm work/legacy-sources/nano-editor-20260904/sources/computress.json work/projects/retrobution-ui-20260821.ffclient",
+      "target-build/debug/ffone-asset-pipeline.exe publish-logical-model work/legacy-sources/nano-editor-20260904/sources/computress.json nanos work/legacy-sources/nano-editor-20260904/computress",
+      "target-build/debug/ff-client-editor.exe fusionforge export-logical-model-source ../builds/retrobution-20260821/Nano.resourceFile nano/nano_swampfire.kfm work/legacy-sources/nano-editor-20260904/sources/swampfire.json work/projects/retrobution-ui-20260821.ffclient",
+      "target-build/debug/ffone-asset-pipeline.exe publish-logical-model work/legacy-sources/nano-editor-20260904/sources/swampfire.json nanos work/legacy-sources/nano-editor-20260904/swampfire-native-v3",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/NpcTexture.resourceFile 480 work/legacy-sources/nano-editor-20260904/textures/nano_ben_face.json",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/NpcTexture.resourceFile 332 work/legacy-sources/nano-editor-20260904/textures/nano_bubbles.json",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/NpcTexture.resourceFile 36 work/legacy-sources/nano-editor-20260904/textures/nano_bubbles_face.json",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/Tutorial.resourceFile 157 work/legacy-sources/nano-editor-20260904/textures/nano_buttercup_face.json",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/NpcTexture.resourceFile 345 work/legacy-sources/nano-editor-20260904/textures/nano_dexter_face.json",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/NpcTexture.resourceFile 457 work/legacy-sources/nano-editor-20260904/textures/nano_eduardo_face.json",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/NpcTexture.resourceFile 527 work/legacy-sources/nano-editor-20260904/textures/nano_jackolantern.json",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/NpcTexture.resourceFile 416 work/legacy-sources/nano-editor-20260904/textures/nano_utonium_face.json",
+      "python tools/legacy-sources/repair-nano-materials.py --model work/legacy-sources/nano-editor-20260904/bubbles-fresh/models/nanos/nano_bubbles.glb --output work/legacy-sources/nano-editor-20260904/repaired/characters/nanos/nano_bubbles/nano_bubbles.glb --main work/legacy-sources/nano-editor-20260904/textures/nano_bubbles.json --sub work/legacy-sources/nano-editor-20260904/textures/nano_bubbles_face.json --report work/legacy-sources/nano-editor-20260904/material-reports/nano_bubbles.json",
+      "python tools/legacy-sources/repair-nano-materials.py --model work/legacy-sources/nano-editor-20260904/dexter-fresh/models/nanos/nano_dexter.glb --output work/legacy-sources/nano-editor-20260904/repaired/characters/nanos/nano_dexter/nano_dexter.glb --sub work/legacy-sources/nano-editor-20260904/textures/nano_dexter_face.json --report work/legacy-sources/nano-editor-20260904/material-reports/nano_dexter.json",
+      "python tools/legacy-sources/repair-nano-materials.py --model work/legacy-sources/nano-editor-20260904/buttercup-fresh/models/nanos/nano_buttercup.glb --output work/legacy-sources/nano-editor-20260904/repaired/characters/nanos/nano_buttercup/nano_buttercup.glb --sub work/legacy-sources/nano-editor-20260904/textures/nano_buttercup_face.json --report work/legacy-sources/nano-editor-20260904/material-reports/nano_buttercup.json",
+      "python tools/legacy-sources/repair-nano-materials.py --model work/legacy-sources/nano-editor-20260904/ben-fresh/models/nanos/nano_ben.glb --output work/legacy-sources/nano-editor-20260904/repaired/characters/nanos/nano_ben/nano_ben.glb --sub work/legacy-sources/nano-editor-20260904/textures/nano_ben_face.json --report work/legacy-sources/nano-editor-20260904/material-reports/nano_ben.json",
+      "python tools/legacy-sources/repair-nano-materials.py --model work/legacy-sources/nano-editor-20260904/eduardo-fresh/models/nanos/nano_eduardo.glb --output work/legacy-sources/nano-editor-20260904/repaired/characters/nanos/nano_eduardo/nano_eduardo.glb --sub work/legacy-sources/nano-editor-20260904/textures/nano_eduardo_face.json --report work/legacy-sources/nano-editor-20260904/material-reports/nano_eduardo.json",
+      "python tools/legacy-sources/repair-nano-materials.py --model work/legacy-sources/nano-editor-20260904/utonium-fresh/models/nanos/nano_utonium.glb --output work/legacy-sources/nano-editor-20260904/repaired/characters/nanos/nano_utonium/nano_utonium.glb --sub work/legacy-sources/nano-editor-20260904/textures/nano_utonium_face.json --report work/legacy-sources/nano-editor-20260904/material-reports/nano_utonium.json",
+      "python tools/legacy-sources/repair-nano-materials.py --model work/legacy-sources/nano-editor-20260904/jackolantern-fresh/models/nanos/nano_jackolantern.glb --output work/legacy-sources/nano-editor-20260904/repaired/characters/nanos/nano_jackolantern/nano_jackolantern.glb --main work/legacy-sources/nano-editor-20260904/textures/nano_jackolantern.json --report work/legacy-sources/nano-editor-20260904/material-reports/nano_jackolantern.json",
+      "python -m pip install --target work/nano-editor-python blake3",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/NpcTexture.resourceFile 487 work/legacy-sources/nano-editor-20260904/textures/nano_computress.json",
+      "python tools/legacy-sources/repair-nano-materials.py --model work/legacy-sources/nano-editor-20260904/computress/models/nanos/nano_computress.glb --main work/legacy-sources/nano-editor-20260904/textures/nano_computress.json --output work/legacy-sources/nano-editor-20260904/repaired/characters/nanos/nano_computress/nano_computress.glb --report work/legacy-sources/nano-editor-20260904/repairs/computress.json",
+      "target-build/debug/ff-client-editor.exe fusionforge export-exact-texture ../builds/retrobution-20260821/NpcTexture.resourceFile 488 work/legacy-sources/nano-editor-20260904/textures/nano_runty.json",
+      "python tools/legacy-sources/repair-nano-materials.py --model work/legacy-sources/nano-editor-20260904/native-preimage/nano_runty/nano_runty.glb --main work/legacy-sources/nano-editor-20260904/textures/nano_runty.json --output work/legacy-sources/nano-editor-20260904/repaired/characters/nanos/nano_runty/nano_runty.glb --report work/legacy-sources/nano-editor-20260904/repairs/runty.json",
+      "cargo build --manifest-path ../FFOneClient/Cargo.toml -p ffone-client --example logical_model_gpu_preview",
+      "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_bubbles/nano_bubbles.glb --character-kind nano --true-root nano_bubbles --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-gpu --frames 900 --timeout 45",
+      "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_dexter/nano_dexter.glb --character-kind nano --true-root nano_dexter --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-gpu --frames 900 --timeout 45",
+      "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_buttercup/nano_buttercup.glb --character-kind nano --true-root nano_buttercup --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-gpu --frames 900 --timeout 45",
+      "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_ben/nano_ben.glb --character-kind nano --true-root nano_ben --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-fresh-gpu --frames 900 --timeout 45",
+      "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_eduardo/nano_eduardo.glb --character-kind nano --true-root nano_eduardo --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-gpu --frames 900 --timeout 45",
+      "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_utonium/nano_utonium.glb --character-kind nano --true-root nano_utonium --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-fresh-gpu --frames 900 --timeout 45",
+      "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_jackolantern/nano_jackolantern.glb --character-kind nano --true-root nano_jackolantern --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-fresh-gpu --frames 900 --timeout 45",
+      "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/ghostfreak-native --model models/nanos/nano_ghostfreak.glb --character-kind nano --true-root nano_ghostfreak --animation-name Stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-native-gpu --frames 900 --timeout 45",
+      "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_computress/nano_computress.glb --character-kind nano --true-root nano_computress --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-native-gpu --frames 900 --timeout 45",
+      "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/swampfire-native-v3 --model models/nanos/nano_swampfire.glb --character-kind nano --true-root nano_swampfire --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-native-gpu --frames 900 --timeout 45",
+      "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_runty/nano_runty.glb --character-kind nano --true-root nano_runty --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-native-gpu --frames 900 --timeout 45",
+      "python tools/legacy-sources/install-nano-repairs.py --plan recipes/native/models/nano-editor-20260904.plan.json --stage work/legacy-sources/nano-editor-20260904 --target-root ../FFOneClient/assets/game --report work/legacy-sources/nano-editor-20260904/final/install.json --apply"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "src/npc_legacy_animation.rs",
+      "bytes": 291480,
+      "sha256": "ab0e56051f9eec02de7ed17e66877d1182603993cf2f139a837b36c1c4d5fd98"
+    },
+    {
+      "path": "crates/ffone-asset-pipeline/src/logical_model_publish.rs",
+      "bytes": 351731,
+      "sha256": "89788c6684e31e71c9de75c0fb1991e0daf771380b6c2b2b6e154d863108523a"
+    },
+    {
+      "path": "crates/ffone-asset-pipeline/src/logical_model_tree_audit.rs",
+      "bytes": 210288,
+      "sha256": "daad7996c0ab2810017bf00a28933c3ba16723655b4ddcfa1d9cc31c693c1f5a"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-skinned-model/src/validate.rs",
+      "bytes": 118694,
+      "sha256": "f332bebc2bf8aecad4388d16cb39b58c9b888bb73345f5e12796adad7b7a6b99"
+    },
+    {
+      "path": "tools/legacy-sources/repair-nano-materials.py",
+      "bytes": 6680,
+      "sha256": "7e80a16a2781719d63748dd1fd7ec797fc70167844f9f74ac6f45b449e4dccf4"
+    },
+    {
+      "path": "tools/legacy-sources/install-nano-repairs.py",
+      "bytes": 5760,
+      "sha256": "c92fd8b3e61ff658e5643ffaeadf2bba5c426f4f07d74be98f1a5ca34942490f"
+    },
+    {
+      "path": "work/legacy-sources/gm-chat-commands-primary/reports/assembly-csharp.evidence.json",
+      "bytes": 1359,
+      "sha256": "d21974cbdf05c51d5d688a02f2510ddd9e94fc0863fe802106a7ceeccf889c7b"
+    },
+    {
+      "path": "work/legacy-sources/gm-chat-commands-primary/decompiled/EventNanoController.cs",
+      "bytes": 17352,
+      "sha256": "02431db30661be764c0f16b67d1f113e53431395897af10e057092ca68f40240"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-skinned-model/src/lib.rs",
+      "bytes": 45863,
+      "sha256": "24ca10596934f1d12ce28d8f1c574af42fa831ee8c4cdaf158a6a961157a680a"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/src/bin/ffone-editor.rs",
+      "bytes": 118671,
+      "sha256": "e2ce5cb6f6e3fdf1e054385332c8d9fec2e22f1050f748c50cfcb549ea2cdc3a"
+    },
+    {
+      "path": "../FFOneClient/crates/ffone-client/examples/logical_model_gpu_preview.rs",
+      "bytes": 138818,
+      "sha256": "235edf04d42a7e9e61d1b0d3713499095c78429d0812a79e148534a444104fb1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "_runtime/characters.json",
+      "bytes": 246847,
+      "sha256": "d188498612e00b9e99528f69d18442d2c1db4dc9f619933ef1daeac4ddd6a3e9"
+    },
+    {
+      "path": "characters/nanos/nano_ben/nano_ben.glb",
+      "bytes": 682240,
+      "sha256": "7d03ef8b92bea006bd2ab4fdb4bd5cc3dfc850ea2411be714b55b94d8572511f"
+    },
+    {
+      "path": "characters/nanos/nano_ben/nano_ben.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "characters/nanos/nano_ben/nano_ben.textures/nano_ben.png",
+      "bytes": 13073,
+      "sha256": "e65b1eca1b4476685998d667cc52aac7f64a9dcbb737bd0a3f80f00ed2a0da13"
+    },
+    {
+      "path": "characters/nanos/nano_ben/nano_ben.textures/nano_ben_face.png",
+      "bytes": 11870,
+      "sha256": "df4f236850e1ad49314f4f6404bd0ba465fa0b1b38ef3cde1104b0221136d24f"
+    },
+    {
+      "path": "characters/nanos/nano_bubbles/nano_bubbles.glb",
+      "bytes": 2857356,
+      "sha256": "7a4a7f918298588d45d377031511f38f42bb53c9e1d43d60ee22a95319baca16"
+    },
+    {
+      "path": "characters/nanos/nano_bubbles/nano_bubbles.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "characters/nanos/nano_bubbles/nano_bubbles.textures/nano_bubbles.png",
+      "bytes": 37314,
+      "sha256": "471d17973a97e7ebdae95d6cdd7313506eaf3e6104d3d250b7aa5c2bdfb7aa26"
+    },
+    {
+      "path": "characters/nanos/nano_bubbles/nano_bubbles.textures/nano_bubbles_face.png",
+      "bytes": 15805,
+      "sha256": "22426c6d50d0eaecf59cc2794984670ee71a41f3dffd9e68b3432de4026dbdba"
+    },
+    {
+      "path": "characters/nanos/nano_buttercup/nano_buttercup.glb",
+      "bytes": 2763536,
+      "sha256": "ade2b918001a2838c0493e9ba637add1bdd47061e2f744227b3d0f9f8aed4f32"
+    },
+    {
+      "path": "characters/nanos/nano_buttercup/nano_buttercup.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "characters/nanos/nano_buttercup/nano_buttercup.textures/nano_buttercup.png",
+      "bytes": 38818,
+      "sha256": "252e9583fcd82de7aa58673f6490c821f9fd48717f7bb531db547cd192609a77"
+    },
+    {
+      "path": "characters/nanos/nano_buttercup/nano_buttercup.textures/nano_buttercup_face.png",
+      "bytes": 15245,
+      "sha256": "f76e1b8e5e84e47997d277591b672c19d16bdd263608dfe023cbb538aee298cf"
+    },
+    {
+      "path": "characters/nanos/nano_computress/nano_computress.glb",
+      "bytes": 10310916,
+      "sha256": "3116b4071ea62231ee38ae9e2cc9eac2fd57a9654f4b362710f1db591aab7a4e"
+    },
+    {
+      "path": "characters/nanos/nano_computress/nano_computress.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "characters/nanos/nano_computress/nano_computress.textures/nano_computress.png",
+      "bytes": 104865,
+      "sha256": "fd8f56824dcaa6ce909bc323401044547aafd3993a0fdf4dc2793001ca8ca437"
+    },
+    {
+      "path": "characters/nanos/nano_computress/nano_computress.textures/nano_numbuhfour.png",
+      "bytes": 26565,
+      "sha256": "7aa1caadc1f45b75098be4d3a4386a140dbd59aa3a2d1972ad627785a2ac0ea7"
+    },
+    {
+      "path": "characters/nanos/nano_dexter/nano_dexter.glb",
+      "bytes": 2425964,
+      "sha256": "f13a5a27449b1fbbeff844bd01d52bf3a055dce311372bdab2037e0903402b67"
+    },
+    {
+      "path": "characters/nanos/nano_dexter/nano_dexter.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "characters/nanos/nano_dexter/nano_dexter.textures/nano_dexter.png",
+      "bytes": 45621,
+      "sha256": "b919d3ef4c5872c07745caea230627562ba8fe1af02de58fb062cfce7deddc55"
+    },
+    {
+      "path": "characters/nanos/nano_dexter/nano_dexter.textures/nano_dexter_face.png",
+      "bytes": 30009,
+      "sha256": "48bdde709dd0e7cefc5b86d168a50a2e06999f34f3a1367f4a38e0982ea195d6"
+    },
+    {
+      "path": "characters/nanos/nano_eduardo/nano_eduardo.glb",
+      "bytes": 2081772,
+      "sha256": "9ca927923bc98edc69232e3163d461023f607fac4b5283f23b6ea400dfe70654"
+    },
+    {
+      "path": "characters/nanos/nano_eduardo/nano_eduardo.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "characters/nanos/nano_eduardo/nano_eduardo.textures/nano_eduardo.png",
+      "bytes": 42532,
+      "sha256": "39aa572278bdaccd40f0ed1582385fc4bb128a8e166dc7d274ff153d5c53e4fd"
+    },
+    {
+      "path": "characters/nanos/nano_eduardo/nano_eduardo.textures/nano_eduardo_face.png",
+      "bytes": 42679,
+      "sha256": "922f0dafa2fbee64c11303eddae7b3048a7c1d47a1aaf63220ea5a41912b508f"
+    },
+    {
+      "path": "characters/nanos/nano_ghostfreak/nano_ghostfreak.glb",
+      "bytes": 1152056,
+      "sha256": "465fd699c889aba727c08465f3fbe6ccd5f4ecdfb8f9c6e742fbe362ecc9840e"
+    },
+    {
+      "path": "characters/nanos/nano_ghostfreak/nano_ghostfreak.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "characters/nanos/nano_ghostfreak/nano_ghostfreak.textures/nano_ghostfreak.png",
+      "bytes": 118343,
+      "sha256": "a7bc3f70c52a7aeeb8771ac9934860aafb3ad1d83dd1af6e5af63d481fdd71d0"
+    },
+    {
+      "path": "characters/nanos/nano_jackolantern/nano_jackolantern.glb",
+      "bytes": 10276304,
+      "sha256": "f5bbbb5ecd809d4a7a2ef78273a8738bc09120d215f6da1b61cd99054a9932bc"
+    },
+    {
+      "path": "characters/nanos/nano_jackolantern/nano_jackolantern.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "characters/nanos/nano_jackolantern/nano_jackolantern.textures/nano_jackolantern.png",
+      "bytes": 58639,
+      "sha256": "ff2be75ee29e3501718341d3fa8c7868d672f36d9eaf0becfed35f1cad29ce53"
+    },
+    {
+      "path": "characters/nanos/nano_runty/nano_runty.glb",
+      "bytes": 16690712,
+      "sha256": "a61a78406ec289d2cff9ced01657870eb477df1e836a7a8db85a5bbf005992d7"
+    },
+    {
+      "path": "characters/nanos/nano_runty/nano_runty.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "characters/nanos/nano_runty/nano_runty.textures/nano_numbuhfour.png",
+      "bytes": 26565,
+      "sha256": "7aa1caadc1f45b75098be4d3a4386a140dbd59aa3a2d1972ad627785a2ac0ea7"
+    },
+    {
+      "path": "characters/nanos/nano_runty/nano_runty.textures/nano_runty.png",
+      "bytes": 6357,
+      "sha256": "43e11e894eaeed669758556d57c22dc31ea7e6807ecb5718eb3d68a1cf93a1fb"
+    },
+    {
+      "path": "characters/nanos/nano_swampfire/nano_swampfire.glb",
+      "bytes": 3024440,
+      "sha256": "d25aea695f79a98c559c53a1b2fbdf93f81b80e774471e00ce03ca09b0033845"
+    },
+    {
+      "path": "characters/nanos/nano_swampfire/nano_swampfire.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "characters/nanos/nano_swampfire/nano_swampfire.textures/nano_swampfire.png",
+      "bytes": 52885,
+      "sha256": "c7e8cb378036f19d799705a255c279066a8a174efa5160c5a5f386cd06d939dd"
+    },
+    {
+      "path": "characters/nanos/nano_utonium/nano_utonium.glb",
+      "bytes": 2382092,
+      "sha256": "f6c67d1a6bd6ca36295c1dc0f40bc6a5751cba91678fc163debbbce0e0a30ea0"
+    },
+    {
+      "path": "characters/nanos/nano_utonium/nano_utonium.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    },
+    {
+      "path": "characters/nanos/nano_utonium/nano_utonium.textures/nano_utonium.png",
+      "bytes": 64084,
+      "sha256": "0e55d166d53dbc40b176504ba595a932a966fd60cc2d04dc80a4e6db9dca3d87"
+    },
+    {
+      "path": "characters/nanos/nano_utonium/nano_utonium.textures/nano_utonium_face.png",
+      "bytes": 51138,
+      "sha256": "afa0d9594a7fe658e468cb14e2250cff0157b00bf3153a2556959185eb57222c"
+    }
+  ],
+  "divergenceFromPrimary": null,
+  "verification": [
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_bubbles/nano_bubbles.glb --character-kind nano --true-root nano_bubbles --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-gpu --frames 900 --timeout 45",
+      "result": "passed: complete mesh/skin/texture closure, animated GPU capture, zero material/shader errors",
+      "evidence": {
+        "path": "work/legacy-sources/nano-editor-20260904/accepted-gpu/characters/nanos/nano_bubbles/nano_bubbles.gpu.json",
+        "bytes": 1314,
+        "sha256": "01a320aa10b39b5203840b20cf71749433a919590aed4f09376ac07436fba677"
+      }
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_dexter/nano_dexter.glb --character-kind nano --true-root nano_dexter --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-gpu --frames 900 --timeout 45",
+      "result": "passed: complete mesh/skin/texture closure, animated GPU capture, zero material/shader errors",
+      "evidence": {
+        "path": "work/legacy-sources/nano-editor-20260904/accepted-gpu/characters/nanos/nano_dexter/nano_dexter.gpu.json",
+        "bytes": 1308,
+        "sha256": "34846b5517b2c5d7b7ed0366d96e7f3535f40a131e718bf5db22caca20bf577b"
+      }
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_buttercup/nano_buttercup.glb --character-kind nano --true-root nano_buttercup --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-gpu --frames 900 --timeout 45",
+      "result": "passed: complete mesh/skin/texture closure, animated GPU capture, zero material/shader errors",
+      "evidence": {
+        "path": "work/legacy-sources/nano-editor-20260904/accepted-gpu/characters/nanos/nano_buttercup/nano_buttercup.gpu.json",
+        "bytes": 1323,
+        "sha256": "282f5f534684431a51ab6dd205e1d3fd4cb3bbfed1239b6a98877e3912063f45"
+      }
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_ben/nano_ben.glb --character-kind nano --true-root nano_ben --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-fresh-gpu --frames 900 --timeout 45",
+      "result": "passed: complete mesh/skin/texture closure, animated GPU capture, zero material/shader errors",
+      "evidence": {
+        "path": "work/legacy-sources/nano-editor-20260904/accepted-fresh-gpu/characters/nanos/nano_ben/nano_ben.gpu.json",
+        "bytes": 1292,
+        "sha256": "a6e0c6bf39999e1d98cddca8bd627a50a989b0487cca420103ddf0732e7026c5"
+      }
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_eduardo/nano_eduardo.glb --character-kind nano --true-root nano_eduardo --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-gpu --frames 900 --timeout 45",
+      "result": "passed: complete mesh/skin/texture closure, animated GPU capture, zero material/shader errors",
+      "evidence": {
+        "path": "work/legacy-sources/nano-editor-20260904/accepted-gpu/characters/nanos/nano_eduardo/nano_eduardo.gpu.json",
+        "bytes": 1314,
+        "sha256": "35a9dae1c99bf6886672c7f2348d2ae873746677b07807668d6efbd5c41d3ac9"
+      }
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_utonium/nano_utonium.glb --character-kind nano --true-root nano_utonium --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-fresh-gpu --frames 900 --timeout 45",
+      "result": "passed: complete mesh/skin/texture closure, animated GPU capture, zero material/shader errors",
+      "evidence": {
+        "path": "work/legacy-sources/nano-editor-20260904/accepted-fresh-gpu/characters/nanos/nano_utonium/nano_utonium.gpu.json",
+        "bytes": 1314,
+        "sha256": "3c2f6a73491834f4e17aedf4528daff1a8d4c5438072dfbc1b27f36839e14423"
+      }
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_jackolantern/nano_jackolantern.glb --character-kind nano --true-root nano_jackolantern --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-fresh-gpu --frames 900 --timeout 45",
+      "result": "passed: complete mesh/skin/texture closure, animated GPU capture, zero material/shader errors",
+      "evidence": {
+        "path": "work/legacy-sources/nano-editor-20260904/accepted-fresh-gpu/characters/nanos/nano_jackolantern/nano_jackolantern.gpu.json",
+        "bytes": 1338,
+        "sha256": "2c43ff3fa0f29c1c9bd4f0a18efb3bbadd8e9f37728e655fbbaf90ec6302f148"
+      }
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/ghostfreak-native --model models/nanos/nano_ghostfreak.glb --character-kind nano --true-root nano_ghostfreak --animation-name Stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-native-gpu --frames 900 --timeout 45",
+      "result": "passed: complete mesh/skin/texture closure, animated GPU capture, zero material/shader errors",
+      "evidence": {
+        "path": "work/legacy-sources/nano-editor-20260904/accepted-native-gpu/models/nanos/nano_ghostfreak.gpu.json",
+        "bytes": 1288,
+        "sha256": "3d039be697d78730ab64c5fd65f244a6a56cf41e3829158b6f3a9fd85a481162"
+      }
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_computress/nano_computress.glb --character-kind nano --true-root nano_computress --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-native-gpu --frames 900 --timeout 45",
+      "result": "passed: complete mesh/skin/texture closure, animated GPU capture, zero material/shader errors",
+      "evidence": {
+        "path": "work/legacy-sources/nano-editor-20260904/accepted-native-gpu/characters/nanos/nano_computress/nano_computress.gpu.json",
+        "bytes": 1328,
+        "sha256": "f01410cfb25fcaeb59a1f2f6135f5de5e43eba77c4eb9467293cc44c50e0598b"
+      }
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/swampfire-native-v3 --model models/nanos/nano_swampfire.glb --character-kind nano --true-root nano_swampfire --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-native-gpu --frames 900 --timeout 45",
+      "result": "passed: complete mesh/skin/texture closure, animated GPU capture, zero material/shader errors",
+      "evidence": {
+        "path": "work/legacy-sources/nano-editor-20260904/accepted-native-gpu/models/nanos/nano_swampfire.gpu.json",
+        "bytes": 1285,
+        "sha256": "5a9cac71341f2332e37d313c1a03d9f06572c277281be88f21c6d7fbc8a3dd68"
+      }
+    },
+    {
+      "command": "../FFOneClient/target/debug/examples/logical_model_gpu_preview.exe --asset-root work/legacy-sources/nano-editor-20260904/repaired --model characters/nanos/nano_runty/nano_runty.glb --character-kind nano --true-root nano_runty --animation-name stand1 --camera-view reverse --evidence-root work/legacy-sources/nano-editor-20260904/accepted-native-gpu --frames 900 --timeout 45",
+      "result": "passed: complete mesh/skin/texture closure, animated GPU capture, zero material/shader errors",
+      "evidence": {
+        "path": "work/legacy-sources/nano-editor-20260904/accepted-native-gpu/characters/nanos/nano_runty/nano_runty.gpu.json",
+        "bytes": 1304,
+        "sha256": "97eb18076a11884365b42b050475fff60d939776ca56e7eb364b19debd533b19"
+      }
+    }
+  ],
+  "notes": [
+    "Original NanoController binds m_pstrMTextureString to material names containing main and m_pstrMTextureString2 to names containing sub. Bake the static default selection into the native material; keep shaders, samplers, UVs and exact texture payloads.",
+    "Swampfire recovery groups have interleaved source indices; ordering is by first occurrence while individual index uniqueness and payload/sibling checks remain strict. Ghostfreak retains the exact case-sensitive Stand1 clip.",
+    "Buttercup NpcTexture AssetBundle route points through fileID 1 to Tutorial serialized asset b4f543c102ded400fbc6f1da25d9679a, Texture2D 157. NpcTexture local 157 is mob_queenspider_a and was explicitly rejected.",
+    "The original seven repaired models and the three previously missing models are freshly exported from primary using current typed winding/animation contracts. Runty uses the hash-declared native preimage: the sole modification is the exact table-selected main texture, and the complete binary chunk is preserved. Its independent fresh export remains blocked by multiple non-joint renderer transforms; no geometry repair or full Unity visual parity is asserted.",
+    "Computress and Runty prefab main materials contain nano_numbuhfour. Primary table and NanoController replace these with nano_computress (Texture2D 487) and nano_runty (488). All 56 applicable production table material bindings were audited.",
+    "New overwrite and constant-curve recovery metadata retains clip/target/key/order proofs while omitting legacy asset/pathId lineage. Source publisher checks retain their exact raw identity requirements.",
+    "Final native GPU verification of Ghostfreak, Swampfire, Computress and Runty used target/editor-validation/logical_model_gpu_preview.exe linked from current source to avoid the shared Cargo build queue; the normal Cargo replay command is listed above."
+  ],
+  "nativePreimages": [
+    {
+      "path": "work/legacy-sources/nano-editor-20260904/native-preimage/nano_runty/nano_runty.glb",
+      "bytes": 16687004,
+      "sha256": "5d3c29a9c40a2145fc260e7450a3e6a6ac3cff8b43433a6d286b20fca707014e"
+    },
+    {
+      "path": "work/legacy-sources/nano-editor-20260904/native-preimage/nano_runty/nano_runty.textures/nano_numbuhfour.png",
+      "bytes": 26565,
+      "sha256": "7aa1caadc1f45b75098be4d3a4386a140dbd59aa3a2d1972ad627785a2ac0ea7"
+    },
+    {
+      "path": "work/legacy-sources/nano-editor-20260904/native-preimage/nano_runty/nano_runty.textures/ToonRamp9.png",
+      "bytes": 149,
+      "sha256": "98ef38d33881388dd4a23308480bcb33d2df61a138edfd42b49cc18073274554"
+    }
+  ]
+}
