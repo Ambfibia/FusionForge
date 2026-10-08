@@ -32,16 +32,57 @@ pub(super) fn publish_native_logical_model(args: &[String]) -> Result<(), String
 /// Recover, convert and validate before writing final runtime files.
 pub(super) fn convert_native_model(args: &[String]) -> Result<(), String> {
     const USAGE: &str = "convert-native-model <bundle> <exact-container-route> <family> <native-output-root>";
-    if args.len() != 4 { return Err(USAGE.into()); }
+    if args.len() < 4 { return Err(USAGE.into()); }
+    let mut selection = super::super::native_model_selection::Selection::default();
+    let mut check = false;
+    let mut replace_existing = false;
+    let mut semantic_directories = Vec::new();
+    let mut texture_owners = Vec::new();
+    let mut index = 4;
+    while index < args.len() {
+        match args[index].as_str() {
+            "--check" => check = true,
+            "--replace-existing" => replace_existing = true,
+            "--native-texture-owner" => {
+                texture_owners.push(PathBuf::from(args.get(index + 1).ok_or("missing native texture owner")?));
+                index += 1;
+            }
+            "--call-from-idle" => selection.call_from_idle = true,
+            "--semantic-directory" => {
+                semantic_directories.push(args.get(index + 1).ok_or("missing semantic directory")?.clone());
+                index += 1;
+            }
+            "--mesh" | "--logical-name" | "--idle-source" => {
+                let value = args.get(index + 1).ok_or("missing model selection value")?.clone();
+                match args[index].as_str() {
+                    "--mesh" => selection.mesh = value,
+                    "--logical-name" => selection.logical_name = value,
+                    _ => selection.idle_source = value,
+                }
+                index += 1;
+            }
+            other => return Err(format!("unknown model conversion option {other}")),
+        }
+        index += 1;
+    }
     let bundle = Path::new(&args[0]).canonicalize().map_err(|e| e.to_string())?;
     let output = super::super::workspace::resolve_destination(Path::new(&args[3]))?;
     if output.starts_with(bundle.parent().ok_or("bundle has no parent")?) {
         return Err("native output must be outside the source build".into());
     }
-    let source = crate::preview_bundle_container_model_exact(args[0].clone(), None, args[1].clone())?;
+    let mut source = crate::preview_bundle_container_model_exact(args[0].clone(), None, args[1].clone())?;
+    if !selection.mesh.is_empty() {
+        super::super::native_model_selection::select(&mut source, &selection)?;
+    } else if !selection.logical_name.is_empty() || !selection.idle_source.is_empty() || selection.call_from_idle {
+        return Err("logical name and idle source require an exact mesh selection".into());
+    }
     let bytes = serde_json::to_vec(&source).map_err(|e| e.to_string())?;
-    let options = ffone_asset_pipeline::LogicalModelPublishOptions::new("in-memory", &args[2], output).with_semantic_root_layout();
-    let report = ffone_asset_pipeline::convert_logical_model_bytes(&options, &bytes).map_err(|e| e.to_string())?;
+    let mut options = ffone_asset_pipeline::LogicalModelPublishOptions::new("in-memory", &args[2], output)
+        .with_semantic_root_layout().with_semantic_directories(semantic_directories);
+    options.native_texture_owners = texture_owners;
+    let (report, files) = ffone_asset_pipeline::prepare_direct_model(&options, &bytes).map_err(|e| e.to_string())?;
+    if check { ffone_asset_pipeline::direct_output::check_with_permission(&options.output_root, &files, replace_existing)?; }
+    else { ffone_asset_pipeline::direct_output::install_with_permission(&options.output_root, &files, replace_existing)?; }
     println!("Converted {} ({} materials, {} textures); visual runtime verification remains separate", report.contract.output_glb, report.material_publish.material_count, report.material_publish.texture_count);
     Ok(())
 }
@@ -160,7 +201,7 @@ pub(super) fn export_logical_model_source(args: &[String]) -> Result<(), String>
         project,
         route,
     )?;
-    write_or_print_json(Some(&output), &source)
+    write_or_print_json((output != Path::new("-")).then_some(output.as_path()), &source)
 }
 
 pub(super) fn export_logical_model_source_batch(args: &[String]) -> Result<(), String> {

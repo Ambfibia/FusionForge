@@ -4,6 +4,10 @@ use std::{collections::BTreeMap, fs, path::Path};
 
 fn read(path: &Path) -> Result<(Value, Vec<u8>), String> {
     let bytes = fs::read(path).map_err(|e| e.to_string())?;
+    decode(&bytes)
+}
+
+fn decode(bytes: &[u8]) -> Result<(Value, Vec<u8>), String> {
     if bytes.len() < 28 || &bytes[..4] != b"glTF" {
         return Err("not a GLB".into());
     }
@@ -19,6 +23,53 @@ fn read(path: &Path) -> Result<(Value, Vec<u8>), String> {
         .ok_or("truncated BIN")?
         .to_vec();
     Ok((doc, bin))
+}
+
+/// Append directly prepared clips while preserving existing model data.
+pub fn append_bytes(target: &[u8], donor: &[u8], names: &[String]) -> Result<Vec<u8>, String> {
+    let (target, bin) = decode(target)?;
+    let (donor, donor_bin) = decode(donor)?;
+    append(target, bin, &donor, &donor_bin, names, false)
+}
+
+/// Verify replay against raw-source curves without depending on buffer offsets
+/// or animation indices introduced by other previously admitted clips.
+pub fn selected_clips_match(target: &[u8], donor: &[u8], names: &[String]) -> Result<(), String> {
+    fn curves(doc: &Value, bin: &[u8], name: &str) -> Result<Vec<Value>, String> {
+        let nodes = paths(doc)?;
+        let matches: Vec<_> = doc["animations"].as_array().ok_or("animations")?
+            .iter().filter(|a|a["name"] == name).collect();
+        let [animation] = matches.as_slice() else { return Err("missing/ambiguous selected clip".into()); };
+        let mut result = Vec::new();
+        for channel in animation["channels"].as_array().ok_or("channels")? {
+            let node = channel["target"]["node"].as_u64().ok_or("target node")? as usize;
+            let path = nodes.iter().find(|(_,i)|**i == node).ok_or("target path")?.0;
+            let sampler = &animation["samplers"][channel["sampler"].as_u64().ok_or("sampler")? as usize];
+            let mut values = Vec::new();
+            for key in ["input", "output"] {
+                let accessor = &doc["accessors"][sampler[key].as_u64().ok_or("accessor")? as usize];
+                let view = &doc["bufferViews"][accessor["bufferView"].as_u64().ok_or("view")? as usize];
+                if view["buffer"] != 0 || !view["byteStride"].is_null() || !accessor["sparse"].is_null() {
+                    return Err("unsupported selected curve storage".into());
+                }
+                let offset = view["byteOffset"].as_u64().unwrap_or(0) as usize;
+                let length = view["byteLength"].as_u64().ok_or("view length")? as usize;
+                let bytes = bin.get(offset..offset.checked_add(length).ok_or("range overflow")?).ok_or("curve range")?;
+                values.push(json!({"component":accessor["componentType"],"type":accessor["type"],
+                    "count":accessor["count"],"offset":accessor["byteOffset"],"normalized":accessor["normalized"],"bytes":bytes}));
+            }
+            result.push(json!({"node":path,"property":channel["target"]["path"],"interpolation":sampler["interpolation"],"data":values}));
+        }
+        Ok(result)
+    }
+    let (target,bin) = decode(target)?;
+    let (donor,donor_bin) = decode(donor)?;
+    for name in names {
+        if curves(&target,&bin,name)? != curves(&donor,&donor_bin,name)? {
+            return Err(format!("native {name} differs from immutable source; existing file preserved"));
+        }
+    }
+    Ok(())
 }
 
 fn paths(doc: &Value) -> Result<BTreeMap<Vec<String>, usize>, String> {

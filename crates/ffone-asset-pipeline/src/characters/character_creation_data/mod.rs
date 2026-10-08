@@ -98,8 +98,9 @@ pub use types::{
 use types::ItemTable;
 pub use models::AvatarModelReference;
 use models::{model_alias, equipment_model_index};
+pub use operations_build_documents::{avatar_item_counts, build_item_category};
 use operations_build_documents::{
-    build_documents, avatar_item_counts, valid_equipment_true_name_resolution,
+    build_documents, valid_equipment_true_name_resolution,
     select_table_root, true_name, native_reference, pretty_json,
     create_stage, replace_character_creation_document, canonical_directory, canonical_file
 };

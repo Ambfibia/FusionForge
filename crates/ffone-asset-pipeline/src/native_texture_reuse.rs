@@ -206,6 +206,40 @@ pub(super) fn reuse_textures(
 ) -> Result<()> {
     let bytes = fs::read(index_path).map_err(|e| io_at(index_path, e))?;
     let index: Index = serde_json::from_slice(&bytes).map_err(|e| invalid_error(e.to_string()))?;
+    reuse_texture_entries(index, output_glb, converted)
+}
+
+/// Inspect only explicitly selected installed owners; keep the index in memory.
+pub(super) fn reuse_textures_from_owners(
+    root: &Path,
+    owners: &[PathBuf],
+    output_glb: &Path,
+    converted: &mut ConvertedModel,
+) -> Result<()> {
+    let root = root.canonicalize().map_err(|e| io_at(root, e))?;
+    let mut entries = Vec::new();
+    for owner in owners {
+        let owner = normalize_relative(owner)?;
+        let path = contained_file(&root, &owner)?;
+        let bytes = fs::read(&path).map_err(|e| io_at(&path, e))?;
+        let document = glb_json(&bytes)?;
+        for material in document.get("materials").and_then(Value::as_array).into_iter().flatten() {
+            let Some(native) = material.pointer("/extras/ffone") else { continue; };
+            let material: NativeMaterial = serde_json::from_value(native.clone())
+                .map_err(|e| invalid_error(format!("{}: {e}", owner.display())))?;
+            for binding in material.texture_bindings {
+                if binding.dynamic_texture.is_none() && binding.texture.is_some()
+                    && binding.mip_levels.as_ref().is_some_and(|levels| !levels.is_empty())
+                {
+                    entries.push(Entry { owner: owner.clone(), owner_sha256: sha256_hex(&bytes), binding });
+                }
+            }
+        }
+    }
+    reuse_texture_entries(Index { schema: SCHEMA.into(), root, entries, excluded: Vec::new() }, output_glb, converted)
+}
+
+fn reuse_texture_entries(index: Index, output_glb: &Path, converted: &mut ConvertedModel) -> Result<()> {
     if index.schema != SCHEMA {
         return invalid("unsupported native texture reuse index");
     }

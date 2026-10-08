@@ -168,7 +168,7 @@ pub(super) fn find_object(
     Err(format!("path id not found: {path_id}"))
 }
 
-pub(super) fn unity_to_json(value: &UnityValue) -> JsonValue {
+pub(crate) fn unity_to_json(value: &UnityValue) -> JsonValue {
     match value {
         UnityValue::Bool(value) => json!(value),
         UnityValue::Int(value) => json!(value),

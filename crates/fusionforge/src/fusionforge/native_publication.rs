@@ -42,6 +42,14 @@ enum Step {
         #[serde(rename = "exactRoute")]
         exact_route: String,
         family: String,
+        #[serde(default)]
+        selection: Option<super::native_model_selection::Selection>,
+        #[serde(default, rename = "semanticDirectories")]
+        semantic_directories: Vec<String>,
+        #[serde(default, rename = "nativeLayout")]
+        native_layout: bool,
+        #[serde(default, rename = "nativeTextureOwners")]
+        native_texture_owners: Vec<String>,
         outputs: Vec<ModelOutput>,
     },
     Collision {
@@ -513,8 +521,9 @@ pub(super) fn run(args: &[String]) -> Result<(), String> {
                 input_routes.extend(["effects/npc-skills/catalog.json".into(),
                     "effects/skill-hits/projectiles.json".into()]);
             }
-            Step::Model { outputs, .. } => {
-                input_routes.extend(outputs.iter().map(|o| o.output.clone()))
+            Step::Model { outputs, native_texture_owners, .. } => {
+                input_routes.extend(outputs.iter().map(|o| o.output.clone()));
+                input_routes.extend(native_texture_owners.iter().cloned());
             }
             Step::Collision {
                 contract: Some(route),
@@ -614,19 +623,28 @@ pub(super) fn run(args: &[String]) -> Result<(), String> {
                 source: source_index,
                 exact_route,
                 family,
+                selection,
+                semantic_directories,
+                native_layout,
+                native_texture_owners,
                 outputs: selected,
             } => {
                 let input = inputs.get(*source_index).ok_or("invalid model source")?;
-                let model = crate::preview_bundle_container_model_exact(
+                let mut model = crate::preview_bundle_container_model_exact(
                     input.display().to_string(),
                     None,
                     exact_route.clone(),
                 )?;
-                let options = ffone_asset_pipeline::LogicalModelPublishOptions::new(
+                if let Some(selection) = selection {
+                    super::native_model_selection::select(&mut model, selection)?;
+                }
+                let mut options = ffone_asset_pipeline::LogicalModelPublishOptions::new(
                     "in-memory",
                     family,
                     &target,
-                );
+                ).with_semantic_directories(semantic_directories.iter().cloned());
+                if *native_layout { options = options.with_semantic_root_layout(); }
+                options.native_texture_owners = native_texture_owners.iter().map(PathBuf::from).collect();
                 let (_, files) =
                     ffone_asset_pipeline::prepare_direct_model(&options, &encode(&model)?)
                         .map_err(|e| e.to_string())?;

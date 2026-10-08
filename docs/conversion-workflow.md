@@ -12,13 +12,29 @@ cargo fusionforge convert-native-model <bundle> <exact-container-route> <family>
 cargo fusionforge convert-native --recipe <recipe> --source-root <raw-root> --target-root <native-root> --check
 cargo fusionforge convert-native-ui <raw-build-root> quit-menu <native-asset-root>
 cargo fusionforge convert-native-ui <raw-build-root> quit-menu <native-asset-root> --check
+cargo fusionforge convert-academy-items <Academy-raw-root> <native-asset-root> --check
+cargo fusionforge convert-player-walk <CharacterSelection.resourceFile> <native-asset-root> --check
 ```
 
 Model conversion resolves sibling archives, performs GLB semantic roundtrip/native validation
 in memory, and writes final GLB/PNGs to the selected domain outside the source root.
+Compound character models can select one exact renderer with `--mesh <true-name>`,
+`--logical-name <semantic-name>` and `--idle-source <existing-clip>`; the hierarchy,
+skin and clip values are preserved. `--semantic-directory <package>` selects the
+native package directory and `--check` preflights without writing. Where a display
+model has no summon animation, `--call-from-idle` explicitly authors a non-looping
+`call` alias from its event-free idle; it does not recover a missing official clip.
+Model recipes expose the same options in `selection` and `semanticDirectories`.
 The recipe engine handles source assertions, models, textures, audio, collision and native
 JSON in memory. `--check` writes nothing; `--replace-existing` is explicit replacement
 consent. `publish-native` aliases this direct implementation, not a second pipeline.
+
+The bounded `convert-player-walk` adapter pins the primary CharacterSelection container
+and its two exact Walk clips. The Animation owner selects the gender. It appends into
+the existing shared skeletons, preserves other clips and render data, and writes the
+native `locomotion_animations.json` catalog consumed by HNPC rigs. Replays validate the
+existing curves; edited or ambiguous Walk clips fail. Use `--replace-existing` for the
+initial append after the read-only preflight.
 
 QuitMenu is source-pinned: native description, six images, three accepted typed handlers,
 preserved fonts and EN/RU. Unsupported screens/revisions fail explicitly. Generic managed
@@ -41,6 +57,14 @@ explicitly permits replacing the description; it can be combined with `--check` 
 preflight that write without mutation. Accepted image pixels, fonts and EN/RU remain protected.
 
 ## Safety and acceptance
+
+Academy equipment extends the current native avatar and resource-set catalogs using
+current table IDs. It resolves exact donor dependencies without copying donor IDs or
+replacing accepted artwork. Unavailable dependencies are reported by native ID.
+`recipes/native/characters/academy-equipment.json` pins the donor table, accepted additions
+and guarded imported model artifacts. Replay preserves existing runtime texture aliases
+and completes shared base/mip references only for those exact imported artifacts.
+
 
 Preflight every dependency, unsupported feature and conflict. Equal output is reusable;
 different existing files block the default write set. Preserve user edits and accepted

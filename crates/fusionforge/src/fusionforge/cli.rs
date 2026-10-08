@@ -90,8 +90,9 @@ pub(crate) use containers_merge_character_bundle_assets::{
 };
 use containers_export_object::{
     cli_container_expected_export_types, export_object, container_entries,
-    resolved_object_info, find_object, unity_to_json
+    resolved_object_info, find_object
 };
+pub(crate) use containers_export_object::unity_to_json;
 use state::cli_rewrite_selected_external_pointers_to_local;
 use validation::{
     validate_bundle_refs, validate_object_sizes,

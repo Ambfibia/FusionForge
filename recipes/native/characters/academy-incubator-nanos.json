@@ -1,0 +1,509 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "academy-incubator-nanos-71-72",
+  "sources": [
+    {
+      "alias": "Academy",
+      "path": "TrainingGrounds.resourceFile",
+      "sha256": "a632afe832b0a2123f9a94b86f126d61536023a7d159b5db8bf38950fd48ac11",
+      "bytes": 49508627
+    }
+  ],
+  "steps": [
+    {
+      "operation": "model",
+      "source": 0,
+      "exactRoute": "map/mtneverest/nano_group2.nif",
+      "family": "characters",
+      "semanticDirectories": [
+        "nanos",
+        "nano_waybig"
+      ],
+      "nativeLayout": true,
+      "selection": {
+        "mesh": "nano_waybig",
+        "logicalName": "nano_waybig",
+        "idleSource": "nif-default",
+        "callFromIdle": true
+      },
+      "outputs": [
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.glb",
+          "output": "characters/nanos/nano_waybig/nano_waybig.glb",
+          "sha256": "207618bdda1e6b254d83d63ae7cd64b8e05eb14a81c0be095c9bfb8b0ccf3239",
+          "bytes": 637088
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-01.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-01.png",
+          "sha256": "5357a3e4e8d9f9bbe06a02c5a89ca55cc1c1decf748006cc10cae2f3c8acaaed",
+          "bytes": 18304
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-02.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-02.png",
+          "sha256": "235c3927b633d92a1ba6962d1121d91a226954063df606699268fe8edda200b6",
+          "bytes": 6751
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-03.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-03.png",
+          "sha256": "599279a8c740e881aea98d70b07d0e560e4ec70a39e5f651a1d4d9a27e9dfabb",
+          "bytes": 2238
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-04.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-04.png",
+          "sha256": "7c9aa69dc89579ffb19f747db405cd14e02efaa1680fe9e847e006f6a073cf03",
+          "bytes": 735
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-05.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-05.png",
+          "sha256": "42bde96f359c805aec2eee7b79ec82f9a5e865af9b088ad9a1214f774d380dd1",
+          "bytes": 267
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-06.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-06.png",
+          "sha256": "f4d5c3d9ea739d44ff656f76003762d45c1cf8cfaae469211507be86090e67a9",
+          "bytes": 136
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-07.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-07.png",
+          "sha256": "d99219de193e09c9a61bd99e8e625d20c82885f14205907aace19c7607f7a58b",
+          "bytes": 86
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-08.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.mips/mip-08.png",
+          "sha256": "47b5ada92c0fec34dfba08fd2a5a926cc8b5b6330a79cd662e9f201a782d51f8",
+          "bytes": 73
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/nano_waybig.png",
+          "sha256": "08c77aedf5d800b1ee98d76f172982067b6256d7912ee29d7d50903ee2e22439",
+          "bytes": 47337
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-01.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-01.png",
+          "sha256": "a17c844843c1ed3c0920459fb45fbf892270ab3fa5af9c022cf53def000e0362",
+          "bytes": 142
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-02.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-02.png",
+          "sha256": "87e7433a2de53df248c1548a4fe1c9e40cbc7c44a3de2c823a923763a7968593",
+          "bytes": 141
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-03.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-03.png",
+          "sha256": "1bc22f699fe10ce7783065de02b12faf8d0ad6d573a9dd54951f2ac664004fd1",
+          "bytes": 143
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-04.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-04.png",
+          "sha256": "41d9030d1277e3b47db5e5437d34d3bac39e88519c148631528fcdebd81c5507",
+          "bytes": 133
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-05.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-05.png",
+          "sha256": "67e7ef232e9fedd6de31de40bd8e9a58e58651cf0f5bf1b13e1bb527a2e13064",
+          "bytes": 101
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-06.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-06.png",
+          "sha256": "b71d0ef02c63dbb95331d722fd80f04f21e514bd39996edc12394cc6135cf4e2",
+          "bytes": 85
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-07.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-07.png",
+          "sha256": "a60c64033f6dc8094350e7d77bbf00cd87267e6000978401b79ceecd5a345ded",
+          "bytes": 77
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-08.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.mips/mip-08.png",
+          "sha256": "306c7d6415b1f049bc5d889384fbd95d54594ccd6a2f79fc84827c6b4dbdef90",
+          "bytes": 73
+        },
+        {
+          "candidate": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.png",
+          "output": "characters/nanos/nano_waybig/nano_waybig.textures/ToonRamp9.png",
+          "sha256": "619e0f525a2da623ccca483593468f1f13ec8c53581bcfa453ab8f2977049d11",
+          "bytes": 142
+        }
+      ]
+    },
+    {
+      "operation": "model",
+      "source": 0,
+      "exactRoute": "map/mtneverest/nano_group2.nif",
+      "family": "characters",
+      "semanticDirectories": [
+        "nanos",
+        "nano_ultimatebigchill"
+      ],
+      "nativeLayout": true,
+      "selection": {
+        "mesh": "NANO_bigchill",
+        "logicalName": "nano_ultimatebigchill",
+        "idleSource": "nif-default",
+        "callFromIdle": true
+      },
+      "outputs": [
+        {
+          "candidate": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.glb",
+          "output": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.glb",
+          "sha256": "c2faf33580e8a1b2c81d1bbb0c0fea808a5b946515866716a0307e3830e0d724",
+          "bytes": 606256
+        },
+        {
+          "candidate": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-01.png",
+          "output": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-01.png",
+          "sha256": "f65b1e6d16852c8231b02b8cf00c64e98d196a2cb473a87f189f080d0d21defe",
+          "bytes": 78632
+        },
+        {
+          "candidate": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-02.png",
+          "output": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-02.png",
+          "sha256": "c4315a182feae07315acd2b2a5e5919fde26edab6b01b35497c4022bf61ec864",
+          "bytes": 26437
+        },
+        {
+          "candidate": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-03.png",
+          "output": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-03.png",
+          "sha256": "1b0b41621b5500b380fdcdf72ddc457848be564286fa53658c3975b2d9587213",
+          "bytes": 9127
+        },
+        {
+          "candidate": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-04.png",
+          "output": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-04.png",
+          "sha256": "3d8ec18a6525ebe32610c97166e53dcfcb10467f24e304f498c2040c7bdaa983",
+          "bytes": 2964
+        },
+        {
+          "candidate": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-05.png",
+          "output": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-05.png",
+          "sha256": "c493cc6788b00ec2375ace1283c947202fcde4e3de1dd137f2cbaefc09f69520",
+          "bytes": 849
+        },
+        {
+          "candidate": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-06.png",
+          "output": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-06.png",
+          "sha256": "67702ec44e8194a82d94cd202adcdddab31736020bda55c559922c633edb73b7",
+          "bytes": 291
+        },
+        {
+          "candidate": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-07.png",
+          "output": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-07.png",
+          "sha256": "dbe36c852148c9f931ae3a3723bf8404d2f536b77397d14a1cbfcbe8c108d034",
+          "bytes": 136
+        },
+        {
+          "candidate": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-08.png",
+          "output": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-08.png",
+          "sha256": "5688dbb3ec193c2e2751ca9bcfccf762002b4c95f9bc42d4105de72ef23d88da",
+          "bytes": 86
+        },
+        {
+          "candidate": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-09.png",
+          "output": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.mips/mip-09.png",
+          "sha256": "08e905ab2cec1bcf53787f9406d1ca816c52dd744f6b2386beac5fb67578e17a",
+          "bytes": 73
+        },
+        {
+          "candidate": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.png",
+          "output": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.textures/NANO_bigchill.png",
+          "sha256": "186f110379e3e4e41422568437aabc7e37640fd80735e8cc52819d8c95960538",
+          "bytes": 274117
+        }
+      ],
+      "nativeTextureOwners": [
+        "characters/nanos/nano_waybig/nano_waybig.glb"
+      ]
+    },
+    {
+      "operation": "json-patch",
+      "output": "data/tables/xdt.json",
+      "edits": [
+        {
+          "path": "/m_pNanoTable/m_pNanoData/71",
+          "after": {
+            "m_iAccuracy": 0,
+            "m_iBatteryRecharge": 3,
+            "m_iComment": 70,
+            "m_iDodge": 0,
+            "m_iEffect1": 1,
+            "m_iIcon1": 0,
+            "m_iMesh": 69,
+            "m_iNanoBattery1": 150,
+            "m_iNanoBattery2": 150,
+            "m_iNanoBattery3": 150,
+            "m_iNanoDrain": 2,
+            "m_iNanoName": 70,
+            "m_iNanoNumber": 71,
+            "m_iNanoSet": 3,
+            "m_iNeedFusionMatterCnt": 100,
+            "m_iNeedQItemID": 0,
+            "m_iPower": 0,
+            "m_iProtection": 0,
+            "m_iSound": 1,
+            "m_iStyle": 0,
+            "m_iTune": [
+              288,
+              289,
+              290
+            ]
+          }
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoData/72",
+          "after": {
+            "m_iAccuracy": 0,
+            "m_iBatteryRecharge": 3,
+            "m_iComment": 71,
+            "m_iDodge": 0,
+            "m_iEffect1": 1,
+            "m_iIcon1": 0,
+            "m_iMesh": 70,
+            "m_iNanoBattery1": 150,
+            "m_iNanoBattery2": 150,
+            "m_iNanoBattery3": 150,
+            "m_iNanoDrain": 2,
+            "m_iNanoName": 71,
+            "m_iNanoNumber": 72,
+            "m_iNanoSet": 3,
+            "m_iNeedFusionMatterCnt": 100,
+            "m_iNeedQItemID": 0,
+            "m_iPower": 0,
+            "m_iProtection": 0,
+            "m_iSound": 1,
+            "m_iStyle": 0,
+            "m_iTune": [
+              288,
+              289,
+              290
+            ]
+          }
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoMeshData/69",
+          "after": {
+            "m_pstrFMeshModelString": "null",
+            "m_pstrFTextureString": "null",
+            "m_pstrFTextureString2": "null",
+            "m_pstrMMeshModelString": "nano_waybig",
+            "m_pstrMTextureString": "nano_waybig",
+            "m_pstrMTextureString2": "null"
+          }
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoMeshData/70",
+          "after": {
+            "m_pstrFMeshModelString": "null",
+            "m_pstrFTextureString": "null",
+            "m_pstrFTextureString2": "null",
+            "m_pstrMMeshModelString": "nano_ultimatebigchill",
+            "m_pstrMTextureString": "nano_bigchill",
+            "m_pstrMTextureString2": "null"
+          }
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoStringData/70",
+          "after": {
+            "m_iExtraNumber": 0,
+            "m_strComment": "Way Big Nano.",
+            "m_strComment1": "Adaptium",
+            "m_strComment2": "",
+            "m_strName": "Way Big"
+          }
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoStringData/71",
+          "after": {
+            "m_iExtraNumber": 0,
+            "m_strComment": "Ultimate Big Chill Nano.",
+            "m_strComment1": "Adaptium",
+            "m_strComment2": "",
+            "m_strName": "Ultimate Big Chill"
+          }
+        },
+        {
+          "path": "/_ffone/tables/1/value/m_pCharacterModelData/450",
+          "after": {
+            "animations": [
+              "call",
+              "stand1"
+            ],
+            "category": "nano",
+            "glb": "characters/nanos/nano_waybig/nano_waybig.glb",
+            "id": "nano/nano_waybig",
+            "logicalName": "nano_waybig"
+          }
+        },
+        {
+          "path": "/_ffone/tables/1/value/m_pCharacterModelData/451",
+          "after": {
+            "animations": [
+              "call",
+              "stand1"
+            ],
+            "category": "nano",
+            "glb": "characters/nanos/nano_ultimatebigchill/nano_ultimatebigchill.glb",
+            "id": "nano/nano_ultimatebigchill",
+            "logicalName": "nano_ultimatebigchill"
+          }
+        }
+      ]
+    },
+    {
+      "operation": "json-patch",
+      "output": "localization/en.json",
+      "edits": [
+        {
+          "path": "/entries/content.nano.71.acquired_name",
+          "after": " Way Big "
+        },
+        {
+          "path": "/entries/content.nano.71.attribute",
+          "after": "Adaptium"
+        },
+        {
+          "path": "/entries/content.nano.71.description",
+          "after": "Way Big Nano."
+        },
+        {
+          "path": "/entries/content.nano.71.name",
+          "after": "Way Big"
+        },
+        {
+          "path": "/entries/content.nano.72.acquired_name",
+          "after": " Ultimate Big Chill "
+        },
+        {
+          "path": "/entries/content.nano.72.attribute",
+          "after": "Adaptium"
+        },
+        {
+          "path": "/entries/content.nano.72.description",
+          "after": "Ultimate Big Chill Nano."
+        },
+        {
+          "path": "/entries/content.nano.72.name",
+          "after": "Ultimate Big Chill"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.70.str_comment",
+          "after": "Way Big Nano."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.70.str_comment1",
+          "after": "Adaptium"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.70.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.70.str_name",
+          "after": "Way Big"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.71.str_comment",
+          "after": "Ultimate Big Chill Nano."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.71.str_comment1",
+          "after": "Adaptium"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.71.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.71.str_name",
+          "after": "Ultimate Big Chill"
+        }
+      ]
+    },
+    {
+      "operation": "json-patch",
+      "output": "localization/ru.json",
+      "edits": [
+        {
+          "path": "/entries/content.nano.71.acquired_name",
+          "after": " Гигант "
+        },
+        {
+          "path": "/entries/content.nano.71.attribute",
+          "after": "Адаптиум"
+        },
+        {
+          "path": "/entries/content.nano.71.description",
+          "after": "Нано Гигант."
+        },
+        {
+          "path": "/entries/content.nano.71.name",
+          "after": "Гигант"
+        },
+        {
+          "path": "/entries/content.nano.72.acquired_name",
+          "after": " Сверххолод "
+        },
+        {
+          "path": "/entries/content.nano.72.attribute",
+          "after": "Адаптиум"
+        },
+        {
+          "path": "/entries/content.nano.72.description",
+          "after": "Нано Сверххолод."
+        },
+        {
+          "path": "/entries/content.nano.72.name",
+          "after": "Сверххолод"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.70.str_comment",
+          "after": "Нано Гигант."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.70.str_comment1",
+          "after": "Адаптиум"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.70.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.70.str_name",
+          "after": "Гигант"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.71.str_comment",
+          "after": "Нано Сверххолод."
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.71.str_comment1",
+          "after": "Адаптиум"
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.71.str_comment2",
+          "after": ""
+        },
+        {
+          "path": "/entries/content.tabledata.nano.nano_string.71.str_name",
+          "after": "Сверххолод"
+        }
+      ]
+    }
+  ]
+}

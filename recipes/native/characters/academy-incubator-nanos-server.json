@@ -1,0 +1,122 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "academy-incubator-nanos-server-xdt",
+  "sources": [
+    {
+      "alias": "Academy",
+      "path": "TrainingGrounds.resourceFile",
+      "sha256": "a632afe832b0a2123f9a94b86f126d61536023a7d159b5db8bf38950fd48ac11",
+      "bytes": 49508627
+    }
+  ],
+  "steps": [
+    {
+      "operation": "json-patch",
+      "output": "tabledata/xdt.json",
+      "edits": [
+        {
+          "path": "/m_pNanoTable/m_pNanoData/71",
+          "after": {
+            "m_iAccuracy": 0,
+            "m_iBatteryRecharge": 3,
+            "m_iComment": 70,
+            "m_iDodge": 0,
+            "m_iEffect1": 1,
+            "m_iIcon1": 0,
+            "m_iMesh": 69,
+            "m_iNanoBattery1": 150,
+            "m_iNanoBattery2": 150,
+            "m_iNanoBattery3": 150,
+            "m_iNanoDrain": 2,
+            "m_iNanoName": 70,
+            "m_iNanoNumber": 71,
+            "m_iNanoSet": 3,
+            "m_iNeedFusionMatterCnt": 100,
+            "m_iNeedQItemID": 0,
+            "m_iPower": 0,
+            "m_iProtection": 0,
+            "m_iSound": 1,
+            "m_iStyle": 0,
+            "m_iTune": [
+              288,
+              289,
+              290
+            ]
+          }
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoData/72",
+          "after": {
+            "m_iAccuracy": 0,
+            "m_iBatteryRecharge": 3,
+            "m_iComment": 71,
+            "m_iDodge": 0,
+            "m_iEffect1": 1,
+            "m_iIcon1": 0,
+            "m_iMesh": 70,
+            "m_iNanoBattery1": 150,
+            "m_iNanoBattery2": 150,
+            "m_iNanoBattery3": 150,
+            "m_iNanoDrain": 2,
+            "m_iNanoName": 71,
+            "m_iNanoNumber": 72,
+            "m_iNanoSet": 3,
+            "m_iNeedFusionMatterCnt": 100,
+            "m_iNeedQItemID": 0,
+            "m_iPower": 0,
+            "m_iProtection": 0,
+            "m_iSound": 1,
+            "m_iStyle": 0,
+            "m_iTune": [
+              288,
+              289,
+              290
+            ]
+          }
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoMeshData/69",
+          "after": {
+            "m_pstrFMeshModelString": "null",
+            "m_pstrFTextureString": "null",
+            "m_pstrFTextureString2": "null",
+            "m_pstrMMeshModelString": "nano_waybig",
+            "m_pstrMTextureString": "nano_waybig",
+            "m_pstrMTextureString2": "null"
+          }
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoMeshData/70",
+          "after": {
+            "m_pstrFMeshModelString": "null",
+            "m_pstrFTextureString": "null",
+            "m_pstrFTextureString2": "null",
+            "m_pstrMMeshModelString": "nano_ultimatebigchill",
+            "m_pstrMTextureString": "nano_bigchill",
+            "m_pstrMTextureString2": "null"
+          }
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoStringData/70",
+          "after": {
+            "m_iExtraNumber": 0,
+            "m_strComment": "Way Big Nano.",
+            "m_strComment1": "Adaptium",
+            "m_strComment2": "",
+            "m_strName": "Way Big"
+          }
+        },
+        {
+          "path": "/m_pNanoTable/m_pNanoStringData/71",
+          "after": {
+            "m_iExtraNumber": 0,
+            "m_strComment": "Ultimate Big Chill Nano.",
+            "m_strComment1": "Adaptium",
+            "m_strComment2": "",
+            "m_strName": "Ultimate Big Chill"
+          }
+        }
+      ]
+    }
+  ]
+}

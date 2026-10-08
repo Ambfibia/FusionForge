@@ -157,11 +157,12 @@ fn validate_feature_invariants(counts: &ModelFeatureCounts) -> Result<()> {
             && counts.float_curves == 0
             && counts.empty_trs_bindings == 0
             && counts.duplicate_trs_bindings == 0
-            && counts.animation_curve_recoveries == 0)
+            && counts.animation_curve_recoveries == 0
+            && counts.animation_events == 0)
             || (counts.animation_channels > 0 && counts.animation_keyframes == 0))
     {
         return invalid(
-            "animation clips require non-empty channels, float curves or exact empty TRS bindings",
+            "animation clips require channels, float curves, exact TRS metadata or events",
         );
     }
     Ok(())

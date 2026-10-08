@@ -38,8 +38,11 @@ pub(in super::super) fn run_cli(mut args: Vec<String>) -> Result<(), String> {
     let command = normalize_command(&args.remove(0));
     match command.as_str() {
         "convert-native-ui" => run_large_stack_task(move || super::super::direct_ui::run(&args)),
+        "convert-academy-items" => run_large_stack_task(move || super::super::native_academy_items::run(&args)),
         "inspect" => run_large_stack_task(move || super::super::inspect::run(&args)),
         "convert-player-emotes" => run_large_stack_task(move || super::super::native_player_emotes::run(&args)),
+        "convert-player-launcher" => run_large_stack_task(move || super::super::native_player_launcher::run(&args)),
+        "convert-player-walk" => run_large_stack_task(move || super::super::native_player_launcher::run_walk(&args)),
         "chartexture-metadata" => run_large_stack_task(move || crate::ffone_chartexture_metadata::run(&args)),
         "utility" => { let command = args.first().ok_or("utility requires a command")?; println!("{}", ffone_asset_pipeline::commands::run(command, &args[1..])?); Ok(()) },
         "reference-audit" => { println!("{}", ffone_reference_audit::cli::run(args.iter().map(std::ffi::OsString::from))?); Ok(()) },
@@ -206,6 +209,7 @@ pub(in super::super) fn run_cli(mut args: Vec<String>) -> Result<(), String> {
 }
 
 pub(super) fn print_usage() {
+    println!("  convert-academy-items <Academy-raw-root> <native-asset-root> [--check]");
     println!("  convert-native-ui <raw-build-root> quit-menu <native-asset-root> [--text-metrics <capture.json>] [--check] [--replace-existing]");
     println!("  inspect <container> [--asset NAME] [--type TYPE] [--name TEXT] [--path-id ID] [--limit N] [--format json|markdown]");
     println!("  inspect <container> --assembly NAME [--class TEXT] [--method TEXT] [--limit N] [--format json|markdown]");

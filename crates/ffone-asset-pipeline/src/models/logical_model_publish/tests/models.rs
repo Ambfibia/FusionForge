@@ -106,6 +106,21 @@ pub(super) fn glb_json(bytes: &[u8]) -> Value {
     }
 
 #[test]
+    fn self_skinned_renderer_ignores_same_named_container_root() {
+        let mut value: Value = serde_json::from_str(&fixture().to_string().replace("True Hero", "Body")).unwrap();
+        value["meshes"][0]["sourceBindings"][0]["transformPath"] = json!("Body/Bip01/Bone");
+        value["meshes"][0]["sourceBindings"][0]["transformPathId"] = json!(3);
+        value["meshes"][0]["skin"]["rendererTransformPathId"] = json!(3);
+        value["rendererMaterialBindings"][0]["gameObject"] = source_object("fixture:go-bone", 1003, "GameObject");
+        let source: SourceDocument = serde_json::from_value(value).unwrap();
+        let converted = convert_source(&source).unwrap();
+        assert!(converted.model.nodes[0].mesh.is_none());
+        assert!(converted.model.nodes[2].mesh.is_none());
+        assert_eq!(converted.model.nodes[3].mesh, Some(0));
+        assert_eq!(converted.model.nodes[3].skin, Some(0));
+    }
+
+#[test]
     fn accepts_typed_exact_character_root_mesh_selection_proof() {
         let mut value = fixture();
         value["exactMeshSelectionProof"] = json!({
@@ -151,6 +166,41 @@ pub(super) fn glb_json(bytes: &[u8]) -> Value {
         let audit = crate::audit_logical_model_tree(&output).unwrap();
         assert!(audit.passed, "{:#?}", audit.violations);
         assert_eq!(audit.counts.features.empty_trs_bindings, 1);
+    }
+
+#[test]
+    fn preserves_event_only_death_clip_without_inventing_motion() {
+        let mut value = fixture();
+        let clip = &mut value["animations"][0];
+        clip["name"] = json!("death");
+        clip["duration"] = json!(0.0);
+        clip["declaredDuration"] = Value::Null;
+        clip["keyedDuration"] = Value::Null;
+        clip["eventDuration"] = json!(0.0);
+        clip["wrapMode"] = json!(0);
+        clip["loop"] = json!(false);
+        for field in ["compressedRotation", "rotation", "position", "scale", "euler", "float", "pptr"] {
+            clip["curveCounts"][field] = json!(0);
+        }
+        clip["animationData"]["translations"] = json!([]);
+        clip["animationData"]["rotations"] = json!([]);
+        clip["events"][0]["time"] = json!(0.0);
+        clip["events"][0]["functionName"] = json!("end");
+        clip["events"][0]["stringParameter"] = json!("");
+
+        let (temp, report) = publish_fixture(&value);
+        assert_eq!(report.contract.source.animation_clips, 1);
+        assert_eq!(report.contract.source.animation_channels, 0);
+        assert_eq!(report.contract.source.animation_events, 1);
+        assert_eq!(report.contract.source, report.contract.published);
+        let output = temp.path().join("output");
+        let glb = fs::read(output.join(&report.contract.output_glb)).unwrap();
+        let document = glb_json(&glb);
+        assert!(document.get("animations").is_none());
+        assert_eq!(document["extras"]["ffone"]["metadataOnlyAnimations"][0]["name"], json!("death"));
+        let audit = crate::audit_logical_model_tree(&output).unwrap();
+        assert!(audit.passed, "{:#?}", audit.violations);
+        assert_eq!(audit.counts.features.animation_events, 1);
     }
 
 #[test]

@@ -1,0 +1,488 @@
+{
+  "schema": "fusionforge.native-cli-recipe.v1",
+  "id": "soulo-shell-academy-20261005",
+  "sources": [
+    {
+      "alias": "academy",
+      "path": "TableData.resourceFile",
+      "sha256": "d724c9417de5ff35e9bdb7bdfcf9bb93b4c8f715f42623fa2e1834d835be60a5",
+      "bytes": 751481
+    },
+    {
+      "alias": "academy",
+      "path": "DongResources_07_08.resourceFile",
+      "sha256": "23eadd14ebcbd701af1a4528845395b7b0f7f936f284d3df4a9f28219ce3a40e",
+      "bytes": 8092837
+    },
+    {
+      "alias": "academy",
+      "path": "Character_Texture_npc2.resourceFile",
+      "sha256": "55271aaca9357de437215771fec61fd9a7de6379376f4465af23c44d9e5d850d",
+      "bytes": 5942518
+    },
+    {
+      "alias": "academy",
+      "path": "TrainingGrounds.resourceFile",
+      "sha256": "a632afe832b0a2123f9a94b86f126d61536023a7d159b5db8bf38950fd48ac11",
+      "bytes": 49508627
+    },
+    {
+      "alias": "academy",
+      "path": "Effects.resourceFile",
+      "sha256": "9bc2252ec9e8f5b4040755bdd30c0327f8fc2b879147064e956ff9ecd7214928",
+      "bytes": 7028491
+    }
+  ],
+  "steps": [
+    {
+      "operation": "evidence",
+      "source": 0,
+      "serializedAsset": "CustomAssetBundle-TableData",
+      "pathId": 2139558964,
+      "type": "MonoBehaviour",
+      "name": "soulo-shell-table",
+      "assertions": [
+        {
+          "pointer": "/object/value/m_pNpcTable/m_pNpcData/3622",
+          "equals": {
+            "m_fAnimationSpeed": 1.0,
+            "m_fRunAnimationSpeed": 1.0,
+            "m_fScale": 1.0,
+            "m_fWalkAnimationSpeed": 1.0,
+            "m_iAccuracy": -70,
+            "m_iActiveSkill1": 0,
+            "m_iActiveSkill1Ani": 1,
+            "m_iActiveSkill1Prob": 0,
+            "m_iActiveSkill1String": 0,
+            "m_iActiveSkill2": 0,
+            "m_iActiveSkill2Ani": 2,
+            "m_iActiveSkill2Prob": 0,
+            "m_iActiveSkill2String": 0,
+            "m_iActiveSkill3": 0,
+            "m_iActiveSkill3Prob": 0,
+            "m_iAiType": 2,
+            "m_iAtkAngle": 100,
+            "m_iAtkRange": 200,
+            "m_iAtkRate": 0,
+            "m_iBarkerNumber": 0,
+            "m_iBarkerType": 0,
+            "m_iCombatRange": 400,
+            "m_iComment": 3622,
+            "m_iCorruptionString": 0,
+            "m_iCorruptionType": 0,
+            "m_iCorruptionTypeProb": 0,
+            "m_iDelayTime": 12,
+            "m_iDeliverTime": 0,
+            "m_iDifficulty": 2,
+            "m_iDodge": 120,
+            "m_iDropType": 724,
+            "m_iDurationTime": 0,
+            "m_iEffect": 106,
+            "m_iEffectArea": 100,
+            "m_iHNpc": 0,
+            "m_iHNpcNum": 0,
+            "m_iHP": 100,
+            "m_iHPRegen": 0,
+            "m_iHeight": 80,
+            "m_iIcon1": 288,
+            "m_iIdleRange": 1000,
+            "m_iInitalTime": 15,
+            "m_iJumpDistance": 0,
+            "m_iJumpHeight": 0,
+            "m_iLegStyle": 1,
+            "m_iMapIcon": 0,
+            "m_iMegaAni": 0,
+            "m_iMegaString": 0,
+            "m_iMegaType": 0,
+            "m_iMegaTypeProb": 0,
+            "m_iMesh": 530,
+            "m_iNeck": 0,
+            "m_iNpcLevel": 1,
+            "m_iNpcName": 3622,
+            "m_iNpcNumber": 3622,
+            "m_iNpcStyle": 1,
+            "m_iNpcType": 0,
+            "m_iPassiveBuff": 0,
+            "m_iPower": -260,
+            "m_iProtection": 100,
+            "m_iRadius": 60,
+            "m_iRegenTime": 600,
+            "m_iRunSpeed": 500,
+            "m_iServiceNumber": 0,
+            "m_iSightRange": 700,
+            "m_iSound": 1,
+            "m_iSupportSkill": 0,
+            "m_iSupportSkillAni": 3,
+            "m_iSupportSkillString": 0,
+            "m_iSwimSpeed": 0,
+            "m_iTargetMode": 1,
+            "m_iTargetNumber": 1,
+            "m_iTeam": 2,
+            "m_iTexture": 0,
+            "m_iTexture2": 0,
+            "m_iWalkSpeed": 300
+          }
+        },
+        {
+          "pointer": "/object/value/m_pNpcTable/m_pNpcMeshData/530",
+          "equals": {
+            "m_pstrFMeshModelString": "null",
+            "m_pstrFTextureString": "null",
+            "m_pstrFTextureString2": "null",
+            "m_pstrMMeshModelString": "mob_fusionbomb",
+            "m_pstrMTextureString": "mob_fusionbomb",
+            "m_pstrMTextureString2": "null"
+          }
+        },
+        {
+          "pointer": "/object/value/m_pNpcTable/m_pNpcStringData/3622",
+          "equals": {
+            "m_iExtraNumber": 0,
+            "m_strComment": " ",
+            "m_strComment1": " ",
+            "m_strComment2": " ",
+            "m_strName": "Soulo Shell"
+          }
+        }
+      ]
+    },
+    {
+      "operation": "model",
+      "source": 1,
+      "exactRoute": "mob/mob_fusionbomb.kfm",
+      "family": "characters",
+      "outputs": [
+        {
+          "candidate": "characters/mobs/mob_fusionbomb/mob_fusionbomb.glb",
+          "output": "characters/mobs/mob_fusionbomb/mob_fusionbomb.glb",
+          "sha256": "1170837d09703b510f0ce57dc2b467ab06323fd33c3b2f49ccc5065bb65e95ef",
+          "bytes": 42732
+        },
+        {
+          "candidate": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-01.png",
+          "output": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-01.png",
+          "sha256": "9aada4108e7a37d4bc98880a1b703ec8e504f61a06a1fc37dd1e8841f6308819",
+          "bytes": 31209
+        },
+        {
+          "candidate": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-02.png",
+          "output": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-02.png",
+          "sha256": "fa14a5b3f8ab63172824e751f68b6b741273a2ef176d96af0aae1ce913cd694c",
+          "bytes": 7662
+        },
+        {
+          "candidate": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-03.png",
+          "output": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-03.png",
+          "sha256": "2428ed7b9f285924cc56b87630c7b84ea78e4d02b9c3a8592993fd1a8b961442",
+          "bytes": 2230
+        },
+        {
+          "candidate": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-04.png",
+          "output": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-04.png",
+          "sha256": "fdd2d51b89f03211513494963f8bb905bd8fa7127a309f519006007bb70c0223",
+          "bytes": 894
+        },
+        {
+          "candidate": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-05.png",
+          "output": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-05.png",
+          "sha256": "ce94d1b0d9a151d298d96ca2f510591947105403f6b92c550c9f043bfab5d42b",
+          "bytes": 383
+        },
+        {
+          "candidate": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-06.png",
+          "output": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-06.png",
+          "sha256": "f682a364e31eab5a4c2e463f49490d584ffc554ae5c75b3ce9db753638e51e5a",
+          "bytes": 204
+        },
+        {
+          "candidate": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-07.png",
+          "output": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-07.png",
+          "sha256": "a9d64333756e5f0ed654bf5cecfeac922256692b1a0f9e91aa62a05ae2b24c7c",
+          "bytes": 136
+        },
+        {
+          "candidate": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-08.png",
+          "output": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-08.png",
+          "sha256": "bbfef0d51f318076440b37e33383a550dcb58c5661361518e0add52193589008",
+          "bytes": 86
+        },
+        {
+          "candidate": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-09.png",
+          "output": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.mips/mip-09.png",
+          "sha256": "874be0c1c374461fbe46a3e1e3b12ff69ceddbd0664e5ede342e736c6f811ade",
+          "bytes": 73
+        },
+        {
+          "candidate": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.png",
+          "output": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.png",
+          "sha256": "ccb46a752683a4fa6736c53033cd9c343b502c4088ac3dd9fd14d1951496e036",
+          "bytes": 100149
+        },
+        {
+          "candidate": "characters/shared/textures/toonramp9_variant_03.png",
+          "output": "characters/shared/textures/toonramp9_variant_03.png",
+          "sha256": "d5b6d856db1ef1970c0e6c4c6e594a868527a4f9a33b4fa018c02f4e04c934da",
+          "bytes": 149
+        },
+        {
+          "candidate": "characters/shared/textures/toonramp9_variant_03.mips/mip-01.png",
+          "output": "characters/shared/textures/toonramp9_variant_03.mips/mip-01.png",
+          "sha256": "267a1eceafeac3d8d92e95d22bcb7562f622eb0fcc708431ed0bbca7bf696135",
+          "bytes": 139
+        },
+        {
+          "candidate": "characters/shared/textures/toonramp9_variant_03.mips/mip-02.png",
+          "output": "characters/shared/textures/toonramp9_variant_03.mips/mip-02.png",
+          "sha256": "f000c1c4e54fd95f24cc57a9c69d30af7b91b62c68f6a09925cf338b82c5ad78",
+          "bytes": 138
+        },
+        {
+          "candidate": "characters/shared/textures/toonramp9_variant_03.mips/mip-03.png",
+          "output": "characters/shared/textures/toonramp9_variant_03.mips/mip-03.png",
+          "sha256": "a37ed767042ac6feef1992befefb8c08311c98fa3f853dae555c43374c69d91c",
+          "bytes": 143
+        },
+        {
+          "candidate": "characters/shared/textures/toonramp9_variant_03.mips/mip-04.png",
+          "output": "characters/shared/textures/toonramp9_variant_03.mips/mip-04.png",
+          "sha256": "ec6eb48f34dde849d4eb0ac39a220f14eeb30e9b34adbd720a2f0d6f79752e6a",
+          "bytes": 133
+        },
+        {
+          "candidate": "characters/shared/textures/toonramp9_variant_03.mips/mip-05.png",
+          "output": "characters/shared/textures/toonramp9_variant_03.mips/mip-05.png",
+          "sha256": "7c3258c74e896a62106fddcd786aa4f4265141383d59a251908a5975b80e0c0a",
+          "bytes": 101
+        },
+        {
+          "candidate": "characters/shared/textures/toonramp9_variant_03.mips/mip-06.png",
+          "output": "characters/shared/textures/toonramp9_variant_03.mips/mip-06.png",
+          "sha256": "5d68d5ed4d2a328a25b12a7d14cbc31e243fb82c16c5029292b81dac2cd67d9e",
+          "bytes": 85
+        },
+        {
+          "candidate": "characters/shared/textures/toonramp9_variant_03.mips/mip-07.png",
+          "output": "characters/shared/textures/toonramp9_variant_03.mips/mip-07.png",
+          "sha256": "1b28fc0892da19cf518c5add9ec11b704959326a84ded4a8c385df6773329e41",
+          "bytes": 77
+        },
+        {
+          "candidate": "characters/shared/textures/toonramp9_variant_03.mips/mip-08.png",
+          "output": "characters/shared/textures/toonramp9_variant_03.mips/mip-08.png",
+          "sha256": "c9d62ad8603470cbc9095560bc76a90fd12004ba9296d8a4ab987d57413d4945",
+          "bytes": 73
+        }
+      ],
+      "semanticDirectories": [
+        "mobs",
+        "mob_fusionbomb"
+      ],
+      "nativeLayout": true,
+      "nativeTextureOwners": [
+        "characters/npcs/fusion_kimchi/fusion_kimchi.glb"
+      ]
+    },
+    {
+      "operation": "json-patch",
+      "output": "data/tables/xdt.json",
+      "edits": [
+        {
+          "path": "/m_pNpcTable/m_pNpcData/3493",
+          "after": {
+            "m_fAnimationSpeed": 1.0,
+            "m_fRunAnimationSpeed": 1.0,
+            "m_fScale": 1.0,
+            "m_fWalkAnimationSpeed": 1.0,
+            "m_iAccuracy": -70,
+            "m_iActiveSkill1": 0,
+            "m_iActiveSkill1Ani": 1,
+            "m_iActiveSkill1Prob": 0,
+            "m_iActiveSkill1String": 0,
+            "m_iActiveSkill2": 0,
+            "m_iActiveSkill2Ani": 2,
+            "m_iActiveSkill2Prob": 0,
+            "m_iActiveSkill2String": 0,
+            "m_iActiveSkill3": 0,
+            "m_iActiveSkill3Prob": 0,
+            "m_iAiType": 2,
+            "m_iAtkAngle": 100,
+            "m_iAtkRange": 200,
+            "m_iAtkRate": 0,
+            "m_iBarkerNumber": 0,
+            "m_iBarkerType": 0,
+            "m_iCombatRange": 400,
+            "m_iComment": 3493,
+            "m_iCorruptionString": 0,
+            "m_iCorruptionType": 0,
+            "m_iCorruptionTypeProb": 0,
+            "m_iDelayTime": 12,
+            "m_iDeliverTime": 0,
+            "m_iDifficulty": 2,
+            "m_iDodge": 120,
+            "m_iDropType": 724,
+            "m_iDurationTime": 0,
+            "m_iEffect": 106,
+            "m_iEffectArea": 100,
+            "m_iHNpc": 0,
+            "m_iHNpcNum": 0,
+            "m_iHP": 100,
+            "m_iHPRegen": 0,
+            "m_iHeight": 80,
+            "m_iIcon1": 723,
+            "m_iIdleRange": 1000,
+            "m_iInitalTime": 15,
+            "m_iJumpDistance": 0,
+            "m_iJumpHeight": 0,
+            "m_iLegStyle": 1,
+            "m_iMapIcon": 0,
+            "m_iMegaAni": 0,
+            "m_iMegaString": 0,
+            "m_iMegaType": 0,
+            "m_iMegaTypeProb": 0,
+            "m_iMesh": 668,
+            "m_iNeck": 0,
+            "m_iNpcLevel": 1,
+            "m_iNpcName": 3493,
+            "m_iNpcNumber": 3622,
+            "m_iNpcStyle": 1,
+            "m_iNpcType": 0,
+            "m_iPassiveBuff": 0,
+            "m_iPower": -260,
+            "m_iProtection": 100,
+            "m_iRadius": 60,
+            "m_iRegenTime": 600,
+            "m_iRunSpeed": 500,
+            "m_iServiceNumber": 0,
+            "m_iSightRange": 700,
+            "m_iSound": 1,
+            "m_iSupportSkill": 0,
+            "m_iSupportSkillAni": 3,
+            "m_iSupportSkillString": 0,
+            "m_iSwimSpeed": 0,
+            "m_iTargetMode": 1,
+            "m_iTargetNumber": 1,
+            "m_iTeam": 2,
+            "m_iTexture": 0,
+            "m_iTexture2": 0,
+            "m_iWalkSpeed": 300
+          }
+        },
+        {
+          "path": "/m_pNpcTable/m_pNpcMeshData/668",
+          "after": {
+            "m_pstrFMeshModelString": "null",
+            "m_pstrFTextureString": "null",
+            "m_pstrFTextureString2": "null",
+            "m_pstrMMeshModelString": "mob_fusionbomb",
+            "m_pstrMTextureString": "mob_fusionbomb",
+            "m_pstrMTextureString2": "null"
+          }
+        },
+        {
+          "path": "/m_pNpcTable/m_pNpcIconData/723",
+          "after": {
+            "m_iIconNumber": 275,
+            "m_iIconType": 8
+          }
+        },
+        {
+          "path": "/m_pNpcTable/m_pNpcStringData/3493",
+          "after": {
+            "m_iExtraNumber": 0,
+            "m_strComment": " ",
+            "m_strComment1": " ",
+            "m_strComment2": " ",
+            "m_strName": "Soulo Shell"
+          }
+        },
+        {
+          "path": "/_ffone/tables/1/value/m_pCharacterModelData/460",
+          "after": {
+            "id": "mob/mob_fusionbomb",
+            "logicalName": "mob_fusionbomb",
+            "category": "mob",
+            "glb": "characters/mobs/mob_fusionbomb/mob_fusionbomb.glb",
+            "animations": []
+          }
+        }
+      ]
+    },
+    {
+      "operation": "json-patch",
+      "output": "data/tables/npc_texture_overrides.json",
+      "edits": [
+        {
+          "path": "/textures/430",
+          "after": {
+            "trueName": "mob_fusionbomb",
+            "path": "characters/mobs/mob_fusionbomb/mob_fusionbomb.textures/mob_fusionbomb.png",
+            "sha256": "ccb46a752683a4fa6736c53033cd9c343b502c4088ac3dd9fd14d1951496e036",
+            "sampler": {
+              "anisotropyLevel": 1,
+              "legacyFilterMode": 1,
+              "legacyWrapMode": 0,
+              "magFilter": "linear",
+              "minFilter": "linearMipmapNearest",
+              "mipMapBias": 0.0,
+              "name": "mob_fusionbomb",
+              "wrapS": "repeat",
+              "wrapT": "repeat"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "json-patch",
+      "output": "localization/en.json",
+      "edits": [
+        {
+          "path": "/entries/content.npc.3622.name",
+          "after": "Soulo Shell"
+        },
+        {
+          "path": "/entries/content.tabledata.npc.npc_string.3493.str_name",
+          "after": "Soulo Shell"
+        },
+        {
+          "path": "/entries/content.tabledata.npc.npc_string.3493.str_comment",
+          "after": " "
+        },
+        {
+          "path": "/entries/content.tabledata.npc.npc_string.3493.str_comment1",
+          "after": " "
+        },
+        {
+          "path": "/entries/content.tabledata.npc.npc_string.3493.str_comment2",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "operation": "json-patch",
+      "output": "localization/ru.json",
+      "edits": [
+        {
+          "path": "/entries/content.npc.3622.name",
+          "after": "Оболочка Соуло"
+        },
+        {
+          "path": "/entries/content.tabledata.npc.npc_string.3493.str_name",
+          "after": "Оболочка Соуло"
+        },
+        {
+          "path": "/entries/content.tabledata.npc.npc_string.3493.str_comment",
+          "after": " "
+        },
+        {
+          "path": "/entries/content.tabledata.npc.npc_string.3493.str_comment1",
+          "after": " "
+        },
+        {
+          "path": "/entries/content.tabledata.npc.npc_string.3493.str_comment2",
+          "after": " "
+        }
+      ]
+    }
+  ]
+}

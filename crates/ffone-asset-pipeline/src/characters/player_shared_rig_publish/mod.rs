@@ -51,6 +51,8 @@ mod codec;
 mod validation;
 mod localization;
 mod retarget;
+mod launcher;
+pub use launcher::encode_player_rig_clip_additions;
 pub use retarget::rebuild_male_emote_payloads;
 
 pub use animation_publish_player_rig_animations::{

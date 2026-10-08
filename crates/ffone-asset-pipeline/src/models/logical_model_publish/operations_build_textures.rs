@@ -81,10 +81,20 @@ pub(super) fn skinned_renderer_output_node(
     match candidates.as_slice() {
         [index] => Ok(*index),
         [] => Ok(binding_node_index),
-        _ => invalid(format!(
-            "self-skinned mesh {:?} has more than one non-joint renderer transform",
-            source_mesh.name
-        )),
+        _ => {
+            // Academy wearables can name both the model container and its empty
+            // renderer child after the Mesh. The proven hierarchy root owns the
+            // skeleton; it is not a second renderer transform.
+            let renderers = candidates.iter().copied().filter(|index| {
+                let node=&source.model_hierarchy.nodes[*index as usize];
+                !source.model_hierarchy.roots.iter().any(|root|
+                    root.source_asset_index==node.source_asset_index && root.transform_path_id==node.transform_path_id)
+            }).collect::<Vec<_>>();
+            match renderers.as_slice() {
+                [index]=>Ok(*index),
+                _=>invalid(format!("self-skinned mesh {:?} has more than one non-joint renderer transform",source_mesh.name)),
+            }
+        },
     }
 }
 

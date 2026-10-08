@@ -1,0 +1,3878 @@
+{
+  "schema": "fusionforge.academy-equipment-retention.v1",
+  "source": "OG-academy",
+  "tableSha256": "d724c9417de5ff35e9bdb7bdfcf9bb93b4c8f715f42623fa2e1834d835be60a5",
+  "tablePathId": 2139558964,
+  "nativeIds": {
+    "back": [
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200
+    ],
+    "glasses": [
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137
+    ],
+    "hat": [
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441,
+      442,
+      443,
+      444,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457,
+      458,
+      459
+    ],
+    "shirt": [
+      668,
+      669,
+      670,
+      671,
+      672,
+      673,
+      674,
+      675,
+      676,
+      677,
+      678,
+      679,
+      680,
+      681,
+      682,
+      683,
+      684,
+      685,
+      686,
+      687,
+      688,
+      689,
+      690,
+      691,
+      692,
+      693,
+      694,
+      695,
+      696,
+      697,
+      698,
+      699,
+      700,
+      701,
+      702,
+      703,
+      704,
+      705,
+      706,
+      707,
+      708,
+      709,
+      710,
+      711,
+      712,
+      713,
+      714,
+      715,
+      716,
+      717,
+      718,
+      719,
+      720,
+      721,
+      722,
+      723,
+      724,
+      725,
+      726,
+      727,
+      728,
+      729,
+      730,
+      731,
+      732,
+      733,
+      734,
+      735,
+      736,
+      737,
+      738,
+      739,
+      740,
+      741,
+      742,
+      743,
+      744,
+      745,
+      746,
+      747,
+      748,
+      749,
+      750,
+      751,
+      752,
+      753,
+      754,
+      755,
+      756,
+      757,
+      758,
+      759,
+      760,
+      761,
+      762,
+      763,
+      764,
+      765,
+      766,
+      767,
+      768,
+      769,
+      770,
+      771,
+      772,
+      773,
+      774,
+      775,
+      776,
+      777,
+      778,
+      779,
+      780,
+      781,
+      782,
+      783,
+      784,
+      785,
+      786,
+      787,
+      788,
+      789,
+      790,
+      791,
+      792,
+      793,
+      794,
+      795,
+      796,
+      797,
+      798,
+      799,
+      800,
+      801,
+      802,
+      803,
+      804,
+      805,
+      806,
+      807,
+      808,
+      809,
+      810,
+      811,
+      812,
+      813,
+      814,
+      815,
+      816,
+      817,
+      818,
+      819,
+      820,
+      821,
+      822,
+      823,
+      824,
+      825,
+      826,
+      827,
+      828,
+      829,
+      830,
+      831,
+      832,
+      833,
+      834,
+      835,
+      836,
+      837,
+      838,
+      839,
+      840,
+      841
+    ],
+    "pants": [
+      563,
+      564,
+      565,
+      566,
+      567,
+      568,
+      569,
+      570,
+      571,
+      572,
+      573,
+      574,
+      575,
+      576,
+      577,
+      578,
+      579,
+      580,
+      581,
+      582,
+      583,
+      584,
+      585,
+      586,
+      587,
+      588,
+      589,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      607,
+      608,
+      609,
+      610,
+      611,
+      612,
+      613,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      620,
+      621,
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630,
+      631,
+      632,
+      633,
+      634,
+      635,
+      636,
+      637,
+      638,
+      639,
+      640,
+      641,
+      642,
+      643,
+      644,
+      645,
+      646,
+      647,
+      648,
+      649,
+      650,
+      651,
+      652,
+      654,
+      655,
+      656,
+      657,
+      658,
+      659,
+      660,
+      661,
+      662
+    ],
+    "shoes": [
+      564,
+      565,
+      566,
+      567,
+      568,
+      569,
+      570,
+      571,
+      572,
+      573,
+      574,
+      575,
+      576,
+      577,
+      578,
+      579,
+      580,
+      581,
+      582,
+      583,
+      584,
+      585,
+      586,
+      587,
+      588,
+      589,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      607,
+      608,
+      609,
+      610,
+      611,
+      612,
+      613,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      620,
+      621,
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630,
+      631,
+      632,
+      633,
+      634,
+      635,
+      636,
+      637,
+      638,
+      639,
+      640,
+      641,
+      642,
+      643,
+      644,
+      645,
+      646,
+      647,
+      648,
+      649,
+      650,
+      651,
+      652,
+      654,
+      655,
+      656,
+      657,
+      658,
+      659,
+      660,
+      661,
+      662
+    ],
+    "vehicle": [
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161
+    ],
+    "weapon": [
+      768,
+      769,
+      770,
+      771,
+      772,
+      773,
+      774,
+      775,
+      776,
+      777,
+      778,
+      779,
+      780,
+      781,
+      783,
+      784,
+      785,
+      786,
+      787,
+      788,
+      789,
+      790,
+      791,
+      792,
+      793,
+      794,
+      795,
+      796,
+      797,
+      798,
+      799,
+      800,
+      801,
+      802,
+      803,
+      804,
+      805,
+      806
+    ]
+  },
+  "importedModels": [
+    {
+      "blake3": "99430848b6947b56ce0059395541cde202ea6b73bc54e1523124e425d256ad01",
+      "bytes": 56728,
+      "path": "characters/player/items/back/back_ampfibiantendrils/models/back_ampfibiantendrils/model.glb"
+    },
+    {
+      "blake3": "f94bc811f0c07e4f8029cc5d837774792a62ebd834029e079a60bc773b192be9",
+      "bytes": 50316,
+      "path": "characters/player/items/back/back_benivicktorbatterypack/models/back_benivicktorbatterypack/model.glb"
+    },
+    {
+      "blake3": "cec644521d3b64a4de5f1cc4b392b775bf41bae84cb690e64385f0a1f199730a",
+      "bytes": 10928,
+      "path": "characters/player/items/back/back_benmummybandages/models/back_benmummybandages/model.glb"
+    },
+    {
+      "blake3": "b7a64bfcc1a41733139f574e0206911c61b6834a50b42d5d1cd5d53f51d27b32",
+      "bytes": 55740,
+      "path": "characters/player/items/back/back_boogiepack/models/back_boogiepack/model.glb"
+    },
+    {
+      "blake3": "1a8027192cd13e6c9a5b745e40f514853f0aeb7432cd08a53775ecbcb1e0cf05",
+      "bytes": 75732,
+      "path": "characters/player/items/back/back_brainstormbackpack/models/back_brainstormbackpack/model.glb"
+    },
+    {
+      "blake3": "2faca33e14a2053d3a4553e5281ea1f18be343e592985bfa1f511542d51da441",
+      "bytes": 44516,
+      "path": "characters/player/items/back/back_finnbackpack/models/back_finnbackpack/model.glb"
+    },
+    {
+      "blake3": "44638d375a00a2536834caa3060739800e9cc0c677271aee590f88143f28bd3d",
+      "bytes": 36608,
+      "path": "characters/player/items/back/back_humungousaurtail/models/back_humungousaurtail/model.glb"
+    },
+    {
+      "blake3": "a0f91d6566d8e545baf116f0eca5dcb3825b438a9caae8187a10e66e180bf331",
+      "bytes": 61932,
+      "path": "characters/player/items/back/back_jiggler/models/back_jiggler/model.glb"
+    },
+    {
+      "blake3": "ec60fe34a5874298c2a4227a7108fc18bae7ba4c898864c663c314832a91475a",
+      "bytes": 51064,
+      "path": "characters/player/items/back/back_johnnypack/models/back_johnnypack/model.glb"
+    },
+    {
+      "blake3": "183c434f2e77bfec2c266c259f93312590ddff9ff76a239e127cfcb343f574ba",
+      "bytes": 38516,
+      "path": "characters/player/items/back/back_nanomechwings/models/back_nanomechwings/model.glb"
+    },
+    {
+      "blake3": "f9cc9b157ec0c914370ae67842112dca8317b87a6b8ac0603665d3ad0dc2e31c",
+      "bytes": 6300,
+      "path": "characters/player/items/back/back_spikes/models/back_spikes/model.glb"
+    },
+    {
+      "blake3": "b27945627a0b611ff69978d8650bbeb5f821ef5a19c6040d1ac38a9cd7d5c427",
+      "bytes": 35856,
+      "path": "characters/player/items/back/back_terraspinshell/models/back_terraspinshell/model.glb"
+    },
+    {
+      "blake3": "5b897d0d7d0870348a759aebfa8b39b5d40620f6a46a7f92e06f3e19094e4f87",
+      "bytes": 40552,
+      "path": "characters/player/items/back/back_turkerytail/models/back_turkerytail/model.glb"
+    },
+    {
+      "blake3": "487cd4ec5aa5b44e5791447a1297e2bac26ea71ee553b5be5211cd6dfa0e8457",
+      "bytes": 42048,
+      "path": "characters/player/items/back/back_ultimatehumungousaurtail/models/back_ultimatehumungousaurtail/model.glb"
+    },
+    {
+      "blake3": "bcaf79eb6755cb83fbb8b7906b4020ded47ff0526a93a4802772f4928ce7750a",
+      "bytes": 48044,
+      "path": "characters/player/items/back/back_ultimateswampfiretanks/models/back_ultimateswampfiretanks/model.glb"
+    },
+    {
+      "blake3": "d310a94c463dff9016fde25aef8ed610a0cdec02696deeee94095aa41d784689",
+      "bytes": 41580,
+      "path": "characters/player/items/back/back_vilgaxminionbackpack/models/back_vilgaxminionbackpack/model.glb"
+    },
+    {
+      "blake3": "faa91bc585fe0432cd1a0b27a4ebfb3f0cfb79e0cc7213c1b3c0d386fd949e00",
+      "bytes": 46920,
+      "path": "characters/player/items/back/back_wizardswings/models/back_wizardswings/model.glb"
+    },
+    {
+      "blake3": "01c044fa55cee9e82c6da553f405e29835c6837ba059f45c9d50c270feb6a303",
+      "bytes": 40716,
+      "path": "characters/player/items/glasses/face_benwolfsnout/models/face_benwolfsnout/model.glb"
+    },
+    {
+      "blake3": "5a5563f579c642c9f590a7d66ba7a4a5694bf81bed354b22ee4c8a27f8e04303",
+      "bytes": 35140,
+      "path": "characters/player/items/glasses/face_evilgoatee/models/face_evilgoatee/model.glb"
+    },
+    {
+      "blake3": "de421f727997e22a8ad44ee34b8aa828f5c7e447bb51ba3edbc53213514c418e",
+      "bytes": 40544,
+      "path": "characters/player/items/glasses/face_generalmodulabeard/models/face_generalmodulabeard/model.glb"
+    },
+    {
+      "blake3": "0e2321f188dc7cd28269faec3ab8cb08bf50800e09fc97840ee5a4f31f29a63e",
+      "bytes": 38316,
+      "path": "characters/player/items/glasses/face_gianttongue/models/face_gianttongue/model.glb"
+    },
+    {
+      "blake3": "fa00b0937a2b42c2641d2e4c20e120b32af4d3c58e7c07b162e471bd2eb1cc2d",
+      "bytes": 35376,
+      "path": "characters/player/items/glasses/face_glowingeyes/models/face_glowingeyes/model.glb"
+    },
+    {
+      "blake3": "ad6c8c2c49aa9dcc542cbd07bc8a2a442d69c65524b4c7352ccf78409bebe8b5",
+      "bytes": 54752,
+      "path": "characters/player/items/glasses/face_guardianmask/models/face_guardianmask/model.glb"
+    },
+    {
+      "blake3": "c11d3c51d9fd163de8681db50f1d99a4e2f00d36c2681c44e369d3e39f54d52b",
+      "bytes": 38732,
+      "path": "characters/player/items/glasses/face_harlequinmask/models/face_harlequinmask/model.glb"
+    },
+    {
+      "blake3": "3a7dff6308b23adf14d7f264758f18fe37d924800781f50bab31849cbc234d18",
+      "bytes": 40956,
+      "path": "characters/player/items/glasses/face_leakeylakeleech/models/face_leakeylakeleech/model.glb"
+    },
+    {
+      "blake3": "3f87ded4e20b16473df45e1093dba062f1a0ff9cba45733590182bf8fc00ee0b",
+      "bytes": 25556,
+      "path": "characters/player/items/glasses/face_manlyminotaurnose/models/face_manlyminotaurnose/model.glb"
+    },
+    {
+      "blake3": "9499403d8dd333572f76da529d10c5d025aadfe2a7a644e461c09b5aa23919bd",
+      "bytes": 37448,
+      "path": "characters/player/items/glasses/face_monsterfangs/models/face_monsterfangs/model.glb"
+    },
+    {
+      "blake3": "26e310cef682443366c03e254c6dfb648a1783e2cc936b53a0122509b5b6b7ce",
+      "bytes": 43612,
+      "path": "characters/player/items/glasses/face_piecemealjaws/models/face_piecemealjaws/model.glb"
+    },
+    {
+      "blake3": "920ad2e13a7fb41ba7a7dc01b876eb5f64c10deb645af164683aba237327c0fd",
+      "bytes": 40752,
+      "path": "characters/player/items/glasses/face_rexgoggles/models/face_rexgoggles/model.glb"
+    },
+    {
+      "blake3": "65ffb3f39f9a0cbfcc69450c372226df1debb858e2bd508b8b1752926429c487",
+      "bytes": 47404,
+      "path": "characters/player/items/glasses/face_upchuckmouth/models/face_upchuckmouth/model.glb"
+    },
+    {
+      "blake3": "749dbd9d893f1c7ffe448ec354879d636c90a26bb977d79f34fb634d96eb5d01",
+      "bytes": 10940,
+      "path": "characters/player/items/hat/hat_treasurehunter/models/hat_treasurehunter/model.glb"
+    },
+    {
+      "blake3": "2e7a431063f198b2a6213d58af625b06c34ce2a736b91f5018abc29f7b3ec500",
+      "bytes": 43316,
+      "path": "characters/player/items/hat/head_benmummyhelmet/models/head_benmummyhelmet/model.glb"
+    },
+    {
+      "blake3": "692ba50ada53368a45851fc46ed7f08afc6c856b0ca056f8a619a818c441b3f9",
+      "bytes": 46332,
+      "path": "characters/player/items/hat/head_benviktorbrow/models/head_benviktorbrow/model.glb"
+    },
+    {
+      "blake3": "1836f8efa61c63f62135532e4fa7d4bdaee458b2d4442994820d3887e7503fb0",
+      "bytes": 46328,
+      "path": "characters/player/items/hat/head_biowulfhead/models/head_biowulfhead/model.glb"
+    },
+    {
+      "blake3": "cd55d4af890292d782482905e044afadf132774cdfdfe67fd74ded8981ff6fec",
+      "bytes": 34668,
+      "path": "characters/player/items/hat/head_bobohat/models/head_bobohat/model.glb"
+    },
+    {
+      "blake3": "8f90ef6f67a38a5937de79e976c8f10078be233793ddecc737e8698203d9a4ab",
+      "bytes": 34084,
+      "path": "characters/player/items/hat/head_candlehat/models/head_candlehat/model.glb"
+    },
+    {
+      "blake3": "4e9fdfcd08a4a85fca091a727f4c282f85cb75aff42361b97a98fafc3b826f40",
+      "bytes": 47924,
+      "path": "characters/player/items/hat/head_corushelmet/models/head_corushelmet/model.glb"
+    },
+    {
+      "blake3": "a9214b3777b932e5ee49436fb06e0852cbfa004c0c16d51ad855f05045e84266",
+      "bytes": 34588,
+      "path": "characters/player/items/hat/head_fatherdisguise/models/head_fatherdisguise/model.glb"
+    },
+    {
+      "blake3": "b035cc7708efcbc3ca115680bca8b268b711c69c531401fe3af5cc6efdd29488",
+      "bytes": 29488,
+      "path": "characters/player/items/hat/head_finnhat/models/head_finnhat/model.glb"
+    },
+    {
+      "blake3": "f7d0c47b9d107f9621f3f34406163d0bea98de2c65c5836e7ffe81f9fc4f20fe",
+      "bytes": 43400,
+      "path": "characters/player/items/hat/head_generalmodulahat/models/head_generalmodulahat/model.glb"
+    },
+    {
+      "blake3": "2d0edf58314c51a90d7121f96defc6f5d1e3bc9b51da07c96e39beb432c40c5e",
+      "bytes": 43592,
+      "path": "characters/player/items/hat/head_generalsteelhelmet/models/head_generalsteelhelmet/model.glb"
+    },
+    {
+      "blake3": "4ff1be3a948fdae816c9b571145119e178443b906f13bc226e6ddf10d4d73027",
+      "bytes": 48584,
+      "path": "characters/player/items/hat/head_helicopterbeanie/models/head_helicopterbeanie/model.glb"
+    },
+    {
+      "blake3": "a0005a67b93541d5758c6d2ed7cf9931239edf10d9f9039d66f3bfe6a960c217",
+      "bytes": 36824,
+      "path": "characters/player/items/hat/head_imaginaryherohat/models/head_imaginaryherohat/model.glb"
+    },
+    {
+      "blake3": "9e4586502a4eb4f5e580a2972162f881d628b545064e677e9f67d5d026858308",
+      "bytes": 45952,
+      "path": "characters/player/items/hat/head_imaginaryprincecrown/models/head_imaginaryprincecrown/model.glb"
+    },
+    {
+      "blake3": "dc081914432d7d9558c08424426ed7f94255d0c0c2286cdf81a3a87b2be14f2f",
+      "bytes": 45332,
+      "path": "characters/player/items/hat/head_imaginarysorcererhood/models/head_imaginarysorcererhood/model.glb"
+    },
+    {
+      "blake3": "8b2e6b6703069744ff7af18cfc33b43413b6a8497799274774e9b8d799b07f87",
+      "bytes": 38844,
+      "path": "characters/player/items/hat/head_keyperhat/models/head_keyperhat/model.glb"
+    },
+    {
+      "blake3": "551ca66976a099a34be239bff04f804cb8e38cacdafadd71454330facb51c48d",
+      "bytes": 36960,
+      "path": "characters/player/items/hat/head_kingofskycrown/models/head_kingofskycrown/model.glb"
+    },
+    {
+      "blake3": "c33bb12131a3fea525f6f7b15096eefe126572a8152ce405c72acfe5e2455b89",
+      "bytes": 36040,
+      "path": "characters/player/items/hat/head_livingbullethelmet/models/head_livingbullethelmet/model.glb"
+    },
+    {
+      "blake3": "47710df8d84d36f2c84848f8e933093892c7ca78ac20c4a8d3d42cc405531590",
+      "bytes": 51360,
+      "path": "characters/player/items/hat/head_manlyminotaurhorns/models/head_manlyminotaurhorns/model.glb"
+    },
+    {
+      "blake3": "e89b6a72055fdac379f685d0940e4cd40933780fc73747c978893e160bc6d474",
+      "bytes": 25048,
+      "path": "characters/player/items/hat/head_manushelmet/models/head_manushelmet/model.glb"
+    },
+    {
+      "blake3": "482fe26af7e014c04efec0f2020c7d681da8c9e12162415260743feb1e0ef225",
+      "bytes": 25660,
+      "path": "characters/player/items/hat/head_marauderhat/models/head_marauderhat/model.glb"
+    },
+    {
+      "blake3": "ce6c052963afec55e4ca2c5fec87d5e972aabee958583c15efb914396bc9912d",
+      "bytes": 41180,
+      "path": "characters/player/items/hat/head_marzipanmancowl/models/head_marzipanmancowl/model.glb"
+    },
+    {
+      "blake3": "f12640e4a102c477826fee98f95a4dc379733f57c7c763fe185f0239921ae0b1",
+      "bytes": 58996,
+      "path": "characters/player/items/hat/head_mutraddihead/models/head_mutraddihead/model.glb"
+    },
+    {
+      "blake3": "8c49079a950efc54054c48de29c31c7ff73164682c3610ab10184c66a75afbba",
+      "bytes": 24884,
+      "path": "characters/player/items/hat/head_opencowl/models/head_opencowl/model.glb"
+    },
+    {
+      "blake3": "20adea0fc3b0850f4b96bd7bfd0de796e84ed66c627a25d3c251837a1a1b7448",
+      "bytes": 44364,
+      "path": "characters/player/items/hat/head_princessbubblegumcrown/models/head_princessbubblegumcrown/model.glb"
+    },
+    {
+      "blake3": "1dd7e2e7536a68957f080d276d5ca91521e11d47b7daf449ba64a2f8b13233a2",
+      "bytes": 23348,
+      "path": "characters/player/items/hat/head_rojocowl/models/head_rojocowl/model.glb"
+    },
+    {
+      "blake3": "e072d3e9cf205a68e39ac042653d1c8f07340a0c5d4c9b4b6a0194df20f0e40d",
+      "bytes": 38864,
+      "path": "characters/player/items/hat/head_shipmecomorphhelmet/models/head_shipmecomorphhelmet/model.glb"
+    },
+    {
+      "blake3": "0716749f52c39459802c4eb3f2eda9b7394af8c2e75ea7757f2f48e2c2fa6c42",
+      "bytes": 28600,
+      "path": "characters/player/items/hat/head_swampfirehelmet/models/head_swampfirehelmet/model.glb"
+    },
+    {
+      "blake3": "60646188667700c9cc8c610c23ad3bb5bc3453c66773abdd117222cfe681608a",
+      "bytes": 41096,
+      "path": "characters/player/items/hat/head_symbionichelmet/models/head_symbionichelmet/model.glb"
+    },
+    {
+      "blake3": "b0f892de1dcf96ce0a97755cc2a3fa47aa0db2541fb4fd4c423e6e62703d7a81",
+      "bytes": 34588,
+      "path": "characters/player/items/hat/head_ultimateaggregorhead/models/head_ultimateaggregorhead/model.glb"
+    },
+    {
+      "blake3": "d4ac61faccbfff0d9e37eb90e21bf7ed3d49346d5412b4c8a95752e6dd30e397",
+      "bytes": 47852,
+      "path": "characters/player/items/hat/head_ultimatehumungousaurhelmet/models/head_ultimatehumungousaurhelmet/model.glb"
+    },
+    {
+      "blake3": "34af8600228e2bcaee34bc1f79518c79e911d336d02551b2deafc89cef3bcdfb",
+      "bytes": 51444,
+      "path": "characters/player/items/hat/head_ultimatekevinhead/models/head_ultimatekevinhead/model.glb"
+    },
+    {
+      "blake3": "9705b49433deec3f69536709bcd8c8cb2a99430557136a5adba6f3a57fa2baae",
+      "bytes": 23016,
+      "path": "characters/player/items/hat/head_ultimateswampfirehelmet/models/head_ultimateswampfirehelmet/model.glb"
+    },
+    {
+      "blake3": "57ad378cd4ea83017a1b1b26d5dc02c8ad5765ad01318cae99a52c6d66c5c6de",
+      "bytes": 38952,
+      "path": "characters/player/items/hat/head_valhallenwig/models/head_valhallenwig/model.glb"
+    },
+    {
+      "blake3": "00259610cc45685343c33febe1ab767b98405603580d8a271b31cae21f73006c",
+      "bytes": 15592,
+      "path": "characters/player/items/hat/head_vampirehead/models/head_vampirehead/model.glb"
+    },
+    {
+      "blake3": "3f3ef4dfeac57d09e64ad78752a19be4c825c2718a0f6ac843a8f412617f8f53",
+      "bytes": 46204,
+      "path": "characters/player/items/hat/head_vilgaxminionhelmet/models/head_vilgaxminionhelmet/model.glb"
+    },
+    {
+      "blake3": "26e4992e98cb37484880be547e41fe1c6ab05ea0a41bbf9500a45b3dc6b14a58",
+      "bytes": 26196,
+      "path": "characters/player/items/hat/head_waterhazardhelmet/models/head_waterhazardhelmet/model.glb"
+    },
+    {
+      "blake3": "9abf122c73c582170716293098af3ec0f3036d8becfe89a58c1f34bdfe110d43",
+      "bytes": 48516,
+      "path": "characters/player/items/hat/head_wildmutthelmet/models/head_wildmutthelmet/model.glb"
+    },
+    {
+      "blake3": "51f0cf53c9c6c5c84c93ba90f5148c16ee6c5833e392823183334b6a40b97393",
+      "bytes": 42668,
+      "path": "characters/player/items/hat/head_wildvinecollar/models/head_wildvinecollar/model.glb"
+    },
+    {
+      "blake3": "52e093c7e4cb8020eb7c5c929dde14387228a1452dc02710d4b78d7d0866c68c",
+      "bytes": 24276,
+      "path": "characters/player/items/hat/helmet_anoditemask/models/helmet_anoditemask/model.glb"
+    },
+    {
+      "blake3": "92ef6bff665f4065e9abdfe5f852beacca63826344a612f8d8608e0ddf47b766",
+      "bytes": 43760,
+      "path": "characters/player/items/hat/helmet_armordrillohelmet/models/helmet_armordrillohelmet/model.glb"
+    },
+    {
+      "blake3": "eb911abe7f06be21e543239ba66ae391496fc47eb6c03b2aee58e74b292f2fc1",
+      "bytes": 142788,
+      "path": "characters/player/items/pants/f_pants_armodrillolegs/models/f_pants_armodrillolegs/model.glb"
+    },
+    {
+      "blake3": "77702998a4c49ab6a368362536e1de77cdbcaea2ea62ae3b5a0c3940ad4ae5c6",
+      "bytes": 152408,
+      "path": "characters/player/items/pants/f_pants_benmummypants/models/f_pants_benmummypants/model.glb"
+    },
+    {
+      "blake3": "cce2ae987c4be99efcae1d68e0e59c54d0aeabfbda22031313c8307b29aa5da4",
+      "bytes": 133136,
+      "path": "characters/player/items/pants/f_pants_benvicktorpants/models/f_pants_benvicktorpants/model.glb"
+    },
+    {
+      "blake3": "7310142bbac548280f24bae05165e1a678e172efb991a8b609a48a16eafa28d1",
+      "bytes": 131848,
+      "path": "characters/player/items/pants/f_pants_benwolfset/models/f_pants_benwolfset/model.glb"
+    },
+    {
+      "blake3": "3c5b721027b75e292f5f88ac971af5324b55a7f63bfe694e0e0c15a368b56066",
+      "bytes": 130460,
+      "path": "characters/player/items/pants/f_pants_biowulflegs/models/f_pants_biowulflegs/model.glb"
+    },
+    {
+      "blake3": "b698de93b97a1bc5727ff1f44342d8b02ec8419993d8c858ccfa39b8a2e7bdf9",
+      "bytes": 129600,
+      "path": "characters/player/items/pants/f_pants_boboshorts/models/f_pants_boboshorts/model.glb"
+    },
+    {
+      "blake3": "45ca1e4104460ac74ef269995481bc13b920d2f782f2bc029458e38c975381a6",
+      "bytes": 127748,
+      "path": "characters/player/items/pants/f_pants_imaginarysorcererpants/models/f_pants_imaginarysorcererpants/model.glb"
+    },
+    {
+      "blake3": "09bedf3a1ead6d49475f0103e1c80912d9b106c8494c7aa0203245d08c322cf5",
+      "bytes": 136832,
+      "path": "characters/player/items/pants/f_pants_marauderpants/models/f_pants_marauderpants/model.glb"
+    },
+    {
+      "blake3": "c44e09b34902744688bf80521514d3524b6ed09f5ae5d38bfb4115935bbff132",
+      "bytes": 117836,
+      "path": "characters/player/items/pants/f_pants_providencepants/models/f_pants_providencepants/model.glb"
+    },
+    {
+      "blake3": "fc87bd983b8d594d1daa13b4fae7e0300359181866a8b33da7b09c7c170a94b0",
+      "bytes": 134416,
+      "path": "characters/player/items/pants/f_pants_shipmecomorphpants/models/f_pants_shipmecomorphpants/model.glb"
+    },
+    {
+      "blake3": "635279751debc14b35948f2f42c957987248fd9d35d1bb8486a45c8cee3f1fbc",
+      "bytes": 114572,
+      "path": "characters/player/items/pants/f_pants_ultimateswampfirepants/models/f_pants_ultimateswampfirepants/model.glb"
+    },
+    {
+      "blake3": "23d7eef66c8f510ddea7a244b29ccb4e2dd0ebaa6918cc149ce173e46a46d226",
+      "bytes": 128356,
+      "path": "characters/player/items/pants/f_pants_vilgaxminionpants/models/f_pants_vilgaxminionpants/model.glb"
+    },
+    {
+      "blake3": "e100715409d47f3d207aacdb31e818c77793701e80e4ba8c4c1c868e12fa1504",
+      "bytes": 137372,
+      "path": "characters/player/items/pants/m_pants_armodrillolegs/models/m_pants_armodrillolegs/model.glb"
+    },
+    {
+      "blake3": "3ce70c02e1898afe20e8924ec2df673ba3c0145512cfb9465f5f54d0ed280073",
+      "bytes": 145084,
+      "path": "characters/player/items/pants/m_pants_benmummypants/models/m_pants_benmummypants/model.glb"
+    },
+    {
+      "blake3": "4cbdd2e71536cfd1f8e57ee0bf1761f65eb2da1b71d529e6512ee2ce0c6ca2ea",
+      "bytes": 127496,
+      "path": "characters/player/items/pants/m_pants_benvicktorpants/models/m_pants_benvicktorpants/model.glb"
+    },
+    {
+      "blake3": "c1251006af67780e6318dd9068f6db77b252c4da967b93b002072fcf20f6d96b",
+      "bytes": 126424,
+      "path": "characters/player/items/pants/m_pants_benwolfset/models/m_pants_benwolfset/model.glb"
+    },
+    {
+      "blake3": "c1a5f66dc1b287a33a8087cfc1207a7b3e67b1df0af9daba3ca86c20132edf36",
+      "bytes": 124972,
+      "path": "characters/player/items/pants/m_pants_biowulflegs/models/m_pants_biowulflegs/model.glb"
+    },
+    {
+      "blake3": "7d50a80a86513432085ce276ef5b4403f735ab6212d0c5f683750e0f6c4ad8d9",
+      "bytes": 124264,
+      "path": "characters/player/items/pants/m_pants_boboshorts/models/m_pants_boboshorts/model.glb"
+    },
+    {
+      "blake3": "e1640e05cc92abb0097fa156bb2b41653d25e4b178c6555c366a59c8a2dd468d",
+      "bytes": 122420,
+      "path": "characters/player/items/pants/m_pants_imaginarysorcererpants/models/m_pants_imaginarysorcererpants/model.glb"
+    },
+    {
+      "blake3": "bcce2736428b623dc96615541a21dcb4c98d5203703575b2f1ba1de8a1886fdc",
+      "bytes": 182964,
+      "path": "characters/player/items/pants/m_pants_marauderpants/models/m_pants_marauderpants/model.glb"
+    },
+    {
+      "blake3": "e8026a875a6e14a1bb8b1bd2d801aca684c7b9374e7442c17e648770833a7bbf",
+      "bytes": 111988,
+      "path": "characters/player/items/pants/m_pants_providencepants/models/m_pants_providencepants/model.glb"
+    },
+    {
+      "blake3": "f075c30c0786d0f33b746a11f06325dc0c0b583ab92376da829cb9c060d05021",
+      "bytes": 128244,
+      "path": "characters/player/items/pants/m_pants_shipmecomorphpants/models/m_pants_shipmecomorphpants/model.glb"
+    },
+    {
+      "blake3": "ee8f3756afeff05cc6d23c0b074ff771da9487f3587fec86b13ac542feebc96a",
+      "bytes": 125328,
+      "path": "characters/player/items/pants/m_pants_ultimateswampfirepants/models/m_pants_ultimateswampfirepants/model.glb"
+    },
+    {
+      "blake3": "e1ffd1625f759f6b3fcbfcd3542a7f2afa5bf1b309e968b1c9cb5a6ac3d07b36",
+      "bytes": 122872,
+      "path": "characters/player/items/pants/m_pants_vilgaxminionpants/models/m_pants_vilgaxminionpants/model.glb"
+    },
+    {
+      "blake3": "a8139138a18e74ec072b58dedb031274c4b01516c7f5bbf47e2d93a3417b3312",
+      "bytes": 159996,
+      "path": "characters/player/items/shirt/f_shirt_ampfibianshirt/models/f_shirt_ampfibianshirt/model.glb"
+    },
+    {
+      "blake3": "a0bea40624f69bc5f10b737a0a65815d998a0506cfb77228be82bf02edfc8f3f",
+      "bytes": 172916,
+      "path": "characters/player/items/shirt/f_shirt_armodrillotorso/models/f_shirt_armodrillotorso/model.glb"
+    },
+    {
+      "blake3": "0981745f418aebdabd49e91a01b28c5e5b640c98fcd7c781d3c87f13b40c2dbc",
+      "bytes": 159104,
+      "path": "characters/player/items/shirt/f_shirt_benmummyshirt/models/f_shirt_benmummyshirt/model.glb"
+    },
+    {
+      "blake3": "06985753e31dbacb550c9e23a277b5edde41f60e1fe97dabaeb0db7e70330713",
+      "bytes": 162740,
+      "path": "characters/player/items/shirt/f_shirt_benvicktorshirt/models/f_shirt_benvicktorshirt/model.glb"
+    },
+    {
+      "blake3": "e95a434956803a7df8cf6a4e41ae7b699e7172a9d6ecaa6c2dae59c07446b87c",
+      "bytes": 155236,
+      "path": "characters/player/items/shirt/f_shirt_benwolfset/models/f_shirt_benwolfset/model.glb"
+    },
+    {
+      "blake3": "c27ef8c4d9ca46a21ae61df3bf7c940a3b8a2f7dd1ea06773ae76d25afc7f94b",
+      "bytes": 156392,
+      "path": "characters/player/items/shirt/f_shirt_biowulftorso/models/f_shirt_biowulftorso/model.glb"
+    },
+    {
+      "blake3": "5662e8fd29833f258aee7ee5481f501a28a09eba2923eb00add70e10a4a4a8fc",
+      "bytes": 174416,
+      "path": "characters/player/items/shirt/f_shirt_boboshirt/models/f_shirt_boboshirt/model.glb"
+    },
+    {
+      "blake3": "cd061e67f027a68c358527a3f2de06390d62fb5056b2f19afb0da8d17e3a2ee5",
+      "bytes": 153028,
+      "path": "characters/player/items/shirt/f_shirt_humungousaurshirt/models/f_shirt_humungousaurshirt/model.glb"
+    },
+    {
+      "blake3": "8c139d6ad0dda239d1915b8b754335826eaf2ff77acb8adcb287f5a2338d77a5",
+      "bytes": 156420,
+      "path": "characters/player/items/shirt/f_shirt_imaginarysorcerershirt/models/f_shirt_imaginarysorcerershirt/model.glb"
+    },
+    {
+      "blake3": "3fa7c6aaeadca3397a5c5015c0580575accda7ffd16cf3a236028500350c4059",
+      "bytes": 164476,
+      "path": "characters/player/items/shirt/f_shirt_labassistantshirt/models/f_shirt_labassistantshirt/model.glb"
+    },
+    {
+      "blake3": "4ef565210f8fc3c9af1469d33e8f25fc60cdfdf378a092123903c7f4943d40dd",
+      "bytes": 153472,
+      "path": "characters/player/items/shirt/f_shirt_maraudertunic/models/f_shirt_maraudertunic/model.glb"
+    },
+    {
+      "blake3": "373550ef817a4812b459fea2e365bb1291b17e44415223cd6aa7140644c2a3bd",
+      "bytes": 147740,
+      "path": "characters/player/items/shirt/f_shirt_providenceshirt/models/f_shirt_providenceshirt/model.glb"
+    },
+    {
+      "blake3": "7ddd7154bbcba0618502ce2c397c41aa8370c8f29351f3c5679e0ea41b04f785",
+      "bytes": 169448,
+      "path": "characters/player/items/shirt/f_shirt_shipmecomorpharmor/models/f_shirt_shipmecomorpharmor/model.glb"
+    },
+    {
+      "blake3": "65eb9cb451932e2a461ae17cd578a47ebb40aabc38629002b77aeab3e51942f8",
+      "bytes": 179360,
+      "path": "characters/player/items/shirt/f_shirt_ultimatehumungousaurtorso/models/f_shirt_ultimatehumungousaurtorso/model.glb"
+    },
+    {
+      "blake3": "8f53219f46f306d837fa4868ad75b304c85f3dbe1a0679a28d80c8c47cfa3a0c",
+      "bytes": 153060,
+      "path": "characters/player/items/shirt/f_shirt_ultimateswampfiretorso/models/f_shirt_ultimateswampfiretorso/model.glb"
+    },
+    {
+      "blake3": "68517dcaa09d5afb9dc003a6ef016f087029151a6c8589b479cceb8ec50101f1",
+      "bytes": 157080,
+      "path": "characters/player/items/shirt/f_shirt_vilgaxminiontorso/models/f_shirt_vilgaxminiontorso/model.glb"
+    },
+    {
+      "blake3": "4e35d0977ebca2737bc9c7afcd9a8260590b4148602c17a00d86a4450e4a8bb8",
+      "bytes": 316776,
+      "path": "characters/player/items/shirt/item_broom_01/models/item_broom_01/model.glb"
+    },
+    {
+      "blake3": "2d85540166ae32f014a5c4bca160d338665c0c81289f6de523a247ad20ebd70b",
+      "bytes": 152632,
+      "path": "characters/player/items/shirt/m_shirt_ampfibianshirt/models/m_shirt_ampfibianshirt/model.glb"
+    },
+    {
+      "blake3": "e58684e0928ec6d85bc537af1ba68d36d93aa95f0cdc20145fb3b4a78b0506b5",
+      "bytes": 167024,
+      "path": "characters/player/items/shirt/m_shirt_armodrillotorso/models/m_shirt_armodrillotorso/model.glb"
+    },
+    {
+      "blake3": "a624ad4a192bf9380aadf2b21abe6bcdefd9b52fd53decec11a963273a28d65b",
+      "bytes": 153116,
+      "path": "characters/player/items/shirt/m_shirt_benmummyshirt/models/m_shirt_benmummyshirt/model.glb"
+    },
+    {
+      "blake3": "ba75fd0f490cd5fa1fb3fca143c80421a0df590069bf5d401a0aac4b9c5c48aa",
+      "bytes": 155092,
+      "path": "characters/player/items/shirt/m_shirt_benvicktorshirt/models/m_shirt_benvicktorshirt/model.glb"
+    },
+    {
+      "blake3": "9bb256bb00497ce1d7b43da3bb39588b959bbae05bad9e6a8d86b2cbbc92bdc6",
+      "bytes": 146736,
+      "path": "characters/player/items/shirt/m_shirt_benwolfset/models/m_shirt_benwolfset/model.glb"
+    },
+    {
+      "blake3": "1264d5d7c4a8e431c8319d3b9f317b10102ac3606e12bbdbd66eedde5ccf235d",
+      "bytes": 147676,
+      "path": "characters/player/items/shirt/m_shirt_biowulftorso/models/m_shirt_biowulftorso/model.glb"
+    },
+    {
+      "blake3": "8af8029a721c127d87215f8062b7376a95398fdff42c2423b817343c71774864",
+      "bytes": 166312,
+      "path": "characters/player/items/shirt/m_shirt_boboshirt/models/m_shirt_boboshirt/model.glb"
+    },
+    {
+      "blake3": "87f893d5351920e59f55fea1028b0de7e3fc5c5c1f00d99315f9e38db494d0b7",
+      "bytes": 144852,
+      "path": "characters/player/items/shirt/m_shirt_humungousaurshirt/models/m_shirt_humungousaurshirt/model.glb"
+    },
+    {
+      "blake3": "193ba5e53c02e582da449c8bd429b59545a90ad9483b2cda33938ebd072c5526",
+      "bytes": 149536,
+      "path": "characters/player/items/shirt/m_shirt_imaginarysorcerershirt/models/m_shirt_imaginarysorcerershirt/model.glb"
+    },
+    {
+      "blake3": "01e0b42b03e06e8d0bfaab4253f552ca3d9211115669467201532a4140539f4f",
+      "bytes": 157336,
+      "path": "characters/player/items/shirt/m_shirt_labassistantshirt/models/m_shirt_labassistantshirt/model.glb"
+    },
+    {
+      "blake3": "ca5a6c5d77f24a5eaba268eb681bb865b8a670393ff5b25098e752ed9d872e4a",
+      "bytes": 140264,
+      "path": "characters/player/items/shirt/m_shirt_maraudertunic/models/m_shirt_maraudertunic/model.glb"
+    },
+    {
+      "blake3": "b35d62e866ce6c8aa1e04b7ef1438595a3903b2aa6354b94a87de703fe56fc3e",
+      "bytes": 139672,
+      "path": "characters/player/items/shirt/m_shirt_providenceshirt/models/m_shirt_providenceshirt/model.glb"
+    },
+    {
+      "blake3": "4607fe3d676acd3bf6e6c303274dc925f13609e1c9c8e8cc6e06df5005c6d764",
+      "bytes": 159636,
+      "path": "characters/player/items/shirt/m_shirt_shipmecomorpharmor/models/m_shirt_shipmecomorpharmor/model.glb"
+    },
+    {
+      "blake3": "bbcda179cb48bc52ad526382efdc1b3f70958d02ff658cd975ffdd0747bd9cb1",
+      "bytes": 173500,
+      "path": "characters/player/items/shirt/m_shirt_ultimatehumungousaurtorso/models/m_shirt_ultimatehumungousaurtorso/model.glb"
+    },
+    {
+      "blake3": "e2c3e95009f90a71167d8fde168b7a68f929c3abcd5cf1d0b05726ca72c9861e",
+      "bytes": 144736,
+      "path": "characters/player/items/shirt/m_shirt_ultimateswampfiretorso/models/m_shirt_ultimateswampfiretorso/model.glb"
+    },
+    {
+      "blake3": "1256a8a03336fa119798f0a4f779df8776b9f77572a1cf9bbc40d969c570be2a",
+      "bytes": 148860,
+      "path": "characters/player/items/shirt/m_shirt_vilgaxminiontorso/models/m_shirt_vilgaxminiontorso/model.glb"
+    },
+    {
+      "blake3": "bb59ab6aa3e3e7bc4fa484358e3b09f410386a5874c094d83699456edc0f500f",
+      "bytes": 110676,
+      "path": "characters/player/items/shirt/m_shirts_treasurehunter/models/m_shirts_treasurehunter/model.glb"
+    },
+    {
+      "blake3": "9a0c0c0d5afd2d77452ca40311d373da915e318a73e31f2378c9bef88a8a480f",
+      "bytes": 143540,
+      "path": "characters/player/items/shoes/f_shoes_ampfibianshoes/models/f_shoes_ampfibianshoes/model.glb"
+    },
+    {
+      "blake3": "a33ec1f8bfa66de8e117894c3476c71f41e3db2995e332cce820eccc56001f47",
+      "bytes": 125916,
+      "path": "characters/player/items/shoes/f_shoes_armodrillofeet/models/f_shoes_armodrillofeet/model.glb"
+    },
+    {
+      "blake3": "1e5cade545da636ea3a55b69c485f9fd19b457bd6552adf21fc8214f2a4dacfb",
+      "bytes": 192456,
+      "path": "characters/player/items/shoes/f_shoes_benmummyshoes/models/f_shoes_benmummyshoes/model.glb"
+    },
+    {
+      "blake3": "a676ee557f017f94cf6e3fabeb906305d06d8e4c3d3f6bb1f5deac24495b86c0",
+      "bytes": 123412,
+      "path": "characters/player/items/shoes/f_shoes_benvicktorshoes/models/f_shoes_benvicktorshoes/model.glb"
+    },
+    {
+      "blake3": "a762648dfa1dcda7af89992c449c94698a0cc328ac619b27c371f473fe738e39",
+      "bytes": 128656,
+      "path": "characters/player/items/shoes/f_shoes_benwolf/models/f_shoes_benwolf/model.glb"
+    },
+    {
+      "blake3": "505468aec118a54982ba571ddc7895999ae62eeb7e7b30f4b0a7dbba123edebb",
+      "bytes": 127848,
+      "path": "characters/player/items/shoes/f_shoes_biowulffeet/models/f_shoes_biowulffeet/model.glb"
+    },
+    {
+      "blake3": "90ed16d1cd1b49c324664238fcc2554576523dfc37e94cb7ba73515a41497124",
+      "bytes": 125052,
+      "path": "characters/player/items/shoes/f_shoes_bobofeet/models/f_shoes_bobofeet/model.glb"
+    },
+    {
+      "blake3": "c849af4a59dac48fab6d9f75f38380227ab4752060a86050c5af30133a0e00bc",
+      "bytes": 136808,
+      "path": "characters/player/items/shoes/f_shoes_imaginarysorcerershoes/models/f_shoes_imaginarysorcerershoes/model.glb"
+    },
+    {
+      "blake3": "6135fd19042b43a5f92ded49846f8b09230b1e2c625f30f367790b1140ea9ef3",
+      "bytes": 112552,
+      "path": "characters/player/items/shoes/f_shoes_providenceboots/models/f_shoes_providenceboots/model.glb"
+    },
+    {
+      "blake3": "2f992cf961db1ba45746958ed3e72874521177e924be95b1f19b1b13888f5bb1",
+      "bytes": 128052,
+      "path": "characters/player/items/shoes/f_shoes_shipmecomorphboots/models/f_shoes_shipmecomorphboots/model.glb"
+    },
+    {
+      "blake3": "cfee29a7f3eb3ccfeef6f2f34bccaf1543b49644738834cc80071ec5f4c48f82",
+      "bytes": 110568,
+      "path": "characters/player/items/shoes/f_shoes_ultimateswampfireboots/models/f_shoes_ultimateswampfireboots/model.glb"
+    },
+    {
+      "blake3": "c7aac664140c06d079842cd05f24353d848ac530188bf89a1214a12f5cd88485",
+      "bytes": 124612,
+      "path": "characters/player/items/shoes/f_shoes_vilgaxminionboots/models/f_shoes_vilgaxminionboots/model.glb"
+    },
+    {
+      "blake3": "1ba038b071c034dd327ca724f0871c7f3705e8b9b62703e067f00ce8fdbdb247",
+      "bytes": 123972,
+      "path": "characters/player/items/shoes/m_shoes_ampfibianshoes/models/m_shoes_ampfibianshoes/model.glb"
+    },
+    {
+      "blake3": "747df17d1feb9f6cfb99644668462af4453ca76dce8a158d9d333357532e942f",
+      "bytes": 118584,
+      "path": "characters/player/items/shoes/m_shoes_armodrillofeet/models/m_shoes_armodrillofeet/model.glb"
+    },
+    {
+      "blake3": "f46f2ba96f078af268e53a0b48dbb6da6f4b56810d8f91bd18478f9473128c4b",
+      "bytes": 123160,
+      "path": "characters/player/items/shoes/m_shoes_benmummyshoes/models/m_shoes_benmummyshoes/model.glb"
+    },
+    {
+      "blake3": "0ce78d4a76563a6ce7605bdb944538e75af3ecd1f3a17b80e60e2a6e47633e37",
+      "bytes": 104772,
+      "path": "characters/player/items/shoes/m_shoes_benvicktorshoes/models/m_shoes_benvicktorshoes/model.glb"
+    },
+    {
+      "blake3": "1cace4b92cea2f84f2e03767fd5b30b88de8d44742e6a535d07f80999c6dccd9",
+      "bytes": 121324,
+      "path": "characters/player/items/shoes/m_shoes_benwolf/models/m_shoes_benwolf/model.glb"
+    },
+    {
+      "blake3": "b96ab767505df4f3d4d9cc2315cc452bfd7a946587c166e80d9b48d893c41e1b",
+      "bytes": 120524,
+      "path": "characters/player/items/shoes/m_shoes_biowulffeet/models/m_shoes_biowulffeet/model.glb"
+    },
+    {
+      "blake3": "08f12e606a1c234b9b4243c3004d3f50ac1f0c394d6258027240f25907d49891",
+      "bytes": 118400,
+      "path": "characters/player/items/shoes/m_shoes_bobofeet/models/m_shoes_bobofeet/model.glb"
+    },
+    {
+      "blake3": "0dd201b50a94368395b23be7ffa5ef4915b15182addb8b10934b1b2538749cca",
+      "bytes": 129956,
+      "path": "characters/player/items/shoes/m_shoes_imaginarysorcerershoes/models/m_shoes_imaginarysorcerershoes/model.glb"
+    },
+    {
+      "blake3": "ed3fc3559951baec2351e5eb38a138dbb33825c1c1a45a1e000551e062550af6",
+      "bytes": 105392,
+      "path": "characters/player/items/shoes/m_shoes_providenceboots/models/m_shoes_providenceboots/model.glb"
+    },
+    {
+      "blake3": "63a88f037d5877d1df4c892889ca8f500d46c0b8c231573f2dbfc2018e6ce40e",
+      "bytes": 120744,
+      "path": "characters/player/items/shoes/m_shoes_shipmecomorphboots/models/m_shoes_shipmecomorphboots/model.glb"
+    },
+    {
+      "blake3": "fcb1db92e302e6003902ac339433b15a78115fa9903afbcf7b687a7f060b4c14",
+      "bytes": 103124,
+      "path": "characters/player/items/shoes/m_shoes_ultimateswampfireboots/models/m_shoes_ultimateswampfireboots/model.glb"
+    },
+    {
+      "blake3": "10cbe0c4c823a2d62a0f2eeb68dd03eecde7ae5efb9db2bbcb540e8dc1904a3d",
+      "bytes": 117520,
+      "path": "characters/player/items/shoes/m_shoes_vilgaxminionboots/models/m_shoes_vilgaxminionboots/model.glb"
+    },
+    {
+      "blake3": "ad0a4551512095f1cecfaf9905c09f9cec6f19677c49ffa5e08091c131a413d0",
+      "bytes": 40256,
+      "path": "characters/player/items/weapon/glove_biowulfclaw/models/glove_biowulfclaw/model.glb"
+    },
+    {
+      "blake3": "0f4aca6f6102aefe7e42eb974886fa227ba4737250864aca5b11fdee4ccbcaa5",
+      "bytes": 40868,
+      "path": "characters/player/items/weapon/glove_bubblegumgauntlets/models/glove_bubblegumgauntlets/model.glb"
+    },
+    {
+      "blake3": "1db9c64740216d24a50e7a5174b3426a1826409ccbc87e2a3f3ea874fe7b1909",
+      "bytes": 52780,
+      "path": "characters/player/items/weapon/glove_vankleissclaw/models/glove_vankleissclaw/model.glb"
+    },
+    {
+      "blake3": "9b98bfdc686d00ce90f5e023ef1eb075244299dc0444bb09f0d4bf6378a7568d",
+      "bytes": 38496,
+      "path": "characters/player/items/weapon/melee_agentsixblade/models/melee_agentsixblade/model.glb"
+    },
+    {
+      "blake3": "7b20c6504aa77fb3e828b630f221f60ee001089042154698cfeb7d139b6eaec9",
+      "bytes": 57880,
+      "path": "characters/player/items/weapon/melee_bfsaw/models/melee_bfsaw/model.glb"
+    },
+    {
+      "blake3": "80f7b671746d447b5e353747215c72068a87f005ee5ace6feb232c54f6b6be82",
+      "bytes": 50268,
+      "path": "characters/player/items/weapon/melee_bfsword/models/melee_bfsword/model.glb"
+    },
+    {
+      "blake3": "3d311a56be8d5c0940cac36a8eb1de6318008988bc7d99d62a97466d3ba23730",
+      "bytes": 31728,
+      "path": "characters/player/items/weapon/melee_imaginarysorcererstaff/models/melee_imaginarysorcererstaff/model.glb"
+    },
+    {
+      "blake3": "65387a922984fbc70752c82f9f90c9f2658b714a499df7a8adbfc60b59acc2ac",
+      "bytes": 58892,
+      "path": "characters/player/items/weapon/pistol_bobogun/models/pistol_bobogun/model.glb"
+    },
+    {
+      "blake3": "8798a63b2a6077f6bf1fe206a96ceb41b405543f4f71ea9f6b294d9b5ebc9f06",
+      "bytes": 12936,
+      "path": "characters/player/items/weapon/pistol_filteredlaser/models/pistol_filteredlaser/model.glb"
+    },
+    {
+      "blake3": "d19838a7a687f3755eec06e7877b1bf23c046192e028129a495a7d69440e560b",
+      "bytes": 45544,
+      "path": "characters/player/items/weapon/pistol_providencegun/models/pistol_providencegun/model.glb"
+    },
+    {
+      "blake3": "ea6a26ca84f8c078327127b85135a675be9eeb73a330f7c6ae78b258d9e40f8b",
+      "bytes": 39348,
+      "path": "characters/player/items/weapon/pistol_shiparmcannon/models/pistol_shiparmcannon/model.glb"
+    },
+    {
+      "blake3": "70efb0f70c3102094f4ff2aa00a0ef901d71f54cc6bbe03b436205b7a6f54011",
+      "bytes": 36048,
+      "path": "characters/player/items/weapon/pistol_spiderfangpistol/models/pistol_spiderfangpistol/model.glb"
+    },
+    {
+      "blake3": "a93982a45e59a6e33d2f31e6f4fa9b9381f05d03743479cc87386d774d319afa",
+      "bytes": 55612,
+      "path": "characters/player/items/weapon/rocket_slamcannon/models/rocket_slamcannon/model.glb"
+    },
+    {
+      "blake3": "1d0f1a2553c64f5cae1b83c58cbfdd9ec993226ad3f533c20fd15bd2e6515f99",
+      "bytes": 39640,
+      "path": "characters/player/items/weapon/shattergun_beetlegun/models/shattergun_beetlegun/model.glb"
+    },
+    {
+      "blake3": "56e6a609dced14fdcc7d963b3ce92cb3d8f4dfadc357917ccb0453af53ddcf66",
+      "bytes": 53784,
+      "path": "characters/player/items/weapon/shattergun_quadbarrelshattergun/models/shattergun_quadbarrelshattergun/model.glb"
+    },
+    {
+      "blake3": "dbb7c8f9eaea2cbab89142be462094c8b07a2948dee927a20b92f3bbccbb285f",
+      "bytes": 39060,
+      "path": "characters/player/items/weapon/thrown_crystalgemapple/models/thrown_crystalgemapple/model.glb"
+    }
+  ],
+  "retainedRuntimeContracts": [
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "64f16e68d45b3c5de07c2d9dfc354143e21fc7d9321aa3cf3b41d5ebe852e48a",
+          "bytes": 71408,
+          "path": "characters/player/items/head/f_head_009_type01/textures/f_head_009_type01.png"
+        },
+        "nativePngSha256": "8fbe2440b3650eef349d8c9d7e0067d87471336e5f49f8c6a69952a29da9d8b6",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "f_head_009_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/f_head_009_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 876,
+          "sourceChainSha256": "ef5b99602cb94abba1555bdc992f878bc3acc228c4fd886c61d9166e8bb83e6d",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "f_head_009",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "f_head_009",
+        "nativeAsset": {
+          "path": "characters/player/items/head/f_head_009_type01/textures/f_head_009_type01.png",
+          "bytes": 71408,
+          "blake3": "64f16e68d45b3c5de07c2d9dfc354143e21fc7d9321aa3cf3b41d5ebe852e48a"
+        },
+        "nativePngSha256": "8fbe2440b3650eef349d8c9d7e0067d87471336e5f49f8c6a69952a29da9d8b6",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/f_head_009.dds",
+          "pathId": 377,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "ef5b99602cb94abba1555bdc992f878bc3acc228c4fd886c61d9166e8bb83e6d",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "f_head_009",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "fada783eb35a467051ae571aaabe1450419d2823db6184a36708e8b8db9ea9db",
+          "bytes": 60473,
+          "path": "characters/player/items/head/f_head_010_type01/textures/f_head_010_type01.png"
+        },
+        "nativePngSha256": "04f589a1056addf575b8d9e8eda007cba25eba8159cd0194a8ba88cb6365b822",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "f_head_010_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/f_head_010_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 571,
+          "sourceChainSha256": "7ab25c8840fe61b8b122f38f5baaec33b2f656115efae8dbe3a48216221dc82d",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "f_head_010",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "f_head_010",
+        "nativeAsset": {
+          "path": "characters/player/items/head/f_head_010_type01/textures/f_head_010_type01.png",
+          "bytes": 60473,
+          "blake3": "fada783eb35a467051ae571aaabe1450419d2823db6184a36708e8b8db9ea9db"
+        },
+        "nativePngSha256": "04f589a1056addf575b8d9e8eda007cba25eba8159cd0194a8ba88cb6365b822",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/f_head_010.dds",
+          "pathId": 1347,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "7ab25c8840fe61b8b122f38f5baaec33b2f656115efae8dbe3a48216221dc82d",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "f_head_010",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "7cddd27707535fc5495e9c573b1893ded8b44d7a7e8d0fa1115ded2476ada34b",
+          "bytes": 64552,
+          "path": "characters/player/items/head/f_head_011_type01/textures/f_head_011_type01.png"
+        },
+        "nativePngSha256": "f97f422397d169f93ec231b3b2a04aa5f3f683fffcb2ab1e04d21647d9962f74",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "f_head_011_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/f_head_011_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 1511,
+          "sourceChainSha256": "a51ad78c7168f8f6bb0fb21d7e935287bc85a27907a45c935e29cfed48264f29",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "f_head_011",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "f_head_011",
+        "nativeAsset": {
+          "path": "characters/player/items/head/f_head_011_type01/textures/f_head_011_type01.png",
+          "bytes": 64552,
+          "blake3": "7cddd27707535fc5495e9c573b1893ded8b44d7a7e8d0fa1115ded2476ada34b"
+        },
+        "nativePngSha256": "f97f422397d169f93ec231b3b2a04aa5f3f683fffcb2ab1e04d21647d9962f74",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/f_head_011.dds",
+          "pathId": 1498,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "a51ad78c7168f8f6bb0fb21d7e935287bc85a27907a45c935e29cfed48264f29",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "f_head_011",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "2d8abd4d218545397e876670e8691ce5d622e01d2ee5c050107efc98cba213a9",
+          "bytes": 58699,
+          "path": "characters/player/items/head/f_head_012_type01/textures/f_head_012_type01.png"
+        },
+        "nativePngSha256": "762075c0fc7e4315f8e8f4245849d881a8045b51e165ad8807702317c37572ae",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "f_head_012_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/f_head_012_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 324,
+          "sourceChainSha256": "42e8594389ab22f67b3063a681510b081d30e264f497620fccf23ed46226c47e",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "f_head_012",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "f_head_012",
+        "nativeAsset": {
+          "path": "characters/player/items/head/f_head_012_type01/textures/f_head_012_type01.png",
+          "bytes": 58699,
+          "blake3": "2d8abd4d218545397e876670e8691ce5d622e01d2ee5c050107efc98cba213a9"
+        },
+        "nativePngSha256": "762075c0fc7e4315f8e8f4245849d881a8045b51e165ad8807702317c37572ae",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/f_head_012.dds",
+          "pathId": 1770,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "42e8594389ab22f67b3063a681510b081d30e264f497620fccf23ed46226c47e",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "f_head_012",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "4e0464876a9850735616784a24961c11486295cd1a535b396736405155e71a3d",
+          "bytes": 34232,
+          "path": "characters/player/items/head/f_head_013_type01/textures/f_head_013_type01.png"
+        },
+        "nativePngSha256": "2f04029bd40718b41100720d84af43ca87fd004004a634a049fff2c59c35ccd6",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_head_024_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_head_024_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 1275,
+          "sourceChainSha256": "396c440a806e14fcc3c6235c69c597228963dc6ba0a0866dc739b9863c879baf",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "m_head_017_a",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "m_head_017_a",
+        "nativeAsset": {
+          "path": "characters/player/items/head/f_head_013_type01/textures/f_head_013_type01.png",
+          "bytes": 34232,
+          "blake3": "4e0464876a9850735616784a24961c11486295cd1a535b396736405155e71a3d"
+        },
+        "nativePngSha256": "2f04029bd40718b41100720d84af43ca87fd004004a634a049fff2c59c35ccd6",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/m_head_017_a.dds",
+          "pathId": 29,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "396c440a806e14fcc3c6235c69c597228963dc6ba0a0866dc739b9863c879baf",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "m_head_017_a",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "4e0464876a9850735616784a24961c11486295cd1a535b396736405155e71a3d",
+          "bytes": 34232,
+          "path": "characters/player/items/head/f_head_013_type01/textures/f_head_013_type01.png"
+        },
+        "nativePngSha256": "2f04029bd40718b41100720d84af43ca87fd004004a634a049fff2c59c35ccd6",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_head_024_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_head_024_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 1275,
+          "sourceChainSha256": "396c440a806e14fcc3c6235c69c597228963dc6ba0a0866dc739b9863c879baf",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "m_head_024",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "m_head_024",
+        "nativeAsset": {
+          "path": "characters/player/items/head/f_head_013_type01/textures/f_head_013_type01.png",
+          "bytes": 34232,
+          "blake3": "4e0464876a9850735616784a24961c11486295cd1a535b396736405155e71a3d"
+        },
+        "nativePngSha256": "2f04029bd40718b41100720d84af43ca87fd004004a634a049fff2c59c35ccd6",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/m_head_024.dds",
+          "pathId": 1772,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "396c440a806e14fcc3c6235c69c597228963dc6ba0a0866dc739b9863c879baf",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "m_head_024",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "9a28ebd99d8890d4cde166ab3c9c6490c0ef7558cf1a51a453ff4de5fdb8f757",
+          "bytes": 62659,
+          "path": "characters/player/items/head/f_head_014_type01/textures/f_head_014_type01.png"
+        },
+        "nativePngSha256": "ac045b1a9796a2762a4c34f781047aa4d757fe50193a49d6535e8d943e0c3a10",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "f_head_014_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/f_head_014_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 251,
+          "sourceChainSha256": "ae7fc15585ae5472b65ff556fe1e36871694b3b0b11834c85877731092710665",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "f_head_014",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "f_head_014",
+        "nativeAsset": {
+          "path": "characters/player/items/head/f_head_014_type01/textures/f_head_014_type01.png",
+          "bytes": 62659,
+          "blake3": "9a28ebd99d8890d4cde166ab3c9c6490c0ef7558cf1a51a453ff4de5fdb8f757"
+        },
+        "nativePngSha256": "ac045b1a9796a2762a4c34f781047aa4d757fe50193a49d6535e8d943e0c3a10",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/f_head_014.dds",
+          "pathId": 657,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "ae7fc15585ae5472b65ff556fe1e36871694b3b0b11834c85877731092710665",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "f_head_014",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "cca583c2f7573d06635f176b1eb73595476472cc56425e04cd6bbb5c85338f8b",
+          "bytes": 52811,
+          "path": "characters/player/items/head/f_head_015_type01/textures/f_head_015_type01.png"
+        },
+        "nativePngSha256": "201dc139d4ebfd29138ce1ed3a176471dd4312c2d4b8d1c83931a17aa1325d99",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "f_head_015_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/f_head_015_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 1650,
+          "sourceChainSha256": "0d1edf0218bab22bd5ac3d39c21dfca9ac4afca9c8674a2414d30754797108e6",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "f_head_015",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "f_head_015",
+        "nativeAsset": {
+          "path": "characters/player/items/head/f_head_015_type01/textures/f_head_015_type01.png",
+          "bytes": 52811,
+          "blake3": "cca583c2f7573d06635f176b1eb73595476472cc56425e04cd6bbb5c85338f8b"
+        },
+        "nativePngSha256": "201dc139d4ebfd29138ce1ed3a176471dd4312c2d4b8d1c83931a17aa1325d99",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/f_head_015.dds",
+          "pathId": 1438,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "0d1edf0218bab22bd5ac3d39c21dfca9ac4afca9c8674a2414d30754797108e6",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "f_head_015",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "c22480255da7285fea026c02114d9da6ce73c38cab30929e9b5ea1989c957f19",
+          "bytes": 75455,
+          "path": "characters/player/items/head/f_head_016_type01/textures/f_head_016_type01.png"
+        },
+        "nativePngSha256": "ccfc303a5f5a7a37695d30066c0c76efd9d8a6ef88e078f186d62f44c473e7fc",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "f_head_016_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/f_head_016_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 1267,
+          "sourceChainSha256": "3a2e31810c54d8a34cb7fdb1e3beebab2a014c2aabd514017237d4b5984483cb",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "f_head_016",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "f_head_016",
+        "nativeAsset": {
+          "path": "characters/player/items/head/f_head_016_type01/textures/f_head_016_type01.png",
+          "bytes": 75455,
+          "blake3": "c22480255da7285fea026c02114d9da6ce73c38cab30929e9b5ea1989c957f19"
+        },
+        "nativePngSha256": "ccfc303a5f5a7a37695d30066c0c76efd9d8a6ef88e078f186d62f44c473e7fc",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/f_head_016.dds",
+          "pathId": 1574,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "3a2e31810c54d8a34cb7fdb1e3beebab2a014c2aabd514017237d4b5984483cb",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "f_head_016",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "280ed844c23559f48a515325396867048f842ef829393b17416a10ad273f57d0",
+          "bytes": 38836,
+          "path": "characters/player/items/head/f_head_017_type01/textures/f_head_017_type01.png"
+        },
+        "nativePngSha256": "bb2e983f2c5e2b88357b7286b8cfbc967bffdc4fbe6cd03f75d67b3695ad806f",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "f_head_017_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/f_head_017_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 650,
+          "sourceChainSha256": "d7e2f59eb7bec1db2f837daba2916ad959470a425e83f173a0cbf20794420e06",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "f_head_017",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "f_head_017",
+        "nativeAsset": {
+          "path": "characters/player/items/head/f_head_017_type01/textures/f_head_017_type01.png",
+          "bytes": 38836,
+          "blake3": "280ed844c23559f48a515325396867048f842ef829393b17416a10ad273f57d0"
+        },
+        "nativePngSha256": "bb2e983f2c5e2b88357b7286b8cfbc967bffdc4fbe6cd03f75d67b3695ad806f",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/f_head_017.dds",
+          "pathId": 1135,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "d7e2f59eb7bec1db2f837daba2916ad959470a425e83f173a0cbf20794420e06",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "f_head_017",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "474d323df923f0ac26f00ac69a5768da0f6db32961a72ef170ae01d31258c7ba",
+          "bytes": 66175,
+          "path": "characters/player/items/head/f_head_018_type01/textures/f_head_018_type01.png"
+        },
+        "nativePngSha256": "10762af55f3afdf15116426999dd445373fb5c83a1ca5f325d0f0449eaf71341",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "f_head_018_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/f_head_018_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 1379,
+          "sourceChainSha256": "3d6bf40ef763f45a05b7549bb48afde1c82db41ecd1f81e94dba09e472471a2c",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "f_head_018",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "f_head_018",
+        "nativeAsset": {
+          "path": "characters/player/items/head/f_head_018_type01/textures/f_head_018_type01.png",
+          "bytes": 66175,
+          "blake3": "474d323df923f0ac26f00ac69a5768da0f6db32961a72ef170ae01d31258c7ba"
+        },
+        "nativePngSha256": "10762af55f3afdf15116426999dd445373fb5c83a1ca5f325d0f0449eaf71341",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/f_head_018.dds",
+          "pathId": 669,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "3d6bf40ef763f45a05b7549bb48afde1c82db41ecd1f81e94dba09e472471a2c",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "f_head_018",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "0220abeee3c8a2e5fb70e6fcdb9686b4e0e5d183f920f6b4ec0c505f50404977",
+          "bytes": 42237,
+          "path": "characters/player/items/head/f_head_019_type01/textures/f_head_019_type01.png"
+        },
+        "nativePngSha256": "6202c432954a96aa6466dca5acfe0a6e01ceb3f4e33aed65100966b3f6b8181d",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "f_head_019_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/f_head_019_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 1178,
+          "sourceChainSha256": "eca4bf9c5d71d9b180cb65e5dd4a75483d480fd85b331a0b7b75834faabd46cb",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "f_head_019",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "f_head_019",
+        "nativeAsset": {
+          "path": "characters/player/items/head/f_head_019_type01/textures/f_head_019_type01.png",
+          "bytes": 42237,
+          "blake3": "0220abeee3c8a2e5fb70e6fcdb9686b4e0e5d183f920f6b4ec0c505f50404977"
+        },
+        "nativePngSha256": "6202c432954a96aa6466dca5acfe0a6e01ceb3f4e33aed65100966b3f6b8181d",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/f_head_019.dds",
+          "pathId": 1160,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "eca4bf9c5d71d9b180cb65e5dd4a75483d480fd85b331a0b7b75834faabd46cb",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "f_head_019",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "1f46d8ae4f9fcfaa86c16fde8f4cb858b6d209b54de6ea3f0b5cb166360befbf",
+          "bytes": 78159,
+          "path": "characters/player/items/head/f_head_020_type01/textures/f_head_020_type01.png"
+        },
+        "nativePngSha256": "33dadc35e3ae630bf9f2f9c9e87b3e15f4aefd19a5c3a2b1c8f98cdc1a2b17a4",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_head_010_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_head_010_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 396,
+          "sourceChainSha256": "a5d515628c23fd416474b6bc24bf221d2fe9a6270962e914159d9c5221701dcb",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "m_head_010",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "m_head_010",
+        "nativeAsset": {
+          "path": "characters/player/items/head/f_head_020_type01/textures/f_head_020_type01.png",
+          "bytes": 78159,
+          "blake3": "1f46d8ae4f9fcfaa86c16fde8f4cb858b6d209b54de6ea3f0b5cb166360befbf"
+        },
+        "nativePngSha256": "33dadc35e3ae630bf9f2f9c9e87b3e15f4aefd19a5c3a2b1c8f98cdc1a2b17a4",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/m_head_010.dds",
+          "pathId": 1496,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "a5d515628c23fd416474b6bc24bf221d2fe9a6270962e914159d9c5221701dcb",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "m_head_010",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "a4a1cf3c10082d9cdbb07e6500b6d61c6ac6d43880a32406596016a9407177f3",
+          "bytes": 38013,
+          "path": "characters/player/items/head/f_head_021_type01/textures/f_head_021_type01.png"
+        },
+        "nativePngSha256": "8e9f178d9a986288b61713d65a56265567dbb28d58b5aa21e79b2064ce76fc71",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_head_012_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_head_012_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 549,
+          "sourceChainSha256": "e0e6250f28ccc38f9f82cc4db6e86667617feb294190d3ce8e0cb863a4f93750",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "m_head_012",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "m_head_012",
+        "nativeAsset": {
+          "path": "characters/player/items/head/f_head_021_type01/textures/f_head_021_type01.png",
+          "bytes": 38013,
+          "blake3": "a4a1cf3c10082d9cdbb07e6500b6d61c6ac6d43880a32406596016a9407177f3"
+        },
+        "nativePngSha256": "8e9f178d9a986288b61713d65a56265567dbb28d58b5aa21e79b2064ce76fc71",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/m_head_012.dds",
+          "pathId": 744,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "e0e6250f28ccc38f9f82cc4db6e86667617feb294190d3ce8e0cb863a4f93750",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "m_head_012",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "0225ec79b1f5315f30e9b864e1f5118d148949b589f1b372dc2e24735c7d1358",
+          "bytes": 48040,
+          "path": "characters/player/items/head/m_head_011_type01/textures/m_head_011_type01.png"
+        },
+        "nativePngSha256": "09b39b821a3fd016ac229cf70965f9acf2e243ee28f551760e1df9f49be30674",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_head_011_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_head_011_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 153,
+          "sourceChainSha256": "f9f6dcebc28222bc1bbc2dc70d28da988118a7e7f3cee561fdadeb9e7cc6659b",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "m_head_011",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "m_head_011",
+        "nativeAsset": {
+          "path": "characters/player/items/head/m_head_011_type01/textures/m_head_011_type01.png",
+          "bytes": 48040,
+          "blake3": "0225ec79b1f5315f30e9b864e1f5118d148949b589f1b372dc2e24735c7d1358"
+        },
+        "nativePngSha256": "09b39b821a3fd016ac229cf70965f9acf2e243ee28f551760e1df9f49be30674",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/m_head_011.dds",
+          "pathId": 274,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "f9f6dcebc28222bc1bbc2dc70d28da988118a7e7f3cee561fdadeb9e7cc6659b",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "m_head_011",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "ee702c2e5a64b2363300ab7d4f148836acc432117db2992d0a8cfd39b1a675f4",
+          "bytes": 62617,
+          "path": "characters/player/items/head/m_head_013_type01/textures/m_head_013_type01.png"
+        },
+        "nativePngSha256": "fa7bdc5c89765fd9d570d13ad25f7f74dfaf5a791f291c90cb991cbc5fd167be",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_head_013_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_head_013_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 1106,
+          "sourceChainSha256": "02974cfb5bebbcd11ae6e1de31ccf1a00df20734cb9f336979465ee4147b2ba5",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "m_head_013",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "m_head_013",
+        "nativeAsset": {
+          "path": "characters/player/items/head/m_head_013_type01/textures/m_head_013_type01.png",
+          "bytes": 62617,
+          "blake3": "ee702c2e5a64b2363300ab7d4f148836acc432117db2992d0a8cfd39b1a675f4"
+        },
+        "nativePngSha256": "fa7bdc5c89765fd9d570d13ad25f7f74dfaf5a791f291c90cb991cbc5fd167be",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/m_head_013.dds",
+          "pathId": 126,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "02974cfb5bebbcd11ae6e1de31ccf1a00df20734cb9f336979465ee4147b2ba5",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "m_head_013",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "9947f787fdc054d85381cbaaea9e9dcced1970a8a49829165ee630073dd948cc",
+          "bytes": 60809,
+          "path": "characters/player/items/head/m_head_014_type01/textures/m_head_014_type01.png"
+        },
+        "nativePngSha256": "cafbb5b6cbf6a8477b8b32dc936c484bd020dfdab6224666c2faccf68bde3030",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_head_014_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_head_014_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 173,
+          "sourceChainSha256": "01b283d51bac3d12b20724899ee45677d452bf573aa1d574dccbfc15f7b51c8a",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "m_head_014",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "m_head_014",
+        "nativeAsset": {
+          "path": "characters/player/items/head/m_head_014_type01/textures/m_head_014_type01.png",
+          "bytes": 60809,
+          "blake3": "9947f787fdc054d85381cbaaea9e9dcced1970a8a49829165ee630073dd948cc"
+        },
+        "nativePngSha256": "cafbb5b6cbf6a8477b8b32dc936c484bd020dfdab6224666c2faccf68bde3030",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/m_head_014.dds",
+          "pathId": 583,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "01b283d51bac3d12b20724899ee45677d452bf573aa1d574dccbfc15f7b51c8a",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "m_head_014",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "8c495d1b706a35a0df3a8ac68e64c2cbaa33ff69dfea96d4f0d9201e566b2dd1",
+          "bytes": 89567,
+          "path": "characters/player/items/head/m_head_015_type01/textures/m_head_015_type01.png"
+        },
+        "nativePngSha256": "b370d1111377d2670e33be51f4237c0994c474b6cb93c7c05bd98b07477e7d1f",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_head_015_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_head_015_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 1221,
+          "sourceChainSha256": "9d8e68dc1d5bbe2843e65db4a68f62a0f174de71ab1898fd33f7a7b3adfe6563",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "m_head_015",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "m_head_015",
+        "nativeAsset": {
+          "path": "characters/player/items/head/m_head_015_type01/textures/m_head_015_type01.png",
+          "bytes": 89567,
+          "blake3": "8c495d1b706a35a0df3a8ac68e64c2cbaa33ff69dfea96d4f0d9201e566b2dd1"
+        },
+        "nativePngSha256": "b370d1111377d2670e33be51f4237c0994c474b6cb93c7c05bd98b07477e7d1f",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/m_head_015.dds",
+          "pathId": 1344,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "9d8e68dc1d5bbe2843e65db4a68f62a0f174de71ab1898fd33f7a7b3adfe6563",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "m_head_015",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "7403382f96d160f304271dede0f0b113ef8330b09e2a6b0a0f23ab03aa66a724",
+          "bytes": 103029,
+          "path": "characters/player/items/head/m_head_016_type01/textures/m_head_016_type01.png"
+        },
+        "nativePngSha256": "86193ec79a78e5971648bfde18eb056d538742430ae0767732385e44feec0296",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_head_016_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_head_016_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 586,
+          "sourceChainSha256": "524a795e04c6596c31fc3ff484b8e4fc9991e52b1b2636b3da9023b3ef6e0673",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "m_head_016",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "m_head_016",
+        "nativeAsset": {
+          "path": "characters/player/items/head/m_head_016_type01/textures/m_head_016_type01.png",
+          "bytes": 103029,
+          "blake3": "7403382f96d160f304271dede0f0b113ef8330b09e2a6b0a0f23ab03aa66a724"
+        },
+        "nativePngSha256": "86193ec79a78e5971648bfde18eb056d538742430ae0767732385e44feec0296",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/m_head_016.dds",
+          "pathId": 832,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "524a795e04c6596c31fc3ff484b8e4fc9991e52b1b2636b3da9023b3ef6e0673",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "m_head_016",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "cfb6729f373bf1da848a098aaf68d877bdf642c14767989c696a97da98ac0442",
+          "bytes": 49330,
+          "path": "characters/player/items/head/m_head_019_type01/textures/m_head_019_type01.png"
+        },
+        "nativePngSha256": "2b10ed1d8103dfdf26ed047e7ac0abf9755e9bf1132689962e1202cf9919a58e",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_head_019_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_head_019_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 658,
+          "sourceChainSha256": "880179bb693494d94e87bc1d39dcc5009ff6142dda4698cb224a12a2cedfdfb4",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "m_head_019",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "m_head_019",
+        "nativeAsset": {
+          "path": "characters/player/items/head/m_head_019_type01/textures/m_head_019_type01.png",
+          "bytes": 49330,
+          "blake3": "cfb6729f373bf1da848a098aaf68d877bdf642c14767989c696a97da98ac0442"
+        },
+        "nativePngSha256": "2b10ed1d8103dfdf26ed047e7ac0abf9755e9bf1132689962e1202cf9919a58e",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/m_head_019.dds",
+          "pathId": 229,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "880179bb693494d94e87bc1d39dcc5009ff6142dda4698cb224a12a2cedfdfb4",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "m_head_019",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "43aae74db84aede2118a414536100a22a12b79c7ce6c672ff1d6d172324b6ae8",
+          "bytes": 44679,
+          "path": "characters/player/items/head/m_head_020_type01/textures/m_head_020_type01.png"
+        },
+        "nativePngSha256": "7b3b1bc09ebdc06ab4008a07919ed0adfda17e76622956ec76835ba2f3542144",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_head_020_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_head_020_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 1333,
+          "sourceChainSha256": "5a9fa0ff2b54f7eeb86566dac55a20898179da071cf53c653cbf7debbeb37e50",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "m_head_020",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "m_head_020",
+        "nativeAsset": {
+          "path": "characters/player/items/head/m_head_020_type01/textures/m_head_020_type01.png",
+          "bytes": 44679,
+          "blake3": "43aae74db84aede2118a414536100a22a12b79c7ce6c672ff1d6d172324b6ae8"
+        },
+        "nativePngSha256": "7b3b1bc09ebdc06ab4008a07919ed0adfda17e76622956ec76835ba2f3542144",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/m_head_020.dds",
+          "pathId": 1011,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "5a9fa0ff2b54f7eeb86566dac55a20898179da071cf53c653cbf7debbeb37e50",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "m_head_020",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "feee1e533ed43492eefba11456c025299df13849dbdabe9f80197da9bad6e4f5",
+          "bytes": 75505,
+          "path": "characters/player/items/head/m_head_021_type01/textures/m_head_021_type01.png"
+        },
+        "nativePngSha256": "8ca8b462ea680eaacec51df07d6b597296b0281f8aaea41bb8fe2a23ba706172",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_head_021_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_head_021_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 420,
+          "sourceChainSha256": "fcaa12fd87e6ef48250064fbf9247474ff1787834a6e4663551552fb3a67261b",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "m_head_021",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "m_head_021",
+        "nativeAsset": {
+          "path": "characters/player/items/head/m_head_021_type01/textures/m_head_021_type01.png",
+          "bytes": 75505,
+          "blake3": "feee1e533ed43492eefba11456c025299df13849dbdabe9f80197da9bad6e4f5"
+        },
+        "nativePngSha256": "8ca8b462ea680eaacec51df07d6b597296b0281f8aaea41bb8fe2a23ba706172",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/m_head_021.dds",
+          "pathId": 1423,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "fcaa12fd87e6ef48250064fbf9247474ff1787834a6e4663551552fb3a67261b",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "m_head_021",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "ea725438b5cf374ba392eba274616c2015a1a75b96fe09851d788b18cbe56130",
+          "bytes": 51622,
+          "path": "characters/player/items/head/m_head_022_type01/textures/m_head_022_type01.png"
+        },
+        "nativePngSha256": "ab9ec73bc8950bed29abe389b3f66a480f71237f0a29d834912d5d6f4eee36f0",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_head_022_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_head_022_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 1161,
+          "sourceChainSha256": "9eaef81d6da6a7b7522dfae79074aa28db5a7208febb1eb6fa84a45705639cdb",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "m_head_022",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "m_head_022",
+        "nativeAsset": {
+          "path": "characters/player/items/head/m_head_022_type01/textures/m_head_022_type01.png",
+          "bytes": 51622,
+          "blake3": "ea725438b5cf374ba392eba274616c2015a1a75b96fe09851d788b18cbe56130"
+        },
+        "nativePngSha256": "ab9ec73bc8950bed29abe389b3f66a480f71237f0a29d834912d5d6f4eee36f0",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/m_head_022.dds",
+          "pathId": 1718,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "9eaef81d6da6a7b7522dfae79074aa28db5a7208febb1eb6fa84a45705639cdb",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "m_head_022",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "1d141819a8059b992b50980e33493fd244c6ee437a3d9c959df87b7a74e9c86f",
+          "bytes": 52276,
+          "path": "characters/player/items/head/m_head_023_type01/textures/m_head_023_type01.png"
+        },
+        "nativePngSha256": "a69c38ce4bc87c078842fa9677915129a501867f58d58c8a6be0aeb5b85ab20e",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_head_023_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_head_023_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 730,
+          "sourceChainSha256": "88e791046d7ff2047dd54960e99961d8a351ebcb31c4bcfe6e09b4faddf7df12",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "m_head_023",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "m_head_023",
+        "nativeAsset": {
+          "path": "characters/player/items/head/m_head_023_type01/textures/m_head_023_type01.png",
+          "bytes": 52276,
+          "blake3": "1d141819a8059b992b50980e33493fd244c6ee437a3d9c959df87b7a74e9c86f"
+        },
+        "nativePngSha256": "a69c38ce4bc87c078842fa9677915129a501867f58d58c8a6be0aeb5b85ab20e",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/m_head_023.dds",
+          "pathId": 1668,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "88e791046d7ff2047dd54960e99961d8a351ebcb31c4bcfe6e09b4faddf7df12",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "m_head_023",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "26f1bfa5297a5016b86450c9e65ddc9f71f64d650116a4b564becd1e56e6d521",
+          "bytes": 23434,
+          "path": "characters/player/items/pants/pants_kiva/textures/pants_kiva.png"
+        },
+        "nativePngSha256": "4ee7c2090b851c35f606f5e2d93f1063ed3c958602c613d67573de4bf757285c",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_pants_kiva",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_pants_kiva.dds",
+          "height": 128,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 1474,
+          "sourceChainSha256": "53bf6162f20cc8597d5befd0ba56ab73378c13c67d80a9578df7fd440a1fb63e",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 7,
+          "textureFormatName": "RGB565",
+          "width": 128
+        },
+        "trueName": "f_pants_kiva",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "f_pants_kiva",
+        "nativeAsset": {
+          "path": "characters/player/items/pants/pants_kiva/textures/pants_kiva.png",
+          "bytes": 23434,
+          "blake3": "26f1bfa5297a5016b86450c9e65ddc9f71f64d650116a4b564becd1e56e6d521"
+        },
+        "nativePngSha256": "4ee7c2090b851c35f606f5e2d93f1063ed3c958602c613d67573de4bf757285c",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/f_pants_kiva.dds",
+          "pathId": 1505,
+          "width": 128,
+          "height": 128,
+          "textureFormat": 7,
+          "textureFormatName": "RGB565",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "53bf6162f20cc8597d5befd0ba56ab73378c13c67d80a9578df7fd440a1fb63e",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "f_pants_kiva",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "ec27a5aa30dfb042eacb1bdfeff4596f23652e9b8f864f5dce95343a0a0263d9",
+          "bytes": 45315,
+          "path": "characters/player/items/pants/pants_ultimatecannonboltpants/textures/pants_ultimatecannonboltpants.png"
+        },
+        "nativePngSha256": "ce12c9d3a737fd55ed8cfd68a7bba4fe3c5ba9f120714a8e2c6a54322ace5fa5",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_pants_ultimatecannonbolt",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "Character_Texture_pants.resourceFile/CustomAssetBundle-Character_Texture_pants",
+          "completeImageSize": 43704,
+          "containerRoute": "texture/pants_ultimatecannonboltpants.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": true,
+          "pathId": 2022728207,
+          "sourceChainSha256": "407abe064f57d1b22d6be291a0e79db38a5807d735527c41204e901f55d14527",
+          "sourceMipCount": 9,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "f_pants_ultimatecannonbolt",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; approved alternate Ultimate Cannonbolt donor preserves the same sRGB slot interpretation; exact source mip metadata is retained while the native runtime publishes the decoded base level"
+      },
+      "retained": {
+        "trueName": "f_pants_ultimatecannonbolt",
+        "nativeAsset": {
+          "path": "characters/player/items/pants/pants_ultimatecannonboltpants/textures/pants_ultimatecannonboltpants.png",
+          "bytes": 45315,
+          "blake3": "ec27a5aa30dfb042eacb1bdfeff4596f23652e9b8f864f5dce95343a0a0263d9"
+        },
+        "nativePngSha256": "ce12c9d3a737fd55ed8cfd68a7bba4fe3c5ba9f120714a8e2c6a54322ace5fa5",
+        "source": {
+          "asset": "Character_Texture_pants.resourceFile/CustomAssetBundle-Character_Texture_pants",
+          "containerRoute": "texture/pants_ultimatecannonboltpants.dds",
+          "pathId": 2022728207,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 43704,
+          "sourceChainSha256": "407abe064f57d1b22d6be291a0e79db38a5807d735527c41204e901f55d14527",
+          "mipMap": true,
+          "sourceMipCount": 9,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; approved alternate Ultimate Cannonbolt donor preserves the same sRGB slot interpretation; exact source mip metadata is retained while the native runtime publishes the decoded base level",
+        "sampler": {
+          "name": "f_pants_ultimatecannonbolt",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "00d79a2bad9272aad711239165ed38e8a229b091d2c7f568282681e4abc9833e",
+          "bytes": 43444,
+          "path": "characters/player/items/shirt/shirt_ultimatecannonboltshirt/textures/shirt_ultimatecannonboltshirt.png"
+        },
+        "nativePngSha256": "65e12dccad5fd98f659948a23427e46979e4d9d86aedc638c3efaf4069b2e5c1",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_shirt_ultimatecannonbolt",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "Character_Texture_shirts.resourceFile/CustomAssetBundle-Character_Texture_shirts",
+          "completeImageSize": 43704,
+          "containerRoute": "texture/shirt_ultimatecannonboltshirt.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": true,
+          "pathId": 2288177013,
+          "sourceChainSha256": "9a5955ac0c8f2f95e7c1e400c125ad8cf2484837835f1a6519ee4eeddd77aa5e",
+          "sourceMipCount": 9,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "f_shirt_ultimatecannonbolt",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; approved alternate Ultimate Cannonbolt donor preserves the same sRGB slot interpretation; exact source mip metadata is retained while the native runtime publishes the decoded base level"
+      },
+      "retained": {
+        "trueName": "f_shirt_ultimatecannonbolt",
+        "nativeAsset": {
+          "path": "characters/player/items/shirt/shirt_ultimatecannonboltshirt/textures/shirt_ultimatecannonboltshirt.png",
+          "bytes": 43444,
+          "blake3": "00d79a2bad9272aad711239165ed38e8a229b091d2c7f568282681e4abc9833e"
+        },
+        "nativePngSha256": "65e12dccad5fd98f659948a23427e46979e4d9d86aedc638c3efaf4069b2e5c1",
+        "source": {
+          "asset": "Character_Texture_shirts.resourceFile/CustomAssetBundle-Character_Texture_shirts",
+          "containerRoute": "texture/shirt_ultimatecannonboltshirt.dds",
+          "pathId": 2288177013,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 43704,
+          "sourceChainSha256": "9a5955ac0c8f2f95e7c1e400c125ad8cf2484837835f1a6519ee4eeddd77aa5e",
+          "mipMap": true,
+          "sourceMipCount": 9,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; approved alternate Ultimate Cannonbolt donor preserves the same sRGB slot interpretation; exact source mip metadata is retained while the native runtime publishes the decoded base level",
+        "sampler": {
+          "name": "f_shirt_ultimatecannonbolt",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "c7a4315cbb4ad695025a109f3f833a93ebabc022e369ceedc32ec32a910cf8ec",
+          "bytes": 33734,
+          "path": "characters/player/items/shoes/shoes_cannonbolt/textures/shoes_cannonbolt_a.png"
+        },
+        "nativePngSha256": "a2a154e9518635534e7382a94af909c078562c1390ebce51c7672c8e6e5d8254",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_shoes_cannonbolt_a",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_shoes_cannonbolt_a.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 1411,
+          "sourceChainSha256": "cb8150b3f606dc6e460ff2492a7272d6ea0fbea7004375be10004579c12cb2c0",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "f_shoes_cannonbolt_a",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "f_shoes_cannonbolt_a",
+        "nativeAsset": {
+          "path": "characters/player/items/shoes/shoes_cannonbolt/textures/shoes_cannonbolt_a.png",
+          "bytes": 33734,
+          "blake3": "c7a4315cbb4ad695025a109f3f833a93ebabc022e369ceedc32ec32a910cf8ec"
+        },
+        "nativePngSha256": "a2a154e9518635534e7382a94af909c078562c1390ebce51c7672c8e6e5d8254",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/f_shoes_cannonbolt_a.dds",
+          "pathId": 24,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "cb8150b3f606dc6e460ff2492a7272d6ea0fbea7004375be10004579c12cb2c0",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "f_shoes_cannonbolt_a",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "e5b8d95dae02ffd67ccf68e3ce33590aba133bd4f8ccbca64c53f2e431d962d0",
+          "bytes": 26030,
+          "path": "characters/player/items/shoes/shoes_kivaboots/textures/shoes_kivaboots.png"
+        },
+        "nativePngSha256": "de7f1d0c7e875713cadff3dd12d6d507a355924b70f9e4e1c356f9b21c29e67f",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "m_shoes_kivaboots",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/m_shoes_kivaboots.dds",
+          "height": 128,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 1091,
+          "sourceChainSha256": "46a80e6bf1fe62cb385cb5d38f4cdfff5689c3fa1ad295a11822d11e16b2fc71",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 7,
+          "textureFormatName": "RGB565",
+          "width": 128
+        },
+        "trueName": "f_shoes_kivaboots",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "f_shoes_kivaboots",
+        "nativeAsset": {
+          "path": "characters/player/items/shoes/shoes_kivaboots/textures/shoes_kivaboots.png",
+          "bytes": 26030,
+          "blake3": "e5b8d95dae02ffd67ccf68e3ce33590aba133bd4f8ccbca64c53f2e431d962d0"
+        },
+        "nativePngSha256": "de7f1d0c7e875713cadff3dd12d6d507a355924b70f9e4e1c356f9b21c29e67f",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/f_shoes_kivaboots.dds",
+          "pathId": 1708,
+          "width": 128,
+          "height": 128,
+          "textureFormat": 7,
+          "textureFormatName": "RGB565",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "46a80e6bf1fe62cb385cb5d38f4cdfff5689c3fa1ad295a11822d11e16b2fc71",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "f_shoes_kivaboots",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "3737f5635423092e277579801a7d8500c8c0fbb82cbe1669bdc26a26d40e79a9",
+          "bytes": 70343,
+          "path": "characters/player/items/weapon/pistol_knd_spicer/textures/pistol_knd_spicer.png"
+        },
+        "nativePngSha256": "36a8d163de6f418ae4fec4562c58bd4a5b6178d73faea68ffe2fb772f2a1dc86",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "rifle_sweet_in_music",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/rifle_sweet_in_music.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 317,
+          "sourceChainSha256": "1a569cec1863bf315ee72c82897729af48f29d58a08206971e4475eec1f69ca2",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "pistol_knd_spicer",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "pistol_knd_spicer",
+        "nativeAsset": {
+          "path": "characters/player/items/weapon/pistol_knd_spicer/textures/pistol_knd_spicer.png",
+          "bytes": 70343,
+          "blake3": "3737f5635423092e277579801a7d8500c8c0fbb82cbe1669bdc26a26d40e79a9"
+        },
+        "nativePngSha256": "36a8d163de6f418ae4fec4562c58bd4a5b6178d73faea68ffe2fb772f2a1dc86",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/pistol_knd_spicer.dds",
+          "pathId": 1060,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "1a569cec1863bf315ee72c82897729af48f29d58a08206971e4475eec1f69ca2",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "pistol_knd_spicer",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    },
+    {
+      "observed": {
+        "nativeAsset": {
+          "blake3": "8b2383fef45b1237ff0d29ef517a04af3156bbf9969198e139ca2a234f4b1d03",
+          "bytes": 72613,
+          "path": "characters/player/items/weapon/sword_fountain/textures/sword_fountain.png"
+        },
+        "nativePngSha256": "298f659879f883b3ffb57789f2b9c14ee95879b30ac0e30215d73eb849a48d97",
+        "publishedMipPolicy": "baseLevelOnly",
+        "sampler": {
+          "anisotropyLevel": 1,
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "mipMapBias": 0.0,
+          "name": "sword_sharksword",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "completeImageSize": 32768,
+          "containerRoute": "texture/sword_sharksword.dds",
+          "height": 256,
+          "imageCount": 1,
+          "mipMap": false,
+          "pathId": 1413,
+          "sourceChainSha256": "132fc9e1e06204ce1f8b89dd7e46be6eb457300bf04c98e47df86a77baf59259",
+          "sourceMipCount": 1,
+          "textureDimension": 2,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "width": 256
+        },
+        "trueName": "sword_fountain",
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings"
+      },
+      "retained": {
+        "trueName": "sword_fountain",
+        "nativeAsset": {
+          "path": "characters/player/items/weapon/sword_fountain/textures/sword_fountain.png",
+          "bytes": 72613,
+          "blake3": "8b2383fef45b1237ff0d29ef517a04af3156bbf9969198e139ca2a234f4b1d03"
+        },
+        "nativePngSha256": "298f659879f883b3ffb57789f2b9c14ee95879b30ac0e30215d73eb849a48d97",
+        "source": {
+          "asset": "CharTexture.resourceFile/CustomAssetBundle-aa120043d3c634fe9adfb5cbe08e6970",
+          "containerRoute": "texture/sword_fountain.dds",
+          "pathId": 409,
+          "width": 256,
+          "height": 256,
+          "textureFormat": 10,
+          "textureFormatName": "DXT1",
+          "completeImageSize": 32768,
+          "sourceChainSha256": "132fc9e1e06204ce1f8b89dd7e46be6eb457300bf04c98e47df86a77baf59259",
+          "mipMap": false,
+          "sourceMipCount": 1,
+          "imageCount": 1,
+          "textureDimension": 2
+        },
+        "usageColorSpace": "srgb",
+        "usageColorSpaceSource": "ActorSkinCombiner runtime assignment to ShaderLab _MainTex; same sRGB slot interpretation as audited static bindings",
+        "sampler": {
+          "name": "sword_fountain",
+          "magFilter": "linear",
+          "minFilter": "linear",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "legacyFilterMode": 1,
+          "legacyWrapMode": 0,
+          "anisotropyLevel": 1,
+          "mipMapBias": 0.0
+        },
+        "publishedMipPolicy": "baseLevelOnly"
+      }
+    }
+  ],
+  "retainedRuntimeTextureCount": 2571,
+  "sourceBundles": {
+    "CharacterSelection_wear_back.resourceFile": "06f224d74b68dfa5a1e73a222c2ea93ffa58c2bf596c3ea7cf501f6e8ab6f3ac",
+    "Character_Texture_back.resourceFile": "971f9fdc26cfdaa2516e5113ab7e045401631ce12c62916f69ae80c3765726ab",
+    "CharacterSelection_wear_glass.resourceFile": "40aa91c70f7f01abc504ac9beca06a21404764ca03bda48c4ac629c846b2c420",
+    "Character_Texture_glass.resourceFile": "cb81fdbc2daaf6917fba74ab21a0b316bd5ae9cefa2fdd5914fbf0f672bf5485",
+    "CharacterSelection_wear_hat.resourceFile": "6ea70f3a9717b8bd558047f780c0bb14f8f0f9cc924d96807f651548e26384d2",
+    "Character_Texture_hat.resourceFile": "a33802d836a8a6525329dbe4419f141567946faa41cb812f68d069c9ccb8d41c",
+    "CharacterSelection_wear_shirts.resourceFile": "ddd571ef87f7de967340b86f3a31eeade0a9a5c4f19ac234bfef26c85491d48a",
+    "Character_Texture_shirts.resourceFile": "e6cc8f581f317f5aee273ff3f873200aa36042a71b04967538e0dd10c20fe546",
+    "CharacterSelection_wear_pants.resourceFile": "804d87c9ebaca5675307a9c1914847d52a2f8ea6ef91b04f7f8a145736851b19",
+    "Character_Texture_pants.resourceFile": "1a6419dfe41e7ea23af599b371df1aab78ec4361a47ae8e76b150c25f1ac7b6d",
+    "CharacterSelection_wear_shoes.resourceFile": "0d45b7bb4f3b1e4a147c493289027b03d48126b35ba0e4f28286b8d7b5312887",
+    "Character_Texture_shoes.resourceFile": "b256638c6e9f0b0081c010c3bd7b6fc4838592bcc37de6e96fdffb1947a7ea1d",
+    "CharacterSelection_wear_vehicle.resourceFile": "80761e5bb04d0a86fc60e1dc59dc0e61304e97193faa96890bc6a74ec20ed4ba",
+    "Character_Texture_vehicle.resourceFile": "6740fbd33603bbd448363dbfcdf59a48eed7b30f2d11e226a67a62811fc46901",
+    "CharacterSelection_wear_weapon.resourceFile": "71110155d93ef698b3423006294947e1b2d4ec15538fb9b6fc5908b3d49e8bd9",
+    "Character_Texture_weapon.resourceFile": "37f6e5d914e3f9c38defb879cf852e88154ea5d2fbfd4a547a3c0024290893e1",
+    "Icons.resourceFile": "b3995181bc9e917d0bf2b35e38361e0e18eed6f14c95aab52eb5cfd81f056cea"
+  }
+}

@@ -39,6 +39,10 @@ or similar names do not establish a mapping.
   is 41, alias 52 is retired with its array slot empty. Keep hologram model, tune rows
   288–290, skill 122 and selected skill icon 67. Van Kleiss 66 is unchanged.
 - Semantic portraits preserve Finn/Jake despite the historical numeric icon-46 collision.
+- Academy Mt. Neverest incubator models add Way Big 71 and Ultimate Big Chill 72;
+  `recipes/native/characters/academy-incubator-nanos.json` pins the exact mesh selection
+  and publication. Both use Unstable Nano tunes 288–290 / skill 122. Only the display
+  idle was recovered; their native summon clip reuses it without looping.
 - Preserve EN/RU text/voice routing and approved replacement fonts. OptionMode uses the
   native OPTION_JEFFE_FONT_PATH, OPTION_COMIC_FONT_PATH and OPTION_CHALET_FONT_PATH;
   raw legacy atlases do not replace them.

@@ -26,6 +26,29 @@ fn indexed() -> (TempDir, PathBuf, PathBuf) {
 }
 
 #[test]
+fn direct_conversion_reuses_only_selected_owners_without_a_disk_index() {
+    let temp = TempDir::new().unwrap();
+    let root = temp.path().join("native");
+    let source = serde_json::to_vec(&super::super::tests::fixture()).unwrap();
+    let existing = LogicalModelPublishOptions::new("in-memory", "characters", &root)
+        .with_semantic_directories(["npcs", "existing"])
+        .with_semantic_root_layout();
+    let owner = convert_logical_model_bytes(&existing, &source).unwrap().contract.output_glb;
+    fs::write(root.join("unrelated.glb"), b"not a model: must not be scanned").unwrap();
+    let mut options = LogicalModelPublishOptions::new("in-memory", "characters", &root)
+        .with_semantic_directories(["npcs", "new"])
+        .with_semantic_root_layout();
+    options.native_texture_owners = vec![PathBuf::from(owner)];
+    let report = convert_logical_model_bytes(&options, &source).unwrap();
+    assert!(report.material_publish.textures.iter().all(|texture| texture.uri.contains("existing/")));
+    assert!(!root.join("characters/npcs/new/True Hero.textures").exists());
+    assert!(!temp.path().join("index.json").exists());
+    convert_logical_model_bytes(&options, &source).unwrap();
+    options.native_texture_owners = vec![PathBuf::from("../outside.glb")];
+    assert!(convert_logical_model_bytes(&options, &source).is_err());
+}
+
+#[test]
 fn existing_texture_chain_is_reused_with_complete_staged_dependencies() {
     let (temp, _, index) = indexed();
     let source = temp.path().join("source.json");

@@ -74,6 +74,7 @@ pub use avatar_item_model_refresh::{
     AvatarItemModelRefreshReport, refresh_avatar_item_models,
 };
 pub use character_creation_data::{
+    avatar_item_counts, build_item_category,
     AvatarIconReference, AvatarItemCategory, AvatarItemLookup, AvatarItemVisual,
     AvatarModelReference, AvatarTextureReference, CHARACTER_CREATION_APPEARANCE_PATH,
     CHARACTER_CREATION_APPEARANCE_SCHEMA, CHARACTER_CREATION_AVATAR_ITEMS_PATH,
@@ -205,7 +206,7 @@ pub use player_shared_rig_publish::{
     PlayerRigSkinRemap, PlayerRigSourceIdentity, PlayerRigSupplementalCreatorSource,
     PlayerSharedRigContract, PlayerSharedRigPublishOptions, PlayerSharedRigPublishReport,
     export_player_rig_clip_additions, publish_player_rig_animations, publish_player_shared_rigs,
-    rebuild_male_emote_payloads,
+    rebuild_male_emote_payloads, encode_player_rig_clip_additions,
 };
 pub use published_terrain_dedup::{
     PUBLISHED_TERRAIN_DEDUP_SCHEMA, PUBLISHED_TERRAIN_SHIFT_RESTORE_SCHEMA,

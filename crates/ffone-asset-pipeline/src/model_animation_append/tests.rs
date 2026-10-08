@@ -50,3 +50,19 @@ fn existing_clips_cannot_be_replaced() {
             .contains("refusing to replace")
     );
 }
+
+#[test]
+fn replay_verifies_source_curves_after_buffer_relocation_and_rejects_edits() {
+    let mut donor = model();
+    donor["bufferViews"] = json!([{"buffer":0,"byteOffset":0,"byteLength":4},
+        {"buffer":0,"byteOffset":4,"byteLength":12}]);
+    donor["accessors"] = json!([{"bufferView":0,"componentType":5126,"count":1,"type":"SCALAR"},
+        {"bufferView":1,"componentType":5126,"count":1,"type":"VEC3"}]);
+    donor["animations"] = json!([{"name":"luncher","channels":[{"sampler":0,"target":{"node":1,"path":"translation"}}],
+        "samplers":[{"input":0,"output":1,"interpolation":"LINEAR"}]}]);
+    let source = append(donor.clone(),vec![0;16],&model(),&[],&[],false).unwrap();
+    let mut native = append(model(),vec![1;4],&donor,&[0;16],&["luncher".into()],false).unwrap();
+    selected_clips_match(&native,&source,&["luncher".into()]).unwrap();
+    *native.last_mut().unwrap() = 1;
+    assert!(selected_clips_match(&native,&source,&["luncher".into()]).unwrap_err().contains("differs"));
+}

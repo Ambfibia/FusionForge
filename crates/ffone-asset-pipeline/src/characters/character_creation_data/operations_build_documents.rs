@@ -115,7 +115,7 @@ pub(super) fn build_documents(
     })
 }
 
-pub(super) fn avatar_item_counts(items: &[AvatarItemLookup]) -> CharacterCreationAvatarItemCounts {
+pub fn avatar_item_counts(items: &[AvatarItemLookup]) -> CharacterCreationAvatarItemCounts {
     let mut counts = CharacterCreationAvatarItemCounts {
         categories: AVATAR_ITEM_CATEGORIES.len() as u64,
         items: items.len() as u64,
@@ -172,7 +172,7 @@ pub(super) fn valid_equipment_true_name_resolution(
     })
 }
 
-pub(super) fn build_item_category(
+pub fn build_item_category(
     tables: &Map<String, Value>,
     category: AvatarItemCategory,
     textures: &BTreeMap<String, Vec<CharacterCreationAssetReference>>,

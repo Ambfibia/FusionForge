@@ -12,6 +12,7 @@ pub struct LogicalModelPublishOptions {
     pub output_root: PathBuf,
     pub reviewed_texture_rebinds: Option<PathBuf>,
     pub reuse_texture_index: Option<PathBuf>,
+    pub native_texture_owners: Vec<PathBuf>,
     pub(super) output_layout: LogicalModelOutputLayout,
 }
 
@@ -35,6 +36,7 @@ impl LogicalModelPublishOptions {
             output_root: output_root.into(),
             reviewed_texture_rebinds: None,
             reuse_texture_index: None,
+            native_texture_owners: Vec::new(),
             output_layout: LogicalModelOutputLayout::ModelsRoot,
         }
     }
@@ -193,6 +195,11 @@ pub(crate) fn prepare_logical_model(
     };
     if let Some(index) = &options.reuse_texture_index {
         native_texture_reuse::reuse_textures(index, &relative_glb, &mut converted)?;
+    }
+    if !options.native_texture_owners.is_empty() {
+        native_texture_reuse::reuse_textures_from_owners(
+            &options.output_root, &options.native_texture_owners, &relative_glb, &mut converted,
+        )?;
     }
     reuse_identical_static_materials(&mut converted)?;
     validate(&converted.model).map_err(|error| invalid_error(error.to_string()))?;

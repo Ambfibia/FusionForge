@@ -123,10 +123,10 @@ pub(super) fn verify_player_item_sets_at_asset_root(asset_root: &Path) -> Result
     let rendering_root =
         canonical_directory(&player_root.join("rendering"), "player rendering root")?;
     let shared_root = fs::canonicalize(asset_root.join("textures/shared")).ok();
-    let mut texture_hashes = BTreeSet::new();
+    let mut texture_hashes = BTreeMap::new();
     for texture in &catalog.rendering_textures {
         verify_resource_artifact(asset_root, texture, "player rendering texture")?;
-        if !texture_hashes.insert(texture.blake3.clone()) {
+        if texture_hashes.insert(texture.blake3.clone(), texture.path.clone()).is_some() {
             return invalid("player rendering textures contain duplicate bytes");
         }
     }
@@ -157,11 +157,21 @@ pub(super) fn verify_player_item_sets_at_asset_root(asset_root: &Path) -> Result
         )?;
         for texture in &document.textures {
             verify_resource_artifact(asset_root, texture, "player item atlas")?;
-            if !texture_hashes.insert(texture.blake3.clone()) {
+            if texture_hashes.get(&texture.blake3).is_some_and(|path|path != &texture.path) {
                 return invalid(format!(
                     "player atlas bytes are duplicated across sets: {}",
                     texture.path
                 ));
+            }
+            texture_hashes.insert(texture.blake3.clone(), texture.path.clone());
+        }
+        let declared_texture_paths = document.textures.iter().map(|texture| {
+            fs::canonicalize(asset_root.join(&texture.path)).map_err(|error|io_at(&texture.path,error))
+        }).collect::<Result<BTreeSet<_>>>()?;
+        for texture in &declared_texture_paths {
+            if !texture.starts_with(&items_root) && !texture.starts_with(&rendering_root)
+                && !shared_root.as_ref().is_some_and(|root|texture.starts_with(root)) {
+                return invalid("declared player atlas escaped its native asset domain");
             }
         }
         for member in &document.members {
@@ -201,6 +211,7 @@ pub(super) fn verify_player_item_sets_at_asset_root(asset_root: &Path) -> Result
                 if !resolved.starts_with(&set_root)
                     && !resolved.starts_with(&rendering_root)
                     && !shared_root.as_ref().is_some_and(|root| resolved.starts_with(root))
+                    && !declared_texture_paths.contains(&resolved)
                 {
                     return invalid(format!(
                         "player model texture escaped its item set: {}",
